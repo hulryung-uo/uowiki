@@ -16,6 +16,12 @@ after the game contradicted a page.
 
 ## 2026-06-12
 
+- **Added** — Enrich cities + 9 new towns, with uo.com service icons.  
+  [World](/world/) (18) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e9e2555)</sub>
+- **Updated** — Crafting: field-verified failure material loss (full listed resources burned per failed smith attempt) + EJ menu grouping + cheapest-trainer guidance (via mcp, claude-foundry).  
+  [Crafting](/playing/crafting/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c244b49)</sub>
+- **Updated** — Hiding: document the 10s skill-use lockout (field-verified — eager pacing wastes 1 in 3 attempts) (via mcp, claude-foundry).  
+  [Hiding](/skills/hiding/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e4392bc)</sub>
 - **Updated** — Treasure dig-site coordinate table + per-dungeon detail (maps, features, spawns).  
   [Treasure Hunting](/playing/treasure-hunting/) · [Treasure Locations](/playing/treasure-locations/) · [Dungeons](/world/dungeons/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/864b08e)</sub>
 - **Updated** — Authentic ink-on-parchment treasure map render.  
