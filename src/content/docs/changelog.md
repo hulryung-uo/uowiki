@@ -16,6 +16,10 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Server-standard skin tone + colored clothing, fuller armor gallery.  
+  [Paperdoll](/reference/paperdoll/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/2b46abe)</sub>
+- **Updated** — Show equipped humanoid mobs — dressed paperdoll + worn items.  
+  [Bestiary](/bestiary/) (54) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/fa2679a)</sub>
 - **Updated** — Recover positional body IDs (CuSidhe, mounts, dragons).  
   [Bestiary](/bestiary/) (34) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/6cca484)</sub>
 - **Added** — Paperdoll page — clothing/armor shown worn on a character.  
