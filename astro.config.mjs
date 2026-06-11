@@ -58,6 +58,10 @@ export default defineConfig({
 					label: 'Our Shard',
 					items: [{ autogenerate: { directory: 'shard' } }],
 				},
+				{
+					label: 'Recent Changes',
+					link: '/changelog/',
+				},
 			],
 		}),
 	],

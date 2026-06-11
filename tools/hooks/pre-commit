@@ -1,0 +1,8 @@
+#!/bin/sh
+# Optional: regenerate the Recent Changes page and fold it into each commit.
+# Install with tools/install-hooks.sh. The changelog will always be one commit
+# behind (it can't include the commit being created), which is fine for a log.
+set -e
+ROOT="$(git rev-parse --show-toplevel)"
+python3 "$ROOT/tools/gen_changelog.py" >/dev/null
+git add "$ROOT/src/content/docs/changelog.md"

@@ -44,8 +44,12 @@ Run from `/Users/dkkang/dev/uo/uowiki`. Sibling repos: `../servuo` (ground truth
    mechanics), draft the page (`status: unverified`, source: forum post URL).
    Skip silently if the API is unreachable.
 
-7. **Ship** — `npm run build` (must pass), commit per CLAUDE.md convention,
-   `git push`, then deploy: `vercel --prod --yes --archive=tgz`
+7. **Ship** — commit all content changes per CLAUDE.md convention first, then
+   refresh the changelog from that history and commit it on its own:
+   `python3 tools/gen_changelog.py && git add src/content/docs/changelog.md &&
+   git commit -m "wiki(meta): regenerate changelog"` (skips if no diff).
+   Then `npm run build` (must pass), `git push`, and deploy:
+   `vercel --prod --yes --archive=tgz`
    (`--archive=tgz` is required — the plain upload aborts on the ~1,700 media
    asset files under public/)
    (CLI deploy is required until the Vercel GitHub integration is connected;

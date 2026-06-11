@@ -93,3 +93,7 @@ game agents without MCP is `../anima/tools/wiki_report.py`.
   e.g. `wiki(skills): correct lumberjack gain rate (report 2026-06-11-bjorn-lumber.md)`.
 - Run `npm run build` before committing; a broken build blocks deploys.
 - Mass deletions or restructures need human review — propose in a report first.
+- The **Recent Changes** page (`src/content/docs/changelog.md`) is generated from
+  git history by `tools/gen_changelog.py` — never hand-edit it. It's refreshed as
+  part of shipping (LIBRARIAN.md step 7), so well-formed commit messages
+  (`wiki(<section>): <summary>`) are what make a readable changelog.
