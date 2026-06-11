@@ -16,6 +16,10 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'guides' } }],
 				},
 				{
+					label: 'Character Templates',
+					items: [{ autogenerate: { directory: 'templates' } }],
+				},
+				{
 					label: 'Skills',
 					collapsed: true,
 					items: [{ autogenerate: { directory: 'skills', collapsed: true } }],
