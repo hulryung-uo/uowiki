@@ -40,6 +40,11 @@ You place a house from a **house deed** onto a valid, open plot of land.
 If placement is blocked, the client tells you why (obstruction, too close to another
 house, invalid region). Move and try again.
 
+**Which house to place?** See [House Types](/playing/house-types/) for the full catalogue —
+every classic (pre-built) house and customizable foundation, with footprint, storage, cost,
+and an exterior render of each. Once it's standing, [Decorating](/playing/decorating/) walks
+through furnishing the interior.
+
 ## Customization
 
 Many house styles are **customizable**: you enter a design/customization mode (via the
@@ -139,6 +144,8 @@ what keeps it standing.
 
 ## See also
 
+- [House Types](/playing/house-types/) — every house and foundation, with size, storage, and cost
+- [Decorating](/playing/decorating/) — furnishing your house with the decorator tool
 - [Vendors & banking](/playing/vendors-and-banking/) — player vendors, buying and selling
 - [Items & inventory](/playing/items-and-inventory/) — what you store
 - [Server rules](/shard/server-rules/) — the housing config in context

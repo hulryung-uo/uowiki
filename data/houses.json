@@ -1,0 +1,1129 @@
+{
+  "_schema": {
+    "description": "ServUO house types. 'classic' = pre-set HouseDeed houses (Scripts/Multis/Deeds.cs); 'foundations' = customizable HouseFoundation plots. Storage/lockdowns/price from the HousePlacementEntry table in Scripts/Multis/HousePlacementTool.cs; secures (per classic house) and footprint from Scripts/Multis/Houses.cs base(id,owner,MaxLockDown,MaxSecure) and AreaArray; deed_price from Scripts/VendorInfo/SBHouseDeed.cs; names resolved via anima cliloc.json. Note: lockdown/secure totals scale by BaseHouse.GlobalBonusStorageScalar in-game.",
+    "extracted_by": "tools/extract_houses.py",
+    "sources": [
+      "servuo: Scripts/Multis/Deeds.cs",
+      "servuo: Scripts/Multis/Houses.cs",
+      "servuo: Scripts/Multis/HousePlacementTool.cs",
+      "servuo: Scripts/VendorInfo/SBHouseDeed.cs",
+      "anima: data/cliloc.json"
+    ]
+  },
+  "classic": [
+    {
+      "class": "StonePlasterHouseDeed",
+      "name": "Stone and plaster house",
+      "deed_label": "deed to a stone-and-plaster house",
+      "multi_id": "0x64",
+      "png": "/img/houses/0x64.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 36750,
+      "deed_price": 43800,
+      "house_class": "SmallOldHouse",
+      "label_cliloc": 1041211
+    },
+    {
+      "class": "FieldStoneHouseDeed",
+      "name": "Field stone house",
+      "deed_label": "deed to a field stone house",
+      "multi_id": "0x66",
+      "png": "/img/houses/0x66.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 36750,
+      "deed_price": 43800,
+      "house_class": "SmallOldHouse",
+      "label_cliloc": 1041212
+    },
+    {
+      "class": "SmallBrickHouseDeed",
+      "name": "Small brick house",
+      "deed_label": "deed to a small brick house",
+      "multi_id": "0x68",
+      "png": "/img/houses/0x68.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 36500,
+      "deed_price": 43800,
+      "house_class": "SmallOldHouse",
+      "label_cliloc": 1041213
+    },
+    {
+      "class": "WoodHouseDeed",
+      "name": "Wooden house",
+      "deed_label": "deed to a wooden house",
+      "multi_id": "0x6A",
+      "png": "/img/houses/0x6A.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 35000,
+      "deed_price": 43800,
+      "house_class": "SmallOldHouse",
+      "label_cliloc": 1041214
+    },
+    {
+      "class": "WoodPlasterHouseDeed",
+      "name": "Wood and plaster house",
+      "deed_label": "deed to a wood-and-plaster house",
+      "multi_id": "0x6C",
+      "png": "/img/houses/0x6C.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 36500,
+      "deed_price": 43800,
+      "house_class": "SmallOldHouse",
+      "label_cliloc": 1041215
+    },
+    {
+      "class": "ThatchedRoofCottageDeed",
+      "name": "Thatched-roof cottage",
+      "deed_label": "deed to a thatched-roof cottage",
+      "multi_id": "0x6E",
+      "png": "/img/houses/0x6E.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 36500,
+      "deed_price": 43800,
+      "house_class": "SmallOldHouse",
+      "label_cliloc": 1041216
+    },
+    {
+      "class": "BrickHouseDeed",
+      "name": "Brick house",
+      "deed_label": "deed to a brick house",
+      "multi_id": "0x74",
+      "png": "/img/houses/0x74.png",
+      "footprint": "14x15",
+      "lockdowns": 685,
+      "secures": 8,
+      "price": 131250,
+      "deed_price": 144500,
+      "house_class": "GuildHouse",
+      "label_cliloc": 1041219
+    },
+    {
+      "class": "TwoStoryWoodPlasterHouseDeed",
+      "name": "Two-story wood and plaster house",
+      "deed_label": "deed to a two-story wood-and-plaster house",
+      "multi_id": "0x76",
+      "png": "/img/houses/0x76.png",
+      "footprint": "14x15",
+      "lockdowns": 685,
+      "secures": 10,
+      "price": 162500,
+      "deed_price": 192400,
+      "house_class": "TwoStoryHouse",
+      "label_cliloc": 1041220
+    },
+    {
+      "class": "TwoStoryStonePlasterHouseDeed",
+      "name": "Two-story stone and plaster house",
+      "deed_label": "a deed to a two-story stone-and-plaster house",
+      "multi_id": "0x78",
+      "png": "/img/houses/0x78.png",
+      "footprint": "14x15",
+      "lockdowns": 685,
+      "secures": 10,
+      "price": 162750,
+      "deed_price": null,
+      "house_class": "TwoStoryHouse",
+      "label_cliloc": 1041221
+    },
+    {
+      "class": "TowerDeed",
+      "name": "Tower",
+      "deed_label": "deed to a tower",
+      "multi_id": "0x7A",
+      "png": "/img/houses/0x7A.png",
+      "footprint": "24x16",
+      "lockdowns": 1059,
+      "secures": 15,
+      "price": 366250,
+      "deed_price": 433200,
+      "house_class": "Tower",
+      "label_cliloc": 1041222
+    },
+    {
+      "class": "KeepDeed",
+      "name": "Small stone keep",
+      "deed_label": "a small stone keep deed",
+      "multi_id": "0x7C",
+      "png": "/img/houses/0x7C.png",
+      "footprint": "24x24",
+      "lockdowns": 1312,
+      "secures": 18,
+      "price": 562500,
+      "deed_price": 665200,
+      "house_class": "Keep",
+      "label_cliloc": 1041223
+    },
+    {
+      "class": "CastleDeed",
+      "name": "Castle",
+      "deed_label": "a castle deed",
+      "multi_id": "0x7E",
+      "png": "/img/houses/0x7E.png",
+      "footprint": "31x32",
+      "lockdowns": 2038,
+      "secures": 28,
+      "price": 865000,
+      "deed_price": 1022800,
+      "house_class": "Castle",
+      "label_cliloc": 1041224
+    },
+    {
+      "class": "LargePatioDeed",
+      "name": "Large house with patio",
+      "deed_label": "deed to a large house with patio",
+      "multi_id": "0x8C",
+      "png": "/img/houses/0x8C.png",
+      "footprint": "15x15",
+      "lockdowns": 685,
+      "secures": 8,
+      "price": 129000,
+      "deed_price": 152800,
+      "house_class": "LargePatioHouse",
+      "label_cliloc": 1041231
+    },
+    {
+      "class": "LargeMarbleDeed",
+      "name": "Marble house with patio",
+      "deed_label": "Deed to a marble house with patio",
+      "multi_id": "0x96",
+      "png": "/img/houses/0x96.png",
+      "footprint": "15x15",
+      "lockdowns": 685,
+      "secures": 10,
+      "price": 160250,
+      "deed_price": 192000,
+      "house_class": "LargeMarbleHouse",
+      "label_cliloc": 1041236
+    },
+    {
+      "class": "SmallTowerDeed",
+      "name": "Small stone tower",
+      "deed_label": "Deed to a small stone tower",
+      "multi_id": "0x98",
+      "png": "/img/houses/0x98.png",
+      "footprint": "8x8",
+      "lockdowns": 290,
+      "secures": 4,
+      "price": 73250,
+      "deed_price": 88500,
+      "house_class": "SmallTower",
+      "label_cliloc": 1041237
+    },
+    {
+      "class": "LogCabinDeed",
+      "name": "Two-story log cabin",
+      "deed_label": "deed to a two story log cabin",
+      "multi_id": "0x9A",
+      "png": "/img/houses/0x9A.png",
+      "footprint": "8x13",
+      "lockdowns": 550,
+      "secures": 8,
+      "price": 81250,
+      "deed_price": 97800,
+      "house_class": "LogCabin",
+      "label_cliloc": 1041238
+    },
+    {
+      "class": "SandstonePatioDeed",
+      "name": "Sandstone house with patio",
+      "deed_label": "Deed to a sandstone house with patio",
+      "multi_id": "0x9C",
+      "png": "/img/houses/0x9C.png",
+      "footprint": "12x9",
+      "lockdowns": 425,
+      "secures": 6,
+      "price": 76250,
+      "deed_price": 90900,
+      "house_class": "SandStonePatio",
+      "label_cliloc": 1041239
+    },
+    {
+      "class": "VillaDeed",
+      "name": "Two-story villa",
+      "deed_label": "Deed to a two story villa",
+      "multi_id": "0x9E",
+      "png": "/img/houses/0x9E.png",
+      "footprint": "11x12",
+      "lockdowns": 550,
+      "secures": 8,
+      "price": 113500,
+      "deed_price": 136500,
+      "house_class": "TwoStoryVilla",
+      "label_cliloc": 1041240
+    },
+    {
+      "class": "StoneWorkshopDeed",
+      "name": "Small stone workshop",
+      "deed_label": "Deed to a small stone workshop",
+      "multi_id": "0xA0",
+      "png": "/img/houses/0xA0.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 50250,
+      "deed_price": 60600,
+      "house_class": "SmallShop",
+      "label_cliloc": 1041241
+    },
+    {
+      "class": "MarbleWorkshopDeed",
+      "name": "Small marble workshop",
+      "deed_label": "Deed to a small marble workshop",
+      "multi_id": "0xA2",
+      "png": "/img/houses/0xA2.png",
+      "footprint": "7x8",
+      "lockdowns": 212,
+      "secures": 3,
+      "price": 52250,
+      "deed_price": 63000,
+      "house_class": "SmallShop",
+      "label_cliloc": 1041242
+    }
+  ],
+  "foundations": [
+    {
+      "name": "3-Story Customizable Keep",
+      "multi_id": "0x147C",
+      "lockdowns": 1312,
+      "secures": 2625,
+      "price": 525000,
+      "category": "Custom Keep/Castle"
+    },
+    {
+      "name": "3-Story Customizable Castle",
+      "multi_id": "0x147D",
+      "lockdowns": 2038,
+      "secures": 4076,
+      "price": 525000,
+      "category": "Custom Keep/Castle"
+    },
+    {
+      "name": "7x7 2-Story Customizable House",
+      "multi_id": "0x13EC",
+      "lockdowns": 212,
+      "secures": 425,
+      "price": 33000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "7x8 2-Story Customizable House",
+      "multi_id": "0x13ED",
+      "lockdowns": 290,
+      "secures": 580,
+      "price": 37000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "7x9 2-Story Customizable House",
+      "multi_id": "0x13EE",
+      "lockdowns": 325,
+      "secures": 650,
+      "price": 41000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "7x10 2-Story Customizable House",
+      "multi_id": "0x13EF",
+      "lockdowns": 350,
+      "secures": 700,
+      "price": 45000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "7x11 2-Story Customizable House",
+      "multi_id": "0x13F0",
+      "lockdowns": 375,
+      "secures": 750,
+      "price": 49000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "7x12 2-Story Customizable House",
+      "multi_id": "0x13F1",
+      "lockdowns": 400,
+      "secures": 800,
+      "price": 53000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x7 2-Story Customizable House",
+      "multi_id": "0x13F8",
+      "lockdowns": 290,
+      "secures": 580,
+      "price": 37500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x8 2-Story Customizable House",
+      "multi_id": "0x13F9",
+      "lockdowns": 325,
+      "secures": 650,
+      "price": 42000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x9 2-Story Customizable House",
+      "multi_id": "0x13FA",
+      "lockdowns": 350,
+      "secures": 700,
+      "price": 46500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x10 2-Story Customizable House",
+      "multi_id": "0x13FB",
+      "lockdowns": 375,
+      "secures": 750,
+      "price": 51000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x11 2-Story Customizable House",
+      "multi_id": "0x13FC",
+      "lockdowns": 400,
+      "secures": 800,
+      "price": 55500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x12 2-Story Customizable House",
+      "multi_id": "0x13FD",
+      "lockdowns": 425,
+      "secures": 850,
+      "price": 60000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "8x13 2-Story Customizable House",
+      "multi_id": "0x13FE",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 64500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x7 2-Story Customizable House",
+      "multi_id": "0x1404",
+      "lockdowns": 325,
+      "secures": 650,
+      "price": 42000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x8 2-Story Customizable House",
+      "multi_id": "0x1405",
+      "lockdowns": 350,
+      "secures": 700,
+      "price": 47000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x9 2-Story Customizable House",
+      "multi_id": "0x1406",
+      "lockdowns": 375,
+      "secures": 750,
+      "price": 52000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x10 2-Story Customizable House",
+      "multi_id": "0x1407",
+      "lockdowns": 400,
+      "secures": 800,
+      "price": 57000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x11 2-Story Customizable House",
+      "multi_id": "0x1408",
+      "lockdowns": 425,
+      "secures": 850,
+      "price": 62000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x12 2-Story Customizable House",
+      "multi_id": "0x1409",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 67000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x13 2-Story Customizable House",
+      "multi_id": "0x140A",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 72000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x7 2-Story Customizable House",
+      "multi_id": "0x1410",
+      "lockdowns": 350,
+      "secures": 700,
+      "price": 46500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x8 2-Story Customizable House",
+      "multi_id": "0x1411",
+      "lockdowns": 375,
+      "secures": 750,
+      "price": 52000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x9 2-Story Customizable House",
+      "multi_id": "0x1412",
+      "lockdowns": 400,
+      "secures": 800,
+      "price": 57500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x10 2-Story Customizable House",
+      "multi_id": "0x1413",
+      "lockdowns": 425,
+      "secures": 850,
+      "price": 63000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x11 2-Story Customizable House",
+      "multi_id": "0x1414",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 68500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x12 2-Story Customizable House",
+      "multi_id": "0x1415",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 74000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "10x13 2-Story Customizable House",
+      "multi_id": "0x1416",
+      "lockdowns": 575,
+      "secures": 1150,
+      "price": 79500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x7 2-Story Customizable House",
+      "multi_id": "0x141C",
+      "lockdowns": 375,
+      "secures": 750,
+      "price": 51000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x8 2-Story Customizable House",
+      "multi_id": "0x141D",
+      "lockdowns": 400,
+      "secures": 800,
+      "price": 57000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x9 2-Story Customizable House",
+      "multi_id": "0x141E",
+      "lockdowns": 425,
+      "secures": 850,
+      "price": 63000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x10 2-Story Customizable House",
+      "multi_id": "0x141F",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 69000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x11 2-Story Customizable House",
+      "multi_id": "0x1420",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 75000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x12 2-Story Customizable House",
+      "multi_id": "0x1421",
+      "lockdowns": 575,
+      "secures": 1150,
+      "price": 81000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "11x13 2-Story Customizable House",
+      "multi_id": "0x1422",
+      "lockdowns": 600,
+      "secures": 1200,
+      "price": 87000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x7 2-Story Customizable House",
+      "multi_id": "0x1428",
+      "lockdowns": 400,
+      "secures": 800,
+      "price": 55500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x8 2-Story Customizable House",
+      "multi_id": "0x1429",
+      "lockdowns": 425,
+      "secures": 850,
+      "price": 62000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x9 2-Story Customizable House",
+      "multi_id": "0x142A",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 68500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x10 2-Story Customizable House",
+      "multi_id": "0x142B",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 75000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x11 2-Story Customizable House",
+      "multi_id": "0x142C",
+      "lockdowns": 575,
+      "secures": 1150,
+      "price": 81500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x12 2-Story Customizable House",
+      "multi_id": "0x142D",
+      "lockdowns": 600,
+      "secures": 1200,
+      "price": 88000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "12x13 2-Story Customizable House",
+      "multi_id": "0x142E",
+      "lockdowns": 625,
+      "secures": 1250,
+      "price": 94500,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "13x8 2-Story Customizable House",
+      "multi_id": "0x1435",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 67000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "13x9 2-Story Customizable House",
+      "multi_id": "0x1436",
+      "lockdowns": 550,
+      "secures": 1100,
+      "price": 74000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "13x10 2-Story Customizable House",
+      "multi_id": "0x1437",
+      "lockdowns": 575,
+      "secures": 1150,
+      "price": 81000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "13x11 2-Story Customizable House",
+      "multi_id": "0x1438",
+      "lockdowns": 600,
+      "secures": 1200,
+      "price": 88000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "13x12 2-Story Customizable House",
+      "multi_id": "0x1439",
+      "lockdowns": 625,
+      "secures": 1250,
+      "price": 95000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "13x13 2-Story Customizable House",
+      "multi_id": "0x143A",
+      "lockdowns": 650,
+      "secures": 1300,
+      "price": 102000,
+      "category": "2-Story Customizable"
+    },
+    {
+      "name": "9x14 3-Story Customizable House",
+      "multi_id": "0x140B",
+      "lockdowns": 575,
+      "secures": 1150,
+      "price": 77000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "10x14 3-Story Customizable House",
+      "multi_id": "0x1417",
+      "lockdowns": 600,
+      "secures": 1200,
+      "price": 85000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "10x15 3-Story Customizable House",
+      "multi_id": "0x1418",
+      "lockdowns": 625,
+      "secures": 1250,
+      "price": 90500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "11x14 3-Story Customizable House",
+      "multi_id": "0x1423",
+      "lockdowns": 625,
+      "secures": 1250,
+      "price": 93000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "11x15 3-Story Customizable House",
+      "multi_id": "0x1424",
+      "lockdowns": 650,
+      "secures": 1300,
+      "price": 99000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "11x16 3-Story Customizable House",
+      "multi_id": "0x1425",
+      "lockdowns": 675,
+      "secures": 1350,
+      "price": 105000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "12x14 3-Story Customizable House",
+      "multi_id": "0x142F",
+      "lockdowns": 650,
+      "secures": 1300,
+      "price": 101000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "12x15 3-Story Customizable House",
+      "multi_id": "0x1430",
+      "lockdowns": 675,
+      "secures": 1350,
+      "price": 107500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "12x16 3-Story Customizable House",
+      "multi_id": "0x1431",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 114000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "12x17 3-Story Customizable House",
+      "multi_id": "0x1432",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 120500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "13x14 3-Story Customizable House",
+      "multi_id": "0x143B",
+      "lockdowns": 675,
+      "secures": 1350,
+      "price": 109000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "13x15 3-Story Customizable House",
+      "multi_id": "0x143C",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 116000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "13x16 3-Story Customizable House",
+      "multi_id": "0x143D",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 123000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "13x17 3-Story Customizable House",
+      "multi_id": "0x143E",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 130000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "13x18 3-Story Customizable House",
+      "multi_id": "0x143F",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 137000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x9 3-Story Customizable House",
+      "multi_id": "0x1442",
+      "lockdowns": 575,
+      "secures": 1150,
+      "price": 79000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x10 3-Story Customizable House",
+      "multi_id": "0x1443",
+      "lockdowns": 600,
+      "secures": 1200,
+      "price": 87000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x11 3-Story Customizable House",
+      "multi_id": "0x1444",
+      "lockdowns": 625,
+      "secures": 1250,
+      "price": 94500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x12 3-Story Customizable House",
+      "multi_id": "0x1445",
+      "lockdowns": 650,
+      "secures": 1300,
+      "price": 102000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x13 3-Story Customizable House",
+      "multi_id": "0x1446",
+      "lockdowns": 675,
+      "secures": 1350,
+      "price": 109500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x14 3-Story Customizable House",
+      "multi_id": "0x1447",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 117000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x15 3-Story Customizable House",
+      "multi_id": "0x1448",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 124500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x16 3-Story Customizable House",
+      "multi_id": "0x1449",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 132000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x17 3-Story Customizable House",
+      "multi_id": "0x144A",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 139500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "14x18 3-Story Customizable House",
+      "multi_id": "0x144B",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 147000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x10 3-Story Customizable House",
+      "multi_id": "0x144F",
+      "lockdowns": 625,
+      "secures": 1250,
+      "price": 93000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x11 3-Story Customizable House",
+      "multi_id": "0x1450",
+      "lockdowns": 650,
+      "secures": 1300,
+      "price": 101000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x12 3-Story Customizable House",
+      "multi_id": "0x1451",
+      "lockdowns": 675,
+      "secures": 1350,
+      "price": 109000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x13 3-Story Customizable House",
+      "multi_id": "0x1452",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 117000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x14 3-Story Customizable House",
+      "multi_id": "0x1453",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 125000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x15 3-Story Customizable House",
+      "multi_id": "0x1454",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 133000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x16 3-Story Customizable House",
+      "multi_id": "0x1455",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 141000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x17 3-Story Customizable House",
+      "multi_id": "0x1456",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 149000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "15x18 3-Story Customizable House",
+      "multi_id": "0x1457",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 157000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x11 3-Story Customizable House",
+      "multi_id": "0x145C",
+      "lockdowns": 675,
+      "secures": 1350,
+      "price": 107500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x12 3-Story Customizable House",
+      "multi_id": "0x145D",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 116000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x13 3-Story Customizable House",
+      "multi_id": "0x145E",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 124500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x14 3-Story Customizable House",
+      "multi_id": "0x145F",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 133000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x15 3-Story Customizable House",
+      "multi_id": "0x1460",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 141500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x16 3-Story Customizable House",
+      "multi_id": "0x1461",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 150000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x17 3-Story Customizable House",
+      "multi_id": "0x1462",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 158500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "16x18 3-Story Customizable House",
+      "multi_id": "0x1463",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 167000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x12 3-Story Customizable House",
+      "multi_id": "0x1469",
+      "lockdowns": 685,
+      "secures": 1370,
+      "price": 123000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x13 3-Story Customizable House",
+      "multi_id": "0x146A",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 132000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x14 3-Story Customizable House",
+      "multi_id": "0x146B",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 141000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x15 3-Story Customizable House",
+      "multi_id": "0x146C",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 150000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x16 3-Story Customizable House",
+      "multi_id": "0x146D",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 159000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x17 3-Story Customizable House",
+      "multi_id": "0x146E",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 168000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "17x18 3-Story Customizable House",
+      "multi_id": "0x146F",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 177000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "18x13 3-Story Customizable House",
+      "multi_id": "0x1476",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 139500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "18x14 3-Story Customizable House",
+      "multi_id": "0x1477",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 149000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "18x15 3-Story Customizable House",
+      "multi_id": "0x1478",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 158500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "18x16 3-Story Customizable House",
+      "multi_id": "0x1479",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 168000,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "18x17 3-Story Customizable House",
+      "multi_id": "0x147A",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 177500,
+      "category": "3-Story Customizable"
+    },
+    {
+      "name": "18x18 3-Story Customizable House",
+      "multi_id": "0x147B",
+      "lockdowns": 1059,
+      "secures": 2119,
+      "price": 187000,
+      "category": "3-Story Customizable"
+    }
+  ]
+}
