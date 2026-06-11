@@ -250,7 +250,7 @@ def creature_page(c, group, anim_data=None, sounds_data=None):
     return "\n".join(lines).rstrip() + "\n"
 
 
-def index_page(grouped, creatures):
+def index_page(grouped, creatures, anim_data=None):
     total = len(creatures)
     lines = [
         "---",
@@ -270,23 +270,31 @@ def index_page(grouped, creatures):
         "",
         "## Groups",
         "",
-        "| Group | Creatures |",
-        "|---|---|",
+        "| | Group | Creatures |",
+        "|---|---|---|",
     ]
     for gkey, gtitle in GROUPS.items():
-        n = len(grouped.get(gkey, []))
-        lines.append(f"| [{gtitle}](/bestiary/{gkey}/) | {n} |")
+        members = grouped.get(gkey, [])
+        # representative thumbnail: first member of this group that has a GIF
+        thumb = ""
+        for c in sorted(members, key=display_name):
+            t = _anim_thumb(c, anim_data, gtitle)
+            if t:
+                thumb = t
+                break
+        lines.append(f"| {thumb} | [{gtitle}](/bestiary/{gkey}/) | {len(members)} |")
     lines += ["", "## Notable tamables", "",
               "The hardest tames on the shard, by minimum Animal Taming skill.", "",
-              "| Creature | Group | Min taming | Slots | Hits |",
-              "|---|---|---|---|---|"]
+              "| | Creature | Group | Min taming | Slots | Hits |",
+              "|---|---|---|---|---|---|"]
     tames = sorted(
         (c for c in creatures if c.get("tamable") and c.get("min_tame_skill") is not None),
         key=lambda c: -c["min_tame_skill"])[:20]
     for c in tames:
         g = classify(c)
-        link = f"[{display_name(c)}](/bestiary/{g}/{slug(c)}/)"
-        lines.append(f"| {link} | {GROUPS[g]} | {c['min_tame_skill']} | "
+        name = display_name(c)
+        link = f"[{name}](/bestiary/{g}/{slug(c)}/)"
+        lines.append(f"| {_anim_thumb(c, anim_data, name)} | {link} | {GROUPS[g]} | {c['min_tame_skill']} | "
                      f"{c.get('control_slots', '—')} | {fmt_range(c.get('hits', '—'))} |")
     lines += ["",
               f"All {sum(1 for c in creatures if c.get('tamable'))} tamable creatures have a",
@@ -294,7 +302,17 @@ def index_page(grouped, creatures):
     return "\n".join(lines)
 
 
-def group_index_page(gkey, gtitle, members):
+def _anim_thumb(c, anim_data, name):
+    """An animated-GIF thumbnail cell for a creature, or empty if it has none."""
+    if anim_data and c["class"] in anim_data.get("creatures", {}):
+        body_id = anim_data["creatures"][c["class"]]
+        body = anim_data.get("bodies", {}).get(str(body_id))
+        if body:
+            return f'<img src="{body["gif"]}" class="uo-anim" alt="{name}" loading="lazy" />'
+    return ""
+
+
+def group_index_page(gkey, gtitle, members, anim_data=None):
     lines = [
         "---",
         f"title: {yaml_str(gtitle)}",
@@ -303,17 +321,19 @@ def group_index_page(gkey, gtitle, members):
         "generated: true",
         "sources:",
         '  - "servuo: Scripts/Mobiles/ (via tools/extract_creatures.py)"',
+        '  - "client: anim*.mul (via tools/extract_anim.py)"',
         f"last_verified: {LAST_VERIFIED}",
         "---",
         BANNER,
         "",
-        "| Creature | Hits | Damage | Tamable |",
-        "|---|---|---|---|",
+        "| | Creature | Hits | Damage | Tamable |",
+        "|---|---|---|---|---|",
     ]
     for c in sorted(members, key=display_name):
         tame = f"yes ({c['min_tame_skill']})" if c.get("tamable") and c.get("min_tame_skill") is not None \
             else ("yes" if c.get("tamable") else "—")
-        lines.append(f"| [{display_name(c)}](/bestiary/{gkey}/{slug(c)}/) "
+        name = display_name(c)
+        lines.append(f"| {_anim_thumb(c, anim_data, name)} | [{name}](/bestiary/{gkey}/{slug(c)}/) "
                      f"| {fmt_range(c.get('hits', '—'))} | {fmt_range(c.get('damage', '—'))} | {tame} |")
     lines.append("")
     return "\n".join(lines)
@@ -352,7 +372,7 @@ def main():
         gdir = os.path.join(OUT_DIR, gkey)
         os.makedirs(gdir, exist_ok=True)
         with open(os.path.join(gdir, "index.md"), "w", encoding="utf-8") as f:
-            f.write(group_index_page(gkey, GROUPS[gkey], members))
+            f.write(group_index_page(gkey, GROUPS[gkey], members, anim_data))
         for c in members:
             with open(os.path.join(gdir, slug(c) + ".md"), "w", encoding="utf-8") as f:
                 f.write(creature_page(c, gkey, anim_data, sounds_data))
@@ -360,7 +380,7 @@ def main():
 
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(os.path.join(OUT_DIR, "index.md"), "w", encoding="utf-8") as f:
-        f.write(index_page(grouped, creatures))
+        f.write(index_page(grouped, creatures, anim_data))
 
     print(f"wrote {pages} creature pages + {len(grouped)} group indexes + 1 bestiary index")
     for gkey in GROUPS:
