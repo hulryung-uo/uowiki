@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/62.png" class="uo-sprite" alt="Resurrection spell icon" width="72" height="72" />
 
-*An Corp* — Eighth Circle Magery
+<p class="uo-runic" title="An Corp">An Corp</p>
+
+***An Corp*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
 
 Returns a dead player's ghost to life where they stand.
 
@@ -26,7 +28,7 @@ Returns a dead player's ghost to life where they stand.
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Garlic, Ginseng |
-| Words of power | An Corp |
+| Words of power | <span class="uo-runic">An Corp</span> &nbsp; *An Corp* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/3.png" class="uo-sprite" alt="Feeblemind spell icon" width="72" height="72" />
 
-*Rel Wis* — First Circle Magery
+<p class="uo-runic" title="Rel Wis">Rel Wis</p>
+
+***Rel Wis*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Temporarily lowers the target's Intelligence, scaling on the caster's Evaluating Intelligence.
 
@@ -26,7 +28,7 @@ Temporarily lowers the target's Intelligence, scaling on the caster's Evaluating
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Ginseng, Nightshade |
-| Words of power | Rel Wis |
+| Words of power | <span class="uo-runic">Rel Wis</span> &nbsp; *Rel Wis* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

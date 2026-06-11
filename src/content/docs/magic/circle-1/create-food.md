@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/2.png" class="uo-sprite" alt="Create Food spell icon" width="72" height="72" />
 
-*In Mani Ylem* — First Circle Magery
+<p class="uo-runic" title="In Mani Ylem">In Mani Ylem</p>
+
+***In Mani Ylem*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Conjures a random item of food directly into the caster's backpack.
 
@@ -26,7 +28,7 @@ Conjures a random item of food directly into the caster's backpack.
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Ginseng, Mandrake Root |
-| Words of power | In Mani Ylem |
+| Words of power | <span class="uo-runic">In Mani Ylem</span> &nbsp; *In Mani Ylem* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

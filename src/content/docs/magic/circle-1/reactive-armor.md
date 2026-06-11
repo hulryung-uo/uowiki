@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/7.png" class="uo-sprite" alt="Reactive Armor spell icon" width="72" height="72" />
 
-*Flam Sanct* — First Circle Magery
+<p class="uo-runic" title="Flam Sanct">Flam Sanct</p>
+
+***Flam Sanct*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Buffs the caster's physical resistance at the cost of the other elemental resistances (pre-AOS: reflects part of melee damage back at attackers).
 
@@ -26,7 +28,7 @@ Buffs the caster's physical resistance at the cost of the other elemental resist
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Spiders' Silk, Sulfurous Ash |
-| Words of power | Flam Sanct |
+| Words of power | <span class="uo-runic">Flam Sanct</span> &nbsp; *Flam Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

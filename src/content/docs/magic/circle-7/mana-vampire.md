@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/53.png" class="uo-sprite" alt="Mana Vampire spell icon" width="72" height="72" />
 
-*Ort Sanct* — Seventh Circle Magery
+<p class="uo-runic" title="Ort Sanct">Ort Sanct</p>
+
+***Ort Sanct*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
 
 Drains mana from the target and transfers it to the caster if the target fails to resist.
 
@@ -26,7 +28,7 @@ Drains mana from the target and transfers it to the caster if the target fails t
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Bloodmoss, Mandrake Root, Spiders' Silk |
-| Words of power | Ort Sanct |
+| Words of power | <span class="uo-runic">Ort Sanct</span> &nbsp; *Ort Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

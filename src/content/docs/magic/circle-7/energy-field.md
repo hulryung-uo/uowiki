@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/50.png" class="uo-sprite" alt="Energy Field spell icon" width="72" height="72" />
 
-*In Sanct Grav* — Seventh Circle Magery
+<p class="uo-runic" title="In Sanct Grav">In Sanct Grav</p>
+
+***In Sanct Grav*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
 
 Creates a temporary impassable wall of energy that blocks movement entirely.
 
@@ -26,7 +28,7 @@ Creates a temporary impassable wall of energy that blocks movement entirely.
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| Words of power | In Sanct Grav |
+| Words of power | <span class="uo-runic">In Sanct Grav</span> &nbsp; *In Sanct Grav* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

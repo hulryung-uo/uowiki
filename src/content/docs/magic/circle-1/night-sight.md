@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/6.png" class="uo-sprite" alt="Night Sight spell icon" width="72" height="72" />
 
-*In Lor* — First Circle Magery
+<p class="uo-runic" title="In Lor">In Lor</p>
+
+***In Lor*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Grants the target a magical light that lets them see in darkness for an extended duration.
 
@@ -26,7 +28,7 @@ Grants the target a magical light that lets them see in darkness for an extended
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Sulfurous Ash, Spiders' Silk |
-| Words of power | In Lor |
+| Words of power | <span class="uo-runic">In Lor</span> &nbsp; *In Lor* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

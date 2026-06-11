@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/52.png" class="uo-sprite" alt="Gate Travel spell icon" width="72" height="72" />
 
-*Vas Rel Por* — Seventh Circle Magery
+<p class="uo-runic" title="Vas Rel Por">Vas Rel Por</p>
+
+***Vas Rel Por*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
 
 Opens a pair of linked moongates between the caster and the location stored in a marked rune, usable by anyone.
 
@@ -26,7 +28,7 @@ Opens a pair of linked moongates between the caster and the location stored in a
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Mandrake Root, Sulfurous Ash |
-| Words of power | Vas Rel Por |
+| Words of power | <span class="uo-runic">Vas Rel Por</span> &nbsp; *Vas Rel Por* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/26.png" class="uo-sprite" alt="Arch Protection spell icon" width="72" height="72" />
 
-*Vas Uus Sanct* — Fourth Circle Magery
+<p class="uo-runic" title="Vas Uus Sanct">Vas Uus Sanct</p>
+
+***Vas Uus Sanct*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Casts Protection on the target (pre-AOS: on everyone in an area around the target point).
 
@@ -26,7 +28,7 @@ Casts Protection on the target (pre-AOS: on everyone in an area around the targe
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Garlic, Ginseng, Mandrake Root, Sulfurous Ash |
-| Words of power | Vas Uus Sanct |
+| Words of power | <span class="uo-runic">Vas Uus Sanct</span> &nbsp; *Vas Uus Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

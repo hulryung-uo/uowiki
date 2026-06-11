@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/34.png" class="uo-sprite" alt="Dispel Field spell icon" width="72" height="72" />
 
-*An Grav* — Fifth Circle Magery
+<p class="uo-runic" title="An Grav">An Grav</p>
+
+***An Grav*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Dispels a single field tile such as fire, poison, energy or paralyze fields, or a wall of stone.
 
@@ -26,7 +28,7 @@ Dispels a single field tile such as fire, poison, energy or paralyze fields, or 
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Black Pearl, Spiders' Silk, Sulfurous Ash, Garlic |
-| Words of power | An Grav |
+| Words of power | <span class="uo-runic">An Grav</span> &nbsp; *An Grav* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

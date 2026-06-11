@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/17.png" class="uo-sprite" alt="Bless spell icon" width="72" height="72" />
 
-*Rel Sanct* — Third Circle Magery
+<p class="uo-runic" title="Rel Sanct">Rel Sanct</p>
+
+***Rel Sanct*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
 
 Temporarily raises the target's Strength, Dexterity and Intelligence all at once.
 
@@ -26,7 +28,7 @@ Temporarily raises the target's Strength, Dexterity and Intelligence all at once
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Garlic, Mandrake Root |
-| Words of power | Rel Sanct |
+| Words of power | <span class="uo-runic">Rel Sanct</span> &nbsp; *Rel Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/48.png" class="uo-sprite" alt="Reveal spell icon" width="72" height="72" />
 
-*Wis Quas* — Sixth Circle Magery
+<p class="uo-runic" title="Wis Quas">Wis Quas</p>
+
+***Wis Quas*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
 
 Reveals hidden and invisible creatures and players in an area, with radius based on caster skill.
 
@@ -26,7 +28,7 @@ Reveals hidden and invisible creatures and players in an area, with radius based
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Bloodmoss, Sulfurous Ash |
-| Words of power | Wis Quas |
+| Words of power | <span class="uo-runic">Wis Quas</span> &nbsp; *Wis Quas* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/25.png" class="uo-sprite" alt="Arch Cure spell icon" width="72" height="72" />
 
-*Vas An Nox* — Fourth Circle Magery
+<p class="uo-runic" title="Vas An Nox">Vas An Nox</p>
+
+***Vas An Nox*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Cures poison on all valid targets in an area around the target point (single-target cure with a skill bonus when targeting one mobile).
 
@@ -26,7 +28,7 @@ Cures poison on all valid targets in an area around the target point (single-tar
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Garlic, Ginseng, Mandrake Root |
-| Words of power | Vas An Nox |
+| Words of power | <span class="uo-runic">Vas An Nox</span> &nbsp; *Vas An Nox* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

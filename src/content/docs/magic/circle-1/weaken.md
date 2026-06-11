@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/8.png" class="uo-sprite" alt="Weaken spell icon" width="72" height="72" />
 
-*Des Mani* — First Circle Magery
+<p class="uo-runic" title="Des Mani">Des Mani</p>
+
+***Des Mani*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Temporarily lowers the target's Strength, scaling on the caster's Evaluating Intelligence.
 
@@ -26,7 +28,7 @@ Temporarily lowers the target's Strength, scaling on the caster's Evaluating Int
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Nightshade |
-| Words of power | Des Mani |
+| Words of power | <span class="uo-runic">Des Mani</span> &nbsp; *Des Mani* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

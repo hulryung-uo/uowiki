@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/13.png" class="uo-sprite" alt="Magic Trap spell icon" width="72" height="72" />
 
-*In Jux* — Second Circle Magery
+<p class="uo-runic" title="In Jux">In Jux</p>
+
+***In Jux*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
 
 Places a magical explosive trap on a container that detonates on the next person to open it.
 
@@ -26,7 +28,7 @@ Places a magical explosive trap on a container that detonates on the next person
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Garlic, Spiders' Silk, Sulfurous Ash |
-| Words of power | In Jux |
+| Words of power | <span class="uo-runic">In Jux</span> &nbsp; *In Jux* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

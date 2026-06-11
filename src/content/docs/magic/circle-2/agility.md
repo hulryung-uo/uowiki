@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/9.png" class="uo-sprite" alt="Agility spell icon" width="72" height="72" />
 
-*Ex Uus* — Second Circle Magery
+<p class="uo-runic" title="Ex Uus">Ex Uus</p>
+
+***Ex Uus*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
 
 Temporarily raises the target's Dexterity, scaling on the caster's Evaluating Intelligence.
 
@@ -26,7 +28,7 @@ Temporarily raises the target's Dexterity, scaling on the caster's Evaluating In
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Bloodmoss, Mandrake Root |
-| Words of power | Ex Uus |
+| Words of power | <span class="uo-runic">Ex Uus</span> &nbsp; *Ex Uus* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

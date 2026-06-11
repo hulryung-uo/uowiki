@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/56.png" class="uo-sprite" alt="Polymorph spell icon" width="72" height="72" />
 
-*Vas Ylem Rel* — Seventh Circle Magery
+<p class="uo-runic" title="Vas Ylem Rel">Vas Ylem Rel</p>
+
+***Vas Ylem Rel*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
 
 Transforms the caster's body into a chosen creature form, with combat stats to match, until cancelled.
 
@@ -26,7 +28,7 @@ Transforms the caster's body into a chosen creature form, with combat stats to m
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Bloodmoss, Spiders' Silk, Mandrake Root |
-| Words of power | Vas Ylem Rel |
+| Words of power | <span class="uo-runic">Vas Ylem Rel</span> &nbsp; *Vas Ylem Rel* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

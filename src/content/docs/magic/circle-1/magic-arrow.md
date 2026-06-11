@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/5.png" class="uo-sprite" alt="Magic Arrow spell icon" width="72" height="72" />
 
-*In Por Ylem* — First Circle Magery
+<p class="uo-runic" title="In Por Ylem">In Por Ylem</p>
+
+***In Por Ylem*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Fires a magical bolt at the target dealing a small amount of pure fire damage.
 
@@ -26,7 +28,7 @@ Fires a magical bolt at the target dealing a small amount of pure fire damage.
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Sulfurous Ash |
-| Words of power | In Por Ylem |
+| Words of power | <span class="uo-runic">In Por Ylem</span> &nbsp; *In Por Ylem* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

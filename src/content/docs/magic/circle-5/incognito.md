@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/35.png" class="uo-sprite" alt="Incognito spell icon" width="72" height="72" />
 
-*Kal In Ex* — Fifth Circle Magery
+<p class="uo-runic" title="Kal In Ex">Kal In Ex</p>
+
+***Kal In Ex*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Disguises the caster with a random name, body and hair, concealing their identity for a duration.
 
@@ -26,7 +28,7 @@ Disguises the caster with a random name, body and hair, concealing their identit
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Bloodmoss, Garlic, Nightshade |
-| Words of power | Kal In Ex |
+| Words of power | <span class="uo-runic">Kal In Ex</span> &nbsp; *Kal In Ex* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

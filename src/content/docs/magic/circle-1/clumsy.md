@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/1.png" class="uo-sprite" alt="Clumsy spell icon" width="72" height="72" />
 
-*Uus Jux* — First Circle Magery
+<p class="uo-runic" title="Uus Jux">Uus Jux</p>
+
+***Uus Jux*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Temporarily lowers the target's Dexterity, with potency and duration scaling on the caster's Evaluating Intelligence.
 
@@ -26,7 +28,7 @@ Temporarily lowers the target's Dexterity, with potency and duration scaling on 
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Bloodmoss, Nightshade |
-| Words of power | Uus Jux |
+| Words of power | <span class="uo-runic">Uus Jux</span> &nbsp; *Uus Jux* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -61,3 +61,20 @@
 .cthumb:hover .cthumb-gif {
 	display: inline-block;
 }
+
+/* Britannian runic alphabet — the iconic UO rune glyphs, used to render spell
+   "words of power" (mantras). Font: New Britannia Runic (Carved) by Dame Lori,
+   community free-use, via the Ultima Codex Lycaeum. It's a Latin→rune glyph
+   substitution, so the readable syllables stay in the markup for accessibility
+   and search; .uo-runic just restyles them as runes. */
+@font-face {
+	font-family: 'Britannian Runic';
+	src: url('/fonts/britannian-runic.ttf') format('truetype');
+	font-display: swap;
+}
+.uo-runic {
+	font-family: 'Britannian Runic', serif;
+	font-size: 1.7em;
+	letter-spacing: 0.12em;
+	line-height: 1.4;
+}

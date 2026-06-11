@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/46.png" class="uo-sprite" alt="Mass Curse spell icon" width="72" height="72" />
 
-*Vas Des Sanct* — Sixth Circle Magery
+<p class="uo-runic" title="Vas Des Sanct">Vas Des Sanct</p>
+
+***Vas Des Sanct*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
 
 Lowers Strength, Dexterity and Intelligence of every valid target in an area around the target point.
 
@@ -26,7 +28,7 @@ Lowers Strength, Dexterity and Intelligence of every valid target in an area aro
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Garlic, Nightshade, Mandrake Root, Sulfurous Ash |
-| Words of power | Vas Des Sanct |
+| Words of power | <span class="uo-runic">Vas Des Sanct</span> &nbsp; *Vas Des Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

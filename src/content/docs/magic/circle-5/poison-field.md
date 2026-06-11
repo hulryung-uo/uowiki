@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/39.png" class="uo-sprite" alt="Poison Field spell icon" width="72" height="72" />
 
-*In Nox Grav* — Fifth Circle Magery
+<p class="uo-runic" title="In Nox Grav">In Nox Grav</p>
+
+***In Nox Grav*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Creates a temporary wall of poisonous vapor that poisons anyone moving through it.
 
@@ -26,7 +28,7 @@ Creates a temporary wall of poisonous vapor that poisons anyone moving through i
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Black Pearl, Nightshade, Spiders' Silk |
-| Words of power | In Nox Grav |
+| Words of power | <span class="uo-runic">In Nox Grav</span> &nbsp; *In Nox Grav* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

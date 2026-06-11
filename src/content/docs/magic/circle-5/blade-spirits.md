@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/33.png" class="uo-sprite" alt="Blade Spirits spell icon" width="72" height="72" />
 
-*In Jux Hur Ylem* — Fifth Circle Magery
+<p class="uo-runic" title="In Jux Hur Ylem">In Jux Hur Ylem</p>
+
+***In Jux Hur Ylem*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Summons an uncontrolled whirling blade spirit that attacks the nearest creatures, consuming follower slots.
 
@@ -26,7 +28,7 @@ Summons an uncontrolled whirling blade spirit that attacks the nearest creatures
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Black Pearl, Mandrake Root, Nightshade |
-| Words of power | In Jux Hur Ylem |
+| Words of power | <span class="uo-runic">In Jux Hur Ylem</span> &nbsp; *In Jux Hur Ylem* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

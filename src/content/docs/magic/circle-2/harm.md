@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/12.png" class="uo-sprite" alt="Harm spell icon" width="72" height="72" />
 
-*An Mani* — Second Circle Magery
+<p class="uo-runic" title="An Mani">An Mani</p>
+
+***An Mani*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
 
 Deals cold damage to the target, hitting hardest at point-blank range and weakening with distance.
 
@@ -26,7 +28,7 @@ Deals cold damage to the target, hitting hardest at point-blank range and weaken
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Nightshade, Spiders' Silk |
-| Words of power | An Mani |
+| Words of power | <span class="uo-runic">An Mani</span> &nbsp; *An Mani* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

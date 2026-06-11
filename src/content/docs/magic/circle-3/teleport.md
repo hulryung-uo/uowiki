@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/22.png" class="uo-sprite" alt="Teleport spell icon" width="72" height="72" />
 
-*Rel Por* — Third Circle Magery
+<p class="uo-runic" title="Rel Por">Rel Por</p>
+
+***Rel Por*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
 
 Instantly moves the caster to a visible nearby location in line of sight.
 
@@ -26,7 +28,7 @@ Instantly moves the caster to a visible nearby location in line of sight.
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Bloodmoss, Mandrake Root |
-| Words of power | Rel Por |
+| Words of power | <span class="uo-runic">Rel Por</span> &nbsp; *Rel Por* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

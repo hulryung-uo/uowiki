@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/27.png" class="uo-sprite" alt="Curse spell icon" width="72" height="72" />
 
-*Des Sanct* — Fourth Circle Magery
+<p class="uo-runic" title="Des Sanct">Des Sanct</p>
+
+***Des Sanct*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Temporarily lowers the target's Strength, Dexterity and Intelligence, and under AOS also caps their resistances and blocks beneficial stat buffs.
 
@@ -26,7 +28,7 @@ Temporarily lowers the target's Strength, Dexterity and Intelligence, and under 
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Nightshade, Garlic, Sulfurous Ash |
-| Words of power | Des Sanct |
+| Words of power | <span class="uo-runic">Des Sanct</span> &nbsp; *Des Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

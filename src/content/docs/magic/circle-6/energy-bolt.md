@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/42.png" class="uo-sprite" alt="Energy Bolt spell icon" width="72" height="72" />
 
-*Corp Por* — Sixth Circle Magery
+<p class="uo-runic" title="Corp Por">Corp Por</p>
+
+***Corp Por*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
 
 Fires a powerful bolt of pure energy damage at the target.
 
@@ -26,7 +28,7 @@ Fires a powerful bolt of pure energy damage at the target.
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Black Pearl, Nightshade |
-| Words of power | Corp Por |
+| Words of power | <span class="uo-runic">Corp Por</span> &nbsp; *Corp Por* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

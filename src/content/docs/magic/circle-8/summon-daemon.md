@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/63.png" class="uo-sprite" alt="Summon Daemon spell icon" width="72" height="72" />
 
-*Kal Vas Xen Corp* — Eighth Circle Magery
+<p class="uo-runic" title="Kal Vas Xen Corp">Kal Vas Xen Corp</p>
+
+***Kal Vas Xen Corp*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
 
 Summons a daemon to fight for the caster, consuming follower slots (and under AOS damaging the caster's karma).
 
@@ -26,7 +28,7 @@ Summons a daemon to fight for the caster, consuming follower slots (and under AO
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| Words of power | Kal Vas Xen Corp |
+| Words of power | <span class="uo-runic">Kal Vas Xen Corp</span> &nbsp; *Kal Vas Xen Corp* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

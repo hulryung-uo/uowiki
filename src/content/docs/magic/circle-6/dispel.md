@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/41.png" class="uo-sprite" alt="Dispel spell icon" width="72" height="72" />
 
-*An Ort* — Sixth Circle Magery
+<p class="uo-runic" title="An Ort">An Ort</p>
+
+***An Ort*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
 
 Attempts to banish a summoned creature outright, with success based on caster skill versus the summon's dispel difficulty.
 
@@ -26,7 +28,7 @@ Attempts to banish a summoned creature outright, with success based on caster sk
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Garlic, Mandrake Root, Sulfurous Ash |
-| Words of power | An Ort |
+| Words of power | <span class="uo-runic">An Ort</span> &nbsp; *An Ort* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

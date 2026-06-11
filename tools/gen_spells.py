@@ -97,7 +97,9 @@ def gen_spell_page(spell: dict, spell_id: int, circles: dict, spell_icons: dict)
     if spell_id_str in spell_icons.get("icons", {}):
         icon_html = f'<img src="/img/spells/{spell_id_str}.png" class="uo-sprite" alt="{spell["name"]} spell icon" width="72" height="72" />\n\n'
 
-    body = f"""{icon_html}*{spell['mantra']}* — {CIRCLE_WORDS[c]} Circle Magery
+    body = f"""{icon_html}<p class="uo-runic" title="{spell['mantra']}">{spell['mantra']}</p>
+
+***{spell['mantra']}*** — the words of power, in the Britannian runic alphabet. {CIRCLE_WORDS[c]} Circle Magery.
 
 {spell['description']}
 
@@ -110,7 +112,7 @@ def gen_spell_page(spell: dict, spell_id: int, circles: dict, spell_icons: dict)
 | Minimum Magery | {fmt_skill(ct['min_skill'])} (0% success below this) |
 | Magery for 100% success | {fmt_skill(ct['max_skill'])} |
 | Reagents | {reagent_list} |
-| Words of power | {spell['mantra']} |
+| Words of power | <span class="uo-runic">{spell['mantra']}</span> &nbsp; *{spell['mantra']}* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).
@@ -167,6 +169,10 @@ def gen_index(spells: list, circles: dict, spell_icons: dict) -> str:
         out.append("")
 
     out.append("See also: [Reagents](/magic/reagents/)")
+    out.append("")
+    out.append("Each spell page shows its words of power in the <span class=\"uo-runic\">Britannian</span> "
+               "runic alphabet — font *New Britannia Runic* (Carved) by Dame Lori, community "
+               "free-use, via the [Ultima Codex Lycaeum](https://lycaeum.ultimacodex.com/new-britannia-runic-fonts-6-styles/).")
     out.append("")
     return "\n".join(out)
 

@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/10.png" class="uo-sprite" alt="Cunning spell icon" width="72" height="72" />
 
-*Uus Wis* — Second Circle Magery
+<p class="uo-runic" title="Uus Wis">Uus Wis</p>
+
+***Uus Wis*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
 
 Temporarily raises the target's Intelligence, scaling on the caster's Evaluating Intelligence.
 
@@ -26,7 +28,7 @@ Temporarily raises the target's Intelligence, scaling on the caster's Evaluating
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Mandrake Root, Nightshade |
-| Words of power | Uus Wis |
+| Words of power | <span class="uo-runic">Uus Wis</span> &nbsp; *Uus Wis* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

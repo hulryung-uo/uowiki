@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/28.png" class="uo-sprite" alt="Fire Field spell icon" width="72" height="72" />
 
-*In Flam Grav* — Fourth Circle Magery
+<p class="uo-runic" title="In Flam Grav">In Flam Grav</p>
+
+***In Flam Grav*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Creates a temporary line of fire on the ground that repeatedly burns anyone standing in it.
 
@@ -26,7 +28,7 @@ Creates a temporary line of fire on the ground that repeatedly burns anyone stan
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Black Pearl, Spiders' Silk, Sulfurous Ash |
-| Words of power | In Flam Grav |
+| Words of power | <span class="uo-runic">In Flam Grav</span> &nbsp; *In Flam Grav* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

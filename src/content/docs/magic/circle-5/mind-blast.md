@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/37.png" class="uo-sprite" alt="Mind Blast spell icon" width="72" height="72" />
 
-*Por Corp Wis* — Fifth Circle Magery
+<p class="uo-runic" title="Por Corp Wis">Por Corp Wis</p>
+
+***Por Corp Wis*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Blasts the target with psychic cold damage, under AOS scaling on the caster's Intelligence (pre-AOS: based on the stat gap between caster and target).
 
@@ -26,7 +28,7 @@ Blasts the target with psychic cold damage, under AOS scaling on the caster's In
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Black Pearl, Mandrake Root, Nightshade, Sulfurous Ash |
-| Words of power | Por Corp Wis |
+| Words of power | <span class="uo-runic">Por Corp Wis</span> &nbsp; *Por Corp Wis* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

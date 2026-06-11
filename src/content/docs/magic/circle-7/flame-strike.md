@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/51.png" class="uo-sprite" alt="Flame Strike spell icon" width="72" height="72" />
 
-*Kal Vas Flam* — Seventh Circle Magery
+<p class="uo-runic" title="Kal Vas Flam">Kal Vas Flam</p>
+
+***Kal Vas Flam*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
 
 Engulfs the target in a pillar of flame dealing heavy fire damage.
 
@@ -26,7 +28,7 @@ Engulfs the target in a pillar of flame dealing heavy fire damage.
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Spiders' Silk, Sulfurous Ash |
-| Words of power | Kal Vas Flam |
+| Words of power | <span class="uo-runic">Kal Vas Flam</span> &nbsp; *Kal Vas Flam* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

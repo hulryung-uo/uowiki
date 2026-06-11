@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/40.png" class="uo-sprite" alt="Summon Creature spell icon" width="72" height="72" />
 
-*Kal Xen* — Fifth Circle Magery
+<p class="uo-runic" title="Kal Xen">Kal Xen</p>
+
+***Kal Xen*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Summons a random natural creature (such as a bear, wolf or panther) to fight for the caster, consuming follower slots.
 
@@ -26,7 +28,7 @@ Summons a random natural creature (such as a bear, wolf or panther) to fight for
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Bloodmoss, Mandrake Root, Spiders' Silk |
-| Words of power | Kal Xen |
+| Words of power | <span class="uo-runic">Kal Xen</span> &nbsp; *Kal Xen* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

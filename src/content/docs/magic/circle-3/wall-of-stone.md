@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/24.png" class="uo-sprite" alt="Wall of Stone spell icon" width="72" height="72" />
 
-*In Sanct Ylem* — Third Circle Magery
+<p class="uo-runic" title="In Sanct Ylem">In Sanct Ylem</p>
+
+***In Sanct Ylem*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
 
 Raises a temporary wall of stone that blocks movement across a short line of tiles.
 
@@ -26,7 +28,7 @@ Raises a temporary wall of stone that blocks movement across a short line of til
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Bloodmoss, Garlic |
-| Words of power | In Sanct Ylem |
+| Words of power | <span class="uo-runic">In Sanct Ylem</span> &nbsp; *In Sanct Ylem* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

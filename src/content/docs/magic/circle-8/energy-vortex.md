@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/60.png" class="uo-sprite" alt="Energy Vortex spell icon" width="72" height="72" />
 
-*Vas Corp Por* — Eighth Circle Magery
+<p class="uo-runic" title="Vas Corp Por">Vas Corp Por</p>
+
+***Vas Corp Por*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
 
 Summons an uncontrolled energy vortex that relentlessly attacks the nearest creature, consuming follower slots.
 
@@ -26,7 +28,7 @@ Summons an uncontrolled energy vortex that relentlessly attacks the nearest crea
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Black Pearl, Mandrake Root, Nightshade |
-| Words of power | Vas Corp Por |
+| Words of power | <span class="uo-runic">Vas Corp Por</span> &nbsp; *Vas Corp Por* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

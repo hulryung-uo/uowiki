@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/19.png" class="uo-sprite" alt="Magic Lock spell icon" width="72" height="72" />
 
-*An Por* — Third Circle Magery
+<p class="uo-runic" title="An Por">An Por</p>
+
+***An Por*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
 
 Magically locks an unlocked, untrapped chest (cannot be used on doors or secured containers).
 
@@ -26,7 +28,7 @@ Magically locks an unlocked, untrapped chest (cannot be used on doors or secured
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Garlic, Bloodmoss, Sulfurous Ash |
-| Words of power | An Por |
+| Words of power | <span class="uo-runic">An Por</span> &nbsp; *An Por* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

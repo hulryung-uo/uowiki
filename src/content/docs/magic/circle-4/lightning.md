@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/30.png" class="uo-sprite" alt="Lightning spell icon" width="72" height="72" />
 
-*Por Ort Grav* — Fourth Circle Magery
+<p class="uo-runic" title="Por Ort Grav">Por Ort Grav</p>
+
+***Por Ort Grav*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Strikes the target with a bolt of lightning dealing energy damage.
 
@@ -26,7 +28,7 @@ Strikes the target with a bolt of lightning dealing energy damage.
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Mandrake Root, Sulfurous Ash |
-| Words of power | Por Ort Grav |
+| Words of power | <span class="uo-runic">Por Ort Grav</span> &nbsp; *Por Ort Grav* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

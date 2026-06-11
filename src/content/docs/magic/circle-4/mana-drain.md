@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/31.png" class="uo-sprite" alt="Mana Drain spell icon" width="72" height="72" />
 
-*Ort Rel* — Fourth Circle Magery
+<p class="uo-runic" title="Ort Rel">Ort Rel</p>
+
+***Ort Rel*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Drains mana from the target if they fail to resist (under AOS the mana returns to them after a delay).
 
@@ -26,7 +28,7 @@ Drains mana from the target if they fail to resist (under AOS the mana returns t
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Black Pearl, Mandrake Root, Spiders' Silk |
-| Words of power | Ort Rel |
+| Words of power | <span class="uo-runic">Ort Rel</span> &nbsp; *Ort Rel* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

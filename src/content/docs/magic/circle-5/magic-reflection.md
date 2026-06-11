@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/36.png" class="uo-sprite" alt="Magic Reflection spell icon" width="72" height="72" />
 
-*In Jux Sanct* — Fifth Circle Magery
+<p class="uo-runic" title="In Jux Sanct">In Jux Sanct</p>
+
+***In Jux Sanct*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
 
 Causes hostile spells to reflect back at their caster (under AOS instead trades physical resistance for boosts to the elemental resistances).
 
@@ -26,7 +28,7 @@ Causes hostile spells to reflect back at their caster (under AOS instead trades 
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Garlic, Mandrake Root, Spiders' Silk |
-| Words of power | In Jux Sanct |
+| Words of power | <span class="uo-runic">In Jux Sanct</span> &nbsp; *In Jux Sanct* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

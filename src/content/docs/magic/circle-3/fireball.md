@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/18.png" class="uo-sprite" alt="Fireball spell icon" width="72" height="72" />
 
-*Vas Flam* — Third Circle Magery
+<p class="uo-runic" title="Vas Flam">Vas Flam</p>
+
+***Vas Flam*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
 
 Hurls a ball of fire that deals moderate fire damage to the target.
 
@@ -26,7 +28,7 @@ Hurls a ball of fire that deals moderate fire damage to the target.
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Black Pearl |
-| Words of power | Vas Flam |
+| Words of power | <span class="uo-runic">Vas Flam</span> &nbsp; *Vas Flam* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

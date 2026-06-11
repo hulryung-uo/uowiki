@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/29.png" class="uo-sprite" alt="Greater Heal spell icon" width="72" height="72" />
 
-*In Vas Mani* — Fourth Circle Magery
+<p class="uo-runic" title="In Vas Mani">In Vas Mani</p>
+
+***In Vas Mani*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
 
 Restores a large amount of hit points to the target, but fails on poisoned or mortally wounded targets.
 
@@ -26,7 +28,7 @@ Restores a large amount of hit points to the target, but fails on poisoned or mo
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Garlic, Ginseng, Mandrake Root, Spiders' Silk |
-| Words of power | In Vas Mani |
+| Words of power | <span class="uo-runic">In Vas Mani</span> &nbsp; *In Vas Mani* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

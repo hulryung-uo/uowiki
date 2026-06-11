@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/4.png" class="uo-sprite" alt="Heal spell icon" width="72" height="72" />
 
-*In Mani* — First Circle Magery
+<p class="uo-runic" title="In Mani">In Mani</p>
+
+***In Mani*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
 
 Instantly restores a small amount of hit points to the target, but fails on poisoned or mortally wounded targets.
 
@@ -26,7 +28,7 @@ Instantly restores a small amount of hit points to the target, but fails on pois
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Ginseng, Spiders' Silk |
-| Words of power | In Mani |
+| Words of power | <span class="uo-runic">In Mani</span> &nbsp; *In Mani* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

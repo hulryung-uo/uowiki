@@ -134,3 +134,5 @@ Skill values come from `MagerySpell.GetCastSkills` (success chance ramps linearl
 | <img src="/img/spells/64.png" class="uo-sprite" alt="" width="44" height="44" /> | [Water Elemental](/magic/circle-8/water-elemental/) | *Kal Vas Xen An Flam* | Bloodmoss, Mandrake Root, Spiders' Silk |
 
 See also: [Reagents](/magic/reagents/)
+
+Each spell page shows its words of power in the <span class="uo-runic">Britannian</span> runic alphabet — font *New Britannia Runic* (Carved) by Dame Lori, community free-use, via the [Ultima Codex Lycaeum](https://lycaeum.ultimacodex.com/new-britannia-runic-fonts-6-styles/).

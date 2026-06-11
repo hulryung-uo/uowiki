@@ -13,7 +13,9 @@ last_verified: 2026-06-11
 
 <img src="/img/spells/21.png" class="uo-sprite" alt="Telekinesis spell icon" width="72" height="72" />
 
-*Ort Por Ylem* — Third Circle Magery
+<p class="uo-runic" title="Ort Por Ylem">Ort Por Ylem</p>
+
+***Ort Por Ylem*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
 
 Manipulates an item, lever or container from a distance, triggering or opening it remotely.
 
@@ -26,7 +28,7 @@ Manipulates an item, lever or container from a distance, triggering or opening i
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Bloodmoss, Mandrake Root |
-| Words of power | Ort Por Ylem |
+| Words of power | <span class="uo-runic">Ort Por Ylem</span> &nbsp; *Ort Por Ylem* |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).
