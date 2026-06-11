@@ -35,11 +35,21 @@ abilities in. See [combat basics](/playing/combat-basics/),
 
 ## How to train it
 
-- **Low skill** — use the cheaper abilities repeatedly in combat against weak creatures.
-- **Mid/high skill** — keep activating abilities every fight; gains come from use in combat,
-  so an active fighting style trains it. Specifics are **unverified**.
+**Quick start:** an NPC Samurai (Hamato, or a Samurai trainer in the Tokuno towns) teaches
+Bushido up to **one-third of its own skill, capped at 42.0**
+(`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Bushido rises from **using its abilities in combat**, so an active samurai fighting style
+trains it:
+
+- **Low skill** — toggle the cheaper stances/abilities (Confidence, Evasion) and fight weak
+  creatures so each ability fires.
+- **Mid/high skill** — keep activating abilities every fight against tougher foes; harder
+  fights hold the gain window, and GGS pays out the slow late points. Some specifics are
+  **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

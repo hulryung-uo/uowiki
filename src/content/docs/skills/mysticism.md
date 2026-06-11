@@ -33,11 +33,19 @@ plus the higher of your Focus or Imbuing. See [spellcasting](/playing/spellcasti
 
 ## How to train it
 
-- **Low skill** — cast the cheap spells (Nether Bolt, Healing Stone) repeatedly.
-- **Mid/high skill** — cast steadily in combat; the stronger spells hold the gain window
-  late. Specifics are **unverified**.
+**Quick start:** a Mystic trainer NPC teaches Mysticism up to **one-third of its own skill,
+capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Mysticism rises from **casting its spells** (cast chance scales with Mysticism + your
+[Focus](/skills/focus/) or [Imbuing](/skills/imbuing/), so keep one of those up). Spells need
+reagents:
+
+- **Low skill** — cast the cheap spells (Nether Bolt, Healing Stone) repeatedly.
+- **Mid/high skill** — cast steadily in combat; the stronger spells hold the gain window late,
+  and GGS pays out the slow late points. Some specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

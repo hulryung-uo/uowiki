@@ -35,12 +35,20 @@ intensity. See [crafting](/playing/crafting/).
 
 ## How to train it
 
-- **Low/mid skill** — imbue cheap, low-intensity properties onto disposable items.
-- **High skill** — imbue higher-intensity properties; the highest tiers (and the
-  500-skill-equivalent intensity work) hold the gain window late. Specifics are
-  **unverified**.
+**Quick start:** an SA Imbuing trainer NPC (in the gargoyle city of Ter Mur) teaches Imbuing
+up to **one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first if you can reach
+one (few NPCs have it).
 
-See [skill gain](/mechanics/skill-gain/).
+Imbuing rises from **imbuing properties onto items at the Soul Forge** — work the hardest
+intensity that still has a workable success %, stepping up as skill climbs:
+
+- **Low/mid skill** — imbue cheap, low-intensity properties onto disposable rings/bracelets.
+- **High skill** — imbue higher-intensity properties; the highest tiers hold the gain window
+  late, and GGS pays out the slow late points. Keep a **bulk supply of imbuing ingredients**
+  so a session never stops. Some specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

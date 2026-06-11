@@ -30,10 +30,15 @@ the fire is established you can safely log out near it or rest. See
 
 ## How to train it
 
-- **Low/high skill** — repeatedly make and light camps with kindling. It is a slow, low-stakes
-  skill; just keep pitching camps.
+**No town trainer.** Camping is taught only by Healer-type NPCs, not ordinary town vendors, so
+for most players there is no convenient trainer — train it by use. The method: **make
+kindling, then light a campfire, repeatedly.**
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low/high skill** — chop a log into kindling (or buy kindling) and Use it to pitch a
+  campfire, over and over. It is a slow, low-stakes skill; just keep pitching camps in a loop
+  and let GGS carry the slow points.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

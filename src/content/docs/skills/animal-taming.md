@@ -49,8 +49,10 @@ exercise Animal Lore (checked 0–120).
 
 ## Training
 
-- **0–30:** buy initial skill from an animal trainer, then tame everything in a farm field —
-  rabbits, birds, sheep, cows. Release and re-tame; a fresh target is needed for each attempt.
+- **0–30:** buy initial skill from an NPC Animal Trainer — a trainer teaches up to **one-third
+  of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`). Then tame everything in a farm field — rabbits,
+  birds, sheep, cows. Release and re-tame; a fresh target is needed for each attempt.
 - **30–60:** horses (29.1) are the classic mid-range target — tame, release, repeat. The
   [Skara Brae](/world/skara-brae/) fields and Britain's farmland both work.
 - **60–90:** progress through tougher wilderness spawn — the rule of thumb from the formula:
@@ -59,7 +61,9 @@ exercise Animal Lore (checked 0–120).
 - **90–100+:** dragons (Destard) and nightmares (Fire Dungeon) — bring protection or a
   very good escape plan, since difficult tames fail often and the subjects object violently.
 
-Anti-macro is off on this shard, and GGS guarantees the painful late points eventually land.
+The universal rule is **tame up the difficulty ladder**, always on a creature whose tame skill
+is near yours. Anti-macro is off on this shard, and GGS guarantees the painful late points
+eventually land. See [using & training skills](/playing/using-and-training-skills/).
 
 ## Related skills
 

@@ -32,11 +32,19 @@ that point are revealed (your own roll vs. their Hiding/Stealth). See
 
 ## How to train it
 
-- **Low/high skill** — use the skill repeatedly in areas where hidden things plausibly are
-  (dungeons, near other players). Reveals against actual concealed targets are the reliable
-  gainers; a training partner who hides repeatedly is the fastest route.
+**Quick start:** an NPC Ranger or Thief teaches Detect Hidden up to **one-third of its own
+skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+The trick: **Use the skill over and over with a hidden target in range to reveal.**
+
+- **Low/high skill** — the fastest route is a **training partner who keeps re-hiding**
+  ([Hiding](/skills/hiding/)) while you reveal them repeatedly; reveals against actual
+  concealed targets are the reliable gainers. Failing that, spam it in dungeons / near other
+  players where hidden things plausibly are. GGS guarantees the slow late points as long as
+  you keep using it.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

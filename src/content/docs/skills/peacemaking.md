@@ -31,11 +31,18 @@ then the Peacemaking roll lands the effect.
 
 ## How to train it
 
+**Train [Musicianship](/skills/musicianship/) first** — every Peace attempt rolls against it,
+so it just fails until Music is high. An NPC Bard teaches Peacemaking up to **one-third of its
+own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then the universal method:
+**peace the toughest target you still succeed on, repeatedly** — barding difficulty scales
+with the target.
+
 - **Low skill** — peace weak creatures with a quality instrument.
 - **Mid/high skill** — peace tougher creatures; harder targets keep you in the gain window.
-  High [Musicianship](/skills/musicianship/) is required so attempts succeed.
+  GGS pays out the slow late points as long as you keep using it.
 
-See [skill gain](/mechanics/skill-gain/).
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

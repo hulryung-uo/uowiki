@@ -34,12 +34,21 @@ Chivalry, which draw on that pool (and mana) instead of reagents. See
 
 ## How to train it
 
-- **Low skill** — cast the cheap, always-useful spells (Divine Fury, Consecrate Weapon) in
-  combat against weak foes.
-- **Mid/high skill** — cast steadily while fighting undead/demons where the school shines.
-  Specifics are **unverified**; keep your tithing pool stocked.
+**Quick start:** a Paladin/Keeper of Chivalry NPC teaches Chivalry up to **one-third of its
+own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`; on this EJ shard the post-AOS schools are
+teachable) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Chivalry rises from **casting its spells**, which consume **tithing points** rather than
+reagents — donate gold at a shrine/holy place to stock your tithe pool first:
+
+- **Low skill** — cast the cheap, always-useful spells (Divine Fury, Consecrate Weapon)
+  repeatedly in combat against weak foes.
+- **Mid/high skill** — cast steadily while fighting undead/demons where the school shines.
+  Keep the tithing pool topped up, and GGS pays out the slow late points. Some specifics are
+  **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

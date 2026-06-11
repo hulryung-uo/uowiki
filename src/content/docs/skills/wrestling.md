@@ -30,11 +30,20 @@ stamina/mana like other weapon moves. See [combat basics](/playing/combat-basics
 
 ## How to train it
 
-- **Low skill** — punch weak creatures bare-handed.
-- **High skill** — keep fighting unarmed; on a mage it climbs while you tank melee and cast.
-  Fighting something that hits you trains the defensive side.
+**Quick start:** an NPC trainer who knows Wrestling teaches up to **one-third of its own
+skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Wrestling trains **unarmed** — and crucially, **while casting**: a mage keeps empty hands, so
+Wrestling rises whenever you melee or are meleed, even mid-fight. The universal method:
+**fight something slightly tougher than you can faceroll** so each swing is in the gain window.
+
+- **Low skill** — punch weak creatures bare-handed; pair with [Tactics](/skills/tactics/) and
+  [Anatomy](/skills/anatomy/) from the same fights.
+- **High skill** — keep fighting unarmed; on a mage it climbs while you tank melee and cast,
+  and fighting something that hits you trains the defensive side. GGS covers the late points.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

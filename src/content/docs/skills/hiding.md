@@ -42,5 +42,12 @@ standing on the Minoc mountainside, far from any cover gimmick:
   attempts.
 
 There is no consumable cost, so Hiding is pure time-for-skill — the cheapest
-profession entry in the game. Pair it with [Stealth](/skills/) once Hiding is
-high enough to move while hidden.
+profession entry in the game. The concrete method is simply **stand still away
+from others and Use Hide on repeat** (gains best when no one is near); pair it
+with [Stealth](/skills/stealth/) once Hiding clears its requirement so you can
+move while hidden.
+
+No standard town vendor teaches Hiding (only Ranger/Thief NPCs carry it), so
+there's no real buy-up shortcut — but GGS still guarantees the slow late points
+as long as you keep hiding. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).

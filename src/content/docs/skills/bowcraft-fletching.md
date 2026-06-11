@@ -32,12 +32,19 @@ damage. See [crafting](/playing/crafting/) and [gathering resources](/playing/ga
 
 ## How to train it
 
+**Quick start:** an NPC trainer (a Bowyer or Ranger) teaches Fletching up to **one-third of
+its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then make the hardest piece
+that still has a workable success %, stepping up as skill climbs:
+
 - **Low skill** — fletch arrows and shafts; cheap and fast.
 - **Mid skill** — bows and crossbows.
 - **High skill** — heavy crossbows and the hardest pieces give the steadiest late gains;
   exceptional results become more frequent.
 
-See [skill gain](/mechanics/skill-gain/). Recipe skill thresholds live in
+Keep a **bulk supply of boards** so a session runs uninterrupted; GGS pays out the slow late
+points as long as you keep crafting. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/). Recipe thresholds live in
 `Scripts/Services/Craft/DefBowFletching.cs`.
 
 ## Mechanics & numbers

@@ -31,12 +31,19 @@ first with [Remove Trap](/skills/remove-trap/). See [gathering resources](/playi
 
 ## How to train it
 
-- **Low/mid skill** — pick easy locks. [Tinkers](/skills/tinkering/) can craft locked boxes
-  at a chosen difficulty, the classic training setup.
-- **High skill** — pick harder dungeon and treasure chests; treasure-map chests scale their
-  lock to map level.
+**Quick start:** an NPC Tinker or Thief Guildmaster teaches Lockpicking up to **one-third of
+its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+The classic rig: **have a [Tinker](/skills/tinkering/) craft locked boxes whose lock matches
+your skill, and pick them in a loop** (re-lock and repeat).
+
+- **Low/mid skill** — pick those tinker-made boxes; set the lock difficulty just above your
+  skill so each pick sits in the gain window.
+- **High skill** — pick harder dungeon and treasure chests; treasure-map chests scale their
+  lock to map level. GGS guarantees the slow late points as long as you keep picking.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

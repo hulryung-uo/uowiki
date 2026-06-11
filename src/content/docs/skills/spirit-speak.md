@@ -33,11 +33,17 @@ intelligible to you while your Spirit Speak is high enough. See
 
 ## How to train it
 
-- **Low/high skill** — activate the skill repeatedly, ideally near corpses (channeling a
-  corpse both heals and trains). Fighting and killing creatures produces a steady supply of
-  corpses to channel.
+**No town trainer.** Spirit Speak is taught only by Healer-type NPCs, not ordinary town
+vendors — for most players there is effectively no trainer, so train it by use. The check
+fires on each Use (`Scripts/Skills/SpiritSpeak.cs`: `CheckSkill(SpiritSpeak, 0, 100)`, and a
+second `CheckSkill(SpiritSpeak, 0.0, 120.0)` when you channel a corpse to heal).
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low/high skill** — Use the skill repeatedly, ideally **next to a fresh corpse** so the
+  channel-heal fires (channeling both heals you and trains). Fighting and killing creatures
+  produces a steady supply of corpses; just kill, channel, repeat. GGS guarantees the slow
+  late points as long as you keep using it.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

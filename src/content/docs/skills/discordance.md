@@ -32,12 +32,18 @@ debuff is applied for a duration. See [combat basics](/playing/combat-basics/).
 
 ## How to train it
 
-- **Low skill** — discord weak creatures with a quality instrument.
-- **Mid/high skill** — discord progressively tougher creatures; harder targets keep you in
-  the gain window. A high [Musicianship](/skills/musicianship/) is required so attempts don't
-  simply fail.
+**Train [Musicianship](/skills/musicianship/) first** — every Discord attempt rolls against
+it, so it just fails until Music is high. An NPC Bard teaches Discordance up to **one-third of
+its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then the universal method:
+**discord the toughest target you still succeed on, repeatedly** — barding difficulty scales
+with the target.
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low skill** — discord weak creatures with a quality instrument.
+- **Mid/high skill** — discord progressively tougher creatures; harder targets keep you in the
+  gain window. GGS pays out the slow late points as long as you keep using it.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

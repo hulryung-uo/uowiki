@@ -31,11 +31,19 @@ you forge or sew. See [crafting](/playing/crafting/).
 
 ## How to train it
 
-- **Low/mid skill** — repeatedly examine weapons and armor (a stack of crafted or looted
-  items works); it is one of the faster passive skills to raise.
-- **High skill** — keep examining gear, or let it ride along while you craft.
+**Quick start:** an NPC trainer (a Samurai or weapon/armor vendor with the skill) teaches up
+to **one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Arms Lore is an active **"read"** skill — Use it on a weapon or armor piece and it rolls a
+gain check each time:
+
+- **Low/mid skill** — keep a stack of crafted daggers or looted armor and examine them over
+  and over; it is one of the faster read-skills to raise.
+- **High skill** — keep examining gear, or let it ride along while you craft. GGS guarantees
+  the slow late points if you keep reading.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

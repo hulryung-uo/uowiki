@@ -31,12 +31,18 @@ skill — brings a dead pet back. See [healing (how to play)](/playing/healing/)
 
 ## How to train it
 
-- **Low/mid skill** — vet a pet that has taken light damage (let it fight something weak,
-  then bandage it) repeatedly.
-- **High skill** — keep healing a pet through tougher fights; curing and resurrecting hold
-  the gain window late.
+**Quick start:** an NPC Veterinarian/Animal Trainer teaches Veterinary up to **one-third of
+its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. The method is simple:
+**bandage a wounded pet, repeatedly.**
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low/mid skill** — vet a pet that has taken light damage (let it fight something weak, then
+  bandage it) over and over; keep a stack of bandages on hand.
+- **High skill** — keep healing a pet through tougher fights; curing poison and resurrecting a
+  dead pet hold the gain window late. GGS pays out the slow late points.
+
+Veterinary reads both itself and [Animal Lore](/skills/animal-lore/) — keep Lore up alongside.
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

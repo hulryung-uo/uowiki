@@ -32,12 +32,21 @@ shows current loyalty and condition.
 
 ## How to train it
 
+**Quick start:** an NPC Animal Trainer/Rancher/Veterinarian teaches Animal Lore up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`), so buy to ~30–42 first.
+
+Animal Lore is an active **"read"** skill — target a creature and Use it; each read rolls a
+gain check.
+
 - **Low skill** — lore weak, common animals around town and farms (chickens, sheep, cats,
   see the [animals bestiary](/bestiary/animals/)).
 - **Mid/high skill** — lore tougher creatures; harder targets keep you inside the gain
-  window longer. Loring anything fresh repeatedly will climb the skill.
+  window longer. If you have a tamer, **lore your own pets** repeatedly — always available,
+  always fresh.
 
-See [skill gain](/mechanics/skill-gain/).
+Just keep loring something new and GGS carries the slow late points. See
+[skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

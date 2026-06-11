@@ -35,11 +35,21 @@ Cast from the necromancer spellbook with the necro reagents and mana. The wraith
 
 ## How to train it
 
-- **Low skill** — cast the cheap spells (Curse Weapon, Corpse Skin) repeatedly.
-- **Mid/high skill** — cast steadily in combat; the higher spells and forms hold the gain
-  window. Specifics are **unverified**.
+**Quick start:** the Umbra necromancer trainer (Mulcivikh) teaches Necromancy up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`; teachable on this EJ shard) — buy to
+~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Necromancy rises from **casting its spells**, which consume reagents — keep a stock of nox
+crystals, grave dust, bat wings, etc.:
+
+- **Low skill** — cast the cheap spells (Curse Weapon, Corpse Skin) over and over; they're
+  mana-light and train fast.
+- **Mid/high skill** — cast steadily in combat; the higher spells and forms (e.g. Wraith Form,
+  Vampiric Embrace) hold the gain window, and GGS pays out the slow late points. Some
+  specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

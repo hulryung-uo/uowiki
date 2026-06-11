@@ -33,11 +33,18 @@ hostile-able to each other.
 
 ## How to train it
 
-- **Low skill** — provoke pairs of weak creatures against each other.
-- **Mid/high skill** — provoke progressively tougher pairs; the combined difficulty of the
-  two targets sets the gain window. High [Musicianship](/skills/musicianship/) is mandatory.
+**Train [Musicianship](/skills/musicianship/) first** — every Provoke attempt rolls against
+it, so it just fails until Music is high. An NPC Bard teaches Provocation up to **one-third of
+its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then the universal method:
+**provoke the toughest pair you still succeed on, repeatedly** — barding difficulty scales
+with the targets.
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low skill** — provoke pairs of weak creatures against each other.
+- **Mid/high skill** — provoke progressively tougher pairs; the combined difficulty of the two
+  targets sets the gain window. GGS pays out the slow late points as long as you keep using it.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

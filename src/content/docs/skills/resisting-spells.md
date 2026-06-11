@@ -31,11 +31,18 @@ you. There is no activation; you simply benefit from having the skill when magic
 
 ## How to train it
 
-- **Low/high skill** — gains come from **being targeted by hostile magic**. A training
-  partner casting harmless/weak spells at you, or fighting spellcasting monsters
-  (see the [bestiary](/bestiary/)), raises it.
+**No town trainer.** Resisting Spells is not on any NPC vendor's teach list, so there is no
+shortcut — you train it purely by **being hit by spells**. The skill check fires on the
+*target* of a spell (`Scripts/Spells/Base/MagerySpell.cs`:
+`target.CheckSkill(SkillName.MagicResist, ...)`, and `SpellHelper.cs`), and only while your
+resist is below the spell's window.
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low/high skill** — have a training partner cast harmless/weak spells *at you*, or fight
+  spellcasting monsters (see the [bestiary](/bestiary/)) and let them blast you. Each hostile
+  spell that lands on you rolls a gain. GGS guarantees the slow late points as long as the
+  spells keep coming.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

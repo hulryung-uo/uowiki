@@ -33,10 +33,17 @@ roll shows its identification and, for magic items, the unravel result. See
 
 ## How to train it
 
-- **Low/high skill** — identify items repeatedly. A stack of crafted or looted gear gives
-  endless targets; it is one of the quicker passive skills to GM.
+**Quick start:** an NPC trainer who knows Item ID teaches up to **one-third of its own skill,
+capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Item ID is an active **"read"** skill — Use it on an item and it rolls a gain check each time:
+
+- **Low/high skill** — keep a stack of crafted or looted gear and identify it over and over;
+  any item works as a target, so this is one of the quickest skills to GM.
+
+Just keep identifying and GGS pays out the slow late points. See
+[skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

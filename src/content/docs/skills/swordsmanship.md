@@ -40,8 +40,11 @@ skill; per-weapon move lists are out of scope here (see the weapons reference wh
 The skill gains when you swing at something your level — the standard
 [gain rules](/mechanics/skill-gain/) apply to combat checks:
 
-- **0–30:** buy from an NPC weaponsmith/warrior trainer; then bash training dummies (low cap)
-  and harmless wildlife.
+- **0–30:** buy from an NPC weaponsmith/warrior trainer — a trainer teaches up to **one-third
+  of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`) — then bash training dummies (low cap) and
+  harmless wildlife. Train **Swordsmanship + [Tactics](/skills/tactics/) +
+  [Anatomy](/skills/anatomy/) together** on the same monsters.
 - **30–70:** escalate through the bestiary — the [Britain](/world/britain/) graveyard, Orc
   Cave, and Despise are the classic ladder.
 - **70–100+:** tougher dungeon spawn keeps checks challenging; GGS covers the dry spells.
@@ -49,6 +52,8 @@ The skill gains when you swing at something your level — the standard
 
 A practical note: the *gain* comes from the swing's difficulty check, not from killing —
 durable, low-damage opponents are training partners, not loot.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Equipment
 

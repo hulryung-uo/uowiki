@@ -31,11 +31,20 @@ Intelligence and mana. It is a near-mandatory support skill on any battle mage. 
 
 ## How to train it
 
-- **Low/mid skill** — use the skill on creatures to read their Int, or simply cast damage
-  spells in combat where it climbs alongside Magery.
-- **High skill** — let it ride in combat; harder fights keep both Magery and Eval Int gaining.
+**Quick start:** an NPC Mage teaches Eval Int up to **one-third of its own skill, capped at
+42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Eval Int is an active **"read"** skill, but note it only targets things you *could cast on* —
+a living creature, not an item.
+
+- **Low/mid skill** — Use it on creatures to read their Int repeatedly; a tethered or weak
+  monster is an endless target. Or simply cast damage spells in combat, where it climbs
+  alongside Magery (it scales your spell damage).
+- **High skill** — let it ride in combat; harder fights keep both Magery and Eval Int gaining,
+  and GGS pays out the slow late points.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

@@ -32,12 +32,20 @@ forensic information — for example, the names of those who have looted the bod
 
 ## How to train it
 
-- **Low/mid skill** — evaluate corpses you come across (your own kills work). Repeated use
-  raises it slowly.
-- **High skill** — keep evaluating; the highest-tier reads (against skilled thieves) hold the
-  gain window open. Specifics are **unverified**.
+**No town trainer.** Forensic Evaluation is taught only by Healer-type NPCs, not standard
+town vendors — for most players there is no convenient trainer, so train it by use from the
+start. (Where a Healer does teach it, the cap is **one-third of its skill, capped at 42.0** —
+`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach.)
 
-See [skill gain](/mechanics/skill-gain/).
+Forensics is an active **"read"** skill — Use it on a corpse (or to inspect a thief's loot
+record) and it rolls a gain check each time:
+
+- **Low/mid skill** — evaluate every corpse you come across; your own kills give a steady
+  supply, so fight something weak and read each body.
+- **High skill** — keep evaluating; harder reads hold the gain window open, and GGS pays out
+  the slow late points if you keep using it. Some high-end specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

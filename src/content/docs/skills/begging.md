@@ -31,10 +31,18 @@ a little gold (or, rarely, a small reward item). See
 
 ## How to train it
 
-- **Low/high skill** — beg from town NPCs repeatedly. There is a per-use cooldown, so
-  Begging is slow to raise; just keep targeting fresh NPCs around a busy town.
+**Trainer is rare.** Only a wandering Gypsy NPC teaches Begging — no fixed town vendor — but
+where you find one it teaches up to **one-third of its own skill, capped at 42.0**
+(`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`).
 
-See [skill gain](/mechanics/skill-gain/).
+The method is just **Use it on town NPCs in a loop:**
+
+- **Low/high skill** — beg from town NPCs repeatedly. There is a notable per-use cooldown
+  (`Scripts/Skills/Begging.cs` returns a long re-use delay), so Begging is slow to raise; just
+  keep targeting fresh NPCs around a busy town and let GGS carry the slow points.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

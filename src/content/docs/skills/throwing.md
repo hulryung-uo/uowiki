@@ -35,11 +35,20 @@ attack a target at range; mind the optimal distance. Damage scales with the weap
 
 ## How to train it
 
+**Quick start (gargoyle skill):** the SA trainer NPC who knows Throwing teaches up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first if you can find
+one (Throwing is a Stygian Abyss skill with few trainers).
+
+The universal method: **fight monsters slightly tougher than you can faceroll** so each throw
+sits in your gain window, and train **Throwing + [Tactics](/skills/tactics/) +
+[Anatomy](/skills/anatomy/) together**.
+
 - **Low skill** — throw at weak creatures from range.
 - **Mid/high skill** — fight tougher monsters at the weapon's effective range; gains come
-  from combat. Specifics are **unverified**.
+  from combat, and GGS covers the slow late points. Some specifics are **unverified**.
 
-See [skill gain](/mechanics/skill-gain/).
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

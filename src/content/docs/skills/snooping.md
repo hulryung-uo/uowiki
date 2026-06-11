@@ -33,10 +33,16 @@ roll reveals the contents; a noticed snoop on a player risks criminal status. Se
 
 ## How to train it
 
-- **Low/high skill** — snoop packs repeatedly. A fellow thief who lets you snoop a stocked
-  pack is the classic training partner; NPCs also work.
+**No regular town trainer.** Like Stealing, Snooping is a thief skill no ordinary vendor
+teaches (only a wandering Gypsy/Thief NPC carries it), so train it by use.
 
-See [skill gain](/mechanics/skill-gain/).
+The trick: **open and peek into other packs, repeatedly.**
+
+- **Low/high skill** — snoop packs over and over. A fellow thief who lets you snoop a stocked
+  pack is the classic training partner; **NPC backpacks also work**, so snoop wandering town
+  NPCs in a loop. GGS guarantees the slow late points as long as you keep snooping.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

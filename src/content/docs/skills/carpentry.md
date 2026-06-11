@@ -32,12 +32,19 @@ raises success and the chance of an exceptional result. See
 
 ## How to train it
 
+**Quick start:** an NPC Carpenter teaches up to **one-third of its own skill, capped at 42.0**
+(`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then make the hardest item
+that still has a workable success %, stepping up as skill climbs:
+
 - **Low skill** — craft simple items (shafts, basic furniture, instruments) for fast gains.
 - **Mid/high skill** — step up to harder furniture and add-ons; exceptional pieces become
   more frequent and more valuable.
 
-Recipe thresholds live in `Scripts/Services/Craft/DefCarpentry.cs`. See
-[skill gain](/mechanics/skill-gain/).
+Keep a **bulk supply of boards** so a session runs uninterrupted; GGS pays out the slow late
+points as long as you keep crafting the hardest thing you still succeed at. Recipe thresholds
+live in `Scripts/Services/Craft/DefCarpentry.cs`. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

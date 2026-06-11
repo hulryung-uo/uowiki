@@ -31,11 +31,19 @@ crafting menu and build the item. See [crafting](/playing/crafting/).
 
 ## How to train it
 
-- **Low skill** — craft simple tools and parts; cheap and fast.
+**Quick start:** an NPC Tinker teaches up to **one-third of its own skill, capped at 42.0**
+(`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then make the hardest part
+that still has a workable success %, stepping up as skill climbs:
+
+- **Low skill** — craft simple tools and parts; cheap and fast (and the wire/ingot ones are
+  the classic cheap grind — smelt or vendor the output and repeat).
 - **Mid/high skill** — work up to jewelry, traps, and clockwork for the steadiest gains.
 
-Recipe thresholds live in `Scripts/Services/Craft/DefTinkering.cs`. See
-[skill gain](/mechanics/skill-gain/).
+Keep a **bulk ingot supply** so a session runs uninterrupted; GGS pays out the slow late
+points as long as you keep crafting. Recipe thresholds live in
+`Scripts/Services/Craft/DefTinkering.cs`. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

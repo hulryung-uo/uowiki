@@ -32,10 +32,17 @@ combat, the bard skills automatically require a successful Musicianship play to 
 
 ## How to train it
 
-- **Low/high skill** — simply play an instrument repeatedly. It needs no target and trains
-  passively, so most bards max it before touching the active bard skills.
+**Quick start:** an NPC Bard teaches Musicianship up to **one-third of its own skill, capped
+at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+- **Low/high skill** — simply **play an instrument** (Use it, no target needed) over and over.
+  It trains with no target, so **most bards GM Musicianship first** — every active bard skill
+  ([Discordance](/skills/discordance/), [Peacemaking](/skills/peacemaking/),
+  [Provocation](/skills/provocation/)) rolls against it, so they fail until it's high. GGS
+  pays out the slow late points as long as you keep playing.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

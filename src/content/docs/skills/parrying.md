@@ -30,11 +30,19 @@ See [combat basics](/playing/combat-basics/) and [advanced combat](/playing/comb
 
 ## How to train it
 
-- **Low/high skill** — take hits in melee with a shield equipped. Parrying gains on
-  successful blocks, so fighting (or tanking) a creature that hits you steadily trains it.
-  Pair with [Healing](/skills/healing/) to outlast the punishment.
+**Quick start:** an NPC trainer who knows Parry (a Ninja or Samurai) teaches up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Parrying is passive: it rolls on **each incoming blow you successfully block**, so the method
+is to **stand and tank**.
+
+- **Low/high skill** — equip a shield (or, with Bushido/Ninjitsu, a weapon) and let a
+  creature that hits you steadily swing away. The harder it hits, the more block-checks you
+  bank. Pair with [Healing](/skills/healing/) and bandages to outlast the punishment, and pin
+  a low-damage durable monster so you tank without dying. GGS covers the slow late points.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

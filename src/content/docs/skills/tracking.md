@@ -32,11 +32,18 @@ the mobiles of that type in range; choose one and a quest-arrow points to it unt
 
 ## How to train it
 
-- **Low/high skill** — track repeatedly across the four categories wherever the relevant
-  mobiles exist. Busy areas (towns for humans, wilds for animals/monsters) keep targets
-  available.
+**Quick start:** an NPC Ranger teaches Tracking up to **one-third of its own skill, capped at
+42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+The trick: **Use Tracking over and over with targets in range** — each attempt rolls a gain.
+
+- **Low/high skill** — track repeatedly across the four categories wherever the relevant
+  mobiles exist. Busy areas keep targets available: **stand in a town for humans/animals**, or
+  in the wilds/a dungeon for monsters, and just keep tracking. GGS guarantees the slow late
+  points as long as you keep using it.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

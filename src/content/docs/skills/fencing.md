@@ -31,11 +31,19 @@ stamina/mana and your Mastery. See [combat basics](/playing/combat-basics/) and
 
 ## How to train it
 
+**Quick start:** an NPC trainer who knows Fencing (a Ninja or weapon vendor) teaches up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
+
+The universal method: **fight monsters slightly tougher than you can faceroll** so each swing
+sits in your gain window, and train **Fencing + [Tactics](/skills/tactics/) +
+[Anatomy](/skills/anatomy/) together** from the same fights.
+
 - **Low skill** — fight weak creatures with a fast fencing weapon (a dagger or short spear).
 - **Mid/high skill** — work up to tougher monsters; the fast swing speed of fencing weapons
-  means many attempts per minute, which trains it quickly.
+  means many attempts per minute, which trains it quickly. GGS covers the slow late points.
 
-See [skill gain](/mechanics/skill-gain/).
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

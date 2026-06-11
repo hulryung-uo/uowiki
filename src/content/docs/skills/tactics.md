@@ -45,6 +45,12 @@ Tactics skill check on each damage calculation. In practice:
   [gain curve](/mechanics/skill-gain/) with GGS as a safety net.
 - Strength is the primary stat, so hitting things also makes you stronger — Britannia's
   fitness program.
+- **Quick start:** an NPC weapon trainer also teaches Tactics up to **one-third of its own
+  skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42, then it rides up with every
+  fight. Train it with your weapon skill and [Anatomy](/skills/anatomy/) on the same monsters.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Related skills
 

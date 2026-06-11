@@ -31,12 +31,18 @@ is harder for tougher creatures. See [taming & pets](/playing/taming-and-pets/).
 
 ## How to train it
 
-- **Low skill** — herd weak, easily-tamed animals (sheep, chickens — see the
-  [animals bestiary](/bestiary/animals/)).
-- **Mid/high skill** — herd progressively tougher creatures whose taming difficulty puts you
-  in the gain window.
+**Quick start:** an NPC Ranger or Rancher teaches Herding up to **one-third of its own skill,
+capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+The method: **target a creature, then a destination tile, and drive it there — repeatedly.**
+
+- **Low skill** — herd weak, easily-driven animals (sheep, chickens — see the
+  [animals bestiary](/bestiary/animals/)) back and forth in a loop.
+- **Mid/high skill** — herd progressively tougher creatures whose difficulty puts you in the
+  gain window. GGS guarantees the slow late points as long as you keep herding.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

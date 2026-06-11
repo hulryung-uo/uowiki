@@ -32,11 +32,16 @@ from a boat). Each cast rolls for a catch. See
 
 ## How to train it
 
+**Quick start:** an NPC Fisherman teaches Fishing up to **one-third of its own skill, capped
+at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. After that it's a pure
+resource loop: just keep casting and **GGS carries it**.
+
 - **Low/mid skill** — fish from any shoreline or dock; catches and gains come steadily.
 - **High skill** — fish from a boat in deep water for the better hauls (special fish, MIBs,
   treasure) and to keep gaining.
 
-See [skill gain](/mechanics/skill-gain/).
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

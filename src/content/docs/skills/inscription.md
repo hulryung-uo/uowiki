@@ -33,12 +33,20 @@ to inscribe the scroll. For spellbooks/runebooks, use the pen on the blank book 
 
 ## How to train it
 
+**Quick start:** an NPC Scribe or Mage teaches Inscription up to **one-third of its own skill,
+capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. You must be able to *cast*
+the scroll's spell to scribe it, so train Magery alongside. Then scribe the highest-circle
+scroll that still has a workable success %, stepping up as skill climbs:
+
 - **Low skill** — scribe low-circle scrolls (circle 1–2); cheap reagents.
 - **Mid/high skill** — work up to the highest-circle scrolls you can cast; these give the
   steadiest gains and the best resale.
 
-Recipe thresholds live in `Scripts/Services/Craft/DefInscription.cs`. See
-[skill gain](/mechanics/skill-gain/).
+Keep a **bulk reagent + blank-scroll supply** so a session runs uninterrupted; GGS pays out
+the slow late points as long as you keep scribing. Recipe thresholds live in
+`Scripts/Services/Craft/DefInscription.cs`. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

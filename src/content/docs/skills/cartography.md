@@ -33,11 +33,18 @@ skill for treasure hunting, paired with [Mining](/skills/mining/) (to dig) and
 
 ## How to train it
 
+**Quick start:** an NPC Mapmaker teaches Cartography up to **one-third of its own skill,
+capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then make the hardest map
+that still has a workable success %, stepping up as skill climbs:
+
 - **Low skill** — craft local and city maps from blank maps (cheap, repeatable).
 - **Mid skill** — sea charts and world maps; then begin decoding low-level treasure maps.
 - **High skill** — decode higher-level treasure maps for the steadiest gains and the loot.
 
-See [skill gain](/mechanics/skill-gain/).
+Keep a **bulk supply of blank maps** so a session runs uninterrupted; GGS pays out the slow
+late points as long as you keep crafting/decoding. See [skill gain](/mechanics/skill-gain/)
+and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

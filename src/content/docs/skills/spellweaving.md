@@ -34,11 +34,18 @@ makes the spells stronger. See [spellcasting](/playing/spellcasting/) and
 
 ## How to train it
 
-- **Low skill** — cast the cheap spells (Arcane Circle, Gift of Renewal) repeatedly.
-- **Mid/high skill** — cast steadily in combat; the stronger spells hold the gain window.
-  Specifics are **unverified**.
+**No town trainer.** Spellweaving is an Elf school with no standard NPC vendor that teaches it
+(only rare/boss mobiles carry the skill), so train it by use from the start — you also need to
+complete the quest to learn the school before you can cast.
 
-See [skill gain](/mechanics/skill-gain/).
+Spellweaving rises from **casting its spells** (no reagents, but most spells scale with how
+many weavers share an Arcane Circle):
+
+- **Low skill** — cast the cheap spells (Arcane Circle, Gift of Renewal) repeatedly.
+- **Mid/high skill** — cast steadily in combat; the stronger spells hold the gain window, and
+  GGS pays out the slow late points. Some specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

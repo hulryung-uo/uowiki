@@ -33,10 +33,17 @@ regeneration bonus applies at all times. It also serves as the secondary skill t
 
 ## How to train it
 
-- Focus gains over time simply as you act and your stamina/mana regenerate. There is no
-  active grind; it climbs in the background while you play. Specifics are **unverified**.
+**Quick start:** Focus is a common NPC skill (many warrior and mage NPCs have it), so a
+trainer can teach it up to **one-third of its own skill, capped at 42.0**
+(`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+- Focus gains as you regenerate mana/stamina, so the practical method is to **spend and
+  recover**: cast or sprint to drain, then let it tick back, repeatedly. There is no targeted
+  grind — it climbs in the background while you play, and GGS guarantees the slow late points
+  as long as you keep acting. Specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

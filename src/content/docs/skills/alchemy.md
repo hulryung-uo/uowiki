@@ -34,7 +34,12 @@ more bottles per batch. See [crafting](/playing/crafting/) for the general craft
 
 ## How to train it
 
-Train the way you train any [crafting skill](/playing/crafting/): repeatedly mix the most
+**Quick start:** buy up from an NPC Alchemist — a town trainer teaches any skill it knows up
+to **one-third of its own value, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`, hard-capped at 420). Pay an alchemist
+up to ~30–42, then train by mixing.
+
+Then train the way you train any [crafting skill](/playing/crafting/): repeatedly mix the most
 difficult potion you can still attempt with a reasonable success rate, then step up as the
 skill climbs.
 
@@ -43,8 +48,11 @@ skill climbs.
 - **High skill** — deadly/greater potions and explosion potions give the steadiest late
   gains and the best resale value.
 
-Keep a bulk reagent supply and empty bottles on hand so a session is not interrupted. See
-[skill gain](/mechanics/skill-gain/) for how points are earned.
+Keep a bulk reagent supply and empty bottles on hand so a session is not interrupted; drink or
+vendor the output so you can keep mixing. GGS is active here, so even at high skill *keep
+brewing the hardest potion you still succeed at* and the guaranteed-gain timer pays out the
+slow late points. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

@@ -31,11 +31,19 @@ two hands or paired with a [shield](/skills/parrying/) depending on the weapon. 
 
 ## How to train it
 
+**Quick start:** an NPC trainer who knows Mace Fighting (a Ninja or weapon vendor) teaches up
+to **one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
+
+The universal method: **fight monsters slightly tougher than you can faceroll** so each swing
+sits in your gain window, and train **Mace Fighting + [Tactics](/skills/tactics/) +
+[Anatomy](/skills/anatomy/) together** from the same fights.
+
 - **Low skill** — fight weak creatures with a fast mace.
 - **Mid/high skill** — work up to tougher monsters; the armor/stamina damage makes maces
-  good against armored foes.
+  good against armored foes. GGS covers the slow late points as long as you keep swinging.
 
-See [skill gain](/mechanics/skill-gain/).
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

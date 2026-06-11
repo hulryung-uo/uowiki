@@ -46,14 +46,20 @@ Every cast consumes [reagents](/items/reagents/); spell-by-spell recipes live in
 Cast spells whose window brackets your skill — too easy gains nothing, too hard can't be cast
 (see [skill gain](/mechanics/skill-gain/)). A classic ladder:
 
-- **0–30:** buy initial skill from an NPC mage; cast 1st–2nd circle (Magic Arrow, Cure).
+- **0–30:** buy initial skill from an NPC Mage — a trainer teaches up to **one-third of its
+  own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`). Then cast 1st–2nd circle (Magic Arrow, Cure).
 - **30–55:** 3rd–4th circle — Fireball, Lightning, Recall (Recall everywhere; it's useful *and* trains).
 - **55–75:** 5th–6th circle — Energy Bolt, Invisibility, Mark.
 - **75–100:** 7th–8th circle — Flamestrike, Gate Travel, summons. The 8th circle reaches
   "no challenge" only at 120, so it trains to the cap.
 
-Intelligence (primary stat) and Meditation determine how long you can keep casting; Eval Int
-scales the damage. GGS guarantees the slow last points eventually arrive.
+The universal method is the **spell ladder**: keep casting the offensive spell whose window
+brackets your skill (Fireball → Lightning → Energy Bolt → Flamestrike), stepping up each
+circle as the lower one stops gaining, and **mind your reagent supply** so a session never
+stops. Intelligence (primary stat) and Meditation determine how long you can keep casting;
+Eval Int scales the damage. GGS guarantees the slow last points eventually arrive. See
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Related skills
 

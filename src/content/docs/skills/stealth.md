@@ -32,12 +32,20 @@ Wearing too much non-medable (metal) armor stops you stealthing entirely.
 
 ## How to train it
 
-- **Low skill** — hide, then step carefully, repeating. It is slow at first because failed
-  steps reveal you.
-- **High skill** — keep moving while hidden; reliable steps come once skill is high. Pair
-  with high [Hiding](/skills/hiding/) so you can re-hide quickly when revealed.
+You must be **[Hidden](/skills/hiding/) first** — Stealth only rolls while you walk hidden, and
+each success banks steps equal to **`Stealth / 5`** (`Scripts/Skills/Stealth.cs`; ~20 steps at
+GM). An NPC Ranger/Thief will teach Stealth, but only once your Hiding meets the requirement
+(`BaseCreature.CheckTeach` blocks teaching Stealth below `Stealth.HidingRequirement`), and it
+caps at the usual **one-third of the NPC's skill, max 42.0**.
 
-See [skill gain](/mechanics/skill-gain/).
+The method: **Hide, then walk in stealth until revealed, re-hide, repeat.**
+
+- **Low skill** — hide, then step carefully; it's slow at first because failed steps reveal
+  you. Keep [Hiding](/skills/hiding/) high so you can re-hide instantly and resume walking.
+- **High skill** — keep moving while hidden; reliable steps come once skill is high. Watch
+  your armor — too much non-medable armor blocks stealth entirely. GGS carries the late points.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

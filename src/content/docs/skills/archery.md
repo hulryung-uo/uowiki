@@ -31,10 +31,19 @@ interrupts the shot. Damage scales with the weapon, [Tactics](/skills/tactics/),
 
 ## How to train it
 
+**Quick start:** an NPC trainer who knows Archery (a Ranger or weapon vendor) teaches up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
+
+The universal method: **fight monsters slightly tougher than you can faceroll** so each shot
+sits in your gain window, and train **Archery + [Tactics](/skills/tactics/) +
+[Anatomy](/skills/anatomy/) together** — all three rise from the same fights.
+
 - **Low skill** — shoot weak creatures (or train-dummy archery butts where available) from
   range, keeping ammo stocked.
 - **Mid/high skill** — fight progressively tougher monsters; pair with a
-  [Fletcher](/skills/bowcraft-fletching/) to keep your own ammunition and bows supplied.
+  [Fletcher](/skills/bowcraft-fletching/) to keep your own ammunition and bows supplied. GGS
+  covers the slow late points as long as you keep shooting.
 
 See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 

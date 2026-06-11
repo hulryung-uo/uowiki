@@ -54,10 +54,14 @@ axe hits roughly 30% harder from this bonus alone. Pairs famously with
 
 ## Training
 
-- **0–10:** buy from an NPC or chop — every use gains below 10.0.
-- **10–100:** chop trees. Standard [gain rules](/mechanics/skill-gain/) apply; anti-macro is
-  off, and GGS guarantees slow-but-steady progress at high skill. Strength trains alongside
-  (primary stat), which also raises your carry capacity for hauling logs.
+- **0–10:** buy from an NPC who knows it (a trainer teaches up to **one-third of its own
+  skill, capped at 42.0** — `Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`) or just chop — every use gains below 10.0.
+- **10–100:** chop trees in a loop — it's a pure resource grind and GGS carries it. Standard
+  [gain rules](/mechanics/skill-gain/) apply; anti-macro is off, and GGS guarantees
+  slow-but-steady progress at high skill. Strength trains alongside (primary stat), which also
+  raises your carry capacity for hauling logs. See
+  [using & training skills](/playing/using-and-training-skills/).
 
 ## Where
 

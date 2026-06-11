@@ -50,14 +50,18 @@ you can also turn up ML bonus gems (blue diamond, fire ruby, etc., 0.1% each) pe
 
 ## Training
 
-- **0–10:** buy skill from an NPC miner or just dig — below 10.0 every use gains
-  ([skill gain rules](/mechanics/skill-gain/)).
-- **10–99+:** dig, endlessly. Gains follow the standard formula; anti-macro is
-  **off** on this shard, so one good mountainside works. The GGS timer guarantees progress
-  even through dry streaks.
+- **0–10:** buy skill from an NPC miner (e.g. a Harbor Master) — a trainer teaches up to
+  **one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+  CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — or just dig; below 10.0 every use
+  gains ([skill gain rules](/mechanics/skill-gain/)).
+- **10–99+:** dig, endlessly — it's a pure resource loop and GGS carries it. Gains follow the
+  standard formula; anti-macro is **off** on this shard, so one good mountainside works. The
+  GGS timer guarantees progress even through dry streaks.
 - Carry weight is the real constraint — Strength (this skill's primary stat) conveniently
   trains alongside. Smelt at a forge to convert 2-stone ore into 0.1-stone ingots'
   worth of value.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Where
 

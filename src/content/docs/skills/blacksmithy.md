@@ -58,12 +58,16 @@ resource class for scale armor.
 
 ## Training
 
-- **0–30ish:** buy initial skill from an NPC smith, then daggers — cheap at 3 ingots.
+- **0–30ish:** buy initial skill from an NPC smith — a trainer teaches up to **one-third of
+  its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`). Then forge daggers — cheap at a few ingots.
 - **Mid skill:** craft items whose difficulty window brackets your skill (the gump shows
-  success percentages); smelt the results back to recover most ingots.
+  success percentages); **smelt the results back** to recover most ingots and repeat.
 - **High skill:** katanas and plate pieces keep the check challenging into the 90s+.
 - Crafting "use all resources" batches registers multiple gain checks at once
-  (`SkillCheck.cs`, Craft All Gains region). GGS applies as everywhere.
+  (`SkillCheck.cs`, Craft All Gains region). Keep a **bulk ingot supply** so a session never
+  stops, and GGS guarantees the slow late points as long as you keep making the hardest item
+  you still succeed at. See [using & training skills](/playing/using-and-training-skills/).
 
 ## Where
 

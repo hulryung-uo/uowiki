@@ -34,11 +34,18 @@ playstyle. See [hiding & stealth](/playing/hiding-and-stealth/) and
 
 ## How to train it
 
-- **Low skill** — use Animal Form and the cheap abilities repeatedly.
-- **Mid/high skill** — weave stealth attacks and forms into combat; gains come from use.
-  Specifics are **unverified**.
+**Quick start:** an NPC Ninja (or a Ninja trainer in the Tokuno towns) teaches Ninjitsu up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+Ninjitsu rises from **using its abilities** — the cheapest reliable trainer is **Animal Form**:
+
+- **Low skill** — shift into Animal Form (and back) and use the cheap abilities repeatedly; it
+  costs only mana, so it's an easy loop.
+- **Mid/high skill** — weave stealth attacks and forms into combat; harder use holds the gain
+  window, and GGS pays out the slow late points. Some specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

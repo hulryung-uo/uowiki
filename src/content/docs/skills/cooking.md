@@ -31,12 +31,18 @@ ingredients and bake the result. See [crafting](/playing/crafting/) and
 
 ## How to train it
 
-- **Low skill** — bake bread and cook simple meats; cheap, repeatable.
-- **Mid/high skill** — work up to the more complex dishes; success rate climbs and burns
-  drop.
+**Quick start:** an NPC Cook/Baker teaches up to **one-third of its own skill, capped at
+42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then make the hardest dish
+that still has a workable success %, stepping up as skill climbs:
 
-Recipe thresholds live in `Scripts/Services/Craft/DefCooking.cs`. See
-[skill gain](/mechanics/skill-gain/).
+- **Low skill** — bake bread and cook simple meats; cheap, repeatable.
+- **Mid/high skill** — work up to the more complex dishes; success rate climbs and burns drop.
+
+Keep a **bulk supply of flour, water, and raw food** so a session runs uninterrupted; GGS
+pays out the slow late points as long as you keep cooking. Recipe thresholds live in
+`Scripts/Services/Craft/DefCooking.cs`. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

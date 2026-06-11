@@ -63,14 +63,16 @@ Dexterity is the bandage stat — another reason warriors love it.
 
 ## Training
 
-- **0–60:** buy from an NPC healer, then bandage yourself after taking modest damage.
+- **0–60:** buy from an NPC Healer — a trainer teaches up to **one-third of its own skill,
+  capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+  `baseToSet = ourSkill.BaseFixedPoint / 3`). Then bandage yourself after taking modest damage.
   Sparring with a partner (or a weak monster you out-armor) provides steady wounds.
 - **60–80:** add cure practice — lesser poison from training or wandering snakes.
 - **80–100:** resurrection attempts give the best checks; ghosts are rarely in short supply
   outside a dungeon entrance. Standard [gain rules](/mechanics/skill-gain/) and GGS apply.
 
 Keep **Anatomy training in lockstep** — every formula above reads both skills, and the 60/80
-thresholds check both.
+thresholds check both. See [using & training skills](/playing/using-and-training-skills/).
 
 ## Related skills
 

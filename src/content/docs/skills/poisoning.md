@@ -33,12 +33,20 @@ weapon (or food). The skill check decides whether the poison takes. See
 
 ## How to train it
 
+**No town trainer.** Poisoning has no standard NPC vendor that teaches it (only a Dryad
+carries it), so train it by use from the start. The method: **apply a poison potion to a
+weapon, food, or dart, repeatedly** — `Scripts/Skills/Poisoning.cs` runs
+`CheckTargetSkill(SkillName.Poisoning, target, potion.MinPoisoningSkill,
+potion.MaxPoisoningSkill)`, so the **potion tier sets the difficulty window**. Step the potion
+up as your skill climbs:
+
 - **Low skill (0–60)** — apply **lesser** poison potions; matched to skill 0.0–60.0.
 - **Mid skill (30–70 / 60–100)** — **regular** then **greater** poison potions.
 - **High skill (80–100)** — **deadly** poison potions for the steadiest late gains.
 
-See [skill gain](/mechanics/skill-gain/) and [alchemy](/skills/alchemy/) (which brews the
-potions).
+Keep a [potion](/skills/alchemy/) supply and a stack of weapons/food to envenom so a session
+never stops; GGS guarantees the slow late points. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

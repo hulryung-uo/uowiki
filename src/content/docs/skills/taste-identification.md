@@ -30,9 +30,17 @@ poison (and roughly how strong). See [poison & status](/playing/poison-and-statu
 
 ## How to train it
 
-- **Low/high skill** — taste consumables repeatedly; any food/drink works as a target.
+**Quick start:** an NPC Cook/Baker/Alchemist teaches Taste ID up to **one-third of its own
+skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+The method: **Use it on a consumable, over and over:**
+
+- **Low/high skill** — taste food or drink repeatedly; any consumable works as a target, so
+  keep a stack of bread or a pitcher handy and spam it. GGS guarantees the slow late points as
+  long as you keep tasting.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

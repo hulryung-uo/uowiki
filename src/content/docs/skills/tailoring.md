@@ -32,13 +32,20 @@ open the crafting menu. Exceptional results need high skill and good tools. See
 
 ## How to train it
 
+**Quick start:** an NPC Tailor/Weaver teaches up to **one-third of its own skill, capped at
+42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first. Then make the hardest piece
+that still has a workable success %, stepping up as skill climbs:
+
 - **Low skill** — sew simple cloth items and bandages; cheap and fast.
 - **Mid skill** — basic leather armor.
 - **High skill** — studded/bone armor and the hardest pieces for the steadiest gains and
   exceptional output.
 
-Recipe thresholds live in `Scripts/Services/Craft/DefTailoring.cs`. See
-[skill gain](/mechanics/skill-gain/).
+Keep a **bulk supply of cloth/leather** so a session runs uninterrupted; GGS pays out the slow
+late points as long as you keep sewing. Recipe thresholds live in
+`Scripts/Services/Craft/DefTailoring.cs`. See [skill gain](/mechanics/skill-gain/) and
+[using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

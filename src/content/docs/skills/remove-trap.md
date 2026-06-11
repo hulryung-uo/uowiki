@@ -31,11 +31,20 @@ chest tier. See [gathering resources](/playing/gathering-resources/).
 
 ## How to train it
 
-- **Low/mid skill** — disarm boxes trapped by a [Tinker](/skills/tinkering/) at a chosen
-  difficulty (the standard training rig).
-- **High skill** — disarm real dungeon and treasure-map chests.
+**Quick start:** an NPC Tinker or Thief Guildmaster teaches Remove Trap up to **one-third of
+its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`; on this EJ shard the old Lockpicking/Detect-Hidden
+prerequisite for being taught is waived — see CheckTeach's `!Core.EJ` guard) — buy to ~30–42.
 
-See [skill gain](/mechanics/skill-gain/).
+The classic rig: **have a [Tinker](/skills/tinkering/) trap boxes at a difficulty matched to
+your skill, then disarm them in a loop** (re-trap and repeat).
+
+- **Low/mid skill** — disarm those tinker-trapped boxes; you must first **detect** the trap
+  ([Detect Hidden](/skills/detecting-hidden/) helps) before you can remove it.
+- **High skill** — disarm real dungeon and treasure-map chests. GGS guarantees the slow late
+  points as long as you keep disarming.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

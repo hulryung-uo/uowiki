@@ -33,11 +33,19 @@ near-mandatory on any [Magery](/skills/magery/)-based caster who wants to keep c
 
 ## How to train it
 
-- **Low/mid skill** — spend mana (cast spells), then meditate to recover it, repeatedly.
-- **High skill** — keep the spend-then-meditate loop going; gains come from successful active
-  meditations.
+**Quick start:** an NPC Mage teaches Meditation up to **one-third of its own skill, capped at
+42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`, CheckTeach:
+`baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
-See [skill gain](/mechanics/skill-gain/).
+The active-meditation skill check fires on each Use (`Scripts/Skills/Meditation.cs`,
+`CheckSkill(Meditation, 0.0, 100.0)`), so the loop is **drain mana, then meditate it back**:
+
+- **Low/mid skill** — cast spells to spend mana, then Use Meditation to recover it, over and
+  over. Meditating with the most empty mana pool gives the best check.
+- **High skill** — keep the spend-then-meditate loop going; GGS guarantees the slow late
+  points as long as you keep meditating.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

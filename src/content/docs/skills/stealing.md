@@ -32,11 +32,20 @@ heavy ones. See [items & inventory](/playing/items-and-inventory/).
 
 ## How to train it
 
-- **Low skill** — steal **light** items (weight ≤ a few stones) repeatedly; a training
-  partner's stocked pack or a controlled setup is standard.
-- **High skill** — heavier items and special monster loot give the late gains.
+**No regular town trainer.** Stealing is a thief skill — no ordinary vendor teaches it (only a
+wandering Gypsy/Thief NPC carries it), so for most players you train it by use from the start.
 
-See [skill gain](/mechanics/skill-gain/).
+The trick: **steal a light item off an NPC, a training partner, or your own placed container,
+repeatedly.** Difficulty scales with the item's weight (`Scripts/Skills/Stealing.cs`: items
+over **10 stones can't be lifted at all** — `w > 10` — and the check window is built from
+`pileWeight` × the stack), so stay with light items to keep succeeding:
+
+- **Low skill** — steal **light** items (≤ a few stones) over and over; a partner's stocked
+  pack or a controlled setup is standard.
+- **High skill** — heavier (but still ≤10-stone) items and special monster loot give the late
+  gains. GGS guarantees the slow late points as long as you keep stealing.
+
+See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
 ## Mechanics & numbers
 

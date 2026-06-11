@@ -36,11 +36,18 @@ Anatomy works two ways:
 
 ## How to train it
 
-- **Low/mid skill** — use the skill on yourself or any nearby creature repeatedly; the
-  active read trains it cheaply without combat.
-- **Alternative** — let it climb passively while you fight with a melee weapon and heal
-  between fights; it gains alongside [Tactics](/skills/tactics/) and
-  [Healing](/skills/healing/).
+**Quick start:** buy up from an NPC Healer/Warrior trainer — a trainer teaches up to
+**one-third of its own skill, capped at 42.0** (`Scripts/Mobiles/Normal/BaseCreature.cs`,
+CheckTeach: `baseToSet = ourSkill.BaseFixedPoint / 3`), so pay one to ~30–42 first.
+
+Anatomy is an active **"read"** skill — each Use targets a creature and rolls a gain check
+whether you learn anything new or not:
+
+- **Low/mid skill** — target yourself or any nearby creature and Use repeatedly; the read
+  trains it cheaply without combat. Just keep clicking fresh targets.
+- **Alternative / high skill** — let it climb passively while you fight with a melee weapon
+  and heal between fights; it gains alongside [Tactics](/skills/tactics/) and
+  [Healing](/skills/healing/). GGS guarantees the slow high-end points if you keep using it.
 
 See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
