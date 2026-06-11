@@ -19,6 +19,7 @@ Full history: [hulryung-uo/uowiki](https://github.com/hulryung-uo/uowiki/commits
 
 ## 2026-06-11
 
+- **Meta** — generated Recent Changes page from git history ([`808e596`](https://github.com/hulryung-uo/uowiki/commit/808e596))
 - **World** — annotated region maps + interactive-map deep links ([`0d8609d`](https://github.com/hulryung-uo/uowiki/commit/0d8609d))
 - **Meta** — librarian deploys with --archive=tgz (media assets) ([`280f529`](https://github.com/hulryung-uo/uowiki/commit/280f529))
 - **Assets** — extract client art/animations/sounds and embed across the wiki ([`4f14501`](https://github.com/hulryung-uo/uowiki/commit/4f14501))
