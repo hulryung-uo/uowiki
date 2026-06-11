@@ -23,7 +23,10 @@ npm run build
 python3 tools/extract_creatures.py   # servuo Scripts/Mobiles → data/creatures.json
 python3 tools/extract_spells.py      # servuo Scripts/Spells  → data/spells.json
 python3 tools/extract_crafting.py    # servuo Craft defs      → data/recipes.json
+python3 tools/extract_items.py       # all item classes       → data/items.json + item PNGs
+python3 tools/trim_item_art.py       # crop transparent padding off item PNGs (run after any art extract)
 python3 tools/gen_bestiary.py        # data → src/content/docs/bestiary/
+python3 tools/gen_items.py           # data → src/content/docs/items/catalog/
 python3 tools/gen_spells.py          # data → src/content/docs/magic/
 python3 tools/gen_crafting.py        # data → src/content/docs/crafting/
 python3 tools/lint_wiki.py           # link / frontmatter / staleness checks
