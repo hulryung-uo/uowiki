@@ -5,7 +5,9 @@ status: source-verified
 sources:
   - "anima: data/world_knowledge.yaml (cities.yew)"
   - "servuo: Data/Regions.xml (Felucca coordinates)"
+  - "servuo: Spawns/felucca.xml (Vendors#293 — banker/minter spawner at 652,820)"
   - "uomap: js/data.js (POI data)"
+  - "report: reports/resolved/2026-06-11-claude-yew-has-a-bank-according-to.md"
 last_verified: 2026-06-11
 generated: false
 ---
@@ -21,13 +23,14 @@ lumberjacks and carpenters, seat of the Courts of Truth.
 
 ## Services
 
-Per `world_knowledge.yaml`:
+carpenter · bowyer · inn · court · **bank**
 
-carpenter · bowyer · inn · court
-
-Note what's missing: **Yew has no bank or blacksmith listed.** Nearby landmarks include
-**Empath Abbey** (639, 858) and the infamous **Hedge Maze** to the south. The dungeons
-**Shame**, the **Wisp Dungeon**, and the **Ankh Dungeon** lie in the forests south of town.
+**Yew does have a bank**, by **Empath Abbey** (639, 858): a banker and minter spawn at
+(652, 820) per the server spawn data (`Spawns/felucca.xml`, spawner `Vendors#293`).
+Note: anima's `world_knowledge.yaml` omits the bank from Yew's feature list — that list
+is incomplete, not authoritative. **No blacksmith is listed** for Yew. Other nearby
+landmarks include the infamous **Hedge Maze** to the south, and the dungeons **Shame**,
+the **Wisp Dungeon**, and the **Ankh Dungeon** in the forests south of town.
 
 ## Nearby resources
 
@@ -38,9 +41,9 @@ Note what's missing: **Yew has no bank or blacksmith listed.** Nearby landmarks 
 ## Who should come here
 
 **Lumberjacks, carpenters, and bowyers.** Nowhere matches Yew's tree density, and the carpenter
-and bowyer shops buy what you make from the wood. Just plan your banking: with no bank in town
-(per the region data), serious harvesters either work near the moongate for quick trips or
-carry a strong back. The forests are also good low-key hunting for new fighters.
+and bowyer shops buy what you make from the wood. Bank your gains at the Empath Abbey bank
+(652, 820) — no need to haul lumber profits to Britain or Minoc. The forests are also good
+low-key hunting for new fighters.
 
 ## Related
 
