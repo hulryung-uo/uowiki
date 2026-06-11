@@ -3,6 +3,8 @@ title: "Spectral Armour"
 description: "Spectral Armour — hits 178–201, damage 10–22, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SpectralArmour.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Blood Fox"
 description: "Blood Fox — hits 190–200, damage 16–22, Melee AI; tamable at 72.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BloodFox.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Night Terror"
 description: "Night Terror — hits 50000, damage 10–23, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/NightTerror.cs"
 last_verified: 2026-06-11

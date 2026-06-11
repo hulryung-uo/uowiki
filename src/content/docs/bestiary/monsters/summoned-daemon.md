@@ -3,6 +3,8 @@ title: "Summoned Daemon"
 description: "Summoned Daemon — damage 14–21, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/SummonedDaemon.cs"
 last_verified: 2026-06-11

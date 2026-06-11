@@ -3,6 +3,8 @@ title: "Tormented Minotaur"
 description: "Tormented Minotaur — hits 4000–4200, damage 16–30, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Tormented Minotaur.cs"
 last_verified: 2026-06-11

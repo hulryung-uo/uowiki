@@ -3,6 +3,8 @@ title: "Plague Beast Lord"
 description: "Plague Beast Lord — hits 1800, damage 20–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PlagueBeastLord.cs"
 last_verified: 2026-06-11

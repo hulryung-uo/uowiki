@@ -3,6 +3,8 @@ title: "Gargoyle"
 description: "Gargoyle — hits 88–105, damage 7–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Gargoyle.cs"
 last_verified: 2026-06-11

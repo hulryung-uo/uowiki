@@ -3,6 +3,8 @@ title: "Energy Vortex"
 description: "Energy Vortex — Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/EnergyVortex.cs"
 last_verified: 2026-06-11

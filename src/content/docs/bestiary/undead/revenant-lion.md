@@ -3,6 +3,8 @@ title: "Revenant Lion"
 description: "Revenant Lion — hits 251–280, damage 18–24, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RevenantLion.cs"
 last_verified: 2026-06-11

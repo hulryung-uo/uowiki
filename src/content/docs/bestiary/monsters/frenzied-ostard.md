@@ -3,6 +3,8 @@ title: "Frenzied Ostard"
 description: "Frenzied Ostard — hits 71–110, damage 11–17, Melee AI; tamable at 77.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FrenziedOstard.cs"
 last_verified: 2026-06-11

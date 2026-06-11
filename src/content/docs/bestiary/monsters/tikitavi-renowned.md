@@ -3,6 +3,8 @@ title: "Tikitavi"
 description: "Tikitavi — hits 50000, damage 7–9, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/TikitaviRenowned.cs"
 last_verified: 2026-06-11

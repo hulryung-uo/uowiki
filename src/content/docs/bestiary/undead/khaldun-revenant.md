@@ -3,6 +3,8 @@ title: "Revenant"
 description: "Revenant — hits 241–300, damage 20–30, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/KhaldunRevenant.cs"
 last_verified: 2026-06-11

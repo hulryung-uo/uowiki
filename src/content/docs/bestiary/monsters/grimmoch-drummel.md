@@ -3,6 +3,8 @@ title: "Grimmoch Drummel"
 description: "Grimmoch Drummel — hits 180–207, damage 13–16, Archer AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/GrimmochDrummel.cs"
 last_verified: 2026-06-11

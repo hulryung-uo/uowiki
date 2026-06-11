@@ -3,6 +3,8 @@ title: "Orc Scout"
 description: "Orc Scout — hits 58–72, damage 5–7, OrcScout AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcScout.cs"
 last_verified: 2026-06-11

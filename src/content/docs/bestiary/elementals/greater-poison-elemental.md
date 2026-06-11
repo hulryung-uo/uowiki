@@ -3,6 +3,8 @@ title: "Greater Poison Elemental"
 description: "Greater Poison Elemental — hits 650–702, damage 12–18, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GreaterPoisonElemental.cs"
 last_verified: 2026-06-11

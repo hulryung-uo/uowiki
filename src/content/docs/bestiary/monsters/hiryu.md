@@ -3,6 +3,8 @@ title: "Hiryu"
 description: "Hiryu — hits 901–1100, damage 20–30, Melee AI; tamable at 98.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Hiryu.cs"
 last_verified: 2026-06-11

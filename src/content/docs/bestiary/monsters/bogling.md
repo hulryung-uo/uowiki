@@ -3,6 +3,8 @@ title: "Bogling"
 description: "Bogling — hits 58–72, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Bogling.cs"
 last_verified: 2026-06-11

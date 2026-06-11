@@ -3,6 +3,8 @@ title: "Lava Elemental"
 description: "Lava Elemental — hits 270–290, damage 12–18, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LavaElemental.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Meraktus"
 description: "Meraktus — hits 4100–4200, damage 16–30, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Meraktus.cs"
 last_verified: 2026-06-11

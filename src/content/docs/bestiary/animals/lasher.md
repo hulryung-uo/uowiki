@@ -3,6 +3,8 @@ title: "Lasher"
 description: "Lasher — hits 240, damage 1–4, Animal AI; tamable."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Lasher.cs"
 last_verified: 2026-06-11

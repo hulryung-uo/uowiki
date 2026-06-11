@@ -3,6 +3,8 @@ title: "Moloch"
 description: "Moloch — hits 171–200, damage 15–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Moloch.cs"
 last_verified: 2026-06-11

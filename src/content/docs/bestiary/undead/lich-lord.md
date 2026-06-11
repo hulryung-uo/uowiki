@@ -3,6 +3,8 @@ title: "Lich Lord"
 description: "Lich Lord — hits 250–303, damage 11–13, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LichLord.cs"
 last_verified: 2026-06-11

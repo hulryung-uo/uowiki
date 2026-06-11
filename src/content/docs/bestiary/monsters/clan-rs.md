@@ -3,6 +3,8 @@ title: "Clan Ribbon Supplicant"
 description: "Clan Ribbon Supplicant — hits 127, damage 7–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanRS.cs"
 last_verified: 2026-06-11

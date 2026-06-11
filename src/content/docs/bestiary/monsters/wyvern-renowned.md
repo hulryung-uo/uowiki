@@ -3,6 +3,8 @@ title: "Wyvern"
 description: "Wyvern — hits 2412–2734, damage 29–35, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/WyvernRenowned.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Serpentine Dragon"
 description: "Serpentine Dragon — hits 480, damage 5–12, Mage AI; tamable at 108.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SerpentineDragon.cs"
 last_verified: 2026-06-11

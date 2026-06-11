@@ -3,6 +3,8 @@ title: "Succubus"
 description: "Succubus — hits 312–353, damage 18–28, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Succubus.cs"
 last_verified: 2026-06-11

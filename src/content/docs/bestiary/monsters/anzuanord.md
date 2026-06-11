@@ -3,6 +3,8 @@ title: "Anzuanord"
 description: "Anzuanord — hits 180, damage 8–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Anzuanord.cs"
 last_verified: 2026-06-11

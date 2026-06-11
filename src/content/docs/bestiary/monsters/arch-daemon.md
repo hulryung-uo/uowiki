@@ -3,6 +3,8 @@ title: "Arch Deamon"
 description: "Arch Deamon — hits 592–711, damage 22–29, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ArchDaemon.cs"
 last_verified: 2026-06-11

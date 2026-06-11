@@ -3,6 +3,8 @@ title: "Fetid Essence"
 description: "Fetid Essence — hits 551–650, damage 21–25, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FetidEssence.cs"
 last_verified: 2026-06-11

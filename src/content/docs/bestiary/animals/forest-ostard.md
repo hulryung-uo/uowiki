@@ -3,6 +3,8 @@ title: "Forest Ostard"
 description: "Forest Ostard — hits 71–88, damage 8–14, Animal AI; tamable at 29.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ForestOstard.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Giant Black Widow"
 description: "Giant Black Widow — hits 46–60, damage 5–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantBlackWidow.cs"
 last_verified: 2026-06-11

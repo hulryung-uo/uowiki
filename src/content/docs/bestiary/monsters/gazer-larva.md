@@ -3,6 +3,8 @@ title: "Gazer Larva"
 description: "Gazer Larva — hits 36–47, damage 2–9, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GazerLarva.cs"
 last_verified: 2026-06-11

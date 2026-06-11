@@ -3,6 +3,8 @@ title: "Ratman Archer"
 description: "Ratman Archer — hits 88–108, damage 4–10, Archer AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RatmanArcher.cs"
 last_verified: 2026-06-11

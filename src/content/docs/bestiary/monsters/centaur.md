@@ -3,6 +3,8 @@ title: "Centaur"
 description: "Centaur — hits 130–172, damage 13–24, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Centaur.cs"
 last_verified: 2026-06-11

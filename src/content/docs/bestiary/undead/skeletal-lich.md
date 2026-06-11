@@ -3,6 +3,8 @@ title: "Skeletal Lich"
 description: "Skeletal Lich — hits 1200, damage 8–10, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SkeletalLich.cs"
 last_verified: 2026-06-11

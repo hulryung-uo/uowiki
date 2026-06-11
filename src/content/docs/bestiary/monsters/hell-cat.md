@@ -3,6 +3,8 @@ title: "Hell Cat"
 description: "Hell Cat — hits 48–67, damage 6–12, Melee AI; tamable at 71.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/HellCat.cs"
 last_verified: 2026-06-11

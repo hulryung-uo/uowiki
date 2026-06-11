@@ -3,6 +3,8 @@ title: "Hell Hound"
 description: "Hell Hound — hits 130–300, damage 11–17, Melee AI; tamable at 85.5 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/HellHound.cs"
 last_verified: 2026-06-11

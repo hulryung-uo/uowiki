@@ -3,6 +3,8 @@ title: "Raging Grizzly Bear"
 description: "Raging Grizzly Bear — hits 751–930, damage 18–23, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RagingGrizzlyBear.cs"
 last_verified: 2026-06-11

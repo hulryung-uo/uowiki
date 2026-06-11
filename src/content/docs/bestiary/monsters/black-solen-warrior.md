@@ -3,6 +3,8 @@ title: "Black Solen Warrior"
 description: "Black Solen Warrior — hits 96–107, damage 5–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BlackSolenWarrior.cs"
 last_verified: 2026-06-11

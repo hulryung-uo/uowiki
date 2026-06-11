@@ -17,13 +17,13 @@ file a discrepancy report; never hand-edit these pages.
 
 | | Group | Creatures |
 |---|---|---|
-| <img src="/img/creatures/401.gif" class="uo-anim" alt="Animals" loading="lazy" /> | [Animals](/bestiary/animals/) | 66 |
-| <img src="/img/creatures/265.gif" class="uo-anim" alt="Monsters" loading="lazy" /> | [Monsters](/bestiary/monsters/) | 340 |
-| <img src="/img/creatures/755.gif" class="uo-anim" alt="Humanoids" loading="lazy" /> | [Humanoids](/bestiary/humanoids/) | 54 |
-| <img src="/img/creatures/78.gif" class="uo-anim" alt="Undead" loading="lazy" /> | [Undead](/bestiary/undead/) | 41 |
-| <img src="/img/creatures/158.gif" class="uo-anim" alt="Elementals" loading="lazy" /> | [Elementals](/bestiary/elementals/) | 28 |
-| <img src="/img/creatures/150.gif" class="uo-anim" alt="Sea Creatures" loading="lazy" /> | [Sea Creatures](/bestiary/sea/) | 6 |
-| <img src="/img/creatures/713.gif" class="uo-anim" alt="Bosses & Champions" loading="lazy" /> | [Bosses & Champions](/bestiary/bosses/) | 27 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Animals" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Animals](/bestiary/animals/) | 66 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/265.png" alt="Monsters" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/265.gif" alt="" loading="lazy" /></span> | [Monsters](/bestiary/monsters/) | 340 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/755.png" alt="Humanoids" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/755.gif" alt="" loading="lazy" /></span> | [Humanoids](/bestiary/humanoids/) | 54 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/78.png" alt="Undead" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/78.gif" alt="" loading="lazy" /></span> | [Undead](/bestiary/undead/) | 41 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/158.png" alt="Elementals" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/158.gif" alt="" loading="lazy" /></span> | [Elementals](/bestiary/elementals/) | 28 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/150.png" alt="Sea Creatures" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/150.gif" alt="" loading="lazy" /></span> | [Sea Creatures](/bestiary/sea/) | 6 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/713.png" alt="Bosses & Champions" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/713.gif" alt="" loading="lazy" /></span> | [Bosses & Champions](/bestiary/bosses/) | 27 |
 
 ## Notable tamables
 
@@ -31,26 +31,26 @@ The hardest tames on the shard, by minimum Animal Taming skill.
 
 | | Creature | Group | Min taming | Slots | Hits |
 |---|---|---|---|---|---|
-| <img src="/img/creatures/116.gif" class="uo-anim" alt="Dread Warhorse" loading="lazy" /> | [Dread Warhorse](/bestiary/monsters/dread-warhorse/) | Monsters | 108.0 | 3 | 555–650 |
-| <img src="/img/creatures/103.gif" class="uo-anim" alt="Serpentine Dragon" loading="lazy" /> | [Serpentine Dragon](/bestiary/monsters/serpentine-dragon/) | Monsters | 108.0 | 3 | 480 |
-| <img src="/img/creatures/794.gif" class="uo-anim" alt="Bane Dragon" loading="lazy" /> | [Bane Dragon](/bestiary/monsters/bane-dragon/) | Monsters | 107.1 | 3 | 550–650 |
-| <img src="/img/creatures/190.gif" class="uo-anim" alt="Fire Steed" loading="lazy" /> | [Fire Steed](/bestiary/monsters/fire-steed/) | Monsters | 106.0 | 2 | 226–240 |
-| <img src="/img/creatures/12.gif" class="uo-anim" alt="Frost Dragon" loading="lazy" /> | [Frost Dragon](/bestiary/monsters/frost-dragon/) | Monsters | 105.0 | 5 | 2050–2250 |
-| <img src="/img/creatures/106.gif" class="uo-anim" alt="Shadow Wyrm" loading="lazy" /> | [Shadow Wyrm](/bestiary/monsters/shadow-wyrm/) | Monsters | 105.0 | 5 | 558–599 |
-| <img src="/img/creatures/12.gif" class="uo-anim" alt="Greater Dragon" loading="lazy" /> | [Greater Dragon](/bestiary/monsters/greater-dragon/) | Monsters | 104.7 | 5 | 1000–2000 |
-| <img src="/img/creatures/719.gif" class="uo-anim" alt="Dragon Wolf" loading="lazy" /> | [Dragon Wolf](/bestiary/monsters/dragon-wolf/) | Monsters | 102.0 | 4 | 800–860 |
-| <img src="/img/creatures/1424.gif" class="uo-anim" alt="Frost Mite" loading="lazy" /> | [Frost Mite](/bestiary/monsters/frost-mite/) | Monsters | 102.0 | 3 | 800–1000 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/116.png" alt="Dread Warhorse" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/116.gif" alt="" loading="lazy" /></span> | [Dread Warhorse](/bestiary/monsters/dread-warhorse/) | Monsters | 108.0 | 3 | 555–650 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/103.png" alt="Serpentine Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/103.gif" alt="" loading="lazy" /></span> | [Serpentine Dragon](/bestiary/monsters/serpentine-dragon/) | Monsters | 108.0 | 3 | 480 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/794.png" alt="Bane Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/794.gif" alt="" loading="lazy" /></span> | [Bane Dragon](/bestiary/monsters/bane-dragon/) | Monsters | 107.1 | 3 | 550–650 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/190.png" alt="Fire Steed" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/190.gif" alt="" loading="lazy" /></span> | [Fire Steed](/bestiary/monsters/fire-steed/) | Monsters | 106.0 | 2 | 226–240 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/12.png" alt="Frost Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/12.gif" alt="" loading="lazy" /></span> | [Frost Dragon](/bestiary/monsters/frost-dragon/) | Monsters | 105.0 | 5 | 2050–2250 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/106.png" alt="Shadow Wyrm" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/106.gif" alt="" loading="lazy" /></span> | [Shadow Wyrm](/bestiary/monsters/shadow-wyrm/) | Monsters | 105.0 | 5 | 558–599 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/12.png" alt="Greater Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/12.gif" alt="" loading="lazy" /></span> | [Greater Dragon](/bestiary/monsters/greater-dragon/) | Monsters | 104.7 | 5 | 1000–2000 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/719.png" alt="Dragon Wolf" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/719.gif" alt="" loading="lazy" /></span> | [Dragon Wolf](/bestiary/monsters/dragon-wolf/) | Monsters | 102.0 | 4 | 800–860 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/1424.png" alt="Frost Mite" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/1424.gif" alt="" loading="lazy" /></span> | [Frost Mite](/bestiary/monsters/frost-mite/) | Monsters | 102.0 | 3 | 800–1000 |
 |  | [Phoenix](/bestiary/monsters/phoenix/) | Monsters | 102.0 | 4 | 340–383 |
-| <img src="/img/creatures/1416.gif" class="uo-anim" alt="Saber-Toothed Tiger" loading="lazy" /> | [Saber-Toothed Tiger](/bestiary/monsters/sabertoothed-tiger/) | Monsters | 102.0 | 2 | 362–423 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/1416.png" alt="Saber-Toothed Tiger" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/1416.gif" alt="" loading="lazy" /></span> | [Saber-Toothed Tiger](/bestiary/monsters/sabertoothed-tiger/) | Monsters | 102.0 | 2 | 362–423 |
 |  | [Triceratops](/bestiary/monsters/triceratops/) | Monsters | 102.0 | 3 | 1100–1200 |
-| <img src="/img/creatures/277.gif" class="uo-anim" alt="Cu Sidhe" loading="lazy" /> | [Cu Sidhe](/bestiary/animals/cu-sidhe/) | Animals | 101.1 | 4 | 1010–1275 |
-| <img src="/img/creatures/276.gif" class="uo-anim" alt="Reptalon" loading="lazy" /> | [Reptalon](/bestiary/monsters/reptalon/) | Monsters | 101.1 | 4 | 833–931 |
-| <img src="/img/creatures/243.gif" class="uo-anim" alt="Hiryu" loading="lazy" /> | [Hiryu](/bestiary/monsters/hiryu/) | Monsters | 98.7 | 4 | 901–1100 |
-| <img src="/img/creatures/243.gif" class="uo-anim" alt="Lesser Hiryu" loading="lazy" /> | [Lesser Hiryu](/bestiary/monsters/lesser-hiryu/) | Monsters | 98.7 | 3 | 401–600 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/277.png" alt="Cu Sidhe" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/277.gif" alt="" loading="lazy" /></span> | [Cu Sidhe](/bestiary/animals/cu-sidhe/) | Animals | 101.1 | 4 | 1010–1275 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/276.png" alt="Reptalon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/276.gif" alt="" loading="lazy" /></span> | [Reptalon](/bestiary/monsters/reptalon/) | Monsters | 101.1 | 4 | 833–931 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/243.png" alt="Hiryu" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/243.gif" alt="" loading="lazy" /></span> | [Hiryu](/bestiary/monsters/hiryu/) | Monsters | 98.7 | 4 | 901–1100 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/243.png" alt="Lesser Hiryu" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/243.gif" alt="" loading="lazy" /></span> | [Lesser Hiryu](/bestiary/monsters/lesser-hiryu/) | Monsters | 98.7 | 3 | 401–600 |
 |  | [White Wyrm](/bestiary/monsters/white-wyrm/) | Monsters | 96.3 | 3 | 433–456 |
-| <img src="/img/creatures/60.gif" class="uo-anim" alt="Cold Drake" loading="lazy" /> | [Cold Drake](/bestiary/monsters/cold-drake/) | Monsters | 96.0 | 3 | 450–500 |
-| <img src="/img/creatures/11.gif" class="uo-anim" alt="Dread Spider" loading="lazy" /> | [Dread Spider](/bestiary/monsters/dread-spider/) | Monsters | 96.0 | 3 | 118–132 |
-| <img src="/img/creatures/1426.gif" class="uo-anim" alt="Lion" loading="lazy" /> | [Lion](/bestiary/monsters/lion/) | Monsters | 96.0 | 2 | 350–370 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/60.png" alt="Cold Drake" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/60.gif" alt="" loading="lazy" /></span> | [Cold Drake](/bestiary/monsters/cold-drake/) | Monsters | 96.0 | 3 | 450–500 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/11.png" alt="Dread Spider" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/11.gif" alt="" loading="lazy" /></span> | [Dread Spider](/bestiary/monsters/dread-spider/) | Monsters | 96.0 | 3 | 118–132 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/1426.png" alt="Lion" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/1426.gif" alt="" loading="lazy" /></span> | [Lion](/bestiary/monsters/lion/) | Monsters | 96.0 | 2 | 350–370 |
 
 All 124 tamable creatures have a
 **Taming** section on their page.

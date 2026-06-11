@@ -3,6 +3,8 @@ title: "Elder Gazer"
 description: "Elder Gazer — hits 178–195, damage 8–19, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ElderGazer.cs"
 last_verified: 2026-06-11

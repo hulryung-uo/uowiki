@@ -3,6 +3,8 @@ title: "Dragon Wolf"
 description: "Dragon Wolf — hits 800–860, damage 20–25, Melee AI; tamable at 102.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DragonWolf.cs"
 last_verified: 2026-06-11

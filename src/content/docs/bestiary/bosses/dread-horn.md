@@ -3,6 +3,8 @@ title: "Dread Horn"
 description: "Dread Horn — hits 50000, damage 21–28, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/DreadHorn.cs"
 last_verified: 2026-06-11

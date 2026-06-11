@@ -3,6 +3,8 @@ title: "Saber-Toothed Tiger"
 description: "Saber-Toothed Tiger — hits 362–423, damage 21–28, Melee AI; tamable at 102.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SabertoothedTiger.cs"
 last_verified: 2026-06-11

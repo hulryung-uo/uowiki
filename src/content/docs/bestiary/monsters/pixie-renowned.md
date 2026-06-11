@@ -3,6 +3,8 @@ title: "Pixie"
 description: "Pixie — hits 9100–9200, damage 9–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/PixieRenowned.cs"
 last_verified: 2026-06-11

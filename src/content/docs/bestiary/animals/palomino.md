@@ -3,6 +3,8 @@ title: "Horse"
 description: "Horse — hits 28–45, damage 3–4, Animal AI; tamable at 29.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PalaminoHorse.cs"
 last_verified: 2026-06-11

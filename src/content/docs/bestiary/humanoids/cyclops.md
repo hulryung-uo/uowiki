@@ -3,6 +3,8 @@ title: "Cyclopean Warrior"
 description: "Cyclopean Warrior — hits 202–231, damage 7–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Cyclops.cs"
 last_verified: 2026-06-11

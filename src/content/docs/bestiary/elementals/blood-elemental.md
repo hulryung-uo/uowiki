@@ -3,6 +3,8 @@ title: "Blood Elemental"
 description: "Blood Elemental — hits 316–369, damage 17–27, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BloodElemental.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Lysander Gathenwale"
 description: "Lysander Gathenwale — hits 180–207, damage 5–13, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/LysanderGathenwale.cs"
 last_verified: 2026-06-11

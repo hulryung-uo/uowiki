@@ -3,6 +3,8 @@ title: "Zombie"
 description: "Zombie — hits 28–42, damage 3–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Zombie.cs"
 last_verified: 2026-06-11

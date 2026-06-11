@@ -3,6 +3,8 @@ title: "Snow Leopard"
 description: "Snow Leopard — hits 34–48, damage 3–9, Animal AI; tamable at 53.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SnowLeopard.cs"
 last_verified: 2026-06-11

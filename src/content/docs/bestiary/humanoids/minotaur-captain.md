@@ -3,6 +3,8 @@ title: "Minotaur Captain"
 description: "Minotaur Captain — hits 401–440, damage 11–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MinotaurCaptain.cs"
 last_verified: 2026-06-11

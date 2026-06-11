@@ -3,6 +3,8 @@ title: "Monstrous Interred Grizzle"
 description: "Monstrous Interred Grizzle — hits 50000, damage 27–31, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/MonstrousInterredGrizzle.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Mantra Effervescence"
 description: "Mantra Effervescence — hits 150–250, damage 21–25, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MantraEffervescence.cs"
 last_verified: 2026-06-11

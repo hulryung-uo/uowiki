@@ -3,6 +3,8 @@ title: "Mimic"
 description: "Mimic — hits 543, damage 13–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Mimic.cs"
 last_verified: 2026-06-11

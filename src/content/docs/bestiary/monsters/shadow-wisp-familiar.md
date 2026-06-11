@@ -3,6 +3,8 @@ title: "Shadow Wisp"
 description: "Shadow Wisp — hits 50, damage 5–10."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/ShadowWisp.cs"
 last_verified: 2026-06-11

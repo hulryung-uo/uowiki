@@ -3,6 +3,8 @@ title: "Tempest"
 description: "Tempest — hits 602, damage 18–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Tempest.cs"
 last_verified: 2026-06-11

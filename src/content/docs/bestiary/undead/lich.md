@@ -3,6 +3,8 @@ title: "Lich"
 description: "Lich — hits 103–120, damage 24–26, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Lich.cs"
 last_verified: 2026-06-11

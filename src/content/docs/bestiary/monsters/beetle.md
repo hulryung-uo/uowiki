@@ -3,6 +3,8 @@ title: "Giant Beetle"
 description: "Giant Beetle — hits 200, damage 7–20, Melee AI; tamable at 29.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Beetle.cs"
 last_verified: 2026-06-11

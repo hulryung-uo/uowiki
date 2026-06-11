@@ -3,6 +3,8 @@ title: "Snake"
 description: "Snake — hits 15–19, damage 1–4, Melee AI; tamable at 59.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Snake.cs"
 last_verified: 2026-06-11

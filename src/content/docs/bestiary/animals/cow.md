@@ -3,6 +3,8 @@ title: "Cow"
 description: "Cow — hits 18, damage 1–4, Animal AI; tamable at 11.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Cow.cs"
 last_verified: 2026-06-11

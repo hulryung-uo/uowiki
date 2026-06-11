@@ -3,6 +3,8 @@ title: "Enslaved Green Goblin"
 description: "Enslaved Green Goblin — hits 184–184, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EnslavedGreenGoblin.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Ophidian Matriarch"
 description: "Ophidian Matriarch — hits 250–303, damage 11–13, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OphidianMatriarch.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Lowland Boura"
 description: "Lowland Boura — hits 438–553, damage 18–23, Animal AI; tamable at 19.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LowlandBoura.cs"
 last_verified: 2026-06-11

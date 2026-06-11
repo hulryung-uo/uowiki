@@ -3,6 +3,8 @@ title: "Fire Steed"
 description: "Fire Steed — hits 226–240, damage 11–30, Melee AI; tamable at 106.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FireSteed.cs"
 last_verified: 2026-06-11

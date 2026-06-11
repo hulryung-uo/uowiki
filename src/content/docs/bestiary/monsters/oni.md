@@ -3,6 +3,8 @@ title: "Oni"
 description: "Oni — hits 401–530, damage 14–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Oni.cs"
 last_verified: 2026-06-11

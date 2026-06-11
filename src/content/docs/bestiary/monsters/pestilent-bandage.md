@@ -3,6 +3,8 @@ title: "Pestilent Bandage"
 description: "Pestilent Bandage — hits 415–445, damage 13–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PestilentBandage.cs"
 last_verified: 2026-06-11

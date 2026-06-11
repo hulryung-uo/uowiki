@@ -3,6 +3,8 @@ title: "Fleshrenderer"
 description: "Fleshrenderer — hits 4500, damage 16–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FleshRenderer.cs"
 last_verified: 2026-06-11

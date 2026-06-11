@@ -3,6 +3,8 @@ title: "Betballem"
 description: "Betballem — hits 90–100, damage 5–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Betballem.cs"
 last_verified: 2026-06-11

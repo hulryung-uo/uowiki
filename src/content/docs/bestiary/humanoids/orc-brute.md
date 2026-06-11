@@ -3,6 +3,8 @@ title: "Orc Brute"
 description: "Orc Brute — hits 476–552, damage 20–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcBrute.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Neira"
 description: "Neira — hits 4800, damage 25–35, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Neira.cs"
 last_verified: 2026-06-11

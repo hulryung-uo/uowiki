@@ -3,6 +3,8 @@ title: "Cursed"
 description: "Cursed — hits 91–120, damage 5–13, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Cursed.cs"
 last_verified: 2026-06-11

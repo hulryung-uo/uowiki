@@ -3,6 +3,8 @@ title: "Imp"
 description: "Imp — hits 55–70, damage 10–14, Mage AI; tamable at 83.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Imp.cs"
 last_verified: 2026-06-11

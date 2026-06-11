@@ -3,6 +3,8 @@ title: "Wailing Banshee"
 description: "Wailing Banshee — hits 76–90, damage 10–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WailingBanshee.cs"
 last_verified: 2026-06-11

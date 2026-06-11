@@ -3,6 +3,8 @@ title: "Corrosive Slime"
 description: "Corrosive Slime — hits 15–19, damage 1–5, Melee AI; tamable at 23.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CorrosiveSlime.cs"
 last_verified: 2026-06-11

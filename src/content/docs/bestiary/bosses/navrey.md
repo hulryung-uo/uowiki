@@ -3,6 +3,8 @@ title: "Navrey Night-Eyes"
 description: "Navrey Night-Eyes — hits 30000–35000, damage 25–40, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Navery/Navrey.cs"
 last_verified: 2026-06-11

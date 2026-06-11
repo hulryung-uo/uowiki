@@ -3,6 +3,8 @@ title: "Giant Spider"
 description: "Giant Spider — hits 46–60, damage 5–13, Melee AI; tamable at 59.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantSpider.cs"
 last_verified: 2026-06-11

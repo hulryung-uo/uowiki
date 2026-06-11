@@ -3,6 +3,8 @@ title: "Deep Sea Serpent"
 description: "Deep Sea Serpent — hits 151–255, damage 6–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DeepSeaSerpent.cs"
 last_verified: 2026-06-11

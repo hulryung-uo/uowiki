@@ -3,6 +3,8 @@ title: "Leather Wolf"
 description: "Leather Wolf — hits 291–329, damage 12–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LeatherWolf.cs"
 last_verified: 2026-06-11

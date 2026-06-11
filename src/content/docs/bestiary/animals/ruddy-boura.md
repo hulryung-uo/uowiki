@@ -3,6 +3,8 @@ title: "Ruddy Boura"
 description: "Ruddy Boura — hits 435–509, damage 16–20, Animal AI; tamable at 19.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RuddyBoura.cs"
 last_verified: 2026-06-11

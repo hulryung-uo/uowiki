@@ -3,6 +3,8 @@ title: "Agapite Elemental"
 description: "Agapite Elemental — hits 136–153, damage 28, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/AgapiteElemental.cs"
 last_verified: 2026-06-11

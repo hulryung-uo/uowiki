@@ -3,6 +3,8 @@ title: "Enslaved Goblin Mage"
 description: "Enslaved Goblin Mage — hits 174–174, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EnslavedGoblinMage.cs"
 last_verified: 2026-06-11

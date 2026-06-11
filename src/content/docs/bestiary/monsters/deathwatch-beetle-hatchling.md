@@ -3,6 +3,8 @@ title: "Deathwatch Beetle Hatchling"
 description: "Deathwatch Beetle Hatchling — hits 51–60, damage 2–8, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DeathWatchBeetleHatchling.cs"
 last_verified: 2026-06-11

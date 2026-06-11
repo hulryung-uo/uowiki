@@ -3,6 +3,8 @@ title: "Ant Lion"
 description: "Ant Lion — hits 151–162, damage 7–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/AntLion.cs"
 last_verified: 2026-06-11

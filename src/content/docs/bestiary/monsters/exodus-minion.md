@@ -3,6 +3,8 @@ title: "Exodus Minion"
 description: "Exodus Minion — hits 511–570, damage 16–22, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ExodusMinion.cs"
 last_verified: 2026-06-11

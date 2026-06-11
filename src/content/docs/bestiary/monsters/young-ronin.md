@@ -3,6 +3,8 @@ title: "Young Ronin"
 description: "Young Ronin — hits 10–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/YoungRonin.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Tsuki Wolf"
 description: "Tsuki Wolf — hits 376–450, damage 14–18, Melee AI; tamable at 96.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TsukiWolf.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Treefellow"
 description: "Treefellow — hits 118–132, damage 12–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Treefellow.cs"
 last_verified: 2026-06-11

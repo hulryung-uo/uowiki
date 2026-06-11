@@ -3,6 +3,8 @@ title: "Plague Beast"
 description: "Plague Beast — hits 318–404, damage 20–24, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PlagueBeast.cs"
 last_verified: 2026-06-11

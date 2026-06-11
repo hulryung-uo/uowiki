@@ -3,6 +3,8 @@ title: "Greater Dragon"
 description: "Greater Dragon — hits 1000–2000, damage 24–33, Mage AI; tamable at 104.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GreaterDragon.cs"
 last_verified: 2026-06-11

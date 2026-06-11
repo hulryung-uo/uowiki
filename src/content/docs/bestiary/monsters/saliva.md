@@ -3,6 +3,8 @@ title: "Saliva"
 description: "Saliva — hits 409–842, damage 19–28."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Saliva.cs"
 last_verified: 2026-06-11

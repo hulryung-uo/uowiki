@@ -3,6 +3,8 @@ title: "Enslaved Gargoyle"
 description: "Enslaved Gargoyle — hits 186–212, damage 7–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EnslavedGargoyle.cs"
 last_verified: 2026-06-11

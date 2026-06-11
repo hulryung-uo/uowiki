@@ -3,6 +3,8 @@ title: "Usagrallem Ballem"
 description: "Usagrallem Ballem — hits 2000–2200, damage 17–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/UsagralemBallem.cs"
 last_verified: 2026-06-11

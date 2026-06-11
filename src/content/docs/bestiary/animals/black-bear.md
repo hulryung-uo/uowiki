@@ -3,6 +3,8 @@ title: "Black Bear"
 description: "Black Bear — hits 46–60, damage 4–10, Animal AI; tamable at 35.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BlackBear.cs"
 last_verified: 2026-06-11

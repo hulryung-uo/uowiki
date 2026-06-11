@@ -3,6 +3,8 @@ title: "Gaman"
 description: "Gaman — hits 131–160, damage 6–11, Animal AI; tamable at 68.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Gaman.cs"
 last_verified: 2026-06-11

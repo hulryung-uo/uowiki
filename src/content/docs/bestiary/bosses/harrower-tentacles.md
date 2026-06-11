@@ -3,6 +3,8 @@ title: "Tentacles Of The Harrower"
 description: "Tentacles Of The Harrower — hits 541–600, damage 13–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Harrower/HarrowerTentacles.cs"
 last_verified: 2026-06-11

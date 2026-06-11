@@ -3,6 +3,8 @@ title: "Ancient Lich"
 description: "Ancient Lich — hits 2000–2500, damage 15–27, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/AncientLichRenowned.cs"
 last_verified: 2026-06-11

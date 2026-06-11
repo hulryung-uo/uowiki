@@ -3,6 +3,8 @@ title: "Great Hart"
 description: "Great Hart — hits 27–41, damage 5–9, Animal AI; tamable at 59.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GreatHart.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Chicken"
 description: "Chicken — hits 3, damage 1, Animal AI; tamable at -0.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Chicken.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Protector"
 description: "Protector — hits 350–450, damage 6–12, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Protector.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Troglodyte"
 description: "Troglodyte — hits 302–340, damage 11–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Troglodyte.cs"
 last_verified: 2026-06-11

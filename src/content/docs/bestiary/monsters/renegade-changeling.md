@@ -3,6 +3,8 @@ title: "Renegade Changeling"
 description: "Renegade Changeling — hits 2500–3000, damage 22–24."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RenegadeChangeling.cs"
 last_verified: 2026-06-11

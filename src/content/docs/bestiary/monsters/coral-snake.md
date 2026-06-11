@@ -3,6 +3,8 @@ title: "Coral Snake"
 description: "Coral Snake — hits 132–200, damage 5–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CoralSnake.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Master Theophilus"
 description: "Master Theophilus — hits 663–876, damage 15–20."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/MasterTheophilus.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Ophidian Archmage"
 description: "Ophidian Archmage — hits 169–183, damage 5–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OphidianArchmage.cs"
 last_verified: 2026-06-11

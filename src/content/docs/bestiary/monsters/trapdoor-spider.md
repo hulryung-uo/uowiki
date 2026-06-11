@@ -3,6 +3,8 @@ title: "Trapdoor Spider"
 description: "Trapdoor Spider — hits 125–144, damage 15–18, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TrapdoorSpider.cs"
 last_verified: 2026-06-11

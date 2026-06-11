@@ -3,6 +3,8 @@ title: "Efreet"
 description: "Efreet — hits 196–213, damage 11–13, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Efreet.cs"
 last_verified: 2026-06-11

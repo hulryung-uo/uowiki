@@ -59,6 +59,63 @@ def _match(keys, *texts):
     return any(k in blob for k in keys if not k.endswith("?"))
 
 
+# Sub-division of the (huge) Monsters group into typed buckets. Ordered: each
+# creature lands in the FIRST bucket whose keywords match its class+name; the
+# rest fall through to "Other Monsters". The goal is shorter sections, not a
+# perfect taxonomy. ServUO doesn't tag creatures with an introduction era, so we
+# group by kind instead.
+MONSTER_BUCKETS = OrderedDict([
+    ("Dragons & Wyrms", (
+        "dragon", "wyrm", "drake", "wyvern", "hiryu", "reptalon", "serpentine dragon")),
+    ("Daemons & Fiends", (
+        "daemon", "demon", "imp", "balron", "succubus", "fiend", "devourer", "gargoyle")),
+    ("Reptiles & Serpents", (
+        "lizard", "snake", "serpent", "basilisk", "ophidian", "gator", "hydra", "coil",
+        "reptile", "raptor", "dino", "saurian", "t-rex", "triceratops", "deinonych")),
+    ("Beasts & Hounds", (
+        "wolf", "hound", "hellcat", "hell hound", "ridgeback", "gaman", "beast",
+        "panther", "lion", "tiger", "ravager")),
+    ("Insects & Arachnids", (
+        "spider", "scorpion", "beetle", "ant", "wasp", "mantis", "locust", "bee",
+        "mephitis", "terathan", "moloch", "solen", "mite", "bloodworm", "worm",
+        "abscess", "kepetch")),
+    ("Magical & Fey", (
+        "pixie", "fey", "satyr", "wisp", "unicorn", "kirin", "nightmare", "mare",
+        "sprite", "faerie", "cu sidhe", "dryad", "changeling", "centaur", "efreet",
+        "steed", "fire rabbit", "blade spirit", "vortex", "doppleganger")),
+    ("Goblins & Gremlins", (
+        "goblin", "gremlin", "gibberling", "mongbat", "minion")),
+    ("Gazers & Aberrations", (
+        "gazer", "corporeal", "brume", "horror", "abomination", "putrification",
+        "essence", "fetid", "miasma", "maddening", "fleshrenderer", "lifestealer",
+        "interred", "ilhenir", "grizzle")),
+    ("Tokuno & Eastern", (
+        "kitsune", "kappa", "kaze", "fan dancer", "ninja", "oni", "yamandon",
+        "tsuki", "rune beetle", "deathwatch", "lady of the snow", "raiju")),
+    ("Birds & Harpies", ("harpy", "phoenix", "bird", "raven", "crane", "stymphalian")),
+    ("Slimes & Oozes", ("slime", "ooze", "jelly", "blob", "corrosive", "acid")),
+    ("Plants & Fungi", (
+        "reaper", "corpser", "plant", "mushroom", "shrub", "whipping", "bogling",
+        "treefellow", "pumpkin")),
+    ("Giants & Brutes", (
+        "cyclops", "titan", "ogre", "ettin", "troll", "golem", "colossus", "brute",
+        "juggernaut", "meraktus", "exodus", "construct", "automaton")),
+    ("Other Monsters", ()),
+])
+
+
+def monster_bucket(c):
+    """Return the bucket title for a monster, first-match wins."""
+    name = c.get("name") or ""
+    cls = c["class"]
+    for title, keys in MONSTER_BUCKETS.items():
+        if title == "Other Monsters":
+            continue
+        if _match(keys, cls, name):
+            return title
+    return "Other Monsters"
+
+
 def classify(c):
     cls = c["class"]
     name = c.get("name") or ""
@@ -242,6 +299,10 @@ def creature_page(c, group, anim_data=None, sounds_data=None, appearance=None):
         f"description: {yaml_str(describe(c))}",
         "status: source-verified",
         "generated: true",
+        # Keep the 562 individual creatures out of the left sidebar; only the
+        # group index pages are listed there. (Starlight sidebar.hidden.)
+        "sidebar:",
+        "  hidden: true",
         "sources:",
         f"  - {yaml_str('servuo: ' + c['source'])}",
         f"last_verified: {LAST_VERIFIED}",
@@ -421,13 +482,51 @@ def index_page(grouped, creatures, anim_data=None):
 
 
 def _anim_thumb(c, anim_data, name):
-    """An animated-GIF thumbnail cell for a creature, or empty if it has none."""
-    if anim_data and c["class"] in anim_data.get("creatures", {}):
-        body_id = anim_data["creatures"][c["class"]]
-        body = anim_data.get("bodies", {}).get(str(body_id))
-        if body:
-            return f'<img src="{body["gif"]}" class="uo-anim" alt="{name}" loading="lazy" />'
+    """A hover-swap thumbnail cell for a listing table, or empty if no art.
+
+    Shows the static first-frame PNG by default and the animated GIF on hover
+    (CSS in src/styles/sprites.css drives the swap). Falls back to the PNG alone
+    if there's somehow no GIF, and to an empty cell if there's neither.
+    """
+    if not (anim_data and c["class"] in anim_data.get("creatures", {})):
+        return ""
+    body_id = anim_data["creatures"][c["class"]]
+    body = anim_data.get("bodies", {}).get(str(body_id))
+    if not body:
+        return ""
+    png = body.get("png")
+    gif = body.get("gif")
+    alt = name.replace('"', "&quot;")
+    if png and gif:
+        return (f'<span class="cthumb">'
+                f'<img class="cthumb-png" src="{png}" alt="{alt}" loading="lazy" />'
+                f'<img class="cthumb-gif" src="{gif}" alt="" loading="lazy" />'
+                f'</span>')
+    if png:
+        return f'<img class="cthumb-png" src="{png}" alt="{alt}" loading="lazy" />'
+    if gif:
+        return f'<img src="{gif}" class="uo-anim" alt="{alt}" loading="lazy" />'
     return ""
+
+
+# Groups bigger than this get sub-divided by type (Monsters is the main one).
+SUBDIVIDE_THRESHOLD = 120
+
+
+def _creature_table(members, gkey, anim_data):
+    """Render the standard listing table (thumb + name + hits/damage/tamable)."""
+    lines = [
+        "| | Creature | Hits | Damage | Tamable |",
+        "|---|---|---|---|---|",
+    ]
+    for c in sorted(members, key=display_name):
+        tame = f"yes ({c['min_tame_skill']})" if c.get("tamable") and c.get("min_tame_skill") is not None \
+            else ("yes" if c.get("tamable") else "—")
+        name = display_name(c)
+        lines.append(f"| {_anim_thumb(c, anim_data, name)} | [{name}](/bestiary/{gkey}/{slug(c)}/) "
+                     f"| {fmt_range(c.get('hits', '—'))} | {fmt_range(c.get('damage', '—'))} | {tame} |")
+    lines.append("")
+    return lines
 
 
 def group_index_page(gkey, gtitle, members, anim_data=None):
@@ -444,16 +543,29 @@ def group_index_page(gkey, gtitle, members, anim_data=None):
         "---",
         BANNER,
         "",
-        "| | Creature | Hits | Damage | Tamable |",
-        "|---|---|---|---|---|",
     ]
-    for c in sorted(members, key=display_name):
-        tame = f"yes ({c['min_tame_skill']})" if c.get("tamable") and c.get("min_tame_skill") is not None \
-            else ("yes" if c.get("tamable") else "—")
-        name = display_name(c)
-        lines.append(f"| {_anim_thumb(c, anim_data, name)} | [{name}](/bestiary/{gkey}/{slug(c)}/) "
-                     f"| {fmt_range(c.get('hits', '—'))} | {fmt_range(c.get('damage', '—'))} | {tame} |")
-    lines.append("")
+
+    # Sub-divide oversized groups (Monsters, ~340) into typed sections so no
+    # single table is unmanageably long. Smaller groups stay one flat table.
+    if gkey == "monsters" or len(members) > SUBDIVIDE_THRESHOLD:
+        buckets = OrderedDict((title, []) for title in MONSTER_BUCKETS)
+        for c in members:
+            buckets[monster_bucket(c)].append(c)
+        lines += [
+            "Grouped by creature type. ServUO doesn't tag creatures with an "
+            "introduction era, so they're grouped by kind (dragons, daemons, "
+            "beasts, …) rather than by expansion.",
+            "",
+        ]
+        for title, group_members in buckets.items():
+            if not group_members:
+                continue
+            lines.append(f"## {title}  *({len(group_members)})*")
+            lines.append("")
+            lines += _creature_table(group_members, gkey, anim_data)
+        return "\n".join(lines)
+
+    lines += _creature_table(members, gkey, anim_data)
     return "\n".join(lines)
 
 

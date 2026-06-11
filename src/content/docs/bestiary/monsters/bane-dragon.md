@@ -3,6 +3,8 @@ title: "Bane Dragon"
 description: "Bane Dragon — hits 550–650, damage 20–26, Mage AI; tamable at 107.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Event/BaneDragon.cs"
 last_verified: 2026-06-11

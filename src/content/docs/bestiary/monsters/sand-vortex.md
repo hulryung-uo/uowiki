@@ -3,6 +3,8 @@ title: "Sand Vortex"
 description: "Sand Vortex — hits 51–62, damage 3–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SandVortex.cs"
 last_verified: 2026-06-11

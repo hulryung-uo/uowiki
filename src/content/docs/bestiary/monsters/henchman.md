@@ -3,6 +3,8 @@ title: "Henchman"
 description: "Henchman — Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/NPCs/Henchman.cs"
 last_verified: 2026-06-11

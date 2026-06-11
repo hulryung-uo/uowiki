@@ -3,6 +3,8 @@ title: "Orcish Lord"
 description: "Orcish Lord — hits 95–123, damage 4–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcishLord.cs"
 last_verified: 2026-06-11

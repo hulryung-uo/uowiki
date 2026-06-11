@@ -3,6 +3,8 @@ title: "Ice Hound"
 description: "Ice Hound — hits 66–125, damage 11–17, Melee AI; tamable at 85.5 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Icehound.cs"
 last_verified: 2026-06-11

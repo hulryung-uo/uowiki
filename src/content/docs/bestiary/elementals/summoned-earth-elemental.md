@@ -3,6 +3,8 @@ title: "Earth Elemental"
 description: "Earth Elemental — hits 180, damage 14–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/SummonedEarthElemental.cs"
 last_verified: 2026-06-11

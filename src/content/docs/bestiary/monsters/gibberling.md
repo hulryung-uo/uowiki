@@ -3,6 +3,8 @@ title: "Gibberling"
 description: "Gibberling — hits 85–99, damage 12–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Gibberling.cs"
 last_verified: 2026-06-11

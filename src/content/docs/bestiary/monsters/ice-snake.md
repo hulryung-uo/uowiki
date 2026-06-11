@@ -3,6 +3,8 @@ title: "Ice Snake"
 description: "Ice Snake — damage 4–12, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/IceSnake.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Wanderer Of The Void"
 description: "Wanderer Of The Void — hits 351–400, damage 11–13, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WandererOfTheVoid.cs"
 last_verified: 2026-06-11

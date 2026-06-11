@@ -3,6 +3,8 @@ title: "Chiikkaha The Toothed"
 description: "Chiikkaha The Toothed — hits 400–425, damage 10–17."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Chiikkaha.cs"
 last_verified: 2026-06-11

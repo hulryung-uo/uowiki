@@ -3,6 +3,8 @@ title: "Sewer Rat"
 description: "Sewer Rat — hits 6, damage 1–2, Melee AI; tamable at -0.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SewerRat.cs"
 last_verified: 2026-06-11

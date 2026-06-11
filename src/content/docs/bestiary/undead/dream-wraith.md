@@ -3,6 +3,8 @@ title: "Dream Wraith"
 description: "Dream Wraith — hits 550–650, damage 18–25, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DreamWraith .cs"
 last_verified: 2026-06-11

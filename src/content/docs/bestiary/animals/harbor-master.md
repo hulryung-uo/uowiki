@@ -3,6 +3,8 @@ title: "Harbor Master"
 description: "Harbor Master — Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/NPCs/HarborMaster.cs"
 last_verified: 2026-06-11

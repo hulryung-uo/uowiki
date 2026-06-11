@@ -3,6 +3,8 @@ title: "Devourer Of Souls"
 description: "Devourer Of Souls — hits 650, damage 22–26, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Devourer.cs"
 last_verified: 2026-06-11

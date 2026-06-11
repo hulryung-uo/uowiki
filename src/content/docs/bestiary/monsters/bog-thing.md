@@ -3,6 +3,8 @@ title: "Bog Thing"
 description: "Bog Thing — hits 481–540, damage 10–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BogThing.cs"
 last_verified: 2026-06-11

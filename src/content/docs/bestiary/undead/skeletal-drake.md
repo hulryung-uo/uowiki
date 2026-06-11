@@ -3,6 +3,8 @@ title: "Skeletal Drake"
 description: "Skeletal Drake — hits 300–400, damage 29–35, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SkeletalDrake.cs"
 last_verified: 2026-06-11

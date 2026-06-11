@@ -3,6 +3,8 @@ title: "Gnaw"
 description: "Gnaw — hits 786–837, damage 16–22."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Gnaw.cs"
 last_verified: 2026-06-11

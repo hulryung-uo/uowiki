@@ -3,6 +3,8 @@ title: "Morg Bergen"
 description: "Morg Bergen — hits 180–207, damage 9–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/MorgBergen.cs"
 last_verified: 2026-06-11

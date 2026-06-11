@@ -3,6 +3,8 @@ title: "Skittering Hopper"
 description: "Skittering Hopper — hits 31–45, damage 3–5, Melee AI; tamable at -12.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SkitteringHopper.cs"
 last_verified: 2026-06-11

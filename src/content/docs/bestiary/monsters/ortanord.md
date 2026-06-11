@@ -3,6 +3,8 @@ title: "Ortanord"
 description: "Ortanord — hits 100–100, damage 5–8, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Ortanord.cs"
 last_verified: 2026-06-11

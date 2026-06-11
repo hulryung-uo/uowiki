@@ -12,30 +12,30 @@ last_verified: 2026-06-11
 
 | | Creature | Hits | Damage | Tamable |
 |---|---|---|---|---|
-| <img src="/img/creatures/713.gif" class="uo-anim" alt="Abyssal Infernal" loading="lazy" /> | [Abyssal Infernal](/bestiary/bosses/abyssal-infernal/) | 30000 | 11–18 | — |
-| <img src="/img/creatures/400.gif" class="uo-anim" alt="Adrian" loading="lazy" /> | [Adrian](/bestiary/bosses/adrian-the-glorious-lord/) | 60000 | 18–28 | — |
-| <img src="/img/creatures/400.gif" class="uo-anim" alt="Andros" loading="lazy" /> | [Andros](/bestiary/bosses/andros-the-dread-lord/) | 60000 | 18–28 | — |
-| <img src="/img/creatures/400.gif" class="uo-anim" alt="Barracoon" loading="lazy" /> | [Barracoon](/bestiary/bosses/barracoon/) | 12000 | 29–38 | — |
-| <img src="/img/creatures/256.gif" class="uo-anim" alt="Chief Paroxysmus" loading="lazy" /> | [Chief Paroxysmus](/bestiary/bosses/chief-paroxysmus/) | 50000 | 27–31 | — |
-| <img src="/img/creatures/165.gif" class="uo-anim" alt="Corrupted Wisp" loading="lazy" /> | [Corrupted Wisp](/bestiary/bosses/corrupted-wisp/) | 7000–8000 | 12–19 | — |
-| <img src="/img/creatures/197.gif" class="uo-anim" alt="Crimson Dragon" loading="lazy" /> | [Crimson Dragon](/bestiary/bosses/crimson-dragon/) | 25000 | 8–10 | — |
-| <img src="/img/creatures/257.gif" class="uo-anim" alt="Dread Horn" loading="lazy" /> | [Dread Horn](/bestiary/bosses/dread-horn/) | 50000 | 21–28 | — |
-| <img src="/img/creatures/165.gif" class="uo-anim" alt="Ensorcled Wisp" loading="lazy" /> | [Ensorcled Wisp](/bestiary/bosses/ensorcled-wisp/) | 7000–8000 | 12–19 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/713.png" alt="Abyssal Infernal" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/713.gif" alt="" loading="lazy" /></span> | [Abyssal Infernal](/bestiary/bosses/abyssal-infernal/) | 30000 | 11–18 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/400.png" alt="Adrian" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/400.gif" alt="" loading="lazy" /></span> | [Adrian](/bestiary/bosses/adrian-the-glorious-lord/) | 60000 | 18–28 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/400.png" alt="Andros" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/400.gif" alt="" loading="lazy" /></span> | [Andros](/bestiary/bosses/andros-the-dread-lord/) | 60000 | 18–28 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/400.png" alt="Barracoon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/400.gif" alt="" loading="lazy" /></span> | [Barracoon](/bestiary/bosses/barracoon/) | 12000 | 29–38 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/256.png" alt="Chief Paroxysmus" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/256.gif" alt="" loading="lazy" /></span> | [Chief Paroxysmus](/bestiary/bosses/chief-paroxysmus/) | 50000 | 27–31 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/165.png" alt="Corrupted Wisp" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/165.gif" alt="" loading="lazy" /></span> | [Corrupted Wisp](/bestiary/bosses/corrupted-wisp/) | 7000–8000 | 12–19 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/197.png" alt="Crimson Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/197.gif" alt="" loading="lazy" /></span> | [Crimson Dragon](/bestiary/bosses/crimson-dragon/) | 25000 | 8–10 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/257.png" alt="Dread Horn" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/257.gif" alt="" loading="lazy" /></span> | [Dread Horn](/bestiary/bosses/dread-horn/) | 50000 | 21–28 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/165.png" alt="Ensorcled Wisp" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/165.gif" alt="" loading="lazy" /></span> | [Ensorcled Wisp](/bestiary/bosses/ensorcled-wisp/) | 7000–8000 | 12–19 | — |
 |  | [Harrower](/bestiary/bosses/harrower/) | — | — | — |
-| <img src="/img/creatures/258.gif" class="uo-anim" alt="Lady Melisande" loading="lazy" /> | [Lady Melisande](/bestiary/bosses/lady-melisande/) | 100000 | 11–18 | — |
-| <img src="/img/creatures/175.gif" class="uo-anim" alt="Lord Oaks" loading="lazy" /> | [Lord Oaks](/bestiary/bosses/lord-oaks/) | 12000 | 21–33 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/258.png" alt="Lady Melisande" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/258.gif" alt="" loading="lazy" /></span> | [Lady Melisande](/bestiary/bosses/lady-melisande/) | 100000 | 11–18 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/175.png" alt="Lord Oaks" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/175.gif" alt="" loading="lazy" /></span> | [Lord Oaks](/bestiary/bosses/lord-oaks/) | 12000 | 21–33 | — |
 |  | [Medusa](/bestiary/bosses/medusa/) | 60000 | 21–28 | — |
-| <img src="/img/creatures/173.gif" class="uo-anim" alt="Mephitis" loading="lazy" /> | [Mephitis](/bestiary/bosses/mephitis/) | 12000 | 21–33 | — |
-| <img src="/img/creatures/259.gif" class="uo-anim" alt="Monstrous Interred Grizzle" loading="lazy" /> | [Monstrous Interred Grizzle](/bestiary/bosses/monstrous-interred-grizzle/) | 50000 | 27–31 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/173.png" alt="Mephitis" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/173.gif" alt="" loading="lazy" /></span> | [Mephitis](/bestiary/bosses/mephitis/) | 12000 | 21–33 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/259.png" alt="Monstrous Interred Grizzle" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/259.gif" alt="" loading="lazy" /></span> | [Monstrous Interred Grizzle](/bestiary/bosses/monstrous-interred-grizzle/) | 50000 | 27–31 | — |
 |  | [Navrey Night-Eyes](/bestiary/bosses/navrey/) | 30000–35000 | 25–40 | — |
-| <img src="/img/creatures/401.gif" class="uo-anim" alt="Neira" loading="lazy" /> | [Neira](/bestiary/bosses/neira/) | 4800 | 25–35 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Neira" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Neira](/bestiary/bosses/neira/) | 4800 | 25–35 | — |
 |  | [Primeval Lich](/bestiary/bosses/primeval-lich/) | 30000 | 17–21 | — |
-| <img src="/img/creatures/172.gif" class="uo-anim" alt="Rikktor" loading="lazy" /> | [Rikktor](/bestiary/bosses/rikktor/) | 15000 | 28–55 | — |
-| <img src="/img/creatures/174.gif" class="uo-anim" alt="Semidar" loading="lazy" /> | [Semidar](/bestiary/bosses/semidar/) | 10000 | 29–35 | — |
-| <img src="/img/creatures/249.gif" class="uo-anim" alt="Serado" loading="lazy" /> | [Serado](/bestiary/bosses/serado/) | 9000 | 29–35 | — |
-| <img src="/img/creatures/261.gif" class="uo-anim" alt="Shimmering Effusion" loading="lazy" /> | [Shimmering Effusion](/bestiary/bosses/shimmering-effusion/) | 20000 | 27–31 | — |
-| <img src="/img/creatures/176.gif" class="uo-anim" alt="Silvani" loading="lazy" /> | [Silvani](/bestiary/bosses/silvani/) | 600 | 27–38 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/172.png" alt="Rikktor" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/172.gif" alt="" loading="lazy" /></span> | [Rikktor](/bestiary/bosses/rikktor/) | 15000 | 28–55 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/174.png" alt="Semidar" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/174.gif" alt="" loading="lazy" /></span> | [Semidar](/bestiary/bosses/semidar/) | 10000 | 29–35 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/249.png" alt="Serado" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/249.gif" alt="" loading="lazy" /></span> | [Serado](/bestiary/bosses/serado/) | 9000 | 29–35 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/261.png" alt="Shimmering Effusion" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/261.gif" alt="" loading="lazy" /></span> | [Shimmering Effusion](/bestiary/bosses/shimmering-effusion/) | 20000 | 27–31 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/176.png" alt="Silvani" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/176.gif" alt="" loading="lazy" /></span> | [Silvani](/bestiary/bosses/silvani/) | 600 | 27–38 | — |
 |  | [Slasher Of Veils](/bestiary/bosses/slasher-of-veils/) | 50000–65000 | 10–15 | — |
 |  | [Stygian Dragon](/bestiary/bosses/stygian-dragon/) | 30000 | 33–55 | — |
-| <img src="/img/creatures/129.gif" class="uo-anim" alt="Tentacles Of The Harrower" loading="lazy" /> | [Tentacles Of The Harrower](/bestiary/bosses/harrower-tentacles/) | 541–600 | 13–20 | — |
-| <img src="/img/creatures/264.gif" class="uo-anim" alt="Travesty" loading="lazy" /> | [Travesty](/bestiary/bosses/travesty/) | 35000 | 11–18 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/129.png" alt="Tentacles Of The Harrower" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/129.gif" alt="" loading="lazy" /></span> | [Tentacles Of The Harrower](/bestiary/bosses/harrower-tentacles/) | 541–600 | 13–20 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/264.png" alt="Travesty" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/264.gif" alt="" loading="lazy" /></span> | [Travesty](/bestiary/bosses/travesty/) | 35000 | 11–18 | — |

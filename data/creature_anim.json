@@ -1,6 +1,6 @@
 {
   "_schema": {
-    "bodies": "body id -> {gif path, frame count, action group, source anim file}",
+    "bodies": "body id -> {gif path, png path, frame count, action group, source anim file}",
     "creatures": "creature class -> body id used for its gif"
   },
   "_meta": {
@@ -8,7 +8,7 @@
     "extracted": "2026-06-11",
     "direction": 1,
     "frame_duration_ms": 130,
-    "bodies_total": 318,
+    "bodies_total": 317,
     "bodies_ok": 279,
     "failures": [
       {
@@ -136,10 +136,6 @@
         "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
       },
       {
-        "body": 1246,
-        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
-      },
-      {
         "body": 1407,
         "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
       },
@@ -172,120 +168,140 @@
   "bodies": {
     "1": {
       "gif": "/img/creatures/1.gif",
+      "png": "/img/creatures/1.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "3": {
       "gif": "/img/creatures/3.gif",
+      "png": "/img/creatures/3.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "4": {
       "gif": "/img/creatures/4.gif",
+      "png": "/img/creatures/4.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "5": {
       "gif": "/img/creatures/5.gif",
+      "png": "/img/creatures/5.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "6": {
       "gif": "/img/creatures/6.gif",
+      "png": "/img/creatures/6.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "7": {
       "gif": "/img/creatures/7.gif",
+      "png": "/img/creatures/7.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "8": {
       "gif": "/img/creatures/8.gif",
+      "png": "/img/creatures/8.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "9": {
       "gif": "/img/creatures/9.gif",
+      "png": "/img/creatures/9.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "11": {
       "gif": "/img/creatures/11.gif",
+      "png": "/img/creatures/11.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "12": {
       "gif": "/img/creatures/12.gif",
+      "png": "/img/creatures/12.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "13": {
       "gif": "/img/creatures/13.gif",
+      "png": "/img/creatures/13.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "14": {
       "gif": "/img/creatures/14.gif",
+      "png": "/img/creatures/14.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "15": {
       "gif": "/img/creatures/15.gif",
+      "png": "/img/creatures/15.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "16": {
       "gif": "/img/creatures/16.gif",
+      "png": "/img/creatures/16.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "17": {
       "gif": "/img/creatures/17.gif",
+      "png": "/img/creatures/17.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "18": {
       "gif": "/img/creatures/18.gif",
+      "png": "/img/creatures/18.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "20": {
       "gif": "/img/creatures/20.gif",
+      "png": "/img/creatures/20.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "21": {
       "gif": "/img/creatures/21.gif",
+      "png": "/img/creatures/21.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "22": {
       "gif": "/img/creatures/22.gif",
+      "png": "/img/creatures/22.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "23": {
       "gif": "/img/creatures/23.gif",
+      "png": "/img/creatures/23.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -293,12 +309,14 @@
     },
     "24": {
       "gif": "/img/creatures/24.gif",
+      "png": "/img/creatures/24.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "25": {
       "gif": "/img/creatures/25.gif",
+      "png": "/img/creatures/25.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -306,36 +324,42 @@
     },
     "26": {
       "gif": "/img/creatures/26.gif",
+      "png": "/img/creatures/26.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "28": {
       "gif": "/img/creatures/28.gif",
+      "png": "/img/creatures/28.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "29": {
       "gif": "/img/creatures/29.gif",
+      "png": "/img/creatures/29.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "30": {
       "gif": "/img/creatures/30.gif",
+      "png": "/img/creatures/30.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "31": {
       "gif": "/img/creatures/31.gif",
+      "png": "/img/creatures/31.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "34": {
       "gif": "/img/creatures/34.gif",
+      "png": "/img/creatures/34.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -343,108 +367,126 @@
     },
     "35": {
       "gif": "/img/creatures/35.gif",
+      "png": "/img/creatures/35.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "39": {
       "gif": "/img/creatures/39.gif",
+      "png": "/img/creatures/39.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "40": {
       "gif": "/img/creatures/40.gif",
+      "png": "/img/creatures/40.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "42": {
       "gif": "/img/creatures/42.gif",
+      "png": "/img/creatures/42.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "43": {
       "gif": "/img/creatures/43.gif",
+      "png": "/img/creatures/43.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "46": {
       "gif": "/img/creatures/46.gif",
+      "png": "/img/creatures/46.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "47": {
       "gif": "/img/creatures/47.gif",
+      "png": "/img/creatures/47.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "48": {
       "gif": "/img/creatures/48.gif",
+      "png": "/img/creatures/48.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "50": {
       "gif": "/img/creatures/50.gif",
+      "png": "/img/creatures/50.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "51": {
       "gif": "/img/creatures/51.gif",
+      "png": "/img/creatures/51.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "52": {
       "gif": "/img/creatures/52.gif",
+      "png": "/img/creatures/52.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "53": {
       "gif": "/img/creatures/53.gif",
+      "png": "/img/creatures/53.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "55": {
       "gif": "/img/creatures/55.gif",
+      "png": "/img/creatures/55.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "57": {
       "gif": "/img/creatures/57.gif",
+      "png": "/img/creatures/57.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "58": {
       "gif": "/img/creatures/58.gif",
+      "png": "/img/creatures/58.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "60": {
       "gif": "/img/creatures/60.gif",
+      "png": "/img/creatures/60.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "62": {
       "gif": "/img/creatures/62.gif",
+      "png": "/img/creatures/62.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "63": {
       "gif": "/img/creatures/63.gif",
+      "png": "/img/creatures/63.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -452,6 +494,7 @@
     },
     "64": {
       "gif": "/img/creatures/64.gif",
+      "png": "/img/creatures/64.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -459,6 +502,7 @@
     },
     "66": {
       "gif": "/img/creatures/66.gif",
+      "png": "/img/creatures/66.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -466,30 +510,35 @@
     },
     "67": {
       "gif": "/img/creatures/67.gif",
+      "png": "/img/creatures/67.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "70": {
       "gif": "/img/creatures/70.gif",
+      "png": "/img/creatures/70.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "71": {
       "gif": "/img/creatures/71.gif",
+      "png": "/img/creatures/71.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "72": {
       "gif": "/img/creatures/72.gif",
+      "png": "/img/creatures/72.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "73": {
       "gif": "/img/creatures/73.gif",
+      "png": "/img/creatures/73.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -497,30 +546,35 @@
     },
     "74": {
       "gif": "/img/creatures/74.gif",
+      "png": "/img/creatures/74.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "75": {
       "gif": "/img/creatures/75.gif",
+      "png": "/img/creatures/75.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "76": {
       "gif": "/img/creatures/76.gif",
+      "png": "/img/creatures/76.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "77": {
       "gif": "/img/creatures/77.gif",
+      "png": "/img/creatures/77.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "78": {
       "gif": "/img/creatures/78.gif",
+      "png": "/img/creatures/78.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -528,6 +582,7 @@
     },
     "79": {
       "gif": "/img/creatures/79.gif",
+      "png": "/img/creatures/79.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -535,18 +590,21 @@
     },
     "80": {
       "gif": "/img/creatures/80.gif",
+      "png": "/img/creatures/80.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "81": {
       "gif": "/img/creatures/81.gif",
+      "png": "/img/creatures/81.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "83": {
       "gif": "/img/creatures/83.gif",
+      "png": "/img/creatures/83.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -554,24 +612,28 @@
     },
     "85": {
       "gif": "/img/creatures/85.gif",
+      "png": "/img/creatures/85.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "86": {
       "gif": "/img/creatures/86.gif",
+      "png": "/img/creatures/86.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "87": {
       "gif": "/img/creatures/87.gif",
+      "png": "/img/creatures/87.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "88": {
       "gif": "/img/creatures/88.gif",
+      "png": "/img/creatures/88.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -579,6 +641,7 @@
     },
     "89": {
       "gif": "/img/creatures/89.gif",
+      "png": "/img/creatures/89.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -586,6 +649,7 @@
     },
     "90": {
       "gif": "/img/creatures/90.gif",
+      "png": "/img/creatures/90.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -593,6 +657,7 @@
     },
     "92": {
       "gif": "/img/creatures/92.gif",
+      "png": "/img/creatures/92.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -600,6 +665,7 @@
     },
     "94": {
       "gif": "/img/creatures/94.gif",
+      "png": "/img/creatures/94.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -607,12 +673,14 @@
     },
     "95": {
       "gif": "/img/creatures/95.gif",
+      "png": "/img/creatures/95.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "98": {
       "gif": "/img/creatures/98.gif",
+      "png": "/img/creatures/98.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -620,6 +688,7 @@
     },
     "99": {
       "gif": "/img/creatures/99.gif",
+      "png": "/img/creatures/99.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -627,24 +696,28 @@
     },
     "101": {
       "gif": "/img/creatures/101.gif",
+      "png": "/img/creatures/101.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "103": {
       "gif": "/img/creatures/103.gif",
+      "png": "/img/creatures/103.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "104": {
       "gif": "/img/creatures/104.gif",
+      "png": "/img/creatures/104.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "106": {
       "gif": "/img/creatures/106.gif",
+      "png": "/img/creatures/106.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -652,6 +725,7 @@
     },
     "107": {
       "gif": "/img/creatures/107.gif",
+      "png": "/img/creatures/107.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -659,6 +733,7 @@
     },
     "108": {
       "gif": "/img/creatures/108.gif",
+      "png": "/img/creatures/108.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -666,6 +741,7 @@
     },
     "109": {
       "gif": "/img/creatures/109.gif",
+      "png": "/img/creatures/109.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -673,6 +749,7 @@
     },
     "110": {
       "gif": "/img/creatures/110.gif",
+      "png": "/img/creatures/110.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -680,6 +757,7 @@
     },
     "111": {
       "gif": "/img/creatures/111.gif",
+      "png": "/img/creatures/111.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -687,6 +765,7 @@
     },
     "112": {
       "gif": "/img/creatures/112.gif",
+      "png": "/img/creatures/112.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -694,6 +773,7 @@
     },
     "113": {
       "gif": "/img/creatures/113.gif",
+      "png": "/img/creatures/113.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -701,36 +781,42 @@
     },
     "116": {
       "gif": "/img/creatures/116.gif",
+      "png": "/img/creatures/116.png",
       "frames": 6,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "122": {
       "gif": "/img/creatures/122.gif",
+      "png": "/img/creatures/122.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "123": {
       "gif": "/img/creatures/123.gif",
+      "png": "/img/creatures/123.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "124": {
       "gif": "/img/creatures/124.gif",
+      "png": "/img/creatures/124.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "125": {
       "gif": "/img/creatures/125.gif",
+      "png": "/img/creatures/125.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "127": {
       "gif": "/img/creatures/127.gif",
+      "png": "/img/creatures/127.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -738,12 +824,14 @@
     },
     "128": {
       "gif": "/img/creatures/128.gif",
+      "png": "/img/creatures/128.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "129": {
       "gif": "/img/creatures/129.gif",
+      "png": "/img/creatures/129.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -751,6 +839,7 @@
     },
     "131": {
       "gif": "/img/creatures/131.gif",
+      "png": "/img/creatures/131.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -758,12 +847,14 @@
     },
     "132": {
       "gif": "/img/creatures/132.gif",
+      "png": "/img/creatures/132.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "135": {
       "gif": "/img/creatures/135.gif",
+      "png": "/img/creatures/135.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -771,6 +862,7 @@
     },
     "138": {
       "gif": "/img/creatures/138.gif",
+      "png": "/img/creatures/138.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -778,6 +870,7 @@
     },
     "140": {
       "gif": "/img/creatures/140.gif",
+      "png": "/img/creatures/140.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -785,6 +878,7 @@
     },
     "142": {
       "gif": "/img/creatures/142.gif",
+      "png": "/img/creatures/142.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -792,6 +886,7 @@
     },
     "143": {
       "gif": "/img/creatures/143.gif",
+      "png": "/img/creatures/143.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -799,6 +894,7 @@
     },
     "147": {
       "gif": "/img/creatures/147.gif",
+      "png": "/img/creatures/147.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -806,36 +902,42 @@
     },
     "148": {
       "gif": "/img/creatures/148.gif",
+      "png": "/img/creatures/148.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "149": {
       "gif": "/img/creatures/149.gif",
+      "png": "/img/creatures/149.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "150": {
       "gif": "/img/creatures/150.gif",
+      "png": "/img/creatures/150.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "151": {
       "gif": "/img/creatures/151.gif",
+      "png": "/img/creatures/151.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "152": {
       "gif": "/img/creatures/152.gif",
+      "png": "/img/creatures/152.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "153": {
       "gif": "/img/creatures/153.gif",
+      "png": "/img/creatures/153.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -843,12 +945,14 @@
     },
     "154": {
       "gif": "/img/creatures/154.gif",
+      "png": "/img/creatures/154.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "155": {
       "gif": "/img/creatures/155.gif",
+      "png": "/img/creatures/155.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -856,12 +960,14 @@
     },
     "157": {
       "gif": "/img/creatures/157.gif",
+      "png": "/img/creatures/157.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "158": {
       "gif": "/img/creatures/158.gif",
+      "png": "/img/creatures/158.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -869,6 +975,7 @@
     },
     "159": {
       "gif": "/img/creatures/159.gif",
+      "png": "/img/creatures/159.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -876,6 +983,7 @@
     },
     "161": {
       "gif": "/img/creatures/161.gif",
+      "png": "/img/creatures/161.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -883,6 +991,7 @@
     },
     "162": {
       "gif": "/img/creatures/162.gif",
+      "png": "/img/creatures/162.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -890,6 +999,7 @@
     },
     "163": {
       "gif": "/img/creatures/163.gif",
+      "png": "/img/creatures/163.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -897,6 +1007,7 @@
     },
     "165": {
       "gif": "/img/creatures/165.gif",
+      "png": "/img/creatures/165.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -904,6 +1015,7 @@
     },
     "166": {
       "gif": "/img/creatures/166.gif",
+      "png": "/img/creatures/166.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -911,6 +1023,7 @@
     },
     "167": {
       "gif": "/img/creatures/167.gif",
+      "png": "/img/creatures/167.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -918,54 +1031,63 @@
     },
     "169": {
       "gif": "/img/creatures/169.gif",
+      "png": "/img/creatures/169.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "172": {
       "gif": "/img/creatures/172.gif",
+      "png": "/img/creatures/172.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "173": {
       "gif": "/img/creatures/173.gif",
+      "png": "/img/creatures/173.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "174": {
       "gif": "/img/creatures/174.gif",
+      "png": "/img/creatures/174.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "175": {
       "gif": "/img/creatures/175.gif",
+      "png": "/img/creatures/175.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "176": {
       "gif": "/img/creatures/176.gif",
+      "png": "/img/creatures/176.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "181": {
       "gif": "/img/creatures/181.gif",
+      "png": "/img/creatures/181.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "182": {
       "gif": "/img/creatures/182.gif",
+      "png": "/img/creatures/182.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "184": {
       "gif": "/img/creatures/184.gif",
+      "png": "/img/creatures/184.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -973,6 +1095,7 @@
     },
     "185": {
       "gif": "/img/creatures/185.gif",
+      "png": "/img/creatures/185.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -980,6 +1103,7 @@
     },
     "186": {
       "gif": "/img/creatures/186.gif",
+      "png": "/img/creatures/186.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -987,24 +1111,28 @@
     },
     "187": {
       "gif": "/img/creatures/187.gif",
+      "png": "/img/creatures/187.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "188": {
       "gif": "/img/creatures/188.gif",
+      "png": "/img/creatures/188.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "189": {
       "gif": "/img/creatures/189.gif",
+      "png": "/img/creatures/189.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "190": {
       "gif": "/img/creatures/190.gif",
+      "png": "/img/creatures/190.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -1012,774 +1140,903 @@
     },
     "196": {
       "gif": "/img/creatures/196.gif",
+      "png": "/img/creatures/196.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "197": {
       "gif": "/img/creatures/197.gif",
+      "png": "/img/creatures/197.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "199": {
       "gif": "/img/creatures/199.gif",
+      "png": "/img/creatures/199.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "201": {
       "gif": "/img/creatures/201.gif",
+      "png": "/img/creatures/201.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "202": {
       "gif": "/img/creatures/202.gif",
+      "png": "/img/creatures/202.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "203": {
       "gif": "/img/creatures/203.gif",
+      "png": "/img/creatures/203.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "205": {
       "gif": "/img/creatures/205.gif",
+      "png": "/img/creatures/205.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "206": {
       "gif": "/img/creatures/206.gif",
+      "png": "/img/creatures/206.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "207": {
       "gif": "/img/creatures/207.gif",
+      "png": "/img/creatures/207.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "208": {
       "gif": "/img/creatures/208.gif",
+      "png": "/img/creatures/208.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "209": {
       "gif": "/img/creatures/209.gif",
+      "png": "/img/creatures/209.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "210": {
       "gif": "/img/creatures/210.gif",
+      "png": "/img/creatures/210.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "211": {
       "gif": "/img/creatures/211.gif",
+      "png": "/img/creatures/211.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "212": {
       "gif": "/img/creatures/212.gif",
+      "png": "/img/creatures/212.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "213": {
       "gif": "/img/creatures/213.gif",
+      "png": "/img/creatures/213.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "214": {
       "gif": "/img/creatures/214.gif",
+      "png": "/img/creatures/214.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "215": {
       "gif": "/img/creatures/215.gif",
+      "png": "/img/creatures/215.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "216": {
       "gif": "/img/creatures/216.gif",
+      "png": "/img/creatures/216.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "217": {
       "gif": "/img/creatures/217.gif",
+      "png": "/img/creatures/217.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "218": {
       "gif": "/img/creatures/218.gif",
+      "png": "/img/creatures/218.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "219": {
       "gif": "/img/creatures/219.gif",
+      "png": "/img/creatures/219.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "220": {
       "gif": "/img/creatures/220.gif",
+      "png": "/img/creatures/220.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "221": {
       "gif": "/img/creatures/221.gif",
+      "png": "/img/creatures/221.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "225": {
       "gif": "/img/creatures/225.gif",
+      "png": "/img/creatures/225.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "226": {
       "gif": "/img/creatures/226.gif",
+      "png": "/img/creatures/226.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "232": {
       "gif": "/img/creatures/232.gif",
+      "png": "/img/creatures/232.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "234": {
       "gif": "/img/creatures/234.gif",
+      "png": "/img/creatures/234.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "237": {
       "gif": "/img/creatures/237.gif",
+      "png": "/img/creatures/237.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "238": {
       "gif": "/img/creatures/238.gif",
+      "png": "/img/creatures/238.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "240": {
       "gif": "/img/creatures/240.gif",
+      "png": "/img/creatures/240.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "241": {
       "gif": "/img/creatures/241.gif",
+      "png": "/img/creatures/241.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "242": {
       "gif": "/img/creatures/242.gif",
+      "png": "/img/creatures/242.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "243": {
       "gif": "/img/creatures/243.gif",
+      "png": "/img/creatures/243.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "244": {
       "gif": "/img/creatures/244.gif",
+      "png": "/img/creatures/244.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "245": {
       "gif": "/img/creatures/245.gif",
+      "png": "/img/creatures/245.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "246": {
       "gif": "/img/creatures/246.gif",
+      "png": "/img/creatures/246.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "247": {
       "gif": "/img/creatures/247.gif",
+      "png": "/img/creatures/247.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "248": {
       "gif": "/img/creatures/248.gif",
+      "png": "/img/creatures/248.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "249": {
       "gif": "/img/creatures/249.gif",
+      "png": "/img/creatures/249.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "250": {
       "gif": "/img/creatures/250.gif",
+      "png": "/img/creatures/250.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "251": {
       "gif": "/img/creatures/251.gif",
+      "png": "/img/creatures/251.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "252": {
       "gif": "/img/creatures/252.gif",
+      "png": "/img/creatures/252.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "253": {
       "gif": "/img/creatures/253.gif",
+      "png": "/img/creatures/253.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "254": {
       "gif": "/img/creatures/254.gif",
+      "png": "/img/creatures/254.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "255": {
       "gif": "/img/creatures/255.gif",
+      "png": "/img/creatures/255.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
     "256": {
       "gif": "/img/creatures/256.gif",
+      "png": "/img/creatures/256.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "257": {
       "gif": "/img/creatures/257.gif",
+      "png": "/img/creatures/257.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "258": {
       "gif": "/img/creatures/258.gif",
+      "png": "/img/creatures/258.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "259": {
       "gif": "/img/creatures/259.gif",
+      "png": "/img/creatures/259.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "261": {
       "gif": "/img/creatures/261.gif",
+      "png": "/img/creatures/261.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "262": {
       "gif": "/img/creatures/262.gif",
+      "png": "/img/creatures/262.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "263": {
       "gif": "/img/creatures/263.gif",
+      "png": "/img/creatures/263.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "264": {
       "gif": "/img/creatures/264.gif",
+      "png": "/img/creatures/264.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "265": {
       "gif": "/img/creatures/265.gif",
+      "png": "/img/creatures/265.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "266": {
       "gif": "/img/creatures/266.gif",
+      "png": "/img/creatures/266.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "267": {
       "gif": "/img/creatures/267.gif",
+      "png": "/img/creatures/267.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "271": {
       "gif": "/img/creatures/271.gif",
+      "png": "/img/creatures/271.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "273": {
       "gif": "/img/creatures/273.gif",
+      "png": "/img/creatures/273.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "276": {
       "gif": "/img/creatures/276.gif",
+      "png": "/img/creatures/276.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "277": {
       "gif": "/img/creatures/277.gif",
+      "png": "/img/creatures/277.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "278": {
       "gif": "/img/creatures/278.gif",
+      "png": "/img/creatures/278.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "279": {
       "gif": "/img/creatures/279.gif",
+      "png": "/img/creatures/279.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "280": {
       "gif": "/img/creatures/280.gif",
+      "png": "/img/creatures/280.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "281": {
       "gif": "/img/creatures/281.gif",
+      "png": "/img/creatures/281.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "290": {
       "gif": "/img/creatures/290.gif",
+      "png": "/img/creatures/290.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "291": {
       "gif": "/img/creatures/291.gif",
+      "png": "/img/creatures/291.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "292": {
       "gif": "/img/creatures/292.gif",
+      "png": "/img/creatures/292.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "300": {
       "gif": "/img/creatures/300.gif",
+      "png": "/img/creatures/300.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "301": {
       "gif": "/img/creatures/301.gif",
+      "png": "/img/creatures/301.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "302": {
       "gif": "/img/creatures/302.gif",
+      "png": "/img/creatures/302.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "303": {
       "gif": "/img/creatures/303.gif",
+      "png": "/img/creatures/303.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "304": {
       "gif": "/img/creatures/304.gif",
+      "png": "/img/creatures/304.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "305": {
       "gif": "/img/creatures/305.gif",
+      "png": "/img/creatures/305.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "306": {
       "gif": "/img/creatures/306.gif",
+      "png": "/img/creatures/306.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "307": {
       "gif": "/img/creatures/307.gif",
+      "png": "/img/creatures/307.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "308": {
       "gif": "/img/creatures/308.gif",
+      "png": "/img/creatures/308.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "309": {
       "gif": "/img/creatures/309.gif",
+      "png": "/img/creatures/309.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "310": {
       "gif": "/img/creatures/310.gif",
+      "png": "/img/creatures/310.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "311": {
       "gif": "/img/creatures/311.gif",
+      "png": "/img/creatures/311.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "312": {
       "gif": "/img/creatures/312.gif",
+      "png": "/img/creatures/312.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "313": {
       "gif": "/img/creatures/313.gif",
+      "png": "/img/creatures/313.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "314": {
       "gif": "/img/creatures/314.gif",
+      "png": "/img/creatures/314.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "315": {
       "gif": "/img/creatures/315.gif",
+      "png": "/img/creatures/315.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "316": {
       "gif": "/img/creatures/316.gif",
+      "png": "/img/creatures/316.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "317": {
       "gif": "/img/creatures/317.gif",
+      "png": "/img/creatures/317.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "318": {
       "gif": "/img/creatures/318.gif",
+      "png": "/img/creatures/318.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "319": {
       "gif": "/img/creatures/319.gif",
+      "png": "/img/creatures/319.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "400": {
       "gif": "/img/creatures/400.gif",
+      "png": "/img/creatures/400.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "401": {
       "gif": "/img/creatures/401.gif",
+      "png": "/img/creatures/401.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "574": {
       "gif": "/img/creatures/574.gif",
+      "png": "/img/creatures/574.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "606": {
       "gif": "/img/creatures/606.gif",
+      "png": "/img/creatures/606.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "637": {
       "gif": "/img/creatures/637.gif",
+      "png": "/img/creatures/637.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "713": {
       "gif": "/img/creatures/713.gif",
+      "png": "/img/creatures/713.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "714": {
       "gif": "/img/creatures/714.gif",
+      "png": "/img/creatures/714.png",
       "frames": 7,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "715": {
       "gif": "/img/creatures/715.gif",
+      "png": "/img/creatures/715.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "716": {
       "gif": "/img/creatures/716.gif",
+      "png": "/img/creatures/716.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "717": {
       "gif": "/img/creatures/717.gif",
+      "png": "/img/creatures/717.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "718": {
       "gif": "/img/creatures/718.gif",
+      "png": "/img/creatures/718.png",
       "frames": 7,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "719": {
       "gif": "/img/creatures/719.gif",
+      "png": "/img/creatures/719.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "720": {
       "gif": "/img/creatures/720.gif",
+      "png": "/img/creatures/720.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
     "752": {
       "gif": "/img/creatures/752.gif",
+      "png": "/img/creatures/752.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "753": {
       "gif": "/img/creatures/753.gif",
+      "png": "/img/creatures/753.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "754": {
       "gif": "/img/creatures/754.gif",
+      "png": "/img/creatures/754.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "755": {
       "gif": "/img/creatures/755.gif",
+      "png": "/img/creatures/755.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "756": {
       "gif": "/img/creatures/756.gif",
+      "png": "/img/creatures/756.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "757": {
       "gif": "/img/creatures/757.gif",
+      "png": "/img/creatures/757.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "764": {
       "gif": "/img/creatures/764.gif",
+      "png": "/img/creatures/764.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "765": {
       "gif": "/img/creatures/765.gif",
+      "png": "/img/creatures/765.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "766": {
       "gif": "/img/creatures/766.gif",
+      "png": "/img/creatures/766.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "767": {
       "gif": "/img/creatures/767.gif",
+      "png": "/img/creatures/767.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "768": {
       "gif": "/img/creatures/768.gif",
+      "png": "/img/creatures/768.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "770": {
       "gif": "/img/creatures/770.gif",
+      "png": "/img/creatures/770.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "771": {
       "gif": "/img/creatures/771.gif",
+      "png": "/img/creatures/771.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "772": {
       "gif": "/img/creatures/772.gif",
+      "png": "/img/creatures/772.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "773": {
       "gif": "/img/creatures/773.gif",
+      "png": "/img/creatures/773.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "775": {
       "gif": "/img/creatures/775.gif",
+      "png": "/img/creatures/775.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "776": {
       "gif": "/img/creatures/776.gif",
+      "png": "/img/creatures/776.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "777": {
       "gif": "/img/creatures/777.gif",
+      "png": "/img/creatures/777.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "778": {
       "gif": "/img/creatures/778.gif",
+      "png": "/img/creatures/778.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "779": {
       "gif": "/img/creatures/779.gif",
+      "png": "/img/creatures/779.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "780": {
       "gif": "/img/creatures/780.gif",
+      "png": "/img/creatures/780.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "781": {
       "gif": "/img/creatures/781.gif",
+      "png": "/img/creatures/781.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "782": {
       "gif": "/img/creatures/782.gif",
+      "png": "/img/creatures/782.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "783": {
       "gif": "/img/creatures/783.gif",
+      "png": "/img/creatures/783.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "784": {
       "gif": "/img/creatures/784.gif",
+      "png": "/img/creatures/784.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "785": {
       "gif": "/img/creatures/785.gif",
+      "png": "/img/creatures/785.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "787": {
       "gif": "/img/creatures/787.gif",
+      "png": "/img/creatures/787.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "789": {
       "gif": "/img/creatures/789.gif",
+      "png": "/img/creatures/789.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "790": {
       "gif": "/img/creatures/790.gif",
+      "png": "/img/creatures/790.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul",
@@ -1787,108 +2044,126 @@
     },
     "791": {
       "gif": "/img/creatures/791.gif",
+      "png": "/img/creatures/791.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "792": {
       "gif": "/img/creatures/792.gif",
+      "png": "/img/creatures/792.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "793": {
       "gif": "/img/creatures/793.gif",
+      "png": "/img/creatures/793.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "794": {
       "gif": "/img/creatures/794.gif",
+      "png": "/img/creatures/794.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "799": {
       "gif": "/img/creatures/799.gif",
+      "png": "/img/creatures/799.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "805": {
       "gif": "/img/creatures/805.gif",
+      "png": "/img/creatures/805.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "806": {
       "gif": "/img/creatures/806.gif",
+      "png": "/img/creatures/806.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "807": {
       "gif": "/img/creatures/807.gif",
+      "png": "/img/creatures/807.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
     "970": {
       "gif": "/img/creatures/970.gif",
+      "png": "/img/creatures/970.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim.mul"
     },
     "1416": {
       "gif": "/img/creatures/1416.gif",
+      "png": "/img/creatures/1416.png",
       "frames": 10,
       "group": "stand",
       "anim_file": "anim3.mul"
     },
     "1417": {
       "gif": "/img/creatures/1417.gif",
+      "png": "/img/creatures/1417.png",
       "frames": 7,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1419": {
       "gif": "/img/creatures/1419.gif",
+      "png": "/img/creatures/1419.png",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1422": {
       "gif": "/img/creatures/1422.gif",
+      "png": "/img/creatures/1422.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1423": {
       "gif": "/img/creatures/1423.gif",
+      "png": "/img/creatures/1423.png",
       "frames": 7,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1424": {
       "gif": "/img/creatures/1424.gif",
+      "png": "/img/creatures/1424.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1425": {
       "gif": "/img/creatures/1425.gif",
+      "png": "/img/creatures/1425.png",
       "frames": 7,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1426": {
       "gif": "/img/creatures/1426.gif",
+      "png": "/img/creatures/1426.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim3.mul"
     },
     "1440": {
       "gif": "/img/creatures/1440.gif",
+      "png": "/img/creatures/1440.png",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim4.mul"
@@ -2011,6 +2286,7 @@
     "Doppleganger": 777,
     "Dragon": 12,
     "DragonWolf": 719,
+    "DragonsFlameMage": 400,
     "Drake": 60,
     "DreadHorn": 257,
     "DreadSpider": 11,
@@ -2023,6 +2299,7 @@
     "Efreet": 131,
     "ElderGazer": 22,
     "ElfBrigand": 606,
+    "EliteNinja": 401,
     "EnergyVortex": 220,
     "EnragedEarthElemental": 14,
     "EnslavedGargoyle": 753,
@@ -2084,6 +2361,7 @@
     "GreaterDragon": 12,
     "GreaterMongbat": 39,
     "GreaterPoisonElemental": 162,
+    "Gregorio": 400,
     "GreyWolf": 25,
     "GrimmochDrummel": 400,
     "GrizzlyBear": 212,
@@ -2234,7 +2512,6 @@
     "RidableLlama": 220,
     "Ridgeback": 187,
     "Rikktor": 172,
-    "Ronin": 401,
     "RottingCorpse": 155,
     "RuddyBoura": 715,
     "RuneBeetle": 244,
@@ -2254,6 +2531,7 @@
     "SentinelSpider": 157,
     "Serado": 249,
     "SerpentineDragon": 103,
+    "SerpentsFangAssassin": 400,
     "Sewerrat": 238,
     "Shade": 26,
     "ShadowIronElemental": 111,
@@ -2304,6 +2582,7 @@
     "TerathanWarrior": 70,
     "TheButcher": 306,
     "Thrasher": 206,
+    "TigersClawThief": 400,
     "TikitaviRenowned": 42,
     "TimberWolf": 225,
     "Titan": 76,

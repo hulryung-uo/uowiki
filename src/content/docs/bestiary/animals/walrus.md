@@ -3,6 +3,8 @@ title: "Walrus"
 description: "Walrus — hits 14–17, damage 4–10, Animal AI; tamable at 35.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Walrus.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Savage Shaman"
 description: "Savage Shaman — damage 4–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SavageShaman.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Terathan Matriarch"
 description: "Terathan Matriarch — hits 190–243, damage 11–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TerathanMatriarch.cs"
 last_verified: 2026-06-11

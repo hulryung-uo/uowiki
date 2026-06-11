@@ -3,6 +3,8 @@ title: "Niporailem"
 description: "Niporailem — hits 10000–10500, damage 15–27, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Niporailem.cs"
 last_verified: 2026-06-11

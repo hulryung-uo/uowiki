@@ -3,6 +3,8 @@ title: "Crimson Drake"
 description: "Crimson Drake — hits 241–258, damage 11–17, Melee AI; tamable at 85.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CrimsonDrake.cs"
 last_verified: 2026-06-11

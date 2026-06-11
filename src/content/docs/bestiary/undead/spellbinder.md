@@ -3,6 +3,8 @@ title: "Spectral Spellbinder"
 description: "Spectral Spellbinder — hits 36–50, damage 3–6, Spellbinder AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Spellbinder.cs"
 last_verified: 2026-06-11

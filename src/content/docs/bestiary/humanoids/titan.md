@@ -3,6 +3,8 @@ title: "Titan"
 description: "Titan — hits 322–351, damage 13–16, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Titan.cs"
 last_verified: 2026-06-11

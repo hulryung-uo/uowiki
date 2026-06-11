@@ -3,6 +3,8 @@ title: "Bull Frog"
 description: "Bull Frog — hits 28–42, damage 1–2, Animal AI; tamable at 23.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BullFrog.cs"
 last_verified: 2026-06-11

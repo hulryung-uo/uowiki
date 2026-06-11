@@ -3,6 +3,8 @@ title: "Tangle"
 description: "Tangle — hits 2468–2733, damage 15–28."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Tangle.cs"
 last_verified: 2026-06-11

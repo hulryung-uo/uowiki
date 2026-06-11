@@ -3,6 +3,8 @@ title: "Zealot Of Khaldun"
 description: "Zealot Of Khaldun — hits 421–480, damage 5–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/KhaldunSummoner.cs"
 last_verified: 2026-06-11

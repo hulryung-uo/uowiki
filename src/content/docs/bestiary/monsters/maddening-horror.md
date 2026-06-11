@@ -3,6 +3,8 @@ title: "Maddening Horror"
 description: "Maddening Horror — hits 660, damage 15–27, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MaddeningHorror.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Artist"
 description: "Artist — Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/NPCs/Artist.cs"
 last_verified: 2026-06-11

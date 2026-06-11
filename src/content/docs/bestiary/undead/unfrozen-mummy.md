@@ -3,6 +3,8 @@ title: "Unfrozen Mummy"
 description: "Unfrozen Mummy — hits 1500, damage 16–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/UnfrozenMummy.cs"
 last_verified: 2026-06-11

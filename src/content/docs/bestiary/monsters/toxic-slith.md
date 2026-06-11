@@ -3,6 +3,8 @@ title: "Toxic Slith"
 description: "Toxic Slith — hits 197–215, damage 6–24, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ToxicSlith.cs"
 last_verified: 2026-06-11

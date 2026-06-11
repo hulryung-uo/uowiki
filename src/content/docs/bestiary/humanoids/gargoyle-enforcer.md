@@ -3,6 +3,8 @@ title: "Gargoyle Enforcer"
 description: "Gargoyle Enforcer — hits 482–485, damage 7–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GargoyleEnforcer.cs"
 last_verified: 2026-06-11

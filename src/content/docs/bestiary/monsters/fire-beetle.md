@@ -3,6 +3,8 @@ title: "Fire Beetle"
 description: "Fire Beetle — hits 200, damage 7–20, Melee AI; tamable at 93.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FireBeetle.cs"
 last_verified: 2026-06-11

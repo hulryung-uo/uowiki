@@ -3,6 +3,8 @@ title: "Sentinel Spider"
 description: "Sentinel Spider — hits 260–265, damage 15–22, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SentinelSpider.cs"
 last_verified: 2026-06-11

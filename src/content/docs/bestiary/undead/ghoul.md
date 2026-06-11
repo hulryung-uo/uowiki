@@ -3,6 +3,8 @@ title: "Ghoul"
 description: "Ghoul — hits 46–60, damage 7–9, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Ghoul.cs"
 last_verified: 2026-06-11

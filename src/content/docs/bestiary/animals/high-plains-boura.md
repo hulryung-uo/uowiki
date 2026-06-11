@@ -3,6 +3,8 @@ title: "High Plains Boura"
 description: "High Plains Boura — hits 555–618, damage 20–25, Animal AI; tamable at 47.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/HighPlainsBoura.cs"
 last_verified: 2026-06-11

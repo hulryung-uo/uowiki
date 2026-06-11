@@ -3,6 +3,8 @@ title: "Rising Colossus"
 description: "Rising Colossus — Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/RisingColossus.cs"
 last_verified: 2026-06-11

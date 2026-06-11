@@ -3,6 +3,8 @@ title: "Orc Captain"
 description: "Orc Captain — hits 67–87, damage 5–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcCaptain.cs"
 last_verified: 2026-06-11

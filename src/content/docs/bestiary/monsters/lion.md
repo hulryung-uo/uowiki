@@ -3,6 +3,8 @@ title: "Lion"
 description: "Lion — hits 350–370, damage 16–22, Melee AI; tamable at 96.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Lion.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Lady Of The Snow"
 description: "Lady Of The Snow — hits 596–625, damage 13–20, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LadyOfTheSnow.cs"
 last_verified: 2026-06-11

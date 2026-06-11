@@ -3,6 +3,8 @@ title: "Relanord"
 description: "Relanord — hits 400–500, damage 10–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Relanord.cs"
 last_verified: 2026-06-11

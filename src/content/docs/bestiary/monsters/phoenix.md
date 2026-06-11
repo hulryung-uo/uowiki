@@ -3,6 +3,8 @@ title: "Phoenix"
 description: "Phoenix — hits 340–383, damage 20–25, Mage AI; tamable at 102.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Phoenix.cs"
 last_verified: 2026-06-11

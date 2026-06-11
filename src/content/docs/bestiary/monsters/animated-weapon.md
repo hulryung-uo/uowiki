@@ -3,6 +3,8 @@ title: "Animated Weapon"
 description: "Animated Weapon — damage 14–18, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/AnimatedWeapon.cs"
 last_verified: 2026-06-11

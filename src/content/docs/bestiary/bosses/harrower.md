@@ -3,6 +3,8 @@ title: "Harrower"
 description: "Harrower — NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Harrower/Harrower.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Void Manifestation"
 description: "Void Manifestation — hits 2400, damage 25–31, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/VoidManesfistation.cs"
 last_verified: 2026-06-11

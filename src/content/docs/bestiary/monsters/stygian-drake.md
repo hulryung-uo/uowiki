@@ -3,6 +3,8 @@ title: "Stygian Drake"
 description: "Stygian Drake — hits 480–510, damage 11–17, Mage AI; tamable at 85.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/StygianDrake.cs"
 last_verified: 2026-06-11

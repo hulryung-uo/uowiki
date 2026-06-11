@@ -3,6 +3,8 @@ title: "Eowmu"
 description: "Eowmu — hits 240, damage 1–4, Animal AI; tamable at 30.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Eowmu.cs"
 last_verified: 2026-06-11

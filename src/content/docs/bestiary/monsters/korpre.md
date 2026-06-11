@@ -3,6 +3,8 @@ title: "Korpre"
 description: "Korpre — hits 50–60, damage 1–5, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Korpre.cs"
 last_verified: 2026-06-11

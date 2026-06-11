@@ -3,6 +3,8 @@ title: "Alligator"
 description: "Alligator — hits 46–60, damage 5–15, Melee AI; tamable at 47.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Alligator.cs"
 last_verified: 2026-06-11

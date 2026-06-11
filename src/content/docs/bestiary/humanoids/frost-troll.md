@@ -3,6 +3,8 @@ title: "Frost Troll"
 description: "Frost Troll — hits 140–156, damage 14–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FrostTroll.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Pyre"
 description: "Pyre — hits 1783–1939, damage 30."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Pyre.cs"
 last_verified: 2026-06-11

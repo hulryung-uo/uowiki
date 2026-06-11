@@ -3,6 +3,8 @@ title: "Rai-Ju"
 description: "Rai-Ju — hits 201–280, damage 12–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RaiJu.cs"
 last_verified: 2026-06-11

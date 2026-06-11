@@ -3,6 +3,8 @@ title: "Fire Gargoyle"
 description: "Fire Gargoyle — hits 211–240, damage 7–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FireGargoyle.cs"
 last_verified: 2026-06-11

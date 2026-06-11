@@ -3,6 +3,8 @@ title: "Silver Serpent"
 description: "Silver Serpent — hits 97–216, damage 5–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SilverSerpent.cs"
 last_verified: 2026-06-11

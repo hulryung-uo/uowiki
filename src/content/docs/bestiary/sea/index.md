@@ -13,8 +13,8 @@ last_verified: 2026-06-11
 | | Creature | Hits | Damage | Tamable |
 |---|---|---|---|---|
 |  | [Crystal Sea Serpent](/bestiary/sea/crystal-sea-serpent/) | 230–330 | 10–18 | — |
-| <img src="/img/creatures/150.gif" class="uo-anim" alt="Deep Sea Serpent" loading="lazy" /> | [Deep Sea Serpent](/bestiary/sea/deep-sea-serpent/) | 151–255 | 6–14 | — |
-| <img src="/img/creatures/151.gif" class="uo-anim" alt="Dolphin" loading="lazy" /> | [Dolphin](/bestiary/sea/dolphin/) | 15–27 | 3–6 | — |
-| <img src="/img/creatures/77.gif" class="uo-anim" alt="Kraken" loading="lazy" /> | [Kraken](/bestiary/sea/kraken/) | 454–468 | 19–33 | — |
-| <img src="/img/creatures/77.gif" class="uo-anim" alt="Leviathan" loading="lazy" /> | [Leviathan](/bestiary/sea/leviathan/) | 1500 | 25–33 | — |
-| <img src="/img/creatures/150.gif" class="uo-anim" alt="Sea Serpent" loading="lazy" /> | [Sea Serpent](/bestiary/sea/sea-serpent/) | 110–127 | 7–13 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/150.png" alt="Deep Sea Serpent" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/150.gif" alt="" loading="lazy" /></span> | [Deep Sea Serpent](/bestiary/sea/deep-sea-serpent/) | 151–255 | 6–14 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/151.png" alt="Dolphin" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/151.gif" alt="" loading="lazy" /></span> | [Dolphin](/bestiary/sea/dolphin/) | 15–27 | 3–6 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/77.png" alt="Kraken" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/77.gif" alt="" loading="lazy" /></span> | [Kraken](/bestiary/sea/kraken/) | 454–468 | 19–33 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/77.png" alt="Leviathan" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/77.gif" alt="" loading="lazy" /></span> | [Leviathan](/bestiary/sea/leviathan/) | 1500 | 25–33 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/150.png" alt="Sea Serpent" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/150.gif" alt="" loading="lazy" /></span> | [Sea Serpent](/bestiary/sea/sea-serpent/) | 110–127 | 7–13 | — |

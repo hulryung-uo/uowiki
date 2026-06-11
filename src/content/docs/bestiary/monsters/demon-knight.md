@@ -3,6 +3,8 @@ title: "Demon Knight"
 description: "Demon Knight — hits 30000, damage 17–21, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DemonKnight.cs"
 last_verified: 2026-06-11

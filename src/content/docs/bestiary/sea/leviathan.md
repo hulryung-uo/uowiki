@@ -3,6 +3,8 @@ title: "Leviathan"
 description: "Leviathan — hits 1500, damage 25–33, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Leviathan.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Silk"
 description: "Silk — hits 279–378, damage 15–22."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Silk.cs"
 last_verified: 2026-06-11

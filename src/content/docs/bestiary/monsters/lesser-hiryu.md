@@ -3,6 +3,8 @@ title: "Lesser Hiryu"
 description: "Lesser Hiryu — hits 401–600, damage 18–23, Melee AI; tamable at 98.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LesserHiryu.cs"
 last_verified: 2026-06-11

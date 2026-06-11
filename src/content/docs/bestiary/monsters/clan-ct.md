@@ -3,6 +3,8 @@ title: "Clan Scratch Tinkerer"
 description: "Clan Scratch Tinkerer — hits 2025–2068, damage 4–10, Archer AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanCT.cs"
 last_verified: 2026-06-11

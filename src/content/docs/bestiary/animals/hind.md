@@ -3,6 +3,8 @@ title: "Hind"
 description: "Hind — hits 15–29, damage 4, Animal AI; tamable at 23.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Hind.cs"
 last_verified: 2026-06-11

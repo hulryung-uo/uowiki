@@ -3,6 +3,8 @@ title: "Grubber"
 description: "Grubber — hits 200, damage 1, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Grubber.cs"
 last_verified: 2026-06-11

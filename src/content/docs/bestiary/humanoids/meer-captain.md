@@ -3,6 +3,8 @@ title: "Meer Captain"
 description: "Meer Captain — hits 58–66, damage 5–15, Paladin AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MeerCaptain.cs"
 last_verified: 2026-06-11

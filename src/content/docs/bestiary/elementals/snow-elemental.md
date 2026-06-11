@@ -3,6 +3,8 @@ title: "Snow Elemental"
 description: "Snow Elemental — hits 196–213, damage 11–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SnowElemental.cs"
 last_verified: 2026-06-11

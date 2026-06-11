@@ -3,6 +3,8 @@ title: "Corrupted Soul"
 description: "Corrupted Soul — hits 61–69, damage 4–40, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CorruptedSoul.cs"
 last_verified: 2026-06-11

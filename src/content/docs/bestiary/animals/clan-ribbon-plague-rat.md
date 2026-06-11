@@ -3,6 +3,8 @@ title: "Clan Ribbon Plague Rat"
 description: "Clan Ribbon Plague Rat — hits 92, damage 4–8, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanRibbonPlagueRat.cs"
 last_verified: 2026-06-11

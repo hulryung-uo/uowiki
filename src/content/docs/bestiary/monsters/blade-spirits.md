@@ -3,6 +3,8 @@ title: "Blade Spirit"
 description: "Blade Spirit — damage 10–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/BladeSpirits.cs"
 last_verified: 2026-06-11

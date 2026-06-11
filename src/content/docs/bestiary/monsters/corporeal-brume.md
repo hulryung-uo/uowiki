@@ -3,6 +3,8 @@ title: "Corporeal Brume"
 description: "Corporeal Brume — hits 1150–1250, damage 21–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CorporealBrume.cs"
 last_verified: 2026-06-11

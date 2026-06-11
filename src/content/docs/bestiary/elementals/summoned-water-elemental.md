@@ -3,6 +3,8 @@ title: "Water Elemental"
 description: "Water Elemental — hits 165, damage 12–16, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/SummonedWaterElemental.cs"
 last_verified: 2026-06-11

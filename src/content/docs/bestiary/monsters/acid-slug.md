@@ -3,6 +3,8 @@ title: "Acid Slug"
 description: "Acid Slug — hits 333–370, damage 21–28, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/AcidSlug.cs"
 last_verified: 2026-06-11

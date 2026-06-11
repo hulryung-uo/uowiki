@@ -3,6 +3,8 @@ title: "Mountain Goat"
 description: "Mountain Goat — hits 20–33, damage 3–7, Animal AI; tamable at -0.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MountainGoat.cs"
 last_verified: 2026-06-11

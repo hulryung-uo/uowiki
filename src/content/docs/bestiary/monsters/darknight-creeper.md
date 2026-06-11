@@ -3,6 +3,8 @@ title: "Darknight Creeper"
 description: "Darknight Creeper — hits 4000, damage 22–26, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DarknightCreeper.cs"
 last_verified: 2026-06-11

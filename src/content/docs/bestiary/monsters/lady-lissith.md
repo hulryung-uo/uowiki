@@ -3,6 +3,8 @@ title: "Lady Lissith"
 description: "Lady Lissith — hits 245–375, damage 15–22."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/LadyLissith.cs"
 last_verified: 2026-06-11

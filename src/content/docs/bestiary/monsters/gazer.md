@@ -3,6 +3,8 @@ title: "Gazer"
 description: "Gazer — hits 58–75, damage 5–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Gazer.cs"
 last_verified: 2026-06-11

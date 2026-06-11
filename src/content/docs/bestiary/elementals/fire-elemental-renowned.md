@@ -3,6 +3,8 @@ title: "Fire Elemental"
 description: "Fire Elemental — hits 1200–1600, damage 7–9, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/FireElementalRenowned.cs"
 last_verified: 2026-06-11

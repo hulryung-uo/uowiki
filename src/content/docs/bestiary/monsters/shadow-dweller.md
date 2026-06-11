@@ -3,6 +3,8 @@ title: "Shadow Dweller"
 description: "Shadow Dweller — hits 103–120, damage 24–26, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ShadowDweller.cs"
 last_verified: 2026-06-11

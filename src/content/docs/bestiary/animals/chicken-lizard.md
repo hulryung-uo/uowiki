@@ -3,6 +3,8 @@ title: "Chicken Lizard"
 description: "Chicken Lizard — hits 74–95, damage 2–5, Animal AI; tamable at 0.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ChickenLizard.cs"
 last_verified: 2026-06-11

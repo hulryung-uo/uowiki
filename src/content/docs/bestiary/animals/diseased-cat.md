@@ -3,6 +3,8 @@ title: "Diseased Cat"
 description: "Diseased Cat — hits 6, damage 1, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DiseasedCat.cs"
 last_verified: 2026-06-11

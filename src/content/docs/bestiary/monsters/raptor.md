@@ -3,6 +3,8 @@ title: "Raptor"
 description: "Raptor — hits 343–400, damage 11–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Raptor.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Serado"
 description: "Serado — hits 9000, damage 29–35, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Serado.cs"
 last_verified: 2026-06-11

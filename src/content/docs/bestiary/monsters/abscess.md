@@ -3,6 +3,8 @@ title: "Abscess"
 description: "Abscess — hits 7470–7540, damage 26–31, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Abscess.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Enraged Earth Elemental"
 description: "Enraged Earth Elemental — hits 500–550, damage 9–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EnragedEarthElemental.cs"
 last_verified: 2026-06-11

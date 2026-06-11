@@ -3,6 +3,8 @@ title: "Lava Serpent"
 description: "Lava Serpent — hits 232–249, damage 10–22, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LavaSerpent.cs"
 last_verified: 2026-06-11

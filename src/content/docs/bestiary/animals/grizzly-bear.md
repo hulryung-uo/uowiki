@@ -3,6 +3,8 @@ title: "Grizzly Bear"
 description: "Grizzly Bear — hits 76–93, damage 8–13, Animal AI; tamable at 59.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GrizzlyBear.cs"
 last_verified: 2026-06-11

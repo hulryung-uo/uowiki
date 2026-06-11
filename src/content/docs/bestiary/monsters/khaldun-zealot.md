@@ -3,6 +3,8 @@ title: "Zealot Of Khaldun"
 description: "Zealot Of Khaldun — hits 448–470, damage 15–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/KhaldunZealot.cs"
 last_verified: 2026-06-11

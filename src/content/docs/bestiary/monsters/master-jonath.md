@@ -3,6 +3,8 @@ title: "Master Jonath"
 description: "Master Jonath — hits 766–920, damage 10–15."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/MasterJonath.cs"
 last_verified: 2026-06-11

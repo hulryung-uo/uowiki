@@ -3,6 +3,8 @@ title: "Rend"
 description: "Rend — hits 5176–6100, damage 26–33."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Rend.cs"
 last_verified: 2026-06-11

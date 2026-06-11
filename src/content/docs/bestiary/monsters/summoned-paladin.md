@@ -3,6 +3,8 @@ title: "Summoned Paladin"
 description: "Summoned Paladin — Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/SummonedPaladin.cs"
 last_verified: 2026-06-11

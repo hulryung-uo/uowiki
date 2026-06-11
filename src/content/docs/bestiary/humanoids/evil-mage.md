@@ -3,6 +3,8 @@ title: "Evil Mage"
 description: "Evil Mage — hits 49–63, damage 5–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EvilMage.cs"
 last_verified: 2026-06-11

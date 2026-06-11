@@ -3,6 +3,8 @@ title: "Red Solen Infiltrator"
 description: "Red Solen Infiltrator — hits 151–162, damage 10–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RedSolenInfiltratorQueen.cs"
 last_verified: 2026-06-11

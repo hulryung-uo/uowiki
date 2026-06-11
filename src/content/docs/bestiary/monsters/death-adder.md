@@ -3,6 +3,8 @@ title: "Death Adder"
 description: "Death Adder — hits 50, damage 1–4."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/DeathAdder.cs"
 last_verified: 2026-06-11

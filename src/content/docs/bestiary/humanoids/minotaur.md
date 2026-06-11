@@ -3,6 +3,8 @@ title: "Minotaur"
 description: "Minotaur — hits 301–340, damage 11–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Minotaur.cs"
 last_verified: 2026-06-11

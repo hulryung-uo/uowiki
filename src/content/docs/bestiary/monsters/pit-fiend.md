@@ -3,6 +3,8 @@ title: "Pit Fiend"
 description: "Pit Fiend — hits 226–243, damage 15–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PitFiend.cs"
 last_verified: 2026-06-11

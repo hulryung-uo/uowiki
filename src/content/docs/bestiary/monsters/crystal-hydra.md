@@ -3,6 +3,8 @@ title: "Crystal Hydra"
 description: "Crystal Hydra — hits 1450–1500, damage 21–26, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CrystalHydra.cs"
 last_verified: 2026-06-11

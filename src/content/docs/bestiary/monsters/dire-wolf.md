@@ -3,6 +3,8 @@ title: "Dire Wolf"
 description: "Dire Wolf — hits 58–72, damage 11–17, Melee AI; tamable at 83.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DireWolf.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Minotaur Scout"
 description: "Minotaur Scout — hits 354–383, damage 11–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MinotaurScout.cs"
 last_verified: 2026-06-11

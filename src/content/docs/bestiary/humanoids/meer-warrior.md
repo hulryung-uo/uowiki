@@ -3,6 +3,8 @@ title: "Meer Warrior"
 description: "Meer Warrior — hits 52–60, damage 12–19, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MeerWarrior.cs"
 last_verified: 2026-06-11

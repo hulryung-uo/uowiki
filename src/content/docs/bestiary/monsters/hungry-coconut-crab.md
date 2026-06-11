@@ -3,6 +3,8 @@ title: "Hungry Coconut Crab"
 description: "Hungry Coconut Crab — hits 12, damage 3–4, Melee AI; tamable at 0.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/HungryCoconutCrab.cs"
 last_verified: 2026-06-11

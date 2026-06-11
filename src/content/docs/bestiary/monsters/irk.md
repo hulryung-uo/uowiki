@@ -3,6 +3,8 @@ title: "Irk"
 description: "Irk — hits 1006–1064, damage 14–20."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Irk.cs"
 last_verified: 2026-06-11

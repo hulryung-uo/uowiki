@@ -3,6 +3,8 @@ title: "Black Order Master"
 description: "Black Order Master — hits 850–875, damage 15–20."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TigersClawMaster.cs"
 last_verified: 2026-06-11

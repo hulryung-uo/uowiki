@@ -3,6 +3,8 @@ title: "Ilhenir"
 description: "Ilhenir — hits 9000, damage 21–28, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Ilhenir.cs"
 last_verified: 2026-06-11

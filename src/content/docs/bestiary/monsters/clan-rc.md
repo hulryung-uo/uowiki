@@ -3,6 +3,8 @@ title: "Clan Ribbon Courtier"
 description: "Clan Ribbon Courtier — hits 2054–2100, damage 7–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanRC.cs"
 last_verified: 2026-06-11

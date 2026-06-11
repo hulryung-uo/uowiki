@@ -3,6 +3,8 @@ title: "Chaos Dragoon Elite"
 description: "Chaos Dragoon Elite — hits 276–350, damage 29–34, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ChaosDragoonElite.cs"
 last_verified: 2026-06-11

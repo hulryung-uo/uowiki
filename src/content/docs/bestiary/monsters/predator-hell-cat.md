@@ -3,6 +3,8 @@ title: "Predator Hellcat"
 description: "Predator Hellcat — hits 97–131, damage 5–17, Melee AI; tamable at 90.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PredatorHellCat.cs"
 last_verified: 2026-06-11

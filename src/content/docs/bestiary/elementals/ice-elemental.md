@@ -3,6 +3,8 @@ title: "Ice Elemental"
 description: "Ice Elemental — hits 94–111, damage 10–21, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/IceElemental.cs"
 last_verified: 2026-06-11

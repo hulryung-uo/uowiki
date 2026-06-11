@@ -3,6 +3,8 @@ title: "Thrasher"
 description: "Thrasher — hits 260–984, damage 15–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Thrasher.cs"
 last_verified: 2026-06-11

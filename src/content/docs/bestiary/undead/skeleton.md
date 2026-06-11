@@ -3,6 +3,8 @@ title: "Skeleton"
 description: "Skeleton — hits 34–48, damage 3–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Skeleton.cs"
 last_verified: 2026-06-11

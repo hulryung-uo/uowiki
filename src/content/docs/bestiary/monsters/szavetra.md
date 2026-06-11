@@ -3,6 +3,8 @@ title: "Szavetra"
 description: "Szavetra — hits 312–415, damage 20–30."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Szavetra.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Lava Snake"
 description: "Lava Snake — hits 28–32, damage 1–8, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LavaSnake.cs"
 last_verified: 2026-06-11

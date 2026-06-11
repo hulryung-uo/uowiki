@@ -3,6 +3,8 @@ title: "The Butcher"
 description: "The Butcher — hits 700–1000, damage 15–27, Necro AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TheButcher.cs"
 last_verified: 2026-06-11

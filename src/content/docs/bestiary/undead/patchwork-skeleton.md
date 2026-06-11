@@ -3,6 +3,8 @@ title: "Patchwork Skeleton"
 description: "Patchwork Skeleton — hits 58–72, damage 18–22, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PatchworkSkeleton.cs"
 last_verified: 2026-06-11

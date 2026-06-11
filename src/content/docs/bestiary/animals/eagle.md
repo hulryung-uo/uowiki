@@ -3,6 +3,8 @@ title: "Eagle"
 description: "Eagle — hits 20–27, damage 5–10, Animal AI; tamable at 17.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Eagle.cs"
 last_verified: 2026-06-11

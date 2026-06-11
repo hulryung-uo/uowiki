@@ -3,6 +3,8 @@ title: "Yomotsu Warrior"
 description: "Yomotsu Warrior — hits 486–530, damage 8–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/YomotsuWarrior.cs"
 last_verified: 2026-06-11

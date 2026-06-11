@@ -3,6 +3,8 @@ title: "Deadly Imp"
 description: "Deadly Imp — hits 1000, damage 50–80, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DeadlyImp.cs"
 last_verified: 2026-06-11

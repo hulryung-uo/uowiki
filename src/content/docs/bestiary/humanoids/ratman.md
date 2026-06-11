@@ -3,6 +3,8 @@ title: "Ratman"
 description: "Ratman — hits 58–72, damage 4–5, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Ratman.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Goat"
 description: "Goat — hits 12, damage 3–4, Animal AI; tamable at 11.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Goat.cs"
 last_verified: 2026-06-11

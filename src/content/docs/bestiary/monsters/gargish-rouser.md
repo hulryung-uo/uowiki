@@ -3,6 +3,8 @@ title: "Gargish Rouser"
 description: "Gargish Rouser — hits 1200–1500, damage 15–19, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GargishRouser.cs"
 last_verified: 2026-06-11

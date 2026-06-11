@@ -3,6 +3,8 @@ title: "Yomotsu Elder"
 description: "Yomotsu Elder — hits 801–900, damage 19–27, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/YomotsuElder.cs"
 last_verified: 2026-06-11

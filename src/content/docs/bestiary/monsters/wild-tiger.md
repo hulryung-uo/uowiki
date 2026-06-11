@@ -3,6 +3,8 @@ title: "Wild Tiger"
 description: "Wild Tiger — hits 352–450, damage 18–24, Melee AI; tamable at 95.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WildTiger.cs"
 last_verified: 2026-06-11

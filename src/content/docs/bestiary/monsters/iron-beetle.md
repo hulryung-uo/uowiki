@@ -3,6 +3,8 @@ title: "Iron Beetle"
 description: "Iron Beetle — hits 762–830, damage 15–20, Melee AI; tamable at 71.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/IronBeetle.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Reptalon"
 description: "Reptalon — hits 833–931, damage 21–28, Melee AI; tamable at 101.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Reptalon.cs"
 last_verified: 2026-06-11

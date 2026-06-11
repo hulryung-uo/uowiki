@@ -3,6 +3,8 @@ title: "Hellsteed"
 description: "Hellsteed — hits 201–220, damage 20–24, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/HellSteed.cs"
 last_verified: 2026-06-11

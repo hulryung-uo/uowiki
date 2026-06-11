@@ -3,6 +3,8 @@ title: "Cougar"
 description: "Cougar — hits 34–48, damage 4–10, Animal AI; tamable at 41.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Cougar.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Satyr"
 description: "Satyr — hits 350–400, damage 13–24, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Satyr.cs"
 last_verified: 2026-06-11

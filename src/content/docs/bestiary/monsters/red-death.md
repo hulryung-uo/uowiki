@@ -3,6 +3,8 @@ title: "Red Death"
 description: "Red Death — hits 1540–1605, damage 25–29."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/RedDeath.cs"
 last_verified: 2026-06-11

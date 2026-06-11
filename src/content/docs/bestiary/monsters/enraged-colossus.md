@@ -3,6 +3,8 @@ title: "Rising Colossus"
 description: "Rising Colossus — damage 18–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EnragedCollosus.cs"
 last_verified: 2026-06-11

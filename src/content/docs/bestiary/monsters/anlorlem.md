@@ -3,6 +3,8 @@ title: "Anlorlem"
 description: "Anlorlem — hits 500–650, damage 18–22, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Anlorlem.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Tropical Bird"
 description: "Tropical Bird — damage 0, Animal AI; tamable at -6.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Bird.cs"
 last_verified: 2026-06-11

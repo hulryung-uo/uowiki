@@ -3,6 +3,8 @@ title: "Clan Scratch Scrounger"
 description: "Clan Scratch Scrounger — hits 135, damage 4–5, Archer AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanSS.cs"
 last_verified: 2026-06-11

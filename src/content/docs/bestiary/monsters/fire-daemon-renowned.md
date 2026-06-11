@@ -3,6 +3,8 @@ title: "Fire Daemon"
 description: "Fire Daemon — hits 1111–1478, damage 22–29, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/FireDaemonRenowned.cs"
 last_verified: 2026-06-11

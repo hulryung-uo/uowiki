@@ -3,6 +3,8 @@ title: "Lifestealer"
 description: "Lifestealer — hits 4600–4650, damage 22–26, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Lifestealer.cs"
 last_verified: 2026-06-11

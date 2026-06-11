@@ -3,6 +3,8 @@ title: "Skeletal Mage"
 description: "Skeletal Mage — hits 46–60, damage 3–7, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SkeletalMage.cs"
 last_verified: 2026-06-11

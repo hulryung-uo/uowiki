@@ -3,6 +3,8 @@ title: "Wraith"
 description: "Wraith — hits 46–60, damage 7–11, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Wraith.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Fire Elemental"
 description: "Fire Elemental — damage 9–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/SummonedFireElemental.cs"
 last_verified: 2026-06-11

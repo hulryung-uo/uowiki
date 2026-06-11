@@ -3,6 +3,8 @@ title: "Mistral"
 description: "Mistral — hits 386–609, damage 17–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Mistral.cs"
 last_verified: 2026-06-11

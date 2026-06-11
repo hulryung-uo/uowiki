@@ -34,3 +34,30 @@
 	width: auto;
 	vertical-align: middle;
 }
+
+/* Listing thumbnails: show the static PNG (first frame) by default and swap to
+   the animated GIF on hover, so a long list isn't a wall of moving sprites. The
+   GIF is lazy-loaded (and display:none until hover, so most browsers defer the
+   fetch until you actually hover). Detail pages embed the GIF directly. */
+.cthumb {
+	display: inline-block;
+	line-height: 0;
+}
+.cthumb img {
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+	vertical-align: middle;
+}
+.sl-markdown-content table .cthumb img {
+	height: 72px;
+	width: auto;
+}
+.cthumb .cthumb-gif {
+	display: none;
+}
+.cthumb:hover .cthumb-png {
+	display: none;
+}
+.cthumb:hover .cthumb-gif {
+	display: inline-block;
+}

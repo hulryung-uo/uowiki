@@ -3,6 +3,8 @@ title: "Crane"
 description: "Crane — hits 26–35, damage 1–1, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Crane.cs"
 last_verified: 2026-06-11

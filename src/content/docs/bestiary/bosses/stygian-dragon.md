@@ -3,6 +3,8 @@ title: "Stygian Dragon"
 description: "Stygian Dragon — hits 30000, damage 33–55, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/StygianDragon.cs"
 last_verified: 2026-06-11

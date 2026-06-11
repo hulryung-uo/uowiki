@@ -3,6 +3,8 @@ title: "Golden Elemental"
 description: "Golden Elemental — hits 136–153, damage 9–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GoldenElemental.cs"
 last_verified: 2026-06-11

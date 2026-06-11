@@ -3,6 +3,8 @@ title: "Terathan Drone"
 description: "Terathan Drone — hits 22–39, damage 6–12, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TerathanDrone.cs"
 last_verified: 2026-06-11

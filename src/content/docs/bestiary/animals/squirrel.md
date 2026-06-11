@@ -3,6 +3,8 @@ title: "Squirrel"
 description: "Squirrel — hits 42–50, damage 1–2, Animal AI; tamable at -21.3 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Squirrel.cs"
 last_verified: 2026-06-11

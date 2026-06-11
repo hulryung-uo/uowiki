@@ -3,6 +3,8 @@ title: "Horde Minion"
 description: "Horde Minion — hits 70, damage 5–10."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/HordeMinion.cs"
 last_verified: 2026-06-11

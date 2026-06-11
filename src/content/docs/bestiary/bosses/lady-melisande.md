@@ -3,6 +3,8 @@ title: "Lady Melisande"
 description: "Lady Melisande — hits 100000, damage 11–18, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/LadyMelisande.cs"
 last_verified: 2026-06-11

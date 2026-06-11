@@ -3,6 +3,8 @@ title: "Ancient Wyrm"
 description: "Ancient Wyrm — hits 658–711, damage 29–35, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/AncientWyrm.cs"
 last_verified: 2026-06-11

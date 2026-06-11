@@ -3,6 +3,8 @@ title: "Ice Fiend"
 description: "Ice Fiend — hits 226–243, damage 8–19, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/IceFiend.cs"
 last_verified: 2026-06-11

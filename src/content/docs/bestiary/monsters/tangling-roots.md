@@ -3,6 +3,8 @@ title: "Tangling Root"
 description: "Tangling Root — hits 231–246, damage 10–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TanglingRoots.cs"
 last_verified: 2026-06-11

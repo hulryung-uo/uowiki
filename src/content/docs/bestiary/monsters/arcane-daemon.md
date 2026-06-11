@@ -3,6 +3,8 @@ title: "Arcane Daemon"
 description: "Arcane Daemon — hits 101–115, damage 12–16, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ArcaneDaemon.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Ogre Lord"
 description: "Ogre Lord — hits 476–552, damage 20–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OgreLord.cs"
 last_verified: 2026-06-11

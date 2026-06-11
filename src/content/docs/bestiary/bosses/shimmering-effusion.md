@@ -3,6 +3,8 @@ title: "Shimmering Effusion"
 description: "Shimmering Effusion — hits 20000, damage 27–31, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/ShimmeringEffusion.cs"
 last_verified: 2026-06-11

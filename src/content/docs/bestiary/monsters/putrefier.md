@@ -3,6 +3,8 @@ title: "Putrefier"
 description: "Putrefier — hits 3010–4092, damage 27–34."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Putrefier.cs"
 last_verified: 2026-06-11

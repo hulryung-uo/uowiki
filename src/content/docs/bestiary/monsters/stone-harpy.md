@@ -3,6 +3,8 @@ title: "Stone Harpy"
 description: "Stone Harpy — hits 178–192, damage 8–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/StoneHarpy.cs"
 last_verified: 2026-06-11

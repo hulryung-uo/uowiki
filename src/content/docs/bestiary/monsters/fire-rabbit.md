@@ -3,6 +3,8 @@ title: "Fire Rabbit"
 description: "Fire Rabbit — hits 2500, damage 10–15."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FireRabbit.cs"
 last_verified: 2026-06-11

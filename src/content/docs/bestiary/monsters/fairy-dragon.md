@@ -3,6 +3,8 @@ title: "Fairy Dragon"
 description: "Fairy Dragon — hits 398–403, damage 15–18, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FairyDragon.cs"
 last_verified: 2026-06-11

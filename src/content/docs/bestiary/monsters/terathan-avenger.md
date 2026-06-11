@@ -3,6 +3,8 @@ title: "Terathan Avenger"
 description: "Terathan Avenger — hits 296–372, damage 18–22, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TerathanAvenger.cs"
 last_verified: 2026-06-11

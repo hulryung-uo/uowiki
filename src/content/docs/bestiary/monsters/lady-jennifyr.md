@@ -3,6 +3,8 @@ title: "Lady Jennifyr"
 description: "Lady Jennifyr — hits 1113–1285, damage 15–25."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/LadyJennifyr.cs"
 last_verified: 2026-06-11

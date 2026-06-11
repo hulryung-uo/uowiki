@@ -3,6 +3,8 @@ title: "Wyvern"
 description: "Wyvern — hits 125–141, damage 8–19, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Wyvern.cs"
 last_verified: 2026-06-11

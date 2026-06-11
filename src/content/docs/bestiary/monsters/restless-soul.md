@@ -3,6 +3,8 @@ title: "Restless Soul"
 description: "Restless Soul — hits 16–24, damage 1–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RestlessSoul.cs"
 last_verified: 2026-06-11

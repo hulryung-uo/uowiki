@@ -3,6 +3,8 @@ title: "Treefellow Guardian"
 description: "Treefellow Guardian — hits 724–900, damage 12–16, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TreefellowGuardian.cs"
 last_verified: 2026-06-11

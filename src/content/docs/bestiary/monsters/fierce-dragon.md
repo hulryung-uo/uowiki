@@ -3,6 +3,8 @@ title: "Fierce Dragon"
 description: "Fierce Dragon — damage 50–80, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FierceDragon.cs"
 last_verified: 2026-06-11

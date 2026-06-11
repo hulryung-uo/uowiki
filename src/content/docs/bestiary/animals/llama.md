@@ -3,6 +3,8 @@ title: "Llama"
 description: "Llama — hits 15–27, damage 3–5, Animal AI; tamable at 35.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Llama.cs"
 last_verified: 2026-06-11

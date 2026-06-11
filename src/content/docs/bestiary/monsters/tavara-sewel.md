@@ -3,6 +3,8 @@ title: "Tavara Sewel"
 description: "Tavara Sewel — hits 180–207, damage 13–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/TavaraSewel.cs"
 last_verified: 2026-06-11

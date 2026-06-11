@@ -3,6 +3,8 @@ title: "Giant Rat"
 description: "Giant Rat — hits 26–39, damage 4–8, Melee AI; tamable at 29.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantRat.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Doppleganger"
 description: "Doppleganger — hits 101–120, damage 8–12, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Doppleganger.cs"
 last_verified: 2026-06-11

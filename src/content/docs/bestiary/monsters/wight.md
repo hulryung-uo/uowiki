@@ -3,6 +3,8 @@ title: "Wight"
 description: "Wight — hits 150–250, damage 13–20, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Wight.cs"
 last_verified: 2026-06-11

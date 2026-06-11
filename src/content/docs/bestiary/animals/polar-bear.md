@@ -3,6 +3,8 @@ title: "Polar Bear"
 description: "Polar Bear — hits 70–84, damage 7–12, Animal AI; tamable at 35.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PolarBear.cs"
 last_verified: 2026-06-11

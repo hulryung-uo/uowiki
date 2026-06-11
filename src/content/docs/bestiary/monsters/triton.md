@@ -3,6 +3,8 @@ title: "Triton"
 description: "Triton — hits 651–700, damage 13–24, Melee AI; tamable at 96.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Triton.cs"
 last_verified: 2026-06-11

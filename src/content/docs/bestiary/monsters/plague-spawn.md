@@ -3,6 +3,8 @@ title: "Plague Spawn"
 description: "Plague Spawn — hits 121–180, damage 11–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PlagueSpawn.cs"
 last_verified: 2026-06-11

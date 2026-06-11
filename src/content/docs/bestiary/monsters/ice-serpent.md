@@ -3,6 +3,8 @@ title: "Giant Ice Serpent"
 description: "Giant Ice Serpent — hits 130–147, damage 7–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/IceSerpent.cs"
 last_verified: 2026-06-11

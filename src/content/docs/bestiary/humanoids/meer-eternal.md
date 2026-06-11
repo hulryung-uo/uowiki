@@ -3,6 +3,8 @@ title: "Meer Eternal"
 description: "Meer Eternal — hits 250–303, damage 11–13, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MeerEternal.cs"
 last_verified: 2026-06-11

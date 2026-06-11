@@ -3,6 +3,8 @@ title: "Ferret"
 description: "Ferret — hits 45–50, damage 7–9, Animal AI; tamable at -21.3 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Ferret.cs"
 last_verified: 2026-06-11

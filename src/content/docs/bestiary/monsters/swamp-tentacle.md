@@ -3,6 +3,8 @@ title: "Swamp Tentacle"
 description: "Swamp Tentacle — hits 58–72, damage 6–12, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SwampTentacle.cs"
 last_verified: 2026-06-11

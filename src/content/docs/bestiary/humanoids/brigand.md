@@ -3,6 +3,8 @@ title: "Brigand"
 description: "Brigand — damage 10–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Brigand.cs"
 last_verified: 2026-06-11

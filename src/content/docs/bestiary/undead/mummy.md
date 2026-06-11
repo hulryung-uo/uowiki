@@ -3,6 +3,8 @@ title: "Mummy"
 description: "Mummy — hits 208–222, damage 13–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Mummy.cs"
 last_verified: 2026-06-11

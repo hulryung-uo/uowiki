@@ -3,6 +3,8 @@ title: "Gargish Outcast"
 description: "Gargish Outcast — hits 1000–1200, damage 15–19, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GargishOutcast.cs"
 last_verified: 2026-06-11

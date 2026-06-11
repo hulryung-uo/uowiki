@@ -3,6 +3,8 @@ title: "Effete Putrid Gargoyle"
 description: "Effete Putrid Gargoyle — hits 110–111, damage 8–18, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EffetePutridGargoyle.cs"
 last_verified: 2026-06-11

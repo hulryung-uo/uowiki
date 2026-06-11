@@ -3,6 +3,8 @@ title: "Dolphin"
 description: "Dolphin — hits 15–27, damage 3–6, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Dolphin.cs"
 last_verified: 2026-06-11

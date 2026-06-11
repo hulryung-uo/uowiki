@@ -3,6 +3,8 @@ title: "Interred Grizzle"
 description: "Interred Grizzle — hits 1500, damage 16–19, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/InterredGrizzle .cs"
 last_verified: 2026-06-11

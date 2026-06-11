@@ -3,6 +3,8 @@ title: "Mound Of Maggots"
 description: "Mound Of Maggots — damage 3–9, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MoundOfMaggots.cs"
 last_verified: 2026-06-11

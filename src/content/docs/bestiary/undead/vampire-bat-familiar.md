@@ -3,6 +3,8 @@ title: "Vampire Bat"
 description: "Vampire Bat — hits 90, damage 5–10."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/VampireBat.cs"
 last_verified: 2026-06-11

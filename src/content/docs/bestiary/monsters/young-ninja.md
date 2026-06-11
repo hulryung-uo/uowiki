@@ -3,6 +3,8 @@ title: "Young Ninja"
 description: "Young Ninja — hits 20–30, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/YoungNinja.cs"
 last_verified: 2026-06-11

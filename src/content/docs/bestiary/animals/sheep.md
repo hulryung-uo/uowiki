@@ -3,6 +3,8 @@ title: "Sheep"
 description: "Sheep — hits 12, damage 1–2, Animal AI; tamable at 11.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Sheep.cs"
 last_verified: 2026-06-11

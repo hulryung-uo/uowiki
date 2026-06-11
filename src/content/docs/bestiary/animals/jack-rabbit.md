@@ -3,6 +3,8 @@ title: "Jack Rabbit"
 description: "Jack Rabbit — hits 9, damage 1–2, Animal AI; tamable at -18.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/JackRabbit.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Black Order Grand Mage"
 description: "Black Order Grand Mage — hits 800, damage 15–20."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DragonsFlameGrandMage.cs"
 last_verified: 2026-06-11

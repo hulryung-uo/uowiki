@@ -3,6 +3,8 @@ title: "Stone Slith"
 description: "Stone Slith — hits 154–166, damage 6–24, Melee AI; tamable at 65.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/StoneSlith.cs"
 last_verified: 2026-06-11

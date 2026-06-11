@@ -3,6 +3,8 @@ title: "Dryad"
 description: "Dryad — hits 304–321, damage 11–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/InsaneDryad.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Giant Toad"
 description: "Giant Toad — hits 46–60, damage 5–17, Melee AI; tamable at 77.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantToad.cs"
 last_verified: 2026-06-11

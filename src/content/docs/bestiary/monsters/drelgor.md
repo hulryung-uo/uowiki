@@ -3,6 +3,8 @@ title: "Drelgor The Impaler"
 description: "Drelgor The Impaler — hits 131–136, damage 6–8, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Drelgor.cs"
 last_verified: 2026-06-11

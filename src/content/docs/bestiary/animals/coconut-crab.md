@@ -3,6 +3,8 @@ title: "Coconut Crab"
 description: "Coconut Crab — hits 240, damage 1–4, Animal AI; tamable at 30.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CoconutCrab.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Ophidian Warrior"
 description: "Ophidian Warrior — hits 128–155, damage 5–11, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OphidianWarrior.cs"
 last_verified: 2026-06-11

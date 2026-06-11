@@ -3,6 +3,8 @@ title: "Mephitis"
 description: "Mephitis — hits 12000, damage 21–33, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Mephitis.cs"
 last_verified: 2026-06-11

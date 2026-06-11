@@ -3,6 +3,8 @@ title: "Clan Scratch Henchrat"
 description: "Clan Scratch Henchrat — hits 2065, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanSH.cs"
 last_verified: 2026-06-11

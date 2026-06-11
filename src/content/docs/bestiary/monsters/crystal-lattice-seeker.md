@@ -3,6 +3,8 @@ title: "Crystal Lattice Seeker"
 description: "Crystal Lattice Seeker — hits 350–550, damage 13–19, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CrystalLatticeSeeker.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Grobu"
 description: "Grobu — hits 1235–1299, damage 15–18."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Grobu.cs"
 last_verified: 2026-06-11

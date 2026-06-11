@@ -3,6 +3,8 @@ title: "Slasher Of Veils"
 description: "Slasher Of Veils — hits 50000–65000, damage 10–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/SlasherOfVeils.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Green Goblin Scout"
 description: "Green Goblin Scout — hits 174–198, damage 5–7, OrcScout AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GreenGoblinScout.cs"
 last_verified: 2026-06-11

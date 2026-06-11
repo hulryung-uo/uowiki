@@ -3,6 +3,8 @@ title: "Blackthorn Juggernaut"
 description: "Blackthorn Juggernaut — hits 181–240, damage 12–19, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Juggernaut.cs"
 last_verified: 2026-06-11

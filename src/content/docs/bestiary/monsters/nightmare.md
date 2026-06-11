@@ -3,6 +3,8 @@ title: "Nightmare"
 description: "Nightmare — hits 298–315, damage 16–22, Mage AI; tamable at 95.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Nightmare.cs"
 last_verified: 2026-06-11

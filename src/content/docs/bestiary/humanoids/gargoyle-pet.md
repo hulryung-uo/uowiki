@@ -3,6 +3,8 @@ title: "Gargoyle Pet"
 description: "Gargoyle Pet — hits 300–313, damage 11–17, Melee AI; tamable at 65.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Summons/GargoylePet.cs"
 last_verified: 2026-06-11

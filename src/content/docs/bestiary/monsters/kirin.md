@@ -3,6 +3,8 @@ title: "Ki-Rin"
 description: "Ki-Rin — hits 191–210, damage 16–22, Mage AI; tamable at 95.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Kirin.cs"
 last_verified: 2026-06-11

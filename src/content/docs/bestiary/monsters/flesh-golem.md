@@ -3,6 +3,8 @@ title: "Flesh Golem"
 description: "Flesh Golem — hits 106–120, damage 18–22, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FleshGolem.cs"
 last_verified: 2026-06-11

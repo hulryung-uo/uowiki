@@ -3,6 +3,8 @@ title: "Gray Goblin"
 description: "Gray Goblin — hits 159–194, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GrayGoblin.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Crimson Dragon"
 description: "Crimson Dragon — hits 25000, damage 8–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/CrimsonDragon.cs"
 last_verified: 2026-06-11

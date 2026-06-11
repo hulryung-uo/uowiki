@@ -3,6 +3,8 @@ title: "Bulbous Putrification"
 description: "Bulbous Putrification — hits 1211–1231, damage 22–29, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BulbousPutrification.cs"
 last_verified: 2026-06-11

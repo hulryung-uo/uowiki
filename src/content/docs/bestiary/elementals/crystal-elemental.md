@@ -3,6 +3,8 @@ title: "Crystal Elemental"
 description: "Crystal Elemental — hits 150, damage 10–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CrystalElemental.cs"
 last_verified: 2026-06-11

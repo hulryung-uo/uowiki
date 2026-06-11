@@ -3,6 +3,8 @@ title: "Crystal Vortex"
 description: "Crystal Vortex — hits 350–400, damage 15–20, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CrystalVortex.cs"
 last_verified: 2026-06-11

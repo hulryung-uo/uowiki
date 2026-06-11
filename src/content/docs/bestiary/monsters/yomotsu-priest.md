@@ -3,6 +3,8 @@ title: "Yomotsu Priest"
 description: "Yomotsu Priest — hits 486–530, damage 8–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/YomotsuPriest.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Corpser"
 description: "Corpser — hits 94–108, damage 10–23, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Corpser.cs"
 last_verified: 2026-06-11

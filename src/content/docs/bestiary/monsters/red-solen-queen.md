@@ -3,6 +3,8 @@ title: "Red Solen Queen"
 description: "Red Solen Queen — hits 151–162, damage 10–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RedSolenQueen.cs"
 last_verified: 2026-06-11

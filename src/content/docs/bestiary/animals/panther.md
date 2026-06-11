@@ -3,6 +3,8 @@ title: "Panther"
 description: "Panther — hits 37–51, damage 4–12, Animal AI; tamable at 53.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Panther.cs"
 last_verified: 2026-06-11

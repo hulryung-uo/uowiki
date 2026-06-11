@@ -3,6 +3,8 @@ title: "Savage Rider"
 description: "Savage Rider — damage 29–34, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SavageRider.cs"
 last_verified: 2026-06-11

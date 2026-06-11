@@ -3,6 +3,8 @@ title: "Scorpion"
 description: "Scorpion — hits 50–63, damage 5–10, Melee AI; tamable at 47.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Scorpion.cs"
 last_verified: 2026-06-11

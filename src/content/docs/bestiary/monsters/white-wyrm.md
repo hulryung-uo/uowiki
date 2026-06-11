@@ -3,6 +3,8 @@ title: "White Wyrm"
 description: "White Wyrm — hits 433–456, damage 17–25, Mage AI; tamable at 96.3 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WhiteWyrm.cs"
 last_verified: 2026-06-11

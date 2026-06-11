@@ -3,6 +3,8 @@ title: "Abyss Guardian"
 description: "Abyss Guardian — hits 482–485, damage 1000–1150, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GargoyleGuardian.cs"
 last_verified: 2026-06-11

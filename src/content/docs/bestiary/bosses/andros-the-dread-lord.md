@@ -3,6 +3,8 @@ title: "Andros"
 description: "Andros — hits 60000, damage 18–28, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/DespiseBosses.cs"
 last_verified: 2026-06-11

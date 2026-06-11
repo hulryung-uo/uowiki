@@ -3,6 +3,8 @@ title: "Rabbit"
 description: "Rabbit — hits 4–6, damage 1, Animal AI; tamable at -18.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Rabbit.cs"
 last_verified: 2026-06-11

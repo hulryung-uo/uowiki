@@ -3,6 +3,8 @@ title: "Ettin"
 description: "Ettin — hits 82–99, damage 7–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Ettin.cs"
 last_verified: 2026-06-11

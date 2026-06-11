@@ -3,6 +3,8 @@ title: "Wolf Spider"
 description: "Wolf Spider — hits 150–160, damage 15–18, Melee AI; tamable at 59.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WolfSpider.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Gorilla"
 description: "Gorilla — hits 38–51, damage 4–10, Animal AI; tamable at -18.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Gorilla.cs"
 last_verified: 2026-06-11

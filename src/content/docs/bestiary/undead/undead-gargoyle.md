@@ -3,6 +3,8 @@ title: "Undead Gargoyle"
 description: "Undead Gargoyle — hits 200–300, damage 15–27, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/UndeadGargoyle.cs"
 last_verified: 2026-06-11

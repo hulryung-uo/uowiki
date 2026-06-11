@@ -3,6 +3,8 @@ title: "Ballem"
 description: "Ballem — hits 500–600, damage 10–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Ballem.cs"
 last_verified: 2026-06-11

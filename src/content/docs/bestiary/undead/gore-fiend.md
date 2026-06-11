@@ -3,6 +3,8 @@ title: "Gore Fiend"
 description: "Gore Fiend — hits 97–111, damage 15–21, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GoreFiend.cs"
 last_verified: 2026-06-11

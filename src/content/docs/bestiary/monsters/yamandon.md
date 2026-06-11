@@ -3,6 +3,8 @@ title: "Yamandon"
 description: "Yamandon — hits 1601–1800, damage 19–35, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Yamandon.cs"
 last_verified: 2026-06-11

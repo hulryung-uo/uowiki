@@ -3,6 +3,8 @@ title: "Impaler"
 description: "Impaler — hits 5000, damage 31–35, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Impaler.cs"
 last_verified: 2026-06-11

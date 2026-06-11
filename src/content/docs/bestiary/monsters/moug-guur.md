@@ -3,6 +3,8 @@ title: "Moug-Guur"
 description: "Moug-Guur — hits 400–415, damage 12–20."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/MougGuur.cs"
 last_verified: 2026-06-11

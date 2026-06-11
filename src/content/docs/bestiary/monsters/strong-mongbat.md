@@ -3,6 +3,8 @@ title: "Mongbat"
 description: "Mongbat — hits 4–6, damage 5–7, Melee AI; tamable at 71.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/StrongMongbat.cs"
 last_verified: 2026-06-11

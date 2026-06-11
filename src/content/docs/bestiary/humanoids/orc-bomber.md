@@ -3,6 +3,8 @@ title: "Orc Bomber"
 description: "Orc Bomber — hits 95–123, damage 1–8, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcBomber.cs"
 last_verified: 2026-06-11

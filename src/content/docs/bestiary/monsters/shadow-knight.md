@@ -3,6 +3,8 @@ title: "Shadow Knight"
 description: "Shadow Knight — hits 5000, damage 20–30, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/ShadowKnight.cs"
 last_verified: 2026-06-11

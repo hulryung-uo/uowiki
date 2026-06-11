@@ -3,6 +3,8 @@ title: "Miasma"
 description: "Miasma — hits 272–2000, damage 20–30."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Miasma.cs"
 last_verified: 2026-06-11

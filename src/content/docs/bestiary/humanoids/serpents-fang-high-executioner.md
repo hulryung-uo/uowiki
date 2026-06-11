@@ -3,6 +3,8 @@ title: "Black Order High Executioner"
 description: "Black Order High Executioner — hits 800, damage 15–20."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SerpentsFangHighExecutioner.cs"
 last_verified: 2026-06-11

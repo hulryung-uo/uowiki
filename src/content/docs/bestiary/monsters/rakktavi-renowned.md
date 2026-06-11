@@ -3,6 +3,8 @@ title: "Rakktavi"
 description: "Rakktavi — hits 50000, damage 8–10, Archer AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/RakktaviRenowned.cs"
 last_verified: 2026-06-11

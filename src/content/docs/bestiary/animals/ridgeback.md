@@ -3,6 +3,8 @@ title: "Ridgeback"
 description: "Ridgeback — hits 41–54, damage 3–5, Animal AI; tamable at 83.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Ridgeback.cs"
 last_verified: 2026-06-11

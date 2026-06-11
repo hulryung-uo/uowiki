@@ -3,6 +3,8 @@ title: "Feral Treefellow"
 description: "Feral Treefellow — hits 1170–1320, damage 26–35, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FeralTreefellow.cs"
 last_verified: 2026-06-11

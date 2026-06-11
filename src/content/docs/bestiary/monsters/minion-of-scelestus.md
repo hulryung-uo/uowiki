@@ -3,6 +3,8 @@ title: "Minion Of Scelestus"
 description: "Minion Of Scelestus — hits 30000, damage 19–21, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MinionOfScelestus.cs"
 last_verified: 2026-06-11

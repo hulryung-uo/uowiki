@@ -3,6 +3,8 @@ title: "Timber Wolf"
 description: "Timber Wolf — hits 34–48, damage 5–9, Animal AI; tamable at 23.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TimberWolf.cs"
 last_verified: 2026-06-11

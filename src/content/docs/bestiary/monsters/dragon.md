@@ -3,6 +3,8 @@ title: "Dragon"
 description: "Dragon — hits 478–495, damage 16–22, Mage AI; tamable at 93.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Dragon.cs"
 last_verified: 2026-06-11

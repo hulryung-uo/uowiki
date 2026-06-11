@@ -3,6 +3,8 @@ title: "Corrupted Wisp"
 description: "Corrupted Wisp — hits 7000–8000, damage 12–19, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/DespiseBosses.cs"
 last_verified: 2026-06-11

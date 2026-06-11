@@ -3,6 +3,8 @@ title: "Cu Sidhe"
 description: "Cu Sidhe — hits 1010–1275, damage 21–28, Animal AI; tamable at 101.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CuSidhe.cs"
 last_verified: 2026-06-11

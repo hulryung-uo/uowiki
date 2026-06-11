@@ -3,6 +3,8 @@ title: "Dread Spider"
 description: "Dread Spider — hits 118–132, damage 5–17, Mage AI; tamable at 96.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DreadSpider.cs"
 last_verified: 2026-06-11

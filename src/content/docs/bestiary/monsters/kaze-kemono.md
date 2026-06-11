@@ -3,6 +3,8 @@ title: "Kaze Kemono"
 description: "Kaze Kemono — hits 251–330, damage 15–20, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/KazeKemono.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Swamp Dragon"
 description: "Swamp Dragon — hits 121–180, damage 3–4, Melee AI; tamable at 93.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ScaledSwampDragon.cs"
 last_verified: 2026-06-11

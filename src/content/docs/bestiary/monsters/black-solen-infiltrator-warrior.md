@@ -3,6 +3,8 @@ title: "Black Solen Infiltrator"
 description: "Black Solen Infiltrator — hits 96–107, damage 5–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BlackSolenInfiltratorWarrior.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Headless One"
 description: "Headless One — hits 16–30, damage 5–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/HeadlessOne.cs"
 last_verified: 2026-06-11

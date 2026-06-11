@@ -3,6 +3,8 @@ title: "Wisp"
 description: "Wisp — hits 118–135, damage 17–18, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Wisp.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Rotting Corpse"
 description: "Rotting Corpse — hits 1200, damage 8–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RottingCorpse.cs"
 last_verified: 2026-06-11

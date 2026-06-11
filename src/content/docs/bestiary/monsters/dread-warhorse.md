@@ -3,6 +3,8 @@ title: "Dread Warhorse"
 description: "Dread Warhorse — hits 555–650, damage 20–26, Mage AI; tamable at 108.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DreadWarhorse.cs"
 last_verified: 2026-06-11

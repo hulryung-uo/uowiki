@@ -3,6 +3,8 @@ title: "Dark Guardian"
 description: "Dark Guardian — hits 150–180, damage 24–26, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DarkGuardian.cs"
 last_verified: 2026-06-11

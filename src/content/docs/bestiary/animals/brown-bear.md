@@ -3,6 +3,8 @@ title: "Brown Bear"
 description: "Brown Bear — hits 46–60, damage 6–12, Animal AI; tamable at 41.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BrownBear.cs"
 last_verified: 2026-06-11

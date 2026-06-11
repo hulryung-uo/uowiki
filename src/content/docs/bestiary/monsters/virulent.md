@@ -3,6 +3,8 @@ title: "Virulent"
 description: "Virulent — hits 616–740, damage 15–25, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Virulent.cs"
 last_verified: 2026-06-11

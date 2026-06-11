@@ -3,6 +3,8 @@ title: "Quagmire"
 description: "Quagmire — hits 91–105, damage 10–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Quagmire.cs"
 last_verified: 2026-06-11

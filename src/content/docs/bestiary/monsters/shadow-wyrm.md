@@ -3,6 +3,8 @@ title: "Shadow Wyrm"
 description: "Shadow Wyrm — hits 558–599, damage 29–35, NecroMage AI; tamable at 105.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ShadowWyrm.cs"
 last_verified: 2026-06-11

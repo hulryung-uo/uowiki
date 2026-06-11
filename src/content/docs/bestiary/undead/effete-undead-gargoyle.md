@@ -3,6 +3,8 @@ title: "Effete Undead Gargoyle"
 description: "Effete Undead Gargoyle — hits 65–70, damage 3–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EffeteUndeadGargoyle.cs"
 last_verified: 2026-06-11

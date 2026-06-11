@@ -3,6 +3,8 @@ title: "Enslaved Goblin Scout"
 description: "Enslaved Goblin Scout — hits 182–182, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EnslavedGoblinScout.cs"
 last_verified: 2026-06-11

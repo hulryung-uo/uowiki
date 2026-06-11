@@ -3,6 +3,8 @@ title: "Silvani"
 description: "Silvani — hits 600, damage 27–38, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Silvani.cs"
 last_verified: 2026-06-11

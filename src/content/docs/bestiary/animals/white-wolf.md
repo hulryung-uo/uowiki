@@ -3,6 +3,8 @@ title: "White Wolf"
 description: "White Wolf — hits 34–48, damage 3–7, Animal AI; tamable at 65.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WhiteWolf.cs"
 last_verified: 2026-06-11

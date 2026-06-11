@@ -3,6 +3,8 @@ title: "Gray Goblin Mage"
 description: "Gray Goblin Mage — hits 1100–1300, damage 5–7, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/GrayGoblinMageRenowned.cs"
 last_verified: 2026-06-11

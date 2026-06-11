@@ -3,6 +3,8 @@ title: "Triceratops"
 description: "Triceratops — hits 1100–1200, damage 21–28, Melee AI; tamable at 102.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Triceratops.cs"
 last_verified: 2026-06-11

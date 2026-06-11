@@ -3,6 +3,8 @@ title: "Cold Drake"
 description: "Cold Drake — hits 450–500, damage 17–20, Melee AI; tamable at 96.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ColdDrake.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Lady Sabrix"
 description: "Lady Sabrix — hits 233–361, damage 15–22."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/LadySabrix.cs"
 last_verified: 2026-06-11

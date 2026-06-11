@@ -3,6 +3,8 @@ title: "Malefic"
 description: "Malefic — hits 600–747, damage 15–22."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Malefic.cs"
 last_verified: 2026-06-11

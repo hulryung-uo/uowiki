@@ -3,6 +3,8 @@ title: "Swoop"
 description: "Swoop — hits 1350–1550, damage 20–30."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Swoop.cs"
 last_verified: 2026-06-11

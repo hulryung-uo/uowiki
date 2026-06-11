@@ -3,6 +3,8 @@ title: "Green Goblin"
 description: "Green Goblin — hits 162–208, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GreenGoblin.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Injured Wolf"
 description: "Injured Wolf — hits 1, damage 1–3, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/InjuredWolf.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Sir Patrick"
 description: "Sir Patrick — hits 616–884, damage 15–25."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/SirPatrick.cs"
 last_verified: 2026-06-11

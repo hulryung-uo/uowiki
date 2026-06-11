@@ -3,6 +3,8 @@ title: "Bake Kitsune"
 description: "Bake Kitsune — hits 301–350, damage 15–22, Mage AI; tamable at 80.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BakeKitsune.cs"
 last_verified: 2026-06-11

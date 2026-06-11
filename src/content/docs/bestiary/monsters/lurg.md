@@ -3,6 +3,8 @@ title: "Lurg"
 description: "Lurg — hits 3034–3189, damage 16–19."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Lurg.cs"
 last_verified: 2026-06-11

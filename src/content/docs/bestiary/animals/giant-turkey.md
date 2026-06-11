@@ -3,6 +3,8 @@ title: "Giant Turkey"
 description: "Giant Turkey — hits 25000, damage 20–30, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantTurkey.cs"
 last_verified: 2026-06-11

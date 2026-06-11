@@ -3,6 +3,8 @@ title: "Shadow Iron Elemental"
 description: "Shadow Iron Elemental — hits 136–153, damage 9–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ShadowIronElemental.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Undead Guardian"
 description: "Undead Guardian — hits 138, damage 8–18, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/UndeadGuardian.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Giant Ice Worm"
 description: "Giant Ice Worm — hits 130–147, damage 7–17, Melee AI; tamable at 71.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantIceWorm.cs"
 last_verified: 2026-06-11

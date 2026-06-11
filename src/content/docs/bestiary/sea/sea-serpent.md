@@ -3,6 +3,8 @@ title: "Sea Serpent"
 description: "Sea Serpent — hits 110–127, damage 7–13, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SeaSerpent.cs"
 last_verified: 2026-06-11

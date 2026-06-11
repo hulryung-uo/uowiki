@@ -3,6 +3,8 @@ title: "Rotworm"
 description: "Rotworm — hits 200–250, damage 1–5, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Rotworm.cs"
 last_verified: 2026-06-11

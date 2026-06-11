@@ -3,6 +3,8 @@ title: "Terathan Warrior"
 description: "Terathan Warrior — hits 100–129, damage 7–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/TerathanWarrior.cs"
 last_verified: 2026-06-11

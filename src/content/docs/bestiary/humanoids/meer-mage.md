@@ -3,6 +3,8 @@ title: "Meer Mage"
 description: "Meer Mage — hits 103–120, damage 24–26, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/MeerMage.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Verite Elemental"
 description: "Verite Elemental — hits 136–153, damage 9–16, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/VeriteElemental.cs"
 last_verified: 2026-06-11

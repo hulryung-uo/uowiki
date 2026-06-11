@@ -3,6 +3,8 @@ title: "Air Elemental"
 description: "Air Elemental — hits 76–93, damage 8–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/AirElemental.cs"
 last_verified: 2026-06-11

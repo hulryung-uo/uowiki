@@ -3,6 +3,8 @@ title: "Skree"
 description: "Skree — hits 205–300, damage 5–7, Mystic AI; tamable at 95.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Skree.cs"
 last_verified: 2026-06-11

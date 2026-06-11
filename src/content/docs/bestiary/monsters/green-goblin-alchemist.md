@@ -3,6 +3,8 @@ title: "Green Goblin Alchemist"
 description: "Green Goblin Alchemist — hits 163–197, damage 5–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GreenGoblinAlchemist.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Travesty"
 description: "Travesty — hits 35000, damage 11–18, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Travesty.cs"
 last_verified: 2026-06-11

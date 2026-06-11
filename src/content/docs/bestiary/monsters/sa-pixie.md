@@ -3,6 +3,8 @@ title: "SA Pixie"
 description: "SA Pixie — hits 13–18, damage 9–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SAPixie.cs"
 last_verified: 2026-06-11

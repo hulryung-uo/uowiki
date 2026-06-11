@@ -3,6 +3,8 @@ title: "Chaos Dragoon"
 description: "Chaos Dragoon — hits 176–225, damage 24–26, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ChaosDragoon.cs"
 last_verified: 2026-06-11

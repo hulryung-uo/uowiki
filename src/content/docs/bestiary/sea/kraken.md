@@ -3,6 +3,8 @@ title: "Kraken"
 description: "Kraken — hits 454–468, damage 19–33, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Kraken.cs"
 last_verified: 2026-06-11

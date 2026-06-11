@@ -3,6 +3,8 @@ title: "Poison Elemental"
 description: "Poison Elemental — hits 256–309, damage 12–18, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PoisonElemental.cs"
 last_verified: 2026-06-11

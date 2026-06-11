@@ -12,69 +12,69 @@ last_verified: 2026-06-11
 
 | | Creature | Hits | Damage | Tamable |
 |---|---|---|---|---|
-| <img src="/img/creatures/401.gif" class="uo-anim" alt="Artist" loading="lazy" /> | [Artist](/bestiary/animals/artist/) | — | — | — |
-| <img src="/img/creatures/716.gif" class="uo-anim" alt="Battle Chicken Lizard" loading="lazy" /> | [Battle Chicken Lizard](/bestiary/animals/battle-chicken-lizard/) | 94–177 | 5–15 | yes (0.0) |
-| <img src="/img/creatures/211.gif" class="uo-anim" alt="Black Bear" loading="lazy" /> | [Black Bear](/bestiary/animals/black-bear/) | 46–60 | 4–10 | yes (35.1) |
-| <img src="/img/creatures/290.gif" class="uo-anim" alt="Boar" loading="lazy" /> | [Boar](/bestiary/animals/boar/) | 15 | 3–6 | yes (29.1) |
-| <img src="/img/creatures/167.gif" class="uo-anim" alt="Brown Bear" loading="lazy" /> | [Brown Bear](/bestiary/animals/brown-bear/) | 46–60 | 6–12 | yes (41.1) |
-| <img src="/img/creatures/232.gif" class="uo-anim" alt="Bull" loading="lazy" /> | [Bull](/bestiary/animals/bull/) | 50–64 | 4–9 | yes (71.1) |
-| <img src="/img/creatures/81.gif" class="uo-anim" alt="Bull Frog" loading="lazy" /> | [Bull Frog](/bestiary/animals/bull-frog/) | 28–42 | 1–2 | yes (23.1) |
-| <img src="/img/creatures/201.gif" class="uo-anim" alt="Cat" loading="lazy" /> | [Cat](/bestiary/animals/cat/) | 6 | 1 | yes (-0.9) |
-| <img src="/img/creatures/208.gif" class="uo-anim" alt="Chicken" loading="lazy" /> | [Chicken](/bestiary/animals/chicken/) | 3 | 1 | yes (-0.9) |
-| <img src="/img/creatures/716.gif" class="uo-anim" alt="Chicken Lizard" loading="lazy" /> | [Chicken Lizard](/bestiary/animals/chicken-lizard/) | 74–95 | 2–5 | yes (0.0) |
-| <img src="/img/creatures/238.gif" class="uo-anim" alt="Clan Ribbon Plague Rat" loading="lazy" /> | [Clan Ribbon Plague Rat](/bestiary/animals/clan-ribbon-plague-rat/) | 92 | 4–8 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Artist" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Artist](/bestiary/animals/artist/) | — | — | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/716.png" alt="Battle Chicken Lizard" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/716.gif" alt="" loading="lazy" /></span> | [Battle Chicken Lizard](/bestiary/animals/battle-chicken-lizard/) | 94–177 | 5–15 | yes (0.0) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/211.png" alt="Black Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/211.gif" alt="" loading="lazy" /></span> | [Black Bear](/bestiary/animals/black-bear/) | 46–60 | 4–10 | yes (35.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/290.png" alt="Boar" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/290.gif" alt="" loading="lazy" /></span> | [Boar](/bestiary/animals/boar/) | 15 | 3–6 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/167.png" alt="Brown Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/167.gif" alt="" loading="lazy" /></span> | [Brown Bear](/bestiary/animals/brown-bear/) | 46–60 | 6–12 | yes (41.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/232.png" alt="Bull" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/232.gif" alt="" loading="lazy" /></span> | [Bull](/bestiary/animals/bull/) | 50–64 | 4–9 | yes (71.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/81.png" alt="Bull Frog" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/81.gif" alt="" loading="lazy" /></span> | [Bull Frog](/bestiary/animals/bull-frog/) | 28–42 | 1–2 | yes (23.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/201.png" alt="Cat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/201.gif" alt="" loading="lazy" /></span> | [Cat](/bestiary/animals/cat/) | 6 | 1 | yes (-0.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/208.png" alt="Chicken" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/208.gif" alt="" loading="lazy" /></span> | [Chicken](/bestiary/animals/chicken/) | 3 | 1 | yes (-0.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/716.png" alt="Chicken Lizard" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/716.gif" alt="" loading="lazy" /></span> | [Chicken Lizard](/bestiary/animals/chicken-lizard/) | 74–95 | 2–5 | yes (0.0) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/238.png" alt="Clan Ribbon Plague Rat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/238.gif" alt="" loading="lazy" /></span> | [Clan Ribbon Plague Rat](/bestiary/animals/clan-ribbon-plague-rat/) | 92 | 4–8 | — |
 |  | [Coconut Crab](/bestiary/animals/coconut-crab/) | 240 | 1–4 | yes (30.0) |
-| <img src="/img/creatures/63.gif" class="uo-anim" alt="Cougar" loading="lazy" /> | [Cougar](/bestiary/animals/cougar/) | 34–48 | 4–10 | yes (41.1) |
-| <img src="/img/creatures/216.gif" class="uo-anim" alt="Cow" loading="lazy" /> | [Cow](/bestiary/animals/cow/) | 18 | 1–4 | yes (11.1) |
-| <img src="/img/creatures/254.gif" class="uo-anim" alt="Crane" loading="lazy" /> | [Crane](/bestiary/animals/crane/) | 26–35 | 1–1 | — |
-| <img src="/img/creatures/6.gif" class="uo-anim" alt="Crow" loading="lazy" /> | [Crow](/bestiary/animals/bird/) | — | 0 | yes (-6.9) |
-| <img src="/img/creatures/277.gif" class="uo-anim" alt="Cu Sidhe" loading="lazy" /> | [Cu Sidhe](/bestiary/animals/cu-sidhe/) | 1010–1275 | 21–28 | yes (101.1) |
-| <img src="/img/creatures/210.gif" class="uo-anim" alt="Desert Ostard" loading="lazy" /> | [Desert Ostard](/bestiary/animals/desert-ostard/) | 71–88 | 5–11 | yes (29.1) |
-| <img src="/img/creatures/201.gif" class="uo-anim" alt="Diseased Cat" loading="lazy" /> | [Diseased Cat](/bestiary/animals/diseased-cat/) | 6 | 1 | — |
-| <img src="/img/creatures/217.gif" class="uo-anim" alt="Dog" loading="lazy" /> | [Dog](/bestiary/animals/dog/) | 17–22 | 4–7 | yes (-21.3) |
-| <img src="/img/creatures/5.gif" class="uo-anim" alt="Eagle" loading="lazy" /> | [Eagle](/bestiary/animals/eagle/) | 20–27 | 5–10 | yes (17.1) |
-| <img src="/img/creatures/1440.gif" class="uo-anim" alt="Eowmu" loading="lazy" /> | [Eowmu](/bestiary/animals/eowmu/) | 240 | 1–4 | yes (30.0) |
-| <img src="/img/creatures/279.gif" class="uo-anim" alt="Ferret" loading="lazy" /> | [Ferret](/bestiary/animals/ferret/) | 45–50 | 7–9 | yes (-21.3) |
-| <img src="/img/creatures/219.gif" class="uo-anim" alt="Forest Ostard" loading="lazy" /> | [Forest Ostard](/bestiary/animals/forest-ostard/) | 71–88 | 8–14 | yes (29.1) |
-| <img src="/img/creatures/248.gif" class="uo-anim" alt="Gaman" loading="lazy" /> | [Gaman](/bestiary/animals/gaman/) | 131–160 | 6–11 | yes (68.7) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/63.png" alt="Cougar" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/63.gif" alt="" loading="lazy" /></span> | [Cougar](/bestiary/animals/cougar/) | 34–48 | 4–10 | yes (41.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/216.png" alt="Cow" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/216.gif" alt="" loading="lazy" /></span> | [Cow](/bestiary/animals/cow/) | 18 | 1–4 | yes (11.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/254.png" alt="Crane" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/254.gif" alt="" loading="lazy" /></span> | [Crane](/bestiary/animals/crane/) | 26–35 | 1–1 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/6.png" alt="Crow" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/6.gif" alt="" loading="lazy" /></span> | [Crow](/bestiary/animals/bird/) | — | 0 | yes (-6.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/277.png" alt="Cu Sidhe" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/277.gif" alt="" loading="lazy" /></span> | [Cu Sidhe](/bestiary/animals/cu-sidhe/) | 1010–1275 | 21–28 | yes (101.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/210.png" alt="Desert Ostard" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/210.gif" alt="" loading="lazy" /></span> | [Desert Ostard](/bestiary/animals/desert-ostard/) | 71–88 | 5–11 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/201.png" alt="Diseased Cat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/201.gif" alt="" loading="lazy" /></span> | [Diseased Cat](/bestiary/animals/diseased-cat/) | 6 | 1 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/217.png" alt="Dog" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/217.gif" alt="" loading="lazy" /></span> | [Dog](/bestiary/animals/dog/) | 17–22 | 4–7 | yes (-21.3) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/5.png" alt="Eagle" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/5.gif" alt="" loading="lazy" /></span> | [Eagle](/bestiary/animals/eagle/) | 20–27 | 5–10 | yes (17.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/1440.png" alt="Eowmu" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/1440.gif" alt="" loading="lazy" /></span> | [Eowmu](/bestiary/animals/eowmu/) | 240 | 1–4 | yes (30.0) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/279.png" alt="Ferret" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/279.gif" alt="" loading="lazy" /></span> | [Ferret](/bestiary/animals/ferret/) | 45–50 | 7–9 | yes (-21.3) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/219.png" alt="Forest Ostard" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/219.gif" alt="" loading="lazy" /></span> | [Forest Ostard](/bestiary/animals/forest-ostard/) | 71–88 | 8–14 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/248.png" alt="Gaman" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/248.gif" alt="" loading="lazy" /></span> | [Gaman](/bestiary/animals/gaman/) | 131–160 | 6–11 | yes (68.7) |
 |  | [Giant Turkey](/bestiary/animals/giant-turkey/) | 25000 | 20–30 | — |
-| <img src="/img/creatures/209.gif" class="uo-anim" alt="Goat" loading="lazy" /> | [Goat](/bestiary/animals/goat/) | 12 | 3–4 | yes (11.1) |
-| <img src="/img/creatures/29.gif" class="uo-anim" alt="Gorilla" loading="lazy" /> | [Gorilla](/bestiary/animals/gorilla/) | 38–51 | 4–10 | yes (-18.9) |
-| <img src="/img/creatures/234.gif" class="uo-anim" alt="Great Hart" loading="lazy" /> | [Great Hart](/bestiary/animals/great-hart/) | 27–41 | 5–9 | yes (59.1) |
-| <img src="/img/creatures/25.gif" class="uo-anim" alt="Grey Wolf" loading="lazy" /> | [Grey Wolf](/bestiary/animals/grey-wolf/) | 34–48 | 3–7 | yes (53.1) |
-| <img src="/img/creatures/212.gif" class="uo-anim" alt="Grizzly Bear" loading="lazy" /> | [Grizzly Bear](/bestiary/animals/grizzly-bear/) | 76–93 | 8–13 | yes (59.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/209.png" alt="Goat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/209.gif" alt="" loading="lazy" /></span> | [Goat](/bestiary/animals/goat/) | 12 | 3–4 | yes (11.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/29.png" alt="Gorilla" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/29.gif" alt="" loading="lazy" /></span> | [Gorilla](/bestiary/animals/gorilla/) | 38–51 | 4–10 | yes (-18.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/234.png" alt="Great Hart" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/234.gif" alt="" loading="lazy" /></span> | [Great Hart](/bestiary/animals/great-hart/) | 27–41 | 5–9 | yes (59.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/25.png" alt="Grey Wolf" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/25.gif" alt="" loading="lazy" /></span> | [Grey Wolf](/bestiary/animals/grey-wolf/) | 34–48 | 3–7 | yes (53.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/212.png" alt="Grizzly Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/212.gif" alt="" loading="lazy" /></span> | [Grizzly Bear](/bestiary/animals/grizzly-bear/) | 76–93 | 8–13 | yes (59.1) |
 |  | [Grubber](/bestiary/animals/grubber/) | 200 | 1 | — |
-| <img src="/img/creatures/401.gif" class="uo-anim" alt="Gypsy" loading="lazy" /> | [Gypsy](/bestiary/animals/gypsy/) | — | — | — |
-| <img src="/img/creatures/401.gif" class="uo-anim" alt="Harbor Master" loading="lazy" /> | [Harbor Master](/bestiary/animals/harbor-master/) | — | — | — |
-| <img src="/img/creatures/793.gif" class="uo-anim" alt="Hellsteed" loading="lazy" /> | [Hellsteed](/bestiary/animals/hell-steed/) | 201–220 | 20–24 | — |
-| <img src="/img/creatures/715.gif" class="uo-anim" alt="High Plains Boura" loading="lazy" /> | [High Plains Boura](/bestiary/animals/high-plains-boura/) | 555–618 | 20–25 | yes (47.1) |
-| <img src="/img/creatures/237.gif" class="uo-anim" alt="Hind" loading="lazy" /> | [Hind](/bestiary/animals/hind/) | 15–29 | 4 | yes (23.1) |
-| <img src="/img/creatures/226.gif" class="uo-anim" alt="Horse" loading="lazy" /> | [Horse](/bestiary/animals/horse/) | 28–45 | 3–4 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Gypsy" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Gypsy](/bestiary/animals/gypsy/) | — | — | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Harbor Master" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Harbor Master](/bestiary/animals/harbor-master/) | — | — | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/793.png" alt="Hellsteed" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/793.gif" alt="" loading="lazy" /></span> | [Hellsteed](/bestiary/animals/hell-steed/) | 201–220 | 20–24 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/715.png" alt="High Plains Boura" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/715.gif" alt="" loading="lazy" /></span> | [High Plains Boura](/bestiary/animals/high-plains-boura/) | 555–618 | 20–25 | yes (47.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/237.png" alt="Hind" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/237.gif" alt="" loading="lazy" /></span> | [Hind](/bestiary/animals/hind/) | 15–29 | 4 | yes (23.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/226.png" alt="Horse" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/226.gif" alt="" loading="lazy" /></span> | [Horse](/bestiary/animals/horse/) | 28–45 | 3–4 | yes (29.1) |
 |  | [Horse](/bestiary/animals/palomino/) | 28–45 | 3–4 | yes (29.1) |
-| <img src="/img/creatures/225.gif" class="uo-anim" alt="Injured Wolf" loading="lazy" /> | [Injured Wolf](/bestiary/animals/injured-wolf/) | 1 | 1–3 | — |
-| <img src="/img/creatures/205.gif" class="uo-anim" alt="Jack Rabbit" loading="lazy" /> | [Jack Rabbit](/bestiary/animals/jack-rabbit/) | 9 | 1–2 | yes (-18.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/225.png" alt="Injured Wolf" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/225.gif" alt="" loading="lazy" /></span> | [Injured Wolf](/bestiary/animals/injured-wolf/) | 1 | 1–3 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/205.png" alt="Jack Rabbit" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/205.gif" alt="" loading="lazy" /></span> | [Jack Rabbit](/bestiary/animals/jack-rabbit/) | 9 | 1–2 | yes (-18.9) |
 |  | [Lasher](/bestiary/animals/lasher/) | 240 | 1–4 | yes |
-| <img src="/img/creatures/220.gif" class="uo-anim" alt="Llama" loading="lazy" /> | [Llama](/bestiary/animals/llama/) | 15–27 | 3–5 | yes (35.1) |
-| <img src="/img/creatures/715.gif" class="uo-anim" alt="Lowland Boura" loading="lazy" /> | [Lowland Boura](/bestiary/animals/lowland-boura/) | 438–553 | 18–23 | yes (19.1) |
-| <img src="/img/creatures/88.gif" class="uo-anim" alt="Mountain Goat" loading="lazy" /> | [Mountain Goat](/bestiary/animals/mountain-goat/) | 20–33 | 3–7 | yes (-0.9) |
-| <img src="/img/creatures/291.gif" class="uo-anim" alt="Pack Horse" loading="lazy" /> | [Pack Horse](/bestiary/animals/pack-horse/) | 61–80 | 5–11 | yes (29.1) |
-| <img src="/img/creatures/292.gif" class="uo-anim" alt="Pack Llama" loading="lazy" /> | [Pack Llama](/bestiary/animals/pack-llama/) | 50 | 2–6 | yes (29.1) |
-| <img src="/img/creatures/214.gif" class="uo-anim" alt="Panther" loading="lazy" /> | [Panther](/bestiary/animals/panther/) | 37–51 | 4–12 | yes (53.1) |
-| <img src="/img/creatures/203.gif" class="uo-anim" alt="Pig" loading="lazy" /> | [Pig](/bestiary/animals/pig/) | 12 | 2–4 | yes (11.1) |
-| <img src="/img/creatures/213.gif" class="uo-anim" alt="Polar Bear" loading="lazy" /> | [Polar Bear](/bestiary/animals/polar-bear/) | 70–84 | 7–12 | yes (35.1) |
-| <img src="/img/creatures/205.gif" class="uo-anim" alt="Rabbit" loading="lazy" /> | [Rabbit](/bestiary/animals/rabbit/) | 4–6 | 1 | yes (-18.9) |
-| <img src="/img/creatures/212.gif" class="uo-anim" alt="Raging Grizzly Bear" loading="lazy" /> | [Raging Grizzly Bear](/bestiary/animals/raging-grizzly-bear/) | 751–930 | 18–23 | — |
-| <img src="/img/creatures/238.gif" class="uo-anim" alt="Rat" loading="lazy" /> | [Rat](/bestiary/animals/rat/) | 6 | 1–2 | yes (-0.9) |
-| <img src="/img/creatures/220.gif" class="uo-anim" alt="Ridable Llama" loading="lazy" /> | [Ridable Llama](/bestiary/animals/ridable-llama/) | 15–27 | 3–5 | yes (29.1) |
-| <img src="/img/creatures/187.gif" class="uo-anim" alt="Ridgeback" loading="lazy" /> | [Ridgeback](/bestiary/animals/ridgeback/) | 41–54 | 3–5 | yes (83.1) |
-| <img src="/img/creatures/715.gif" class="uo-anim" alt="Ruddy Boura" loading="lazy" /> | [Ruddy Boura](/bestiary/animals/ruddy-boura/) | 435–509 | 16–20 | yes (19.1) |
-| <img src="/img/creatures/271.gif" class="uo-anim" alt="Satyr" loading="lazy" /> | [Satyr](/bestiary/animals/satyr/) | 350–400 | 13–24 | — |
-| <img src="/img/creatures/207.gif" class="uo-anim" alt="Sheep" loading="lazy" /> | [Sheep](/bestiary/animals/sheep/) | 12 | 1–2 | yes (11.1) |
-| <img src="/img/creatures/64.gif" class="uo-anim" alt="Snow Leopard" loading="lazy" /> | [Snow Leopard](/bestiary/animals/snow-leopard/) | 34–48 | 3–9 | yes (53.1) |
-| <img src="/img/creatures/278.gif" class="uo-anim" alt="Squirrel" loading="lazy" /> | [Squirrel](/bestiary/animals/squirrel/) | 42–50 | 1–2 | yes (-21.3) |
-| <img src="/img/creatures/225.gif" class="uo-anim" alt="Timber Wolf" loading="lazy" /> | [Timber Wolf](/bestiary/animals/timber-wolf/) | 34–48 | 5–9 | yes (23.1) |
-| <img src="/img/creatures/6.gif" class="uo-anim" alt="Tropical Bird" loading="lazy" /> | [Tropical Bird](/bestiary/animals/tropical-bird/) | — | 0 | yes (-6.9) |
-| <img src="/img/creatures/95.gif" class="uo-anim" alt="Turkey" loading="lazy" /> | [Turkey](/bestiary/animals/turkey/) | 75 | 5 | — |
-| <img src="/img/creatures/221.gif" class="uo-anim" alt="Walrus" loading="lazy" /> | [Walrus](/bestiary/animals/walrus/) | 14–17 | 4–10 | yes (35.1) |
-| <img src="/img/creatures/34.gif" class="uo-anim" alt="White Wolf" loading="lazy" /> | [White Wolf](/bestiary/animals/white-wolf/) | 34–48 | 3–7 | yes (65.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/220.png" alt="Llama" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/220.gif" alt="" loading="lazy" /></span> | [Llama](/bestiary/animals/llama/) | 15–27 | 3–5 | yes (35.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/715.png" alt="Lowland Boura" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/715.gif" alt="" loading="lazy" /></span> | [Lowland Boura](/bestiary/animals/lowland-boura/) | 438–553 | 18–23 | yes (19.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/88.png" alt="Mountain Goat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/88.gif" alt="" loading="lazy" /></span> | [Mountain Goat](/bestiary/animals/mountain-goat/) | 20–33 | 3–7 | yes (-0.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/291.png" alt="Pack Horse" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/291.gif" alt="" loading="lazy" /></span> | [Pack Horse](/bestiary/animals/pack-horse/) | 61–80 | 5–11 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/292.png" alt="Pack Llama" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/292.gif" alt="" loading="lazy" /></span> | [Pack Llama](/bestiary/animals/pack-llama/) | 50 | 2–6 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/214.png" alt="Panther" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/214.gif" alt="" loading="lazy" /></span> | [Panther](/bestiary/animals/panther/) | 37–51 | 4–12 | yes (53.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/203.png" alt="Pig" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/203.gif" alt="" loading="lazy" /></span> | [Pig](/bestiary/animals/pig/) | 12 | 2–4 | yes (11.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/213.png" alt="Polar Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/213.gif" alt="" loading="lazy" /></span> | [Polar Bear](/bestiary/animals/polar-bear/) | 70–84 | 7–12 | yes (35.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/205.png" alt="Rabbit" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/205.gif" alt="" loading="lazy" /></span> | [Rabbit](/bestiary/animals/rabbit/) | 4–6 | 1 | yes (-18.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/212.png" alt="Raging Grizzly Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/212.gif" alt="" loading="lazy" /></span> | [Raging Grizzly Bear](/bestiary/animals/raging-grizzly-bear/) | 751–930 | 18–23 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/238.png" alt="Rat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/238.gif" alt="" loading="lazy" /></span> | [Rat](/bestiary/animals/rat/) | 6 | 1–2 | yes (-0.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/220.png" alt="Ridable Llama" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/220.gif" alt="" loading="lazy" /></span> | [Ridable Llama](/bestiary/animals/ridable-llama/) | 15–27 | 3–5 | yes (29.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/187.png" alt="Ridgeback" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/187.gif" alt="" loading="lazy" /></span> | [Ridgeback](/bestiary/animals/ridgeback/) | 41–54 | 3–5 | yes (83.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/715.png" alt="Ruddy Boura" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/715.gif" alt="" loading="lazy" /></span> | [Ruddy Boura](/bestiary/animals/ruddy-boura/) | 435–509 | 16–20 | yes (19.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/271.png" alt="Satyr" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/271.gif" alt="" loading="lazy" /></span> | [Satyr](/bestiary/animals/satyr/) | 350–400 | 13–24 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/207.png" alt="Sheep" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/207.gif" alt="" loading="lazy" /></span> | [Sheep](/bestiary/animals/sheep/) | 12 | 1–2 | yes (11.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/64.png" alt="Snow Leopard" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/64.gif" alt="" loading="lazy" /></span> | [Snow Leopard](/bestiary/animals/snow-leopard/) | 34–48 | 3–9 | yes (53.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/278.png" alt="Squirrel" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/278.gif" alt="" loading="lazy" /></span> | [Squirrel](/bestiary/animals/squirrel/) | 42–50 | 1–2 | yes (-21.3) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/225.png" alt="Timber Wolf" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/225.gif" alt="" loading="lazy" /></span> | [Timber Wolf](/bestiary/animals/timber-wolf/) | 34–48 | 5–9 | yes (23.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/6.png" alt="Tropical Bird" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/6.gif" alt="" loading="lazy" /></span> | [Tropical Bird](/bestiary/animals/tropical-bird/) | — | 0 | yes (-6.9) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/95.png" alt="Turkey" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/95.gif" alt="" loading="lazy" /></span> | [Turkey](/bestiary/animals/turkey/) | 75 | 5 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/221.png" alt="Walrus" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/221.gif" alt="" loading="lazy" /></span> | [Walrus](/bestiary/animals/walrus/) | 14–17 | 4–10 | yes (35.1) |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/34.png" alt="White Wolf" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/34.gif" alt="" loading="lazy" /></span> | [White Wolf](/bestiary/animals/white-wolf/) | 34–48 | 3–7 | yes (65.1) |
 |  | [Windrunner](/bestiary/animals/windrunner/) | 240 | 1–4 | yes |

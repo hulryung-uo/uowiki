@@ -3,6 +3,8 @@ title: "Frost Mite"
 description: "Frost Mite — hits 800–1000, damage 21–28, Melee AI; tamable at 102.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FrostMite.cs"
 last_verified: 2026-06-11

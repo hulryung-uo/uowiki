@@ -3,6 +3,8 @@ title: "Anlorzen"
 description: "Anlorzen — hits 300–400, damage 15–18, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Anlorzen.cs"
 last_verified: 2026-06-11

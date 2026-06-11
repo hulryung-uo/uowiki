@@ -3,6 +3,8 @@ title: "Desert Ostard"
 description: "Desert Ostard — hits 71–88, damage 5–11, Animal AI; tamable at 29.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DesertOstard.cs"
 last_verified: 2026-06-11

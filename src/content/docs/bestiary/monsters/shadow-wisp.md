@@ -3,6 +3,8 @@ title: "Shadow Wisp"
 description: "Shadow Wisp — hits 10–24, damage 5–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ShadowWisp.cs"
 last_verified: 2026-06-11

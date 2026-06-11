@@ -3,6 +3,8 @@ title: "Clockwork Scorpion"
 description: "Clockwork Scorpion — hits 151–210, damage 5–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClockworkScorpion.cs"
 last_verified: 2026-06-11

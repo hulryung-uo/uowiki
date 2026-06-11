@@ -3,6 +3,8 @@ title: "Putrid Undead Guardian"
 description: "Putrid Undead Guardian — hits 553, damage 3–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PutridUndeadGuardian.cs"
 last_verified: 2026-06-11

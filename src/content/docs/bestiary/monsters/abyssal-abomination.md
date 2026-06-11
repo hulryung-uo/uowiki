@@ -3,6 +3,8 @@ title: "Abyssal Abomination"
 description: "Abyssal Abomination — hits 600–750, damage 13–17, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/AbyssalAbomination.cs"
 last_verified: 2026-06-11

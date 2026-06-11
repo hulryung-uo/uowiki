@@ -3,6 +3,8 @@ title: "Bone Knight"
 description: "Bone Knight — hits 118–150, damage 8–18, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BoneKnight.cs"
 last_verified: 2026-06-11

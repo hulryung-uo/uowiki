@@ -3,6 +3,8 @@ title: "Pack Llama"
 description: "Pack Llama — hits 50, damage 2–6, Animal AI; tamable at 29.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PackLlama.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Skeletal Dragon"
 description: "Skeletal Dragon — hits 558–599, damage 29–35, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SkeletalDragon.cs"
 last_verified: 2026-06-11

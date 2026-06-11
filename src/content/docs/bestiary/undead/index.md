@@ -12,44 +12,44 @@ last_verified: 2026-06-11
 
 | | Creature | Hits | Damage | Tamable |
 |---|---|---|---|---|
-| <img src="/img/creatures/78.gif" class="uo-anim" alt="Ancient Lich" loading="lazy" /> | [Ancient Lich](/bestiary/undead/ancient-lich/) | 560–595 | 15–27 | — |
-| <img src="/img/creatures/78.gif" class="uo-anim" alt="Ancient Lich" loading="lazy" /> | [Ancient Lich](/bestiary/undead/ancient-lich-renowned/) | 2000–2500 | 15–27 | — |
-| <img src="/img/creatures/153.gif" class="uo-anim" alt="Bogle" loading="lazy" /> | [Bogle](/bestiary/undead/bogle/) | 46–60 | 7–11 | — |
-| <img src="/img/creatures/308.gif" class="uo-anim" alt="Bone Demon" loading="lazy" /> | [Bone Demon](/bestiary/undead/bone-demon/) | 3600 | 34–36 | — |
-| <img src="/img/creatures/57.gif" class="uo-anim" alt="Bone Knight" loading="lazy" /> | [Bone Knight](/bestiary/undead/bone-knight/) | 118–150 | 8–18 | — |
-| <img src="/img/creatures/148.gif" class="uo-anim" alt="Bone Mage" loading="lazy" /> | [Bone Mage](/bestiary/undead/bone-magi/) | 46–60 | 3–7 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/78.png" alt="Ancient Lich" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/78.gif" alt="" loading="lazy" /></span> | [Ancient Lich](/bestiary/undead/ancient-lich/) | 560–595 | 15–27 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/78.png" alt="Ancient Lich" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/78.gif" alt="" loading="lazy" /></span> | [Ancient Lich](/bestiary/undead/ancient-lich-renowned/) | 2000–2500 | 15–27 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/153.png" alt="Bogle" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/153.gif" alt="" loading="lazy" /></span> | [Bogle](/bestiary/undead/bogle/) | 46–60 | 7–11 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/308.png" alt="Bone Demon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/308.gif" alt="" loading="lazy" /></span> | [Bone Demon](/bestiary/undead/bone-demon/) | 3600 | 34–36 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/57.png" alt="Bone Knight" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/57.gif" alt="" loading="lazy" /></span> | [Bone Knight](/bestiary/undead/bone-knight/) | 118–150 | 8–18 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/148.png" alt="Bone Mage" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/148.gif" alt="" loading="lazy" /></span> | [Bone Mage](/bestiary/undead/bone-magi/) | 46–60 | 3–7 | — |
 |  | [Dream Wraith](/bestiary/undead/dream-wraith/) | 550–650 | 18–25 | — |
 |  | [Effete Undead Gargoyle](/bestiary/undead/effete-undead-gargoyle/) | 65–70 | 3–7 | — |
-| <img src="/img/creatures/4.gif" class="uo-anim" alt="Gargoyle Shade" loading="lazy" /> | [Gargoyle Shade](/bestiary/undead/gargoyle-shade/) | 60–64 | 7–14 | — |
-| <img src="/img/creatures/153.gif" class="uo-anim" alt="Ghoul" loading="lazy" /> | [Ghoul](/bestiary/undead/ghoul/) | 46–60 | 7–9 | — |
-| <img src="/img/creatures/305.gif" class="uo-anim" alt="Gore Fiend" loading="lazy" /> | [Gore Fiend](/bestiary/undead/gore-fiend/) | 97–111 | 15–21 | — |
-| <img src="/img/creatures/24.gif" class="uo-anim" alt="Lich" loading="lazy" /> | [Lich](/bestiary/undead/lich/) | 103–120 | 24–26 | — |
-| <img src="/img/creatures/79.gif" class="uo-anim" alt="Lich Lord" loading="lazy" /> | [Lich Lord](/bestiary/undead/lich-lord/) | 250–303 | 11–13 | — |
-| <img src="/img/creatures/154.gif" class="uo-anim" alt="Mummy" loading="lazy" /> | [Mummy](/bestiary/undead/mummy/) | 208–222 | 13–23 | — |
-| <img src="/img/creatures/309.gif" class="uo-anim" alt="Patchwork Skeleton" loading="lazy" /> | [Patchwork Skeleton](/bestiary/undead/patchwork-skeleton/) | 58–72 | 18–22 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/4.png" alt="Gargoyle Shade" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/4.gif" alt="" loading="lazy" /></span> | [Gargoyle Shade](/bestiary/undead/gargoyle-shade/) | 60–64 | 7–14 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/153.png" alt="Ghoul" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/153.gif" alt="" loading="lazy" /></span> | [Ghoul](/bestiary/undead/ghoul/) | 46–60 | 7–9 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/305.png" alt="Gore Fiend" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/305.gif" alt="" loading="lazy" /></span> | [Gore Fiend](/bestiary/undead/gore-fiend/) | 97–111 | 15–21 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/24.png" alt="Lich" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/24.gif" alt="" loading="lazy" /></span> | [Lich](/bestiary/undead/lich/) | 103–120 | 24–26 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/79.png" alt="Lich Lord" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/79.gif" alt="" loading="lazy" /></span> | [Lich Lord](/bestiary/undead/lich-lord/) | 250–303 | 11–13 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/154.png" alt="Mummy" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/154.gif" alt="" loading="lazy" /></span> | [Mummy](/bestiary/undead/mummy/) | 208–222 | 13–23 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/309.png" alt="Patchwork Skeleton" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/309.gif" alt="" loading="lazy" /></span> | [Patchwork Skeleton](/bestiary/undead/patchwork-skeleton/) | 58–72 | 18–22 | — |
 |  | [Putrid Undead Gargoyle](/bestiary/undead/putrid-undead-gargoyle/) | 660–665 | 21–30 | — |
 |  | [Putrid Undead Guardian](/bestiary/undead/putrid-undead-guardian/) | 553 | 3–7 | — |
-| <img src="/img/creatures/970.gif" class="uo-anim" alt="Revenant" loading="lazy" /> | [Revenant](/bestiary/undead/khaldun-revenant/) | 241–300 | 20–30 | — |
-| <img src="/img/creatures/400.gif" class="uo-anim" alt="Revenant" loading="lazy" /> | [Revenant](/bestiary/undead/revenant/) | — | 16–17 | — |
-| <img src="/img/creatures/251.gif" class="uo-anim" alt="Revenant Lion" loading="lazy" /> | [Revenant Lion](/bestiary/undead/revenant-lion/) | 251–280 | 18–24 | — |
-| <img src="/img/creatures/155.gif" class="uo-anim" alt="Rotting Corpse" loading="lazy" /> | [Rotting Corpse](/bestiary/undead/rotting-corpse/) | 1200 | 8–10 | — |
-| <img src="/img/creatures/26.gif" class="uo-anim" alt="Shade" loading="lazy" /> | [Shade](/bestiary/undead/shade/) | 46–60 | 7–11 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/970.png" alt="Revenant" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/970.gif" alt="" loading="lazy" /></span> | [Revenant](/bestiary/undead/khaldun-revenant/) | 241–300 | 20–30 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/400.png" alt="Revenant" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/400.gif" alt="" loading="lazy" /></span> | [Revenant](/bestiary/undead/revenant/) | — | 16–17 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/251.png" alt="Revenant Lion" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/251.gif" alt="" loading="lazy" /></span> | [Revenant Lion](/bestiary/undead/revenant-lion/) | 251–280 | 18–24 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/155.png" alt="Rotting Corpse" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/155.gif" alt="" loading="lazy" /></span> | [Rotting Corpse](/bestiary/undead/rotting-corpse/) | 1200 | 8–10 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/26.png" alt="Shade" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/26.gif" alt="" loading="lazy" /></span> | [Shade](/bestiary/undead/shade/) | 46–60 | 7–11 | — |
 |  | [Skeletal Cat](/bestiary/undead/skeletal-cat/) | 240 | 1–4 | yes (30.0) |
-| <img src="/img/creatures/104.gif" class="uo-anim" alt="Skeletal Dragon" loading="lazy" /> | [Skeletal Dragon](/bestiary/undead/skeletal-dragon/) | 558–599 | 29–35 | — |
-| <img src="/img/creatures/104.gif" class="uo-anim" alt="Skeletal Dragon" loading="lazy" /> | [Skeletal Dragon](/bestiary/undead/skeletal-dragon-renowned/) | 558–599 | 29–35 | — |
-| <img src="/img/creatures/104.gif" class="uo-anim" alt="Skeletal Drake" loading="lazy" /> | [Skeletal Drake](/bestiary/undead/skeletal-drake/) | 300–400 | 29–35 | — |
-| <img src="/img/creatures/147.gif" class="uo-anim" alt="Skeletal Knight" loading="lazy" /> | [Skeletal Knight](/bestiary/undead/skeletal-knight/) | 118–150 | 8–18 | — |
-| <img src="/img/creatures/309.gif" class="uo-anim" alt="Skeletal Lich" loading="lazy" /> | [Skeletal Lich](/bestiary/undead/skeletal-lich/) | 1200 | 8–10 | — |
-| <img src="/img/creatures/148.gif" class="uo-anim" alt="Skeletal Mage" loading="lazy" /> | [Skeletal Mage](/bestiary/undead/skeletal-mage/) | 46–60 | 3–7 | — |
-| <img src="/img/creatures/793.gif" class="uo-anim" alt="Skeletal Steed" loading="lazy" /> | [Skeletal Steed](/bestiary/undead/skeletal-mount/) | 41–50 | 5–12 | — |
-| <img src="/img/creatures/50.gif" class="uo-anim" alt="Skeleton" loading="lazy" /> | [Skeleton](/bestiary/undead/skeleton/) | 34–48 | 3–7 | — |
-| <img src="/img/creatures/637.gif" class="uo-anim" alt="Spectral Armour" loading="lazy" /> | [Spectral Armour](/bestiary/undead/spectral-armour/) | 178–201 | 10–22 | — |
-| <img src="/img/creatures/26.gif" class="uo-anim" alt="Spectral Spellbinder" loading="lazy" /> | [Spectral Spellbinder](/bestiary/undead/spellbinder/) | 36–50 | 3–6 | — |
-| <img src="/img/creatures/26.gif" class="uo-anim" alt="Spectre" loading="lazy" /> | [Spectre](/bestiary/undead/spectre/) | 46–60 | 7–11 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/104.png" alt="Skeletal Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/104.gif" alt="" loading="lazy" /></span> | [Skeletal Dragon](/bestiary/undead/skeletal-dragon/) | 558–599 | 29–35 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/104.png" alt="Skeletal Dragon" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/104.gif" alt="" loading="lazy" /></span> | [Skeletal Dragon](/bestiary/undead/skeletal-dragon-renowned/) | 558–599 | 29–35 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/104.png" alt="Skeletal Drake" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/104.gif" alt="" loading="lazy" /></span> | [Skeletal Drake](/bestiary/undead/skeletal-drake/) | 300–400 | 29–35 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/147.png" alt="Skeletal Knight" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/147.gif" alt="" loading="lazy" /></span> | [Skeletal Knight](/bestiary/undead/skeletal-knight/) | 118–150 | 8–18 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/309.png" alt="Skeletal Lich" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/309.gif" alt="" loading="lazy" /></span> | [Skeletal Lich](/bestiary/undead/skeletal-lich/) | 1200 | 8–10 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/148.png" alt="Skeletal Mage" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/148.gif" alt="" loading="lazy" /></span> | [Skeletal Mage](/bestiary/undead/skeletal-mage/) | 46–60 | 3–7 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/793.png" alt="Skeletal Steed" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/793.gif" alt="" loading="lazy" /></span> | [Skeletal Steed](/bestiary/undead/skeletal-mount/) | 41–50 | 5–12 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/50.png" alt="Skeleton" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/50.gif" alt="" loading="lazy" /></span> | [Skeleton](/bestiary/undead/skeleton/) | 34–48 | 3–7 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/637.png" alt="Spectral Armour" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/637.gif" alt="" loading="lazy" /></span> | [Spectral Armour](/bestiary/undead/spectral-armour/) | 178–201 | 10–22 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/26.png" alt="Spectral Spellbinder" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/26.gif" alt="" loading="lazy" /></span> | [Spectral Spellbinder](/bestiary/undead/spellbinder/) | 36–50 | 3–6 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/26.png" alt="Spectre" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/26.gif" alt="" loading="lazy" /></span> | [Spectre](/bestiary/undead/spectre/) | 46–60 | 7–11 | — |
 |  | [Undead Gargoyle](/bestiary/undead/undead-gargoyle/) | 200–300 | 15–27 | — |
 |  | [Undead Guardian](/bestiary/undead/undead-guardian/) | 138 | 8–18 | — |
-| <img src="/img/creatures/155.gif" class="uo-anim" alt="Unfrozen Mummy" loading="lazy" /> | [Unfrozen Mummy](/bestiary/undead/unfrozen-mummy/) | 1500 | 16–20 | — |
-| <img src="/img/creatures/317.gif" class="uo-anim" alt="Vampire Bat" loading="lazy" /> | [Vampire Bat](/bestiary/undead/vampire-bat/) | 55–66 | 7–9 | — |
-| <img src="/img/creatures/317.gif" class="uo-anim" alt="Vampire Bat" loading="lazy" /> | [Vampire Bat](/bestiary/undead/vampire-bat-familiar/) | 90 | 5–10 | — |
-| <img src="/img/creatures/26.gif" class="uo-anim" alt="Wraith" loading="lazy" /> | [Wraith](/bestiary/undead/wraith/) | 46–60 | 7–11 | — |
-| <img src="/img/creatures/3.gif" class="uo-anim" alt="Zombie" loading="lazy" /> | [Zombie](/bestiary/undead/zombie/) | 28–42 | 3–7 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/155.png" alt="Unfrozen Mummy" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/155.gif" alt="" loading="lazy" /></span> | [Unfrozen Mummy](/bestiary/undead/unfrozen-mummy/) | 1500 | 16–20 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/317.png" alt="Vampire Bat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/317.gif" alt="" loading="lazy" /></span> | [Vampire Bat](/bestiary/undead/vampire-bat/) | 55–66 | 7–9 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/317.png" alt="Vampire Bat" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/317.gif" alt="" loading="lazy" /></span> | [Vampire Bat](/bestiary/undead/vampire-bat-familiar/) | 90 | 5–10 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/26.png" alt="Wraith" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/26.gif" alt="" loading="lazy" /></span> | [Wraith](/bestiary/undead/wraith/) | 46–60 | 7–11 | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/3.png" alt="Zombie" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/3.gif" alt="" loading="lazy" /></span> | [Zombie](/bestiary/undead/zombie/) | 28–42 | 3–7 | — |

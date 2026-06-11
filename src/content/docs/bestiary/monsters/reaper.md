@@ -3,6 +3,8 @@ title: "Reaper"
 description: "Reaper — hits 40–129, damage 9–11, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Reaper.cs"
 last_verified: 2026-06-11

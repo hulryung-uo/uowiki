@@ -3,6 +3,8 @@ title: "Slith"
 description: "Slith — hits 84–85, damage 6–24, Melee AI; tamable at 80.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Slith.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Putrid Undead Gargoyle"
 description: "Putrid Undead Gargoyle — hits 660–665, damage 21–30, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/PutridUndeadGargoyle.cs"
 last_verified: 2026-06-11

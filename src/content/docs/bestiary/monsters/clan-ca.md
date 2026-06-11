@@ -3,6 +3,8 @@ title: "Clan Chitter Assistant"
 description: "Clan Chitter Assistant — hits 120–145, damage 4–10, Archer AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanCA.cs"
 last_verified: 2026-06-11

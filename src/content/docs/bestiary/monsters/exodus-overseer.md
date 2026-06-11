@@ -3,6 +3,8 @@ title: "Exodus Overseer"
 description: "Exodus Overseer — hits 331–390, damage 13–19, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ExodusOverseer.cs"
 last_verified: 2026-06-11

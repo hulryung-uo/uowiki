@@ -3,6 +3,8 @@ title: "Grim"
 description: "Grim — hits 1762–2502, damage 17–25."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Grim.cs"
 last_verified: 2026-06-11

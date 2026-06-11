@@ -3,6 +3,8 @@ title: "Lava Lizard"
 description: "Lava Lizard — hits 76–90, damage 6–24, Melee AI; tamable at 80.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/LavaLizard.cs"
 last_verified: 2026-06-11

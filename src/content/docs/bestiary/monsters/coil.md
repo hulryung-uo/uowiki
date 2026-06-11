@@ -3,6 +3,8 @@ title: "Coil"
 description: "Coil — hits 628–1291, damage 19–28."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Coil.cs"
 last_verified: 2026-06-11

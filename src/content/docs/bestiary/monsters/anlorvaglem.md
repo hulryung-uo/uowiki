@@ -3,6 +3,8 @@ title: "Anlorvaglem"
 description: "Anlorvaglem — hits 3205, damage 11–13, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Void Creatures/Anlorvaglem.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Bloodworm"
 description: "Bloodworm — hits 374–422, damage 11–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BloodWorm.cs"
 last_verified: 2026-06-11

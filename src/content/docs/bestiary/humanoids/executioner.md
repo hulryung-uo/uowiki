@@ -3,6 +3,8 @@ title: "Executioner"
 description: "Executioner — damage 8–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Executioner.cs"
 last_verified: 2026-06-11

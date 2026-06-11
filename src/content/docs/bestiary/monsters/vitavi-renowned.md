@@ -3,6 +3,8 @@ title: "Vitavi"
 description: "Vitavi — hits 45000–50000, damage 7–14, Mystic AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/VitaviRenowned.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Forgotten Servant"
 description: "Forgotten Servant — hits 95–123, damage 4–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ForgottenServant.cs"
 last_verified: 2026-06-11

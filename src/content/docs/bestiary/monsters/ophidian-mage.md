@@ -3,6 +3,8 @@ title: "Ophidian Mage"
 description: "Ophidian Mage — hits 109–123, damage 5–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OphidianMage.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Deathwatch Beetle"
 description: "Deathwatch Beetle — hits 121–145, damage 5–10, Melee AI; tamable at 41.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/DeathWatchBeetle.cs"
 last_verified: 2026-06-11

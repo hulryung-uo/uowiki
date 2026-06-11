@@ -3,6 +3,8 @@ title: "Vorpal Bunny"
 description: "Vorpal Bunny — hits 2000, damage 1, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/VorpalBunny.cs"
 last_verified: 2026-06-11

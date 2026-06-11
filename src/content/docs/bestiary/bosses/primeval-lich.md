@@ -3,6 +3,8 @@ title: "Primeval Lich"
 description: "Primeval Lich — hits 30000, damage 17–21, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/PrimevalLich.cs"
 last_verified: 2026-06-11

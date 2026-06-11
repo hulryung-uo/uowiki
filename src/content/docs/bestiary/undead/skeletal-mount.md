@@ -3,6 +3,8 @@ title: "Skeletal Steed"
 description: "Skeletal Steed — hits 41–50, damage 5–12, Animal AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/SkeletalMount.cs"
 last_verified: 2026-06-11

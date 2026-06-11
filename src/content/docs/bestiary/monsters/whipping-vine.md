@@ -3,6 +3,8 @@ title: "Whipping Vine"
 description: "Whipping Vine — damage 7–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/WhippingVine.cs"
 last_verified: 2026-06-11

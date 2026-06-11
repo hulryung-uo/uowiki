@@ -3,6 +3,8 @@ title: "Master Mikael"
 description: "Master Mikael — hits 789–1014, damage 11–19."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/MasterMikael.cs"
 last_verified: 2026-06-11

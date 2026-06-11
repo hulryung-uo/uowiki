@@ -3,6 +3,8 @@ title: "Rune Beetle"
 description: "Rune Beetle — hits 301–360, damage 15–22, Mage AI; tamable at 93.9 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RuneBeetle.cs"
 last_verified: 2026-06-11

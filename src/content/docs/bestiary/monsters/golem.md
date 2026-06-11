@@ -3,6 +3,8 @@ title: "Golem"
 description: "Golem — hits 151–210, damage 13–24, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Golem.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Acid Elemental"
 description: "Acid Elemental — hits 2000–2400, damage 9–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/AcidElementalRenowned.cs"
 last_verified: 2026-06-11

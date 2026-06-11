@@ -3,6 +3,8 @@ title: "Battle Chicken Lizard"
 description: "Battle Chicken Lizard — hits 94–177, damage 5–15, Animal AI; tamable at 0.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BattleChickenLizard.cs"
 last_verified: 2026-06-11

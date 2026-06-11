@@ -3,6 +3,8 @@ title: "Bone Demon"
 description: "Bone Demon — hits 3600, damage 34–36, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BoneDemon.cs"
 last_verified: 2026-06-11

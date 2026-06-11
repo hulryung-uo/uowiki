@@ -3,6 +3,8 @@ title: "Cursed Soul"
 description: "Cursed Soul — hits 10–20, damage 3–7, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CursedSoul.cs"
 last_verified: 2026-06-11

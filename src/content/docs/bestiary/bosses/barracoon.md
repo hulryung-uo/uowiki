@@ -3,6 +3,8 @@ title: "Barracoon"
 description: "Barracoon — hits 12000, damage 29–38, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Barracoon.cs"
 last_verified: 2026-06-11

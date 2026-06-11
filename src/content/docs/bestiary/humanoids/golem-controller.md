@@ -3,6 +3,8 @@ title: "Golem Controller"
 description: "Golem Controller — hits 76–90, damage 6–12, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GolemController.cs"
 last_verified: 2026-06-11

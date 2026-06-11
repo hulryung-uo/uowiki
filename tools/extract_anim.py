@@ -332,6 +332,44 @@ def decode_frames(data: bytes):
 
 # ---------------------------------------------------------------- gif compose
 
+def compose_png(pal_rgb, frames, out_path: str) -> bool:
+    """Render the FIRST frame as a static RGBA PNG.
+
+    Uses the same union bounding box as compose_gif so the PNG and GIF line up
+    pixel-for-pixel; pixels not covered by frame 0 are fully transparent.
+    """
+    frames = [f for f in frames if f is not None]
+    if not frames:
+        return False
+
+    left = min(-f["cx"] for f in frames)
+    top = min(-(f["cy"] + f["h"]) for f in frames)
+    right = max(-f["cx"] + f["w"] for f in frames)
+    bottom = max(-(f["cy"] + f["h"]) + f["h"] for f in frames)
+    cw, ch = right - left, bottom - top
+    if cw <= 0 or ch <= 0 or cw > 1024 or ch > 1024:
+        return False
+
+    f0 = frames[0]
+    buf = bytearray(cw * ch * 4)  # RGBA, all zero = transparent
+    fx = -f0["cx"] - left
+    fy = -(f0["cy"] + f0["h"]) - top
+    w, px = f0["w"], f0["pixels"]
+    for row in range(f0["h"]):
+        for col in range(w):
+            v = px[row * w + col]
+            if v != 256:
+                r, g, b = pal_rgb[v]
+                base = ((fy + row) * cw + (fx + col)) * 4
+                buf[base] = r
+                buf[base + 1] = g
+                buf[base + 2] = b
+                buf[base + 3] = 255
+    img = Image.frombytes("RGBA", (cw, ch), bytes(buf))
+    img.save(out_path)
+    return True
+
+
 def compose_gif(pal_rgb, frames, out_path: str) -> int:
     """Build an animated GIF from decoded frames. Returns frame count."""
     frames = [f for f in frames if f is not None]
@@ -482,6 +520,9 @@ class Extractor:
         n = compose_gif(pal, frames, out_path)
         if n == 0:
             return None, "gif compose produced 0 frames"
+        # Also emit the first frame as a static PNG (same bbox/compositing).
+        png_path = os.path.join(out_dir, f"{body}.png")
+        compose_png(pal, frames, png_path)
         meta = meta_or_err
         meta["frames"] = n
         meta["used_body"] = used_body
@@ -533,6 +574,7 @@ def main():
             continue
         bodies_out[str(body)] = {
             "gif": f"/img/creatures/{body}.gif",
+            "png": f"/img/creatures/{body}.png",
             "frames": meta["frames"],
             "group": meta["group"],
             "anim_file": meta["anim_file"],
@@ -547,7 +589,7 @@ def main():
     if write_json:
         out = {
             "_schema": {
-                "bodies": "body id -> {gif path, frame count, action group, source anim file}",
+                "bodies": "body id -> {gif path, png path, frame count, action group, source anim file}",
                 "creatures": "creature class -> body id used for its gif",
             },
             "_meta": {

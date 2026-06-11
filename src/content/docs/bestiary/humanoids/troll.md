@@ -3,6 +3,8 @@ title: "Troll"
 description: "Troll — hits 106–123, damage 8–14, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Troll.cs"
 last_verified: 2026-06-11

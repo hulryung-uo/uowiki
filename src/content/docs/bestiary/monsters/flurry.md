@@ -3,6 +3,8 @@ title: "Flurry"
 description: "Flurry — hits 474–477, damage 10–15, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/Flurry.cs"
 last_verified: 2026-06-11

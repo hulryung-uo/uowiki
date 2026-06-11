@@ -3,6 +3,8 @@ title: "Lady Marai"
 description: "Lady Marai — hits 694–846, damage 15–25."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Named/LadyMarai.cs"
 last_verified: 2026-06-11

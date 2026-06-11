@@ -3,6 +3,8 @@ title: "Juka Warrior"
 description: "Juka Warrior — hits 151–210, damage 7–9, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/JukaWarrior.cs"
 last_verified: 2026-06-11

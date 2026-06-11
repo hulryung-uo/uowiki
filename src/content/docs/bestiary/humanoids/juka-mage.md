@@ -3,6 +3,8 @@ title: "Juka Mage"
 description: "Juka Mage — hits 121–180, damage 4–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/JukaMage.cs"
 last_verified: 2026-06-11

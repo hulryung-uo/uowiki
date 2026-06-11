@@ -3,6 +3,8 @@ title: "Changeling"
 description: "Changeling — hits 201–211, damage 9–15, Spellweaving AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Changeling.cs"
 last_verified: 2026-06-11

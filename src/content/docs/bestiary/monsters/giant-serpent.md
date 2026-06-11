@@ -3,6 +3,8 @@ title: "Giant Serpent"
 description: "Giant Serpent — hits 112–129, damage 7–17, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/GiantSerpent.cs"
 last_verified: 2026-06-11

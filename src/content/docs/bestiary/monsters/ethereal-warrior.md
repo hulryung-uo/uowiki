@@ -3,6 +3,8 @@ title: "Ethereal Warrior"
 description: "Ethereal Warrior — hits 352–471, damage 13–19, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EtherealWarrior.cs"
 last_verified: 2026-06-11

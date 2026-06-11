@@ -3,6 +3,8 @@ title: "Semidar"
 description: "Semidar — hits 10000, damage 29–35, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Bosses/Semidar.cs"
 last_verified: 2026-06-11

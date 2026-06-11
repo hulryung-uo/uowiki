@@ -3,6 +3,8 @@ title: "Drake"
 description: "Drake — hits 241–258, damage 11–17, Melee AI; tamable at 84.3 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Drake.cs"
 last_verified: 2026-06-11

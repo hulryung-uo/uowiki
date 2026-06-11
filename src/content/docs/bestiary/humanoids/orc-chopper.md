@@ -3,6 +3,8 @@ title: "Orc Chopper"
 description: "Orc Chopper — hits 97–139, damage 4–13, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcChopper.cs"
 last_verified: 2026-06-11

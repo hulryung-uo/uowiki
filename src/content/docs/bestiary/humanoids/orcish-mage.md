@@ -3,6 +3,8 @@ title: "Orcish Mage"
 description: "Orcish Mage — hits 70–90, damage 4–14, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/OrcishMage.cs"
 last_verified: 2026-06-11

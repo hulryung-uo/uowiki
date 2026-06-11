@@ -3,6 +3,8 @@ title: "Vicious Macaw"
 description: "Vicious Macaw — hits 700–800, damage 15–25, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Macaw.cs"
 last_verified: 2026-06-11

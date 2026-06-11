@@ -3,6 +3,8 @@ title: "Bone Mage"
 description: "Bone Mage — hits 46–60, damage 3–7, NecroMage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/BoneMagi.cs"
 last_verified: 2026-06-11

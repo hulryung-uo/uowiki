@@ -3,6 +3,8 @@ title: "Evil Mage Lord"
 description: "Evil Mage Lord — hits 49–63, damage 5–10, Mage AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/EvilMageLord.cs"
 last_verified: 2026-06-11

@@ -3,6 +3,8 @@ title: "Frost Spider"
 description: "Frost Spider — hits 46–60, damage 6–16, Melee AI; tamable at 74.7 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FrostSpider.cs"
 last_verified: 2026-06-11

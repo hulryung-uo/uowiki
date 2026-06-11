@@ -3,6 +3,8 @@ title: "Bull"
 description: "Bull — hits 50–64, damage 4–9, Animal AI; tamable at 71.1 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/Bull.cs"
 last_verified: 2026-06-11

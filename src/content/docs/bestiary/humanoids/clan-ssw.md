@@ -3,6 +3,8 @@ title: "Clan Scratch Savage Wolf"
 description: "Clan Scratch Savage Wolf — hits 65, damage 8–10, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/ClanSSW.cs"
 last_verified: 2026-06-11

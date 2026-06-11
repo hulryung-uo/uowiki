@@ -3,6 +3,8 @@ title: "Red Solen Warrior"
 description: "Red Solen Warrior — hits 96–107, damage 5–15, Melee AI."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/RedSolenWarrior.cs"
 last_verified: 2026-06-11

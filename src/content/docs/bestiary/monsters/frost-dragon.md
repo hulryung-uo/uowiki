@@ -3,6 +3,8 @@ title: "Frost Dragon"
 description: "Frost Dragon — hits 2050–2250, damage 24–33, Mage AI; tamable at 105.0 Animal Taming."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/FrostDragon.cs"
 last_verified: 2026-06-11

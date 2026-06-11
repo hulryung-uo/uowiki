@@ -3,6 +3,8 @@ title: "Crystal Sea Serpent"
 description: "Crystal Sea Serpent — hits 230–330, damage 10–18."
 status: source-verified
 generated: true
+sidebar:
+  hidden: true
 sources:
   - "servuo: Scripts/Mobiles/Normal/CrystalSeaSerpent.cs"
 last_verified: 2026-06-11
