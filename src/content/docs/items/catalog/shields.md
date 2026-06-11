@@ -26,7 +26,7 @@ Auto-generated catalog of every Shields — shields of every material (78 items)
 | <img src="/img/items/0x0F6B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Candlewood Torch | `0x0F6B` | 1 |
 | <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | centaur costume | `0x19BC` | 4 |
 | <img src="/img/items/0x1BC3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chaos shield | `0x1BC3` | 5 |
-| <img src="/img/items/0x1BC3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chaos Shield - Museum of Vesper Replica | `0x1BC3` | 5 |
+| <img src="/img/items/0x1BC3-h00FA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chaos Shield - Museum of Vesper Replica | `0x1BC3` | 5 |
 | <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cyclops costume | `0x19BC` | 4 |
 | <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Defender of the Magus | `0x1B7B` | 6 |
 | <img src="/img/items/0x4201.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon Hide Shield | `0x4201` | 7 |
@@ -51,7 +51,7 @@ Auto-generated catalog of every Shields — shields of every material (78 items)
 | <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lady of the Snow costume | `0x19BC` | 4 |
 | <img src="/img/items/0x4204.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large plate shield | `0x4204` | — |
 | <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large stone shield | `0x4205` | 5 |
-| <img src="/img/items/0x1BC3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lord Blackthorn's Exemplar | `0x1BC3` | 5 |
+| <img src="/img/items/0x1BC3-h0501.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lord Blackthorn's Exemplar | `0x1BC3` | 5 |
 | <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | maddening horror costume | `0x19BC` | 4 |
 | <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Maleki's Honor (Juggernaut Set) | `0x1B74` | 7 |
 | <img src="/img/items/0x4203.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | medium plate shield | `0x4203` | 6 |
@@ -75,7 +75,7 @@ Auto-generated catalog of every Shields — shields of every material (78 items)
 | <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shadow wyrm halloween costume | `0x19BC` | 4 |
 | <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shield of Invulnerability | `0x1BC4` | 7 |
 | <img src="/img/items/0x4228.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x4228` | 5 |
-| <img src="/img/items/0x1BC3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x1BC3` | 5 |
+| <img src="/img/items/0x1BC3-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x1BC3` | 5 |
 | <img src="/img/items/0x422A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Order | `0x422A` | 7 |
 | <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Order | `0x1BC4` | 7 |
 | <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skeleton halloween costume | `0x19BC` | 4 |

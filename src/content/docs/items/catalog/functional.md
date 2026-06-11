@@ -26,7 +26,7 @@ Auto-generated catalog of every Functional — interactive functional items (77 
 | <img src="/img/items/0x9CE9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Automaton Actuator | `0x9CE9` | — |
 | <img src="/img/items/0x0685.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barred metal door | `0x0685` | — |
 | <img src="/img/items/0x1FED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barred metal door2 | `0x1FED` | — |
-| <img src="/img/items/0x9CAA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Black Moonstone | `0x9CAA` | — |
+| <img src="/img/items/0x9CAA-h0497.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Black Moonstone | `0x9CAA` | — |
 | <img src="/img/items/0x9DB1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blackrock Automaton Head | `0x9DB1` | — |
 | <img src="/img/items/0x0E31.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brazier | `0x0E31` | — |
 | <img src="/img/items/0x9DB1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | broken automaton head | `0x9DB1` | 1 |
@@ -43,7 +43,7 @@ Auto-generated catalog of every Functional — interactive functional items (77 
 | <img src="/img/items/0x06A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark wood door | `0x06A5` | — |
 | <img src="/img/items/0x0866.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark wood gate | `0x0866` | — |
 | <img src="/img/items/0x06A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark wood house door | `0x06A5` | — |
-| <img src="/img/items/0x41BD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Do you wish to hatch your egg now? | `0x41BD` | — |
+| <img src="/img/items/0x41BD-h022B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Do you wish to hatch your egg now? | `0x41BD` | — |
 | <img src="/img/items/0x41BD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Do you wish to hatch your egg now? | `0x41BD` | — |
 | <img src="/img/items/0x1B71.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire column trap | `0x1B71` | — |
 | <img src="/img/items/0x1B71.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | flame spurt trap | `0x1B71` | — |

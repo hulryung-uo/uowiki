@@ -64,7 +64,7 @@ Auto-generated catalog of every Containers — chests, bags, boxes and other con
 | <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carpenters craftsman satchel | `0x0E75` | 3 |
 | <img src="/img/items/0x285D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cherry armoire | `0x285D` | 1 |
 | <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chest of Heirlooms | `0x2811` | — |
-| <img src="/img/items/0xA29F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | China Cabinet | `0xA29F` | — |
+| <img src="/img/items/0xA29F-h01C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | China Cabinet | `0xA29F` | — |
 | <img src="/img/items/0x0FAE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | closed barrel | `0x0FAE` | — |
 | <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Commodity Deed Box | `0x09AA` | 4 |
 | <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | creature backpack | `0x0E75` | 3 |
@@ -131,7 +131,7 @@ Auto-generated catalog of every Containers — chests, bags, boxes and other con
 | <img src="/img/items/0xA1F7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mailbox | `0xA1F7` | 5 |
 | <img src="/img/items/0xA207.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mailbox | `0xA207` | 5 |
 | <img src="/img/items/0x285B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | maple armoire | `0x285B` | 1 |
-| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mark container | `0x0ECA` | — |
+| <img src="/img/items/0x0ECA-h044E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mark container | `0x0ECA` | — |
 | <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Meager Museum Bag | `0x0E76` | 2 |
 | <img src="/img/items/0x0E3F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | medium crate | `0x0E3F` | 2 |
 | <img src="/img/items/0x09A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal box | `0x09A8` | — |
@@ -144,7 +144,7 @@ Auto-generated catalog of every Containers — chests, bags, boxes and other con
 | <img src="/img/items/0x280D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate wooden chest | `0x280D` | — |
 | <img src="/img/items/0x0E7C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | paragon chest | `0x0E7C` | — |
 | <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | picnic basket | `0x0E7A` | 2 |
-| <img src="/img/items/0xA29B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pie Safe | `0xA29B` | — |
+| <img src="/img/items/0xA29B-h01C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pie Safe | `0xA29B` | — |
 | <img src="/img/items/0x261B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast backpack | `0x261B` | — |
 | <img src="/img/items/0x280B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plain wooden chest | `0x280B` | — |
 | <img src="/img/items/0x0E79.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pouch | `0x0E79` | 1 |

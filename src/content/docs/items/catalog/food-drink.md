@@ -119,7 +119,7 @@ Auto-generated catalog of every Food & Drink — food, ingredients and beverages
 | <img src="/img/items/0x0FF6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pitcher | `0x0FF6` | 2 |
 | <img src="/img/items/0x1040.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pizza | `0x1040` | 1 |
 | <img src="/img/items/0x9E86.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plum | `0x9E86` | 1 |
-| <img src="/img/items/0x999F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pulled Pork Platter | `0x999F` | — |
+| <img src="/img/items/0x999F-h0485.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pulled Pork Platter | `0x999F` | — |
 | <img src="/img/items/0x99A0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pulled Pork Sandwich | `0x99A0` | — |
 | <img src="/img/items/0x0C6A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pumpkin | `0x0C6A` | 1 |
 | <img src="/img/items/0x1040.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pumpkin Pizza | `0x1040` | 1 |

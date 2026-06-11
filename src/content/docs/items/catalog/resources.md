@@ -74,8 +74,8 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 |------|------|---------|--------|
 | <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a big fish | `0x09CC` | — |
 | <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A keg of Parasitic Poison potions | `0x1940` | 20 |
-| <img src="/img/items/0x136C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a large piece of blackrock | `0x136C` | — |
-| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | abyssal cloth | `0x1767` | — |
+| <img src="/img/items/0x136C-h07A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a large piece of blackrock | `0x136C` | — |
+| <img src="/img/items/0x1767-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | abyssal cloth | `0x1767` | — |
 | <img src="/img/items/0x0F25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | amber | `0x0F25` | — |
 | <img src="/img/items/0x0F16.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | amethyst | `0x0F16` | — |
 | <img src="/img/items/0x182F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | animal pheromone | `0x182F` | — |
@@ -97,7 +97,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x1BD7-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood board | `0x1BD7` | — |
 | <img src="/img/items/0x3198.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blue diamond | `0x3198` | — |
 | <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | board | `0x1BD7` | — |
-| <img src="/img/items/0x0E73.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bola ball | `0x0E73` | 4 |
+| <img src="/img/items/0x0E73-h08AC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bola ball | `0x0E73` | 4 |
 | <img src="/img/items/0x1BFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bolt | `0x1BFB` | — |
 | <img src="/img/items/0x0F95.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bolt of cloth | `0x0F95` | 5 |
 | <img src="/img/items/0x0F7E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bone | `0x0F7E` | 1 |
@@ -135,17 +135,17 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x0F10.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | emerald | `0x0F10` | — |
 | <img src="/img/items/0x1C18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | empty oil flask | `0x1C18` | — |
 | <img src="/img/items/0x2F5C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enchanted Switch | `0x2F5C` | 1 |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of achievement | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of balance | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of control | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of diligence | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of direction | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of feeling | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of order | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of passion | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of persistence | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of precision | `0x571C` | — |
-| <img src="/img/items/0x571C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of singularity | `0x571C` | — |
+| <img src="/img/items/0x571C-h06BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of achievement | `0x571C` | — |
+| <img src="/img/items/0x571C-h04F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of balance | `0x571C` | — |
+| <img src="/img/items/0x571C-h048D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of control | `0x571C` | — |
+| <img src="/img/items/0x571C-h048E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of diligence | `0x571C` | — |
+| <img src="/img/items/0x571C-h0484.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of direction | `0x571C` | — |
+| <img src="/img/items/0x571C-h01C7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of feeling | `0x571C` | — |
+| <img src="/img/items/0x571C-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of order | `0x571C` | — |
+| <img src="/img/items/0x571C-h0489.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of passion | `0x571C` | — |
+| <img src="/img/items/0x571C-h0025.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of persistence | `0x571C` | — |
+| <img src="/img/items/0x571C-h0486.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of precision | `0x571C` | — |
+| <img src="/img/items/0x571C-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of singularity | `0x571C` | — |
 | <img src="/img/items/0xA3E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ethereal sand | `0xA3E8` | — |
 | <img src="/img/items/0x122A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Explosive Goo | `0x122A` | — |
 | <img src="/img/items/0x318D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eye of the travesty | `0x318D` | — |
@@ -181,8 +181,8 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0xA3E9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | live rock | `0xA3E9` | — |
 | <img src="/img/items/0x3191.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | luminescent fungi | `0x3191` | — |
 | <img src="/img/items/0x2DB6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa Blood | `0x2DB6` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h08AF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
 | <img src="/img/items/0x3188.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | muculent | `0x3188` | — |
 | <img src="/img/items/0x1BD7-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak board | `0x1BD7` | — |
 | <img src="/img/items/0xA414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ocean sapphire | `0xA414` | — |
@@ -202,7 +202,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x5749.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reflective wolf eye | `0x5749` | — |
 | <img src="/img/items/0x0F13.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ruby | `0x0F13` | — |
 | <img src="/img/items/0x2F57.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runed Prism | `0x2F57` | 1 |
-| <img src="/img/items/0x423A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sand | `0x423A` | — |
+| <img src="/img/items/0x423A-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sand | `0x423A` | — |
 | <img src="/img/items/0x0F11.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sapphire | `0x0F11` | — |
 | <img src="/img/items/0x3185.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scourge | `0x3185` | — |
 | <img src="/img/items/0x1848.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scouring toxin | `0x1848` | — |
@@ -230,7 +230,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x3193.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | turquoise | `0x3193` | — |
 | <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | uncut cloth | `0x1767` | — |
 | <img src="/img/items/0x5731.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | undying flesh | `0x5731` | — |
-| <img src="/img/items/0x0F7E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | unholy bone | `0x0F7E` | — |
+| <img src="/img/items/0x0F7E-h0497.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | unholy bone | `0x0F7E` | — |
 | <img src="/img/items/0x5722.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vial of vitriol | `0x5722` | — |
 | <img src="/img/items/0x5727.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vile tentacles | `0x5727` | — |
 | <img src="/img/items/0x5728.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void core | `0x5728` | — |

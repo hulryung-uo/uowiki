@@ -124,29 +124,29 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x13BB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chain coif | `0x13BB` | 1 |
 | <img src="/img/items/0x2774.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chain hatsuburi | `0x2774` | 7 |
 | <img src="/img/items/0x13BE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chain legs | `0x13BE` | 7 |
-| <img src="/img/items/0x13BF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Keeonean's Chain Mail - Museum of Vesper Replica | `0x13BF` | 7 |
+| <img src="/img/items/0x13BF-h084E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Keeonean's Chain Mail - Museum of Vesper Replica | `0x13BF` | 7 |
 
 ## Plate
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
-| <img src="/img/items/0x2641.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Basilisk Hide Breastplate | `0x2641` | 10 |
+| <img src="/img/items/0x2641-h0556.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Basilisk Hide Breastplate | `0x2641` | 10 |
 | <img src="/img/items/0x2B08.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Justice (Virtue Armor Set) | `0x2B08` | 7 |
-| <img src="/img/items/0x030A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of the Berserker | `0x030A` | 10 |
-| <img src="/img/items/0x2641.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Villainous Epiphany | `0x2641` | 10 |
-| <img src="/img/items/0x1415.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Virtuous Epiphany | `0x1415` | 10 |
+| <img src="/img/items/0x030A-h0494.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of the Berserker | `0x030A` | 10 |
+| <img src="/img/items/0x2641-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Villainous Epiphany | `0x2641` | 10 |
+| <img src="/img/items/0x1415-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Virtuous Epiphany | `0x1415` | 10 |
 | <img src="/img/items/0x2778.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | decorative plate kabuto | `0x2778` | 6 |
 | <img src="/img/items/0x2B6D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | female elven plate chest | `0x2B6D` | 8 |
 | <img src="/img/items/0x1C04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | female plate chest | `0x1C04` | 4 |
 | <img src="/img/items/0x2777.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heavy plate jingasa | `0x2777` | 5 |
-| <img src="/img/items/0x1415.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Holy Knight's Breastplate | `0x1415` | 10 |
-| <img src="/img/items/0x1410.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Arms | `0x1410` | 5 |
+| <img src="/img/items/0x1415-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Holy Knight's Breastplate | `0x1415` | 10 |
+| <img src="/img/items/0x1410-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Arms | `0x1410` | 5 |
 | <img src="/img/items/0x1C04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Breastplate | `0x1C04` | 4 |
-| <img src="/img/items/0x1415.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Breastplate | `0x1415` | 10 |
-| <img src="/img/items/0x1414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Gloves | `0x1414` | 2 |
-| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Gorget | `0x1413` | 2 |
-| <img src="/img/items/0x1411.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Legs | `0x1411` | 7 |
-| <img src="/img/items/0x1412.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Plate Helm | `0x1412` | 5 |
+| <img src="/img/items/0x1415-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Breastplate | `0x1415` | 10 |
+| <img src="/img/items/0x1414-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Gloves | `0x1414` | 2 |
+| <img src="/img/items/0x1413-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Gorget | `0x1413` | 2 |
+| <img src="/img/items/0x1411-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Legs | `0x1411` | 7 |
+| <img src="/img/items/0x1412-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Plate Helm | `0x1412` | 5 |
 | <img src="/img/items/0x2781.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | light plate jingasa | `0x2781` | 5 |
 | <img src="/img/items/0x1410.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plate arms | `0x1410` | 5 |
 | <img src="/img/items/0x2785.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plate battle kabuto | `0x2785` | 6 |
@@ -161,13 +161,13 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x1411.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plate legs | `0x1411` | 7 |
 | <img src="/img/items/0x2779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plate mempo | `0x2779` | 3 |
 | <img src="/img/items/0x2788.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plate suneate | `0x2788` | 7 |
-| <img src="/img/items/0x1410.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1410` | 5 |
-| <img src="/img/items/0x1415.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1415` | 10 |
+| <img src="/img/items/0x1410-h0109.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1410` | 5 |
+| <img src="/img/items/0x1415-h0109.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1415` | 10 |
 | <img src="/img/items/0x1C04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1C04` | 4 |
-| <img src="/img/items/0x1414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1414` | 2 |
-| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1413` | 2 |
-| <img src="/img/items/0x1412.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1412` | 5 |
-| <img src="/img/items/0x1411.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1411` | 7 |
+| <img src="/img/items/0x1414-h0109.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1414` | 2 |
+| <img src="/img/items/0x1413-h0109.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1413` | 2 |
+| <img src="/img/items/0x1412-h0109.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1412` | 5 |
+| <img src="/img/items/0x1411-h0109.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Platemail Armor of the Britannia Royal Zoo | `0x1411` | 7 |
 | <img src="/img/items/0x2784.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Scout's Small Plate Jingasa | `0x2784` | 5 |
 | <img src="/img/items/0x2784.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small plate jingasa | `0x2784` | 5 |
 | <img src="/img/items/0x2789.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | standard plate kabuto | `0x2789` | 6 |
@@ -213,10 +213,10 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
-| <img src="/img/items/0x0308.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Villainous Epiphany | `0x0308` | 5 |
-| <img src="/img/items/0x0308.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Virtuous Epiphany | `0x0308` | 5 |
-| <img src="/img/items/0x030A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Villainous Epiphany | `0x030A` | 10 |
-| <img src="/img/items/0x030A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Virtuous Epiphany | `0x030A` | 10 |
+| <img src="/img/items/0x0308-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Villainous Epiphany | `0x0308` | 5 |
+| <img src="/img/items/0x0308-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Virtuous Epiphany | `0x0308` | 5 |
+| <img src="/img/items/0x030A-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Villainous Epiphany | `0x030A` | 10 |
+| <img src="/img/items/0x030A-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breastplate of Virtuous Epiphany | `0x030A` | 10 |
 | <img src="/img/items/0x4644.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Brightsight Lenses | `0x4644` | 2 |
 | <img src="/img/items/0x030E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | britches of warding | `0x030E` | 7 |
 | <img src="/img/items/0x0284.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cuffs of the archmage | `0x0284` | 10 |
@@ -260,8 +260,8 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x0288.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish stone kilt | `0x0288` | 10 |
 | <img src="/img/items/0x028A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish stone legs | `0x028A` | 15 |
 | <img src="/img/items/0x030C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Kilt of Feudal Vise | `0x030C` | 5 |
-| <img src="/img/items/0x030E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Villainous Epiphany | `0x030E` | 7 |
-| <img src="/img/items/0x030E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Virtuous Epiphany | `0x030E` | 7 |
+| <img src="/img/items/0x030E-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Villainous Epiphany | `0x030E` | 7 |
+| <img src="/img/items/0x030E-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Virtuous Epiphany | `0x030E` | 7 |
 | <img src="/img/items/0x4644.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mace and Shield Reading Glasses | `0x4644` | 2 |
 | <img src="/img/items/0x4644.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Reading Glasses of the Arts | `0x4644` | 2 |
 | <img src="/img/items/0x4644.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Reading Glasses of the Trades | `0x4644` | 2 |
@@ -283,18 +283,18 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x2785.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Daimyo's Helm | `0x2785` | 6 |
 | <img src="/img/items/0x782D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Darden's Armor | `0x782D` | 2 |
 | <img src="/img/items/0x2B70.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gemmed circlet | `0x2B70` | 2 |
-| <img src="/img/items/0x1412.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Insight | `0x1412` | 5 |
+| <img src="/img/items/0x1412-h0554.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Insight | `0x1412` | 5 |
 | <img src="/img/items/0x2B10.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Spirituality (Virtue Armor Set) | `0x2B10` | 6 |
-| <img src="/img/items/0x2689.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Swiftness | `0x2689` | 5 |
+| <img src="/img/items/0x2689-h0592.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Swiftness | `0x2689` | 5 |
 | <img src="/img/items/0x2645.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Villainous Epiphany | `0x2645` | 5 |
-| <img src="/img/items/0x1412.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Virtuous Epiphany | `0x1412` | 5 |
+| <img src="/img/items/0x1412-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Helm of Virtuous Epiphany | `0x1412` | 5 |
 | <img src="/img/items/0x140A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | helmet | `0x140A` | 5 |
 | <img src="/img/items/0x140C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Bascinet | `0x140C` | 5 |
-| <img src="/img/items/0x1408.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Close Helm | `0x1408` | 5 |
-| <img src="/img/items/0x140E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Norse Helm | `0x140E` | 5 |
+| <img src="/img/items/0x1408-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Close Helm | `0x1408` | 5 |
+| <img src="/img/items/0x140E-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Knight's Norse Helm | `0x140E` | 5 |
 | <img src="/img/items/0x140C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Myrmidon Armor | `0x140C` | 5 |
 | <img src="/img/items/0x140E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | norse helm | `0x140E` | 5 |
-| <img src="/img/items/0x140E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | norse helm of the phoenix | `0x140E` | 5 |
+| <img src="/img/items/0x140E-h008E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | norse helm of the phoenix | `0x140E` | 5 |
 | <img src="/img/items/0x1F0B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Orc Chieftain Helm [Replica] | `0x1F0B` | — |
 | <img src="/img/items/0x1F0B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | orc helm | `0x1F0B` | — |
 | <img src="/img/items/0x1412.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Plate of Honor | `0x1412` | 5 |
@@ -318,7 +318,7 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x7827.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Aloron's Armor | `0x7827` | 1 |
 | <img src="/img/items/0x7822.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Aloron's Armor | `0x7822` | 6 |
 | <img src="/img/items/0x277D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ancient Samurai Do | `0x277D` | 10 |
-| <img src="/img/items/0x1411.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Animated Legs of the Insane Tinker | `0x1411` | 7 |
+| <img src="/img/items/0x1411-h0906.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Animated Legs of the Insane Tinker | `0x1411` | 7 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Anthropomorphist Reading Glasses | `0x2FB8` | 2 |
 | <img src="/img/items/0x13DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Armor of Fortune | `0x13DB` | 8 |
 | <img src="/img/items/0x13CD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Armor of Initiation | `0x13CD` | 2 |
@@ -330,13 +330,13 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x13CD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Armstrong | `0x13CD` | 2 |
 | <img src="/img/items/0x2B0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Compassion (Virtue Armor Set) | `0x2B0A` | 3 |
 | <img src="/img/items/0x277E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Tactical Excellence | `0x277E` | 1 |
-| <img src="/img/items/0x2657.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Villainous Epiphany | `0x2657` | 5 |
-| <img src="/img/items/0x1410.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Virtuous Epiphany | `0x1410` | 5 |
+| <img src="/img/items/0x2657-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Villainous Epiphany | `0x2657` | 5 |
+| <img src="/img/items/0x1410-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arms of Virtuous Epiphany | `0x1410` | 5 |
 | <img src="/img/items/0x13CD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Assassin Armor | `0x13CD` | 2 |
 | <img src="/img/items/0x13CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Assassin Armor | `0x13CC` | 6 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Assassin Armor | `0x13C6` | 1 |
 | <img src="/img/items/0x13CB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Assassin Armor | `0x13CB` | 4 |
-| <img src="/img/items/0x4052.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bestial Arms | `0x4052` | 4 |
+| <img src="/img/items/0x4052-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bestial Arms | `0x4052` | 4 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bestial Gloves | `0x13C6` | 1 |
 | <img src="/img/items/0x13C7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bestial Gorget | `0x13C7` | 1 |
 | <img src="/img/items/0x13CB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bestial Leggings | `0x13CB` | 4 |
@@ -375,43 +375,43 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x13BE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fey Leggings | `0x13BE` | 7 |
 | <img src="/img/items/0x13BE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fey Leggings | `0x13BE` | 7 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Folded Steel Reading Glasses | `0x2FB8` | 2 |
-| <img src="/img/items/0x1414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Anger [Replica] | `0x1414` | 2 |
+| <img src="/img/items/0x1414-h029B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Anger [Replica] | `0x1414` | 2 |
 | <img src="/img/items/0x13EB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Nobility | `0x13EB` | 2 |
 | <img src="/img/items/0x1450.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of the Grizzle | `0x1450` | 2 |
 | <img src="/img/items/0x2B0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Valor (Virtue Armor Set) | `0x2B0C` | 4 |
-| <img src="/img/items/0x2643.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Villainous Epiphany | `0x2643` | 2 |
-| <img src="/img/items/0x1414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Virtuous Epiphany | `0x1414` | 2 |
+| <img src="/img/items/0x2643-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Villainous Epiphany | `0x2643` | 2 |
+| <img src="/img/items/0x1414-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gauntlets of Virtuous Epiphany | `0x1414` | 2 |
 | <img src="/img/items/0x028A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Giant Steps | `0x028A` | 15 |
-| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gladiator's Collar [Replica] | `0x1413` | 2 |
+| <img src="/img/items/0x1413-h026D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gladiator's Collar [Replica] | `0x1413` | 2 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glasses | `0x2FB8` | 2 |
 | <img src="/img/items/0x2643.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gloves of feudal grip | `0x2643` | 2 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gloves of Safeguarding | `0x13C6` | 1 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gloves of the Pugilist | `0x13C6` | 1 |
 | <img src="/img/items/0x2792.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gloves of the Sun | `0x2792` | 2 |
 | <img src="/img/items/0x2B0E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gorget of Honesty (Virtue Armor Set) | `0x2B0E` | 2 |
-| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gorget of Villainous Epiphany | `0x1413` | 2 |
-| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gorget of Virtuous Epiphany | `0x1413` | 2 |
+| <img src="/img/items/0x1413-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gorget of Villainous Epiphany | `0x1413` | 2 |
+| <img src="/img/items/0x1413-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gorget of Virtuous Epiphany | `0x1413` | 2 |
 | <img src="/img/items/0x1452.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Greaves of the Grizzle | `0x1452` | 3 |
 | <img src="/img/items/0x13CD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Greymist Armor | `0x13CD` | 2 |
 | <img src="/img/items/0x13CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Greymist Armor | `0x13CC` | 6 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Greymist Armor | `0x13C6` | 1 |
 | <img src="/img/items/0x13CB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Greymist Armor | `0x13CB` | 4 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Healer's Touch | `0x13C6` | 1 |
-| <img src="/img/items/0x1415.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Heart of the Lion | `0x1415` | 10 |
+| <img src="/img/items/0x1415-h0501.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Heart of the Lion | `0x1415` | 10 |
 | <img src="/img/items/0x2FC8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hunter's Garb | `0x2FC8` | 2 |
 | <img src="/img/items/0x2FC5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hunter's Garb | `0x2FC5` | 2 |
 | <img src="/img/items/0x2FC6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hunter's Garb | `0x2FC6` | 2 |
 | <img src="/img/items/0x2FC9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hunter's Garb | `0x2FC9` | 2 |
 | <img src="/img/items/0x2B71.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ironwood Crown | `0x2B71` | 5 |
-| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jackal's Collar | `0x1413` | 2 |
-| <img src="/img/items/0x030C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Kilt of Villainous Epiphany | `0x030C` | 5 |
-| <img src="/img/items/0x030C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Kilt of Virtuous Epiphany | `0x030C` | 5 |
+| <img src="/img/items/0x1413-h06D1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jackal's Collar | `0x1413` | 2 |
+| <img src="/img/items/0x030C-h06F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Kilt of Villainous Epiphany | `0x030C` | 5 |
+| <img src="/img/items/0x030C-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Kilt of Virtuous Epiphany | `0x030C` | 5 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legendary Mapmaker's Glasses | `0x2FB8` | 2 |
-| <img src="/img/items/0x13BE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Leggings of Bane | `0x13BE` | 7 |
+| <img src="/img/items/0x13BE-h04F5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Leggings of Bane | `0x13BE` | 7 |
 | <img src="/img/items/0x2B06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Honor (Virtue Armor Set) | `0x2B06` | 9 |
 | <img src="/img/items/0x2788.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Stability | `0x2788` | 7 |
 | <img src="/img/items/0x2647.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Villainous Epiphany | `0x2647` | 6 |
-| <img src="/img/items/0x1411.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Virtuous Epiphany | `0x1411` | 7 |
+| <img src="/img/items/0x1411-h081C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legs of Virtuous Epiphany | `0x1411` | 7 |
 | <img src="/img/items/0x277A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Leurocian's Mempo of Fortune | `0x277A` | 2 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Light of Way Reading Glasses | `0x2FB8` | 2 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lyrical Reading Glasses | `0x2FB8` | 2 |
@@ -445,7 +445,7 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x13F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ringmail leggings of the phoenix | `0x13F0` | 15 |
 | <img src="/img/items/0x13EE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ringmail sleeves of the phoenix | `0x13EE` | 15 |
 | <img src="/img/items/0x13EC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ringmail tunic of the phoenix | `0x13EC` | 15 |
-| <img src="/img/items/0x1411.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Royal Leggings of Embers | `0x1411` | 7 |
+| <img src="/img/items/0x1411-h002C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Royal Leggings of Embers | `0x1411` | 7 |
 | <img src="/img/items/0x277D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Rune Beetle Carapace | `0x277D` | 10 |
 | <img src="/img/items/0x1C02.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Scout's Female Studded Armor | `0x1C02` | 6 |
 | <img src="/img/items/0x1C0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Scout's Studded Bustier | `0x1C0C` | 1 |
@@ -473,24 +473,24 @@ Auto-generated catalog of every Armor — wearable armor grouped by material, fr
 | <img src="/img/items/0x13DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | studded leggings, ranger armor | `0x13DA` | 3 |
 | <img src="/img/items/0x13DC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | studded sleeves, ranger armor | `0x13DC` | 4 |
 | <img src="/img/items/0x13DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | studded tunic, ranger armor | `0x13DB` | 8 |
-| <img src="/img/items/0x1414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Inquisitor's Resolution | `0x1414` | 2 |
+| <img src="/img/items/0x1414-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Inquisitor's Resolution | `0x1414` | 2 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Treasures and Trinkets Reading Glasses | `0x2FB8` | 2 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Treasures and Trinkets Reading Glasses | `0x2FB8` | 2 |
-| <img src="/img/items/0x13BF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tunic of Fire | `0x13BF` | 7 |
+| <img src="/img/items/0x13BF-h054F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tunic of Fire | `0x13BF` | 7 |
 | <img src="/img/items/0x13CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tunic of Guarding | `0x13CC` | 6 |
 | <img src="/img/items/0x144F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tunic of the Grizzle | `0x144F` | 6 |
 | <img src="/img/items/0x2793.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Twilight Jacket | `0x2793` | 5 |
 | <img src="/img/items/0x457E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Unforgiven Veil | `0x457E` | 2 |
 | <img src="/img/items/0x144E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Vambraces of the Grizzle | `0x144E` | 2 |
 | <img src="/img/items/0x1C04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Violet Courage | `0x1C04` | 4 |
-| <img src="/img/items/0x0308.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Armbands | `0x0308` | 5 |
+| <img src="/img/items/0x0308-h055E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Armbands | `0x0308` | 5 |
 | <img src="/img/items/0x13C7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Collar | `0x13C7` | 1 |
 | <img src="/img/items/0x4213.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Earpieces | `0x4213` | 1 |
 | <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Kid Gloves | `0x13C6` | 1 |
 | <img src="/img/items/0x4210.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Necklace | `0x4210` | 1 |
 | <img src="/img/items/0x13DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Tunic | `0x13DB` | 8 |
 | <img src="/img/items/0x13C7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Voice of the Fallen King | `0x13C7` | 1 |
-| <img src="/img/items/0x030C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Infused Kilt | `0x030C` | 5 |
+| <img src="/img/items/0x030C-h084C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Infused Kilt | `0x030C` | 5 |
 | <img src="/img/items/0x2791.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Walker's Leggings | `0x2791` | 3 |
 | <img src="/img/items/0x457E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Warden's Armor of Augmentation | `0x457E` | 2 |
 | <img src="/img/items/0x2FB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wizard's Crystal Reading Glasses | `0x2FB8` | 2 |

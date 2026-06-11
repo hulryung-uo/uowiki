@@ -19,19 +19,19 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
-| <img src="/img/items/0x0900.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Abyssal Blade | `0x0900` | 6 |
+| <img src="/img/items/0x0900-h0964.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Abyssal Blade | `0x0900` | 6 |
 | <img src="/img/items/0x2D35.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | adventurer's machete | `0x2D35` | 6 |
-| <img src="/img/items/0x1401.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blackthorn's Kryss - Museum of Vesper Replica | `0x1401` | 2 |
-| <img src="/img/items/0x2D32.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade Dance | `0x2D32` | 7 |
+| <img src="/img/items/0x1401-h05E5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blackthorn's Kryss - Museum of Vesper Replica | `0x1401` | 2 |
+| <img src="/img/items/0x2D32-h066C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade Dance | `0x2D32` | 7 |
 | <img src="/img/items/0x0907.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade of Battle | `0x0907` | 9 |
-| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade of Insanity | `0x13FF` | 6 |
-| <img src="/img/items/0x0F61.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade of the Righteous | `0x0F61` | 7 |
+| <img src="/img/items/0x13FF-h076D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade of Insanity | `0x13FF` | 6 |
+| <img src="/img/items/0x0F61-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blade of the Righteous | `0x0F61` | 7 |
 | <img src="/img/items/0x08FE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blood blade | `0x08FE` | 2 |
 | <img src="/img/items/0x27A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bokuto | `0x27A8` | 7 |
 | <img src="/img/items/0x26BB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bone harvester | `0x26BB` | 3 |
 | <img src="/img/items/0x2D35.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bone machete | `0x2D35` | 6 |
-| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Brave Knight of The Britannia [Replica] | `0x13FF` | 6 |
-| <img src="/img/items/0x26BB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breath of the Dead | `0x26BB` | 3 |
+| <img src="/img/items/0x13FF-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Brave Knight of The Britannia [Replica] | `0x13FF` | 6 |
+| <img src="/img/items/0x26BB-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Breath of the Dead | `0x26BB` | 3 |
 | <img src="/img/items/0x0F5E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | broadsword | `0x0F5E` | 6 |
 | <img src="/img/items/0x13B6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Captain Johne’s Blade | `0x13B6` | 5 |
 | <img src="/img/items/0x090C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Captain Johne’s Blade | `0x090C` | 6 |
@@ -43,13 +43,13 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x27A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | daisho | `0x27A9` | 8 |
 | <img src="/img/items/0x2D33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | darkglow scimitar | `0x2D33` | 9 |
 | <img src="/img/items/0x2D35.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Diseased Machete | `0x2D35` | 6 |
-| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Draconi's Wrath | `0x13FF` | 6 |
-| <img src="/img/items/0x0F61.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon's End | `0x0F61` | 7 |
+| <img src="/img/items/0x13FF-h0499.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Draconi's Wrath | `0x13FF` | 6 |
+| <img src="/img/items/0x0F61-h0554.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon's End | `0x0F61` | 7 |
 | <img src="/img/items/0x090B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dread sword | `0x090B` | 7 |
-| <img src="/img/items/0x1401.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread's Revenge | `0x1401` | 2 |
+| <img src="/img/items/0x1401-h003A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread's Revenge | `0x1401` | 2 |
 | <img src="/img/items/0x2D35.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven machete | `0x2D35` | 6 |
 | <img src="/img/items/0x13B9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Evocaricus (Juggernaut Set) | `0x13B9` | 6 |
-| <img src="/img/items/0x1401.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fang of Ractus [Replica] | `0x1401` | 2 |
+| <img src="/img/items/0x1401-h0117.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fang of Ractus [Replica] | `0x1401` | 2 |
 | <img src="/img/items/0x48C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish bone harvester | `0x48C6` | 3 |
 | <img src="/img/items/0x48D0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish daisho | `0x48D0` | 8 |
 | <img src="/img/items/0x48BA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish katana | `0x48BA` | 6 |
@@ -68,7 +68,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x0908.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Light in the Void | `0x0908` | 16 |
 | <img src="/img/items/0x0F61.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | longsword | `0x0F61` | 7 |
 | <img src="/img/items/0x2D32.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Luminous Rune Blade | `0x2D32` | 7 |
-| <img src="/img/items/0x26C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Luna Lance | `0x26C0` | 12 |
+| <img src="/img/items/0x26C0-h047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Luna Lance | `0x26C0` | 12 |
 | <img src="/img/items/0x2D35.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | machete of defense | `0x2D35` | 6 |
 | <img src="/img/items/0x2D32.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mage's rune blade | `0x2D32` | 7 |
 | <img src="/img/items/0x0F5E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mangler | `0x0F5E` | 6 |
@@ -78,26 +78,26 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x26CE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | paladin sword | `0x26CE` | 6 |
 | <img src="/img/items/0x27A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Peasant's Bokuto | `0x27A8` | 7 |
 | <img src="/img/items/0x2D33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | radiant scimitar | `0x2D33` | 9 |
-| <img src="/img/items/0x2D35.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Righteous Anger | `0x2D35` | 6 |
+| <img src="/img/items/0x2D35-h0284.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Righteous Anger | `0x2D35` | 6 |
 | <img src="/img/items/0x2D32.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | rune blade | `0x2D32` | 7 |
 | <img src="/img/items/0x2D32.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | rune blade of knowledge | `0x2D32` | 7 |
 | <img src="/img/items/0x2D32.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | runesabre | `0x2D32` | 7 |
 | <img src="/img/items/0x13B6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scimitar | `0x13B6` | 5 |
-| <img src="/img/items/0x1401.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Serpent's Fang | `0x1401` | 2 |
+| <img src="/img/items/0x1401-h0488.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Serpent's Fang | `0x1401` | 2 |
 | <img src="/img/items/0x0907.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shortblade | `0x0907` | 9 |
 | <img src="/img/items/0x1401.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Silver Serpent Blade | `0x1401` | 2 |
 | <img src="/img/items/0xA341.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skull longsword | `0xA341` | 7 |
-| <img src="/img/items/0x2D33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Soul Seeker | `0x2D33` | 9 |
+| <img src="/img/items/0x2D33-h038C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Soul Seeker | `0x2D33` | 9 |
 | <img src="/img/items/0x0900.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | stone war sword | `0x0900` | 6 |
 | <img src="/img/items/0x13B9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sword of Justice - Museum of Vesper Replica | `0x13B9` | 6 |
 | <img src="/img/items/0x090C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sword of Shattered Hopes | `0x090C` | 6 |
 | <img src="/img/items/0x27A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sword of the Stampede | `0x27A2` | 10 |
 | <img src="/img/items/0x27A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Swords of Prosperity | `0x27A9` | 8 |
 | <img src="/img/items/0x27A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Destroyer | `0x27A2` | 10 |
-| <img src="/img/items/0x26C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Dragon Slayer | `0x26C0` | 12 |
+| <img src="/img/items/0x26C0-h0530.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Dragon Slayer | `0x26C0` | 12 |
 | <img src="/img/items/0x27A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Dragon's Tail | `0x27A2` | 10 |
-| <img src="/img/items/0x0F61.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Holy Sword | `0x0F61` | 7 |
-| <img src="/img/items/0x26CE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Redeemer | `0x26CE` | 6 |
+| <img src="/img/items/0x0F61-h0482.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Holy Sword | `0x0F61` | 7 |
+| <img src="/img/items/0x26CE-h0900.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Redeemer | `0x26CE` | 6 |
 | <img src="/img/items/0x13B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | thin longsword | `0x13B8` | 1 |
 | <img src="/img/items/0x2D33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | true radiant scimitar | `0x2D33` | 9 |
 | <img src="/img/items/0x2D33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | twinkling scimitar | `0x2D33` | 9 |
@@ -125,7 +125,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x0F43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hatchet | `0x0F43` | 4 |
 | <img src="/img/items/0x2D28.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heavy ornate axe | `0x2D28` | 12 |
 | <img src="/img/items/0x0E86.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jacob's Pickaxe | `0x0E86` | 11 |
-| <img src="/img/items/0x13B0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jade War Axe | `0x13B0` | 8 |
+| <img src="/img/items/0x13B0-h048A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jade War Axe | `0x13B0` | 8 |
 | <img src="/img/items/0x13FB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large battle axe | `0x13FB` | 6 |
 | <img src="/img/items/0x0F43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Melisande's Corroded Hatchet | `0x0F43` | 4 |
 | <img src="/img/items/0x2D28.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate axe | `0x2D28` | 12 |
@@ -161,9 +161,9 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
 | <img src="/img/items/0x0DF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a fireworks wand | `0x0DF2` | 1 |
-| <img src="/img/items/0x1407.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arctic Death Dealer | `0x1407` | 17 |
-| <img src="/img/items/0x1407.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bone Crusher | `0x1407` | 17 |
-| <img src="/img/items/0x2D24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bonesmasher | `0x2D24` | 10 |
+| <img src="/img/items/0x1407-h0480.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arctic Death Dealer | `0x1407` | 17 |
+| <img src="/img/items/0x1407-h060C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bone Crusher | `0x1407` | 17 |
+| <img src="/img/items/0x2D24-h0482.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bonesmasher | `0x2D24` | 10 |
 | <img src="/img/items/0x13B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Cavorting Club | `0x13B4` | 9 |
 | <img src="/img/items/0x1407.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Churchill's War Mace | `0x1407` | 17 |
 | <img src="/img/items/0x13B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | club | `0x13B4` | 9 |
@@ -189,13 +189,13 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x2D24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sapphire mace | `0x2D24` | 10 |
 | <img src="/img/items/0x26BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scepter | `0x26BC` | 8 |
 | <img src="/img/items/0x26BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Scepter of the Chief | `0x26BC` | 8 |
-| <img src="/img/items/0x2D24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shard Thrasher | `0x2D24` | 10 |
+| <img src="/img/items/0x2D24-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shard Thrasher | `0x2D24` | 10 |
 | <img src="/img/items/0x2D24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | silver-etched mace | `0x2D24` | 10 |
 | <img src="/img/items/0x0FB5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sledge hammer weapon | `0x0FB5` | — |
 | <img src="/img/items/0x13E3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | smithy hammer | `0x13E3` | 8 |
 | <img src="/img/items/0x27A3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tessen | `0x27A3` | 6 |
 | <img src="/img/items/0x27A6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tetsubo | `0x27A6` | 8 |
-| <img src="/img/items/0x143B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Berserker's Maul | `0x143B` | 10 |
+| <img src="/img/items/0x143B-h0021.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Berserker's Maul | `0x143B` | 10 |
 | <img src="/img/items/0x143D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Impaler's Pick | `0x143D` | 9 |
 | <img src="/img/items/0x1439.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Titan's Hammer | `0x1439` | 10 |
 | <img src="/img/items/0x1439.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | war hammer | `0x1439` | 10 |
@@ -206,7 +206,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
-| <img src="/img/items/0x0DF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a magic staff | `0x0DF0` | 6 |
+| <img src="/img/items/0x0DF0-h0482.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a magic staff | `0x0DF0` | 6 |
 | <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ancient wild staff | `0x2D25` | 8 |
 | <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcanist's wild staff | `0x2D25` | 8 |
 | <img src="/img/items/0x0DF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | black staff | `0x0DF0` | 6 |
@@ -217,7 +217,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x13F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Eternal Guardian Staff | `0x13F8` | 3 |
 | <img src="/img/items/0x48B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish gnarled staff | `0x48B8` | 3 |
 | <img src="/img/items/0xA347.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish skull gnarled staff | `0xA347` | 3 |
-| <img src="/img/items/0x0DF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Glacial Staff | `0x0DF0` | 6 |
+| <img src="/img/items/0x0DF0-h0480.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Glacial Staff | `0x0DF0` | 6 |
 | <img src="/img/items/0x0905.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass staff | `0x0905` | 4 |
 | <img src="/img/items/0x13F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gnarled staff | `0x13F8` | 3 |
 | <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hardened wild staff | `0x2D25` | 8 |
@@ -234,7 +234,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x0DF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Staff of Power | `0x0DF0` | 6 |
 | <img src="/img/items/0x0905.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Staff of Resonance | `0x0905` | 4 |
 | <img src="/img/items/0x0905.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Staff of Shattered Dreams | `0x0905` | 4 |
-| <img src="/img/items/0x0DF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Staff of the Magi | `0x0DF0` | 6 |
+| <img src="/img/items/0x0DF0-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Staff of the Magi | `0x0DF0` | 6 |
 | <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | thorned wild staff | `0x2D25` | 8 |
 | <img src="/img/items/0x13F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undertaker's Staff | `0x13F8` | 3 |
 | <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wild staff | `0x2D25` | 8 |
@@ -257,7 +257,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x27AF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Demon Forks | `0x27AF` | 7 |
 | <img src="/img/items/0x2D20.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven spellblade | `0x2D20` | 5 |
 | <img src="/img/items/0x2D20.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fiery spellblade | `0x2D20` | 5 |
-| <img src="/img/items/0x2D21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Flesh Ripper | `0x2D21` | 4 |
+| <img src="/img/items/0x2D21-h0341.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Flesh Ripper | `0x2D21` | 4 |
 | <img src="/img/items/0x48B6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish butcher knife | `0x48B6` | 1 |
 | <img src="/img/items/0x48AE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish cleaver | `0x48AE` | 2 |
 | <img src="/img/items/0x0902.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish dagger | `0x0902` | 1 |
@@ -273,9 +273,9 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x2D22.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | magekiller leafblade | `0x2D22` | 8 |
 | <img src="/img/items/0x0F52.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Night's Kiss | `0x0F52` | 1 |
 | <img src="/img/items/0x0F52.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Oblivion's Needle [Replica] | `0x0F52` | 1 |
-| <img src="/img/items/0x2D2F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Raed's Glory | `0x2D2F` | 10 |
+| <img src="/img/items/0x2D2F-h01E6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Raed's Glory | `0x2D2F` | 10 |
 | <img src="/img/items/0x0EC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Royal Guard Survival Knife [Replica] | `0x0EC4` | 1 |
-| <img src="/img/items/0x2D21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Rune Carving Knife | `0x2D21` | 4 |
+| <img src="/img/items/0x2D21-h048D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Rune Carving Knife | `0x2D21` | 4 |
 | <img src="/img/items/0x27AF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sai | `0x27AF` | 7 |
 | <img src="/img/items/0x2D2F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | serrated war cleaver | `0x2D2F` | 10 |
 | <img src="/img/items/0x0EC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skinning knife | `0x0EC4` | 1 |
@@ -345,7 +345,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x2D2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lightweight shortbow | `0x2D2B` | 6 |
 | <img src="/img/items/0x2D1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | longbow of might | `0x2D1E` | 8 |
 | <img src="/img/items/0x2D2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | magical shortbow | `0x2D2B` | 6 |
-| <img src="/img/items/0x2D2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mischief Maker | `0x2D2B` | 6 |
+| <img src="/img/items/0x2D2B-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mischief Maker | `0x2D2B` | 6 |
 | <img src="/img/items/0x2D2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mystical shortbow | `0x2D2B` | 6 |
 | <img src="/img/items/0x13FD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nox Ranger's Heavy Crossbow | `0x13FD` | 9 |
 | <img src="/img/items/0x2D2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ranger's shortbow | `0x2D2B` | 6 |
@@ -360,7 +360,7 @@ Auto-generated catalog of every Weapons — melee, ranged and thrown weapons gro
 | <img src="/img/items/0x26C3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Night Reaper | `0x26C3` | 6 |
 | <img src="/img/items/0x2D1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wildfire Bow | `0x2D1E` | 8 |
 | <img src="/img/items/0x13B2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wind of Corruption | `0x13B2` | 6 |
-| <img src="/img/items/0x2D2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Windsong | `0x2D2B` | 6 |
+| <img src="/img/items/0x2D2B-h00AC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Windsong | `0x2D2B` | 6 |
 | <img src="/img/items/0x27A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yumi | `0x27A5` | 8 |
 
 ## Thrown  ·  Throwing

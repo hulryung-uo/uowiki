@@ -95,7 +95,7 @@ Auto-generated catalog of every Miscellaneous — everything else (206 items). I
 | <img src="/img/items/0x2808.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | egg bomb | `0x2808` | 1 |
 | <img src="/img/items/0x09B5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eggs | `0x09B5` | 1 |
 | <img src="/img/items/0x09B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eggshells | `0x09B4` | 0.5 |
-| <img src="/img/items/0x24E2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elixir of rebirth | `0x24E2` | — |
+| <img src="/img/items/0x24E2-h048E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elixir of rebirth | `0x24E2` | — |
 | <img src="/img/items/0x2FB7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven quiver | `0x2FB7` | 2 |
 | <img src="/img/items/0xA20A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Embroidery Tool | `0xA20A` | 1 |
 | <img src="/img/items/0x2834.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | empty bento box | `0x2834` | 5 |
@@ -109,7 +109,7 @@ Auto-generated catalog of every Miscellaneous — everything else (206 items). I
 | <img src="/img/items/0x0FF4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Find Glass-Quality Sand | `0x0FF4` | 2 |
 | <img src="/img/items/0x0FC7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire horn | `0x0FC7` | 1 |
 | <img src="/img/items/0x376A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | firebomb field | `0x376A` | — |
-| <img src="/img/items/0x9C48.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | foil sheet | `0x9C48` | 2 |
+| <img src="/img/items/0x9C48-h0501.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | foil sheet | `0x9C48` | 2 |
 | <img src="/img/items/0x1BD1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | food decoration tool | `0x1BD1` | 1 |
 | <img src="/img/items/0x27AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fukiya | `0x27AA` | 4 |
 | <img src="/img/items/0x2806.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fukiya darts | `0x2806` | 1 |
@@ -139,7 +139,7 @@ Auto-generated catalog of every Miscellaneous — everything else (206 items). I
 | <img src="/img/items/0x09EC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jar honey | `0x09EC` | 1 |
 | <img src="/img/items/0x0DE1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | kindling | `0x0DE1` | 1 |
 | <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Large World Tree | `0x14F0` | 1 |
-| <img src="/img/items/0x5736.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lava Berry | `0x5736` | 1 |
+| <img src="/img/items/0x5736-h07A3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lava Berry | `0x5736` | 1 |
 | <img src="/img/items/0x0F9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather container engraving tool | `0x0F9D` | 1 |
 | <img src="/img/items/0x14FC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lockpick | `0x14FC` | — |
 | <img src="/img/items/0x2043.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lord blackthorne suit | `0x2043` | 1 |
@@ -151,11 +151,11 @@ Auto-generated catalog of every Miscellaneous — everything else (206 items). I
 | <img src="/img/items/0x0FBE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mining for Quality Gems | `0x0FBE` | 1 |
 | <img src="/img/items/0x0FBE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mining For Quality Stone | `0x0FBE` | 1 |
 | <img src="/img/items/0x9CB6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Moonstone Crystal Shards | `0x9CB6` | — |
-| <img src="/img/items/0x2808.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Myrmidex Eggsac | `0x2808` | — |
+| <img src="/img/items/0x2808-h04F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Myrmidex Eggsac | `0x2808` | — |
 | <img src="/img/items/0xA276.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mystical Polymorph Totem | `0xA276` | — |
 | <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | name change deed | `0x14F0` | — |
 | <img src="/img/items/0x0EFE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Natural Hair Dye | `0x0EFE` | 1 |
-| <img src="/img/items/0x175D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oil cloth | `0x175D` | — |
+| <img src="/img/items/0x175D-h07D1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oil cloth | `0x175D` | — |
 | <img src="/img/items/0x103A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | open sack of flour | `0x103A` | 4 |
 | <img src="/img/items/0x1021.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | orange petals | `0x1021` | — |
 | <img src="/img/items/0x2FD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Parrot Wafers | `0x2FD6` | — |

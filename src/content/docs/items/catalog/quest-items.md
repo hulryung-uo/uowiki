@@ -19,9 +19,9 @@ Auto-generated catalog of every Quest Items — items tied to quests (174 items)
 |------|------|---------|--------|
 | <img src="/img/items/0x0F04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a bottle of magical moonfire brew | `0x0F04` | 1 |
 | <img src="/img/items/0x09ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a cauldron | `0x09ED` | 1 |
-| <img src="/img/items/0x1AE2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a golden skull | `0x1AE2` | 1 |
+| <img src="/img/items/0x1AE2-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a golden skull | `0x1AE2` | 1 |
 | <img src="/img/items/0x1CEF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a healthy gland | `0x1CEF` | 1 |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A hydra scale | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h00C2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A hydra scale | `0x26B4` | — |
 | <img src="/img/items/0x1AD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a keg of Flint's Pungent Brew | `0x1AD6` | 25 |
 | <img src="/img/items/0x1822.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a magical teleporter | `0x1822` | — |
 | <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Note for Zoel | `0x14EF` | 1 |
@@ -45,9 +45,9 @@ Auto-generated catalog of every Quest Items — items tied to quests (174 items)
 | <img src="/img/items/0x5742.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | boura pelt | `0x5742` | — |
 | <img src="/img/items/0x11F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boura Skin | `0x11F4` | 1 |
 | <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bride's Letter | `0x14ED` | 1 |
-| <img src="/img/items/0x101F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannian wool | `0x101F` | 4 |
+| <img src="/img/items/0x101F-h03E0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannian wool | `0x101F` | 4 |
 | <img src="/img/items/0x2247.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | broken crystal | `0x2247` | 1 |
-| <img src="/img/items/0x204E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chyloth shroud | `0x204E` | — |
+| <img src="/img/items/0x204E-h0846.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chyloth shroud | `0x204E` | — |
 | <img src="/img/items/0x2DB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Claw of Slasher of Veils | `0x2DB8` | — |
 | <img src="/img/items/0x1CDF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | coagulated legs | `0x1CDF` | 1 |
 | <img src="/img/items/0x10E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Coil's Fang | `0x10E8` | — |
@@ -64,7 +64,7 @@ Auto-generated catalog of every Quest Items — items tied to quests (174 items)
 | <img src="/img/items/0x0E36.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Disintegrating Thesis Notes | `0x0E36` | 1 |
 | <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon flame key | `0x2002` | 2 |
 | <img src="/img/items/0x023E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon Flame Sect Badge | `0x023E` | — |
-| <img src="/img/items/0x0DF8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Spider Silk | `0x0DF8` | 4 |
+| <img src="/img/items/0x0DF8-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Spider Silk | `0x0DF8` | 4 |
 | <img src="/img/items/0x021C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dryad's curse | `0x021C` | — |
 | <img src="/img/items/0x021C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dryads blessing | `0x021C` | 1 |
 | <img src="/img/items/0x2DB2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enchanted Essence | `0x2DB2` | — |
@@ -91,7 +91,7 @@ Auto-generated catalog of every Quest Items — items tied to quests (174 items)
 | <img src="/img/items/0x223E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jagged crystal shards | `0x223E` | 1 |
 | <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ki-Rin Brains | `0x1CF0` | 1 |
 | <img src="/img/items/0x1F23.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Laifem's Letter of Introduction | `0x1F23` | 2 |
-| <img src="/img/items/0x0DF8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather wolf skin | `0x0DF8` | — |
+| <img src="/img/items/0x0DF8-h00F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather wolf skin | `0x0DF8` | — |
 | <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | librarian's key | `0x0FF3` | 1 |
 | <img src="/img/items/0x2001.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lissith's silk | `0x2001` | 1 |
 | <img src="/img/items/0x0F87.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lucky coin | `0x0F87` | — |
@@ -151,7 +151,7 @@ Auto-generated catalog of every Quest Items — items tied to quests (174 items)
 | <img src="/img/items/0x2DB3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Relic Fragment | `0x2DB3` | — |
 | <img src="/img/items/0x1374.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resolve's Bridle | `0x1374` | — |
 | <img src="/img/items/0x0F87.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sabrix's eye | `0x0F87` | 1 |
-| <img src="/img/items/0x1020.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Saliva's Feather | `0x1020` | — |
+| <img src="/img/items/0x1020-h005C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Saliva's Feather | `0x1020` | — |
 | <img src="/img/items/0x0EFE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | samples of corrupted water | `0x0EFE` | — |
 | <img src="/img/items/0x2248.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scattered crystals | `0x2248` | 1 |
 | <img src="/img/items/0x0EF9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sealed notes for Jamal | `0x0EF9` | 5 |
@@ -171,7 +171,7 @@ Auto-generated catalog of every Quest Items — items tied to quests (174 items)
 | <img src="/img/items/0x1CEE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spleen of the putrefier | `0x1CEE` | 1 |
 | <img src="/img/items/0x166F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Stout Whip | `0x166F` | 1 |
 | <img src="/img/items/0x2DB4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Stygian Dragon Head | `0x2DB4` | — |
-| <img src="/img/items/0x0DFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tainted Seeds | `0x0DFA` | — |
+| <img src="/img/items/0x0DFA-h0048.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tainted Seeds | `0x0DFA` | — |
 | <img src="/img/items/0x0DE2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tainted tree sample | `0x0DE2` | 5 |
 | <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Grand Grimoire | `0x0EFA` | 1 |
 | <img src="/img/items/0x3020.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | thorny briar | `0x3020` | 1 |

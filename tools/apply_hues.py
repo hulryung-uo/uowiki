@@ -77,28 +77,113 @@ def apply_hue(src: Path, dst: Path, table: list[tuple[int, int, int]]) -> None:
     im.save(dst)
 
 
+def grayscale_fraction(src: Path) -> float:
+    """Fraction of opaque pixels whose channel spread max-min <= 16.
+
+    Near-gray art (meant to be hued) scores ~1.0; already-colored art (potions,
+    pre-tinted sprites) scores low. Returns 0.0 if there are no opaque pixels.
+    """
+    im = Image.open(src).convert("RGBA")
+    px = im.load()
+    opaque = 0
+    gray = 0
+    for y in range(im.height):
+        for x in range(im.width):
+            r, g, b, a = px[x, y]
+            if a == 0:
+                continue
+            opaque += 1
+            if max(r, g, b) - min(r, g, b) <= 16:
+                gray += 1
+    if opaque == 0:
+        return 0.0
+    return gray / opaque
+
+
+GRAY_THRESHOLD = 0.85  # >= this fraction of near-gray pixels => safe to bake
+
+
 def main() -> None:
     class_hues = parse_class_hues()
     hues = load_hues()
     doc = json.load(open(ITEMS_JSON))
-    made = 0
+    made = 0            # newly baked or reused hued sprites pointed at this run
+    craft_seen = 0      # items whose hue came from the CraftResource table
+    literal_seen = 0    # items whose hue came from item_hue (a literal in source)
+    craft_baked = 0     # of those, baked (art was grayscale)
+    literal_baked = 0
+    skipped_color = 0   # had a hue but art was already colored -> left untinted
+    skipped_idx = 0     # hue index out of range / no art
+    gray_cache: dict[str, float] = {}  # item_id -> grayscale fraction (cache)
     for it in doc["items"]:
-        hue = class_hues.get(it["class"])
-        if not hue:  # unknown class or hue 0 (Iron / Normal) -> keep base sprite
+        # Prefer the CraftResource hue (metals/leather/scales); otherwise fall
+        # back to the item's own literal Hue assignment.
+        craft_hue = class_hues.get(it["class"])
+        if craft_hue:
+            hue = craft_hue
+            from_craft = True
+        else:
+            ih = it.get("item_hue")
+            hue = int(ih, 0) if ih else None
+            from_craft = False
+        if not hue:  # no craft hue and no literal item_hue -> keep base sprite
             continue
         idx = (hue & 0x3FFF) - 1
         if not (0 <= idx < len(hues)):
+            skipped_idx += 1
             continue
         base = IMG / f"{it['item_id']}.png"  # always the untinted sprite (idempotent)
         if not base.exists():
+            skipped_idx += 1
             continue
+
+        if from_craft:
+            craft_seen += 1
+        else:
+            literal_seen += 1
+
+        # Grayscale guard: only tint art that is (almost) entirely gray, so we
+        # never double-tint art that already carries its color (potions, dyed
+        # sprites). This applies ONLY to the literal item_hue fallback path.
+        #
+        # CraftResource sprites (metals/leather/logs/ore/scales) are EXEMPT:
+        # several of those base sprites are not strictly gray (e.g. iron ingot
+        # art 0x1BF2 is a bluish-gray), yet UO tints them by remapping the R
+        # channel through the hue ramp — that is the long-standing, correct
+        # resource-coloring behavior these PNGs depend on. Guarding them would
+        # drop the 48 existing resource hues (Valorite ingots, etc.).
+        if not from_craft:
+            frac = gray_cache.get(it["item_id"])
+            if frac is None:
+                frac = grayscale_fraction(base)
+                gray_cache[it["item_id"]] = frac
+            if frac < GRAY_THRESHOLD:
+                skipped_color += 1
+                continue
+
         out_name = f"{it['item_id']}-h{hue:04X}.png"
-        apply_hue(base, IMG / out_name, hues[idx])
+        out_path = IMG / out_name
+        if not out_path.exists():  # same sprite+hue dedupes across items
+            apply_hue(base, out_path, hues[idx])
         it["png"] = f"/img/items/{out_name}"
         it["hue"] = f"0x{hue:04X}"
         made += 1
+        if from_craft:
+            craft_baked += 1
+        else:
+            literal_baked += 1
     json.dump(doc, open(ITEMS_JSON, "w"), ensure_ascii=False, indent=1)
-    print(f"baked {made} hued sprites; {len(class_hues)} classes have a craft hue")
+    print(f"{len(class_hues)} classes have a craft hue")
+    print(f"items with a literal item_hue : "
+          f"{sum(1 for it in doc['items'] if it.get('item_hue'))}")
+    print(f"  craft-hued items seen       : {craft_seen}")
+    print(f"  literal-hued items seen     : {literal_seen}")
+    print(f"baked/pointed (gray art)      : {made} "
+          f"(craft={craft_baked}, literal={literal_baked})")
+    print(f"skipped (already colored art) : {skipped_color}")
+    print(f"skipped (no art / bad hue idx): {skipped_idx}")
+    total_hued_pngs = len(list(IMG.glob("*-h*.png")))
+    print(f"total hued PNGs on disk       : {total_hued_pngs}")
 
 
 if __name__ == "__main__":

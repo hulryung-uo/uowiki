@@ -104,7 +104,7 @@ Auto-generated catalog of every Artifacts — rare and event-reward items not co
 | <img src="/img/items/0x42B2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish traditional vase | `0x42B2` | 10 |
 | <img src="/img/items/0x42C3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish warrior statue | `0x42C3` | 10 |
 | <img src="/img/items/0x14F7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ghost Ship Anchor | `0x14F7` | 2 |
-| <img src="/img/items/0x099A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Goblet of Celebration | `0x099A` | 1 |
+| <img src="/img/items/0x099A-h0013.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Goblet of Celebration | `0x099A` | 1 |
 | <img src="/img/items/0x1BEB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gold Bricks | `0x1BEB` | — |
 | <img src="/img/items/0x0E2B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Grizelda's Extra Strength Hangover Cure | `0x0E2B` | 1 |
 | <img src="/img/items/0x0428.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gruesome standard artifact | `0x0428` | 10 |
@@ -123,7 +123,7 @@ Auto-generated catalog of every Artifacts — rare and event-reward items not co
 | <img src="/img/items/0x2D95.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Interactive Reptalon Contribution Statue from the Britannia Royal Zoo. | `0x2D95` | 1 |
 | <img src="/img/items/0x259D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Interactive Silver Steed Contribution Statue | `0x259D` | 1 |
 | <img src="/img/items/0x098E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jugs of goblin rotgut | `0x098E` | 10 |
-| <img src="/img/items/0x139D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | kings gilded statue | `0x139D` | 10 |
+| <img src="/img/items/0x139D-h0AA1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | kings gilded statue | `0x139D` | 10 |
 | <img src="/img/items/0x4C60.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | kings painting1 | `0x4C60` | 10 |
 | <img src="/img/items/0x4C66.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | kings painting2 | `0x4C66` | 10 |
 | <img src="/img/items/0x42B9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large dying plant | `0x42B9` | 10 |

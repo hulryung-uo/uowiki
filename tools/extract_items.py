@@ -106,6 +106,12 @@ LABELNUMBER_RE = re.compile(r"\bLabelNumber\s*=>?\s*(\d{4,7})\b")
 LABELNUMBER_RET_RE = re.compile(
     r"public\s+override\s+int\s+LabelNumber\b[^{]*\{[^}]*?return\s+(\d{4,7})", re.S)
 WEIGHT_RE = re.compile(r"\bWeight\s*=\s*(\d+(?:\.\d+)?)\b")
+# A literal Hue assignment in a class's OWN body: `Hue = 0xABCD;`, `Hue = 1234;`,
+# also `this.Hue = ...`. Only a bare integer/hex constant qualifies — anything
+# else (a variable, method call, or expression) is intentionally not matched by
+# the value group, so HUE_ASSIGN_RE only fires on constant literals.
+HUE_ASSIGN_RE = re.compile(
+    r"\b(?:this\.)?Hue\s*=\s*(0x[0-9A-Fa-f]+|\d+)\s*;")
 
 
 def is_concrete_class(name, body):
@@ -210,6 +216,29 @@ def resolve_weight(classes, name, depth=0, seen=None):
         if bn not in ("Item", "object", ""):
             return resolve_weight(classes, bn, depth + 1, seen)
     return None
+
+
+def resolve_item_hue(classes, name):
+    """First literal Hue assignment in THIS class's own body, or None.
+
+    Matches `Hue = 0xXXXX;` / `Hue = 1234;` / `this.Hue = ...;` where the value
+    is a constant integer/hex literal. A value of 0 means "no intrinsic hue"
+    (the item is tinted at runtime) -> None. Assignments to variables, method
+    calls or expressions (e.g. `Hue = hue;`, `Hue = Utility.Random...`) are not
+    literals and never match, so they yield None. Not recursive: only the
+    class's own constructor/body counts, never an inherited base.
+    """
+    entry = classes.get(name)
+    if entry is None:
+        return None
+    _base, body, _path = entry
+    m = HUE_ASSIGN_RE.search(body)
+    if not m:
+        return None
+    val = int(m.group(1), 0)
+    if val == 0:
+        return None
+    return val
 
 
 def resolve_base_type(classes, name, depth=0, seen=None):
@@ -326,6 +355,7 @@ def main():
             name_source = "class"
         weight = resolve_weight(classes, name)
         base_type = resolve_base_type(classes, name)
+        item_hue = resolve_item_hue(classes, name)
         png = ensure_png(item_id)
         items.append({
             "class": name,
@@ -336,6 +366,7 @@ def main():
             "category": category,
             "subcategory": subcategory,
             "base_type": base_type,
+            "item_hue": (f"0x{item_hue:04X}" if item_hue else None),
             "png": png,
             "source": "Scripts/Items/" + os.path.relpath(path, ITEMS_DIR).replace(os.sep, "/"),
         })
@@ -369,6 +400,10 @@ def main():
                 "weight": "literal Weight or null",
                 "base_type": "first classifier base class in the ancestor "
                              "chain (gameplay family), or null",
+                "item_hue": "first literal Hue assignment (0x.... constant) in "
+                            "this class's own constructor/body, or null if none, "
+                            "0, or a non-literal expression. Baked by apply_hues.py "
+                            "when the art is grayscale.",
                 "png": "static art path, or null if no art entry exists",
             },
         },
@@ -404,6 +439,8 @@ def main():
     for it in items:
         src_counts[it["name_source"]] = src_counts.get(it["name_source"], 0) + 1
     print("name sources:", dict(sorted(src_counts.items())))
+    literal_hue_count = sum(1 for it in items if it["item_hue"])
+    print(f"items w/ literal item_hue : {literal_hue_count}")
     return 0
 
 

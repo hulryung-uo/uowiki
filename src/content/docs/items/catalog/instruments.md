@@ -19,7 +19,7 @@ Auto-generated catalog of every Instruments — musical instruments used by the 
 |------|------|---------|--------|
 | <img src="/img/items/0x403B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | aud char | `0x403B` | 10 |
 | <img src="/img/items/0x2805.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bamboo flute | `0x2805` | 2 |
-| <img src="/img/items/0x315C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Flute | `0x315C` | 1 |
+| <img src="/img/items/0x315C-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Flute | `0x315C` | 1 |
 | <img src="/img/items/0x0E9C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | drums | `0x0E9C` | 4 |
 | <img src="/img/items/0x2805.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Flute of Renewal | `0x2805` | 2 |
 | <img src="/img/items/0x0EB2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gwenno's Harp | `0x0EB2` | 10 |

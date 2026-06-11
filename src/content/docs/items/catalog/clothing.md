@@ -25,7 +25,7 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x2307.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fur boots | `0x2307` | 3 |
 | <img src="/img/items/0x7819.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jester Shoes | `0x7819` | — |
 | <img src="/img/items/0x41D8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather talons | `0x41D8` | 3 |
-| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legendary Detective of the Royal Guard [Replica] | `0x170B` | 3 |
+| <img src="/img/items/0x170B-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Legendary Detective of the Royal Guard [Replica] | `0x170B` | 3 |
 | <img src="/img/items/0x2797.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ninja tabi | `0x2797` | 2 |
 | <img src="/img/items/0x047E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pads of the Cu Sidhe | `0x047E` | 3 |
 | <img src="/img/items/0x42DE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plate talons | `0x42DE` | 5 |
@@ -61,7 +61,7 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x278F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cloth ninja hood | `0x278F` | — |
 | <img src="/img/items/0xA410.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cowl of the mace & shield | `0xA410` | 3 |
 | <img src="/img/items/0x1713.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crafty's Fishing Hat | `0x1713` | — |
-| <img src="/img/items/0x1540.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crown of Tal'Keesh [Replica] | `0x1540` | — |
+| <img src="/img/items/0x1540-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crown of Tal'Keesh [Replica] | `0x1540` | — |
 | <img src="/img/items/0x1547.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | deer mask | `0x1547` | — |
 | <img src="/img/items/0x1549.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Divine Countenance | `0x1549` | — |
 | <img src="/img/items/0x171B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Pirate Hat | `0x171B` | — |
@@ -71,7 +71,7 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x171A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friends of the Library Feathered Hat | `0x171A` | — |
 | <img src="/img/items/0x230A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fur cape | `0x230A` | 4 |
 | <img src="/img/items/0x1544.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gypsy Headdress - Museum of Vesper Replica | `0x1544` | — |
-| <img src="/img/items/0x1718.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hat of the Magi | `0x1718` | — |
+| <img src="/img/items/0x1718-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hat of the Magi | `0x1718` | — |
 | <img src="/img/items/0x1840.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hooded Britannia Robe | `0x1840` | — |
 | <img src="/img/items/0x0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hooded shroud of shadows | `0x0455` | 3 |
 | <img src="/img/items/0x1549.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | horned tribal mask | `0x1549` | — |
@@ -90,14 +90,14 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x1545.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Polar Bear Mask | `0x1545` | — |
 | <img src="/img/items/0x154B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | savage mask | `0x154B` | — |
 | <img src="/img/items/0x1544.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skull cap | `0x1544` | — |
-| <img src="/img/items/0x1718.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sorcerer's Hat | `0x1718` | 1 |
+| <img src="/img/items/0x1718-h048D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sorcerer's Hat | `0x1718` | 1 |
 | <img src="/img/items/0x1545.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Spirit of the Totem | `0x1545` | — |
 | <img src="/img/items/0x1717.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | straw hat | `0x1717` | — |
 | <img src="/img/items/0x1716.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall straw hat | `0x1716` | — |
 | <img src="/img/items/0x1540.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | the scholar's halo | `0x1540` | — |
 | <img src="/img/items/0x154B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tribal mask | `0x154B` | — |
 | <img src="/img/items/0x171B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tricorne hat | `0x171B` | — |
-| <img src="/img/items/0x171C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Cap | `0x171C` | 5 |
+| <img src="/img/items/0x171C-h055E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtuoso's Cap | `0x171C` | 5 |
 | <img src="/img/items/0x1714.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wide brim hat | `0x1714` | — |
 | <img src="/img/items/0x1718.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wizards hat | `0x1718` | — |
 
@@ -105,14 +105,14 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
-| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Necromancer Shroud [Replica] | `0x1F03` | 3 |
-| <img src="/img/items/0x1F01.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An antique wedding dress | `0x1F01` | 2 |
+| <img src="/img/items/0x1F03-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Necromancer Shroud [Replica] | `0x1F03` | 3 |
+| <img src="/img/items/0x1F01-h0B89.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An antique wedding dress | `0x1F01` | 2 |
 | <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | body sash | `0x1541` | 1 |
 | <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannia Royal Zoo Member | `0x1541` | 1 |
 | <img src="/img/items/0x2794.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cloth ninja jacket | `0x2794` | 5 |
-| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Garb | `0x1F03` | 3 |
-| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Garb | `0x1F03` | 3 |
-| <img src="/img/items/0x153B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crimson Cincture | `0x153B` | 2 |
+| <img src="/img/items/0x1F03-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Garb | `0x1F03` | 3 |
+| <img src="/img/items/0x1F03-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Garb | `0x1F03` | 3 |
+| <img src="/img/items/0x153B-h0485.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crimson Cincture | `0x153B` | 2 |
 | <img src="/img/items/0x50D8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crimson Cincture | `0x50D8` | 2 |
 | <img src="/img/items/0xA40E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crimson dagger belt | `0xA40E` | 3 |
 | <img src="/img/items/0xA40C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crimson mace belt | `0xA40C` | 3 |
@@ -146,7 +146,7 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x2799.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | kamishimo | `0x2799` | 3 |
 | <img src="/img/items/0x2790.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather ninja belt | `0x2790` | 1 |
 | <img src="/img/items/0x46B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lieutenant of the Britannian Royal Guard [Replica] | `0x46B4` | 1 |
-| <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lieutenant of the Britannian Royal Guard [Replica] | `0x1541` | 1 |
+| <img src="/img/items/0x1541-h00E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lieutenant of the Britannian Royal Guard [Replica] | `0x1541` | 1 |
 | <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lord Rourke's Sash - Museum of Vesper Replica | `0x1541` | 1 |
 | <img src="/img/items/0xA40C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mace belt | `0xA40C` | 3 |
 | <img src="/img/items/0x1516.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Malabelle's Dress - Museum of Vesper Replica | `0x1516` | 4 |
@@ -160,17 +160,17 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x1F01.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plain dress | `0x1F01` | 2 |
 | <img src="/img/items/0x1F01.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reward dress | `0x1F01` | 2 |
 | <img src="/img/items/0x46B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runed Sash of Warding | `0x46B4` | 1 |
-| <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runed Sash of Warding | `0x1541` | 1 |
-| <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sash of Might | `0x1541` | 1 |
-| <img src="/img/items/0x1F04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shroud of the Condemned | `0x1F04` | — |
+| <img src="/img/items/0x1541-h0485.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runed Sash of Warding | `0x1541` | 1 |
+| <img src="/img/items/0x1541-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sash of Might | `0x1541` | 1 |
+| <img src="/img/items/0x1F04-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shroud of the Condemned | `0x1F04` | — |
 | <img src="/img/items/0x2B13.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sollerets of Sacrifice (Virtue Armor Set) | `0x2B13` | 1 |
 | <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Spell Focusing Sash | `0x1541` | 1 |
 | <img src="/img/items/0x0404.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Spined Bloodworm Bracers | `0x0404` | 2 |
 | <img src="/img/items/0xA40D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sword belt | `0xA40D` | 3 |
 | <img src="/img/items/0x50D8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tangle | `0x50D8` | 2 |
-| <img src="/img/items/0x153B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tangle | `0x153B` | 2 |
+| <img src="/img/items/0x153B-h01FA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tangle | `0x153B` | 2 |
 | <img src="/img/items/0x279B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tattsuke hakama | `0x279B` | 2 |
-| <img src="/img/items/0x2684.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Most Knowledge Person [Replica] | `0x2684` | — |
+| <img src="/img/items/0x2684-h0117.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Most Knowledge Person [Replica] | `0x2684` | — |
 | <img src="/img/items/0x2B68.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | woodland belt | `0x2B68` | 4 |
 
 ## Pants & Skirts
@@ -204,7 +204,7 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 |------|------|---------|--------|
 | <img src="/img/items/0x0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | 15th Anniversary Commemorative Robe | `0x0455` | 1 |
 | <img src="/img/items/0x021E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A monk's robe | `0x021E` | 1 |
-| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Acid-Proof Robe [Replica] | `0x1F03` | 3 |
+| <img src="/img/items/0x1F03-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Acid-Proof Robe [Replica] | `0x1F03` | 3 |
 | <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Baron Lenshire's Cloak - Museum of Vesper Replica | `0x1515` | 5 |
 | <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannia Royal Zoo Member | `0x1515` | 5 |
 | <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannia Royal Zoo Member | `0x1F03` | 3 |
@@ -215,16 +215,16 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x2FB9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Cloak of Power | `0x2FB9` | 2 |
 | <img src="/img/items/0x2FB9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Cloak of Silence | `0x2FB9` | 2 |
 | <img src="/img/items/0x4B9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Commemorative Robe | `0x4B9D` | — |
-| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | death robe | `0x1F03` | 3 |
-| <img src="/img/items/0x2684.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Embroidered Oak Leaf Cloak [Replica] | `0x2684` | — |
+| <img src="/img/items/0x1F03-h08FD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | death robe | `0x1F03` | 3 |
+| <img src="/img/items/0x2684-h0483.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Embroidered Oak Leaf Cloak [Replica] | `0x2684` | — |
 | <img src="/img/items/0x2FBA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | female elven robe | `0x2FBA` | 2 |
 | <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friends of the Library Cloak | `0x1515` | 5 |
 | <img src="/img/items/0x4002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish fancy robe | `0x4002` | 3 |
 | <img src="/img/items/0x4000.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish robe | `0x4000` | 3 |
-| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Good Samaritan of Britannia [Replica] | `0x1F03` | 3 |
+| <img src="/img/items/0x1F03-h02A3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Good Samaritan of Britannia [Replica] | `0x1F03` | 3 |
 | <img src="/img/items/0x2FB9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | male elven robe | `0x2FB9` | 2 |
 | <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Odric's Robe - Museum of Vesper Replica | `0x1F03` | 3 |
-| <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ranger's Cloak of Augmentation | `0x1515` | 5 |
+| <img src="/img/items/0x1515-h054A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ranger's Cloak of Augmentation | `0x1515` | 5 |
 | <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reward cloak | `0x1515` | 5 |
 | <img src="/img/items/0x4002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reward gargish fancy robe | `0x4002` | 3 |
 | <img src="/img/items/0x4000.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reward gargish robe | `0x4000` | 3 |
@@ -232,10 +232,10 @@ Auto-generated catalog of every Clothing — non-armor wearables — hats, robes
 | <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | robe | `0x1F03` | 3 |
 | <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Robe of the Eclipse | `0x1F03` | 3 |
 | <img src="/img/items/0x1F04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Robe of the Equinox | `0x1F04` | 3 |
-| <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Royal Guard Investigator [Replica] | `0x1515` | 5 |
-| <img src="/img/items/0x45A4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shadow Cloak of Rejuvenation | `0x45A4` | 2 |
-| <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shadow Cloak of Rejuvenation | `0x1515` | 5 |
-| <img src="/img/items/0x2684.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Robe of Britannia "Ari" [Replica] | `0x2684` | — |
+| <img src="/img/items/0x1515-h048B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Royal Guard Investigator [Replica] | `0x1515` | 5 |
+| <img src="/img/items/0x45A4-h075C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shadow Cloak of Rejuvenation | `0x45A4` | 2 |
+| <img src="/img/items/0x1515-h075C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shadow Cloak of Rejuvenation | `0x1515` | 5 |
+| <img src="/img/items/0x2684-h048B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Robe of Britannia "Ari" [Replica] | `0x2684` | — |
 
 ## Shirts & Tops
 
