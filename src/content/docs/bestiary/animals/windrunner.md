@@ -13,6 +13,7 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | Windrunner |
 | **Corpse** | a Windrunner corpse |
+| **Body ID** | 1410 |
 | **Base sound ID** | 168 |
 | **AI** | AI_Animal |
 | **Fight mode** | Aggressor |

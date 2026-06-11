@@ -29,7 +29,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/246.gif" class="uo-anim" alt="Bake Kitsune" loading="lazy" /> | [Bake Kitsune](/bestiary/monsters/bake-kitsune/) | 301–350 | 15–22 | yes (80.7) |
 | <img src="/img/creatures/304.gif" class="uo-anim" alt="Ballem" loading="lazy" /> | [Ballem](/bestiary/monsters/ballem/) | 500–600 | 10–15 | — |
 | <img src="/img/creatures/40.gif" class="uo-anim" alt="Balron" loading="lazy" /> | [Balron](/bestiary/monsters/balron/) | 592–711 | 22–29 | — |
-|  | [Bane Dragon](/bestiary/monsters/bane-dragon/) | 550–650 | 20–26 | yes (107.1) |
+| <img src="/img/creatures/794.gif" class="uo-anim" alt="Bane Dragon" loading="lazy" /> | [Bane Dragon](/bestiary/monsters/bane-dragon/) | 550–650 | 20–26 | yes (107.1) |
 | <img src="/img/creatures/776.gif" class="uo-anim" alt="Betballem" loading="lazy" /> | [Betballem](/bestiary/monsters/betballem/) | 90–100 | 5–10 | — |
 | <img src="/img/creatures/767.gif" class="uo-anim" alt="Betrayer" loading="lazy" /> | [Betrayer](/bestiary/monsters/betrayer/) | 241–300 | 16–22 | — |
 |  | [Black Order Assassin](/bestiary/monsters/serpents-fang-assassin/) | 440–500 | 13–15 | — |
@@ -94,7 +94,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/719.gif" class="uo-anim" alt="Dragon Wolf" loading="lazy" /> | [Dragon Wolf](/bestiary/monsters/dragon-wolf/) | 800–860 | 20–25 | yes (102.0) |
 | <img src="/img/creatures/60.gif" class="uo-anim" alt="Drake" loading="lazy" /> | [Drake](/bestiary/monsters/drake/) | 241–258 | 11–17 | yes (84.3) |
 | <img src="/img/creatures/11.gif" class="uo-anim" alt="Dread Spider" loading="lazy" /> | [Dread Spider](/bestiary/monsters/dread-spider/) | 118–132 | 5–17 | yes (96.0) |
-|  | [Dread Warhorse](/bestiary/monsters/dread-warhorse/) | 555–650 | 20–26 | yes (108.0) |
+| <img src="/img/creatures/116.gif" class="uo-anim" alt="Dread Warhorse" loading="lazy" /> | [Dread Warhorse](/bestiary/monsters/dread-warhorse/) | 555–650 | 20–26 | yes (108.0) |
 | <img src="/img/creatures/147.gif" class="uo-anim" alt="Drelgor The Impaler" loading="lazy" /> | [Drelgor The Impaler](/bestiary/monsters/drelgor/) | 131–136 | 6–8 | — |
 | <img src="/img/creatures/266.gif" class="uo-anim" alt="Dryad" loading="lazy" /> | [Dryad](/bestiary/monsters/ml-dryad/) | 304–321 | 11–20 | — |
 | <img src="/img/creatures/131.gif" class="uo-anim" alt="Efreet" loading="lazy" /> | [Efreet](/bestiary/monsters/efreet/) | 196–213 | 11–13 | — |
@@ -115,16 +115,16 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/273.gif" class="uo-anim" alt="Fetid Essence" loading="lazy" /> | [Fetid Essence](/bestiary/monsters/fetid-essence/) | 551–650 | 21–25 | — |
 | <img src="/img/creatures/103.gif" class="uo-anim" alt="Fierce Dragon" loading="lazy" /> | [Fierce Dragon](/bestiary/monsters/fierce-dragon/) | — | 50–80 | — |
 |  | [Fire Ant](/bestiary/monsters/fire-ant/) | 299 | 15–18 | — |
-|  | [Fire Beetle](/bestiary/monsters/fire-beetle/) | 200 | 7–20 | yes (93.9) |
+| <img src="/img/creatures/169.gif" class="uo-anim" alt="Fire Beetle" loading="lazy" /> | [Fire Beetle](/bestiary/monsters/fire-beetle/) | 200 | 7–20 | yes (93.9) |
 | <img src="/img/creatures/9.gif" class="uo-anim" alt="Fire Daemon" loading="lazy" /> | [Fire Daemon](/bestiary/monsters/fire-daemon/) | 1026–1174 | 7–14 | — |
 | <img src="/img/creatures/40.gif" class="uo-anim" alt="Fire Daemon" loading="lazy" /> | [Fire Daemon](/bestiary/monsters/fire-daemon-renowned/) | 1111–1478 | 22–29 | — |
 |  | [Fire Rabbit](/bestiary/monsters/fire-rabbit/) | 2500 | 10–15 | — |
-|  | [Fire Steed](/bestiary/monsters/fire-steed/) | 226–240 | 11–30 | yes (106.0) |
+| <img src="/img/creatures/190.gif" class="uo-anim" alt="Fire Steed" loading="lazy" /> | [Fire Steed](/bestiary/monsters/fire-steed/) | 226–240 | 11–30 | yes (106.0) |
 | <img src="/img/creatures/304.gif" class="uo-anim" alt="Flesh Golem" loading="lazy" /> | [Flesh Golem](/bestiary/monsters/flesh-golem/) | 106–120 | 18–22 | — |
 | <img src="/img/creatures/315.gif" class="uo-anim" alt="Fleshrenderer" loading="lazy" /> | [Fleshrenderer](/bestiary/monsters/flesh-renderer/) | 4500 | 16–20 | — |
 | <img src="/img/creatures/13.gif" class="uo-anim" alt="Flurry" loading="lazy" /> | [Flurry](/bestiary/monsters/flurry/) | 474–477 | 10–15 | — |
 | <img src="/img/creatures/401.gif" class="uo-anim" alt="Forgotten Servant" loading="lazy" /> | [Forgotten Servant](/bestiary/monsters/forgotten-servant/) | 95–123 | 4–14 | — |
-|  | [Frenzied Ostard](/bestiary/monsters/frenzied-ostard/) | 71–110 | 11–17 | yes (77.1) |
+| <img src="/img/creatures/218.gif" class="uo-anim" alt="Frenzied Ostard" loading="lazy" /> | [Frenzied Ostard](/bestiary/monsters/frenzied-ostard/) | 71–110 | 11–17 | yes (77.1) |
 | <img src="/img/creatures/12.gif" class="uo-anim" alt="Frost Dragon" loading="lazy" /> | [Frost Dragon](/bestiary/monsters/frost-dragon/) | 2050–2250 | 24–33 | yes (105.0) |
 | <img src="/img/creatures/1424.gif" class="uo-anim" alt="Frost Mite" loading="lazy" /> | [Frost Mite](/bestiary/monsters/frost-mite/) | 800–1000 | 21–28 | yes (102.0) |
 | <img src="/img/creatures/94.gif" class="uo-anim" alt="Frost Ooze" loading="lazy" /> | [Frost Ooze](/bestiary/monsters/frost-ooze/) | 13–17 | 3–9 | — |
@@ -133,7 +133,7 @@ last_verified: 2026-06-11
 |  | [Gargish Rouser](/bestiary/monsters/gargish-rouser/) | 1200–1500 | 15–19 | — |
 | <img src="/img/creatures/22.gif" class="uo-anim" alt="Gazer" loading="lazy" /> | [Gazer](/bestiary/monsters/gazer/) | 58–75 | 5–10 | — |
 | <img src="/img/creatures/778.gif" class="uo-anim" alt="Gazer Larva" loading="lazy" /> | [Gazer Larva](/bestiary/monsters/gazer-larva/) | 36–47 | 2–9 | — |
-|  | [Giant Beetle](/bestiary/monsters/beetle/) | 200 | 7–20 | yes (29.1) |
+| <img src="/img/creatures/791.gif" class="uo-anim" alt="Giant Beetle" loading="lazy" /> | [Giant Beetle](/bestiary/monsters/beetle/) | 200 | 7–20 | yes (29.1) |
 | <img src="/img/creatures/157.gif" class="uo-anim" alt="Giant Black Widow" loading="lazy" /> | [Giant Black Widow](/bestiary/monsters/giant-black-widow/) | 46–60 | 5–17 | — |
 | <img src="/img/creatures/89.gif" class="uo-anim" alt="Giant Ice Serpent" loading="lazy" /> | [Giant Ice Serpent](/bestiary/monsters/ice-serpent/) | 130–147 | 7–17 | — |
 | <img src="/img/creatures/89.gif" class="uo-anim" alt="Giant Ice Worm" loading="lazy" /> | [Giant Ice Worm](/bestiary/monsters/giant-ice-worm/) | 130–147 | 7–17 | yes (71.1) |
@@ -165,7 +165,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/201.gif" class="uo-anim" alt="Hell Cat" loading="lazy" /> | [Hell Cat](/bestiary/monsters/hell-cat/) | 48–67 | 6–12 | yes (71.1) |
 | <img src="/img/creatures/98.gif" class="uo-anim" alt="Hell Hound" loading="lazy" /> | [Hell Hound](/bestiary/monsters/hell-hound/) | 130–300 | 11–17 | yes (85.5) |
 | <img src="/img/creatures/400.gif" class="uo-anim" alt="Henchman" loading="lazy" /> | [Henchman](/bestiary/monsters/henchman/) | — | — | — |
-|  | [Hiryu](/bestiary/monsters/hiryu/) | 901–1100 | 20–30 | yes (98.7) |
+| <img src="/img/creatures/243.gif" class="uo-anim" alt="Hiryu" loading="lazy" /> | [Hiryu](/bestiary/monsters/hiryu/) | 901–1100 | 20–30 | yes (98.7) |
 | <img src="/img/creatures/776.gif" class="uo-anim" alt="Horde Minion" loading="lazy" /> | [Horde Minion](/bestiary/monsters/horde-minion/) | 10–24 | 5–10 | — |
 | <img src="/img/creatures/776.gif" class="uo-anim" alt="Horde Minion" loading="lazy" /> | [Horde Minion](/bestiary/monsters/horde-minion-familiar/) | 70 | 5–10 | — |
 |  | [Hungry Coconut Crab](/bestiary/monsters/hungry-coconut-crab/) | 12 | 3–4 | yes (0.0) |
@@ -183,7 +183,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/196.gif" class="uo-anim" alt="Kaze Kemono" loading="lazy" /> | [Kaze Kemono](/bestiary/monsters/kaze-kemono/) | 251–330 | 15–20 | — |
 |  | [Kepetch](/bestiary/monsters/kepetch/) | 300–400 | 7–17 | — |
 |  | [Kepetch Ambusher](/bestiary/monsters/kepetch-ambusher/) | 533–544 | 7–17 | — |
-|  | [Ki-Rin](/bestiary/monsters/kirin/) | 191–210 | 16–22 | yes (95.1) |
+| <img src="/img/creatures/132.gif" class="uo-anim" alt="Ki-Rin" loading="lazy" /> | [Ki-Rin](/bestiary/monsters/kirin/) | 191–210 | 16–22 | yes (95.1) |
 |  | [Killer Pumpkin](/bestiary/monsters/pumpkin-head/) | 500 | 10–15 | — |
 | <img src="/img/creatures/51.gif" class="uo-anim" alt="Korpre" loading="lazy" /> | [Korpre](/bestiary/monsters/korpre/) | 50–60 | 1–5 | — |
 |  | [Lady Jennifyr](/bestiary/monsters/lady-jennifyr/) | 1113–1285 | 15–25 | — |
@@ -196,7 +196,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/52.gif" class="uo-anim" alt="Lava Snake" loading="lazy" /> | [Lava Snake](/bestiary/monsters/lava-snake/) | 28–32 | 1–8 | — |
 |  | [Leather Wolf](/bestiary/monsters/leather-wolf/) | 291–329 | 12–23 | — |
 |  | [Leather Wolf](/bestiary/monsters/leather-wolf-fellow/) | 81–110 | 9–20 | — |
-|  | [Lesser Hiryu](/bestiary/monsters/lesser-hiryu/) | 401–600 | 18–23 | yes (98.7) |
+| <img src="/img/creatures/243.gif" class="uo-anim" alt="Lesser Hiryu" loading="lazy" /> | [Lesser Hiryu](/bestiary/monsters/lesser-hiryu/) | 401–600 | 18–23 | yes (98.7) |
 | <img src="/img/creatures/303.gif" class="uo-anim" alt="Lifestealer" loading="lazy" /> | [Lifestealer](/bestiary/monsters/lifestealer/) | 4600–4650 | 22–26 | — |
 | <img src="/img/creatures/1426.gif" class="uo-anim" alt="Lion" loading="lazy" /> | [Lion](/bestiary/monsters/lion/) | 350–370 | 16–22 | yes (96.0) |
 |  | [Lurg](/bestiary/monsters/lurg/) | 3034–3189 | 16–19 | — |
@@ -221,7 +221,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/319.gif" class="uo-anim" alt="Mound Of Maggots" loading="lazy" /> | [Mound Of Maggots](/bestiary/monsters/mound-of-maggots/) | — | 3–9 | — |
 | <img src="/img/creatures/58.gif" class="uo-anim" alt="Mysterious Wisp" loading="lazy" /> | [Mysterious Wisp](/bestiary/monsters/mysterious-wisp/) | 118–135 | 17–18 | — |
 | <img src="/img/creatures/780.gif" class="uo-anim" alt="Night Terror" loading="lazy" /> | [Night Terror](/bestiary/monsters/night-terror/) | 50000 | 10–23 | — |
-|  | [Nightmare](/bestiary/monsters/nightmare/) | 298–315 | 16–22 | yes (95.1) |
+| <img src="/img/creatures/116.gif" class="uo-anim" alt="Nightmare" loading="lazy" /> | [Nightmare](/bestiary/monsters/nightmare/) | 298–315 | 16–22 | yes (95.1) |
 | <img src="/img/creatures/401.gif" class="uo-anim" alt="Ninja" loading="lazy" /> | [Ninja](/bestiary/monsters/ninja/) | — | — | — |
 |  | [Niporailem](/bestiary/monsters/niporailem/) | 10000–10500 | 15–27 | — |
 | <img src="/img/creatures/241.gif" class="uo-anim" alt="Oni" loading="lazy" /> | [Oni](/bestiary/monsters/oni/) | 401–530 | 14–20 | — |
@@ -261,7 +261,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/756.gif" class="uo-anim" alt="Relanord" loading="lazy" /> | [Relanord](/bestiary/monsters/relanord/) | 400–500 | 10–15 | — |
 |  | [Rend](/bestiary/monsters/rend/) | 5176–6100 | 26–33 | — |
 | <img src="/img/creatures/264.gif" class="uo-anim" alt="Renegade Changeling" loading="lazy" /> | [Renegade Changeling](/bestiary/monsters/renegade-changeling/) | 2500–3000 | 22–24 | — |
-|  | [Reptalon](/bestiary/monsters/reptalon/) | 833–931 | 21–28 | yes (101.1) |
+| <img src="/img/creatures/276.gif" class="uo-anim" alt="Reptalon" loading="lazy" /> | [Reptalon](/bestiary/monsters/reptalon/) | 833–931 | 21–28 | yes (101.1) |
 | <img src="/img/creatures/970.gif" class="uo-anim" alt="Restless Soul" loading="lazy" /> | [Restless Soul](/bestiary/monsters/restless-soul/) | 16–24 | 1–10 | — |
 |  | [Rising Colossus](/bestiary/monsters/enraged-colossus/) | — | 18–21 | — |
 |  | [Rising Colossus](/bestiary/monsters/rising-colossus/) | — | — | — |
@@ -298,8 +298,8 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/149.gif" class="uo-anim" alt="Succubus" loading="lazy" /> | [Succubus](/bestiary/monsters/succubus/) | 312–353 | 18–28 | — |
 |  | [Summoned Daemon](/bestiary/monsters/summoned-daemon/) | — | 14–21 | — |
 | <img src="/img/creatures/400.gif" class="uo-anim" alt="Summoned Paladin" loading="lazy" /> | [Summoned Paladin](/bestiary/monsters/summoned-paladin/) | — | — | — |
-|  | [Swamp Dragon](/bestiary/monsters/scaled-swamp-dragon/) | 121–180 | 3–4 | yes (93.9) |
-|  | [Swamp Dragon](/bestiary/monsters/swamp-dragon/) | 121–180 | 3–4 | yes (93.9) |
+| <img src="/img/creatures/799.gif" class="uo-anim" alt="Swamp Dragon" loading="lazy" /> | [Swamp Dragon](/bestiary/monsters/scaled-swamp-dragon/) | 121–180 | 3–4 | yes (93.9) |
+| <img src="/img/creatures/794.gif" class="uo-anim" alt="Swamp Dragon" loading="lazy" /> | [Swamp Dragon](/bestiary/monsters/swamp-dragon/) | 121–180 | 3–4 | yes (93.9) |
 | <img src="/img/creatures/66.gif" class="uo-anim" alt="Swamp Tentacle" loading="lazy" /> | [Swamp Tentacle](/bestiary/monsters/swamp-tentacle/) | 58–72 | 6–12 | — |
 |  | [Swoop](/bestiary/monsters/swoop/) | 1350–1550 | 20–30 | — |
 |  | [Szavetra](/bestiary/monsters/szavetra/) | 312–415 | 20–30 | — |
@@ -323,7 +323,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/267.gif" class="uo-anim" alt="Troglodyte" loading="lazy" /> | [Troglodyte](/bestiary/monsters/troglodyte/) | 302–340 | 11–14 | — |
 | <img src="/img/creatures/250.gif" class="uo-anim" alt="Tsuki Wolf" loading="lazy" /> | [Tsuki Wolf](/bestiary/monsters/tsuki-wolf/) | 376–450 | 14–18 | yes (96.0) |
 | <img src="/img/creatures/101.gif" class="uo-anim" alt="Twaulo" loading="lazy" /> | [Twaulo](/bestiary/monsters/twaulo/) | 7500 | 19–24 | — |
-|  | [Unicorn](/bestiary/monsters/unicorn/) | 191–210 | 16–22 | yes (95.1) |
+| <img src="/img/creatures/122.gif" class="uo-anim" alt="Unicorn" loading="lazy" /> | [Unicorn](/bestiary/monsters/unicorn/) | 191–210 | 16–22 | yes (95.1) |
 | <img src="/img/creatures/318.gif" class="uo-anim" alt="Usagrallem Ballem" loading="lazy" /> | [Usagrallem Ballem](/bestiary/monsters/usagralem-ballem/) | 2000–2200 | 17–21 | — |
 | <img src="/img/creatures/780.gif" class="uo-anim" alt="Vasanord" loading="lazy" /> | [Vasanord](/bestiary/monsters/vasanord/) | 5000–5200 | 10–23 | — |
 | <img src="/img/creatures/5.gif" class="uo-anim" alt="Vicious Macaw" loading="lazy" /> | [Vicious Macaw](/bestiary/monsters/macaw/) | 700–800 | 15–25 | — |

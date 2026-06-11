@@ -8,8 +8,8 @@
     "extracted": "2026-06-11",
     "direction": 1,
     "frame_duration_ms": 130,
-    "bodies_total": 294,
-    "bodies_ok": 260,
+    "bodies_total": 318,
+    "bodies_ok": 279,
     "failures": [
       {
         "body": 130,
@@ -140,7 +140,27 @@
         "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
       },
       {
+        "body": 1407,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1408,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1410,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
         "body": 1415,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1441,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1510,
         "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
       },
       {
@@ -679,6 +699,18 @@
       "anim_file": "anim.mul",
       "via_body_def": 14
     },
+    "116": {
+      "gif": "/img/creatures/116.gif",
+      "frames": 6,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "122": {
+      "gif": "/img/creatures/122.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
     "123": {
       "gif": "/img/creatures/123.gif",
       "frames": 10,
@@ -723,6 +755,12 @@
       "group": "walk",
       "anim_file": "anim.mul",
       "via_body_def": 13
+    },
+    "132": {
+      "gif": "/img/creatures/132.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
     },
     "135": {
       "gif": "/img/creatures/135.gif",
@@ -878,6 +916,12 @@
       "anim_file": "anim.mul",
       "via_body_def": 211
     },
+    "169": {
+      "gif": "/img/creatures/169.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
     "172": {
       "gif": "/img/creatures/172.gif",
       "frames": 10,
@@ -941,11 +985,30 @@
       "anim_file": "anim.mul",
       "via_body_def": 401
     },
+    "187": {
+      "gif": "/img/creatures/187.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "188": {
+      "gif": "/img/creatures/188.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
     "189": {
       "gif": "/img/creatures/189.gif",
       "frames": 10,
       "group": "walk",
       "anim_file": "anim2.mul"
+    },
+    "190": {
+      "gif": "/img/creatures/190.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 200
     },
     "196": {
       "gif": "/img/creatures/196.gif",
@@ -1013,6 +1076,12 @@
       "group": "walk",
       "anim_file": "anim.mul"
     },
+    "210": {
+      "gif": "/img/creatures/210.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
     "211": {
       "gif": "/img/creatures/211.gif",
       "frames": 5,
@@ -1055,6 +1124,18 @@
       "group": "walk",
       "anim_file": "anim.mul"
     },
+    "218": {
+      "gif": "/img/creatures/218.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "219": {
+      "gif": "/img/creatures/219.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
     "220": {
       "gif": "/img/creatures/220.gif",
       "frames": 5,
@@ -1069,6 +1150,12 @@
     },
     "225": {
       "gif": "/img/creatures/225.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "226": {
+      "gif": "/img/creatures/226.gif",
       "frames": 5,
       "group": "walk",
       "anim_file": "anim.mul"
@@ -1112,6 +1199,12 @@
     "242": {
       "gif": "/img/creatures/242.gif",
       "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "243": {
+      "gif": "/img/creatures/243.gif",
+      "frames": 5,
       "group": "walk",
       "anim_file": "anim4.mul"
     },
@@ -1262,6 +1355,18 @@
     "273": {
       "gif": "/img/creatures/273.gif",
       "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "276": {
+      "gif": "/img/creatures/276.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "277": {
+      "gif": "/img/creatures/277.gif",
+      "frames": 5,
       "group": "walk",
       "anim_file": "anim5.mul"
     },
@@ -1680,9 +1785,33 @@
       "anim_file": "anim.mul",
       "via_body_def": 13
     },
+    "791": {
+      "gif": "/img/creatures/791.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
     "792": {
       "gif": "/img/creatures/792.gif",
       "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "793": {
+      "gif": "/img/creatures/793.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "794": {
+      "gif": "/img/creatures/794.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "799": {
+      "gif": "/img/creatures/799.gif",
+      "frames": 5,
       "group": "walk",
       "anim_file": "anim2.mul"
     },
@@ -1757,6 +1886,12 @@
       "frames": 5,
       "group": "walk",
       "anim_file": "anim3.mul"
+    },
+    "1440": {
+      "gif": "/img/creatures/1440.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim4.mul"
     }
   },
   "creatures": {
@@ -1787,8 +1922,10 @@
     "BakeKitsune": 246,
     "Ballem": 304,
     "Balron": 40,
+    "BaneDragon": 794,
     "Barracoon": 400,
     "BattleChickenLizard": 716,
+    "Beetle": 791,
     "Betballem": 776,
     "Betrayer": 767,
     "Bird": 6,
@@ -1849,6 +1986,7 @@
     "CrystalHydra": 265,
     "CrystalLatticeSeeker": 123,
     "CrystalVortex": 13,
+    "CuSidhe": 277,
     "Cursed": 400,
     "CursedSoul": 3,
     "Cyclops": 75,
@@ -1863,6 +2001,7 @@
     "DeathwatchBeetleHatchling": 242,
     "DeepSeaSerpent": 150,
     "DemonKnight": 318,
+    "DesertOstard": 210,
     "Devourer": 303,
     "DevourerRenowned": 303,
     "DireWolf": 23,
@@ -1875,6 +2014,7 @@
     "Drake": 60,
     "DreadHorn": 257,
     "DreadSpider": 11,
+    "DreadWarhorse": 116,
     "Drelgor": 147,
     "DullCopperElemental": 110,
     "Eagle": 5,
@@ -1887,6 +2027,7 @@
     "EnragedEarthElemental": 14,
     "EnslavedGargoyle": 753,
     "EnsorcledWisp": 165,
+    "Eowmu": 1440,
     "EtherealWarrior": 123,
     "Ettin": 18,
     "EvilMage": 124,
@@ -1900,14 +2041,18 @@
     "Ferret": 279,
     "FetidEssence": 273,
     "FierceDragon": 103,
+    "FireBeetle": 169,
     "FireDaemon": 9,
     "FireDaemonRenowned": 40,
     "FireElemental": 15,
     "FireElementalRenowned": 15,
+    "FireSteed": 190,
     "FleshGolem": 304,
     "FleshRenderer": 315,
     "Flurry": 13,
+    "ForestOstard": 219,
     "ForgottenServant": 401,
+    "FrenziedOstard": 218,
     "FrostDragon": 12,
     "FrostMite": 1424,
     "FrostOoze": 94,
@@ -1949,11 +2094,14 @@
     "HeadlessOne": 31,
     "HellCat": 201,
     "HellHound": 98,
+    "HellSteed": 793,
     "Henchman": 400,
     "HighPlainsBoura": 715,
     "Hind": 237,
+    "Hiryu": 243,
     "HordeMinion": 776,
     "HordeMinionFamiliar": 776,
+    "Horse": 226,
     "Hydra": 265,
     "IceElemental": 161,
     "IceFiend": 43,
@@ -1976,6 +2124,7 @@
     "KhaldunRevenant": 970,
     "KhaldunSummoner": 400,
     "KhaldunZealot": 400,
+    "Kirin": 132,
     "Korpre": 51,
     "Kraken": 77,
     "LadyMelisande": 258,
@@ -1984,6 +2133,7 @@
     "LavaLizard": 206,
     "LavaSerpent": 90,
     "LavaSnake": 52,
+    "LesserHiryu": 243,
     "Leviathan": 77,
     "Lich": 24,
     "LichLord": 79,
@@ -2020,6 +2170,7 @@
     "MysteriousWisp": 58,
     "Neira": 401,
     "NightTerror": 780,
+    "Nightmare": 116,
     "Ninja": 401,
     "Ogre": 1,
     "OgreLord": 83,
@@ -2076,9 +2227,12 @@
     "RedSolenWorker": 781,
     "Relanord": 756,
     "RenegadeChangeling": 264,
+    "Reptalon": 276,
     "RestlessSoul": 970,
     "Revenant": 400,
     "RevenantLion": 251,
+    "RidableLlama": 220,
+    "Ridgeback": 187,
     "Rikktor": 172,
     "Ronin": 401,
     "RottingCorpse": 155,
@@ -2091,7 +2245,9 @@
     "Satyr": 271,
     "Savage": 184,
     "SavageRider": 185,
+    "SavageRidgeback": 188,
     "SavageShaman": 186,
+    "ScaledSwampDragon": 799,
     "Scorpion": 48,
     "SeaSerpent": 150,
     "Semidar": 174,
@@ -2115,6 +2271,7 @@
     "SkeletalKnight": 147,
     "SkeletalLich": 309,
     "SkeletalMage": 148,
+    "SkeletalMount": 793,
     "Skeleton": 50,
     "SkitteringHopper": 302,
     "Slime": 51,
@@ -2136,6 +2293,7 @@
     "SummonedFireElemental": 15,
     "SummonedPaladin": 400,
     "SummonedWaterElemental": 16,
+    "SwampDragon": 794,
     "SwampTentacle": 66,
     "TanglingRoots": 8,
     "TavaraSewel": 401,
@@ -2162,6 +2320,7 @@
     "Turkey": 95,
     "Twaulo": 101,
     "UnfrozenMummy": 155,
+    "Unicorn": 122,
     "UsagralemBallem": 318,
     "ValoriteElemental": 112,
     "VampireBat": 317,

@@ -13,6 +13,7 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | Coconut Crab |
 | **Corpse** | a Coconut Crab corpse |
+| **Body ID** | 1510 |
 | **Base sound ID** | 1266 |
 | **AI** | AI_Animal |
 | **Fight mode** | Aggressor |

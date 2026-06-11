@@ -182,6 +182,20 @@ def extract_creature(class_name, file_text, class_body, rel_path):
                 c["body"] = [int(to_num(x)) for x in bl.group(1).split(",")]
             except ValueError:
                 pass
+        else:
+            # BaseMount-style bases pass the body positionally:
+            #   base(name, bodyID, itemID, AIType.…, …)
+            # (e.g. CuSidhe, Horse, dragons that are mounts). The leading token
+            # is a name string or a name variable, then body, then mount itemID.
+            for init, _cb in ctors:
+                if not init or "AIType" not in init:
+                    continue
+                mm = re.search(
+                    r'^\s*(?:"[^"]*"|\w+)\s*,\s*' + NUM_RE + r"\s*,\s*" + NUM_RE
+                    + r"\s*,\s*AIType", init)
+                if mm:
+                    c["body"] = int(to_num(mm.group(1)))
+                    break
 
     sm = re.search(r"\bBaseSoundID\s*=\s*" + NUM_RE, merged)
     if sm:

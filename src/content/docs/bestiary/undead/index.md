@@ -41,7 +41,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/147.gif" class="uo-anim" alt="Skeletal Knight" loading="lazy" /> | [Skeletal Knight](/bestiary/undead/skeletal-knight/) | 118–150 | 8–18 | — |
 | <img src="/img/creatures/309.gif" class="uo-anim" alt="Skeletal Lich" loading="lazy" /> | [Skeletal Lich](/bestiary/undead/skeletal-lich/) | 1200 | 8–10 | — |
 | <img src="/img/creatures/148.gif" class="uo-anim" alt="Skeletal Mage" loading="lazy" /> | [Skeletal Mage](/bestiary/undead/skeletal-mage/) | 46–60 | 3–7 | — |
-|  | [Skeletal Steed](/bestiary/undead/skeletal-mount/) | 41–50 | 5–12 | — |
+| <img src="/img/creatures/793.gif" class="uo-anim" alt="Skeletal Steed" loading="lazy" /> | [Skeletal Steed](/bestiary/undead/skeletal-mount/) | 41–50 | 5–12 | — |
 | <img src="/img/creatures/50.gif" class="uo-anim" alt="Skeleton" loading="lazy" /> | [Skeleton](/bestiary/undead/skeleton/) | 34–48 | 3–7 | — |
 | <img src="/img/creatures/637.gif" class="uo-anim" alt="Spectral Armour" loading="lazy" /> | [Spectral Armour](/bestiary/undead/spectral-armour/) | 178–201 | 10–22 | — |
 | <img src="/img/creatures/26.gif" class="uo-anim" alt="Spectral Spellbinder" loading="lazy" /> | [Spectral Spellbinder](/bestiary/undead/spellbinder/) | 36–50 | 3–6 | — |

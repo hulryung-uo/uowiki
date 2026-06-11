@@ -13,6 +13,7 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | a horse |
 | **Corpse** | a horse corpse |
+| **Body ID** | 1408 |
 | **Base sound ID** | 168 |
 | **AI** | AI_Animal |
 | **Fight mode** | Closest |

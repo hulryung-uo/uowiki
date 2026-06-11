@@ -13,6 +13,7 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | Skeletal Cat |
 | **Corpse** | a Skeletal Cat corpse |
+| **Body ID** | 1441 |
 | **Base sound ID** | 229 |
 | **AI** | AI_Animal |
 | **Fight mode** | Aggressor |

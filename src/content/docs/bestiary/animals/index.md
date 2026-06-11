@@ -28,14 +28,14 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/216.gif" class="uo-anim" alt="Cow" loading="lazy" /> | [Cow](/bestiary/animals/cow/) | 18 | 1–4 | yes (11.1) |
 | <img src="/img/creatures/254.gif" class="uo-anim" alt="Crane" loading="lazy" /> | [Crane](/bestiary/animals/crane/) | 26–35 | 1–1 | — |
 | <img src="/img/creatures/6.gif" class="uo-anim" alt="Crow" loading="lazy" /> | [Crow](/bestiary/animals/bird/) | — | 0 | yes (-6.9) |
-|  | [Cu Sidhe](/bestiary/animals/cu-sidhe/) | 1010–1275 | 21–28 | yes (101.1) |
-|  | [Desert Ostard](/bestiary/animals/desert-ostard/) | 71–88 | 5–11 | yes (29.1) |
+| <img src="/img/creatures/277.gif" class="uo-anim" alt="Cu Sidhe" loading="lazy" /> | [Cu Sidhe](/bestiary/animals/cu-sidhe/) | 1010–1275 | 21–28 | yes (101.1) |
+| <img src="/img/creatures/210.gif" class="uo-anim" alt="Desert Ostard" loading="lazy" /> | [Desert Ostard](/bestiary/animals/desert-ostard/) | 71–88 | 5–11 | yes (29.1) |
 | <img src="/img/creatures/201.gif" class="uo-anim" alt="Diseased Cat" loading="lazy" /> | [Diseased Cat](/bestiary/animals/diseased-cat/) | 6 | 1 | — |
 | <img src="/img/creatures/217.gif" class="uo-anim" alt="Dog" loading="lazy" /> | [Dog](/bestiary/animals/dog/) | 17–22 | 4–7 | yes (-21.3) |
 | <img src="/img/creatures/5.gif" class="uo-anim" alt="Eagle" loading="lazy" /> | [Eagle](/bestiary/animals/eagle/) | 20–27 | 5–10 | yes (17.1) |
-|  | [Eowmu](/bestiary/animals/eowmu/) | 240 | 1–4 | yes (30.0) |
+| <img src="/img/creatures/1440.gif" class="uo-anim" alt="Eowmu" loading="lazy" /> | [Eowmu](/bestiary/animals/eowmu/) | 240 | 1–4 | yes (30.0) |
 | <img src="/img/creatures/279.gif" class="uo-anim" alt="Ferret" loading="lazy" /> | [Ferret](/bestiary/animals/ferret/) | 45–50 | 7–9 | yes (-21.3) |
-|  | [Forest Ostard](/bestiary/animals/forest-ostard/) | 71–88 | 8–14 | yes (29.1) |
+| <img src="/img/creatures/219.gif" class="uo-anim" alt="Forest Ostard" loading="lazy" /> | [Forest Ostard](/bestiary/animals/forest-ostard/) | 71–88 | 8–14 | yes (29.1) |
 | <img src="/img/creatures/248.gif" class="uo-anim" alt="Gaman" loading="lazy" /> | [Gaman](/bestiary/animals/gaman/) | 131–160 | 6–11 | yes (68.7) |
 |  | [Giant Turkey](/bestiary/animals/giant-turkey/) | 25000 | 20–30 | — |
 | <img src="/img/creatures/209.gif" class="uo-anim" alt="Goat" loading="lazy" /> | [Goat](/bestiary/animals/goat/) | 12 | 3–4 | yes (11.1) |
@@ -46,10 +46,10 @@ last_verified: 2026-06-11
 |  | [Grubber](/bestiary/animals/grubber/) | 200 | 1 | — |
 | <img src="/img/creatures/401.gif" class="uo-anim" alt="Gypsy" loading="lazy" /> | [Gypsy](/bestiary/animals/gypsy/) | — | — | — |
 | <img src="/img/creatures/401.gif" class="uo-anim" alt="Harbor Master" loading="lazy" /> | [Harbor Master](/bestiary/animals/harbor-master/) | — | — | — |
-|  | [Hellsteed](/bestiary/animals/hell-steed/) | 201–220 | 20–24 | — |
+| <img src="/img/creatures/793.gif" class="uo-anim" alt="Hellsteed" loading="lazy" /> | [Hellsteed](/bestiary/animals/hell-steed/) | 201–220 | 20–24 | — |
 | <img src="/img/creatures/715.gif" class="uo-anim" alt="High Plains Boura" loading="lazy" /> | [High Plains Boura](/bestiary/animals/high-plains-boura/) | 555–618 | 20–25 | yes (47.1) |
 | <img src="/img/creatures/237.gif" class="uo-anim" alt="Hind" loading="lazy" /> | [Hind](/bestiary/animals/hind/) | 15–29 | 4 | yes (23.1) |
-|  | [Horse](/bestiary/animals/horse/) | 28–45 | 3–4 | yes (29.1) |
+| <img src="/img/creatures/226.gif" class="uo-anim" alt="Horse" loading="lazy" /> | [Horse](/bestiary/animals/horse/) | 28–45 | 3–4 | yes (29.1) |
 |  | [Horse](/bestiary/animals/palomino/) | 28–45 | 3–4 | yes (29.1) |
 | <img src="/img/creatures/225.gif" class="uo-anim" alt="Injured Wolf" loading="lazy" /> | [Injured Wolf](/bestiary/animals/injured-wolf/) | 1 | 1–3 | — |
 | <img src="/img/creatures/205.gif" class="uo-anim" alt="Jack Rabbit" loading="lazy" /> | [Jack Rabbit](/bestiary/animals/jack-rabbit/) | 9 | 1–2 | yes (-18.9) |
@@ -65,8 +65,8 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/205.gif" class="uo-anim" alt="Rabbit" loading="lazy" /> | [Rabbit](/bestiary/animals/rabbit/) | 4–6 | 1 | yes (-18.9) |
 | <img src="/img/creatures/212.gif" class="uo-anim" alt="Raging Grizzly Bear" loading="lazy" /> | [Raging Grizzly Bear](/bestiary/animals/raging-grizzly-bear/) | 751–930 | 18–23 | — |
 | <img src="/img/creatures/238.gif" class="uo-anim" alt="Rat" loading="lazy" /> | [Rat](/bestiary/animals/rat/) | 6 | 1–2 | yes (-0.9) |
-|  | [Ridable Llama](/bestiary/animals/ridable-llama/) | 15–27 | 3–5 | yes (29.1) |
-|  | [Ridgeback](/bestiary/animals/ridgeback/) | 41–54 | 3–5 | yes (83.1) |
+| <img src="/img/creatures/220.gif" class="uo-anim" alt="Ridable Llama" loading="lazy" /> | [Ridable Llama](/bestiary/animals/ridable-llama/) | 15–27 | 3–5 | yes (29.1) |
+| <img src="/img/creatures/187.gif" class="uo-anim" alt="Ridgeback" loading="lazy" /> | [Ridgeback](/bestiary/animals/ridgeback/) | 41–54 | 3–5 | yes (83.1) |
 | <img src="/img/creatures/715.gif" class="uo-anim" alt="Ruddy Boura" loading="lazy" /> | [Ruddy Boura](/bestiary/animals/ruddy-boura/) | 435–509 | 16–20 | yes (19.1) |
 | <img src="/img/creatures/271.gif" class="uo-anim" alt="Satyr" loading="lazy" /> | [Satyr](/bestiary/animals/satyr/) | 350–400 | 13–24 | — |
 | <img src="/img/creatures/207.gif" class="uo-anim" alt="Sheep" loading="lazy" /> | [Sheep](/bestiary/animals/sheep/) | 12 | 1–2 | yes (11.1) |

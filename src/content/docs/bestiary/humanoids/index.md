@@ -60,7 +60,7 @@ last_verified: 2026-06-11
 | <img src="/img/creatures/143.gif" class="uo-anim" alt="Ratman Mage" loading="lazy" /> | [Ratman Mage](/bestiary/humanoids/ratman-mage/) | 88–108 | 7–14 | — |
 | <img src="/img/creatures/184.gif" class="uo-anim" alt="Savage" loading="lazy" /> | [Savage](/bestiary/humanoids/savage/) | — | 23–27 | — |
 | <img src="/img/creatures/185.gif" class="uo-anim" alt="Savage Rider" loading="lazy" /> | [Savage Rider](/bestiary/humanoids/savage-rider/) | — | 29–34 | — |
-|  | [Savage Ridgeback](/bestiary/humanoids/savage-ridgeback/) | 41–54 | 3–5 | yes (83.1) |
+| <img src="/img/creatures/188.gif" class="uo-anim" alt="Savage Ridgeback" loading="lazy" /> | [Savage Ridgeback](/bestiary/humanoids/savage-ridgeback/) | 41–54 | 3–5 | yes (83.1) |
 | <img src="/img/creatures/186.gif" class="uo-anim" alt="Savage Shaman" loading="lazy" /> | [Savage Shaman](/bestiary/humanoids/savage-shaman/) | — | 4–10 | — |
 | <img src="/img/creatures/67.gif" class="uo-anim" alt="Stone Gargoyle" loading="lazy" /> | [Stone Gargoyle](/bestiary/humanoids/stone-gargoyle/) | 148–165 | 11–17 | — |
 | <img src="/img/creatures/76.gif" class="uo-anim" alt="Titan" loading="lazy" /> | [Titan](/bestiary/humanoids/titan/) | 322–351 | 13–16 | — |
