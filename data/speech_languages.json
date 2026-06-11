@@ -1,0 +1,12403 @@
+{
+  "0x0000": {
+    "en": [
+      "withdraw"
+    ],
+    "zh": [
+      "提領"
+    ],
+    "ja": [
+      "払い戻し",
+      "ひきだし",
+      "はらいもどし",
+      "ヒキダシ",
+      "ハライモドシ"
+    ],
+    "ko": [
+      "출금"
+    ],
+    "lat": [
+      "abheben",
+      "abhebung",
+      "withdrawl",
+      "sacar",
+      "retirar",
+      "retrait"
+    ]
+  },
+  "0x0001": {
+    "en": [
+      "balance"
+    ],
+    "de": [
+      "kontostand",
+      "Kontoauszug"
+    ],
+    "es": [
+      "saldo"
+    ],
+    "fr": [
+      "solde",
+      "relevé"
+    ],
+    "zh": [
+      "結存",
+      "結單",
+      "残高"
+    ],
+    "ja": [
+      "バランス",
+      "ばらんす",
+      "ざんだか",
+      "ザンダカ"
+    ],
+    "ko": [
+      "잔고",
+      "잔액"
+    ],
+    "lat": [
+      "statement"
+    ]
+  },
+  "0x0002": {
+    "en": [
+      "bank"
+    ],
+    "es": [
+      "banco"
+    ],
+    "zh": [
+      "銀行"
+    ],
+    "ja": [
+      "バンク",
+      "ばんく"
+    ],
+    "ko": [
+      "은행"
+    ],
+    "lat": [
+      "banque"
+    ]
+  },
+  "0x0003": {
+    "en": [
+      "check"
+    ],
+    "de": [
+      "scheck über"
+    ],
+    "fr": [
+      "cheque",
+      "chèque"
+    ],
+    "zh": [
+      "支票",
+      "小切手"
+    ],
+    "ja": [
+      "こぎって",
+      "コギッテ"
+    ],
+    "ko": [
+      "수표"
+    ]
+  },
+  "0x0004": {
+    "en": [
+      "join",
+      "member"
+    ],
+    "zh": [
+      "加入",
+      "成員",
+      "参加"
+    ],
+    "ja": [
+      "さんか",
+      "サンカ",
+      "メンバー",
+      "めんばー"
+    ],
+    "ko": [
+      "가입",
+      "길드원"
+    ],
+    "lat": [
+      "beitreten",
+      "mitglied",
+      "pertenecer",
+      "asociar",
+      "rejoindre",
+      "membre"
+    ]
+  },
+  "0x0005": {
+    "en": [
+      "quit",
+      "resign"
+    ],
+    "zh": [
+      "退出",
+      "脱退",
+      "脱会"
+    ],
+    "ja": [
+      "だったい",
+      "ダッタイ",
+      "だっかい",
+      "ダッカイ"
+    ],
+    "ko": [
+      "탈퇴",
+      "나가기"
+    ],
+    "lat": [
+      "verlassen",
+      "austreten",
+      "salir",
+      "dimitir",
+      "quitter"
+    ]
+  },
+  "0x0006": {
+    "en": [
+      "guild"
+    ],
+    "de": [
+      "gilde"
+    ],
+    "es": [
+      "gremio"
+    ],
+    "fr": [
+      "guilde"
+    ],
+    "zh": [
+      "公會",
+      "組合"
+    ],
+    "ja": [
+      "ギルド",
+      "ぎるど",
+      "くみあい",
+      "クミアイ"
+    ],
+    "ko": [
+      "길드"
+    ],
+    "lat": [
+      "gilden",
+      "guilds",
+      "gremios",
+      "guildes"
+    ]
+  },
+  "0x0007": {
+    "en": [
+      "guards"
+    ],
+    "de": [
+      "wächter"
+    ],
+    "zh": [
+      "警衛"
+    ],
+    "ja": [
+      "ガード",
+      "がーど"
+    ],
+    "ko": [
+      "경비병"
+    ],
+    "lat": [
+      "guard",
+      "guardia",
+      "garde"
+    ]
+  },
+  "0x0008": {
+    "en": [
+      "stable"
+    ],
+    "de": [
+      "stall"
+    ],
+    "es": [
+      "establo"
+    ],
+    "fr": [
+      "écurie"
+    ],
+    "zh": [
+      "寄放寵物"
+    ],
+    "ja": [
+      "預ける",
+      "あずける",
+      "アズケル"
+    ],
+    "ko": [
+      "마구간"
+    ]
+  },
+  "0x0009": {
+    "en": [
+      "claim"
+    ],
+    "de": [
+      "zurückverlangen"
+    ],
+    "es": [
+      "reclamar"
+    ],
+    "fr": [
+      "reprendre"
+    ],
+    "zh": [
+      "提領寵物",
+      "返却"
+    ],
+    "ja": [
+      "へんきゃく",
+      "ヘンキャク"
+    ],
+    "ko": [
+      "찾기"
+    ]
+  },
+  "0x000A": {
+    "en": [
+      "aufgabe"
+    ],
+    "fr": [
+      "métier"
+    ],
+    "zh": [
+      "工作",
+      "仕事"
+    ],
+    "ja": [
+      "しごと",
+      "シゴト"
+    ],
+    "ko": [
+      "직업"
+    ],
+    "lat": [
+      "job",
+      "trabajo"
+    ]
+  },
+  "0x000B": {
+    "en": [
+      "anlegen"
+    ],
+    "zh": [
+      "停泊"
+    ],
+    "ja": [
+      "ドック",
+      "どっく"
+    ],
+    "ko": [
+      "정박"
+    ],
+    "lat": [
+      "dock",
+      "llegar a puerto",
+      "quai"
+    ]
+  },
+  "0x000C": {
+    "en": [
+      "diener"
+    ],
+    "zh": [
+      "僕人",
+      "服侍",
+      "奴隸"
+    ],
+    "ko": [
+      "하인",
+      "시종",
+      "노예"
+    ],
+    "lat": [
+      "dienen",
+      "sklave",
+      "servant",
+      "serve",
+      "slave",
+      "domesticar",
+      "servir",
+      "esclavizar",
+      "serviteur",
+      "esclave"
+    ]
+  },
+  "0x000D": {
+    "en": [
+      "zugestimmt"
+    ],
+    "zh": [
+      "同意"
+    ],
+    "ja": [
+      "どうい",
+      "ドウイ"
+    ],
+    "ko": [
+      "동의함"
+    ],
+    "lat": [
+      "agreed",
+      "aceptar",
+      "d'accord"
+    ]
+  },
+  "0x000E": {
+    "en": [
+      "quest"
+    ],
+    "fr": [
+      "quête"
+    ],
+    "zh": [
+      "任務"
+    ],
+    "ja": [
+      "クエスト",
+      "くえすと"
+    ],
+    "ko": [
+      "퀘스트"
+    ],
+    "lat": [
+      "búsqueda"
+    ]
+  },
+  "0x000F": {
+    "en": [
+      "verfolgung"
+    ],
+    "zh": [
+      "追蹤中",
+      "追蹤",
+      "打獵",
+      "探知"
+    ],
+    "ja": [
+      "トラッキング",
+      "とらっきんぐ",
+      "たんち",
+      "タンチ",
+      "狩り",
+      "かり",
+      "カリ"
+    ],
+    "ko": [
+      "추적",
+      "추적하기",
+      "사냥"
+    ],
+    "lat": [
+      "spur",
+      "jagd",
+      "tracking",
+      "track",
+      "hunt",
+      "rastreo",
+      "pista",
+      "caza",
+      "pistage",
+      "traquer",
+      "chasser"
+    ]
+  },
+  "0x0010": {
+    "en": [
+      "drache"
+    ],
+    "zh": [
+      "龍"
+    ],
+    "ja": [
+      "ドラゴン",
+      "どらごん"
+    ],
+    "ko": [
+      "드래곤"
+    ],
+    "lat": [
+      "dragon",
+      "dragón"
+    ]
+  },
+  "0x0011": {
+    "en": [
+      "nein"
+    ],
+    "de": [
+      "auf keinen fall"
+    ],
+    "es": [
+      "no"
+    ],
+    "fr": [
+      "non"
+    ],
+    "zh": [
+      "不",
+      "不是",
+      "不行"
+    ],
+    "ja": [
+      "いいえ",
+      "イイエ",
+      "いえ",
+      "イエ",
+      "ノー",
+      "のー"
+    ],
+    "ko": [
+      "아니오",
+      "아닌데요",
+      "아닙니다"
+    ],
+    "lat": [
+      "nie",
+      "nope",
+      "nay",
+      "na",
+      "nan"
+    ]
+  },
+  "0x0012": {
+    "en": [
+      "ja"
+    ],
+    "de": [
+      "jawohl"
+    ],
+    "es": [
+      "sí"
+    ],
+    "fr": [
+      "oui"
+    ],
+    "zh": [
+      "是",
+      "好",
+      "沒問題"
+    ],
+    "ja": [
+      "はい",
+      "ハイ",
+      "ええ",
+      "エエ",
+      "イェス",
+      "いぇす"
+    ],
+    "ko": [
+      "예",
+      "넹",
+      "네",
+      "옙"
+    ],
+    "lat": [
+      "klar",
+      "aber ja",
+      "yes",
+      "yup",
+      "aye",
+      "yea",
+      "ouais",
+      "ouaip"
+    ]
+  },
+  "0x0013": {
+    "en": [
+      "erledigen"
+    ],
+    "fr": [
+      "tuer"
+    ],
+    "zh": [
+      "殺死"
+    ],
+    "ja": [
+      "殺す",
+      "ころす",
+      "コロス"
+    ],
+    "ko": [
+      "사살"
+    ],
+    "lat": [
+      "slay",
+      "matar"
+    ]
+  },
+  "0x0014": {
+    "en": [
+      "hammer"
+    ],
+    "zh": [
+      "鎚"
+    ],
+    "ja": [
+      "ハンマー",
+      "はんまー"
+    ],
+    "ko": [
+      "해머"
+    ],
+    "lat": [
+      "golpear",
+      "marteau"
+    ]
+  },
+  "0x0015": {
+    "en": [
+      "schwert"
+    ],
+    "de": [
+      "säbel"
+    ],
+    "es": [
+      "sword"
+    ],
+    "fr": [
+      "épée",
+      "épée longue"
+    ],
+    "zh": [
+      "劍",
+      "長劍"
+    ],
+    "ja": [
+      "ソード",
+      "そーど",
+      "ロングソード",
+      "ろんぐそーど"
+    ],
+    "ko": [
+      "소드",
+      "롱소드"
+    ],
+    "lat": [
+      "longsword",
+      "espada",
+      "gran espada"
+    ]
+  },
+  "0x0016": {
+    "en": [
+      "hilfe"
+    ],
+    "de": [
+      "unterstützung"
+    ],
+    "zh": [
+      "救命",
+      "援助",
+      "補助"
+    ],
+    "ja": [
+      "ヘルプ",
+      "へるぷ",
+      "ほじょ",
+      "ホジョ"
+    ],
+    "ko": [
+      "도움",
+      "돕기"
+    ],
+    "lat": [
+      "help",
+      "assistance",
+      "ayuda",
+      "asistencia",
+      "aide"
+    ]
+  },
+  "0x0017": {
+    "en": [
+      "glas"
+    ],
+    "fr": [
+      "enchanté"
+    ],
+    "zh": [
+      "玻璃",
+      "被施過魔法的",
+      "魔法効果"
+    ],
+    "ja": [
+      "ガラス",
+      "がらす",
+      "まほうこうか",
+      "マホウコウカ"
+    ],
+    "ko": [
+      "유리",
+      "마법이 걸린"
+    ],
+    "lat": [
+      "verzaubert",
+      "glass",
+      "enchanted",
+      "cristal",
+      "encantado",
+      "verre"
+    ]
+  },
+  "0x0018": {
+    "en": [
+      "machen"
+    ],
+    "zh": [
+      "做"
+    ],
+    "ko": [
+      "만들기"
+    ],
+    "lat": [
+      "make",
+      "fabricar",
+      "faire"
+    ]
+  },
+  "0x0019": {
+    "en": [
+      "addtime"
+    ],
+    "de": [
+      "zusätzliche zeit"
+    ],
+    "es": [
+      "añadirtiempo"
+    ],
+    "fr": [
+      "ajoutertemps"
+    ],
+    "zh": [
+      "增加時間"
+    ],
+    "ko": [
+      "시간추가"
+    ]
+  },
+  "0x001A": {
+    "en": [
+      "gettime"
+    ],
+    "de": [
+      "verlängerung"
+    ],
+    "zh": [
+      "取得時間"
+    ],
+    "ko": [
+      "남은시간"
+    ],
+    "lat": [
+      "tomartiempo",
+      "tempsrestant"
+    ]
+  },
+  "0x001B": {
+    "en": [
+      "hinweis"
+    ],
+    "es": [
+      "señal"
+    ],
+    "zh": [
+      "暗示"
+    ],
+    "ja": [
+      "ヒント",
+      "ひんと"
+    ],
+    "ko": [
+      "힌트"
+    ],
+    "lat": [
+      "hint",
+      "indice"
+    ]
+  },
+  "0x001C": {
+    "en": [
+      "test"
+    ],
+    "zh": [
+      "測試"
+    ],
+    "ja": [
+      "テスト",
+      "てすと"
+    ],
+    "ko": [
+      "실험"
+    ],
+    "lat": [
+      "prueba"
+    ]
+  },
+  "0x001D": {
+    "en": [
+      "destination"
+    ],
+    "zh": [
+      "目的地"
+    ],
+    "ja": [
+      "もくてきち",
+      "モクテキチ"
+    ],
+    "ko": [
+      "목적지"
+    ],
+    "lat": [
+      "zielort",
+      "destino"
+    ]
+  },
+  "0x001E": {
+    "en": [
+      "i will take thee"
+    ],
+    "de": [
+      "ich werde dir geleit geben"
+    ],
+    "fr": [
+      "lo escoltaré",
+      "je t'accompagne"
+    ],
+    "zh": [
+      "我帶你去"
+    ],
+    "ja": [
+      "エスコート",
+      "えすこーと"
+    ],
+    "ko": [
+      "동행"
+    ]
+  },
+  "0x001F": {
+    "en": [
+      "disguise"
+    ],
+    "fr": [
+      "déguisement"
+    ],
+    "zh": [
+      "喬裝",
+      "変装"
+    ],
+    "ja": [
+      "へんそう",
+      "ヘンソウ"
+    ],
+    "ko": [
+      "변장"
+    ],
+    "lat": [
+      "tarnen",
+      "disfraz"
+    ]
+  },
+  "0x0020": {
+    "en": [
+      "virtue guard"
+    ],
+    "de": [
+      "tugendwächter"
+    ],
+    "zh": [
+      "美德警衛"
+    ],
+    "ja": [
+      "徳の戦士",
+      "とくのせんし",
+      "トクノセンシ"
+    ],
+    "ko": [
+      "미덕의 경비병"
+    ],
+    "lat": [
+      "guardia",
+      "garde vertu"
+    ]
+  },
+  "0x0021": {
+    "en": [
+      "ordnungsschild"
+    ],
+    "zh": [
+      "秩序盾"
+    ],
+    "ja": [
+      "オーダーシールド",
+      "おーだーしーるど"
+    ],
+    "ko": [
+      "오더방패"
+    ],
+    "lat": [
+      "order shield",
+      "pedir escudo",
+      "bouclier ordre"
+    ]
+  },
+  "0x0022": {
+    "en": [
+      "chaosschild"
+    ],
+    "zh": [
+      "混沌盾"
+    ],
+    "ja": [
+      "カオスシールド",
+      "かおすしーるど"
+    ],
+    "ko": [
+      "카오스방패"
+    ],
+    "lat": [
+      "chaos shield",
+      "escudo caos",
+      "bouclier chaos"
+    ]
+  },
+  "0x0023": {
+    "en": [
+      "i wish to lock this down"
+    ],
+    "de": [
+      "ich möchte dies verankern"
+    ],
+    "es": [
+      "quiero fijar esto"
+    ],
+    "fr": [
+      "placer objet"
+    ],
+    "zh": [
+      "我要將它鎖定"
+    ],
+    "ja": [
+      "ロックダウン",
+      "ろっくだうん"
+    ],
+    "ko": [
+      "고정보관 설정"
+    ]
+  },
+  "0x0024": {
+    "en": [
+      "i wish to release this"
+    ],
+    "de": [
+      "ich möchte dies losmachen"
+    ],
+    "es": [
+      "quiero soltar esto"
+    ],
+    "fr": [
+      "libérer objet"
+    ],
+    "zh": [
+      "我要解除鎖定"
+    ],
+    "ja": [
+      "ロックダウン解除",
+      "ろっくだうんかいじょ",
+      "ロックダウンカイジョ"
+    ],
+    "ko": [
+      "고정보관 해제"
+    ]
+  },
+  "0x0025": {
+    "en": [
+      "i wish to secure this"
+    ],
+    "de": [
+      "ich möchte dies sichern"
+    ],
+    "es": [
+      "quiero proteger esto"
+    ],
+    "fr": [
+      "verrouiller objet"
+    ],
+    "zh": [
+      "我要將它保全"
+    ],
+    "ja": [
+      "セキュア",
+      "せきゅあ"
+    ],
+    "ko": [
+      "잠금 설정"
+    ]
+  },
+  "0x0026": {
+    "en": [
+      "i wish to unsecure this"
+    ],
+    "de": [
+      "ich möchte dies entsichern"
+    ],
+    "es": [
+      "quiero desproteger esto"
+    ],
+    "fr": [
+      "déverrouiller objet"
+    ],
+    "zh": [
+      "我要解除保全"
+    ],
+    "ja": [
+      "セキュア解除",
+      "せきゅあかいじょ",
+      "セキュアカイジョ"
+    ],
+    "ko": [
+      "잠금 해제"
+    ]
+  },
+  "0x0027": {
+    "en": [
+      "i wish to place a strongbox"
+    ],
+    "de": [
+      "ich möchte eine geldkassette platzieren"
+    ],
+    "es": [
+      "quiero colocar una caja fuerte"
+    ],
+    "fr": [
+      "placer coffre-fort"
+    ],
+    "zh": [
+      "我要放一個保險櫃"
+    ],
+    "ja": [
+      "ストロングボックス",
+      "すとろんぐぼっくす"
+    ],
+    "ko": [
+      "스트롱박스 설치"
+    ]
+  },
+  "0x0028": {
+    "en": [
+      "i wish to place a trash barrel"
+    ],
+    "de": [
+      "ich möchte eine mülltonne platzieren"
+    ],
+    "es": [
+      "quiero colocar un cubo de basura"
+    ],
+    "fr": [
+      "placer poubelle"
+    ],
+    "zh": [
+      "我要放一個垃圾桶"
+    ],
+    "ja": [
+      "ゴミ箱",
+      "ごみばこ",
+      "ゴミバコ"
+    ],
+    "ko": [
+      "쓰레기통 설치"
+    ]
+  },
+  "0x0029": {
+    "en": [
+      "liste anzeigen"
+    ],
+    "zh": [
+      "顯示選單"
+    ],
+    "ja": [
+      "リスト",
+      "りすと"
+    ],
+    "ko": [
+      "목록보기"
+    ],
+    "lat": [
+      "showthelist",
+      "mostrarlista",
+      "montrerlaliste"
+    ]
+  },
+  "0x002A": {
+    "en": [
+      "i resign from my guild"
+    ],
+    "de": [
+      "ich trete aus meiner gilde aus"
+    ],
+    "es": [
+      "dimito del gremio"
+    ],
+    "fr": [
+      "je quitte ma guilde"
+    ],
+    "zh": [
+      "退出公會"
+    ],
+    "ja": [
+      "ギルド脱退",
+      "ぎるどだったい",
+      "ギルドダッタイ"
+    ],
+    "ko": [
+      "길드 탈퇴"
+    ]
+  },
+  "0x002B": {
+    "en": [
+      "einstellen"
+    ],
+    "fr": [
+      "régler"
+    ],
+    "zh": [
+      "設定"
+    ],
+    "ja": [
+      "セット",
+      "せっと"
+    ],
+    "ko": [
+      "설정"
+    ],
+    "lat": [
+      "set",
+      "ajustar"
+    ]
+  },
+  "0x002C": {
+    "en": [
+      "heraufsetzen"
+    ],
+    "zh": [
+      "舉起"
+    ],
+    "ja": [
+      "アップ",
+      "あっぷ"
+    ],
+    "ko": [
+      "올리기"
+    ],
+    "lat": [
+      "raise",
+      "elevar",
+      "monter"
+    ]
+  },
+  "0x002D": {
+    "en": [
+      "herabsetzen"
+    ],
+    "zh": [
+      "放下"
+    ],
+    "ja": [
+      "ダウン",
+      "だうん"
+    ],
+    "ko": [
+      "내리기"
+    ],
+    "lat": [
+      "drop",
+      "soltar",
+      "baisser"
+    ]
+  },
+  "0x002E": {
+    "en": [
+      "abrakadabra"
+    ],
+    "zh": [
+      "阿不拉不拉"
+    ],
+    "ja": [
+      "アブラカダブラ",
+      "あぶらかだぶら"
+    ],
+    "ko": [
+      "수리수리마수리"
+    ],
+    "lat": [
+      "abracadabra"
+    ]
+  },
+  "0x002F": {
+    "en": [
+      "kawum"
+    ],
+    "zh": [
+      "沙茲摩"
+    ],
+    "ja": [
+      "シャザム",
+      "しゃざむ"
+    ],
+    "ko": [
+      "샤잠"
+    ],
+    "lat": [
+      "shazam",
+      "patadecabra"
+    ]
+  },
+  "0x0030": {
+    "en": [
+      "news"
+    ],
+    "zh": [
+      "新聞"
+    ],
+    "ja": [
+      "ニュース",
+      "にゅーす"
+    ],
+    "ko": [
+      "뉴스"
+    ],
+    "lat": [
+      "neuigkeiten",
+      "noticias",
+      "nouvelles"
+    ]
+  },
+  "0x0031": {
+    "en": [
+      "sei geehrt"
+    ],
+    "fr": [
+      "je t'honore"
+    ],
+    "zh": [
+      "我賜榮耀予你"
+    ],
+    "ja": [
+      "尊敬する",
+      "そんけいする",
+      "ソンケイスル"
+    ],
+    "ko": [
+      "경의를 표합니다"
+    ],
+    "lat": [
+      "i honor thee",
+      "te ensalzo"
+    ]
+  },
+  "0x0032": {
+    "en": [
+      "i must consider my sins"
+    ],
+    "de": [
+      "ich überdenke meine gesinnung"
+    ],
+    "es": [
+      "quiero considerar mis pecados"
+    ],
+    "fr": [
+      "je dois examiner mes péchés"
+    ],
+    "zh": [
+      "我必須反省我的罪過",
+      "反省"
+    ],
+    "ja": [
+      "はんせい",
+      "ハンセイ"
+    ],
+    "ko": [
+      "범죄 상태 확인"
+    ]
+  },
+  "0x0033": {
+    "en": [
+      "remove thyself"
+    ],
+    "de": [
+      "ich verstoße dich"
+    ],
+    "zh": [
+      "將自己移除"
+    ],
+    "ja": [
+      "追い出す",
+      "おいだす",
+      "オイダス"
+    ],
+    "ko": [
+      "내쫓기"
+    ],
+    "lat": [
+      "echar",
+      "hors d'ici"
+    ]
+  },
+  "0x0034": {
+    "en": [
+      "i ban thee"
+    ],
+    "de": [
+      "ich verbanne dich"
+    ],
+    "es": [
+      "prohibir la entrada"
+    ],
+    "fr": [
+      "je te bannis"
+    ],
+    "zh": [
+      "出去"
+    ],
+    "ja": [
+      "バン",
+      "ばん"
+    ],
+    "ko": [
+      "추방"
+    ]
+  },
+  "0x0035": {
+    "en": [
+      "i renounce my young player status"
+    ],
+    "de": [
+      "ich lege den anfänger-status ab"
+    ],
+    "es": [
+      "renuncio a mi estado de jugador novato"
+    ],
+    "fr": [
+      "je renonce à mon statut de nouveau joueur"
+    ],
+    "zh": [
+      "我放棄我的新手狀態"
+    ],
+    "ja": [
+      "ヤング解除",
+      "やんぐかいじょ",
+      "ヤングカイジョ"
+    ],
+    "ko": [
+      "초보 상태 포기"
+    ]
+  },
+  "0x0036": {
+    "en": [
+      "stopp"
+    ],
+    "zh": [
+      "停"
+    ],
+    "ja": [
+      "ストップ",
+      "すとっぷ"
+    ],
+    "ko": [
+      "정지"
+    ],
+    "lat": [
+      "stop",
+      "detener"
+    ]
+  },
+  "0x0037": {
+    "en": [
+      "resetme"
+    ],
+    "de": [
+      "zurücksetzen"
+    ],
+    "es": [
+      "reiniciarme"
+    ],
+    "fr": [
+      "défaut"
+    ],
+    "zh": [
+      "重新設定"
+    ],
+    "ja": [
+      "リセット",
+      "りせっと"
+    ],
+    "ko": [
+      "상태초기화"
+    ]
+  },
+  "0x0038": {
+    "en": [
+      "appraise"
+    ],
+    "de": [
+      "abschätzen"
+    ],
+    "zh": [
+      "估價",
+      "査定"
+    ],
+    "ja": [
+      "さてい",
+      "サテイ"
+    ],
+    "ko": [
+      "감정"
+    ],
+    "lat": [
+      "evaluar",
+      "estimer"
+    ]
+  },
+  "0x0039": {
+    "en": [
+      "reset"
+    ],
+    "de": [
+      "zurücksetzen"
+    ],
+    "es": [
+      "reiniciar"
+    ],
+    "fr": [
+      "défaut"
+    ],
+    "zh": [
+      "重新設定"
+    ],
+    "ja": [
+      "リセット",
+      "りせっと"
+    ],
+    "ko": [
+      "초기화"
+    ]
+  },
+  "0x003A": {
+    "en": [
+      "hinweis"
+    ],
+    "zh": [
+      "暗示"
+    ],
+    "ja": [
+      "ヒント",
+      "ひんと"
+    ],
+    "ko": [
+      "힌트"
+    ],
+    "lat": [
+      "hint",
+      "pista",
+      "indice"
+    ]
+  },
+  "0x003B": {
+    "en": [
+      "guten tag"
+    ],
+    "de": [
+      "ich grüße dich",
+      "sei gegrüßt"
+    ],
+    "zh": [
+      "你好",
+      "哈囉",
+      "呦",
+      "嘿",
+      "嗨"
+    ],
+    "ja": [
+      "どうも",
+      "ドウモ",
+      "こんにちは",
+      "コンニチハ",
+      "やあ",
+      "ヤア",
+      "おい",
+      "オイ",
+      "ハロー",
+      "はろー"
+    ],
+    "ko": [
+      "안녕하세요",
+      "안녕",
+      "방가",
+      "하이",
+      "안녕하십니까"
+    ],
+    "lat": [
+      "hallo",
+      "hey",
+      "greetings",
+      "hello",
+      "yo",
+      "hail",
+      "saludos",
+      "hola",
+      "eh",
+      "ey",
+      "que tal",
+      "salutations",
+      "salut",
+      "lut",
+      "bonjour"
+    ]
+  },
+  "0x003C": {
+    "en": [
+      "vendor buy"
+    ],
+    "de": [
+      "händler kaufen",
+      "händler verkaufen"
+    ],
+    "es": [
+      "compra vendedor",
+      "adquisición vendedor"
+    ],
+    "fr": [
+      "vendeur acheter",
+      "vendeur acquérir"
+    ],
+    "zh": [
+      "買",
+      "購買",
+      "購入"
+    ],
+    "ja": [
+      "こうにゅう",
+      "コウニュウ",
+      "買う",
+      "かう",
+      "カウ"
+    ],
+    "ko": [
+      "물건 사기",
+      "물건 구입"
+    ],
+    "lat": [
+      "vendor purchase"
+    ]
+  },
+  "0x003D": {
+    "en": [
+      "vendor browse"
+    ],
+    "de": [
+      "händler durchsuchen",
+      "händler anschauen",
+      "händler sehen"
+    ],
+    "es": [
+      "buscar vendedor",
+      "ver vendedor",
+      "mirar vendedor"
+    ],
+    "fr": [
+      "vendeur chercher",
+      "vendeur regarder",
+      "vendeur examiner"
+    ],
+    "zh": [
+      "看貨",
+      "閲覧",
+      "参照"
+    ],
+    "ja": [
+      "えつらん",
+      "エツラン",
+      "さんしょう",
+      "サンショウ",
+      "見る",
+      "みる",
+      "ミル"
+    ],
+    "ko": [
+      "물건 보기",
+      "물건 목록",
+      "물건 구경"
+    ],
+    "lat": [
+      "vendor view",
+      "vendor look"
+    ]
+  },
+  "0x003E": {
+    "en": [
+      "vendor collect"
+    ],
+    "de": [
+      "händler sammeln",
+      "händler gold",
+      "händler bekommen"
+    ],
+    "es": [
+      "recoger vendedor",
+      "oro vendedor",
+      "conseguir del vendedor"
+    ],
+    "fr": [
+      "vendeur collecter",
+      "vendeur or",
+      "vendeur prendre"
+    ],
+    "zh": [
+      "收錢",
+      "拿錢",
+      "錢",
+      "売上",
+      "売上金",
+      "回収"
+    ],
+    "ja": [
+      "うりあげ",
+      "ウリアゲ",
+      "うりあげきん",
+      "ウリアゲキン",
+      "かいしゅう",
+      "カイシュウ"
+    ],
+    "ko": [
+      "수금",
+      "돈받기",
+      "돈가져가기"
+    ],
+    "lat": [
+      "vendor gold",
+      "vendor get"
+    ]
+  },
+  "0x003F": {
+    "en": [
+      "vendor status"
+    ],
+    "de": [
+      "händler status",
+      "händler info"
+    ],
+    "es": [
+      "estado vendedor",
+      "info vendedor"
+    ],
+    "fr": [
+      "vendeur statut",
+      "vendeur info"
+    ],
+    "zh": [
+      "狀態",
+      "資訊",
+      "情報"
+    ],
+    "ja": [
+      "ステータス",
+      "すてーたす",
+      "じょうほう",
+      "ジョウホウ"
+    ],
+    "ko": [
+      "상인 상태",
+      "상인 정보"
+    ],
+    "lat": [
+      "vendor info"
+    ]
+  },
+  "0x0040": {
+    "en": [
+      "vendor dismiss"
+    ],
+    "de": [
+      "händler entlassen",
+      "händler ersetzen"
+    ],
+    "es": [
+      "echar vendedor",
+      "sustituir vendedor"
+    ],
+    "fr": [
+      "vendeur renvoyer",
+      "vendeur replacer"
+    ],
+    "zh": [
+      "解雇",
+      "變更小販",
+      "移動"
+    ],
+    "ja": [
+      "かいこ",
+      "カイコ",
+      "いどう",
+      "イドウ"
+    ],
+    "ko": [
+      "상인 해산",
+      "상인 교체"
+    ],
+    "lat": [
+      "vendor replace"
+    ]
+  },
+  "0x0041": {
+    "en": [
+      "vendor cycle"
+    ],
+    "de": [
+      "händler durchschalten"
+    ],
+    "es": [
+      "pagar vendedor"
+    ],
+    "fr": [
+      "vendeur salaire"
+    ],
+    "zh": [
+      "支付小販薪水",
+      "給料"
+    ],
+    "ja": [
+      "きゅうりょう",
+      "キュウリョウ"
+    ],
+    "ko": [
+      "고용비 지불"
+    ]
+  },
+  "0x0042": {
+    "en": [
+      "namen best."
+    ],
+    "zh": [
+      "設定名字",
+      "名前設定"
+    ],
+    "ja": [
+      "なまえせってい",
+      "ナマエサクジョ"
+    ],
+    "ko": [
+      "배이름 정하기"
+    ],
+    "lat": [
+      "set name",
+      "dar nombre",
+      "donner nom"
+    ]
+  },
+  "0x0043": {
+    "en": [
+      "namen entf."
+    ],
+    "zh": [
+      "移除名字",
+      "名前削除"
+    ],
+    "ja": [
+      "なまえさくじょ",
+      "ナマエサクジョ"
+    ],
+    "ko": [
+      "배이름 없애기"
+    ],
+    "lat": [
+      "remove name",
+      "quitar nombre",
+      "ôter nom"
+    ]
+  },
+  "0x0044": {
+    "en": [
+      "name"
+    ],
+    "zh": [
+      "名字",
+      "名前"
+    ],
+    "ja": [
+      "なまえ",
+      "ナマエ"
+    ],
+    "ko": [
+      "배이름 보기"
+    ],
+    "lat": [
+      "nombre",
+      "nom"
+    ]
+  },
+  "0x0045": {
+    "en": [
+      "forward"
+    ],
+    "de": [
+      "vorwärts"
+    ],
+    "es": [
+      "delante"
+    ],
+    "fr": [
+      "avant"
+    ],
+    "zh": [
+      "前進"
+    ],
+    "ja": [
+      "ぜんしん",
+      "ゼンシン"
+    ],
+    "ko": [
+      "앞으로"
+    ]
+  },
+  "0x0046": {
+    "en": [
+      "nach hinten"
+    ],
+    "de": [
+      "rückwärts",
+      "zurück"
+    ],
+    "es": [
+      "atrás",
+      "detrás"
+    ],
+    "fr": [
+      "arrière"
+    ],
+    "zh": [
+      "後退",
+      "退後",
+      "後進"
+    ],
+    "ja": [
+      "こうたい",
+      "コウタイ",
+      "こうしん",
+      "コウシン",
+      "バック",
+      "ばっく"
+    ],
+    "ko": [
+      "뒤로",
+      "뒤로 항해",
+      "뒤"
+    ],
+    "lat": [
+      "backward",
+      "backwards",
+      "back",
+      "tras"
+    ]
+  },
+  "0x0047": {
+    "en": [
+      "links"
+    ],
+    "zh": [
+      "左",
+      "左漂"
+    ],
+    "ja": [
+      "ひだり",
+      "ヒダリ",
+      "取り舵",
+      "とりかじ",
+      "トリカジ"
+    ],
+    "ko": [
+      "왼쪽",
+      "왼쪽으로"
+    ],
+    "lat": [
+      "nach links",
+      "left",
+      "drift left",
+      "izquierda",
+      "giro izquierda",
+      "gauche"
+    ]
+  },
+  "0x0048": {
+    "en": [
+      "rechts"
+    ],
+    "zh": [
+      "右",
+      "右漂",
+      "面舵"
+    ],
+    "ja": [
+      "みぎ",
+      "ミギ",
+      "おもかじ",
+      "オモカジ"
+    ],
+    "ko": [
+      "오른쪽",
+      "오른쪽으로"
+    ],
+    "lat": [
+      "nach rechts",
+      "right",
+      "drift right",
+      "derecha",
+      "giro derecha",
+      "droite"
+    ]
+  },
+  "0x0049": {
+    "en": [
+      "steuerbord"
+    ],
+    "zh": [
+      "右側"
+    ],
+    "ja": [
+      "スターボード",
+      "すたーぼーど"
+    ],
+    "ko": [
+      "우측방향"
+    ],
+    "lat": [
+      "starboard",
+      "a estribor",
+      "tribord"
+    ]
+  },
+  "0x004A": {
+    "en": [
+      "hafen"
+    ],
+    "fr": [
+      "bâbord"
+    ],
+    "zh": [
+      "港口"
+    ],
+    "ja": [
+      "ポート",
+      "ぽーと"
+    ],
+    "ko": [
+      "좌측방향"
+    ],
+    "lat": [
+      "port",
+      "a babor"
+    ]
+  },
+  "0x004B": {
+    "en": [
+      "links vorne"
+    ],
+    "de": [
+      "forward left"
+    ],
+    "es": [
+      "delante izquierda"
+    ],
+    "fr": [
+      "avant gauche"
+    ],
+    "zh": [
+      "左前",
+      "左方前進"
+    ],
+    "ja": [
+      "さほうぜんしん",
+      "サホウゼンシン"
+    ],
+    "ko": [
+      "좌측전방"
+    ]
+  },
+  "0x004C": {
+    "en": [
+      "rechts vorne"
+    ],
+    "de": [
+      "forward right"
+    ],
+    "es": [
+      "delante derecha"
+    ],
+    "fr": [
+      "avant droite"
+    ],
+    "zh": [
+      "右前",
+      "右方前進"
+    ],
+    "ja": [
+      "うほうぜんしん",
+      "ウホウゼンシン"
+    ],
+    "ko": [
+      "우측전방"
+    ]
+  },
+  "0x004D": {
+    "en": [
+      "links hinten"
+    ],
+    "de": [
+      "links zurück"
+    ],
+    "es": [
+      "atrás izquierda",
+      "detrás izquierda"
+    ],
+    "fr": [
+      "arrière gauche"
+    ],
+    "zh": [
+      "左後",
+      "左後行",
+      "向左後",
+      "左方後進",
+      "左方後退"
+    ],
+    "ja": [
+      "さほうこうしん",
+      "サホウコウシン",
+      "さほうこうたい",
+      "サホウコウタイ",
+      "ひだりうしろ",
+      "ヒダリウシロ"
+    ],
+    "ko": [
+      "좌측후방",
+      "좌측후방으로"
+    ],
+    "lat": [
+      "links nach hinten",
+      "back left",
+      "backward left",
+      "backwards left",
+      "tras izquierda"
+    ]
+  },
+  "0x004E": {
+    "en": [
+      "rechts hinten"
+    ],
+    "de": [
+      "rechts zurück"
+    ],
+    "es": [
+      "atrás derecha",
+      "detrás derecha"
+    ],
+    "fr": [
+      "arrière droite"
+    ],
+    "zh": [
+      "右後",
+      "右後退",
+      "右後方",
+      "右方後進",
+      "右方後退"
+    ],
+    "ja": [
+      "うほうこうしん",
+      "ウホウコウシン",
+      "うほうこうたい",
+      "ウホウコウタイ",
+      "みぎうしろ",
+      "ミギウシロ"
+    ],
+    "ko": [
+      "우측후방",
+      "우측후방으로"
+    ],
+    "lat": [
+      "rechts nach hinten",
+      "back right",
+      "backward right",
+      "backwards right",
+      "tras derecha"
+    ]
+  },
+  "0x004F": {
+    "en": [
+      "stopp"
+    ],
+    "zh": [
+      "停",
+      "停止"
+    ],
+    "ja": [
+      "ていし",
+      "テイシ"
+    ],
+    "ko": [
+      "정지"
+    ],
+    "lat": [
+      "stop",
+      "detener"
+    ]
+  },
+  "0x0050": {
+    "en": [
+      "slow left"
+    ],
+    "de": [
+      "langsam links"
+    ],
+    "es": [
+      "lento izquierda"
+    ],
+    "fr": [
+      "gauche lentement"
+    ],
+    "zh": [
+      "左緩行"
+    ],
+    "ja": [
+      "ゆっくり左",
+      "ゆっくりひだり",
+      "ユックリヒダリ"
+    ],
+    "ko": [
+      "왼쪽으로 천천히"
+    ]
+  },
+  "0x0051": {
+    "en": [
+      "slow right"
+    ],
+    "de": [
+      "langsam rechts"
+    ],
+    "es": [
+      "lento derecha"
+    ],
+    "fr": [
+      "droite lentement"
+    ],
+    "zh": [
+      "右緩行"
+    ],
+    "ja": [
+      "ゆっくり右",
+      "ゆっくりみぎ",
+      "ユックリミギ"
+    ],
+    "ko": [
+      "오른쪽으로 천천히"
+    ]
+  },
+  "0x0052": {
+    "en": [
+      "slow forward"
+    ],
+    "de": [
+      "langsam vorwärts"
+    ],
+    "es": [
+      "lento delante"
+    ],
+    "fr": [
+      "avant lentement"
+    ],
+    "zh": [
+      "前緩行"
+    ],
+    "ja": [
+      "ゆっくり前進",
+      "ゆっくりぜんしん",
+      "ユックリゼンシン"
+    ],
+    "ko": [
+      "앞으로 천천히"
+    ]
+  },
+  "0x0053": {
+    "en": [
+      "slow back"
+    ],
+    "de": [
+      "langsam zurück83 langsam nach hinten",
+      "langsam rückwärts"
+    ],
+    "es": [
+      "lento atrás",
+      "lento detrás",
+      "lento tras"
+    ],
+    "fr": [
+      "arrière lentement"
+    ],
+    "zh": [
+      "後緩行",
+      "後慢行",
+      "後緩退"
+    ],
+    "ja": [
+      "ゆっくり後退",
+      "ゆっくりこうたい",
+      "ユックリコウタイ",
+      "ゆっくり後進",
+      "ゆっくりこうしん",
+      "ユックリコウシン",
+      "ゆっくりバック",
+      "ゆっくりばっく",
+      "ユックリバック"
+    ],
+    "ko": [
+      "뒤로 천천히",
+      "뒤쪽으로 천천히",
+      "후방으로 천천히"
+    ],
+    "lat": [
+      "slow backward",
+      "slow backwards"
+    ]
+  },
+  "0x0054": {
+    "en": [
+      "slow forward left"
+    ],
+    "de": [
+      "langsam links vorwärts"
+    ],
+    "es": [
+      "lento delante izquierda"
+    ],
+    "fr": [
+      "avant gauche lentement"
+    ],
+    "zh": [
+      "左前緩行"
+    ],
+    "ja": [
+      "ゆっくり左方前進",
+      "ゆっくりさほうぜんしん",
+      "ユックリサホウゼンシン"
+    ],
+    "ko": [
+      "좌측전방으로 천천히"
+    ]
+  },
+  "0x0055": {
+    "en": [
+      "slow forward right"
+    ],
+    "de": [
+      "langsam rechts vorwärts"
+    ],
+    "es": [
+      "lento delante derecha"
+    ],
+    "fr": [
+      "avant droite lentement"
+    ],
+    "zh": [
+      "右前緩行"
+    ],
+    "ja": [
+      "ゆっくり右方前進",
+      "ゆっくりうほうぜんしん",
+      "ユックリウホウゼンシン"
+    ],
+    "ko": [
+      "우측전방으로 천천히"
+    ]
+  },
+  "0x0056": {
+    "en": [
+      "slow back right"
+    ],
+    "de": [
+      "langsam rechts hinten",
+      "langsam rechts zurück",
+      "langsam nach rechts hinten"
+    ],
+    "es": [
+      "lento atrás derecha",
+      "lento detrás derecha",
+      "lento tras derecha"
+    ],
+    "fr": [
+      "arrière droite lentement"
+    ],
+    "zh": [
+      "右後緩行",
+      "右後慢行"
+    ],
+    "ja": [
+      "ゆっくり右方後進",
+      "ゆっくりうほうこうしん",
+      "ユックリウホウコウシン",
+      "ゆっくり右方後退",
+      "ゆっくりうほうこうたい",
+      "ユックリウホウコウタイ",
+      "ゆっくり右後",
+      "ゆっくりみぎうしろ",
+      "ユックリミギウシロ"
+    ],
+    "ko": [
+      "우측후방으로 천천히"
+    ],
+    "lat": [
+      "slow backward right",
+      "slow backwards right"
+    ]
+  },
+  "0x0057": {
+    "en": [
+      "slow back left"
+    ],
+    "de": [
+      "langsam links zurück",
+      "langsam links hinten",
+      "langsam nach links hinten"
+    ],
+    "es": [
+      "lento atrás izquierda",
+      "lento detrás izquierda",
+      "lento tras izquierda"
+    ],
+    "fr": [
+      "arrière gauche lentement"
+    ],
+    "zh": [
+      "左後緩行",
+      "左後慢行"
+    ],
+    "ja": [
+      "ゆっくり左方後進",
+      "ゆっくりさほうこうしん",
+      "ユックリサホウコウシン",
+      "ゆっくり左方後退",
+      "ゆっくりさほうこうたい",
+      "ユックリサホウコウタイ",
+      "ゆっくり左後",
+      "ゆっくりひだりうしろ",
+      "ユックリヒダリウシロ"
+    ],
+    "ko": [
+      "좌측후방으로 천천히"
+    ],
+    "lat": [
+      "slow backward left",
+      "slow backwards left"
+    ]
+  },
+  "0x0058": {
+    "en": [
+      "one left"
+    ],
+    "de": [
+      "eins links",
+      "eins nach links"
+    ],
+    "es": [
+      "uno izquierda",
+      "izquierda uno"
+    ],
+    "fr": [
+      "un gauche",
+      "gauche un"
+    ],
+    "zh": [
+      "左一格",
+      "左移一格",
+      "左１",
+      "１左"
+    ],
+    "ja": [
+      "ひだり１",
+      "ヒダリ１",
+      "１ひだり",
+      "１ヒダリ"
+    ],
+    "ko": [
+      "왼쪽 한번",
+      "한번 왼쪽"
+    ],
+    "lat": [
+      "left one"
+    ]
+  },
+  "0x0059": {
+    "en": [
+      "one right"
+    ],
+    "de": [
+      "eins rechts",
+      "eins nach rechts"
+    ],
+    "es": [
+      "uno derecha",
+      "derecha uno"
+    ],
+    "fr": [
+      "un droite",
+      "droite un"
+    ],
+    "zh": [
+      "右一格",
+      "右移一格",
+      "右１",
+      "１右"
+    ],
+    "ja": [
+      "みぎ１",
+      "ミギ１",
+      "１みぎ",
+      "１ミギ"
+    ],
+    "ko": [
+      "오른쪽 한번",
+      "한번 오른쪽"
+    ],
+    "lat": [
+      "right one"
+    ]
+  },
+  "0x005A": {
+    "en": [
+      "one forward"
+    ],
+    "de": [
+      "eins vorwärts",
+      "eins nach vorne"
+    ],
+    "es": [
+      "uno delante",
+      "delante uno"
+    ],
+    "fr": [
+      "un avant",
+      "avant un"
+    ],
+    "zh": [
+      "前一格",
+      "前移一格",
+      "前１",
+      "１前"
+    ],
+    "ja": [
+      "まえ１",
+      "マエ１",
+      "１まえ",
+      "１マエ"
+    ],
+    "ko": [
+      "앞으로 한번",
+      "한번 앞으로"
+    ],
+    "lat": [
+      "forward one"
+    ]
+  },
+  "0x005B": {
+    "en": [
+      "one back"
+    ],
+    "de": [
+      "eins zurück",
+      "eins nach hinten",
+      "eins hinten",
+      "zurück um eins"
+    ],
+    "es": [
+      "uno atrás",
+      "atrás uno",
+      "uno detrás",
+      "detrás uno",
+      "uno tras",
+      "tras uno"
+    ],
+    "fr": [
+      "un arrière",
+      "arrière un"
+    ],
+    "zh": [
+      "後一格",
+      "後移一格",
+      "往後一格",
+      "往後移一格",
+      "向後移一格",
+      "朝後一格",
+      "後１",
+      "１後",
+      "後方１",
+      "１後方"
+    ],
+    "ja": [
+      "うしろ１",
+      "ウシロ１",
+      "１うしろ",
+      "１ウシロ",
+      "こうほう１",
+      "コウホウ１",
+      "１こうほう",
+      "１コウホウ",
+      "後ろ１",
+      "１後ろ"
+    ],
+    "ko": [
+      "한번 뒤로",
+      "뒤로 한번",
+      "후방으로 한번",
+      "한번 후방으로"
+    ],
+    "lat": [
+      "back one",
+      "one backward",
+      "backward one",
+      "one backwards",
+      "backwards one"
+    ]
+  },
+  "0x005C": {
+    "en": [
+      "one forward left"
+    ],
+    "de": [
+      "eins nach vorne links",
+      "eins vorne links"
+    ],
+    "es": [
+      "uno delante izquierda",
+      "delante izquierda uno"
+    ],
+    "fr": [
+      "un avant gauche",
+      "avant gauche un"
+    ],
+    "zh": [
+      "左前一格",
+      "往左前一格",
+      "左方前進１",
+      "１左方前進"
+    ],
+    "ja": [
+      "さほうぜんしん１",
+      "サホウゼンシン１",
+      "１さほうぜんしん",
+      "１サホウゼンシン"
+    ],
+    "ko": [
+      "한번 좌측전방",
+      "좌측전방 한번"
+    ],
+    "lat": [
+      "forward left one"
+    ]
+  },
+  "0x005D": {
+    "en": [
+      "one forward right"
+    ],
+    "de": [
+      "eins nach vorne rechts",
+      "eins vorne rechts"
+    ],
+    "es": [
+      "uno delante derecha",
+      "delante derecha uno"
+    ],
+    "fr": [
+      "un avant droite",
+      "avant droite un"
+    ],
+    "zh": [
+      "右前一格",
+      "往右前一格",
+      "右方前進１",
+      "１右方前進"
+    ],
+    "ja": [
+      "うほうぜんしん１",
+      "ウホウゼンシン１",
+      "１うほうぜんしん",
+      "１ウホウゼンシン"
+    ],
+    "ko": [
+      "한번 우측전방",
+      "우측전방 한번"
+    ],
+    "lat": [
+      "forward right one"
+    ]
+  },
+  "0x005E": {
+    "en": [
+      "one back right"
+    ],
+    "de": [
+      "eins rechts zurück",
+      "eins rechts nach hinten",
+      "eins rechts hinten",
+      "rückwärts rechts eins",
+      "eins rückwärts rechts"
+    ],
+    "es": [
+      "uno atrás derecha",
+      "atrás derecha uno",
+      "uno detrás derecha",
+      "detrás derecha uno",
+      "uno tras derecha",
+      "tras derecha uno"
+    ],
+    "fr": [
+      "un arrière droite",
+      "arrière droite un"
+    ],
+    "zh": [
+      "右後一格",
+      "往右後一格",
+      "往右後一",
+      "右後一",
+      "右方後進１",
+      "１右方後進",
+      "右方後退１",
+      "１右方後退",
+      "右後１",
+      "１右後"
+    ],
+    "ja": [
+      "うほうこうしん１",
+      "ウホウコウシン１",
+      "１うほうこうしん",
+      "１ウホウコウシン",
+      "うほうこうたい１",
+      "ウホウコウタイ１",
+      "１うほうこうたい",
+      "１ウホウコウタイ",
+      "みぎうしろ１",
+      "ミギウシロ１",
+      "１みぎうしろ",
+      "１ミギウシロ"
+    ],
+    "ko": [
+      "한번 우측후방",
+      "우측후방 한번",
+      "한번 우측 후방"
+    ],
+    "lat": [
+      "back right one",
+      "one backward right",
+      "backward right one",
+      "one backwards right",
+      "backwards right one"
+    ]
+  },
+  "0x005F": {
+    "en": [
+      "eine links nach hinten"
+    ],
+    "de": [
+      "eins links zurück",
+      "eins links hinten",
+      "rückwärts links eins",
+      "eins rückwärts links",
+      "eins links nach hinten"
+    ],
+    "es": [
+      "uno atrás izquierda",
+      "atrás izquierda uno",
+      "uno detrás izquierda",
+      "detrás izquierda uno",
+      "uno tras izquierda",
+      "tras izquierda uno"
+    ],
+    "fr": [
+      "un arrière gauche",
+      "arrière gauche un"
+    ],
+    "zh": [
+      "左後一格",
+      "往左後一格",
+      "左後一",
+      "往左後一",
+      "左方後進１",
+      "１左方後進",
+      "左方後退１",
+      "１左方後退",
+      "左後１",
+      "１左後"
+    ],
+    "ja": [
+      "さほうこうしん１",
+      "サホウコウシン１",
+      "１さほうこうしん",
+      "１サホウコウシン",
+      "さほうこうたい１",
+      "サホウコウタイ１",
+      "１さほうこうたい",
+      "１サホウコウタイ",
+      "ひだりうしろ１",
+      "ヒダリウシロ１",
+      "１ひだりうしろ",
+      "１ヒダリウシロ"
+    ],
+    "ko": [
+      "좌측후방 한번",
+      "한번 좌측후방"
+    ],
+    "lat": [
+      "one back left",
+      "back left one",
+      "one backward left",
+      "backward left one",
+      "one backwards left",
+      "backwards left one"
+    ]
+  },
+  "0x0060": {
+    "en": [
+      "navigieren"
+    ],
+    "zh": [
+      "導航"
+    ],
+    "ja": [
+      "ナビ",
+      "なび"
+    ],
+    "ko": [
+      "항해"
+    ],
+    "lat": [
+      "nav",
+      "punto"
+    ]
+  },
+  "0x0061": {
+    "en": [
+      "starten"
+    ],
+    "fr": [
+      "départ"
+    ],
+    "zh": [
+      "開始"
+    ],
+    "ja": [
+      "かいし",
+      "カイシ"
+    ],
+    "ko": [
+      "출발"
+    ],
+    "lat": [
+      "start",
+      "iniciar"
+    ]
+  },
+  "0x0062": {
+    "en": [
+      "continue"
+    ],
+    "de": [
+      "weiter"
+    ],
+    "zh": [
+      "繼續",
+      "継続"
+    ],
+    "ja": [
+      "けいぞく",
+      "ケイゾク"
+    ],
+    "ko": [
+      "계속"
+    ],
+    "lat": [
+      "continuar",
+      "continuer"
+    ]
+  },
+  "0x0063": {
+    "en": [
+      "route"
+    ],
+    "fr": [
+      "allerà"
+    ],
+    "zh": [
+      "前往",
+      "移動"
+    ],
+    "ja": [
+      "いどう",
+      "イドウ"
+    ],
+    "ko": [
+      "가기"
+    ],
+    "lat": [
+      "goto",
+      "ir a"
+    ]
+  },
+  "0x0064": {
+    "en": [
+      "gehe zu"
+    ],
+    "zh": [
+      "單獨前往",
+      "移動"
+    ],
+    "ja": [
+      "いどう",
+      "イドウ"
+    ],
+    "ko": [
+      "지정장소 가기"
+    ],
+    "lat": [
+      "single",
+      "simple",
+      "aller"
+    ]
+  },
+  "0x0065": {
+    "en": [
+      "nach rechts"
+    ],
+    "zh": [
+      "右轉",
+      "右折"
+    ],
+    "ja": [
+      "うせつ",
+      "ウセツ"
+    ],
+    "ko": [
+      "오른쪽으로 돌기"
+    ],
+    "lat": [
+      "turn right",
+      "giro derecha",
+      "tourner droite"
+    ]
+  },
+  "0x0066": {
+    "en": [
+      "nach links"
+    ],
+    "zh": [
+      "左轉",
+      "左折"
+    ],
+    "ja": [
+      "させつ",
+      "サセツ"
+    ],
+    "ko": [
+      "왼쪽으로 돌기"
+    ],
+    "lat": [
+      "turn left",
+      "giro izquierda",
+      "tourner gauche"
+    ]
+  },
+  "0x0067": {
+    "en": [
+      "wenden"
+    ],
+    "zh": [
+      "掉頭",
+      "發生",
+      "転回",
+      "反転"
+    ],
+    "ja": [
+      "てんかい",
+      "テンカイ",
+      "はんてん",
+      "ハンテン"
+    ],
+    "ko": [
+      "반대 방향으로 돌기",
+      "반대 방향"
+    ],
+    "lat": [
+      "drehen",
+      "turn around",
+      "come about",
+      "giro 180",
+      "cambiar sentido",
+      "demi-tour",
+      "tourner"
+    ]
+  },
+  "0x0068": {
+    "en": [
+      "losmachen"
+    ],
+    "fr": [
+      "déployer voile"
+    ],
+    "zh": [
+      "打開航海圖",
+      "航行"
+    ],
+    "ja": [
+      "こうこう",
+      "コウコウ"
+    ],
+    "ko": [
+      "항해 시작"
+    ],
+    "lat": [
+      "unfurl sail",
+      "desplegar velas"
+    ]
+  },
+  "0x0069": {
+    "en": [
+      "einrollen"
+    ],
+    "zh": [
+      "收起航海圖",
+      "停止"
+    ],
+    "ja": [
+      "ていし",
+      "テイシ"
+    ],
+    "ko": [
+      "항해 정지"
+    ],
+    "lat": [
+      "furl sail",
+      "replegar velas",
+      "serrer voile"
+    ]
+  },
+  "0x006A": {
+    "en": [
+      "anker setzen"
+    ],
+    "zh": [
+      "下錨",
+      "放錨"
+    ],
+    "ja": [
+      "錨を降ろす",
+      "いかりをおろす",
+      "イカリヲオロス",
+      "錨を下ろす"
+    ],
+    "ko": [
+      "정박",
+      "닻내리기"
+    ],
+    "lat": [
+      "anker herablassen",
+      "drop anchor",
+      "lower anchor",
+      "tirar el ancla",
+      "bajar el ancla",
+      "jeter ancre"
+    ]
+  },
+  "0x006B": {
+    "en": [
+      "anker lichten"
+    ],
+    "zh": [
+      "起錨",
+      "收錨",
+      "升錨"
+    ],
+    "ja": [
+      "錨を上げる",
+      "いかりをあげる",
+      "イカリヲアゲル",
+      "錨を揚げる",
+      "錨を引き上げる",
+      "いかりをひきあげる",
+      "イカリヲヒキアゲル"
+    ],
+    "ko": [
+      "닻올리기"
+    ],
+    "lat": [
+      "anker nach oben ziehen",
+      "anker hochziehen",
+      "raise anchor",
+      "lift anchor",
+      "hoist anchor",
+      "elevar el ancla",
+      "alzar el ancla",
+      "izar el ancla",
+      "lever ancre",
+      "hisser ancre"
+    ]
+  },
+  "0x006C": {
+    "en": [
+      "train"
+    ],
+    "de": [
+      "lernen"
+    ],
+    "es": [
+      "entrenar"
+    ],
+    "fr": [
+      "former"
+    ],
+    "zh": [
+      "訓練",
+      "会得"
+    ],
+    "ja": [
+      "習う",
+      "ならう",
+      "ナラウ",
+      "えとく",
+      "エトク"
+    ],
+    "ko": [
+      "훈련"
+    ],
+    "lat": [
+      "teach"
+    ]
+  },
+  "0x006D": {
+    "en": [
+      "parieren lernen"
+    ],
+    "de": [
+      "kämpfen lernen"
+    ],
+    "es": [
+      "entrenar esquivamiento",
+      "entrenar esquivar",
+      "entrenar lucha",
+      "entrenar defensa"
+    ],
+    "fr": [
+      "former défense",
+      "former bataille"
+    ],
+    "zh": [
+      "訓練閃躲技",
+      "訓練閃躲",
+      "訓練戰鬥",
+      "訓練防禦"
+    ],
+    "ja": [
+      "シールドを習う",
+      "しーるどをならう",
+      "シールドヲナラウ",
+      "シールド会得",
+      "しーるどえとく",
+      "シールドエトク"
+    ],
+    "ko": [
+      "훈련 방패술",
+      "훈련 막기",
+      "훈련 방패",
+      "훈련 방어"
+    ],
+    "lat": [
+      "abwehr lernen",
+      "Verteidigung lernen",
+      "train parrying",
+      "train parry",
+      "train battle",
+      "train defense",
+      "teach parrying",
+      "teach parry",
+      "teach battle",
+      "teach defense"
+    ]
+  },
+  "0x006E": {
+    "en": [
+      "erst lernen"
+    ],
+    "de": [
+      "helfen lernen"
+    ],
+    "es": [
+      "entrenar primero",
+      "entrenar ayuda",
+      "entrenar curar",
+      "entrenar curación",
+      "entrenar medicina"
+    ],
+    "fr": [
+      "former secourisme",
+      "former secours",
+      "former guérison",
+      "former soins",
+      "former médecine"
+    ],
+    "zh": [
+      "訓練急救",
+      "訓練術",
+      "訓練醫療",
+      "訓練醫治",
+      "訓練醫術",
+      "治療会得"
+    ],
+    "ja": [
+      "治療を習う",
+      "ちりょうをならう",
+      "チリョウヲナラウ",
+      "ちりょうえとく",
+      "チリョウエトク"
+    ],
+    "ko": [
+      "훈련 응급",
+      "훈련 응급치료",
+      "훈련 치료",
+      "훈련 치료법",
+      "훈련 의학"
+    ],
+    "lat": [
+      "heilen lernen",
+      "heilung lernen",
+      "verarzten lernen",
+      "train first",
+      "train aid",
+      "train heal",
+      "train healing",
+      "train medicine",
+      "teach first",
+      "teach aid",
+      "teach heal",
+      "teach healing",
+      "teach medicine"
+    ]
+  },
+  "0x006F": {
+    "en": [
+      "verbergen lernen"
+    ],
+    "de": [
+      "verstecken lernen"
+    ],
+    "es": [
+      "entrenar ocultar",
+      "entrenar ocultación"
+    ],
+    "fr": [
+      "former cacher",
+      "former cachette"
+    ],
+    "zh": [
+      "訓練隱身",
+      "訓練隱形",
+      "潜伏会得"
+    ],
+    "ja": [
+      "潜伏を習う",
+      "せんぷくをならう",
+      "センプクヲナラウ",
+      "せんぷくえとく",
+      "センプクエトク"
+    ],
+    "ko": [
+      "훈련 숨기"
+    ],
+    "lat": [
+      "train hide",
+      "train hiding",
+      "teach hide",
+      "teach hiding"
+    ]
+  },
+  "0x0070": {
+    "en": [
+      "stehlen lernen"
+    ],
+    "de": [
+      "diebstahl lernen"
+    ],
+    "es": [
+      "entrenar robar",
+      "entrenar robo"
+    ],
+    "fr": [
+      "former voler",
+      "former vol"
+    ],
+    "zh": [
+      "訓練偷竊",
+      "訓練行竊",
+      "窃盗会得"
+    ],
+    "ja": [
+      "窃盗を習う",
+      "せっとうをならう",
+      "セットウヲナラウ",
+      "せっとうえとく",
+      "セットウエトク"
+    ],
+    "ko": [
+      "훈련 훔치기",
+      "훈련 도둑질"
+    ],
+    "lat": [
+      "train steal",
+      "train stealing",
+      "teach steal",
+      "teach stealing"
+    ]
+  },
+  "0x0071": {
+    "en": [
+      "alchemie lernen"
+    ],
+    "de": [
+      "anatomie lernen"
+    ],
+    "es": [
+      "entrenar alquimia"
+    ],
+    "fr": [
+      "former alchimie",
+      "former anatomie"
+    ],
+    "zh": [
+      "訓練煉金術",
+      "錬金術会得"
+    ],
+    "ja": [
+      "錬金術を習う",
+      "れんきんじゅつをならう",
+      "レンキンジュツヲナラウ",
+      "れんきんじゅつえとく",
+      "レンキンジュツエトク"
+    ],
+    "ko": [
+      "훈련 연금술"
+    ],
+    "lat": [
+      "train alchemy",
+      "teach alchemy"
+    ]
+  },
+  "0x0072": {
+    "en": [
+      "tier dressieren"
+    ],
+    "de": [
+      "zähmen lernen"
+    ],
+    "es": [
+      "entrenar animal",
+      "entrenar ciencia"
+    ],
+    "fr": [
+      "former animaux",
+      "former connaissance"
+    ],
+    "zh": [
+      "訓練動物",
+      "訓練學",
+      "動物学会得"
+    ],
+    "ja": [
+      "動物学を習う",
+      "どうぶつがくをならう",
+      "ドウブツガクヲナラウ",
+      "どうぶつがくえとく",
+      "ドウブツガクエトク"
+    ],
+    "ko": [
+      "훈련 동물 지식",
+      "훈련 동물"
+    ],
+    "lat": [
+      "train animal",
+      "train lore",
+      "teach animal",
+      "teach animal lore"
+    ]
+  },
+  "0x0073": {
+    "en": [
+      "beurteilen lernen"
+    ],
+    "de": [
+      "identifizieren lernen"
+    ],
+    "es": [
+      "entrenar evaluación",
+      "entrenar identificación",
+      "entrenar evaluar",
+      "entrenar objeto",
+      "entrenar identificar"
+    ],
+    "fr": [
+      "former estimation",
+      "former identification",
+      "former estimer",
+      "former objet",
+      "former identifier"
+    ],
+    "zh": [
+      "訓練估價",
+      "訓練物品鑑識",
+      "訓練物品",
+      "訓練鑑識",
+      "訓練鑑定"
+    ],
+    "ja": [
+      "アイテム鑑定を習う",
+      "あいてむかんていをならう",
+      "アイテムカンテイヲナラウ",
+      "アイテム鑑定会得",
+      "あいてむかんていえとく",
+      "アイテムカンテイエトク"
+    ],
+    "ko": [
+      "훈련 아이템 평가",
+      "훈련 아이템 감정",
+      "훈련 아이템 확인",
+      "훈련 아이템"
+    ],
+    "lat": [
+      "beurteilung lernen",
+      "gegenstandverwendung lernen",
+      "identifikation lernen",
+      "identifizierung lernen",
+      "train appraising",
+      "train identifying",
+      "train appraise",
+      "train item",
+      "train identification",
+      "train identify",
+      "teach appraising",
+      "teach identifying",
+      "teach appraise",
+      "teach item identification",
+      "teach identification",
+      "teach identify"
+    ]
+  },
+  "0x0074": {
+    "en": [
+      "waffenkunde lernen"
+    ],
+    "de": [
+      "waffen verwenden lernen"
+    ],
+    "es": [
+      "entrenar saber de armas",
+      "entrenar armas"
+    ],
+    "fr": [
+      "former armurerie",
+      "former armes"
+    ],
+    "zh": [
+      "訓練武器學",
+      "訓練武器",
+      "武器学会得"
+    ],
+    "ja": [
+      "武器学を習う",
+      "ぶきがくをならう",
+      "ブキガクヲナラウ",
+      "ぶきがくえとく",
+      "ブキガクエトク"
+    ],
+    "ko": [
+      "훈련 무기학",
+      "훈련 무기감정"
+    ],
+    "lat": [
+      "train armslore",
+      "train arms",
+      "teach armslore",
+      "teach arms"
+    ]
+  },
+  "0x0075": {
+    "en": [
+      "betteln lernen"
+    ],
+    "de": [
+      "train beg"
+    ],
+    "es": [
+      "entrenar mendigar",
+      "entrenar mendicación"
+    ],
+    "fr": [
+      "former mendier",
+      "former mendicité"
+    ],
+    "zh": [
+      "訓練乞討",
+      "訓練乞討術"
+    ],
+    "ja": [
+      "物乞いを習う",
+      "ものごいをならう",
+      "モノゴイヲナラウ",
+      "物乞い会得",
+      "ものごいえとく",
+      "モノゴイエトク"
+    ],
+    "ko": [
+      "훈련 구걸",
+      "훈련 거지"
+    ],
+    "lat": [
+      "train begging",
+      "teach beg",
+      "teach begging"
+    ]
+  },
+  "0x0076": {
+    "en": [
+      "handwerken lernen"
+    ],
+    "de": [
+      "schmieden lernen"
+    ],
+    "es": [
+      "entrenar herrería",
+      "entrenar herrero",
+      "entrenar herrador",
+      "entrenar herrar",
+      "entrenar ferrería"
+    ],
+    "fr": [
+      "former forgeron",
+      "former forger",
+      "former ferronnerie"
+    ],
+    "zh": [
+      "訓練鐵匠技",
+      "訓練鐵匠",
+      "訓練鐵匠技能",
+      "鍛冶会得"
+    ],
+    "ja": [
+      "鍛冶を習う",
+      "かじをならう",
+      "カジヲナラウ",
+      "かじえとく",
+      "カジエトク"
+    ],
+    "ko": [
+      "훈련 대장장이",
+      "훈련 대장간",
+      "훈련 갑옷제작자",
+      "훈련 무기제작자",
+      "훈련 대장간일"
+    ],
+    "lat": [
+      "Schmiedehandwerk lernen",
+      "handwerk lernen",
+      "schmiedekunst lernen",
+      "train blacksmith",
+      "train smith",
+      "train blacksmithy",
+      "train smithing",
+      "train blacksmithing",
+      "teach blacksmith",
+      "teach smith",
+      "teach blacksmithy",
+      "teach smithing",
+      "teach blacksmithing",
+      "forger ferronnier"
+    ]
+  },
+  "0x0077": {
+    "en": [
+      "bogen verwenden lernen"
+    ],
+    "de": [
+      "bogenschießen lernen",
+      "schießen lernen"
+    ],
+    "es": [
+      "entrenar arquero",
+      "entrenar arco",
+      "entrenar flecha",
+      "entrenar flechero",
+      "entrenar arte del arco",
+      "entrenar flechería"
+    ],
+    "fr": [
+      "former penne",
+      "former carreau",
+      "former flèche",
+      "former archerie",
+      "former plume",
+      "former flèches"
+    ],
+    "zh": [
+      "訓練弓箭",
+      "訓練弓",
+      "訓練箭",
+      "訓練造箭術",
+      "訓練削弓技",
+      "訓練羽毛黏貼",
+      "弓矢製作会得"
+    ],
+    "ja": [
+      "弓矢製作を習う",
+      "ゆみやせいさくをならう",
+      "ユミヤセイサクヲナラウ",
+      "ゆみやせいさくえとく",
+      "ユミヤセイサクエトク"
+    ],
+    "ko": [
+      "훈련 활",
+      "훈련 활만들기",
+      "훈련 화살",
+      "훈련 활제작자",
+      "훈련 화살만들기",
+      "훈련 화살제작자"
+    ],
+    "lat": [
+      "pfeil verwenden lernen",
+      "bogeneinsatz lernen",
+      "train bower",
+      "train bow",
+      "train arrow",
+      "train fletcher",
+      "train bowcraft",
+      "train fletching",
+      "teach bower",
+      "teach bow",
+      "teach arrow",
+      "teach fletcher",
+      "teach bowcraft",
+      "teach fletching"
+    ]
+  },
+  "0x0078": {
+    "en": [
+      "ruhe lernen"
+    ],
+    "de": [
+      "frieden lernen"
+    ],
+    "es": [
+      "entrenar calma",
+      "entrenar paz",
+      "entrenar pacificación"
+    ],
+    "fr": [
+      "former apaiser",
+      "former paix",
+      "former pacification"
+    ],
+    "zh": [
+      "訓練安撫",
+      "訓練和平術",
+      "訓練調停",
+      "沈静化会得"
+    ],
+    "ja": [
+      "沈静化を習う",
+      "ちんせいかをならう",
+      "チンセイカヲナラウ",
+      "ちんせいかえとく",
+      "チンセイカエトク"
+    ],
+    "ko": [
+      "훈련 안정",
+      "훈련 평화",
+      "훈련 평화유지"
+    ],
+    "lat": [
+      "frieden schlichten lernen",
+      "train calm",
+      "train peace",
+      "train peacemaking",
+      "teach calm",
+      "teach peace",
+      "teach peacemaking"
+    ]
+  },
+  "0x0079": {
+    "en": [
+      "kampieren lernen"
+    ],
+    "de": [
+      "lageraufschlagen lernen"
+    ],
+    "es": [
+      "entrenar acampar",
+      "entrenar campamento"
+    ],
+    "fr": [
+      "former camp",
+      "former campement"
+    ],
+    "zh": [
+      "訓練野營",
+      "訓練野營技"
+    ],
+    "ja": [
+      "キャンピングを習う",
+      "きゃんぴんぐをならう",
+      "キャンピングヲナラウ",
+      "キャンピング会得",
+      "きゃんぴんぐえとく",
+      "キャンピングエトク"
+    ],
+    "ko": [
+      "훈련 야영",
+      "훈련 캠핑"
+    ],
+    "lat": [
+      "train camp",
+      "train camping",
+      "teach camp",
+      "teach camping"
+    ]
+  },
+  "0x007A": {
+    "en": [
+      "zimmerhandwerk lernen"
+    ],
+    "de": [
+      "holzarbeiten lernen"
+    ],
+    "es": [
+      "entrenar carpintería",
+      "entrenar ebanistería",
+      "entrenar talla en madera"
+    ],
+    "fr": [
+      "former charpenterie",
+      "former charpente",
+      "former scie"
+    ],
+    "zh": [
+      "訓練木工",
+      "訓練木工技",
+      "訓練木工技能",
+      "大工会得"
+    ],
+    "ja": [
+      "大工を習う",
+      "だいくをならう",
+      "ダイクヲナラウ",
+      "だいくえとく",
+      "ダイクエトク"
+    ],
+    "ko": [
+      "훈련 목수",
+      "훈련 나무",
+      "훈련 목공"
+    ],
+    "lat": [
+      "handwerken lernen",
+      "train carpentry",
+      "train woodwork",
+      "train woodworking",
+      "teach carpentry",
+      "teach woodwork",
+      "teach woodworking"
+    ]
+  },
+  "0x007B": {
+    "en": [
+      "kartographie lernen"
+    ],
+    "de": [
+      "kartenlesen lernen"
+    ],
+    "es": [
+      "entrenar cartografía",
+      "entrenar mapa",
+      "entrenar trazar mapas"
+    ],
+    "fr": [
+      "former cartographie",
+      "former carte",
+      "former cartographe"
+    ],
+    "zh": [
+      "訓練製圖",
+      "訓練繪圖",
+      "訓練地圖製作",
+      "地図作成会得"
+    ],
+    "ja": [
+      "地図作成を習う",
+      "ちずさくせいをならう",
+      "チズサクセイヲナラウ",
+      "ちずさくせいえとく",
+      "チズサクセイエトク"
+    ],
+    "ko": [
+      "훈련 목공술",
+      "훈련 지도",
+      "훈련 지도제작술"
+    ],
+    "lat": [
+      "kartenanfertigen lernen",
+      "train cartography",
+      "train map",
+      "train mapmaking",
+      "teach cartography",
+      "teach map",
+      "teach mapmaking"
+    ]
+  },
+  "0x007C": {
+    "en": [
+      "kochen lernen"
+    ],
+    "de": [
+      "kochkunst lernen"
+    ],
+    "es": [
+      "entrenar cocinar",
+      "entrenar cocina"
+    ],
+    "fr": [
+      "former cuisine",
+      "former cuisinier"
+    ],
+    "zh": [
+      "訓練烹飪",
+      "訓練烹調",
+      "料理会得"
+    ],
+    "ja": [
+      "料理を習う",
+      "りょうりをならう",
+      "リョウリヲナラウ",
+      "りょうりえとく",
+      "リョウリエトク"
+    ],
+    "ko": [
+      "훈련 요리",
+      "훈련 밥"
+    ],
+    "lat": [
+      "train cooking",
+      "train cook",
+      "teach cooking",
+      "teach cook"
+    ]
+  },
+  "0x007D": {
+    "en": [
+      "verbergen lernen"
+    ],
+    "de": [
+      "aufspüren lernen",
+      "aufspürung lernen"
+    ],
+    "es": [
+      "entrenar detectar",
+      "entrenar detección",
+      "entrenar oculto"
+    ],
+    "fr": [
+      "former détecter",
+      "former déceler",
+      "former détection"
+    ],
+    "zh": [
+      "訓練偵察",
+      "訓練偵察術",
+      "訓練隱身",
+      "探知会得"
+    ],
+    "ja": [
+      "探知を習う",
+      "たんちをならう",
+      "タンチヲナラウ",
+      "たんちえとく",
+      "タンチエトク"
+    ],
+    "ko": [
+      "훈련 찾기",
+      "훈련 숨은 물체",
+      "훈련 숨은 물체 찾기"
+    ],
+    "lat": [
+      "train detect",
+      "train detecting hidden",
+      "train hidden",
+      "teach detect",
+      "teach detecting hidden",
+      "teach hidden"
+    ]
+  },
+  "0x007E": {
+    "en": [
+      "locken lernen"
+    ],
+    "de": [
+      "anlocken lernen"
+    ],
+    "es": [
+      "entrenar atraer",
+      "entrenar seducción",
+      "entrenar seducir"
+    ],
+    "fr": [
+      "former charmer",
+      "former séduction",
+      "former séduire"
+    ],
+    "zh": [
+      "訓練引誘",
+      "訓練引誘術",
+      "訓練引誘技能",
+      "魅了会得"
+    ],
+    "ja": [
+      "魅了を習う",
+      "みりょうをならう",
+      "ミリョユウヲナラウ",
+      "みりょうえとく",
+      "ミリョユウエトク"
+    ],
+    "ko": [
+      "훈련 유혹",
+      "훈련 유혹하기",
+      "훈련 유인"
+    ],
+    "lat": [
+      "lockung lernen",
+      "train entice",
+      "train enticement",
+      "train enticing",
+      "teach entice",
+      "teach enticement",
+      "teach enticing"
+    ]
+  },
+  "0x007F": {
+    "en": [
+      "intelligenz lernen"
+    ],
+    "de": [
+      "wertschätzen lernen",
+      "Wertschätzen über"
+    ],
+    "es": [
+      "entrenar evaluar",
+      "entrenar inteligencia"
+    ],
+    "fr": [
+      "former évaluer",
+      "former intelligence",
+      "former évaluation"
+    ],
+    "zh": [
+      "訓練估價",
+      "訓練智慧",
+      "知性評価会得"
+    ],
+    "ja": [
+      "知性評価を習う",
+      "ちせいひょうかをならう",
+      "チセイヒョウカヲナラウ",
+      "ちせいひょうかえとく",
+      "チセイヒョウカエトク"
+    ],
+    "ko": [
+      "훈련 지능지수",
+      "훈련 지능",
+      "훈련 지능 평가"
+    ],
+    "lat": [
+      "train evaluate",
+      "train intelligence",
+      "train evaluating",
+      "teach evaluate",
+      "teach intelligence",
+      "teach evaluating intelligence"
+    ]
+  },
+  "0x0080": {
+    "en": [
+      "angeln lernen"
+    ],
+    "de": [
+      "fischen lernen"
+    ],
+    "es": [
+      "entrenar pescado",
+      "entrenar pescar"
+    ],
+    "fr": [
+      "former pêcher",
+      "former pêche"
+    ],
+    "zh": [
+      "訓練釣魚",
+      "訓練釣魚技能"
+    ],
+    "ja": [
+      "釣りを習う",
+      "つりをならう",
+      "ツリヲナラウ",
+      "釣り会得",
+      "つりえとく",
+      "ツリエトク"
+    ],
+    "ko": [
+      "훈련 낚시",
+      "훈련 낚시질"
+    ],
+    "lat": [
+      "train fish",
+      "train fishing",
+      "teach fish",
+      "teach fishing"
+    ]
+  },
+  "0x0081": {
+    "en": [
+      "aufhetzen lernen"
+    ],
+    "de": [
+      "provozieren lernen"
+    ],
+    "es": [
+      "entrenar incitar",
+      "entrenar provocar",
+      "entrenar provocación",
+      "entrenar instigación"
+    ],
+    "fr": [
+      "former inciter",
+      "former provoquer",
+      "former provocation",
+      "former provocateur"
+    ],
+    "zh": [
+      "訓練挑釁",
+      "訓練挑釁術",
+      "挑発会得",
+      "扇動会得"
+    ],
+    "ja": [
+      "挑発を習う",
+      "ちょうはつをならう",
+      "チョウハツヲナラウ",
+      "ちょうはつえとく",
+      "チョウハツエトク",
+      "扇動を習う",
+      "せんどうをならう",
+      "センドウヲナラウ",
+      "せんどうえとく",
+      "センドウエトク"
+    ],
+    "ko": [
+      "훈련 도발",
+      "훈련 자극",
+      "훈련 화나게하기",
+      "훈련 도발술"
+    ],
+    "lat": [
+      "provokation lernen",
+      "train incite",
+      "train provoke",
+      "train provoking",
+      "train provocation",
+      "teach incite",
+      "teach provoke",
+      "teach provoking",
+      "teach provocation"
+    ]
+  },
+  "0x0082": {
+    "en": [
+      "schloss knacken lernen"
+    ],
+    "de": [
+      "verschließen lernen"
+    ],
+    "es": [
+      "entrenar ganzúas",
+      "entrenar cierre",
+      "entrenar abrir",
+      "entrenar cerraduras",
+      "entrenar cierres"
+    ],
+    "fr": [
+      "former crochetage",
+      "former crocheter",
+      "former crochet",
+      "former serrures"
+    ],
+    "zh": [
+      "訓練開鎖"
+    ],
+    "ja": [
+      "鍵開けを習う",
+      "かぎあけをならう",
+      "カギアケヲナラウ",
+      "鍵開け会得",
+      "かぎあけえとく",
+      "カギアケえとく"
+    ],
+    "ko": [
+      "훈련 자물쇠 따기",
+      "훈련 자물쇠",
+      "훈련 문따기",
+      "훈련 자물쇠따는법",
+      "훈련 열쇠따기"
+    ],
+    "lat": [
+      "knacken lernen",
+      "dietrich verwenden lernen",
+      "train lockpicking",
+      "train lock",
+      "train pick",
+      "train picking",
+      "train locks",
+      "teach lockpicking",
+      "teach lock",
+      "teach pick",
+      "teach picking",
+      "teach locks"
+    ]
+  },
+  "0x0083": {
+    "en": [
+      "magie lernen"
+    ],
+    "de": [
+      "zaubern lernen"
+    ],
+    "es": [
+      "entrenar magia",
+      "entrenar sortilegios",
+      "entrenar brujería",
+      "entrenar hechicería",
+      "entrenar mago",
+      "entrenar brujo"
+    ],
+    "fr": [
+      "former magie",
+      "former sortilèges",
+      "former sorcellerie",
+      "former occultisme",
+      "former magicien",
+      "former sorcier"
+    ],
+    "zh": [
+      "訓練魔法",
+      "魔法会得"
+    ],
+    "ja": [
+      "魔法を習う",
+      "まほうをならう",
+      "マホウヲナラウ",
+      "まほうえとく",
+      "マホウエトク"
+    ],
+    "ko": [
+      "훈련 마법",
+      "훈련 마술",
+      "훈련 매직",
+      "훈련 요술",
+      "훈련 마법사",
+      "훈련 마술사"
+    ],
+    "lat": [
+      "hexen lernen",
+      "zauberei lernen",
+      "train magic",
+      "train magery",
+      "train sorcery",
+      "train wizardry",
+      "train mage",
+      "train wizard",
+      "teach magic",
+      "teach magery",
+      "teach sorcery",
+      "teach wizardry",
+      "teach mage",
+      "teach wizard"
+    ]
+  },
+  "0x0084": {
+    "en": [
+      "resistenz lernen"
+    ],
+    "de": [
+      "sprüche lernen"
+    ],
+    "es": [
+      "entrenar resistir",
+      "entrenar hechizos"
+    ],
+    "fr": [
+      "former résister",
+      "former résistance",
+      "former résister sorts"
+    ],
+    "zh": [
+      "訓練抗魔",
+      "訓練抗魔技",
+      "訓練魔法",
+      "魔法抵抗会得"
+    ],
+    "ja": [
+      "魔法抵抗を習う",
+      "まほうていこうをならう",
+      "マホウテイコウヲナラウ",
+      "まほうていこうえとく",
+      "マホウテイコウエトク"
+    ],
+    "ko": [
+      "훈련 마법 저항",
+      "훈련 마술 저항",
+      "훈련 저항"
+    ],
+    "lat": [
+      "train resist",
+      "train resisting",
+      "train spells",
+      "teach resist",
+      "teach resisting spells",
+      "teach spells"
+    ]
+  },
+  "0x0085": {
+    "en": [
+      "taktik lernen"
+    ],
+    "de": [
+      "kämpfen lernen"
+    ],
+    "es": [
+      "entrenar batalla",
+      "entrenar táctica",
+      "entrenar tácticas",
+      "entrenar lucha",
+      "entrenar luchar"
+    ],
+    "fr": [
+      "former bataille",
+      "former tactique",
+      "former stratégie",
+      "former combattre",
+      "former combat"
+    ],
+    "zh": [
+      "訓練戰鬥",
+      "訓練戰技",
+      "戦術会得"
+    ],
+    "ja": [
+      "戦術を習う",
+      "せんじゅつをならう",
+      "センジュツヲナラウ",
+      "せんじゅつえとく",
+      "センジュツエトク"
+    ],
+    "ko": [
+      "훈련 전술",
+      "훈련 전법",
+      "훈련 싸움",
+      "훈련 전투",
+      "훈련 싸우기"
+    ],
+    "lat": [
+      "kampf lernen",
+      "train battle",
+      "train tactic",
+      "train tactics",
+      "train fight",
+      "train fighting",
+      "teach battle",
+      "teach tactic",
+      "teach tactics",
+      "teach fight",
+      "teach fighting"
+    ]
+  },
+  "0x0086": {
+    "en": [
+      "hervorlugen lernen"
+    ],
+    "de": [
+      "schnüffeln lernen"
+    ],
+    "es": [
+      "entrenar ojear",
+      "entrenar ojeada",
+      "entrenar fisgonear",
+      "entrenar curioseo"
+    ],
+    "fr": [
+      "former espion",
+      "former espionner",
+      "former fureter",
+      "former furetage"
+    ],
+    "zh": [
+      "訓練偷窺",
+      "訓練偷窺技"
+    ],
+    "ja": [
+      "覗きを習う",
+      "のぞきをならう",
+      "ノゾキヲナラウ",
+      "覗き会得",
+      "のぞきえとく",
+      "ノゾキエトク"
+    ],
+    "ko": [
+      "훈련 훔쳐보기",
+      "훈련 숨어서보기",
+      "훈련 스누핑",
+      "훈련 스파이"
+    ],
+    "lat": [
+      "train peek",
+      "train peeking",
+      "train snoop",
+      "train snooping",
+      "teach peek",
+      "teach peeking",
+      "teach snoop",
+      "teach snooping"
+    ]
+  },
+  "0x0087": {
+    "en": [
+      "entwaffnen lernen"
+    ],
+    "de": [
+      "entwaffnung lernen"
+    ],
+    "es": [
+      "entrenar desarmar",
+      "entrenar desarme",
+      "entrenar retirar",
+      "entrenar retirada"
+    ],
+    "fr": [
+      "former désarmer",
+      "former désamorcer",
+      "former neutraliser"
+    ],
+    "zh": [
+      "訓練消除敵意",
+      "訓練消除敵意技",
+      "訓練搬移",
+      "訓練搬移技",
+      "罠解除会得"
+    ],
+    "ja": [
+      "罠解除を習う",
+      "わなかいじょをならう",
+      "ワナカイジョヲナラウ",
+      "わなかいじょえとく",
+      "ワナカイジョエトク"
+    ],
+    "ko": [
+      "훈련 함정해제",
+      "훈련 해제",
+      "훈련 제거",
+      "훈련 함정제거"
+    ],
+    "lat": [
+      "entfernen lernen",
+      "train disarm",
+      "train disarming",
+      "train remove",
+      "train removing",
+      "teach disarm",
+      "teach disarming",
+      "teach remove",
+      "teach removing"
+    ]
+  },
+  "0x0088": {
+    "en": [
+      "spielen lernen"
+    ],
+    "de": [
+      "musikalität lernen"
+    ],
+    "es": [
+      "entrenar tocar",
+      "entrenar instrumento",
+      "entrenar música",
+      "entrenar músico",
+      "entrenar arte musical"
+    ],
+    "fr": [
+      "former jouer",
+      "former instrument",
+      "former musique",
+      "former musicien"
+    ],
+    "zh": [
+      "訓練演奏",
+      "訓練樂器",
+      "訓練演奏技",
+      "訓練音樂",
+      "訓練音樂技",
+      "楽器会得"
+    ],
+    "ja": [
+      "楽器を習う",
+      "がっきをならう",
+      "ガッキヲナラウ",
+      "がっきえとく",
+      "ガッキエトク"
+    ],
+    "ko": [
+      "훈련 음악",
+      "훈련 연주",
+      "훈련 음악연주",
+      "훈련 악기연주",
+      "훈련 음악가",
+      "훈련 뮤직"
+    ],
+    "lat": [
+      "instrument spielen lernen",
+      "musizieren lernen",
+      "musik lernen",
+      "train play",
+      "train instrument",
+      "train playing",
+      "train music",
+      "train musician",
+      "train musicianship",
+      "teach play",
+      "teach instrument",
+      "teach playing",
+      "teach music",
+      "teach musician",
+      "teach musicianship"
+    ]
+  },
+  "0x0089": {
+    "en": [
+      "vergiften lernen"
+    ],
+    "de": [
+      "train poisoning"
+    ],
+    "es": [
+      "entrenar veneno",
+      "entrenar envenenar"
+    ],
+    "fr": [
+      "former empoisonner",
+      "former poison"
+    ],
+    "zh": [
+      "訓練下毒",
+      "訓練下毒技",
+      "毒会得"
+    ],
+    "ja": [
+      "毒を習う",
+      "どくをならう",
+      "ドクヲナラウ",
+      "どくえとく",
+      "ドクえとく"
+    ],
+    "ko": [
+      "훈련 독",
+      "훈련 독바르기"
+    ],
+    "lat": [
+      "train poison",
+      "teach poisoning",
+      "teach poison"
+    ]
+  },
+  "0x008A": {
+    "en": [
+      "durchstreifen lernen"
+    ],
+    "de": [
+      "schießen lernen",
+      "bogen schießen lernen"
+    ],
+    "es": [
+      "entrenar alcance",
+      "entrenar proyectil",
+      "entrenar proyectiles",
+      "entrenar disparar",
+      "entrenar disparos",
+      "entrenar tiro al arco",
+      "entrenar arquero"
+    ],
+    "fr": [
+      "former arc",
+      "former missile",
+      "former missiles",
+      "former tir",
+      "former tirer",
+      "former arbalète",
+      "former archer"
+    ],
+    "zh": [
+      "訓練射程",
+      "訓練投射",
+      "訓練投射技",
+      "訓練射擊",
+      "訓練弓箭",
+      "訓練弓箭術"
+    ],
+    "ja": [
+      "アーチェリーを習う",
+      "あーちぇりーをならう",
+      "アーチェリーヲナラウ",
+      "アーチェリー会得",
+      "あーちぇりーえとく",
+      "アーチェリーエトク"
+    ],
+    "ko": [
+      "훈련 장거리",
+      "훈련 미사일",
+      "훈련 장거리공격",
+      "훈련 발사법",
+      "훈련 발사",
+      "훈련 궁술",
+      "훈련 궁수"
+    ],
+    "lat": [
+      "geschoss verwenden lernen",
+      "geschosse verwenden lernen",
+      "bogen verwenden lernen",
+      "train ranged",
+      "train missile",
+      "train missiles",
+      "train shoot",
+      "train shooting",
+      "train archery",
+      "train archer",
+      "teach ranged",
+      "teach missile",
+      "teach missiles",
+      "teach shoot",
+      "teach shooting",
+      "teach archery",
+      "teach archer"
+    ]
+  },
+  "0x008B": {
+    "en": [
+      "geist schulen"
+    ],
+    "de": [
+      "geist trainieren"
+    ],
+    "es": [
+      "entrenar espíritu",
+      "entrenar fanstasma",
+      "entrenar sesión espiritismo",
+      "entrenar espiritismo"
+    ],
+    "fr": [
+      "former esprit",
+      "former fantôme",
+      "former spectre",
+      "former revenant"
+    ],
+    "zh": [
+      "訓練精靈",
+      "訓練幽靈",
+      "訓練降神會",
+      "訓練招魂術",
+      "霊話会得"
+    ],
+    "ja": [
+      "霊話を習う",
+      "れいわをならう",
+      "レイワヲナラウ",
+      "れいわえとく",
+      "レイワエトク"
+    ],
+    "ko": [
+      "훈련 심령술",
+      "훈련 유령",
+      "훈련 귀신",
+      "훈련 유령대화"
+    ],
+    "lat": [
+      "seance lernen",
+      "spiritualismus lernen",
+      "train spirit",
+      "train ghost",
+      "train seance",
+      "train spiritualism",
+      "teach spirit speak",
+      "teach ghost",
+      "teach seance",
+      "teach spiritualism"
+    ]
+  },
+  "0x008C": {
+    "en": [
+      "schneidern lernen"
+    ],
+    "de": [
+      "schneiderhandwerk lernen"
+    ],
+    "es": [
+      "entrenar sastrería",
+      "entrenar sastre",
+      "entrenar pañero"
+    ],
+    "fr": [
+      "former couture",
+      "former tailleur",
+      "former confection"
+    ],
+    "zh": [
+      "訓練裁縫",
+      "訓練裁縫術",
+      "訓練製衣",
+      "裁縫会得"
+    ],
+    "ja": [
+      "裁縫を習う",
+      "さいほうをならう",
+      "サイホウヲナラウ",
+      "さいほうえとく",
+      "サイホウエトク"
+    ],
+    "ko": [
+      "훈련 재봉술",
+      "훈련 옷만들기",
+      "훈련 옷"
+    ],
+    "lat": [
+      "Schneiderei lernen",
+      "train tailoring",
+      "train tailor",
+      "train clothier",
+      "teach tailoring",
+      "teach tailor",
+      "teach clothier"
+    ]
+  },
+  "0x008D": {
+    "en": [
+      "train tame"
+    ],
+    "de": [
+      "zähmen lernen",
+      "zähmung lernen"
+    ],
+    "es": [
+      "entrenar domesticar",
+      "entrenar domar"
+    ],
+    "fr": [
+      "former dompter",
+      "former apprivoiser"
+    ],
+    "zh": [
+      "訓練馴養",
+      "訓練馴養技",
+      "調教会得"
+    ],
+    "ja": [
+      "調教を習う",
+      "ちょうきょうをならう",
+      "チョウキョウヲナラウ",
+      "ちょうきょうえとく",
+      "チョウキョウエトク"
+    ],
+    "ko": [
+      "훈련 동물 길들이기",
+      "훈련 길들이기"
+    ],
+    "lat": [
+      "train taming",
+      "teach tame",
+      "teach taming"
+    ]
+  },
+  "0x008E": {
+    "en": [
+      "schmecken lernen"
+    ],
+    "de": [
+      "geschmackssinn lernen"
+    ],
+    "es": [
+      "entrenar probar",
+      "entrenar probando"
+    ],
+    "fr": [
+      "former tester",
+      "former goûter"
+    ],
+    "zh": [
+      "訓練辨味術",
+      "訓練辨味",
+      "味見会得"
+    ],
+    "ja": [
+      "味見を習う",
+      "あじみをならう",
+      "アジミヲナラウ",
+      "あじみえとく",
+      "アジミエトク"
+    ],
+    "ko": [
+      "훈련 맛",
+      "훈련 맛감정"
+    ],
+    "lat": [
+      "train taste",
+      "train tasting",
+      "teach taste",
+      "teach tasting"
+    ]
+  },
+  "0x008F": {
+    "en": [
+      "kesselflicken lernen"
+    ],
+    "de": [
+      "kesselflickhandwerk lernen"
+    ],
+    "es": [
+      "entrenar calderero",
+      "entrenar calderería"
+    ],
+    "fr": [
+      "former bricoler",
+      "former bricolage"
+    ],
+    "zh": [
+      "訓練銲工",
+      "訓練銲工技",
+      "細工会得"
+    ],
+    "ja": [
+      "細工を習う",
+      "さいくをならう",
+      "サイクヲナラウ",
+      "さいくえとく",
+      "サイクエトク"
+    ],
+    "ko": [
+      "훈련 기계공",
+      "훈련 기계"
+    ],
+    "lat": [
+      "train tinker",
+      "train tinkering",
+      "teach tinker",
+      "teach tinkering"
+    ]
+  },
+  "0x0090": {
+    "en": [
+      "tierheilkunde lernen"
+    ],
+    "de": [
+      "tiere heilen lernen"
+    ],
+    "es": [
+      "entrenar vet",
+      "entrenar veterinario",
+      "entrenar veterinaria"
+    ],
+    "fr": [
+      "former véto",
+      "former vétérinaire"
+    ],
+    "zh": [
+      "訓練獸醫",
+      "訓練獸醫技",
+      "訓練獸醫學",
+      "獣医学会得"
+    ],
+    "ja": [
+      "獣医学を習う",
+      "じゅういがくをならう",
+      "ジュウイガクヲナラウ",
+      "じゅういがくえとく",
+      "ジュウイガクエトク"
+    ],
+    "ko": [
+      "훈련 수의사",
+      "훈련 수의학",
+      "훈련 동물치료"
+    ],
+    "lat": [
+      "train vet",
+      "train veterinarian",
+      "train veterinary",
+      "teach vet",
+      "teach veterinarian",
+      "teach veterinary"
+    ]
+  },
+  "0x0091": {
+    "en": [
+      "forensik lernen"
+    ],
+    "de": [
+      "gerichtsmedizin lernen"
+    ],
+    "es": [
+      "entrenar forense",
+      "entrenar medicina forense"
+    ],
+    "fr": [
+      "former autopsie",
+      "former dissection"
+    ],
+    "zh": [
+      "訓練辯論",
+      "訓練辯論學",
+      "検死会得"
+    ],
+    "ja": [
+      "検死を習う",
+      "けんしをならう",
+      "ケンシヲナラウ",
+      "けんしえとく",
+      "ケンシエトク"
+    ],
+    "ko": [
+      "훈련 법의학",
+      "훈련 사망원인"
+    ],
+    "lat": [
+      "train forensic",
+      "train forensics",
+      "teach forensic",
+      "teach forensics"
+    ]
+  },
+  "0x0092": {
+    "en": [
+      "train herd"
+    ],
+    "de": [
+      "schäferei lernen",
+      "schafe hüten lernen"
+    ],
+    "es": [
+      "entrenar pastorear",
+      "entrenar pastoreo"
+    ],
+    "fr": [
+      "former pâtre",
+      "former berger"
+    ],
+    "zh": [
+      "訓練放牧",
+      "訓練放牧技",
+      "牧羊会得"
+    ],
+    "ja": [
+      "牧羊を習う",
+      "ぼくようをならう",
+      "ボクヨウヲナラウ",
+      "ぼくようえとく",
+      "ボクヨウエトク"
+    ],
+    "ko": [
+      "훈련 목동술",
+      "훈련 가축"
+    ],
+    "lat": [
+      "train herding",
+      "teach herd",
+      "teach herding"
+    ]
+  },
+  "0x0093": {
+    "en": [
+      "spurensuche lernen"
+    ],
+    "de": [
+      "verfolgung lernen"
+    ],
+    "es": [
+      "entrenar rastreo",
+      "entrenar rastrear",
+      "entrenar cazar",
+      "entrenar caza"
+    ],
+    "fr": [
+      "former pistage",
+      "former traquer",
+      "former chasser",
+      "former chasse"
+    ],
+    "zh": [
+      "訓練追蹤術",
+      "訓練追蹤",
+      "訓練狩獵",
+      "訓練打獵",
+      "追跡会得"
+    ],
+    "ja": [
+      "追跡を習う",
+      "ついせきをならう",
+      "ツイセキヲナラウ",
+      "ついせきえとく",
+      "ツイセキエトク"
+    ],
+    "ko": [
+      "훈련 추적",
+      "훈련 추적하기",
+      "훈련 사냥",
+      "훈련 사냥하기"
+    ],
+    "lat": [
+      "jagen lernen",
+      "jagd lernen",
+      "train tracking",
+      "train track",
+      "train hunt",
+      "train hunting",
+      "teach tracking",
+      "teach track",
+      "teach hunt",
+      "teach hunting"
+    ]
+  },
+  "0x0094": {
+    "en": [
+      "tarnung lernen"
+    ],
+    "de": [
+      "train stealth"
+    ],
+    "es": [
+      "entrenar sigilo"
+    ],
+    "fr": [
+      "former furtivité"
+    ],
+    "zh": [
+      "訓練潛行"
+    ],
+    "ja": [
+      "ステルスを習う",
+      "すてるすをならう",
+      "ステルスヲナラウ",
+      "ステルス会得",
+      "すてるすえとく",
+      "ステルスエトク"
+    ],
+    "ko": [
+      "훈련 스텔스"
+    ],
+    "lat": [
+      "teach stealth"
+    ]
+  },
+  "0x0095": {
+    "en": [
+      "inschriftenanfertigung lernen"
+    ],
+    "de": [
+      "schriftrollenverwendung lernen"
+    ],
+    "es": [
+      "entrenar inscribir",
+      "entrenar pergamino",
+      "entrenar apuntes",
+      "entrenar inscripción"
+    ],
+    "fr": [
+      "former inscrire",
+      "former parchemin",
+      "former inscription"
+    ],
+    "zh": [
+      "訓練抄寫",
+      "訓練抄寫技",
+      "写本会得"
+    ],
+    "ja": [
+      "写本を習う",
+      "しゃほんをならう",
+      "シャホンヲナラウ",
+      "しゃほんえとく",
+      "シャホンエトク"
+    ],
+    "ko": [
+      "훈련 기록술",
+      "훈련 스크롤",
+      "훈련 마법만들기",
+      "훈련 주문서"
+    ],
+    "lat": [
+      "train inscribe",
+      "train scroll",
+      "train inscribing",
+      "train inscription",
+      "teach inscribe",
+      "teach scroll",
+      "teach inscribing",
+      "teach inscription"
+    ]
+  },
+  "0x0096": {
+    "en": [
+      "schwertverwendung lernen"
+    ],
+    "de": [
+      "schwertführung lernen"
+    ],
+    "es": [
+      "entrenar espada",
+      "entrenar espadas",
+      "entrenar acero",
+      "entrenar aceros",
+      "entrenar espadachín",
+      "entrenar esgrima"
+    ],
+    "fr": [
+      "former épée",
+      "former épées",
+      "former lame",
+      "former lames",
+      "former épéiste",
+      "former tranchant"
+    ],
+    "zh": [
+      "訓練劍術",
+      "訓練劍技"
+    ],
+    "ja": [
+      "ソードを習う",
+      "そーどをならう",
+      "ソードヲナラウ",
+      "ソード会得",
+      "そーどえとく",
+      "ソードエトク"
+    ],
+    "ko": [
+      "훈련 칼",
+      "훈련 검",
+      "훈련 소드",
+      "훈련 검술",
+      "훈련 검도",
+      "훈련 칼싸움"
+    ],
+    "lat": [
+      "schwerteinsatz lernen",
+      "klingenverwendung lernen",
+      "klingeneinsatz lernen",
+      "train sword",
+      "train swords",
+      "train blade",
+      "train blades",
+      "train swordsman",
+      "train swordsmanship",
+      "teach sword",
+      "teach swords",
+      "teach blade",
+      "teach blades",
+      "teach swordsman",
+      "teach swordsmanship"
+    ]
+  },
+  "0x0097": {
+    "en": [
+      "streitkolbenverwendung lernen"
+    ],
+    "de": [
+      "schlägerverwendung lernen",
+      "schlägereinsatz lernen"
+    ],
+    "es": [
+      "entrenar garrote",
+      "entrenar garrotes",
+      "entrenar maza",
+      "entrenar mazas"
+    ],
+    "fr": [
+      "former gourdin",
+      "former gourdins",
+      "former masse",
+      "former masses"
+    ],
+    "zh": [
+      "訓練棍技",
+      "訓練鎚",
+      "訓練鎚技"
+    ],
+    "ja": [
+      "メイスを習う",
+      "めいすをならう",
+      "メイスヲナラウ",
+      "メイス会得",
+      "めいすえとく",
+      "メイスエトク"
+    ],
+    "ko": [
+      "훈련 몽둥이",
+      "훈련 방망이",
+      "훈련 철퇴",
+      "훈련 메이스"
+    ],
+    "lat": [
+      "streitkolbeneinsatz lernen",
+      "train club",
+      "train clubs",
+      "train mace",
+      "train maces",
+      "teach club",
+      "teach clubs",
+      "teach mace",
+      "teach maces"
+    ]
+  },
+  "0x0098": {
+    "en": [
+      "dolcheinsatz lernen"
+    ],
+    "de": [
+      "dolchverwendung lernen"
+    ],
+    "es": [
+      "entrenar daga",
+      "entrenar dagas",
+      "entrenar esgrima",
+      "entrenar hacer esgrima",
+      "entrenar lanzar"
+    ],
+    "fr": [
+      "former dague",
+      "former dagues",
+      "former escrime",
+      "former perforant",
+      "former lance"
+    ],
+    "zh": [
+      "訓練匕首",
+      "訓練擊劍術",
+      "訓練擊劍",
+      "訓練茅"
+    ],
+    "ja": [
+      "フェンシングを習う",
+      "ふぇんしんぐをならう",
+      "フェンシングヲナラウ",
+      "フェンシング会得",
+      "ふぇんしんぐえとく",
+      "フェンシングエトク"
+    ],
+    "ko": [
+      "훈련 단검",
+      "훈련 스피어",
+      "훈련 펜싱",
+      "훈련 찌르기",
+      "훈련 창"
+    ],
+    "lat": [
+      "fechtkunst lernen",
+      "fechten lernen",
+      "speerwurf lernen",
+      "train dagger",
+      "train daggers",
+      "train fence",
+      "train fencing",
+      "train spear",
+      "teach dagger",
+      "teach daggers",
+      "teach fence",
+      "teach fencing",
+      "teach spear"
+    ]
+  },
+  "0x0099": {
+    "en": [
+      "faustkampf lernen"
+    ],
+    "de": [
+      "ringen lernen"
+    ],
+    "es": [
+      "entrenar mano",
+      "entrenar lucha",
+      "entrenar luchar"
+    ],
+    "fr": [
+      "former poing",
+      "former lutte",
+      "former lutteur"
+    ],
+    "zh": [
+      "徒手訓練",
+      "訓練搏擊",
+      "訓練徒手戰鬥"
+    ],
+    "ja": [
+      "レスリングを習う",
+      "れすりんぐをならう",
+      "レスリングヲナラウ"
+    ],
+    "ko": [
+      "훈련 손",
+      "훈련 레슬링",
+      "훈련 맨손싸움"
+    ],
+    "lat": [
+      "ringkunst lernen",
+      "train hand",
+      "train wrestle",
+      "train wrestling",
+      "teach hand",
+      "teach wrestle",
+      "teach wrestling"
+    ]
+  },
+  "0x009A": {
+    "en": [
+      "holzhacken lernen"
+    ],
+    "de": [
+      "holzfällerei lernen",
+      "holzfällen lernen"
+    ],
+    "es": [
+      "entrenar leñador",
+      "entrenar arte leñador",
+      "entrenar cortar leña"
+    ],
+    "fr": [
+      "former coupe",
+      "former bûcheron",
+      "former bois"
+    ],
+    "zh": [
+      "訓練劈材",
+      "訓練砍材",
+      "訓練砍樹",
+      "伐採会得"
+    ],
+    "ja": [
+      "伐採を習う",
+      "ばっさいをならう",
+      "バッサイヲナラウ",
+      "ばっさいえとく",
+      "バッサイエトク"
+    ],
+    "ko": [
+      "훈련 나무",
+      "훈련 나무하기",
+      "훈련 나뭇꾼"
+    ],
+    "lat": [
+      "train lumberjack",
+      "train lumberjacking",
+      "train woodcutting",
+      "teach lumberjack",
+      "teach lumberjacking",
+      "teach woodcutting"
+    ]
+  },
+  "0x009B": {
+    "en": [
+      "erzabbau lernen"
+    ],
+    "de": [
+      "erzabbauen lernen"
+    ],
+    "es": [
+      "entrenar minería",
+      "entrenar extraer de minas",
+      "entrenar fundir"
+    ],
+    "fr": [
+      "former excavation",
+      "former mineur",
+      "former fonderie"
+    ],
+    "zh": [
+      "訓練採礦",
+      "訓練礦工",
+      "訓練熔鐵",
+      "採掘会得"
+    ],
+    "ja": [
+      "採掘を習う",
+      "さいくつをならう",
+      "サイクツヲナラウ",
+      "さいくつえとく",
+      "サイクツエトク"
+    ],
+    "ko": [
+      "훈련 광부",
+      "훈련 광산",
+      "훈련 채광"
+    ],
+    "lat": [
+      "schmelzerei lernen",
+      "train mining",
+      "train mine",
+      "train smelt",
+      "teach mining",
+      "teach mine",
+      "teach smelt"
+    ]
+  },
+  "0x009C": {
+    "en": [
+      "meditation lernen"
+    ],
+    "de": [
+      "meditieren lernen"
+    ],
+    "es": [
+      "entrenar meditación",
+      "entrenar meditar"
+    ],
+    "fr": [
+      "former méditation",
+      "former méditer"
+    ],
+    "zh": [
+      "訓練冥想",
+      "訓練冥思",
+      "瞑想会得"
+    ],
+    "ja": [
+      "瞑想を習う",
+      "めいそうをならう",
+      "メイソウヲナラウ",
+      "めいそうえとく",
+      "メイソウエトク"
+    ],
+    "ko": [
+      "훈련 명상",
+      "훈련 명상하기"
+    ],
+    "lat": [
+      "train meditation",
+      "train meditate",
+      "teach meditation",
+      "teach meditate"
+    ]
+  },
+  "0x009D": {
+    "en": [
+      "bewegen"
+    ],
+    "fr": [
+      "déplacer"
+    ],
+    "zh": [
+      "移動"
+    ],
+    "ja": [
+      "いどう",
+      "イドウ"
+    ],
+    "ko": [
+      "이동"
+    ],
+    "lat": [
+      "move",
+      "mover"
+    ]
+  },
+  "0x009E": {
+    "en": [
+      "time"
+    ],
+    "zh": [
+      "時間",
+      "時刻"
+    ],
+    "ja": [
+      "じこく",
+      "ジコク"
+    ],
+    "ko": [
+      "시간"
+    ],
+    "lat": [
+      "zeit",
+      "tiempo",
+      "heure"
+    ]
+  },
+  "0x009F": {
+    "en": [
+      "where is the shrine"
+    ],
+    "de": [
+      "wo ist der schrein"
+    ],
+    "es": [
+      "dónde está el relicario"
+    ],
+    "fr": [
+      "où est le calvaire"
+    ],
+    "zh": [
+      "神殿在哪裡"
+    ],
+    "ja": [
+      "神殿はどこ",
+      "しんでんはどこ",
+      "シンデンハドコ"
+    ],
+    "ko": [
+      "신전 어디"
+    ]
+  },
+  "0x00A0": {
+    "en": [
+      "where is abbey"
+    ],
+    "de": [
+      "wo ist die abtei",
+      "wo ist empath"
+    ],
+    "es": [
+      "dónde está abadía",
+      "dónde está empath"
+    ],
+    "fr": [
+      "où est l'abbaye",
+      "où est empath"
+    ],
+    "zh": [
+      "修道院在哪裡",
+      "尹佩斯城在哪裡"
+    ],
+    "ja": [
+      "寺院はどこ",
+      "じいんはどこ",
+      "ジインハドコ",
+      "えんぱすはどこ",
+      "エンパスハドコ",
+      "エンパスはどこ"
+    ],
+    "ko": [
+      "수도원 어디",
+      "엠파스 어디"
+    ],
+    "lat": [
+      "where is empath"
+    ]
+  },
+  "0x00A1": {
+    "en": [
+      "where is britain"
+    ],
+    "de": [
+      "wo ist britain"
+    ],
+    "es": [
+      "dónde está britain"
+    ],
+    "fr": [
+      "où est britain"
+    ],
+    "zh": [
+      "不列顛城在哪裡"
+    ],
+    "ja": [
+      "ぶりていんはどこ",
+      "ブリテインハドコ",
+      "ブリテインはどこ"
+    ],
+    "ko": [
+      "브리튼 어디"
+    ]
+  },
+  "0x00A2": {
+    "en": [
+      "where is buccaneer"
+    ],
+    "de": [
+      "wo ist buccaneer",
+      "wo ist den"
+    ],
+    "es": [
+      "dónde está bucanero",
+      "dónde está antro"
+    ],
+    "fr": [
+      "où est buccaneer",
+      "où est den"
+    ],
+    "zh": [
+      "海盜在哪裡",
+      "海盜窩在哪裡"
+    ],
+    "ja": [
+      "ばっかにあーはどこ",
+      "バッカニアーハドコ",
+      "バッカニアーはどこ",
+      "でんはどこ",
+      "デンハドコ",
+      "デンはどこ"
+    ],
+    "ko": [
+      "부캐니어스 어디",
+      "덴 어디"
+    ],
+    "lat": [
+      "where is den"
+    ]
+  },
+  "0x00A3": {
+    "en": [
+      "where is jhelom"
+    ],
+    "de": [
+      "wo ist jhelom"
+    ],
+    "es": [
+      "dónde está jhelom"
+    ],
+    "fr": [
+      "où est jhelom"
+    ],
+    "zh": [
+      "捷南城在哪裡"
+    ],
+    "ja": [
+      "じぇろーむはどこ",
+      "ジェロームハドコ",
+      "ジェロームはどこ"
+    ],
+    "ko": [
+      "젤롬 어디"
+    ]
+  },
+  "0x00A4": {
+    "en": [
+      "where is magincia"
+    ],
+    "de": [
+      "wo ist magincia"
+    ],
+    "es": [
+      "dónde está magincia"
+    ],
+    "fr": [
+      "où est magincia"
+    ],
+    "zh": [
+      "美吉尼西亞城在哪裡"
+    ],
+    "ja": [
+      "まじんしあはどこ",
+      "マジンシアハドコ",
+      "マジンシアはどこ"
+    ],
+    "ko": [
+      "매진시아 어디"
+    ]
+  },
+  "0x00A5": {
+    "en": [
+      "where is vesper"
+    ],
+    "de": [
+      "wo ist vesper"
+    ],
+    "es": [
+      "dónde está vesper"
+    ],
+    "fr": [
+      "où est vesper"
+    ],
+    "zh": [
+      "韋士伯城在哪裡"
+    ],
+    "ja": [
+      "べすぱーはどこ",
+      "ベスパーハドコ",
+      "ベスパーはどこ"
+    ],
+    "ko": [
+      "베스퍼 어디"
+    ]
+  },
+  "0x00A6": {
+    "en": [
+      "where is minoc"
+    ],
+    "de": [
+      "wo ist minoc"
+    ],
+    "es": [
+      "dónde está minoc"
+    ],
+    "fr": [
+      "où est minoc"
+    ],
+    "zh": [
+      "麥諾克城在哪裡"
+    ],
+    "ja": [
+      "みのっくはどこ",
+      "ミノックハドコ",
+      "ミノックはどこ"
+    ],
+    "ko": [
+      "미녹 어디"
+    ]
+  },
+  "0x00A7": {
+    "en": [
+      "where is moonglow"
+    ],
+    "de": [
+      "wo ist moonglow"
+    ],
+    "es": [
+      "dónde está moonglow"
+    ],
+    "fr": [
+      "où est moonglow"
+    ],
+    "zh": [
+      "月城在哪裡"
+    ],
+    "ja": [
+      "むーんぐろーはどこ",
+      "ムーングローハドコ",
+      "ムーングローはどこ"
+    ],
+    "ko": [
+      "문글로우 어디"
+    ]
+  },
+  "0x00A8": {
+    "en": [
+      "where is nujel"
+    ],
+    "de": [
+      "wo ist nujel"
+    ],
+    "es": [
+      "dónde está nujel"
+    ],
+    "fr": [
+      "où est nujel"
+    ],
+    "zh": [
+      "奴澤恩城在哪裡"
+    ],
+    "ja": [
+      "にゅじゅるむはどこ",
+      "ニュジェルムハドコ",
+      "ニュジェルムはどこ"
+    ],
+    "ko": [
+      "누젤름 어디"
+    ]
+  },
+  "0x00A9": {
+    "en": [
+      "where is ocllo"
+    ],
+    "de": [
+      "wo ist ocllo"
+    ],
+    "es": [
+      "dónde está ocllo"
+    ],
+    "fr": [
+      "où est ocllo"
+    ],
+    "zh": [
+      "奧克羅城在哪裡"
+    ],
+    "ja": [
+      "おくろーはどこ",
+      "オクローハドコ",
+      "オクローはどこ"
+    ],
+    "ko": [
+      "오클로 어디"
+    ]
+  },
+  "0x00AA": {
+    "en": [
+      "where is serpent"
+    ],
+    "de": [
+      "wo ist serpent"
+    ],
+    "es": [
+      "dónde está serpent"
+    ],
+    "fr": [
+      "où est serpent"
+    ],
+    "zh": [
+      "毒蛇城在哪裡"
+    ],
+    "ja": [
+      "さーぺんとはどこ",
+      "サーペントハドコ",
+      "サーペントはどこ"
+    ],
+    "ko": [
+      "서펜트 어디"
+    ]
+  },
+  "0x00AB": {
+    "en": [
+      "where is skara"
+    ],
+    "de": [
+      "wo ist skara"
+    ],
+    "es": [
+      "dónde está skara"
+    ],
+    "fr": [
+      "où est skara"
+    ],
+    "zh": [
+      "史卡拉城在哪裡"
+    ],
+    "ja": [
+      "すからはどこ",
+      "スカラハドコ",
+      "スカラはどこ"
+    ],
+    "ko": [
+      "스카라 어디"
+    ]
+  },
+  "0x00AC": {
+    "en": [
+      "where is trinsic"
+    ],
+    "de": [
+      "wo ist trinsic"
+    ],
+    "es": [
+      "dónde está trinsic"
+    ],
+    "fr": [
+      "où est trinsic"
+    ],
+    "zh": [
+      "崔林西克城在哪裡"
+    ],
+    "ja": [
+      "とりんしっくはどこ",
+      "トリンシックハドコ"
+    ],
+    "ko": [
+      "트린식 어디"
+    ]
+  },
+  "0x00AD": {
+    "en": [
+      "where is yew"
+    ],
+    "de": [
+      "wo ist yew"
+    ],
+    "es": [
+      "dónde está yew"
+    ],
+    "fr": [
+      "où est yew"
+    ],
+    "zh": [
+      "猶城在哪裡"
+    ],
+    "ja": [
+      "ユーはどこ",
+      "ゆーはどこ",
+      "ユーハドコ"
+    ],
+    "ko": [
+      "유 어디"
+    ]
+  },
+  "0x00AE": {
+    "en": [
+      "where is cove"
+    ],
+    "de": [
+      "wo ist cove"
+    ],
+    "es": [
+      "dónde está cove"
+    ],
+    "fr": [
+      "où est cove"
+    ],
+    "zh": [
+      "寇夫城在哪裡"
+    ],
+    "ja": [
+      "こーぶはどこ",
+      "コーブハドコ",
+      "コーブはどこ"
+    ],
+    "ko": [
+      "코브 어디"
+    ]
+  },
+  "0x00AF": {
+    "en": [
+      "where is the woodworker"
+    ],
+    "de": [
+      "wo ist der holzarbeiter"
+    ],
+    "es": [
+      "dónde está el carpintero"
+    ],
+    "fr": [
+      "où est le menuisier"
+    ],
+    "zh": [
+      "木工在哪裡"
+    ],
+    "ja": [
+      "大工はどこ",
+      "だいくはどこ",
+      "ダイクハドコ"
+    ],
+    "ko": [
+      "목공 어디"
+    ]
+  },
+  "0x00B0": {
+    "en": [
+      "where is the alchemist"
+    ],
+    "de": [
+      "wo ist der alchimist"
+    ],
+    "es": [
+      "dónde está el alquimista"
+    ],
+    "fr": [
+      "où est l'alchimiste"
+    ],
+    "zh": [
+      "煉金術士在哪裡"
+    ],
+    "ja": [
+      "錬金術師はどこ",
+      "れんきんじゅつしはどこ",
+      "レンキンジュツシハドコ"
+    ],
+    "ko": [
+      "연금술사 어디"
+    ]
+  },
+  "0x00B1": {
+    "en": [
+      "where is the animal"
+    ],
+    "de": [
+      "wo ist das tier"
+    ],
+    "es": [
+      "dónde está el animal"
+    ],
+    "fr": [
+      "où est l'animal"
+    ],
+    "zh": [
+      "動物在哪裡"
+    ],
+    "ja": [
+      "動物はどこ",
+      "どうぶつはどこ",
+      "ドウブツハドコ"
+    ],
+    "ko": [
+      "동물 어디"
+    ]
+  },
+  "0x00B2": {
+    "en": [
+      "where is the armorer"
+    ],
+    "de": [
+      "wo ist der waffenschmied"
+    ],
+    "es": [
+      "dónde está el armero"
+    ],
+    "fr": [
+      "où est l'armurier"
+    ],
+    "zh": [
+      "防具鑄造師在哪裡"
+    ],
+    "ja": [
+      "防具屋はどこ",
+      "ぼうぐやはどこ",
+      "ボウグヤハドコ"
+    ],
+    "ko": [
+      "갑옷상점 어디"
+    ]
+  },
+  "0x00B3": {
+    "en": [
+      "where is the artisan"
+    ],
+    "de": [
+      "wo ist der bauer"
+    ],
+    "es": [
+      "dónde está el artesano"
+    ],
+    "fr": [
+      "où est l'artisan"
+    ],
+    "zh": [
+      "工匠在哪裡"
+    ],
+    "ja": [
+      "職人はどこ",
+      "しょくにんはどこ",
+      "ショクニンハドコ"
+    ],
+    "ko": [
+      "장인 어디"
+    ]
+  },
+  "0x00B4": {
+    "en": [
+      "where is the baker"
+    ],
+    "de": [
+      "wo ist der bäcker"
+    ],
+    "es": [
+      "dónde está el banquero"
+    ],
+    "fr": [
+      "où est le boulanger"
+    ],
+    "zh": [
+      "麵包師傅在哪裡"
+    ],
+    "ja": [
+      "パン屋はどこ",
+      "ぱんやはどこ",
+      "パンヤハドコ"
+    ],
+    "ko": [
+      "빵집 어디"
+    ]
+  },
+  "0x00B5": {
+    "en": [
+      "where is the bank"
+    ],
+    "de": [
+      "wo ist die bank"
+    ],
+    "es": [
+      "dónde está el banco"
+    ],
+    "fr": [
+      "où est la banque"
+    ],
+    "zh": [
+      "銀行在哪裡"
+    ],
+    "ja": [
+      "銀行はどこ",
+      "ぎんこうはどこ",
+      "ギンコウハドコ"
+    ],
+    "ko": [
+      "은행 어디"
+    ]
+  },
+  "0x00B6": {
+    "en": [
+      "where is the bard"
+    ],
+    "de": [
+      "wo ist der barde"
+    ],
+    "es": [
+      "dónde está el bardo"
+    ],
+    "fr": [
+      "où est le ménestrel"
+    ],
+    "zh": [
+      "吟遊詩人在哪裡"
+    ],
+    "ja": [
+      "音楽家はどこ",
+      "おんがくかはどこ",
+      "オンガクカハドコ"
+    ],
+    "ko": [
+      "음유시인 어디"
+    ]
+  },
+  "0x00B7": {
+    "en": [
+      "where is the bath"
+    ],
+    "de": [
+      "wo ist das bad"
+    ],
+    "es": [
+      "dónde está el baño"
+    ],
+    "fr": [
+      "où sont les bains"
+    ],
+    "zh": [
+      "澡堂在哪裡"
+    ],
+    "ja": [
+      "風呂はどこ",
+      "ふろはどこ",
+      "フロハドコ"
+    ],
+    "ko": [
+      "목욕탕 어디"
+    ]
+  },
+  "0x00B8": {
+    "en": [
+      "where is the beekeeper"
+    ],
+    "de": [
+      "wo ist der imker"
+    ],
+    "es": [
+      "dónde está el apicultor"
+    ],
+    "fr": [
+      "où est l'apiculteur"
+    ],
+    "zh": [
+      "養蜂人家在哪裡"
+    ],
+    "ja": [
+      "養蜂師はどこ",
+      "ようほうしはどこ",
+      "ヨウホウシハドコ"
+    ],
+    "ko": [
+      "양봉가 어디"
+    ]
+  },
+  "0x00B9": {
+    "en": [
+      "where is the smith"
+    ],
+    "de": [
+      "wo ist der schmied"
+    ],
+    "es": [
+      "dónde está el herrero"
+    ],
+    "fr": [
+      "où est le forgeron"
+    ],
+    "zh": [
+      "鐵匠在哪裡"
+    ],
+    "ja": [
+      "鍛冶屋はどこ",
+      "かじやはどこ",
+      "カジヤハドコ"
+    ],
+    "ko": [
+      "대장장이 어디"
+    ]
+  },
+  "0x00BA": {
+    "en": [
+      "where is the blackthorn"
+    ],
+    "de": [
+      "wo ist der schwarzdorn"
+    ],
+    "es": [
+      "dónde está el blackthorn"
+    ],
+    "fr": [
+      "où est blackthorn"
+    ],
+    "zh": [
+      "布雷克王在哪裡"
+    ],
+    "ja": [
+      "ブラックソーンはどこ",
+      "ぶらっくそーんはどこ",
+      "ブラックソーンハドコ"
+    ],
+    "ko": [
+      "블랙쏜 어디"
+    ]
+  },
+  "0x00BB": {
+    "en": [
+      "where is the bowyer"
+    ],
+    "de": [
+      "wo ist der bogenmacher"
+    ],
+    "es": [
+      "dónde está el arquero"
+    ],
+    "fr": [
+      "où est le fabricant d'arcs"
+    ],
+    "zh": [
+      "製弓匠在哪裡"
+    ],
+    "ja": [
+      "弓屋はどこ",
+      "ゆみやはどこ",
+      "ユミヤハドコ"
+    ],
+    "ko": [
+      "활상인 어디"
+    ]
+  },
+  "0x00BC": {
+    "en": [
+      "where is the butcher"
+    ],
+    "de": [
+      "wo ist der schlachter"
+    ],
+    "es": [
+      "dónde está el carnicero"
+    ],
+    "fr": [
+      "où est le boucher"
+    ],
+    "zh": [
+      "屠夫在哪裡"
+    ],
+    "ja": [
+      "肉屋はどこ",
+      "にくやはどこ",
+      "ニクヤハドコ"
+    ],
+    "ko": [
+      "푸줏간 어디"
+    ]
+  },
+  "0x00BD": {
+    "en": [
+      "where is the carpenter"
+    ],
+    "de": [
+      "wo ist der zimmermann"
+    ],
+    "es": [
+      "dónde está el carpintero"
+    ],
+    "fr": [
+      "où est le charpentier"
+    ],
+    "zh": [
+      "木匠在哪裡"
+    ],
+    "ja": [
+      "大工はどこ",
+      "だいくはどこ",
+      "ダイクハドコ"
+    ],
+    "ko": [
+      "목수 어디"
+    ]
+  },
+  "0x00BE": {
+    "en": [
+      "where is the casino"
+    ],
+    "de": [
+      "wo ist das kasino"
+    ],
+    "es": [
+      "dónde está el casino"
+    ],
+    "fr": [
+      "où est le casino"
+    ],
+    "zh": [
+      "賭場在哪裡"
+    ],
+    "ja": [
+      "カジノはどこ",
+      "かじのはどこ",
+      "カジノハドコ"
+    ],
+    "ko": [
+      "카지노 어디"
+    ]
+  },
+  "0x00BF": {
+    "en": [
+      "where is the cemetery"
+    ],
+    "de": [
+      "wo ist der friedhof"
+    ],
+    "es": [
+      "dónde está el cementerio"
+    ],
+    "fr": [
+      "où est le cimetière"
+    ],
+    "zh": [
+      "公墓在哪裡"
+    ],
+    "ja": [
+      "墓場はどこ",
+      "はかばはどこ",
+      "ハカバハドコ"
+    ],
+    "ko": [
+      "묘지 어디"
+    ]
+  },
+  "0x00C0": {
+    "en": [
+      "where is the clothier"
+    ],
+    "de": [
+      "wo ist der kleiderladen"
+    ],
+    "es": [
+      "dónde está el pañero"
+    ],
+    "fr": [
+      "où est le fripier"
+    ],
+    "zh": [
+      "服飾店在哪裡"
+    ],
+    "ja": [
+      "裁縫屋はどこ",
+      "さいほうやはどこ",
+      "サイホウヤハドコ"
+    ],
+    "ko": [
+      "옷가게 어디"
+    ]
+  },
+  "0x00C1": {
+    "en": [
+      "where is the cobbler"
+    ],
+    "de": [
+      "wo ist der schuster"
+    ],
+    "es": [
+      "dónde está el zapatero"
+    ],
+    "fr": [
+      "où est le cordonnier"
+    ],
+    "zh": [
+      "製鞋匠在哪裡"
+    ],
+    "ja": [
+      "革屋はどこ",
+      "かわやはどこ",
+      "カワヤハドコ"
+    ],
+    "ko": [
+      "구두집 어디"
+    ]
+  },
+  "0x00C2": {
+    "en": [
+      "where is the court"
+    ],
+    "de": [
+      "wo ist der hof"
+    ],
+    "es": [
+      "dónde está la corte"
+    ],
+    "fr": [
+      "où est le tribunal"
+    ],
+    "zh": [
+      "法院在哪裡"
+    ],
+    "ja": [
+      "裁判所はどこ",
+      "さいばんしょはどこ",
+      "サイバンショハドコ"
+    ],
+    "ko": [
+      "법원 어디"
+    ]
+  },
+  "0x00C3": {
+    "en": [
+      "where is the customs"
+    ],
+    "de": [
+      "wo ist der zoll"
+    ],
+    "es": [
+      "dónde está la aduana"
+    ],
+    "fr": [
+      "où est la douane"
+    ],
+    "zh": [
+      "海關在哪裡"
+    ],
+    "ja": [
+      "税関はどこ",
+      "ぜいかんはどこ",
+      "ゼイカンハドコ"
+    ],
+    "ko": [
+      "세관 어디"
+    ]
+  },
+  "0x00C4": {
+    "en": [
+      "where is the dock"
+    ],
+    "de": [
+      "wo ist die anlegestelle"
+    ],
+    "es": [
+      "dónde está el puerto"
+    ],
+    "fr": [
+      "où est le port"
+    ],
+    "zh": [
+      "碼頭在哪裡"
+    ],
+    "ja": [
+      "ドックはどこ",
+      "どっくはどこ",
+      "ドックハドコ"
+    ],
+    "ko": [
+      "부두 어디"
+    ]
+  },
+  "0x00C5": {
+    "en": [
+      "where is the duel"
+    ],
+    "de": [
+      "wo ist das duell"
+    ],
+    "es": [
+      "dónde está el duelo"
+    ],
+    "fr": [
+      "où est le duel"
+    ],
+    "zh": [
+      "決鬥場在哪裡"
+    ],
+    "ja": [
+      "闘技場はどこ",
+      "とうぎじょうはどこ",
+      "トウギジョウハドコ"
+    ],
+    "ko": [
+      "결투장 어디"
+    ]
+  },
+  "0x00C6": {
+    "en": [
+      "where is the farm"
+    ],
+    "de": [
+      "wo ist die farm"
+    ],
+    "es": [
+      "dónde está la granja"
+    ],
+    "fr": [
+      "où est la ferme"
+    ],
+    "zh": [
+      "農場在哪裡"
+    ],
+    "ja": [
+      "農場はどこ",
+      "のうじょうはどこ",
+      "ノウジョウハドコ"
+    ],
+    "ko": [
+      "농장 어디"
+    ]
+  },
+  "0x00C7": {
+    "en": [
+      "where is the fish"
+    ],
+    "de": [
+      "wo ist der fisch"
+    ],
+    "es": [
+      "dónde está el pescado"
+    ],
+    "fr": [
+      "où est le poisson"
+    ],
+    "zh": [
+      "漁夫在哪裡"
+    ],
+    "ja": [
+      "魚屋はどこ",
+      "さかなやはどこ",
+      "サカナヤハドコ"
+    ],
+    "ko": [
+      "물고기 어디"
+    ]
+  },
+  "0x00C8": {
+    "en": [
+      "where is the glassblower"
+    ],
+    "de": [
+      "wo ist der glasbläser"
+    ],
+    "es": [
+      "dónde está el soplador de vidrio"
+    ],
+    "fr": [
+      "où est le souffleur de verre"
+    ],
+    "zh": [
+      "吹玻璃人在哪裡"
+    ],
+    "ja": [
+      "ガラス拭きはどこ",
+      "がらすふきはどこ",
+      "ガラスフキハドコ"
+    ],
+    "ko": [
+      "유리세공인 어디"
+    ]
+  },
+  "0x00C9": {
+    "en": [
+      "where is the gypsy"
+    ],
+    "de": [
+      "wo ist der zigeuner"
+    ],
+    "es": [
+      "dónde está el gitano"
+    ],
+    "fr": [
+      "où est la gitane"
+    ],
+    "zh": [
+      "吉普賽人在哪裡"
+    ],
+    "ja": [
+      "ジプシーはどこ",
+      "じぷしーはどこ",
+      "ジプシーハドコ"
+    ],
+    "ko": [
+      "집시 어디"
+    ]
+  },
+  "0x00CA": {
+    "en": [
+      "where is the healer"
+    ],
+    "de": [
+      "wo ist der heiler"
+    ],
+    "es": [
+      "dónde está el sanador"
+    ],
+    "fr": [
+      "où est le guérisseur"
+    ],
+    "zh": [
+      "治療師在哪裡"
+    ],
+    "ja": [
+      "ヒーラーはどこ",
+      "ひーらーはどこ",
+      "ヒーラーハドコ"
+    ],
+    "ko": [
+      "치료사 어디"
+    ]
+  },
+  "0x00CB": {
+    "en": [
+      "where is the herbalist"
+    ],
+    "de": [
+      "wo ist der kräutersucher"
+    ],
+    "es": [
+      "dónde está el herbolario"
+    ],
+    "fr": [
+      "où est l'herboriste"
+    ],
+    "zh": [
+      "草藥經營者在哪裡"
+    ],
+    "ja": [
+      "薬草屋はどこ",
+      "やくそうやはどこ",
+      "ヤクソウヤハドコ"
+    ],
+    "ko": [
+      "약초학자 어디"
+    ]
+  },
+  "0x00CC": {
+    "en": [
+      "where is the inn"
+    ],
+    "de": [
+      "wo ist die taverne",
+      "wo ist die herberge"
+    ],
+    "es": [
+      "dónde está la taberna",
+      "dónde está el hostal"
+    ],
+    "fr": [
+      "où est l'auberge",
+      "où est l'hôtel"
+    ],
+    "zh": [
+      "客棧在哪裡",
+      "青年旅社在哪裡"
+    ],
+    "ja": [
+      "宿屋はどこ",
+      "やどやはどこ",
+      "ヤドヤハドコ",
+      "ユースホステルはどこ",
+      "ゆーすほすてるはどこ",
+      "ユースホステルハドコ"
+    ],
+    "ko": [
+      "여관 어디",
+      "여인숙 어디"
+    ],
+    "lat": [
+      "where is the hostel"
+    ]
+  },
+  "0x00CD": {
+    "en": [
+      "where is the jail"
+    ],
+    "de": [
+      "wo ist das gefängnis"
+    ],
+    "es": [
+      "dónde está la cárcel"
+    ],
+    "fr": [
+      "où est la prison"
+    ],
+    "zh": [
+      "監獄在哪裡"
+    ],
+    "ja": [
+      "牢獄はどこ",
+      "ろうごくはどこ",
+      "ロウゴクハドコ"
+    ],
+    "ko": [
+      "감옥 어디"
+    ]
+  },
+  "0x00CE": {
+    "en": [
+      "where is the jeweler"
+    ],
+    "de": [
+      "wo ist der juwelier"
+    ],
+    "es": [
+      "dónde está el joyero"
+    ],
+    "fr": [
+      "où est le joaillier"
+    ],
+    "zh": [
+      "珠寶商在哪裡"
+    ],
+    "ja": [
+      "宝石屋はどこ",
+      "ほうせきやはどこ",
+      "ホウセキヤハドコ"
+    ],
+    "ko": [
+      "보석상 어디"
+    ]
+  },
+  "0x00CF": {
+    "en": [
+      "where is the castle"
+    ],
+    "de": [
+      "wo ist das schloss"
+    ],
+    "es": [
+      "dónde está el castillo"
+    ],
+    "fr": [
+      "où est le château"
+    ],
+    "zh": [
+      "城堡在哪裡"
+    ],
+    "ja": [
+      "城はどこ",
+      "しろはどこ",
+      "シロハドコ"
+    ],
+    "ko": [
+      "성 어디"
+    ]
+  },
+  "0x00D0": {
+    "en": [
+      "where is the library"
+    ],
+    "de": [
+      "wo ist die bibliothek"
+    ],
+    "es": [
+      "dónde está la bilioteca"
+    ],
+    "fr": [
+      "où est la bibliothèque"
+    ],
+    "zh": [
+      "圖書館在哪裡"
+    ],
+    "ja": [
+      "図書館はどこ",
+      "としょかんはどこ",
+      "トショカンハドコ"
+    ],
+    "ko": [
+      "도서관 어디"
+    ]
+  },
+  "0x00D1": {
+    "en": [
+      "where is the lighthouse"
+    ],
+    "de": [
+      "wo ist der leuchtturm"
+    ],
+    "es": [
+      "dónde está el faro"
+    ],
+    "fr": [
+      "où est le phare"
+    ],
+    "zh": [
+      "燈塔在哪裡"
+    ],
+    "ja": [
+      "灯台はどこ",
+      "とうだいはどこ",
+      "トウダイハドコ"
+    ],
+    "ko": [
+      "등대 어디"
+    ]
+  },
+  "0x00D2": {
+    "en": [
+      "where is the mage"
+    ],
+    "de": [
+      "wo ist der magier"
+    ],
+    "es": [
+      "dónde está el mago"
+    ],
+    "fr": [
+      "où est le mage"
+    ],
+    "zh": [
+      "魔法師在哪裡"
+    ],
+    "ja": [
+      "魔法使いはどこ",
+      "まほうつかいはどこ",
+      "マホウツカイハドコ"
+    ],
+    "ko": [
+      "마법사 어디"
+    ]
+  },
+  "0x00D3": {
+    "en": [
+      "where is the magic"
+    ],
+    "de": [
+      "wo ist die magierin"
+    ],
+    "es": [
+      "dónde está la magia"
+    ],
+    "fr": [
+      "où est la magie"
+    ],
+    "zh": [
+      "魔法師在哪裡"
+    ],
+    "ja": [
+      "魔法屋はどこ",
+      "まほうやはどこ",
+      "マホウヤハドコ"
+    ],
+    "ko": [
+      "마법 어디"
+    ]
+  },
+  "0x00D4": {
+    "en": [
+      "where is the merchant"
+    ],
+    "de": [
+      "wo ist der händler"
+    ],
+    "es": [
+      "dónde está el mercader"
+    ],
+    "fr": [
+      "où est le marchand"
+    ],
+    "zh": [
+      "商人在哪裡"
+    ],
+    "ja": [
+      "商人はどこ",
+      "しょうにんはどこ",
+      "ショウニンハドコ"
+    ],
+    "ko": [
+      "상인 어디"
+    ]
+  },
+  "0x00D5": {
+    "en": [
+      "where is the mill"
+    ],
+    "de": [
+      "wo ist die mühle"
+    ],
+    "es": [
+      "dónde está el molino"
+    ],
+    "fr": [
+      "où est le moulin"
+    ],
+    "zh": [
+      "磨坊在哪裡"
+    ],
+    "ja": [
+      "工場はどこ",
+      "こうじょうはどこ",
+      "コウジョウハドコ"
+    ],
+    "ko": [
+      "방앗간 어디"
+    ]
+  },
+  "0x00D6": {
+    "en": [
+      "where is the observatory"
+    ],
+    "de": [
+      "wo ist das observatorium"
+    ],
+    "es": [
+      "dónde está el observatorio"
+    ],
+    "fr": [
+      "où est l'observatoire"
+    ],
+    "zh": [
+      "天文台在哪裡"
+    ],
+    "ja": [
+      "天文台はどこ",
+      "てんもんだいはどこ",
+      "テンモンダイハドコ"
+    ],
+    "ko": [
+      "천문대 어디"
+    ]
+  },
+  "0x00D7": {
+    "en": [
+      "where is the painter"
+    ],
+    "de": [
+      "wo ist der maler"
+    ],
+    "es": [
+      "dónde está el pintor"
+    ],
+    "fr": [
+      "où est le peintre"
+    ],
+    "zh": [
+      "畫家在哪裡"
+    ],
+    "ja": [
+      "画家はどこ",
+      "がかはどこ",
+      "ガカハドコ"
+    ],
+    "ko": [
+      "페인터 어디"
+    ]
+  },
+  "0x00D8": {
+    "en": [
+      "where is the paladin"
+    ],
+    "de": [
+      "wo ist der paladin"
+    ],
+    "es": [
+      "dónde está el paladín"
+    ],
+    "fr": [
+      "où est le paladin"
+    ],
+    "zh": [
+      "帕拉丁俠客在哪裡"
+    ],
+    "ja": [
+      "パラディンはどこ",
+      "ぱらでぃんはどこ",
+      "パラディンハドコ"
+    ],
+    "ko": [
+      "팔라딘 어디"
+    ]
+  },
+  "0x00D9": {
+    "en": [
+      "where is the provisioner"
+    ],
+    "de": [
+      "wo ist der lieferant",
+      "wo ist der laden"
+    ],
+    "es": [
+      "dónde está el proveedor",
+      "dónde está la tienda"
+    ],
+    "fr": [
+      "où est l'épicier",
+      "où est l'échoppe"
+    ],
+    "zh": [
+      "糧食供應者在哪裡",
+      "商店在哪裡"
+    ],
+    "ja": [
+      "道具屋はどこ",
+      "どうぐやはどこ",
+      "ドウグヤハドコ",
+      "店はどこ",
+      "みせはどこ",
+      "ミセハドコ"
+    ],
+    "ko": [
+      "잡화점 어디",
+      "상점 어디"
+    ],
+    "lat": [
+      "where is the shop"
+    ]
+  },
+  "0x00DA": {
+    "en": [
+      "where is the ship"
+    ],
+    "de": [
+      "wo ist das schiff"
+    ],
+    "es": [
+      "dónde está el barco"
+    ],
+    "fr": [
+      "où est le navire"
+    ],
+    "zh": [
+      "船塢在哪裡"
+    ],
+    "ja": [
+      "船はどこ",
+      "ふねはどこ",
+      "フネハドコ"
+    ],
+    "ko": [
+      "배 어디"
+    ]
+  },
+  "0x00DB": {
+    "en": [
+      "where is the stable"
+    ],
+    "de": [
+      "wo ist der stall"
+    ],
+    "es": [
+      "dónde está el establo"
+    ],
+    "fr": [
+      "où est l'étable"
+    ],
+    "zh": [
+      "馬房在哪裡"
+    ],
+    "ja": [
+      "厩舎はどこ",
+      "きゅうしゃはどこ",
+      "キュウシャハドコ"
+    ],
+    "ko": [
+      "마구간 어디"
+    ]
+  },
+  "0x00DC": {
+    "en": [
+      "where is the tanner"
+    ],
+    "de": [
+      "wo ist der gerber"
+    ],
+    "es": [
+      "dónde está el curtidor"
+    ],
+    "fr": [
+      "où est le tanneur"
+    ],
+    "zh": [
+      "製革工人在哪裡"
+    ],
+    "ja": [
+      "皮屋はどこ",
+      "かわやはどこ",
+      "カワヤハドコ"
+    ],
+    "ko": [
+      "가죽세공인 어디"
+    ]
+  },
+  "0x00DD": {
+    "en": [
+      "where is the tavern"
+    ],
+    "de": [
+      "wo ist die taverne",
+      "wo ist der barde",
+      "wo ist der pub"
+    ],
+    "es": [
+      "dónde está el mesón",
+      "dónde está el bardo",
+      "dónde está el pub"
+    ],
+    "fr": [
+      "où est la taverne",
+      "où est le barde",
+      "où est le bistrot"
+    ],
+    "zh": [
+      "酒館在哪裡",
+      "吟遊詩人在哪裡",
+      "酒吧在哪裡"
+    ],
+    "ja": [
+      "酒場はどこ",
+      "さかばはどこ",
+      "サカバハドコ",
+      "バードはどこ",
+      "ばーどはどこ",
+      "バードハドコ",
+      "パブはどこ",
+      "ぱぶはどこ",
+      "パブハドコ"
+    ],
+    "ko": [
+      "술집 어디",
+      "음유시인 어디",
+      "선술집 어디"
+    ],
+    "lat": [
+      "where is the bard",
+      "where is the pub"
+    ]
+  },
+  "0x00DE": {
+    "en": [
+      "where is the temple"
+    ],
+    "de": [
+      "wo ist der tempel"
+    ],
+    "es": [
+      "dónde está el templo"
+    ],
+    "fr": [
+      "où est le temple"
+    ],
+    "zh": [
+      "神殿在哪裡"
+    ],
+    "ja": [
+      "寺はどこ",
+      "てらはどこ",
+      "テラハドコ"
+    ],
+    "ko": [
+      "사원 어디"
+    ]
+  },
+  "0x00DF": {
+    "en": [
+      "where is the theater"
+    ],
+    "de": [
+      "wo ist das theater"
+    ],
+    "es": [
+      "dónde está el teatro"
+    ],
+    "fr": [
+      "où est le théâtre"
+    ],
+    "zh": [
+      "劇場在哪裡"
+    ],
+    "ja": [
+      "劇場はどこ",
+      "げきじょうはどこ",
+      "ゲキジョウハドコ"
+    ],
+    "ko": [
+      "극장 어디"
+    ]
+  },
+  "0x00E0": {
+    "en": [
+      "where is the tinker"
+    ],
+    "de": [
+      "wo ist der kesselflicker"
+    ],
+    "es": [
+      "dónde está el calderero"
+    ],
+    "fr": [
+      "où est le bricoleur"
+    ],
+    "zh": [
+      "銲工在哪裡"
+    ],
+    "ja": [
+      "細工屋はどこ",
+      "さいくやはどこ",
+      "サイクヤハドコ"
+    ],
+    "ko": [
+      "땜장이 어디"
+    ]
+  },
+  "0x00E1": {
+    "en": [
+      "where is the vet"
+    ],
+    "de": [
+      "wo ist der tierarzt"
+    ],
+    "es": [
+      "dónde está el vet",
+      "dónde está el veterinario"
+    ],
+    "fr": [
+      "où est le véto",
+      "où est le vétérinaire"
+    ],
+    "zh": [
+      "動物醫生在哪裡",
+      "獸醫在哪裡"
+    ],
+    "ja": [
+      "獣医はどこ",
+      "じゅういはどこ",
+      "ジュウイハドコ"
+    ],
+    "ko": [
+      "수의사 어디",
+      "동물병원 어디"
+    ],
+    "lat": [
+      "where is the veterinarian"
+    ]
+  },
+  "0x00E2": {
+    "en": [
+      "where is the weapon"
+    ],
+    "de": [
+      "wo ist die waffe"
+    ],
+    "es": [
+      "dónde está el arma"
+    ],
+    "fr": [
+      "où est l'arme"
+    ],
+    "zh": [
+      "武器在哪裡"
+    ],
+    "ja": [
+      "武器屋はどこ",
+      "ぶきやはどこ",
+      "ブキヤハドコ"
+    ],
+    "ko": [
+      "무기 어디"
+    ]
+  },
+  "0x00E3": {
+    "en": [
+      "where is the *trainer"
+    ],
+    "de": [
+      "wo ist der lehrer"
+    ],
+    "es": [
+      "dónde está el *entrenador"
+    ],
+    "fr": [
+      "où est le dresseur"
+    ],
+    "zh": [
+      "訓練員*在哪裡"
+    ],
+    "ja": [
+      "訓練所はどこ",
+      "くんれんじょはどこ",
+      "クンレンジョハドコ",
+      "ヒール",
+      "ひーる"
+    ],
+    "ko": [
+      "조련사 어디"
+    ]
+  },
+  "0x00E4": {
+    "en": [
+      "i wish to access the city treasury"
+    ],
+    "de": [
+      "ich möchte die schätze der stadt nutzen"
+    ],
+    "es": [
+      "me gustaría acceder a la tesorería de la ciudad"
+    ],
+    "fr": [
+      "Je désire avoir accès à la trésorerie de la ville"
+    ],
+    "zh": [
+      "我要使用城市金庫"
+    ],
+    "ja": [
+      "私は財務長官を務めます",
+      "わたしはざいむちょうかんをつとめます",
+      "ワタシハザイムチョウカンヲツトメマス"
+    ],
+    "ko": [
+      "도시 재정 확인"
+    ]
+  },
+  "0x00E5": {
+    "en": [
+      "i wish to resign as finance minister"
+    ],
+    "de": [
+      "ich möchte ins finanzministerium"
+    ],
+    "es": [
+      "quiero dimitir como ministro de finanzas"
+    ],
+    "fr": [
+      "Je désire quitter le poste de ministre des finances"
+    ],
+    "zh": [
+      "我要辭退財務大臣"
+    ],
+    "ja": [
+      "私は財務長官を辞職します",
+      "わたしはざいむちょうかんをじしょくします",
+      "ワタシハザイムチョウカンをジショクシマス"
+    ],
+    "ko": [
+      "재무장관 사임"
+    ]
+  },
+  "0x00E6": {
+    "en": [
+      "orders"
+    ],
+    "zh": [
+      "命令"
+    ],
+    "ja": [
+      "めいれい",
+      "メイレイ"
+    ],
+    "ko": [
+      "명령"
+    ],
+    "lat": [
+      "befehle",
+      "órdenes",
+      "ordres"
+    ]
+  },
+  "0x00E7": {
+    "en": [
+      "patrouillieren"
+    ],
+    "zh": [
+      "巡邏"
+    ],
+    "ja": [
+      "パトロール",
+      "ぱとろーる"
+    ],
+    "ko": [
+      "순찰"
+    ],
+    "lat": [
+      "patrol",
+      "patrullar",
+      "patrouiller"
+    ]
+  },
+  "0x00E8": {
+    "en": [
+      "follow"
+    ],
+    "de": [
+      "folgen"
+    ],
+    "es": [
+      "seguir"
+    ],
+    "fr": [
+      "suivre"
+    ],
+    "zh": [
+      "跟隨"
+    ],
+    "ja": [
+      "フォロー",
+      "ふぉろー"
+    ],
+    "ko": [
+      "따라가기"
+    ]
+  },
+  "0x00E9": {
+    "en": [
+      "what is my faction term status"
+    ],
+    "de": [
+      "welchen gruppenstatus habe ich?"
+    ],
+    "zh": [
+      "我的陣營狀態",
+      "派閥脱退日数"
+    ],
+    "ja": [
+      "はばつだったいにっすう"
+    ],
+    "ko": [
+      "당파 임기 상태"
+    ],
+    "lat": [
+      "cuál es el estado de mi facción",
+      "quelle est la situation de ma faction"
+    ]
+  },
+  "0x00EA": {
+    "en": [
+      "nachricht an gruppe"
+    ],
+    "fr": [
+      "message à la faction"
+    ],
+    "zh": [
+      "通知陣營"
+    ],
+    "ja": [
+      "派閥メッセージ",
+      "はばつめっせーじ",
+      "ハバツメッセージ"
+    ],
+    "ko": [
+      "메시지 당파"
+    ],
+    "lat": [
+      "message faction",
+      "mensaje facción"
+    ]
+  },
+  "0x00EB": {
+    "en": [
+      "message all"
+    ],
+    "de": [
+      "nachricht an alle"
+    ],
+    "es": [
+      "mensaje todos"
+    ],
+    "fr": [
+      "message à tous"
+    ],
+    "zh": [
+      "通知所有人"
+    ],
+    "ja": [
+      "オールメッセージ",
+      "おーるめっせーじ"
+    ],
+    "ko": [
+      "메시지 모두"
+    ]
+  },
+  "0x00EC": {
+    "en": [
+      "punkte"
+    ],
+    "fr": [
+      "mostrarrécord"
+    ],
+    "zh": [
+      "顯示分數"
+    ],
+    "ja": [
+      "スコア参照",
+      "すこあさんしょう",
+      "スコアサンショウ"
+    ],
+    "ko": [
+      "점수보기"
+    ],
+    "lat": [
+      "showscore",
+      "montrerscore"
+    ]
+  },
+  "0x00ED": {
+    "en": [
+      "i am sheriff"
+    ],
+    "de": [
+      "ich bin der sheriff"
+    ],
+    "es": [
+      "soy alguacil"
+    ],
+    "fr": [
+      "Je suis shérif"
+    ],
+    "zh": [
+      "我是警長"
+    ],
+    "ja": [
+      "私は保安官を務めます",
+      "わたしはほあんかんをつとめます",
+      "ワタシハホアンカンヲツトメマス"
+    ],
+    "ko": [
+      "나는 보안관"
+    ]
+  },
+  "0x00EE": {
+    "en": [
+      "i wish to resign as sheriff"
+    ],
+    "de": [
+      "ich bin nun nicht mehr sheriff"
+    ],
+    "es": [
+      "quiero dimitir como alguacil"
+    ],
+    "fr": [
+      "Je désire quitter la police"
+    ],
+    "zh": [
+      "我要辭退警長的工作"
+    ],
+    "ja": [
+      "私は保安官を辞職します",
+      "わたしはほあんかんをじしょくします",
+      "ワタシハホアンカンヲジショクシマス"
+    ],
+    "ko": [
+      "보안관 사임"
+    ]
+  },
+  "0x00EF": {
+    "en": [
+      "you are fired"
+    ],
+    "de": [
+      "du bist entlassen"
+    ],
+    "es": [
+      "estás despedido"
+    ],
+    "fr": [
+      "vous êtes licencié"
+    ],
+    "zh": [
+      "你被開除了"
+    ],
+    "ja": [
+      "クビ",
+      "くび"
+    ],
+    "ko": [
+      "당신 해고"
+    ]
+  },
+  "0x00F0": {
+    "en": [
+      "brauche hilfe"
+    ],
+    "zh": [
+      "需要幫助"
+    ],
+    "ja": [
+      "ヘルプする"
+    ],
+    "ko": [
+      "도움 필요"
+    ],
+    "lat": [
+      "need help",
+      "necesito ayuda",
+      "besoin d'aide"
+    ]
+  },
+  "0x00F1": {
+    "en": [
+      "einstellen"
+    ],
+    "zh": [
+      "雇用"
+    ],
+    "ko": [
+      "고용"
+    ],
+    "lat": [
+      "hiring",
+      "contratando",
+      "embauche"
+    ]
+  },
+  "0x00F2": {
+    "en": [
+      "stelle mich ein"
+    ],
+    "zh": [
+      "雇用我"
+    ],
+    "ko": [
+      "나 고용"
+    ],
+    "lat": [
+      "hire me",
+      "contrátame",
+      "embauchez-moi"
+    ]
+  },
+  "0x00F3": {
+    "en": [
+      "ein job"
+    ],
+    "fr": [
+      "un trabajo",
+      "un travail"
+    ],
+    "zh": [
+      "一份工作"
+    ],
+    "ko": [
+      "직업"
+    ],
+    "lat": [
+      "a job"
+    ]
+  },
+  "0x00F4": {
+    "en": [
+      "i resign from my quest"
+    ],
+    "de": [
+      "ich trete von meiner quest zurück"
+    ],
+    "es": [
+      "renuncio a mi búsqueda"
+    ],
+    "fr": [
+      "Je renonce à ma quête"
+    ],
+    "zh": [
+      "我放棄我的任務"
+    ],
+    "ja": [
+      "クエスト終了",
+      "くえすとしゅうりょう",
+      "クエストシュウリョウ"
+    ],
+    "ko": [
+      "퀘스트 중단"
+    ]
+  },
+  "0x00F5": {
+    "en": [
+      "tutorial beginnen"
+    ],
+    "zh": [
+      "進入指導課程"
+    ],
+    "ja": [
+      "ちゅーとりある",
+      "チュートリアル"
+    ],
+    "ko": [
+      "튜토리얼 시작"
+    ],
+    "lat": [
+      "enter tutorial",
+      "entrar en tutorial",
+      "ouvrir didacticiel"
+    ]
+  },
+  "0x00F6": {
+    "en": [
+      "in den hafen einlaufen"
+    ],
+    "zh": [
+      "進入哈文鎮"
+    ],
+    "ja": [
+      "へぶん",
+      "ヘブン"
+    ],
+    "ko": [
+      "헤븐 입장"
+    ],
+    "lat": [
+      "enter haven",
+      "entrar en refugio",
+      "entrer dans haven"
+    ]
+  },
+  "0x00F7": {
+    "en": [
+      "skill"
+    ],
+    "de": [
+      "fähigkeit"
+    ],
+    "zh": [
+      "技能"
+    ],
+    "ja": [
+      "スキル",
+      "すきる"
+    ],
+    "ko": [
+      "스킬"
+    ],
+    "lat": [
+      "habilidad",
+      "aptitude"
+    ]
+  },
+  "0x00F8": {
+    "en": [
+      "job"
+    ],
+    "de": [
+      "was tust du",
+      "beschäftigung"
+    ],
+    "es": [
+      "beruf"
+    ],
+    "fr": [
+      "qué haces",
+      "que faites-vous",
+      "métier"
+    ],
+    "zh": [
+      "職業",
+      "你做甚麼工作",
+      "工作",
+      "仕事"
+    ],
+    "ja": [
+      "しごと",
+      "シゴト",
+      "しょくぎょう",
+      "ショクギョウ"
+    ],
+    "ko": [
+      "직업",
+      "무엇을 하십니까",
+      "생업",
+      "하는일"
+    ],
+    "lat": [
+      "what do you do",
+      "profession",
+      "occupation",
+      "trabajo",
+      "profesión",
+      "oficio",
+      "travail"
+    ]
+  },
+  "0x00F9": {
+    "en": [
+      "lehrer"
+    ],
+    "zh": [
+      "訓練員"
+    ],
+    "ja": [
+      "トレーナー",
+      "とれーなー"
+    ],
+    "ko": [
+      "조련사"
+    ],
+    "lat": [
+      "trainer",
+      "entrenador",
+      "dresseur"
+    ]
+  },
+  "0x00FA": {
+    "en": [
+      "lebwohl"
+    ],
+    "de": [
+      "tschüss"
+    ],
+    "es": [
+      "man sieht sich ..."
+    ],
+    "fr": [
+      "à bientôt"
+    ],
+    "zh": [
+      "拜拜",
+      "再見",
+      "再會"
+    ],
+    "ja": [
+      "バイバイ",
+      "ばいばい",
+      "さようなら",
+      "サヨウナラ",
+      "また合いましょう",
+      "またあいましょう",
+      "マタアイマショウ"
+    ],
+    "ko": [
+      "안녕히",
+      "바이",
+      "다음에 또"
+    ],
+    "lat": [
+      "bye",
+      "farewell",
+      "see ya",
+      "adiós",
+      "con dios",
+      "nos vemos",
+      "salut",
+      "adieu"
+    ]
+  },
+  "0x00FB": {
+    "en": [
+      "ihr braucht"
+    ],
+    "de": [
+      "du brauchst",
+      "du benötigst",
+      "ihr benötigt"
+    ],
+    "es": [
+      "you need"
+    ],
+    "fr": [
+      "il vous faut",
+      "vous voulez",
+      "vous demandez"
+    ],
+    "zh": [
+      "你需要",
+      "你想要",
+      "你要",
+      "您需要",
+      "您想要",
+      "您要",
+      "必要"
+    ],
+    "ja": [
+      "必要な物",
+      "ひつようなもの",
+      "ヒツヨウナモノ",
+      "ひつよう",
+      "ヒツヨウ"
+    ],
+    "ko": [
+      "당신 필요",
+      "당신 원함",
+      "당신 요구",
+      "필요한 것"
+    ],
+    "lat": [
+      "you want",
+      "you require",
+      "thou need",
+      "thou want",
+      "thou needs",
+      "necesitas",
+      "quieres",
+      "requieres",
+      "il te faut",
+      "tu veux"
+    ]
+  },
+  "0x00FC": {
+    "en": [
+      "wie geht's"
+    ],
+    "fr": [
+      "qué tal vas",
+      "comment allez-vous",
+      "vous allez bien"
+    ],
+    "zh": [
+      "你好嗎",
+      "你好啊",
+      "你好"
+    ],
+    "ja": [
+      "お元気",
+      "おげんき",
+      "オゲンキ",
+      "調子はどう",
+      "ちょうしはどう",
+      "チョウシハドウ",
+      "ご機嫌いかが",
+      "ごきげんいかが",
+      "ゴキゲンイカガ"
+    ],
+    "ko": [
+      "안녕하세요",
+      "안녕",
+      "안녕하십니까",
+      "반갑습니다"
+    ],
+    "lat": [
+      "alles klar",
+      "befindet ihr euch wohl",
+      "geht es euch gut",
+      "how are you",
+      "are you well",
+      "how art thou",
+      "art thou well",
+      "cómo estás",
+      "estás bien",
+      "te encuentras bien",
+      "comment vas-tu",
+      "tu vas bien"
+    ]
+  },
+  "0x00FD": {
+    "en": [
+      "kolonie"
+    ],
+    "zh": [
+      "殖民地"
+    ],
+    "ko": [
+      "식민지"
+    ],
+    "lat": [
+      "colony",
+      "colonia",
+      "colonie"
+    ]
+  },
+  "0x00FE": {
+    "en": [
+      "ihr verkauft"
+    ],
+    "de": [
+      "du kaufst",
+      "du verkaufst"
+    ],
+    "es": [
+      "ihr kauft"
+    ],
+    "fr": [
+      "vous vendez"
+    ],
+    "zh": [
+      "你賣",
+      "您賣"
+    ],
+    "ko": [
+      "너 판매",
+      "너 팔기",
+      "당신 판매",
+      "당신 팔기"
+    ],
+    "lat": [
+      "thou sell",
+      "thou sale",
+      "you sell",
+      "you sale",
+      "vendes",
+      "tu venta",
+      "tu vends"
+    ]
+  },
+  "0x00FF": {
+    "en": [
+      "kaufen"
+    ],
+    "de": [
+      "du kaufst",
+      "du verkaufst"
+    ],
+    "es": [
+      "verkaufen"
+    ],
+    "fr": [
+      "vous achetez"
+    ],
+    "zh": [
+      "您買",
+      "你買",
+      "買",
+      "賣",
+      "購入",
+      "販売"
+    ],
+    "ja": [
+      "こうにゅう",
+      "コウニュウ",
+      "はんばい",
+      "ハンバイ"
+    ],
+    "ko": [
+      "당신 구매",
+      "당신 사기",
+      "구매",
+      "세일"
+    ],
+    "lat": [
+      "you buy",
+      "you purchase",
+      "purchase",
+      "sale",
+      "compras",
+      "adquieres",
+      "adquisición",
+      "venta",
+      "acheter",
+      "vendre"
+    ]
+  },
+  "0x0100": {
+    "en": [
+      "untoter"
+    ],
+    "de": [
+      "gräber"
+    ],
+    "es": [
+      "no muerto"
+    ],
+    "fr": [
+      "cimetière"
+    ],
+    "zh": [
+      "不死",
+      "骷髏兵",
+      "墳墓",
+      "墓地",
+      "地窖",
+      "骸骨",
+      "墓場",
+      "地下室"
+    ],
+    "ja": [
+      "アンデッド",
+      "あんでっど",
+      "スケルトン",
+      "すけるとん",
+      "がいこつ",
+      "ガイコツ",
+      "ぼち",
+      "ボチ",
+      "はかば",
+      "ハカバ",
+      "ちかしつ",
+      "チカシツ"
+    ],
+    "ko": [
+      "언데드",
+      "해골",
+      "무덤",
+      "묘지",
+      "묘비"
+    ],
+    "lat": [
+      "skelett",
+      "friedhof",
+      "krypta",
+      "undead",
+      "skeleton",
+      "graves",
+      "graveyard",
+      "crypt",
+      "esqueleto",
+      "tumbas",
+      "cementerio",
+      "cripta",
+      "mort-vivant",
+      "squelette",
+      "tombes",
+      "crypte"
+    ]
+  },
+  "0x0101": {
+    "en": [
+      "sweet dreams"
+    ],
+    "de": [
+      "süße täume"
+    ],
+    "es": [
+      "dulces sueños"
+    ],
+    "fr": [
+      "aux beaux rêves"
+    ],
+    "zh": [
+      "好夢"
+    ],
+    "ja": [
+      "スイートドリームス",
+      "すいーとどりーむす"
+    ],
+    "ko": [
+      "잘자"
+    ]
+  },
+  "0x0102": {
+    "en": [
+      "fluss"
+    ],
+    "zh": [
+      "河流",
+      "川"
+    ],
+    "ja": [
+      "かわ",
+      "カワ"
+    ],
+    "ko": [
+      "강"
+    ],
+    "lat": [
+      "river",
+      "río",
+      "fleuve"
+    ]
+  },
+  "0x0103": {
+    "en": [
+      "LB"
+    ],
+    "de": [
+      "könig"
+    ],
+    "zh": [
+      "不列顛王",
+      "統治者",
+      "國王",
+      "王",
+      "偉大"
+    ],
+    "ja": [
+      "ロードブリティッシュ",
+      "ろーどぶりてぃっしゅ",
+      "とうちしゃ",
+      "トウチシャ",
+      "おう",
+      "オウ",
+      "いだい"
+    ],
+    "ko": [
+      "로드 브리티시",
+      "지배자",
+      "왕"
+    ],
+    "lat": [
+      "lord british",
+      "lb",
+      "herrscher",
+      "ruler",
+      "king",
+      "gobernante",
+      "rey",
+      "chef",
+      "roi",
+      "ｌｂ"
+    ]
+  },
+  "0x0104": {
+    "en": [
+      "wayfarer's inn"
+    ],
+    "de": [
+      "zum weggefährten",
+      "auberge du voyageur"
+    ],
+    "zh": [
+      "旅人的客棧",
+      "旅人客棧"
+    ],
+    "ja": [
+      "ウェイフェアーイン",
+      "うぇいふぇあーいん"
+    ],
+    "ko": [
+      "여행자 여관",
+      "방랑자 여관"
+    ],
+    "lat": [
+      "wayfareres inn",
+      "taberna del peregrino",
+      "tabernaperegrino"
+    ]
+  },
+  "0x0105": {
+    "en": [
+      "graben"
+    ],
+    "zh": [
+      "護城河",
+      "掘"
+    ],
+    "ja": [
+      "ほり",
+      "ホリ"
+    ],
+    "ko": [
+      "해자"
+    ],
+    "lat": [
+      "moat",
+      "foso defensivo",
+      "douve"
+    ]
+  },
+  "0x0106": {
+    "en": [
+      "gassen"
+    ],
+    "zh": [
+      "窄道",
+      "狹窄海峽",
+      "海峽"
+    ],
+    "ja": [
+      "ナローズ",
+      "なろーず",
+      "ナローズネック",
+      "なろーずねっく",
+      "ネック",
+      "ねっく"
+    ],
+    "ko": [
+      "내로우즈강",
+      "내로우즈 넥",
+      "넥"
+    ],
+    "lat": [
+      "kurve",
+      "narrows",
+      "narrows neck",
+      "neck",
+      "estrecho"
+    ]
+  },
+  "0x0107": {
+    "en": [
+      "armentor"
+    ],
+    "zh": [
+      "小門"
+    ],
+    "ja": [
+      "貧者の門",
+      "ひんじゃのもん",
+      "ヒンジャノモン"
+    ],
+    "ko": [
+      "가난뱅이의 문"
+    ],
+    "lat": [
+      "poor gate",
+      "puerta de los pobres",
+      "porte des pauvres"
+    ]
+  },
+  "0x0108": {
+    "en": [
+      "brittany-fluss"
+    ],
+    "zh": [
+      "不列塔尼河"
+    ],
+    "ja": [
+      "ブリタニーリバー",
+      "ぶりたにーりばー"
+    ],
+    "ko": [
+      "브리타니 강"
+    ],
+    "lat": [
+      "brittany river",
+      "río brittany",
+      "fleuve Britanny"
+    ]
+  },
+  "0x0109": {
+    "en": [
+      "eber"
+    ],
+    "zh": [
+      "藍色野豬"
+    ],
+    "ja": [
+      "ブルーボアー",
+      "ぶるーぼあー"
+    ],
+    "ko": [
+      "푸른 멧돼지"
+    ],
+    "lat": [
+      "blue boar",
+      "jabalí azul",
+      "au sanglier bleu"
+    ]
+  },
+  "0x010A": {
+    "en": [
+      "katzenbaum"
+    ],
+    "de": [
+      "l'antre du chat"
+    ],
+    "zh": [
+      "貓窩"
+    ],
+    "ja": [
+      "キャッツレア",
+      "きゃっつれあ"
+    ],
+    "ko": [
+      "고양이집"
+    ],
+    "lat": [
+      "cat's lair",
+      "cueva del gato"
+    ]
+  },
+  "0x010B": {
+    "en": [
+      "salzhund"
+    ],
+    "fr": [
+      "au chien salé"
+    ],
+    "zh": [
+      "鹹狗"
+    ],
+    "ja": [
+      "ソルティードッグ",
+      "そるてぃーどっぐ"
+    ],
+    "ko": [
+      "솔티독"
+    ],
+    "lat": [
+      "salty dog",
+      "perro salado"
+    ]
+  },
+  "0x010C": {
+    "en": [
+      "horn des einhorns"
+    ],
+    "zh": [
+      "獨角獸角"
+    ],
+    "ja": [
+      "ユニコーンホーン",
+      "ゆにこーんほーん"
+    ],
+    "ko": [
+      "유니콘 뿔"
+    ],
+    "lat": [
+      "unicorn horn",
+      "cuerno del unicornio",
+      "la licorne"
+    ]
+  },
+  "0x010D": {
+    "en": [
+      "mechanismus"
+    ],
+    "fr": [
+      "mécanisme"
+    ],
+    "zh": [
+      "機械裝置"
+    ],
+    "ja": [
+      "メカニズム",
+      "めかにずむ"
+    ],
+    "ko": [
+      "메카니즘"
+    ],
+    "lat": [
+      "mechanism",
+      "mecanismo"
+    ]
+  },
+  "0x010E": {
+    "en": [
+      "haupttor"
+    ],
+    "zh": [
+      "主城門",
+      "大門"
+    ],
+    "ja": [
+      "おおもん",
+      "オオモン"
+    ],
+    "ko": [
+      "중앙문"
+    ],
+    "lat": [
+      "main gate",
+      "puerta principal",
+      "porte principale"
+    ]
+  },
+  "0x010F": {
+    "en": [
+      "nordseite"
+    ],
+    "zh": [
+      "北邊"
+    ],
+    "ja": [
+      "ノースサイド",
+      "のーすさいど"
+    ],
+    "ko": [
+      "북쪽"
+    ],
+    "lat": [
+      "northside",
+      "al norte",
+      "nord"
+    ]
+  },
+  "0x0110": {
+    "en": [
+      "eicheneber"
+    ],
+    "fr": [
+      "l'aviron en chêne"
+    ],
+    "zh": [
+      "橡木槳"
+    ],
+    "ja": [
+      "オークンオアー",
+      "おーくんおあー"
+    ],
+    "ko": [
+      "떡갈나무 노"
+    ],
+    "lat": [
+      "oaken oar",
+      "remo de roble"
+    ]
+  },
+  "0x0111": {
+    "en": [
+      "ozean"
+    ],
+    "fr": [
+      "océano",
+      "océan"
+    ],
+    "zh": [
+      "海",
+      "海灘",
+      "海岸地域"
+    ],
+    "ja": [
+      "うみ",
+      "ウミ",
+      "かいがんちいき",
+      "カイガンチイキ"
+    ],
+    "ko": [
+      "바닷가",
+      "대양"
+    ],
+    "lat": [
+      "wasserfall",
+      "ocean",
+      "waterfront",
+      "puerto",
+      "front de mer"
+    ]
+  },
+  "0x0112": {
+    "en": [
+      "alte festung"
+    ],
+    "zh": [
+      "古老要塞"
+    ],
+    "ja": [
+      "オールドキープ",
+      "おーるどきーぷ"
+    ],
+    "ko": [
+      "오래된 키프"
+    ],
+    "lat": [
+      "old keep",
+      "antiguo torreón",
+      "vieux donjon"
+    ]
+  },
+  "0x0113": {
+    "en": [
+      "schloss"
+    ],
+    "zh": [
+      "大門",
+      "門"
+    ],
+    "ja": [
+      "もん",
+      "モン"
+    ],
+    "ko": [
+      "게이트"
+    ],
+    "lat": [
+      "gate",
+      "puerta",
+      "porte"
+    ]
+  },
+  "0x0114": {
+    "en": [
+      "guard house"
+    ],
+    "de": [
+      "wächterhütte",
+      "wächterhaus"
+    ],
+    "zh": [
+      "衛兵房",
+      "衛兵室",
+      "傭兵所"
+    ],
+    "ja": [
+      "ようへいじょ",
+      "ヨウヘイジョ"
+    ],
+    "ko": [
+      "경비병 집",
+      "경비병집"
+    ],
+    "lat": [
+      "guardhouse",
+      "garita de vigilancia",
+      "garita",
+      "logis des gardes"
+    ]
+  },
+  "0x0115": {
+    "en": [
+      "heilen"
+    ],
+    "fr": [
+      "guérir"
+    ],
+    "zh": [
+      "醫治",
+      "回復"
+    ],
+    "ja": [
+      "かいふく",
+      "カイフク"
+    ],
+    "ko": [
+      "치료"
+    ],
+    "lat": [
+      "heal",
+      "sanar"
+    ]
+  },
+  "0x0116": {
+    "en": [
+      "ork"
+    ],
+    "zh": [
+      "獸人"
+    ],
+    "ja": [
+      "オーク",
+      "おーく"
+    ],
+    "ko": [
+      "오크"
+    ],
+    "lat": [
+      "orc",
+      "orco",
+      "orque"
+    ]
+  },
+  "0x0117": {
+    "en": [
+      "wall"
+    ],
+    "zh": [
+      "牆",
+      "城壁"
+    ],
+    "ja": [
+      "じょうへき",
+      "ジョウヘキ"
+    ],
+    "ko": [
+      "벽"
+    ],
+    "lat": [
+      "muro",
+      "muraille"
+    ]
+  },
+  "0x0118": {
+    "en": [
+      "incantations"
+    ],
+    "de": [
+      "beschwörung"
+    ],
+    "zh": [
+      "咒文",
+      "呪文"
+    ],
+    "ja": [
+      "じゅもん",
+      "ジュモン"
+    ],
+    "ko": [
+      "주문"
+    ],
+    "lat": [
+      "embrujos",
+      "Incantations"
+    ]
+  },
+  "0x0119": {
+    "en": [
+      "bridge"
+    ],
+    "de": [
+      "brücke"
+    ],
+    "zh": [
+      "橋"
+    ],
+    "ja": [
+      "はし",
+      "ハシ"
+    ],
+    "ko": [
+      "다리"
+    ],
+    "lat": [
+      "puente",
+      "pont"
+    ]
+  },
+  "0x011A": {
+    "en": [
+      "mage's bridge"
+    ],
+    "de": [
+      "magierbrücke",
+      "pont du mage"
+    ],
+    "zh": [
+      "麥基之橋"
+    ],
+    "ja": [
+      "魔法使いの橋",
+      "まほうつかいのはし",
+      "マホウツカイノハシ"
+    ],
+    "ko": [
+      "마법사 다리"
+    ],
+    "lat": [
+      "puente del mago"
+    ]
+  },
+  "0x011B": {
+    "en": [
+      "cypress bridge"
+    ],
+    "de": [
+      "zypressenbrücke"
+    ],
+    "fr": [
+      "puente del ciprés",
+      "pont du cyprès"
+    ],
+    "zh": [
+      "白柏橋",
+      "糸杉橋"
+    ],
+    "ja": [
+      "いとすぎばし",
+      "イトスギバシ"
+    ],
+    "ko": [
+      "사이프레스 다리"
+    ]
+  },
+  "0x011C": {
+    "en": [
+      "northern bridge"
+    ],
+    "de": [
+      "nordbrücke",
+      "pont du nord"
+    ],
+    "zh": [
+      "北方之橋"
+    ],
+    "ja": [
+      "ノース橋",
+      "のーすばし",
+      "ノースバシ"
+    ],
+    "ko": [
+      "북쪽 다리"
+    ],
+    "lat": [
+      "puente del norte"
+    ]
+  },
+  "0x011D": {
+    "en": [
+      "great northern"
+    ],
+    "de": [
+      "große nordbrücke"
+    ],
+    "zh": [
+      "巨北方"
+    ],
+    "ja": [
+      "グレートノース",
+      "ぐれーとのーす"
+    ],
+    "ko": [
+      "위대한 북쪽"
+    ],
+    "lat": [
+      "gran puente del norte",
+      "grand nord"
+    ]
+  },
+  "0x011E": {
+    "en": [
+      "great bridge"
+    ],
+    "de": [
+      "große brücke"
+    ],
+    "zh": [
+      "巨橋"
+    ],
+    "ja": [
+      "グレート橋",
+      "ぐれーとばし",
+      "グレートバシ"
+    ],
+    "ko": [
+      "위대한 북쪽 다리"
+    ],
+    "lat": [
+      "gran puente",
+      "grand pont"
+    ]
+  },
+  "0x011F": {
+    "en": [
+      "gung-bauer"
+    ],
+    "zh": [
+      "努力工作的農夫"
+    ],
+    "ja": [
+      "ガングファーマー",
+      "がんぐふぁーまー"
+    ],
+    "ko": [
+      "겅-농부"
+    ],
+    "lat": [
+      "gung-farmer",
+      "granjero feliz",
+      "fermier"
+    ]
+  },
+  "0x0120": {
+    "en": [
+      "gung-bauer"
+    ],
+    "zh": [
+      "賣力工作的農夫"
+    ],
+    "ja": [
+      "ガングファーマー",
+      "がんぐふぁーまー"
+    ],
+    "ko": [
+      "겅 농부"
+    ],
+    "lat": [
+      "gung farmer",
+      "granjero feliz",
+      "fermier"
+    ]
+  },
+  "0x0121": {
+    "en": [
+      "fluss-tor"
+    ],
+    "de": [
+      "Porte du fleuve"
+    ],
+    "zh": [
+      "河流閘門",
+      "河口橋"
+    ],
+    "ja": [
+      "かこうばし",
+      "カコウバシ"
+    ],
+    "ko": [
+      "강의 다리"
+    ],
+    "lat": [
+      "river's gate",
+      "puerta del río"
+    ]
+  },
+  "0x0122": {
+    "en": [
+      "verirrt"
+    ],
+    "de": [
+      "Wo bin ich?"
+    ],
+    "es": [
+      "dónde estoy"
+    ],
+    "fr": [
+      "où suis-je"
+    ],
+    "zh": [
+      "我在哪裡",
+      "迷路"
+    ],
+    "ja": [
+      "ここはどこ",
+      "ココハドコ",
+      "失う",
+      "うしなう",
+      "ウシナウ"
+    ],
+    "ko": [
+      "나는 어디",
+      "길잃음"
+    ],
+    "lat": [
+      "where am i",
+      "lost",
+      "perdido",
+      "perdu"
+    ]
+  },
+  "0x0123": {
+    "en": [
+      "weiser rat"
+    ],
+    "zh": [
+      "聖人的建議",
+      "賢言"
+    ],
+    "ja": [
+      "けんげん",
+      "ケンゲン"
+    ],
+    "ko": [
+      "현자의 조언"
+    ],
+    "lat": [
+      "sage advice",
+      "consejo del sabio",
+      "sage conseil"
+    ]
+  },
+  "0x0124": {
+    "en": [
+      "zauberfreude"
+    ],
+    "fr": [
+      "au délice du sorcier"
+    ],
+    "zh": [
+      "魔法師的樂趣"
+    ],
+    "ja": [
+      "ソーサラーズデライト",
+      "そーさらーずでらいと"
+    ],
+    "ko": [
+      "마법사의 기쁨"
+    ],
+    "lat": [
+      "sorcerer's delight",
+      "capricho del brujo"
+    ]
+  },
+  "0x0125": {
+    "en": [
+      "puppe"
+    ],
+    "de": [
+      "trainingspuppe"
+    ],
+    "es": [
+      "muñeco",
+      "entrenando muñeco",
+      "muñecos",
+      "entrenando muñecos"
+    ],
+    "fr": [
+      "entraînement mannequin",
+      "entraînement mannequins"
+    ],
+    "zh": [
+      "假人",
+      "練習用假人",
+      "訓練用假人"
+    ],
+    "ja": [
+      "ダミー",
+      "だみー",
+      "トレーニングダミー",
+      "とれーにんぐだみー"
+    ],
+    "ko": [
+      "더미",
+      "훈련용 더미",
+      "훈련 더미",
+      "허수아비"
+    ],
+    "lat": [
+      "puppen",
+      "trainingspuppen",
+      "dummy",
+      "training dummy",
+      "dummies",
+      "training dummies",
+      "mannequin",
+      "mannequins"
+    ]
+  },
+  "0x0126": {
+    "en": [
+      "wetter"
+    ],
+    "zh": [
+      "天氣",
+      "天気"
+    ],
+    "ja": [
+      "てんき",
+      "テンキ"
+    ],
+    "ko": [
+      "날씨"
+    ],
+    "lat": [
+      "weather",
+      "clima",
+      "temps"
+    ]
+  },
+  "0x0127": {
+    "en": [
+      "schlafsack"
+    ],
+    "zh": [
+      "鋪蓋捲",
+      "寝袋"
+    ],
+    "ja": [
+      "ねぶくろ",
+      "ネブクロ"
+    ],
+    "ko": [
+      "침낭"
+    ],
+    "lat": [
+      "bedroll",
+      "petate",
+      "sac de couchage"
+    ]
+  },
+  "0x0128": {
+    "en": [
+      "dupre"
+    ],
+    "zh": [
+      "達普利"
+    ],
+    "ja": [
+      "デュプレ",
+      "でゅぷれ"
+    ],
+    "ko": [
+      "듀프레"
+    ],
+    "lat": [
+      "Dupre"
+    ]
+  },
+  "0x0129": {
+    "en": [
+      "woher seid ihr"
+    ],
+    "de": [
+      "Wo lebt ihr",
+      "Wo lebst du",
+      "woher kommst du",
+      "aus welcher stadt kommst du",
+      "wo bist du her",
+      "wo lebt ihr",
+      "wo lebst du"
+    ],
+    "es": [
+      "dónde vives",
+      "de dónde eres"
+    ],
+    "fr": [
+      "de qué ciudad eres",
+      "de qué pueblo eres",
+      "dé dónde vienes",
+      "où tu habites",
+      "où vous habitez",
+      "de quelle cité venez-vous",
+      "de quelle ville venez-vous",
+      "vous venez d'où",
+      "tu viens d'où",
+      "vous vivez"
+    ],
+    "zh": [
+      "你住哪",
+      "你住在哪裡",
+      "你從那個城市來的",
+      "你從那個城鎮來的",
+      "你從哪來的",
+      "您從哪來的",
+      "你住",
+      "你住在"
+    ],
+    "ja": [
+      "どこにすんでいるの",
+      "どこに住んでいるの",
+      "出身地はどこ",
+      "しゅっしんちはどこ",
+      "うまれはどこ",
+      "生まれはどこ*\""
+    ],
+    "ko": [
+      "사는 곳",
+      "거주지",
+      "출신 도시",
+      "고향",
+      "고향 마을",
+      "어디 출신",
+      "어디서 왔나요",
+      "고향 어디"
+    ],
+    "lat": [
+      "where thou live",
+      "where you live",
+      "what city are you from",
+      "what town are you from",
+      "where you from",
+      "where thou from",
+      "thou live",
+      "you live",
+      "vives",
+      "tu vis"
+    ]
+  },
+  "0x012A": {
+    "en": [
+      "geld verdienen"
+    ],
+    "zh": [
+      "賺錢",
+      "掙錢"
+    ],
+    "ko": [
+      "돈만들기",
+      "돈벌기",
+      "돈받기"
+    ],
+    "lat": [
+      "geld erhalten",
+      "make money",
+      "earn money",
+      "get money",
+      "hacer dinero",
+      "ganar dinero",
+      "conseguir dinero",
+      "faire de l'argent",
+      "gagner de l'argent",
+      "avoir de l'argent"
+    ]
+  },
+  "0x012B": {
+    "en": [
+      "where thou work"
+    ],
+    "de": [
+      "wo arbeitet ihr",
+      "wo arbeitest du"
+    ],
+    "es": [
+      "dónde trabajas"
+    ],
+    "fr": [
+      "tu travailles où",
+      "vous travaillez où"
+    ],
+    "zh": [
+      "您在哪工作",
+      "你在哪工作"
+    ],
+    "ko": [
+      "일하는 곳",
+      "직장 어디"
+    ],
+    "lat": [
+      "where you work"
+    ]
+  },
+  "0x012C": {
+    "en": [
+      "ausloggen"
+    ],
+    "de": [
+      "wie kann ich uo verlassen"
+    ],
+    "es": [
+      "how quit"
+    ],
+    "fr": [
+      "déconnecter",
+      "déconnexion"
+    ],
+    "zh": [
+      "如何退出",
+      "登出",
+      "退出"
+    ],
+    "ja": [
+      "ログオフ",
+      "ろぐおふ"
+    ],
+    "ko": [
+      "중단",
+      "로그오프",
+      "로그 오프"
+    ],
+    "lat": [
+      "log off",
+      "logoff",
+      "cómo salir",
+      "desconectar",
+      "desconexión",
+      "comment quitter"
+    ]
+  },
+  "0x012D": {
+    "en": [
+      "iolo"
+    ],
+    "zh": [
+      "艾歐羅"
+    ],
+    "ja": [
+      "イオロ",
+      "いおろ"
+    ],
+    "lat": [
+      "lolo",
+      "Iolo"
+    ]
+  },
+  "0x012E": {
+    "en": [
+      "lager"
+    ],
+    "zh": [
+      "野營"
+    ],
+    "ja": [
+      "キャンプ",
+      "きゃんぷ"
+    ],
+    "ko": [
+      "야영"
+    ],
+    "lat": [
+      "camp",
+      "acampar"
+    ]
+  },
+  "0x012F": {
+    "en": [
+      "destard"
+    ],
+    "de": [
+      "vergüenza"
+    ],
+    "es": [
+      "engaño"
+    ],
+    "fr": [
+      "verachtung"
+    ],
+    "zh": [
+      "狄斯塔",
+      "狄斯皮斯",
+      "寇夫特司",
+      "希斯洛斯",
+      "錯誤",
+      "羞恥心",
+      "詐欺"
+    ],
+    "ja": [
+      "ダスタード",
+      "だすたーど",
+      "デスパイス",
+      "ですぱいす",
+      "コブトス",
+      "こぶとす",
+      "ヒスロス",
+      "ひすろす",
+      "ロング",
+      "ろんぐ",
+      "シェイム",
+      "しぇいむ",
+      "デシート",
+      "でしーと"
+    ],
+    "ko": [
+      "데스타드",
+      "데스파이즈",
+      "코베투스",
+      "히스로스",
+      "롱",
+      "쉐임",
+      "디씨트"
+    ],
+    "lat": [
+      "begehrlich",
+      "hythloth",
+      "unrecht",
+      "schande",
+      "betrug",
+      "despise",
+      "covetous",
+      "wrong",
+      "shame",
+      "deceit",
+      "despreciar",
+      "codicioso",
+      "mal",
+      "Destard",
+      "Despise"
+    ]
+  },
+  "0x0130": {
+    "en": [
+      "shamino"
+    ],
+    "zh": [
+      "沙米諾"
+    ],
+    "ja": [
+      "シャミノ",
+      "しゃみの"
+    ],
+    "ko": [
+      "샤미노"
+    ]
+  },
+  "0x0131": {
+    "en": [
+      "orden der silbernen schlange"
+    ],
+    "de": [
+      "ordre du serpent d'argent"
+    ],
+    "zh": [
+      "銀蛇的命令",
+      "騎士",
+      "騎士団"
+    ],
+    "ja": [
+      "シルバーサーペント騎士団",
+      "しるばーさーぺんときしだん",
+      "シルバーサーペントキシダン",
+      "きしだん",
+      "キシダン"
+    ],
+    "ko": [
+      "실버 서펜트 기사단",
+      "기사"
+    ],
+    "lat": [
+      "ritter",
+      "order of the silver serpent",
+      "knights",
+      "orden de la serpiente de plata",
+      "caballeros",
+      "chevaliers"
+    ]
+  },
+  "0x0132": {
+    "en": [
+      "monde"
+    ],
+    "zh": [
+      "月"
+    ],
+    "ja": [
+      "ムーン",
+      "むーん"
+    ],
+    "ko": [
+      "달"
+    ],
+    "lat": [
+      "moons",
+      "lunas",
+      "lunes"
+    ]
+  },
+  "0x0133": {
+    "en": [
+      "tugend"
+    ],
+    "de": [
+      "spiritualität",
+      "mitgefühl"
+    ],
+    "es": [
+      "schrein"
+    ],
+    "fr": [
+      "vérité",
+      "spiritualité",
+      "honnêteté",
+      "humilité"
+    ],
+    "zh": [
+      "美德",
+      "神殿",
+      "誠實",
+      "愛",
+      "膽識",
+      "靈性",
+      "勇氣",
+      "榮譽",
+      "正義",
+      "犧牲",
+      "正直",
+      "謙遜",
+      "憐憫",
+      "徳",
+      "真実",
+      "勇気",
+      "霊性",
+      "武勇",
+      "名誉",
+      "献身",
+      "誠実",
+      "謙譲",
+      "慈悲"
+    ],
+    "ja": [
+      "とく",
+      "トク",
+      "しんでん",
+      "シンデン",
+      "しんじつ",
+      "シンジツ",
+      "あい",
+      "アイ",
+      "ゆうき",
+      "ユウキ",
+      "れいせい",
+      "レイセイ",
+      "ぶゆう",
+      "ブユウ",
+      "めいよ",
+      "メイヨ",
+      "せいぎ",
+      "セイギ",
+      "けんしん",
+      "ケンシン",
+      "せいじつ",
+      "セイジツ",
+      "けんじょう",
+      "ケンジョウ",
+      "じひ",
+      "ジヒ"
+    ],
+    "ko": [
+      "미덕",
+      "신전",
+      "진실",
+      "사랑",
+      "용기",
+      "숭고함",
+      "용맹",
+      "명예",
+      "정의",
+      "희생",
+      "정직",
+      "겸손",
+      "동정심"
+    ],
+    "lat": [
+      "wahrheit",
+      "liebe",
+      "mut",
+      "wert",
+      "ehre",
+      "gerechtigkeit",
+      "opfer",
+      "ehrlichkeit",
+      "erniedrigung",
+      "virtue",
+      "shrine",
+      "truth",
+      "love",
+      "courage",
+      "spirituality",
+      "valor",
+      "honor",
+      "justice",
+      "sacrifice",
+      "honesty",
+      "humility",
+      "compassion",
+      "virtud",
+      "relicario",
+      "verdad",
+      "amor",
+      "coraje",
+      "espiritualidad",
+      "justicia",
+      "sacrificio",
+      "honestidad",
+      "humildad",
+      "compasión",
+      "Vertu",
+      "calvaire",
+      "amour",
+      "valeur",
+      "honneur"
+    ]
+  },
+  "0x0134": {
+    "en": [
+      "gold"
+    ],
+    "fr": [
+      "trésor"
+    ],
+    "zh": [
+      "金錢",
+      "寶藏",
+      "金",
+      "宝物"
+    ],
+    "ja": [
+      "きん",
+      "キン",
+      "たからもの",
+      "タカラモノ"
+    ],
+    "ko": [
+      "금화",
+      "보물"
+    ],
+    "lat": [
+      "schatz",
+      "treasure",
+      "oro",
+      "tesoro",
+      "or"
+    ]
+  },
+  "0x0135": {
+    "en": [
+      "kindling"
+    ],
+    "de": [
+      "zündholz"
+    ],
+    "es": [
+      "leña"
+    ],
+    "fr": [
+      "petit bois"
+    ],
+    "zh": [
+      "點火"
+    ],
+    "ja": [
+      "焚き木",
+      "たきぎ",
+      "タキギ"
+    ],
+    "ko": [
+      "불쏘시개"
+    ]
+  },
+  "0x0136": {
+    "en": [
+      "mondtore"
+    ],
+    "fr": [
+      "passage sélène"
+    ],
+    "zh": [
+      "月門"
+    ],
+    "ja": [
+      "ムーンゲート",
+      "むーんげーと"
+    ],
+    "ko": [
+      "문게이트"
+    ],
+    "lat": [
+      "moongates",
+      "puertas de luna"
+    ]
+  },
+  "0x0137": {
+    "en": [
+      "robere"
+    ],
+    "zh": [
+      "羅貝爾"
+    ],
+    "ja": [
+      "ロベール",
+      "ろべーる"
+    ],
+    "ko": [
+      "로베르"
+    ],
+    "lat": [
+      "Robere"
+    ]
+  },
+  "0x0138": {
+    "en": [
+      "lord robere"
+    ],
+    "zh": [
+      "羅貝爾王"
+    ],
+    "ja": [
+      "ロードロベール",
+      "ろーどろべーる"
+    ],
+    "ko": [
+      "로드 로베르"
+    ],
+    "lat": [
+      "Lord Robere"
+    ]
+  },
+  "0x0139": {
+    "en": [
+      "probleme"
+    ],
+    "de": [
+      "ärger"
+    ],
+    "es": [
+      "concerns"
+    ],
+    "fr": [
+      "problèmes"
+    ],
+    "zh": [
+      "關心",
+      "麻煩",
+      "関心",
+      "問題"
+    ],
+    "ja": [
+      "かんしん",
+      "カンシン",
+      "もんだい",
+      "モンダイ",
+      "災い",
+      "わざわい",
+      "ワザワイ"
+    ],
+    "ko": [
+      "걱정",
+      "문제"
+    ],
+    "lat": [
+      "troubles",
+      "preocupaciones",
+      "problemas",
+      "soucis"
+    ]
+  },
+  "0x013A": {
+    "en": [
+      "avatar"
+    ],
+    "zh": [
+      "聖者"
+    ],
+    "ja": [
+      "アバタール",
+      "あばたーる"
+    ],
+    "ko": [
+      "아바타"
+    ]
+  },
+  "0x013B": {
+    "en": [
+      "waffe"
+    ],
+    "fr": [
+      "épée"
+    ],
+    "zh": [
+      "武器",
+      "劍",
+      "搥",
+      "斧頭",
+      "鎚",
+      "斧"
+    ],
+    "ja": [
+      "ぶき",
+      "ブキ",
+      "ソード",
+      "そーど",
+      "ハンマー",
+      "はんまー",
+      "おの",
+      "オノ",
+      "あくす",
+      "アクス",
+      "メイス",
+      "めいす"
+    ],
+    "ko": [
+      "무기",
+      "소드",
+      "해머",
+      "엑스",
+      "메이스"
+    ],
+    "lat": [
+      "schwert",
+      "hammer",
+      "axt",
+      "streitkolben",
+      "weapon",
+      "sword",
+      "axe",
+      "mace",
+      "arma",
+      "espada",
+      "martillo",
+      "hacha",
+      "maza",
+      "arme",
+      "marteau",
+      "hache",
+      "masse"
+    ]
+  },
+  "0x013C": {
+    "en": [
+      "rathaus"
+    ],
+    "zh": [
+      "城鎮會堂",
+      "城市會堂",
+      "町役場",
+      "市役所"
+    ],
+    "ja": [
+      "まちやくば",
+      "マチヤクバ",
+      "しやくしょ",
+      "シヤクショ"
+    ],
+    "ko": [
+      "시청",
+      "군청"
+    ],
+    "lat": [
+      "stadthalle",
+      "town hall",
+      "city hall",
+      "ayuntamiento",
+      "hôtel de ville"
+    ]
+  },
+  "0x013D": {
+    "en": [
+      "parlamentshaus"
+    ],
+    "zh": [
+      "議會屋"
+    ],
+    "ko": [
+      "의회"
+    ],
+    "lat": [
+      "house of parliment",
+      "parlamento",
+      "parlement"
+    ]
+  },
+  "0x013E": {
+    "en": [
+      "marktplatz"
+    ],
+    "zh": [
+      "城鎮廣場"
+    ],
+    "ja": [
+      "町の広場",
+      "まちのひろば",
+      "マチノヒロバ"
+    ],
+    "ko": [
+      "광장"
+    ],
+    "lat": [
+      "town square",
+      "plaza de la ciudad",
+      "place"
+    ]
+  },
+  "0x013F": {
+    "en": [
+      "neue magie"
+    ],
+    "zh": [
+      "新美吉尼西亞"
+    ],
+    "ja": [
+      "ニューマジンシア",
+      "にゅーまじんしあ"
+    ],
+    "ko": [
+      "뉴 매진시아"
+    ],
+    "lat": [
+      "new magincia",
+      "nueva magincia",
+      "magincia la nouvelle"
+    ]
+  },
+  "0x0140": {
+    "en": [
+      "handelsgilde"
+    ],
+    "de": [
+      "merchant guild"
+    ],
+    "es": [
+      "gremio mercader"
+    ],
+    "fr": [
+      "guilde des marchands"
+    ],
+    "zh": [
+      "商人公會"
+    ],
+    "ja": [
+      "商人ギルド",
+      "しょうにんぎるど",
+      "ショウニンギルド"
+    ],
+    "ko": [
+      "상인 길드"
+    ]
+  },
+  "0x0141": {
+    "en": [
+      "bergbaugilde"
+    ],
+    "de": [
+      "miner guild"
+    ],
+    "es": [
+      "gremio minero"
+    ],
+    "fr": [
+      "guilde des mineurs"
+    ],
+    "zh": [
+      "礦工公會"
+    ],
+    "ja": [
+      "鉱山労働者ギルド",
+      "こうざんろうどうしゃぎるど",
+      "コウザンロウドウシャギルド"
+    ],
+    "ko": [
+      "광부 길드"
+    ]
+  },
+  "0x0142": {
+    "en": [
+      "pirat"
+    ],
+    "zh": [
+      "海盜",
+      "海賊"
+    ],
+    "ja": [
+      "かいぞく",
+      "カイゾク"
+    ],
+    "ko": [
+      "해적"
+    ],
+    "lat": [
+      "pirate",
+      "pirata"
+    ]
+  },
+  "0x0143": {
+    "en": [
+      "zoo"
+    ],
+    "zh": [
+      "動物園"
+    ],
+    "ja": [
+      "どうぶつえん",
+      "ドウブツエン"
+    ],
+    "ko": [
+      "동물원"
+    ]
+  },
+  "0x0144": {
+    "en": [
+      "schule"
+    ],
+    "zh": [
+      "大講堂"
+    ],
+    "ja": [
+      "ライキューム",
+      "らいきゅーむ"
+    ],
+    "ko": [
+      "리세움"
+    ],
+    "lat": [
+      "lycaeum",
+      "liceo"
+    ]
+  },
+  "0x0145": {
+    "en": [
+      "gelehrter"
+    ],
+    "fr": [
+      "érudit"
+    ],
+    "zh": [
+      "學者",
+      "学者"
+    ],
+    "ja": [
+      "がくしゃ",
+      "ガクシャ"
+    ],
+    "ko": [
+      "학자"
+    ],
+    "lat": [
+      "scholar",
+      "erudito"
+    ]
+  },
+  "0x0146": {
+    "en": [
+      "reagens"
+    ],
+    "fr": [
+      "réactif"
+    ],
+    "zh": [
+      "試劑",
+      "秘薬"
+    ],
+    "ja": [
+      "ひやく",
+      "ヒヤク"
+    ],
+    "ko": [
+      "시약"
+    ],
+    "lat": [
+      "reagent",
+      "reactivo"
+    ]
+  },
+  "0x0147": {
+    "en": [
+      "teleporter"
+    ],
+    "fr": [
+      "téléporteur"
+    ],
+    "zh": [
+      "傳送點"
+    ],
+    "ja": [
+      "テレポーター",
+      "てれぽーたー"
+    ],
+    "ko": [
+      "텔레포터"
+    ],
+    "lat": [
+      "teletransportador"
+    ]
+  },
+  "0x0148": {
+    "en": [
+      "gadget"
+    ],
+    "de": [
+      "gerät"
+    ],
+    "zh": [
+      "小機件"
+    ],
+    "ko": [
+      "장치"
+    ],
+    "lat": [
+      "artilugio"
+    ]
+  },
+  "0x0149": {
+    "en": [
+      "silberbogen"
+    ],
+    "zh": [
+      "銀弓"
+    ],
+    "ja": [
+      "シルバーボウ",
+      "しるばーぼう"
+    ],
+    "ko": [
+      "실버보우"
+    ],
+    "lat": [
+      "silver bow",
+      "arco de plata",
+      "arc d'argent"
+    ]
+  },
+  "0x014A": {
+    "en": [
+      "mystischer geist"
+    ],
+    "zh": [
+      "神秘的聖靈"
+    ],
+    "ja": [
+      "ミスティカルスピリット",
+      "みすてぃかるすぴりっと"
+    ],
+    "ko": [
+      "신비로운 정령"
+    ],
+    "lat": [
+      "mystical spirit",
+      "alma mística",
+      "esprit mystique"
+    ]
+  },
+  "0x014B": {
+    "en": [
+      "technikergilde"
+    ],
+    "de": [
+      "engineers guild"
+    ],
+    "es": [
+      "gremio de los ingenieros"
+    ],
+    "fr": [
+      "guilde des ingénieurs"
+    ],
+    "zh": [
+      "技師公會"
+    ],
+    "ja": [
+      "技師ギルドはどこ",
+      "ぎしぎるどはどこ",
+      "ギシギルドハドコ"
+    ],
+    "ko": [
+      "엔지니어 길드"
+    ]
+  },
+  "0x014C": {
+    "en": [
+      "meeresgilde"
+    ],
+    "de": [
+      "sea guild"
+    ],
+    "es": [
+      "gremio del mar"
+    ],
+    "fr": [
+      "guilde maritime"
+    ],
+    "zh": [
+      "航海公會"
+    ],
+    "ko": [
+      "뱃사람 길드"
+    ]
+  },
+  "0x014D": {
+    "en": [
+      "vendor sell"
+    ],
+    "de": [
+      "händler verkaufen"
+    ],
+    "es": [
+      "vender vendedor"
+    ],
+    "fr": [
+      "vendeur vendre"
+    ],
+    "zh": [
+      "向小販賣東西"
+    ],
+    "ja": [
+      "売る",
+      "うる",
+      "ウル"
+    ],
+    "ko": [
+      "물건 팔기"
+    ]
+  },
+  "0x014E": {
+    "en": [
+      "i wish to cross"
+    ],
+    "de": [
+      "ich möchte übersetzen"
+    ],
+    "es": [
+      "quiero cruzar"
+    ],
+    "fr": [
+      "je voudrais traverser"
+    ],
+    "zh": [
+      "我希望度過"
+    ],
+    "ja": [
+      "渡る",
+      "わたる",
+      "ワタル"
+    ],
+    "ko": [
+      "지나가기"
+    ]
+  },
+  "0x014F": {
+    "en": [
+      "where is the miner"
+    ],
+    "de": [
+      "wo ist der bergarbeiter"
+    ],
+    "es": [
+      "dónde está el minero"
+    ],
+    "fr": [
+      "où est le mineur"
+    ],
+    "zh": [
+      "礦工在哪裡"
+    ],
+    "ja": [
+      "鉱山労働者はどこ",
+      "こうざんろうどうしゃはどこ",
+      "コウザンロウドウシャハドコ"
+    ],
+    "ko": [
+      "광부 어디"
+    ]
+  },
+  "0x0150": {
+    "en": [
+      "where is the woodsman"
+    ],
+    "de": [
+      "wo ist der waldarbeiter"
+    ],
+    "es": [
+      "dónde está el carpintero"
+    ],
+    "fr": [
+      "où est le bûcheron"
+    ],
+    "zh": [
+      "樵夫在哪裡"
+    ],
+    "ja": [
+      "伐採所はどこ",
+      "ばっさいじょはどこ"
+    ],
+    "ko": [
+      "나무꾼 어디"
+    ]
+  },
+  "0x0151": {
+    "en": [
+      "where is the mapmaker"
+    ],
+    "de": [
+      "wo ist der kartograph"
+    ],
+    "es": [
+      "dónde está el cartógrafo"
+    ],
+    "fr": [
+      "où est le cartographe"
+    ],
+    "zh": [
+      "地圖抄寫員在哪裡"
+    ],
+    "ja": [
+      "地図屋はどこ",
+      "ちずやはどこ",
+      "チズヤハドコ"
+    ],
+    "ko": [
+      "지도제작자 어디"
+    ]
+  },
+  "0x0152": {
+    "en": [
+      "where is the thief"
+    ],
+    "de": [
+      "wo ist der dieb"
+    ],
+    "es": [
+      "dónde está el ladrón"
+    ],
+    "fr": [
+      "où est le voleur"
+    ],
+    "zh": [
+      "小偷在哪裡"
+    ],
+    "ja": [
+      "泥棒はどこ",
+      "どろぼうはどこ",
+      "ドロボウハドコ"
+    ],
+    "ko": [
+      "도둑 어디"
+    ]
+  },
+  "0x0153": {
+    "en": [
+      "where is the tailor"
+    ],
+    "de": [
+      "wo ist der schneider"
+    ],
+    "es": [
+      "dónde está el sastre"
+    ],
+    "fr": [
+      "où est le tailleur"
+    ],
+    "zh": [
+      "裁縫在哪裡"
+    ],
+    "ja": [
+      "仕立て屋はどこ",
+      "したてやはどこ",
+      "シタテヤハドコ"
+    ],
+    "ko": [
+      "재봉사 어디"
+    ]
+  },
+  "0x0154": {
+    "en": [
+      "anatomie lernen"
+    ],
+    "de": [
+      "train anatomy"
+    ],
+    "es": [
+      "entrenar anatomía"
+    ],
+    "fr": [
+      "former anatomie"
+    ],
+    "ja": [
+      "解剖学を習う",
+      "かいぼうがくをならう",
+      "カイボウガクヲナラウ"
+    ],
+    "ko": [
+      "훈련 해부학"
+    ],
+    "lat": [
+      "teach anatomy"
+    ]
+  },
+  "0x0155": {
+    "en": [
+      "come"
+    ],
+    "fr": [
+      "venir"
+    ],
+    "zh": [
+      "過來"
+    ],
+    "ja": [
+      "カム",
+      "かむ",
+      "来い",
+      "こい",
+      "コイ"
+    ],
+    "ko": [
+      "호출"
+    ],
+    "lat": [
+      "komm",
+      "ven"
+    ]
+  },
+  "0x0156": {
+    "en": [
+      "drop"
+    ],
+    "fr": [
+      "déposer"
+    ],
+    "zh": [
+      "卸下"
+    ],
+    "ja": [
+      "だせ",
+      "出せ"
+    ],
+    "ko": [
+      "버림"
+    ],
+    "lat": [
+      "lass fallen",
+      "deja"
+    ]
+  },
+  "0x0157": {
+    "en": [
+      "hol"
+    ],
+    "zh": [
+      "取來"
+    ],
+    "ja": [
+      "とれ",
+      "トレ",
+      "取れ"
+    ],
+    "ko": [
+      "가져와"
+    ],
+    "lat": [
+      "fetch",
+      "ve a por",
+      "va chercher"
+    ]
+  },
+  "0x0158": {
+    "en": [
+      "bring"
+    ],
+    "zh": [
+      "取得"
+    ],
+    "ja": [
+      "とれ",
+      "トレ",
+      "取れ"
+    ],
+    "ko": [
+      "가져오기"
+    ],
+    "lat": [
+      "get",
+      "consigue",
+      "obtenir"
+    ]
+  },
+  "0x0159": {
+    "en": [
+      "nimm"
+    ],
+    "zh": [
+      "帶來"
+    ],
+    "ja": [
+      "とれ",
+      "トレ",
+      "取れ"
+    ],
+    "ko": [
+      "줍기"
+    ],
+    "lat": [
+      "bring",
+      "trae",
+      "amener"
+    ]
+  },
+  "0x015A": {
+    "en": [
+      "follow"
+    ],
+    "fr": [
+      "suivre"
+    ],
+    "zh": [
+      "跟隨"
+    ],
+    "ja": [
+      "フォロー",
+      "ふぉろー"
+    ],
+    "ko": [
+      "따라가기"
+    ],
+    "lat": [
+      "folge",
+      "sigue a"
+    ]
+  },
+  "0x015B": {
+    "en": [
+      "friend"
+    ],
+    "zh": [
+      "朋友"
+    ],
+    "ja": [
+      "フレンド",
+      "ふれんど"
+    ],
+    "ko": [
+      "친구"
+    ],
+    "lat": [
+      "freund",
+      "hazte amigo de",
+      "ami"
+    ]
+  },
+  "0x015C": {
+    "en": [
+      "guard"
+    ],
+    "fr": [
+      "garder"
+    ],
+    "zh": [
+      "守衛"
+    ],
+    "ja": [
+      "ガード",
+      "がーど"
+    ],
+    "ko": [
+      "경비"
+    ],
+    "lat": [
+      "bewache",
+      "protege"
+    ]
+  },
+  "0x015D": {
+    "en": [
+      "kill"
+    ],
+    "de": [
+      "töte"
+    ],
+    "es": [
+      "mata"
+    ],
+    "fr": [
+      "tuer"
+    ],
+    "zh": [
+      "宰殺"
+    ],
+    "ja": [
+      "キル",
+      "きる"
+    ],
+    "ko": [
+      "죽임"
+    ]
+  },
+  "0x015E": {
+    "en": [
+      "greif an"
+    ],
+    "zh": [
+      "攻擊"
+    ],
+    "ja": [
+      "アタック",
+      "あたっく"
+    ],
+    "ko": [
+      "공격"
+    ],
+    "lat": [
+      "attack",
+      "ataca",
+      "attaquer"
+    ]
+  },
+  "0x015F": {
+    "en": [
+      "patrol"
+    ],
+    "zh": [
+      "巡邏"
+    ],
+    "ja": [
+      "パトロール",
+      "ぱとろーる"
+    ],
+    "ko": [
+      "순찰"
+    ],
+    "lat": [
+      "patrouilliere",
+      "patrulla",
+      "patrouiller"
+    ]
+  },
+  "0x0160": {
+    "en": [
+      "berichte"
+    ],
+    "zh": [
+      "報告"
+    ],
+    "ja": [
+      "レポート",
+      "れぽーと",
+      "ほうこく",
+      "ホウコク"
+    ],
+    "ko": [
+      "보고"
+    ],
+    "lat": [
+      "report",
+      "informa",
+      "rapport"
+    ]
+  },
+  "0x0161": {
+    "en": [
+      "stop"
+    ],
+    "de": [
+      "bleib stehen"
+    ],
+    "es": [
+      "detente"
+    ],
+    "fr": [
+      "arrêter"
+    ],
+    "zh": [
+      "停止"
+    ],
+    "ja": [
+      "ストップ",
+      "すとっぷ",
+      "ていし",
+      "テイシ"
+    ],
+    "ko": [
+      "중지"
+    ]
+  },
+  "0x0162": {
+    "en": [
+      "hire"
+    ],
+    "zh": [
+      "雇用"
+    ],
+    "ja": [
+      "こよう",
+      "コヨウ"
+    ],
+    "ko": [
+      "고용"
+    ],
+    "lat": [
+      "einstellen",
+      "alquilar",
+      "louer"
+    ]
+  },
+  "0x0163": {
+    "en": [
+      "follow me"
+    ],
+    "de": [
+      "folge mir"
+    ],
+    "zh": [
+      "跟隨我"
+    ],
+    "ja": [
+      "フォローミー",
+      "ふぉろーみー"
+    ],
+    "ko": [
+      "따라와"
+    ],
+    "lat": [
+      "sígueme",
+      "suivez-moi"
+    ]
+  },
+  "0x0164": {
+    "en": [
+      "all come"
+    ],
+    "de": [
+      "alle kommen"
+    ],
+    "es": [
+      "venid todos"
+    ],
+    "fr": [
+      "tous venir"
+    ],
+    "zh": [
+      "全部過來"
+    ],
+    "ja": [
+      "オールカム",
+      "おーるかむ"
+    ],
+    "ko": [
+      "모두 이리와"
+    ]
+  },
+  "0x0165": {
+    "en": [
+      "all follow"
+    ],
+    "de": [
+      "alle folgen"
+    ],
+    "es": [
+      "seguid a todos"
+    ],
+    "fr": [
+      "tous suivre"
+    ],
+    "zh": [
+      "全部跟隨"
+    ],
+    "ja": [
+      "オールフォロー",
+      "おーるふぉろー"
+    ],
+    "ko": [
+      "모두 따라와"
+    ]
+  },
+  "0x0166": {
+    "en": [
+      "all guard"
+    ],
+    "de": [
+      "alle bewachen"
+    ],
+    "es": [
+      "proteged todos"
+    ],
+    "fr": [
+      "tous garder"
+    ],
+    "zh": [
+      "全部守衛"
+    ],
+    "ja": [
+      "オールガード",
+      "おーるがーど"
+    ],
+    "ko": [
+      "모두 지켜"
+    ]
+  },
+  "0x0167": {
+    "en": [
+      "all stop"
+    ],
+    "de": [
+      "alle stehen bleiben"
+    ],
+    "es": [
+      "deteneos todos"
+    ],
+    "fr": [
+      "tous arrêter"
+    ],
+    "zh": [
+      "全部停止"
+    ],
+    "ja": [
+      "おーるすとっぷ",
+      "オールストップ"
+    ],
+    "ko": [
+      "모두 정지"
+    ]
+  },
+  "0x0168": {
+    "en": [
+      "all kill"
+    ],
+    "de": [
+      "alle töten"
+    ],
+    "es": [
+      "matad a todos"
+    ],
+    "fr": [
+      "tous tuer"
+    ],
+    "zh": [
+      "全部宰殺"
+    ],
+    "ja": [
+      "おーるきる",
+      "オールキル"
+    ],
+    "ko": [
+      "모두 죽여"
+    ]
+  },
+  "0x0169": {
+    "en": [
+      "all attack"
+    ],
+    "de": [
+      "alle angreifen"
+    ],
+    "es": [
+      "atacad todos"
+    ],
+    "fr": [
+      "tous attaquer"
+    ],
+    "zh": [
+      "全部攻擊"
+    ],
+    "ja": [
+      "おーるあたっく",
+      "オールアタック"
+    ],
+    "ko": [
+      "모두 공격"
+    ]
+  },
+  "0x016A": {
+    "en": [
+      "all report"
+    ],
+    "de": [
+      "alle berichten"
+    ],
+    "es": [
+      "informadme todos"
+    ],
+    "fr": [
+      "tous au rapport"
+    ],
+    "zh": [
+      "全部報告"
+    ],
+    "ja": [
+      "おーるれぽーと",
+      "オールレポート"
+    ],
+    "ko": [
+      "모두 보고"
+    ]
+  },
+  "0x016B": {
+    "en": [
+      "all guard me"
+    ],
+    "de": [
+      "alle sollen mich bewachen"
+    ],
+    "es": [
+      "protegedme todos"
+    ],
+    "fr": [
+      "tous me garder"
+    ],
+    "zh": [
+      "全部守衛著我"
+    ],
+    "ja": [
+      "おーるがーどみー",
+      "オールガードミー"
+    ],
+    "ko": [
+      "모두 날 지켜"
+    ]
+  },
+  "0x016C": {
+    "en": [
+      "all follow me"
+    ],
+    "de": [
+      "alle sollen mir folgen"
+    ],
+    "es": [
+      "seguidme todos"
+    ],
+    "fr": [
+      "tous me suivre"
+    ],
+    "zh": [
+      "全部跟隨我"
+    ],
+    "ja": [
+      "おーるふぉろーみー",
+      "オールフォローミー"
+    ],
+    "ko": [
+      "모두 날 따라와"
+    ]
+  },
+  "0x016D": {
+    "en": [
+      "release"
+    ],
+    "fr": [
+      "libérer"
+    ],
+    "zh": [
+      "釋放"
+    ],
+    "ja": [
+      "リリース",
+      "りりーす"
+    ],
+    "ko": [
+      "풀기"
+    ],
+    "lat": [
+      "freilassen",
+      "soltar"
+    ]
+  },
+  "0x016E": {
+    "en": [
+      "transfer"
+    ],
+    "fr": [
+      "transférer"
+    ],
+    "zh": [
+      "傳送",
+      "譲渡"
+    ],
+    "ja": [
+      "とらんすふぁー",
+      "トランスファー",
+      "じょうと",
+      "ジョウト"
+    ],
+    "ko": [
+      "넘기기"
+    ],
+    "lat": [
+      "wechsle",
+      "transferir"
+    ]
+  },
+  "0x016F": {
+    "en": [
+      "stay"
+    ],
+    "fr": [
+      "rester"
+    ],
+    "zh": [
+      "停止"
+    ],
+    "ja": [
+      "すてい",
+      "ステイ"
+    ],
+    "ko": [
+      "대기"
+    ],
+    "lat": [
+      "bleib",
+      "quedarse"
+    ]
+  },
+  "0x0170": {
+    "en": [
+      "all stay"
+    ],
+    "de": [
+      "alle sollen bleiben"
+    ],
+    "es": [
+      "quedaos todos"
+    ],
+    "fr": [
+      "tous rester"
+    ],
+    "zh": [
+      "全部停止"
+    ],
+    "ja": [
+      "おーるすてい",
+      "オールステイ"
+    ],
+    "ko": [
+      "모두 대기"
+    ]
+  },
+  "0x0171": {
+    "en": [
+      "buy"
+    ],
+    "zh": [
+      "向*購買"
+    ],
+    "ja": [
+      "かう",
+      "買う",
+      "カウ"
+    ],
+    "ko": [
+      "물건 사기"
+    ],
+    "lat": [
+      "kaufen",
+      "comprar",
+      "acheter"
+    ]
+  },
+  "0x0172": {
+    "en": [
+      "durchsuchen"
+    ],
+    "fr": [
+      "examiner"
+    ],
+    "zh": [
+      "查看",
+      "在庫"
+    ],
+    "ja": [
+      "ざいこ",
+      "ザイコ"
+    ],
+    "ko": [
+      "보기"
+    ],
+    "lat": [
+      "ansehen",
+      "anschauen",
+      "browse",
+      "view",
+      "look",
+      "ojear",
+      "ver",
+      "observar",
+      "parcourir",
+      "regarder"
+    ]
+  },
+  "0x0173": {
+    "en": [
+      "sammeln"
+    ],
+    "zh": [
+      "向*收錢",
+      "回収"
+    ],
+    "ja": [
+      "かいしゅう",
+      "カイシュウ",
+      "これくと",
+      "コレクト"
+    ],
+    "ko": [
+      "모으기"
+    ],
+    "lat": [
+      "collect",
+      "recoger",
+      "collecter"
+    ]
+  },
+  "0x0174": {
+    "en": [
+      "status"
+    ],
+    "zh": [
+      "狀態",
+      "資訊"
+    ],
+    "ja": [
+      "すてーたす",
+      "ステータス",
+      "いんふぉ",
+      "インフォ"
+    ],
+    "ko": [
+      "상태",
+      "정보"
+    ],
+    "lat": [
+      "info",
+      "estado",
+      "statut"
+    ]
+  },
+  "0x0175": {
+    "en": [
+      "entlassen"
+    ],
+    "zh": [
+      "開除",
+      "變更",
+      "解雇"
+    ],
+    "ja": [
+      "でぃすみす",
+      "ディスミス",
+      "かいこ"
+    ],
+    "ko": [
+      "해고",
+      "교체"
+    ],
+    "lat": [
+      "ersetzen",
+      "dismiss",
+      "replace",
+      "descartar",
+      "reemplazar",
+      "renvoyer",
+      "replacer"
+    ]
+  },
+  "0x0176": {
+    "en": [
+      "durchschalten"
+    ],
+    "zh": [
+      "支付"
+    ],
+    "ja": [
+      "さいくる",
+      "サイクル"
+    ],
+    "ko": [
+      "반복"
+    ],
+    "lat": [
+      "cycle",
+      "ciclo"
+    ]
+  },
+  "0x0177": {
+    "en": [
+      "sell"
+    ],
+    "zh": [
+      "向*銷售"
+    ],
+    "ja": [
+      "うる",
+      "ウル",
+      "売る"
+    ],
+    "ko": [
+      "물건 팔기"
+    ],
+    "lat": [
+      "verkaufen",
+      "vender",
+      "vendre"
+    ]
+  },
+  "0x0178": {
+    "en": [
+      "i honor your leadership"
+    ],
+    "zh": [
+      "kp譲渡",
+      "ｋｐ譲渡"
+    ],
+    "ja": [
+      "キルポイントジョウト",
+      "きるぽいんとじょうと"
+    ],
+    "ko": [
+      "그대의 지도력에 경의를"
+    ]
+  },
+  "0x0179": {
+    "en": [
+      "i invoke my evil powers"
+    ],
+    "ja": [
+      "えびるぱわー",
+      "エビルパワー"
+    ],
+    "ko": [
+      "악의 힘 소환"
+    ]
+  },
+  "0x017A": {
+    "en": [
+      "i invoke my good powers"
+    ],
+    "ja": [
+      "ひーろーぱわー",
+      "ヒーローパワー"
+    ],
+    "ko": [
+      "선의 힘 소환"
+    ]
+  },
+  "0x017B": {
+    "en": [
+      "powerhour"
+    ],
+    "ko": [
+      "バースト﻿0 *인출"
+    ]
+  },
+  "0x017C": {
+    "en": [
+      "teach necro"
+    ],
+    "lat": [
+      "teach necromancy",
+      "train necro",
+      "train necromancy"
+    ]
+  },
+  "0x017D": {
+    "en": [
+      "teach chivalry"
+    ],
+    "lat": [
+      "train chivalry"
+    ]
+  },
+  "0x017E": {
+    "en": [
+      "teach focus"
+    ],
+    "lat": [
+      "train focus"
+    ]
+  },
+  "0x017F": {
+    "en": [
+      "who"
+    ],
+    "zh": [
+      "誰"
+    ],
+    "ja": [
+      "だれ",
+      "ダレ"
+    ]
+  },
+  "0x0180": {
+    "en": [
+      "what"
+    ],
+    "zh": [
+      "何"
+    ],
+    "ja": [
+      "なに",
+      "ナニ"
+    ]
+  },
+  "0x0181": {
+    "en": [
+      "time lord"
+    ],
+    "ja": [
+      "タイムロード",
+      "たいむろーど"
+    ]
+  },
+  "0x0182": {
+    "en": [
+      "ether"
+    ],
+    "ja": [
+      "エーテル",
+      "えーてる"
+    ]
+  },
+  "0x0183": {
+    "en": [
+      "outside"
+    ],
+    "zh": [
+      "外側"
+    ],
+    "ja": [
+      "そとがわ",
+      "ソトガワ",
+      "アウトサイド"
+    ]
+  },
+  "0x0184": {
+    "en": [
+      "comprehend"
+    ],
+    "zh": [
+      "理解"
+    ],
+    "ja": [
+      "りかい",
+      "リカイ"
+    ]
+  },
+  "0x0185": {
+    "en": [
+      "corporeal"
+    ],
+    "zh": [
+      "実体化"
+    ],
+    "ja": [
+      "じったいか",
+      "ジッタイカ"
+    ]
+  },
+  "0x0186": {
+    "en": [
+      "nature"
+    ],
+    "zh": [
+      "特性"
+    ],
+    "ja": [
+      "とくせい",
+      "トクセイ"
+    ]
+  },
+  "0x0187": {
+    "en": [
+      "peril"
+    ],
+    "zh": [
+      "危機"
+    ],
+    "ja": [
+      "きけん",
+      "キケン"
+    ]
+  },
+  "0x0188": {
+    "en": [
+      "sacrosanct"
+    ],
+    "zh": [
+      "神聖"
+    ],
+    "ja": [
+      "しんせい",
+      "シンセイ"
+    ]
+  },
+  "0x0189": {
+    "en": [
+      "rift"
+    ],
+    "ja": [
+      "裂け目",
+      "さけめ",
+      "サケメ"
+    ]
+  },
+  "0x018A": {
+    "en": [
+      "learn"
+    ],
+    "zh": [
+      "知識"
+    ],
+    "ja": [
+      "知る",
+      "しる",
+      "シル",
+      "ちしき",
+      "チシキ"
+    ]
+  },
+  "0x018B": {
+    "en": [
+      "shard"
+    ],
+    "ja": [
+      "シャード",
+      "しゃーど"
+    ]
+  },
+  "0x018C": {
+    "en": [
+      "creature"
+    ],
+    "zh": [
+      "怪物",
+      "生物"
+    ],
+    "ja": [
+      "クリーチャー",
+      "くりーちゃー",
+      "かいぶつ",
+      "カイブツ",
+      "せいぶつ"
+    ]
+  },
+  "0x018D": {
+    "en": [
+      "void"
+    ],
+    "ja": [
+      "ボイド",
+      "ぼいど"
+    ]
+  },
+  "0x018E": {
+    "en": [
+      "throne room"
+    ],
+    "ja": [
+      "王座の間",
+      "ぎょくざのま",
+      "ギョクザノマ"
+    ]
+  },
+  "0x018F": {
+    "en": [
+      "throne"
+    ],
+    "zh": [
+      "玉座"
+    ],
+    "ja": [
+      "ぎょくざ",
+      "ギョクザノマ"
+    ]
+  },
+  "0x0190": {
+    "en": [
+      "shape"
+    ],
+    "zh": [
+      "形"
+    ],
+    "ja": [
+      "かたち",
+      "カタチ"
+    ]
+  },
+  "0x0191": {
+    "en": [
+      "shield"
+    ],
+    "zh": [
+      "盾"
+    ],
+    "ja": [
+      "たて",
+      "タテ",
+      "シールド"
+    ]
+  },
+  "0x0192": {
+    "en": [
+      "inscription"
+    ],
+    "zh": [
+      "言葉"
+    ],
+    "ja": [
+      "ことば",
+      "コトバ"
+    ]
+  },
+  "0x0193": {
+    "en": [
+      "crest"
+    ],
+    "zh": [
+      "紋章"
+    ],
+    "ja": [
+      "もんしょう",
+      "モンショウ"
+    ]
+  },
+  "0x0194": {
+    "en": [
+      "silver serpent"
+    ],
+    "ja": [
+      "シルバーサーペント",
+      "しるばーさーぺんと"
+    ]
+  },
+  "0x0195": {
+    "en": [
+      "serpent"
+    ],
+    "ja": [
+      "サーペント",
+      "さーぺんと"
+    ]
+  },
+  "0x0196": {
+    "en": [
+      "garden"
+    ],
+    "zh": [
+      "庭園"
+    ],
+    "ja": [
+      "ていえん",
+      "ガーデン",
+      "がーでん"
+    ]
+  },
+  "0x0197": {
+    "en": [
+      "tower"
+    ],
+    "zh": [
+      "塔"
+    ],
+    "ja": [
+      "とう",
+      "タワー",
+      "たわー"
+    ]
+  },
+  "0x0198": {
+    "en": [
+      "barracks"
+    ],
+    "zh": [
+      "兵舎"
+    ],
+    "ja": [
+      "へいしゃ"
+    ]
+  },
+  "0x0199": {
+    "en": [
+      "guard"
+    ],
+    "zh": [
+      "衛兵"
+    ],
+    "ja": [
+      "えいへい",
+      "ガード"
+    ]
+  },
+  "0x019A": {
+    "en": [
+      "noble"
+    ],
+    "zh": [
+      "貴族"
+    ],
+    "ja": [
+      "きぞく"
+    ]
+  },
+  "0x019B": {
+    "en": [
+      "cook"
+    ],
+    "zh": [
+      "調理師"
+    ],
+    "ja": [
+      "ちょうりし",
+      "チョウリシ",
+      "コック",
+      "こっく"
+    ]
+  },
+  "0x019C": {
+    "en": [
+      "kitchen"
+    ],
+    "zh": [
+      "台所"
+    ],
+    "ja": [
+      "だいどころ",
+      "ダイドコロ",
+      "キッチン",
+      "きっちん"
+    ]
+  },
+  "0x019D": {
+    "en": [
+      "dining hall"
+    ],
+    "zh": [
+      "食堂"
+    ],
+    "ja": [
+      "しょくどう",
+      "ショクドウ",
+      "ダイニングホール",
+      "だいにんぐほーる"
+    ]
+  },
+  "0x019E": {
+    "en": [
+      "library"
+    ],
+    "zh": [
+      "図書館"
+    ],
+    "ja": [
+      "としょかん",
+      "トショカン",
+      "ライブラリー",
+      "らいぶらりー"
+    ]
+  },
+  "0x019F": {
+    "en": [
+      "bedroom"
+    ],
+    "zh": [
+      "寝室"
+    ],
+    "ja": [
+      "しんしつ",
+      "シンシツ",
+      "ベッドルーム",
+      "べっどるーむ"
+    ]
+  },
+  "0x01A0": {
+    "en": [
+      "slept"
+    ],
+    "ja": [
+      "寝起き",
+      "ねおき",
+      "ネオキ"
+    ]
+  },
+  "0x01A1": {
+    "en": [
+      "pillow"
+    ],
+    "zh": [
+      "枕"
+    ],
+    "ja": [
+      "まくら",
+      "マクラ",
+      "ピロー"
+    ]
+  },
+  "0x01A2": {
+    "en": [
+      "secret"
+    ],
+    "zh": [
+      "秘密"
+    ],
+    "ja": [
+      "ひみつ",
+      "ヒミツ",
+      "シークレット"
+    ]
+  },
+  "0x01A3": {
+    "en": [
+      "study"
+    ],
+    "zh": [
+      "書斎"
+    ],
+    "ja": [
+      "しょさい"
+    ]
+  },
+  "0x01A4": {
+    "en": [
+      "studio"
+    ],
+    "ja": [
+      "アトリエ",
+      "あとりえ",
+      "スタジオ",
+      "すたじお"
+    ]
+  },
+  "0x01A5": {
+    "en": [
+      "laboratory"
+    ],
+    "zh": [
+      "研究室"
+    ],
+    "ja": [
+      "けんきゅうしつ",
+      "ケンキュウシツ",
+      "ラボラトリー"
+    ]
+  },
+  "0x01A6": {
+    "en": [
+      "Nystul"
+    ],
+    "ja": [
+      "ニスタル"
+    ]
+  },
+  "0x01A7": {
+    "ja": [
+      "にすたる"
+    ]
+  },
+  "0x01A8": {
+    "en": [
+      "Clainin"
+    ]
+  },
+  "0x01A9": {
+    "ja": [
+      "クレイニン"
+    ]
+  },
+  "0x01AA": {
+    "ja": [
+      "くれいにん"
+    ]
+  },
+  "0x01AB": {
+    "en": [
+      "meeting hall"
+    ],
+    "zh": [
+      "会議所"
+    ],
+    "ja": [
+      "かいぎしょ",
+      "カイギショ",
+      "ミーティングホール",
+      "みーてぃんぐほーる"
+    ]
+  },
+  "0x01AC": {
+    "en": [
+      "council"
+    ],
+    "zh": [
+      "議会"
+    ],
+    "ja": [
+      "ぎかい",
+      "ギカイ"
+    ]
+  },
+  "0x01AD": {
+    "en": [
+      "commander"
+    ],
+    "zh": [
+      "隊長"
+    ],
+    "ja": [
+      "たいちょう",
+      "タイチョウ",
+      "コマンダー",
+      "こまんだー"
+    ]
+  },
+  "0x01AE": {
+    "en": [
+      "castle"
+    ],
+    "zh": [
+      "城"
+    ],
+    "ja": [
+      "しろ",
+      "シロ",
+      "キャッスル",
+      "きゃっする"
+    ]
+  },
+  "0x01AF": {
+    "en": [
+      "history"
+    ],
+    "zh": [
+      "歴史"
+    ],
+    "ja": [
+      "れきし",
+      "レキシ",
+      "ヒストリー",
+      "ひすとりー"
+    ]
+  },
+  "0x01B0": {
+    "zh": [
+      "増築"
+    ],
+    "ja": [
+      "ぞうちく",
+      "ゾウチク"
+    ]
+  },
+  "0x01B1": {
+    "en": [
+      "passage"
+    ],
+    "zh": [
+      "通路"
+    ],
+    "ja": [
+      "つうろ",
+      "ツウロ",
+      "パッセージ",
+      "ぱっせーじ"
+    ]
+  },
+  "0x01B2": {
+    "en": [
+      "sewer"
+    ],
+    "zh": [
+      "下水道"
+    ],
+    "ja": [
+      "げすいどう",
+      "ゲスイドウ"
+    ]
+  },
+  "0x01B3": {
+    "en": [
+      "layout"
+    ],
+    "zh": [
+      "案内"
+    ],
+    "ja": [
+      "あんない"
+    ]
+  },
+  "0x01B4": {
+    "en": [
+      "blacksmithy"
+    ],
+    "zh": [
+      "鍛冶場"
+    ],
+    "ja": [
+      "かじば",
+      "カジバ"
+    ]
+  },
+  "0x01B5": {
+    "en": [
+      "training area"
+    ],
+    "zh": [
+      "訓練所"
+    ],
+    "ja": [
+      "くんれんじょ",
+      "クンレンジョ",
+      "トレーニングエリア",
+      "とれーにんぐえりあ"
+    ]
+  },
+  "0x01B6": {
+    "en": [
+      "gone"
+    ],
+    "zh": [
+      "留守"
+    ],
+    "ja": [
+      "るす"
+    ]
+  },
+  "0x01B7": {
+    "en": [
+      "sovereign"
+    ],
+    "zh": [
+      "王"
+    ],
+    "ja": [
+      "おう"
+    ]
+  },
+  "0x01B8": {
+    "en": [
+      "britannia"
+    ],
+    "ja": [
+      "ブリタニア",
+      "ぶりたにあ"
+    ]
+  },
+  "0x01B9": {
+    "en": [
+      "trammel"
+    ],
+    "ja": [
+      "トランメル",
+      "とらんめる"
+    ]
+  },
+  "0x01BA": {
+    "en": [
+      "felucca"
+    ],
+    "ja": [
+      "フェルッカ",
+      "ふぇるっか"
+    ]
+  },
+  "0x01BB": {
+    "en": [
+      "Minax"
+    ],
+    "ja": [
+      "ミナクス",
+      "みなくす",
+      "ミナックス",
+      "みなっくす"
+    ]
+  },
+  "0x01BC": {
+    "en": [
+      "Mondain"
+    ],
+    "ja": [
+      "モンデイン",
+      "もんでいん"
+    ]
+  },
+  "0x01BD": {
+    "en": [
+      "Exodus"
+    ],
+    "ja": [
+      "エクソダス",
+      "えくそだす"
+    ]
+  },
+  "0x01BE": {
+    "en": [
+      "wait"
+    ],
+    "ja": [
+      "待つ",
+      "まつ",
+      "マツ"
+    ]
+  },
+  "0x01BF": {
+    "en": [
+      "stories"
+    ],
+    "ja": [
+      "話し",
+      "はなし",
+      "ハナシ"
+    ]
+  },
+  "0x01C0": {
+    "en": [
+      "story"
+    ],
+    "zh": [
+      "物語"
+    ],
+    "ja": [
+      "ものがたり",
+      "モノガタリ"
+    ]
+  },
+  "0x01C1": {
+    "en": [
+      "Hubert"
+    ],
+    "ja": [
+      "ヒューバート",
+      "ひゅーばーと"
+    ]
+  },
+  "0x01C2": {
+    "en": [
+      "Urth"
+    ],
+    "ja": [
+      "えーと",
+      "エート"
+    ]
+  },
+  "0x01C3": {
+    "en": [
+      "Earth"
+    ],
+    "zh": [
+      "世界"
+    ],
+    "ja": [
+      "せかい",
+      "セカイ",
+      "アース"
+    ]
+  },
+  "0x01C4": {
+    "en": [
+      "countries"
+    ],
+    "zh": [
+      "国"
+    ],
+    "ja": [
+      "くに",
+      "クニ"
+    ]
+  },
+  "0x01C5": {
+    "en": [
+      "borders"
+    ],
+    "zh": [
+      "水平線"
+    ],
+    "ja": [
+      "すいへいせん",
+      "スイヘイセン"
+    ]
+  },
+  "0x01C6": {
+    "en": [
+      "kingdom"
+    ],
+    "zh": [
+      "王国"
+    ],
+    "ja": [
+      "おうこく",
+      "オウコク",
+      "キングダム",
+      "きんぐだむ"
+    ]
+  },
+  "0x01C7": {
+    "en": [
+      "Sosaria"
+    ],
+    "ja": [
+      "ソーサリア",
+      "そーさりあ"
+    ]
+  },
+  "0x01C8": {
+    "en": [
+      "Stranger"
+    ],
+    "zh": [
+      "来訪者"
+    ],
+    "ja": [
+      "らいほうしゃ",
+      "ライホウシャ"
+    ]
+  },
+  "0x01C9": {
+    "en": [
+      "book"
+    ],
+    "zh": [
+      "本"
+    ],
+    "ja": [
+      "ホン",
+      "ブック"
+    ]
+  },
+  "0x01CA": {
+    "en": [
+      "My Story"
+    ],
+    "ja": [
+      "マイストーリー",
+      "まいすとーり"
+    ]
+  },
+  "0x01CB": {
+    "en": [
+      "remnants"
+    ],
+    "zh": [
+      "破片"
+    ],
+    "ja": [
+      "はへん",
+      "ハヘン"
+    ]
+  },
+  "0x01CC": {
+    "en": [
+      "united"
+    ]
+  },
+  "0x01CD": {
+    "zh": [
+      "統一"
+    ],
+    "ja": [
+      "とういつ",
+      "トウイツ"
+    ]
+  },
+  "0x01CE": {
+    "en": [
+      "Akalabeth"
+    ],
+    "ja": [
+      "アカラベス",
+      "あからべす"
+    ]
+  },
+  "0x01CF": {
+    "en": [
+      "three principles"
+    ],
+    "zh": [
+      "三原理"
+    ],
+    "ja": [
+      "3つの原理",
+      "みっつのげんり",
+      "さんげんり",
+      "ミッツノゲンリ"
+    ]
+  },
+  "0x01D0": {
+    "en": [
+      "principles"
+    ],
+    "zh": [
+      "原理"
+    ],
+    "ja": [
+      "げんり",
+      "ゲンリ"
+    ]
+  },
+  "0x01D1": {
+    "en": [
+      "Truth"
+    ],
+    "zh": [
+      "真実"
+    ],
+    "ja": [
+      "しんじつ",
+      "シンジツ",
+      "トゥルー",
+      "とぅるー"
+    ]
+  },
+  "0x01D2": {
+    "en": [
+      "Love"
+    ],
+    "zh": [
+      "愛"
+    ],
+    "ja": [
+      "あい",
+      "アイ",
+      "ラブ",
+      "らぶ"
+    ]
+  },
+  "0x01D3": {
+    "en": [
+      "Courage"
+    ],
+    "zh": [
+      "勇気"
+    ],
+    "ja": [
+      "ゆうき",
+      "ユウキ",
+      "カレッジ",
+      "かれっじ"
+    ]
+  },
+  "0x01D4": {
+    "en": [
+      "eight virtues"
+    ],
+    "zh": [
+      "八徳"
+    ],
+    "ja": [
+      "はっとく",
+      "ハットク",
+      "8つの徳",
+      "やっつのとく"
+    ]
+  },
+  "0x01D5": {
+    "en": [
+      "virtues"
+    ],
+    "zh": [
+      "徳"
+    ],
+    "ja": [
+      "とく",
+      "トク",
+      "ヴァーチュー"
+    ]
+  },
+  "0x01D6": {
+    "en": [
+      "Infinity"
+    ],
+    "zh": [
+      "永遠"
+    ],
+    "ja": [
+      "えいえん",
+      "エイエン",
+      "インフィニティ",
+      "いんふぃにてぃ"
+    ]
+  },
+  "0x01D7": {
+    "en": [
+      "axiom"
+    ],
+    "zh": [
+      "公理"
+    ],
+    "ja": [
+      "こうり",
+      "コウリ"
+    ]
+  },
+  "0x01D8": {
+    "en": [
+      "Honesty"
+    ],
+    "zh": [
+      "誠実"
+    ],
+    "ja": [
+      "せいじつ",
+      "セイジツ",
+      "オネスティ",
+      "おねすてぃ"
+    ]
+  },
+  "0x01D9": {
+    "en": [
+      "Compassion"
+    ],
+    "zh": [
+      "慈悲"
+    ],
+    "ja": [
+      "じひ",
+      "ジヒ",
+      "コンパッション",
+      "こんぱっしょん"
+    ]
+  },
+  "0x01DA": {
+    "en": [
+      "Valor"
+    ],
+    "zh": [
+      "武勇"
+    ],
+    "ja": [
+      "ぶゆう",
+      "ブユウ",
+      "ヴァラー"
+    ]
+  },
+  "0x01DB": {
+    "en": [
+      "Justice"
+    ],
+    "zh": [
+      "正義"
+    ],
+    "ja": [
+      "せいぎ",
+      "セイギ",
+      "ジャスティス",
+      "じゃすてぃす"
+    ]
+  },
+  "0x01DC": {
+    "en": [
+      "Sacrifice"
+    ],
+    "zh": [
+      "献身"
+    ],
+    "ja": [
+      "けんしん",
+      "ケンシン",
+      "サクリファイス",
+      "さくりふぁいす"
+    ]
+  },
+  "0x01DD": {
+    "en": [
+      "Honor"
+    ],
+    "zh": [
+      "名誉"
+    ],
+    "ja": [
+      "めいよ",
+      "メイヨ",
+      "オナー",
+      "おなー"
+    ]
+  },
+  "0x01DE": {
+    "en": [
+      "Spirituality"
+    ],
+    "zh": [
+      "霊性"
+    ],
+    "ja": [
+      "れいせい",
+      "レイセイ",
+      "スピリチュアリティ",
+      "すぴりちゅありてぃ"
+    ]
+  },
+  "0x01DF": {
+    "en": [
+      "Humility"
+    ],
+    "zh": [
+      "謙譲"
+    ],
+    "ja": [
+      "けんじょう",
+      "ケンジョウ",
+      "ヒューミリティ",
+      "ひゅーみりてぃ"
+    ]
+  },
+  "0x01E0": {
+    "en": [
+      "Sherry"
+    ],
+    "ja": [
+      "シェリー",
+      "しぇりー"
+    ]
+  },
+  "0x01E1": {
+    "en": [
+      "Sherri"
+    ],
+    "ja": [
+      "シェリイ",
+      "しぇりい",
+      "シェリィ",
+      "しぇりぃ"
+    ]
+  },
+  "0x01E2": {
+    "en": [
+      "cheese"
+    ],
+    "ja": [
+      "チーズ",
+      "ちーず"
+    ]
+  },
+  "0x01E3": {
+    "en": [
+      "write"
+    ],
+    "ja": [
+      "書く",
+      "かく",
+      "カク",
+      "本を書く",
+      "ほんをかく"
+    ]
+  },
+  "0x01E4": {
+    "en": [
+      "talk"
+    ],
+    "zh": [
+      "会話"
+    ],
+    "ja": [
+      "おしゃべり",
+      "オシャベリ",
+      "かいわ",
+      "カイワ"
+    ]
+  },
+  "0x01E5": {
+    "en": [
+      "language"
+    ],
+    "zh": [
+      "言語",
+      "言葉"
+    ],
+    "ja": [
+      "げんご",
+      "ゲンゴ",
+      "コトバ"
+    ]
+  },
+  "0x01E6": {
+    "en": [
+      "where"
+    ]
+  },
+  "0x01E7": {
+    "ja": [
+      "どこ",
+      "ドコ"
+    ]
+  },
+  "0x01E8": {
+    "en": [
+      "missing"
+    ],
+    "ja": [
+      "ミッシング",
+      "みっしんぐ"
+    ]
+  },
+  "0x01E9": {
+    "en": [
+      "answers"
+    ],
+    "ja": [
+      "知りたいこと",
+      "しりたいこと",
+      "シリタイコト"
+    ]
+  },
+  "0x01EA": {
+    "en": [
+      "mouse"
+    ],
+    "zh": [
+      "鼠"
+    ],
+    "ja": [
+      "ねずみ",
+      "ネズミ",
+      "マウス",
+      "まうす"
+    ]
+  },
+  "0x01EB": {
+    "en": [
+      "rat"
+    ],
+    "zh": [
+      "大鼠"
+    ],
+    "ja": [
+      "ラット",
+      "らっと",
+      "オオネズミ",
+      "おおねずみ"
+    ]
+  },
+  "0x01EC": {
+    "en": [
+      "secrecy"
+    ],
+    "zh": [
+      "秘密"
+    ],
+    "ja": [
+      "ひみつ",
+      "ヒミツ"
+    ]
+  },
+  "0x01ED": {
+    "en": [
+      "chess"
+    ],
+    "ja": [
+      "ちぇす",
+      "チェス"
+    ]
+  },
+  "0x01EE": {
+    "en": [
+      "counter"
+    ],
+    "ja": [
+      "仕返し",
+      "しかえし",
+      "シカエシ"
+    ]
+  },
+  "0x01EF": {
+    "en": [
+      "kings"
+    ],
+    "ja": [
+      "キング",
+      "きんぐ"
+    ]
+  },
+  "0x01F0": {
+    "en": [
+      "gash"
+    ],
+    "ja": [
+      "裂け目",
+      "さけめ",
+      "サケメ"
+    ]
+  },
+  "0x01F1": {
+    "en": [
+      "darkness"
+    ],
+    "zh": [
+      "真暗"
+    ],
+    "ja": [
+      "真っ暗",
+      "まっくら",
+      "マックラ",
+      "ダークネス"
+    ]
+  },
+  "0x01F2": {
+    "en": [
+      "stars"
+    ],
+    "zh": [
+      "星"
+    ],
+    "ja": [
+      "ほし",
+      "ホシ",
+      "スター",
+      "すたー"
+    ]
+  },
+  "0x01F3": {
+    "en": [
+      "cold"
+    ],
+    "ja": [
+      "寒い",
+      "さむい",
+      "サムイ"
+    ]
+  },
+  "0x01F4": {
+    "en": [
+      "coldness"
+    ],
+    "ja": [
+      "コールドネス",
+      "こーすどねす"
+    ]
+  },
+  "0x01F5": {
+    "en": [
+      "voice"
+    ],
+    "zh": [
+      "声"
+    ],
+    "ja": [
+      "こえ",
+      "コエ"
+    ]
+  },
+  "0x01F6": {
+    "en": [
+      "Gem of Immortality"
+    ],
+    "ja": [
+      "ジェムオブイモータリティ",
+      "じぇむおぶいもーたりてぃ"
+    ]
+  },
+  "0x01F7": {
+    "en": [
+      "gem"
+    ],
+    "zh": [
+      "宝珠"
+    ],
+    "ja": [
+      "ほうじゅ",
+      "ホウジュ"
+    ]
+  },
+  "0x01F8": {
+    "en": [
+      "shadow"
+    ],
+    "zh": [
+      "影"
+    ],
+    "ja": [
+      "かげ",
+      "カゲ",
+      "シャドウ",
+      "しゃどう"
+    ]
+  },
+  "0x01F9": {
+    "en": [
+      "price"
+    ],
+    "zh": [
+      "代償"
+    ],
+    "ja": [
+      "だいしょう",
+      "ダイショウ"
+    ]
+  },
+  "0x01FA": {
+    "en": [
+      "another way"
+    ],
+    "ja": [
+      "別の方法",
+      "べつのほうほう",
+      "ベツノホウホウ"
+    ]
+  },
+  "0x01FB": {
+    "en": [
+      "danger"
+    ],
+    "zh": [
+      "危険"
+    ],
+    "ja": [
+      "きけん",
+      "キケン",
+      "デンジャー",
+      "でんじゃー"
+    ]
+  },
+  "0x01FC": {
+    "en": [
+      "harmony"
+    ],
+    "zh": [
+      "調和"
+    ],
+    "ja": [
+      "ちょうわ",
+      "チョウワ",
+      "ハーモニー",
+      "はーもにー"
+    ]
+  },
+  "0x01FD": {
+    "en": [
+      "multiverse"
+    ],
+    "zh": [
+      "多元宇宙"
+    ],
+    "ja": [
+      "たげんうちゅう",
+      "タゲンウチュウ"
+    ]
+  },
+  "0x01FE": {
+    "en": [
+      "reflection"
+    ],
+    "zh": [
+      "投影"
+    ],
+    "ja": [
+      "とういえ",
+      "トウエイ",
+      "リフレクション",
+      "りふれくしょん"
+    ]
+  },
+  "0x01FF": {
+    "en": [
+      "veramocor"
+    ]
+  },
+  "0x0200": {
+    "en": [
+      "barrier"
+    ],
+    "ja": [
+      "バリア",
+      "ばりあ"
+    ]
+  },
+  "0x0201": {
+    "en": [
+      "vault"
+    ],
+    "zh": [
+      "金庫"
+    ],
+    "ko": [
+      "금고"
+    ]
+  }
+}

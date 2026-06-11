@@ -12,6 +12,8 @@ sources:
   - "servuo: Scripts/Misc/Keywords.cs (self-status keywords)"
   - "servuo: Server/Network/PacketHandlers.cs (UnicodeSpeech keyword decode — the localization mechanic)"
   - "data: data/speech_commands.json (extracted by tools/extract_speech.py)"
+  - "client: speech.mul (keyword phrases, all languages)"
+  - "data: data/speech_languages.json (extracted by tools/extract_speech_langs.py — per-language keyword phrases from speech.mul)"
 last_verified: 2026-06-11
 generated: false
 ---
@@ -51,6 +53,24 @@ There are two ways the server decides that what you said is a command.
 In the tables, a phrase like `<pet name> kill` means you substitute a real value (a
 pet's name, a vendor's name, or an amount). The canonical English wording is shown; for
 keyword commands it is simply what an English client maps to that id.
+
+### Say it in any language
+
+This is one of the genuinely fun details of the system. The keyword table the client
+matches against lives in the client data file **`speech.mul`**, and **our shard ships an
+*international* `speech.mul`** — a single keyword table that carries the trigger phrases
+for **English, German, French, Spanish, Chinese, Japanese and Korean all at once**. Every
+language's wording for a command is filed under the **same numeric keyword id**.
+
+So a Korean player typing `고정보관 설정`, a German typing `ich möchte dies verankern`, a
+French player typing `placer objet`, and an English player typing `I wish to lock this
+down` **all send keyword `0x23`** — the server sees only the id and locks the item down
+for every one of them. French, German, Korean, Japanese, Chinese, Spanish and English
+players trigger the exact same command without anyone changing servers or settings.
+
+The full phrase list per language is below in [In seven languages](#in-seven-languages).
+All of it is read straight out of the client's `speech.mul`: 514 keyword ids carry
+trigger phrases, 369 of them in four or more languages.
 
 ## Housing commands
 
@@ -241,6 +261,50 @@ Handled globally in `Scripts/Misc/Keywords.cs` — no NPC needed:
 Source: `Scripts/Misc/Keywords.cs`, `Scripts/Regions/GuardedRegion.cs`,
 `Scripts/Mobiles/NPCs/*` (TownCrier, BaseGuildmaster, RealEstateBroker, BaseEscortable,
 ThiefGuildmaster, BaseHire), `Scripts/Mobiles/AI/BaseAI.cs`.
+
+## In seven languages
+
+Because our `speech.mul` is an international build, the major keyword commands can be typed
+in any of seven languages and all resolve to the same keyword id (the **Key** column). The
+English wording is documented in the sections above; the phrases below are the equivalents
+the **same** client file maps to that id, verified from `speech.mul`. Multiple forms in one
+cell (separated by `/`) are alternates the file lists — for Japanese these are usually the
+hiragana and katakana spellings of the same word. A dash (—) means the file carries no
+distinct phrase for that language on that keyword.
+
+| Command (English) | Key | 🇩🇪 German | 🇫🇷 French | 🇪🇸 Spanish | 🇨🇳 Chinese | 🇯🇵 Japanese | 🇰🇷 Korean |
+|---|---|---|---|---|---|---|---|
+| Lock down | `0x23` | ich möchte dies verankern | placer objet | quiero fijar esto | 我要將它鎖定 | ロックダウン / ろっくだうん | 고정보관 설정 |
+| Release | `0x24` | ich möchte dies losmachen | libérer objet | quiero soltar esto | 我要解除鎖定 | ロックダウン解除 / ろっくだうんかいじょ / ロックダウンカイジョ | 고정보관 해제 |
+| Secure | `0x25` | ich möchte dies sichern | verrouiller objet | quiero proteger esto | 我要將它保全 | セキュア / せきゅあ | 잠금 설정 |
+| Unsecure | `0x26` | ich möchte dies entsichern | déverrouiller objet | quiero desproteger esto | 我要解除保全 | セキュア解除 / せきゅあかいじょ / セキュアカイジョ | 잠금 해제 |
+| Place strongbox | `0x27` | ich möchte eine geldkassette platzieren | placer coffre-fort | quiero colocar una caja fuerte | 我要放一個保險櫃 | ストロングボックス / すとろんぐぼっくす | 스트롱박스 설치 |
+| Place trash barrel | `0x28` | ich möchte eine mülltonne platzieren | placer poubelle | quiero colocar un cubo de basura | 我要放一個垃圾桶 | ゴミ箱 / ごみばこ / ゴミバコ | 쓰레기통 설치 |
+| Ban (*I ban thee*) | `0x34` | ich verbanne dich | je te bannis | prohibir la entrada | 出去 | バン / ばん | 추방 |
+| Eject (*Remove thyself*) | `0x33` | ich verstoße dich | — | — | 將自己移除 | 追い出す / おいだす / オイダス | 내쫓기 |
+| All kill | `0x168` | alle töten | tous tuer | matad a todos | 全部宰殺 | おーるきる / オールキル | 모두 죽여 |
+| All guard | `0x166` | alle bewachen | tous garder | proteged todos | 全部守衛 | オールガード / おーるがーど | 모두 지켜 |
+| All follow me | `0x16C` | alle sollen mir folgen | tous me suivre | seguidme todos | 全部跟隨我 | おーるふぉろーみー / オールフォローミー | 모두 날 따라와 |
+| All come | `0x164` | alle kommen | tous venir | venid todos | 全部過來 | オールカム / おーるかむ | 모두 이리와 |
+| All stay | `0x170` | alle sollen bleiben | tous rester | quedaos todos | 全部停止 | おーるすてい / オールステイ | 모두 대기 |
+| All stop | `0x167` | alle stehen bleiben | tous arrêter | deteneos todos | 全部停止 | おーるすとっぷ / オールストップ | 모두 정지 |
+| Bank | `0x2` | — | — | banco | 銀行 | バンク / ばんく | 은행 |
+| Balance | `0x1` | kontostand / Kontoauszug | solde / relevé | saldo | 結存 / 結單 / 残高 | バランス / ばらんす / ざんだか / ザンダカ | 잔고 / 잔액 |
+| Withdraw | `0x0` | — | — | — | 提領 | 払い戻し / ひきだし / はらいもどし / ヒキダシ / ハライモドシ | 출금 |
+| Check | `0x3` | scheck über | cheque / chèque | — | 支票 / 小切手 | こぎって / コギッテ | 수표 |
+| Vendor buy | `0x3C` | händler kaufen | vendeur acheter / vendeur acquérir | compra vendedor / adquisición vendedor | 買 / 購買 / 購入 | こうにゅう / コウニュウ / 買う / かう / カウ | 물건 사기 / 물건 구입 |
+| Vendor sell | `0x14D` | händler verkaufen | vendeur vendre | vender vendedor | 向小販賣東西 | 売る / うる / ウル | 물건 팔기 |
+| Stable | `0x8` | stall | écurie | establo | 寄放寵物 | 預ける / あずける / アズケル | 마구간 |
+| Claim | `0x9` | zurückverlangen | reprendre | reclamar | 提領寵物 / 返却 | へんきゃく / ヘンキャク | 찾기 |
+| I must consider my sins | `0x32` | ich überdenke meine gesinnung | je dois examiner mes péchés | quiero considerar mis pecados | 我必須反省我的罪過 / 反省 | はんせい / ハンセイ | 범죄 상태 확인 |
+| I resign from my guild | `0x2A` | ich trete aus meiner gilde aus | je quitte ma guilde | dimito del gremio | 退出公會 | ギルド脱退 / ぎるどだったい / ギルドダッタイ | 길드 탈퇴 |
+| Guards | `0x7` | wächter | — | — | 警衛 | ガード / がーど | 경비병 |
+| News | `0x30` | — | — | — | 新聞 | ニュース / にゅーす | 뉴스 |
+
+This table is data-driven: the phrases come from `data/speech_languages.json`, extracted
+from `speech.mul` by `tools/extract_speech_langs.py`. A dash usually just means the
+international file did not include a separate localized form for that keyword (for the rare
+keywords with no localized phrase, players on that client say the English form).
 
 ## Tips for AI agents
 
