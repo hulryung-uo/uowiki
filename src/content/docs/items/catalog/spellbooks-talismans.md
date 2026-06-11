@@ -17,49 +17,49 @@ Auto-generated catalog of every Spellbooks & Talismans — spellbooks, runebooks
 
 ## Runebooks
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x22C5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runebook | `0x22C5` | 1 |
-| <img src="/img/items/0x9C16.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runic Atlas | `0x9C16` | 1 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x22C5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runebook | `0x22C5` | 1 | Classic |
+| <img src="/img/items/0x9C16.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runic Atlas | `0x9C16` | 1 | TOL |
 
 ## Spellbooks
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x238C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of bushido | `0x238C` | 3 |
-| <img src="/img/items/0x2252.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of chivalry | `0x2252` | 3 |
-| <img src="/img/items/0x225A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of masteries | `0x225A` | 3 |
-| <img src="/img/items/0x23A0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of ninjitsu | `0x23A0` | 3 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Clainin's Spellbook - Museum of Vesper Replica | `0x0EFA` | 3 |
-| <img src="/img/items/0x2253.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | complete necromancer spellbook | `0x2253` | 3 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Grimoire | `0x0EFA` | 3 |
-| <img src="/img/items/0x2D9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fallen Mystic's Spellbook | `0x2D9D` | 3 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hallowed Spellbook | `0x0EFA` | 3 |
-| <img src="/img/items/0x2D9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mystic book | `0x2D9D` | 3 |
-| <img src="/img/items/0x2253.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | necromancer spellbook | `0x2253` | 3 |
-| <img src="/img/items/0x2253.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ossian Grimoire | `0x2253` | 3 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Scrapper's Compendium | `0x0EFA` | 3 |
-| <img src="/img/items/0x2D50.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spellweaving book | `0x2D50` | 3 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tome of Enlightenment | `0x0EFA` | 3 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tome of Lost Knowledge | `0x0EFA` | 3 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x238C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of bushido | `0x238C` | 3 |  |
+| <img src="/img/items/0x2252.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of chivalry | `0x2252` | 3 |  |
+| <img src="/img/items/0x225A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of masteries | `0x225A` | 3 |  |
+| <img src="/img/items/0x23A0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | book of ninjitsu | `0x23A0` | 3 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Clainin's Spellbook - Museum of Vesper Replica | `0x0EFA` | 3 |  |
+| <img src="/img/items/0x2253.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | complete necromancer spellbook | `0x2253` | 3 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Grimoire | `0x0EFA` | 3 |  |
+| <img src="/img/items/0x2D9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fallen Mystic's Spellbook | `0x2D9D` | 3 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Hallowed Spellbook | `0x0EFA` | 3 |  |
+| <img src="/img/items/0x2D9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mystic book | `0x2D9D` | 3 | ML |
+| <img src="/img/items/0x2253.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | necromancer spellbook | `0x2253` | 3 | ML |
+| <img src="/img/items/0x2253.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ossian Grimoire | `0x2253` | 3 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Scrapper's Compendium | `0x0EFA` | 3 | ML |
+| <img src="/img/items/0x2D50.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spellweaving book | `0x2D50` | 3 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tome of Enlightenment | `0x0EFA` | 3 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tome of Lost Knowledge | `0x0EFA` | 3 |  |
 
 ## Talismans
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x2F5A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bloodwood Spirit | `0x2F5A` | 1 |
-| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Trinket | `0x2F58` | 1 |
-| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friend of the Library Token (allows donations to be made) | `0x2F58` | 1 |
-| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Frostguard Talisman | `0x2F5B` | 1 |
-| <img src="/img/items/0x2F59.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jade Snake Head | `0x2F59` | 1 |
-| <img src="/img/items/0x2F59.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - a Grammar of Orchish (Summoner) | `0x2F59` | 1 |
-| <img src="/img/items/0x2F59.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - A Primer on Arms | `0x2F59` | 1 |
-| <img src="/img/items/0x2F5A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - Birds of Britannia Random Summoner | `0x2F5A` | 1 |
-| <img src="/img/items/0x2F5A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - My Book | `0x2F5A` | 1 |
-| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - Talking to Wisps | `0x2F5B` | 1 |
-| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - The Life of a Traveling Minstrel | `0x2F5B` | 1 |
-| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - Treatise on Alchemy | `0x2F58` | 1 |
-| <img src="/img/items/0x1096.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mana Phasing Orb | `0x1096` | 1 |
-| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Slither | `0x2F5B` | 1 |
-| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Talisman of Goblin Slaying | `0x2F58` | 1 |
-| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Totem of the Void | `0x2F5B` | 1 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x2F5A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bloodwood Spirit | `0x2F5A` | 1 |  |
+| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Conjurer's Trinket | `0x2F58` | 1 |  |
+| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friend of the Library Token (allows donations to be made) | `0x2F58` | 1 |  |
+| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Frostguard Talisman | `0x2F5B` | 1 |  |
+| <img src="/img/items/0x2F59.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jade Snake Head | `0x2F59` | 1 |  |
+| <img src="/img/items/0x2F59.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - a Grammar of Orchish (Summoner) | `0x2F59` | 1 |  |
+| <img src="/img/items/0x2F59.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - A Primer on Arms | `0x2F59` | 1 |  |
+| <img src="/img/items/0x2F5A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - Birds of Britannia Random Summoner | `0x2F5A` | 1 |  |
+| <img src="/img/items/0x2F5A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - My Book | `0x2F5A` | 1 |  |
+| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - Talking to Wisps | `0x2F5B` | 1 |  |
+| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - The Life of a Traveling Minstrel | `0x2F5B` | 1 |  |
+| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Library Talisman - Treatise on Alchemy | `0x2F58` | 1 |  |
+| <img src="/img/items/0x1096.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mana Phasing Orb | `0x1096` | 1 |  |
+| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Slither | `0x2F5B` | 1 |  |
+| <img src="/img/items/0x2F58.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Talisman of Goblin Slaying | `0x2F58` | 1 |  |
+| <img src="/img/items/0x2F5B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Totem of the Void | `0x2F5B` | 1 |  |

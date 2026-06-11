@@ -15,179 +15,179 @@ last_verified: 2026-06-11
 
 Auto-generated catalog of every Quest Items — items tied to quests (174 items). Items are classified by gameplay type from the ServUO source; icons are static client art and item IDs are the resolved ServUO `ItemID`.
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x0F04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a bottle of magical moonfire brew | `0x0F04` | 1 |
-| <img src="/img/items/0x09ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a cauldron | `0x09ED` | 1 |
-| <img src="/img/items/0x1AE2-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a golden skull | `0x1AE2` | 1 |
-| <img src="/img/items/0x1CEF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a healthy gland | `0x1CEF` | 1 |
-| <img src="/img/items/0x26B4-h00C2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A hydra scale | `0x26B4` | — |
-| <img src="/img/items/0x1AD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a keg of Flint's Pungent Brew | `0x1AD6` | 25 |
-| <img src="/img/items/0x1822.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a magical teleporter | `0x1822` | — |
-| <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Note for Zoel | `0x14EF` | 1 |
-| <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a plague beast mutation core | `0x1CF0` | 1 |
-| <img src="/img/items/0x023D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Tiger Claw Sect Badge | `0x023D` | — |
-| <img src="/img/items/0x1A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Abscess' Tail | `0x1A9D` | — |
-| <img src="/img/items/0x020D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Acid Proof Rope | `0x020D` | — |
-| <img src="/img/items/0x0C67.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | acid sac | `0x0C67` | 1 |
-| <img src="/img/items/0x0E21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Alchemist's Bandage | `0x0E21` | 1 |
-| <img src="/img/items/0x1F1C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Albino Squirrel Imprisoned in a Crystal | `0x1F1C` | 1 |
-| <img src="/img/items/0x2243.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ancient Pottery fragments | `0x2243` | — |
-| <img src="/img/items/0x2831.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ariel Haven Writ of Membership | `0x2831` | — |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bag of Jewels | `0x0E76` | 2 |
-| <img src="/img/items/0x0FAE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Barrel of Barley | `0x0FAE` | 25 |
-| <img src="/img/items/0x1008.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Basin of Crystal-Clear Water | `0x1008` | 5 |
-| <img src="/img/items/0x091A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bell of the dead | `0x091A` | — |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | black order key | `0x1012` | — |
-| <img src="/img/items/0x02DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blighted cotton | `0x02DB` | 1 |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blue Key Fragment | `0x1012` | 1 |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blue Key Fragment | `0x1012` | — |
-| <img src="/img/items/0x5742.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | boura pelt | `0x5742` | — |
-| <img src="/img/items/0x11F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boura Skin | `0x11F4` | 1 |
-| <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bride's Letter | `0x14ED` | 1 |
-| <img src="/img/items/0x101F-h03E0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannian wool | `0x101F` | 4 |
-| <img src="/img/items/0x2247.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | broken crystal | `0x2247` | 1 |
-| <img src="/img/items/0x204E-h0846.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chyloth shroud | `0x204E` | — |
-| <img src="/img/items/0x2DB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Claw of Slasher of Veils | `0x2DB8` | — |
-| <img src="/img/items/0x1CDF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | coagulated legs | `0x1CDF` | 1 |
-| <img src="/img/items/0x10E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Coil's Fang | `0x10E8` | — |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Completed Tuition Reimbursement Form | `0x14F0` | 1 |
-| <img src="/img/items/0x5742.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Congealed Slug Acid | `0x5742` | — |
-| <img src="/img/items/0x0CB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Creepy Weeds | `0x0CB8` | 1 |
-| <img src="/img/items/0x223C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crushed crystal pieces | `0x223C` | 1 |
-| <img src="/img/items/0x0E2E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crystal Ball of Knowledge | `0x0E2E` | 10 |
-| <img src="/img/items/0x3967.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystal cave barrier | `0x3967` | — |
-| <img src="/img/items/0x4009.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystal dust | `0x4009` | — |
-| <img src="/img/items/0x223B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crystalline Fragments | `0x223B` | — |
-| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Daimyo Emino’s Katana | `0x13FF` | 1 |
-| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Daimyo Haochi's Katana | `0x13FF` | 1 |
-| <img src="/img/items/0x0E36.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Disintegrating Thesis Notes | `0x0E36` | 1 |
-| <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon flame key | `0x2002` | 2 |
-| <img src="/img/items/0x023E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon Flame Sect Badge | `0x023E` | — |
-| <img src="/img/items/0x0DF8-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Spider Silk | `0x0DF8` | 4 |
-| <img src="/img/items/0x021C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dryad's curse | `0x021C` | — |
-| <img src="/img/items/0x021C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dryads blessing | `0x021C` | 1 |
-| <img src="/img/items/0x2DB2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enchanted Essence | `0x2DB2` | — |
-| <img src="/img/items/0x0FC1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | enchanted paints | `0x0FC1` | 1 |
-| <img src="/img/items/0x0E26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Essence of Wind | `0x0E26` | 1 |
-| <img src="/img/items/0x1084.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fairy Dragon Wing | `0x1084` | — |
-| <img src="/img/items/0x1C11.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Flint's Logbook | `0x1C11` | — |
-| <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fragment of a Map | `0x14ED` | 1 |
-| <img src="/img/items/0x0EC0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friends of the Library Application | `0x0EC0` | 1 |
-| <img src="/img/items/0x1084.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gaman Horns | `0x1084` | 1 |
-| <img src="/img/items/0x1AE0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gelatanous skull | `0x1AE0` | 1 |
-| <img src="/img/items/0x1882.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift for arielle | `0x1882` | 1 |
-| <img src="/img/items/0x10E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gnaw's fang | `0x10E8` | 1 |
-| <img src="/img/items/0x11F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Grobu's Fur | `0x11F4` | — |
-| <img src="/img/items/0x3967.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | guardian barrier | `0x3967` | — |
-| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Haochi's katana generator | `0x1B7B` | — |
-| <img src="/img/items/0x0FC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Horn of Retreat | `0x0FC4` | 1 |
-| <img src="/img/items/0x0FC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Horn of Retreat | `0x0FC4` | 1 |
-| <img src="/img/items/0x315C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Horn of the Dread | `0x315C` | — |
-| <img src="/img/items/0x024B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Icy Heart | `0x024B` | — |
-| <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Inspected Keg of Greater Poison | `0x1940` | — |
-| <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Inspected Keg of Total Refreshment | `0x1940` | — |
-| <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | irk's brain | `0x1CF0` | 1 |
-| <img src="/img/items/0x223E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jagged crystal shards | `0x223E` | 1 |
-| <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ki-Rin Brains | `0x1CF0` | 1 |
-| <img src="/img/items/0x1F23.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Laifem's Letter of Introduction | `0x1F23` | 2 |
-| <img src="/img/items/0x0DF8-h00F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather wolf skin | `0x0DF8` | — |
-| <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | librarian's key | `0x0FF3` | 1 |
-| <img src="/img/items/0x2001.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lissith's silk | `0x2001` | 1 |
-| <img src="/img/items/0x0F87.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lucky coin | `0x0F87` | — |
-| <img src="/img/items/0x0F52.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lucky Dagger | `0x0F52` | — |
-| <img src="/img/items/0x1421.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | magic flute | `0x1421` | — |
-| <img src="/img/items/0x2DB1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Magical Residue | `0x2DB1` | — |
-| <img src="/img/items/0x020D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Magical Rope | `0x020D` | 5 |
-| <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | master key | `0x0FF3` | — |
-| <img src="/img/items/0x0E27.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | master key | `0x0E27` | — |
-| <img src="/img/items/0x1E20.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mastering the Art of Weaving | `0x1E20` | 2 |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa's Lair | `0x1012` | — |
-| <img src="/img/items/0x0B46.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Minotaur Artifact | `0x0B46` | 30 |
-| <img src="/img/items/0x1008.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mirror of Purification | `0x1008` | 5 |
-| <img src="/img/items/0x1EA8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | modified clockwork assembly | `0x1EA8` | 5 |
-| <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mud Puppy | `0x09CC` | — |
-| <img src="/img/items/0x176B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nax Marker | `0x176B` | 0 |
-| <img src="/img/items/0x0EEF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | niporailems treasure | `0x0EEF` | 100 |
-| <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Notarized application | `0x14EF` | 1 |
-| <img src="/img/items/0x1EA7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | obsidian | `0x1EA7` | — |
-| <img src="/img/items/0x1426.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Official Sealing Wax | `0x1426` | 1 |
-| <img src="/img/items/0x2279.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Orders from Minax | `0x2279` | — |
-| <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | painted image | `0x0FF3` | 1 |
-| <img src="/img/items/0x1D9F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | partially digested torso | `0x1D9F` | 1 |
-| <img src="/img/items/0x0EFC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pepta's Satiety Cure | `0x0EFC` | 1 |
-| <img src="/img/items/0x2245.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of crystal | `0x2245` | 1 |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pile inspected ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Agapite Ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Bronze Ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Copper Ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Dull Copper Ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Gold Ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Shadow Iron Ingots | `0x1BEA` | — |
-| <img src="/img/items/0x1608.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pixie Leg | `0x1608` | 1 |
-| <img src="/img/items/0x1362.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x1362` | 1 |
-| <img src="/img/items/0x122C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x122C` | 1 |
-| <img src="/img/items/0x1363.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x1363` | 1 |
-| <img src="/img/items/0x124D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x124D` | 1 |
-| <img src="/img/items/0x177A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x177A` | 1 |
-| <img src="/img/items/0x1B1B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x1B1B` | 1 |
-| <img src="/img/items/0x0E9F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Portrait of the Bride | `0x0E9F` | 10 |
-| <img src="/img/items/0x023F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Primitive Fetish | `0x023F` | — |
-| <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Prism of Light Admission Ticket | `0x14EF` | 1 |
-| <img src="/img/items/0x0F25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Prismatic Amber | `0x0F25` | 1 |
-| <img src="/img/items/0x02DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | prismatic crystal | `0x02DA` | — |
-| <img src="/img/items/0x023F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Protector's Essence | `0x023F` | — |
-| <img src="/img/items/0x0F91.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | putrid heart | `0x0F91` | — |
-| <img src="/img/items/0x0F7D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | quest daemon blood | `0x0F7D` | 1 |
-| <img src="/img/items/0x0F80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | quest daemon bone | `0x0F80` | 1 |
-| <img src="/img/items/0x0F81.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | quest fertile dirt | `0x0F81` | 1 |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Quest Hint Item | `0x1BC4` | — |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Quest Hint Item | `0x1BC4` | — |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Quest Hint Item | `0x1BC4` | — |
-| <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Red Herring | `0x09CC` | — |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Red Key Fragment | `0x1012` | 1 |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Red Key Fragment | `0x1012` | — |
-| <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Regina's Letter | `0x14ED` | 1 |
-| <img src="/img/items/0x2DB3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Relic Fragment | `0x2DB3` | — |
-| <img src="/img/items/0x1374.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resolve's Bridle | `0x1374` | — |
-| <img src="/img/items/0x0F87.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sabrix's eye | `0x0F87` | 1 |
-| <img src="/img/items/0x1020-h005C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Saliva's Feather | `0x1020` | — |
-| <img src="/img/items/0x0EFE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | samples of corrupted water | `0x0EFE` | — |
-| <img src="/img/items/0x2248.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scattered crystals | `0x2248` | 1 |
-| <img src="/img/items/0x0EF9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sealed notes for Jamal | `0x0EF9` | 5 |
-| <img src="/img/items/0x0EBF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sealing Wax Order addressed to Petrus | `0x0EBF` | 1 |
-| <img src="/img/items/0x122E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Seared Fire Ant Goo | `0x122E` | — |
-| <img src="/img/items/0x108F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | secret switch | `0x108F` | — |
-| <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | serpent fang key | `0x2002` | 2 |
-| <img src="/img/items/0x023C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Serpent Fang Sect Badge | `0x023C` | — |
-| <img src="/img/items/0x312D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | severed elf ears | `0x312D` | 1 |
-| <img src="/img/items/0x312F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | severed human ears | `0x312F` | 1 |
-| <img src="/img/items/0x223F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shattered crystal | `0x223F` | 1 |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Signed Tuition Reimbursement Form | `0x14F0` | 1 |
-| <img src="/img/items/0x0EFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | slimy ointment | `0x0EFB` | 1 |
-| <img src="/img/items/0x021B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Special Treat for Drithen | `0x021B` | 2 |
-| <img src="/img/items/0x023A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Speckled Poison Sac | `0x023A` | 2 |
-| <img src="/img/items/0x0EFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Spirit bottle | `0x0EFB` | 1 |
-| <img src="/img/items/0x1CEE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spleen of the putrefier | `0x1CEE` | 1 |
-| <img src="/img/items/0x166F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Stout Whip | `0x166F` | 1 |
-| <img src="/img/items/0x2DB4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Stygian Dragon Head | `0x2DB4` | — |
-| <img src="/img/items/0x0DFA-h0048.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tainted Seeds | `0x0DFA` | — |
-| <img src="/img/items/0x0DE2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tainted tree sample | `0x0DE2` | 5 |
-| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Grand Grimoire | `0x0EFA` | 1 |
-| <img src="/img/items/0x3020.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | thorny briar | `0x3020` | 1 |
-| <img src="/img/items/0x1A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Thrasher's Tail | `0x1A9D` | — |
-| <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tiger claw key | `0x2002` | 2 |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tripartite Key | `0x1012` | 1 |
-| <img src="/img/items/0x0E3A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tuition Reimbursement Form (in triplicate) | `0x0E3A` | 1 |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tyball's Key | `0x1012` | 1 |
-| <img src="/img/items/0x26B3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undamaged Iron Beetle Scale | `0x26B3` | — |
-| <img src="/img/items/0x315C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undamaged Undead Gargoyle Horns | `0x315C` | — |
-| <img src="/img/items/0x1088.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undead Gargoyle Medallion | `0x1088` | — |
-| <img src="/img/items/0x09F1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Unicorn Ribs | `0x09F1` | 1 |
-| <img src="/img/items/0x0FF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Untranslated Ancient Tome | `0x0FF2` | — |
-| <img src="/img/items/0x049E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vault of secrets barrier | `0x049E` | — |
-| <img src="/img/items/0x1F19.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Crystal of Corrupted Arcane Essence | `0x1F19` | — |
-| <img src="/img/items/0x1F19.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Crystal of Corrupted Mystical Essence | `0x1F19` | — |
-| <img src="/img/items/0x1F19.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Crystal of Corrupted Spiritual Essence | `0x1F19` | — |
-| <img src="/img/items/0x2100.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wisp Orb | `0x2100` | — |
-| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Yellow Key Fragment | `0x1012` | 1 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x0F04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a bottle of magical moonfire brew | `0x0F04` | 1 |  |
+| <img src="/img/items/0x09ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a cauldron | `0x09ED` | 1 |  |
+| <img src="/img/items/0x1AE2-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a golden skull | `0x1AE2` | 1 |  |
+| <img src="/img/items/0x1CEF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a healthy gland | `0x1CEF` | 1 |  |
+| <img src="/img/items/0x26B4-h00C2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A hydra scale | `0x26B4` | — |  |
+| <img src="/img/items/0x1AD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a keg of Flint's Pungent Brew | `0x1AD6` | 25 |  |
+| <img src="/img/items/0x1822.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a magical teleporter | `0x1822` | — |  |
+| <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Note for Zoel | `0x14EF` | 1 |  |
+| <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a plague beast mutation core | `0x1CF0` | 1 |  |
+| <img src="/img/items/0x023D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Tiger Claw Sect Badge | `0x023D` | — |  |
+| <img src="/img/items/0x1A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Abscess' Tail | `0x1A9D` | — |  |
+| <img src="/img/items/0x020D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Acid Proof Rope | `0x020D` | — | ML |
+| <img src="/img/items/0x0C67.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | acid sac | `0x0C67` | 1 |  |
+| <img src="/img/items/0x0E21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Alchemist's Bandage | `0x0E21` | 1 |  |
+| <img src="/img/items/0x1F1C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Albino Squirrel Imprisoned in a Crystal | `0x1F1C` | 1 |  |
+| <img src="/img/items/0x2243.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ancient Pottery fragments | `0x2243` | — |  |
+| <img src="/img/items/0x2831.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ariel Haven Writ of Membership | `0x2831` | — |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bag of Jewels | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0FAE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Barrel of Barley | `0x0FAE` | 25 |  |
+| <img src="/img/items/0x1008.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Basin of Crystal-Clear Water | `0x1008` | 5 |  |
+| <img src="/img/items/0x091A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bell of the dead | `0x091A` | — |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | black order key | `0x1012` | — |  |
+| <img src="/img/items/0x02DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blighted cotton | `0x02DB` | 1 |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blue Key Fragment | `0x1012` | 1 |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blue Key Fragment | `0x1012` | — |  |
+| <img src="/img/items/0x5742.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | boura pelt | `0x5742` | — |  |
+| <img src="/img/items/0x11F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boura Skin | `0x11F4` | 1 |  |
+| <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bride's Letter | `0x14ED` | 1 |  |
+| <img src="/img/items/0x101F-h03E0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Britannian wool | `0x101F` | 4 |  |
+| <img src="/img/items/0x2247.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | broken crystal | `0x2247` | 1 |  |
+| <img src="/img/items/0x204E-h0846.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chyloth shroud | `0x204E` | — |  |
+| <img src="/img/items/0x2DB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Claw of Slasher of Veils | `0x2DB8` | — |  |
+| <img src="/img/items/0x1CDF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | coagulated legs | `0x1CDF` | 1 |  |
+| <img src="/img/items/0x10E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Coil's Fang | `0x10E8` | — |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Completed Tuition Reimbursement Form | `0x14F0` | 1 |  |
+| <img src="/img/items/0x5742.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Congealed Slug Acid | `0x5742` | — |  |
+| <img src="/img/items/0x0CB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Creepy Weeds | `0x0CB8` | 1 |  |
+| <img src="/img/items/0x223C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crushed crystal pieces | `0x223C` | 1 |  |
+| <img src="/img/items/0x0E2E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crystal Ball of Knowledge | `0x0E2E` | 10 |  |
+| <img src="/img/items/0x3967.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystal cave barrier | `0x3967` | — |  |
+| <img src="/img/items/0x4009.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystal dust | `0x4009` | — | SA |
+| <img src="/img/items/0x223B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Crystalline Fragments | `0x223B` | — |  |
+| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Daimyo Emino’s Katana | `0x13FF` | 1 |  |
+| <img src="/img/items/0x13FF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Daimyo Haochi's Katana | `0x13FF` | 1 |  |
+| <img src="/img/items/0x0E36.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Disintegrating Thesis Notes | `0x0E36` | 1 |  |
+| <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon flame key | `0x2002` | 2 |  |
+| <img src="/img/items/0x023E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon Flame Sect Badge | `0x023E` | — |  |
+| <img src="/img/items/0x0DF8-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dread Spider Silk | `0x0DF8` | 4 |  |
+| <img src="/img/items/0x021C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dryad's curse | `0x021C` | — |  |
+| <img src="/img/items/0x021C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dryads blessing | `0x021C` | 1 |  |
+| <img src="/img/items/0x2DB2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enchanted Essence | `0x2DB2` | — |  |
+| <img src="/img/items/0x0FC1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | enchanted paints | `0x0FC1` | 1 |  |
+| <img src="/img/items/0x0E26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Essence of Wind | `0x0E26` | 1 |  |
+| <img src="/img/items/0x1084.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fairy Dragon Wing | `0x1084` | — |  |
+| <img src="/img/items/0x1C11.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Flint's Logbook | `0x1C11` | — |  |
+| <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fragment of a Map | `0x14ED` | 1 |  |
+| <img src="/img/items/0x0EC0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friends of the Library Application | `0x0EC0` | 1 |  |
+| <img src="/img/items/0x1084.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gaman Horns | `0x1084` | 1 |  |
+| <img src="/img/items/0x1AE0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gelatanous skull | `0x1AE0` | 1 |  |
+| <img src="/img/items/0x1882.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift for arielle | `0x1882` | 1 |  |
+| <img src="/img/items/0x10E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gnaw's fang | `0x10E8` | 1 |  |
+| <img src="/img/items/0x11F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Grobu's Fur | `0x11F4` | — |  |
+| <img src="/img/items/0x3967.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | guardian barrier | `0x3967` | — |  |
+| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Haochi's katana generator | `0x1B7B` | — |  |
+| <img src="/img/items/0x0FC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Horn of Retreat | `0x0FC4` | 1 |  |
+| <img src="/img/items/0x0FC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Horn of Retreat | `0x0FC4` | 1 |  |
+| <img src="/img/items/0x315C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Horn of the Dread | `0x315C` | — |  |
+| <img src="/img/items/0x024B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Icy Heart | `0x024B` | — |  |
+| <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Inspected Keg of Greater Poison | `0x1940` | — |  |
+| <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Inspected Keg of Total Refreshment | `0x1940` | — |  |
+| <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | irk's brain | `0x1CF0` | 1 |  |
+| <img src="/img/items/0x223E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jagged crystal shards | `0x223E` | 1 |  |
+| <img src="/img/items/0x1CF0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ki-Rin Brains | `0x1CF0` | 1 |  |
+| <img src="/img/items/0x1F23.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Laifem's Letter of Introduction | `0x1F23` | 2 |  |
+| <img src="/img/items/0x0DF8-h00F8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | leather wolf skin | `0x0DF8` | — |  |
+| <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | librarian's key | `0x0FF3` | 1 |  |
+| <img src="/img/items/0x2001.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lissith's silk | `0x2001` | 1 |  |
+| <img src="/img/items/0x0F87.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lucky coin | `0x0F87` | — |  |
+| <img src="/img/items/0x0F52.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lucky Dagger | `0x0F52` | — |  |
+| <img src="/img/items/0x1421.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | magic flute | `0x1421` | — |  |
+| <img src="/img/items/0x2DB1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Magical Residue | `0x2DB1` | — |  |
+| <img src="/img/items/0x020D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Magical Rope | `0x020D` | 5 |  |
+| <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | master key | `0x0FF3` | — |  |
+| <img src="/img/items/0x0E27.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | master key | `0x0E27` | — |  |
+| <img src="/img/items/0x1E20.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mastering the Art of Weaving | `0x1E20` | 2 |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa's Lair | `0x1012` | — |  |
+| <img src="/img/items/0x0B46.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Minotaur Artifact | `0x0B46` | 30 |  |
+| <img src="/img/items/0x1008.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mirror of Purification | `0x1008` | 5 |  |
+| <img src="/img/items/0x1EA8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | modified clockwork assembly | `0x1EA8` | 5 | SA |
+| <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mud Puppy | `0x09CC` | — |  |
+| <img src="/img/items/0x176B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nax Marker | `0x176B` | 0 |  |
+| <img src="/img/items/0x0EEF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | niporailems treasure | `0x0EEF` | 100 |  |
+| <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Notarized application | `0x14EF` | 1 |  |
+| <img src="/img/items/0x1EA7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | obsidian | `0x1EA7` | — |  |
+| <img src="/img/items/0x1426.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Official Sealing Wax | `0x1426` | 1 |  |
+| <img src="/img/items/0x2279.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Orders from Minax | `0x2279` | — |  |
+| <img src="/img/items/0x0FF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | painted image | `0x0FF3` | 1 |  |
+| <img src="/img/items/0x1D9F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | partially digested torso | `0x1D9F` | 1 |  |
+| <img src="/img/items/0x0EFC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pepta's Satiety Cure | `0x0EFC` | 1 |  |
+| <img src="/img/items/0x2245.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of crystal | `0x2245` | 1 |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pile inspected ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Agapite Ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Bronze Ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Copper Ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Dull Copper Ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Gold Ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1BEA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pile of Inspected Shadow Iron Ingots | `0x1BEA` | — |  |
+| <img src="/img/items/0x1608.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pixie Leg | `0x1608` | 1 |  |
+| <img src="/img/items/0x1362.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x1362` | 1 |  |
+| <img src="/img/items/0x122C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x122C` | 1 |  |
+| <img src="/img/items/0x1363.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x1363` | 1 |  |
+| <img src="/img/items/0x124D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x124D` | 1 |  |
+| <img src="/img/items/0x177A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x177A` | 1 |  |
+| <img src="/img/items/0x1B1B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast innards | `0x1B1B` | 1 |  |
+| <img src="/img/items/0x0E9F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Portrait of the Bride | `0x0E9F` | 10 |  |
+| <img src="/img/items/0x023F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Primitive Fetish | `0x023F` | — |  |
+| <img src="/img/items/0x14EF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Prism of Light Admission Ticket | `0x14EF` | 1 |  |
+| <img src="/img/items/0x0F25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Prismatic Amber | `0x0F25` | 1 |  |
+| <img src="/img/items/0x02DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | prismatic crystal | `0x02DA` | — |  |
+| <img src="/img/items/0x023F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Protector's Essence | `0x023F` | — |  |
+| <img src="/img/items/0x0F91.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | putrid heart | `0x0F91` | — |  |
+| <img src="/img/items/0x0F7D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | quest daemon blood | `0x0F7D` | 1 |  |
+| <img src="/img/items/0x0F80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | quest daemon bone | `0x0F80` | 1 |  |
+| <img src="/img/items/0x0F81.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | quest fertile dirt | `0x0F81` | 1 |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Quest Hint Item | `0x1BC4` | — |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Quest Hint Item | `0x1BC4` | — |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Quest Hint Item | `0x1BC4` | — |  |
+| <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Red Herring | `0x09CC` | — |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Red Key Fragment | `0x1012` | 1 |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Red Key Fragment | `0x1012` | — |  |
+| <img src="/img/items/0x14ED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Regina's Letter | `0x14ED` | 1 |  |
+| <img src="/img/items/0x2DB3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Relic Fragment | `0x2DB3` | — |  |
+| <img src="/img/items/0x1374.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resolve's Bridle | `0x1374` | — |  |
+| <img src="/img/items/0x0F87.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sabrix's eye | `0x0F87` | 1 |  |
+| <img src="/img/items/0x1020-h005C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Saliva's Feather | `0x1020` | — |  |
+| <img src="/img/items/0x0EFE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | samples of corrupted water | `0x0EFE` | — |  |
+| <img src="/img/items/0x2248.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scattered crystals | `0x2248` | 1 |  |
+| <img src="/img/items/0x0EF9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sealed notes for Jamal | `0x0EF9` | 5 |  |
+| <img src="/img/items/0x0EBF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sealing Wax Order addressed to Petrus | `0x0EBF` | 1 |  |
+| <img src="/img/items/0x122E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Seared Fire Ant Goo | `0x122E` | — |  |
+| <img src="/img/items/0x108F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | secret switch | `0x108F` | — |  |
+| <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | serpent fang key | `0x2002` | 2 |  |
+| <img src="/img/items/0x023C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Serpent Fang Sect Badge | `0x023C` | — |  |
+| <img src="/img/items/0x312D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | severed elf ears | `0x312D` | 1 |  |
+| <img src="/img/items/0x312F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | severed human ears | `0x312F` | 1 |  |
+| <img src="/img/items/0x223F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shattered crystal | `0x223F` | 1 |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Signed Tuition Reimbursement Form | `0x14F0` | 1 |  |
+| <img src="/img/items/0x0EFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | slimy ointment | `0x0EFB` | 1 |  |
+| <img src="/img/items/0x021B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Special Treat for Drithen | `0x021B` | 2 |  |
+| <img src="/img/items/0x023A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Speckled Poison Sac | `0x023A` | 2 |  |
+| <img src="/img/items/0x0EFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Spirit bottle | `0x0EFB` | 1 |  |
+| <img src="/img/items/0x1CEE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spleen of the putrefier | `0x1CEE` | 1 |  |
+| <img src="/img/items/0x166F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Stout Whip | `0x166F` | 1 |  |
+| <img src="/img/items/0x2DB4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Stygian Dragon Head | `0x2DB4` | — |  |
+| <img src="/img/items/0x0DFA-h0048.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tainted Seeds | `0x0DFA` | — |  |
+| <img src="/img/items/0x0DE2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tainted tree sample | `0x0DE2` | 5 |  |
+| <img src="/img/items/0x0EFA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The Grand Grimoire | `0x0EFA` | 1 |  |
+| <img src="/img/items/0x3020.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | thorny briar | `0x3020` | 1 |  |
+| <img src="/img/items/0x1A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Thrasher's Tail | `0x1A9D` | — |  |
+| <img src="/img/items/0x2002.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tiger claw key | `0x2002` | 2 |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tripartite Key | `0x1012` | 1 |  |
+| <img src="/img/items/0x0E3A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tuition Reimbursement Form (in triplicate) | `0x0E3A` | 1 |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tyball's Key | `0x1012` | 1 |  |
+| <img src="/img/items/0x26B3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undamaged Iron Beetle Scale | `0x26B3` | — |  |
+| <img src="/img/items/0x315C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undamaged Undead Gargoyle Horns | `0x315C` | — |  |
+| <img src="/img/items/0x1088.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Undead Gargoyle Medallion | `0x1088` | — |  |
+| <img src="/img/items/0x09F1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Unicorn Ribs | `0x09F1` | 1 |  |
+| <img src="/img/items/0x0FF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Untranslated Ancient Tome | `0x0FF2` | — |  |
+| <img src="/img/items/0x049E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vault of secrets barrier | `0x049E` | — |  |
+| <img src="/img/items/0x1F19.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Crystal of Corrupted Arcane Essence | `0x1F19` | — |  |
+| <img src="/img/items/0x1F19.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Crystal of Corrupted Mystical Essence | `0x1F19` | — |  |
+| <img src="/img/items/0x1F19.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Crystal of Corrupted Spiritual Essence | `0x1F19` | — |  |
+| <img src="/img/items/0x2100.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wisp Orb | `0x2100` | — |  |
+| <img src="/img/items/0x1012.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Yellow Key Fragment | `0x1012` | 1 |  |

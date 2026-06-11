@@ -17,229 +17,229 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 
 ## Ingots
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x1BF2-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x1BF2-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
+| <img src="/img/items/0x1BF2-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |  |
 
 ## Ore
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x19B8-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x19B8-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
+| <img src="/img/items/0x19B8-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |  |
 
 ## Wood
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x1BDD-h04A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD-h047F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD-h04A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD-h04A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew log | `0x1BDD` | 2 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x1BDD-h04A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash log | `0x1BDD` | 2 |  |
+| <img src="/img/items/0x1BDD-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood log | `0x1BDD` | 2 |  |
+| <img src="/img/items/0x1BDD-h047F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood log | `0x1BDD` | 2 |  |
+| <img src="/img/items/0x1BDD-h04A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood log | `0x1BDD` | 2 |  |
+| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | log | `0x1BDD` | 2 |  |
+| <img src="/img/items/0x1BDD-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak log | `0x1BDD` | 2 |  |
+| <img src="/img/items/0x1BDD-h04A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew log | `0x1BDD` | 2 |  |
 
 ## Leather & Hides
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x1081-h01C1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1081-h0227.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1081.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1081-h0283.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1079-h01C1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
-| <img src="/img/items/0x1079.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
-| <img src="/img/items/0x1079-h0227.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
-| <img src="/img/items/0x1079-h0283.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x1081-h01C1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |  |
+| <img src="/img/items/0x1081-h0227.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |  |
+| <img src="/img/items/0x1081.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |  |
+| <img src="/img/items/0x1081-h0283.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |  |
+| <img src="/img/items/0x1079-h01C1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |  |
+| <img src="/img/items/0x1079.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |  |
+| <img src="/img/items/0x1079-h0227.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |  |
+| <img src="/img/items/0x1079-h0283.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |  |
 
 ## Other
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a big fish | `0x09CC` | — |
-| <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A keg of Parasitic Poison potions | `0x1940` | 20 |
-| <img src="/img/items/0x136C-h07A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a large piece of blackrock | `0x136C` | — |
-| <img src="/img/items/0x1767-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | abyssal cloth | `0x1767` | — |
-| <img src="/img/items/0x0F25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | amber | `0x0F25` | — |
-| <img src="/img/items/0x0F16.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | amethyst | `0x0F16` | — |
-| <img src="/img/items/0x182F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | animal pheromone | `0x182F` | — |
-| <img src="/img/items/0x1EA7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arcane Gem | `0x1EA7` | 1 |
-| <img src="/img/items/0x573C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcanic rune stone | `0x573C` | — |
-| <img src="/img/items/0x0F3F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arrow | `0x0F3F` | — |
-| <img src="/img/items/0x1BD7-h04A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash board | `0x1BD7` | — |
-| <img src="/img/items/0x105B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | axle | `0x105B` | 1 |
-| <img src="/img/items/0x1051.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | axle gears | `0x1051` | 1 |
-| <img src="/img/items/0x0E21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bandage | `0x0E21` | — |
-| <img src="/img/items/0x318F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bark fragment | `0x318F` | — |
-| <img src="/img/items/0x1DB7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel hoops | `0x1DB7` | 5 |
-| <img src="/img/items/0x1DB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel lid | `0x1DB8` | 2 |
-| <img src="/img/items/0x1EB1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel staves | `0x1EB1` | 1 |
-| <img src="/img/items/0x1004.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel tap | `0x1004` | 1 |
-| <img src="/img/items/0x1422.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | beeswax | `0x1422` | 1 |
-| <img src="/img/items/0x3183.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blight | `0x3183` | — |
-| <img src="/img/items/0x9D7F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blood of the Dark Father | `0x9D7F` | — |
-| <img src="/img/items/0x1BD7-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood board | `0x1BD7` | — |
-| <img src="/img/items/0x3198.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blue diamond | `0x3198` | — |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | board | `0x1BD7` | — |
-| <img src="/img/items/0x0E73-h08AC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bola ball | `0x0E73` | 4 |
-| <img src="/img/items/0x1BFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bolt | `0x1BFB` | — |
-| <img src="/img/items/0x0F95.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bolt of cloth | `0x0F95` | 5 |
-| <img src="/img/items/0x0F7E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bone | `0x0F7E` | 1 |
-| <img src="/img/items/0x0F0E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bottle | `0x0F0E` | 1 |
-| <img src="/img/items/0x5748.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bottle of ichor | `0x5748` | — |
-| <img src="/img/items/0x3199.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brilliant amber | `0x3199` | — |
-| <img src="/img/items/0x318E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | captured essence | `0x318E` | — |
-| <img src="/img/items/0x5743.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chaga mushroom | `0x5743` | — |
-| <img src="/img/items/0x0F15.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | citrine | `0x0F15` | — |
-| <img src="/img/items/0x104D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | clock frame | `0x104D` | 2 |
-| <img src="/img/items/0x104F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | clock parts | `0x104F` | 1 |
-| <img src="/img/items/0x1EA8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Clockwork Assembly | `0x1EA8` | 5 |
-| <img src="/img/items/0x1766.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cloth | `0x1766` | — |
-| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | combine cloth | `0x1767` | — |
-| <img src="/img/items/0x3184.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | corruption | `0x3184` | — |
-| <img src="/img/items/0x0DF9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cotton | `0x0DF9` | 4 |
-| <img src="/img/items/0x573B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crushed glass | `0x573B` | — |
-| <img src="/img/items/0x5738.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystal shards | `0x5738` | — |
-| <img src="/img/items/0x5732.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystalline blackrock | `0x5732` | — |
-| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cut-up cloth | `0x1767` | — |
-| <img src="/img/items/0x5721.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | daemon claw | `0x5721` | — |
-| <img src="/img/items/0x3192.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark sapphire | `0x3192` | — |
-| <img src="/img/items/0x0E1D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark yarn | `0x0E1D` | 1 |
-| <img src="/img/items/0x573A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | delicate scales | `0x573A` | — |
-| <img src="/img/items/0x0F26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | diamond | `0x0F26` | — |
-| <img src="/img/items/0x318B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | diseased bark | `0x318B` | — |
-| <img src="/img/items/0x26B4-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4-h0851.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4-h066D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4-h08FD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4-h08A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x318A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dread horn mane | `0x318A` | — |
-| <img src="/img/items/0x3195.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ecru citrine | `0x3195` | — |
-| <img src="/img/items/0x5737.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven fletching | `0x5737` | — |
-| <img src="/img/items/0x0F10.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | emerald | `0x0F10` | — |
-| <img src="/img/items/0x1C18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | empty oil flask | `0x1C18` | — |
-| <img src="/img/items/0x2F5C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enchanted Switch | `0x2F5C` | 1 |
-| <img src="/img/items/0x571C-h06BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of achievement | `0x571C` | — |
-| <img src="/img/items/0x571C-h04F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of balance | `0x571C` | — |
-| <img src="/img/items/0x571C-h048D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of control | `0x571C` | — |
-| <img src="/img/items/0x571C-h048E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of diligence | `0x571C` | — |
-| <img src="/img/items/0x571C-h0484.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of direction | `0x571C` | — |
-| <img src="/img/items/0x571C-h01C7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of feeling | `0x571C` | — |
-| <img src="/img/items/0x571C-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of order | `0x571C` | — |
-| <img src="/img/items/0x571C-h0489.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of passion | `0x571C` | — |
-| <img src="/img/items/0x571C-h0025.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of persistence | `0x571C` | — |
-| <img src="/img/items/0x571C-h0486.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of precision | `0x571C` | — |
-| <img src="/img/items/0x571C-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of singularity | `0x571C` | — |
-| <img src="/img/items/0xA3E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ethereal sand | `0xA3E8` | — |
-| <img src="/img/items/0x122A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Explosive Goo | `0x122A` | — |
-| <img src="/img/items/0x318D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eye of the travesty | `0x318D` | — |
-| <img src="/img/items/0x5745.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | faery dust | `0x5745` | — |
-| <img src="/img/items/0x1BD1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | feather | `0x1BD1` | — |
-| <img src="/img/items/0x0F81.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fertile dirt | `0x0F81` | — |
-| <img src="/img/items/0x5726.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fey wings | `0x5726` | — |
-| <img src="/img/items/0x3197.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire ruby | `0x3197` | — |
-| <img src="/img/items/0x1A9C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | flax | `0x1A9C` | 1 |
-| <img src="/img/items/0x1F1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Focusing Gem of Virtue Bane | `0x1F1E` | — |
-| <img src="/img/items/0x1BD7-h047F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood board | `0x1BD7` | — |
-| <img src="/img/items/0x1053.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gears | `0x1053` | 1 |
-| <img src="/img/items/0x572C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | goblin blood | `0x572C` | — |
-| <img src="/img/items/0x318C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | grizzled bones | `0x318C` | — |
-| <img src="/img/items/0x1BD7-h04A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood board | `0x1BD7` | — |
-| <img src="/img/items/0x1779-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | highly peculiar fish | `0x0DD6` | — |
-| <img src="/img/items/0x1055.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hinge | `0x1055` | 1 |
-| <img src="/img/items/0x2F5D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hollow prism | `0x2F5D` | 1 |
-| <img src="/img/items/0x2F5E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jeweled filigree | `0x2F5E` | 1 |
-| <img src="/img/items/0x3189.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lard of paroxysmus | `0x3189` | — |
-| <img src="/img/items/0x572D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lava serpent crust | `0x572D` | — |
-| <img src="/img/items/0x0E1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | light yarn | `0x0E1E` | 1 |
-| <img src="/img/items/0x0E1F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | light yarn unraveled | `0x0E1F` | 1 |
-| <img src="/img/items/0xA3E9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | live rock | `0xA3E9` | — |
-| <img src="/img/items/0x3191.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | luminescent fungi | `0x3191` | — |
-| <img src="/img/items/0x2DB6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa Blood | `0x2DB6` | — |
-| <img src="/img/items/0x26B4-h08AF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
-| <img src="/img/items/0x3188.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | muculent | `0x3188` | — |
-| <img src="/img/items/0x1BD7-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak board | `0x1BD7` | — |
-| <img src="/img/items/0xA414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ocean sapphire | `0xA414` | — |
-| <img src="/img/items/0x1C18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oil flask | `0x1C18` | — |
-| <img src="/img/items/0x3190.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | parasitic plant | `0x3190` | — |
-| <img src="/img/items/0x3194.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | perfect emerald | `0x3194` | — |
-| <img src="/img/items/0x4022.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Plant Clippings | `0x4022` | — |
-| <img src="/img/items/0xA1CE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | polished meteorite | `0xA1CE` | 3 |
-| <img src="/img/items/0x573D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | powdered iron | `0x573D` | — |
-| <img src="/img/items/0x1F1C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | power crystal | `0x1F1C` | 1 |
-| <img src="/img/items/0x2DB5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Primeval Lich Dust | `0x2DB5` | — |
-| <img src="/img/items/0x315A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pristine dread horn | `0x315A` | — |
-| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | prized fish | `0x0DD6` | — |
-| <img src="/img/items/0x3186.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | putrefaction | `0x3186` | — |
-| <img src="/img/items/0x5747.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | raptor teeth | `0x5747` | — |
-| <img src="/img/items/0x1F14.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | recall rune | `0x1F14` | 1 |
-| <img src="/img/items/0x5749.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reflective wolf eye | `0x5749` | — |
-| <img src="/img/items/0x0F13.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ruby | `0x0F13` | — |
-| <img src="/img/items/0x2F57.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runed Prism | `0x2F57` | 1 |
-| <img src="/img/items/0x423A-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sand | `0x423A` | — |
-| <img src="/img/items/0x0F11.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sapphire | `0x0F11` | — |
-| <img src="/img/items/0x3185.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scourge | `0x3185` | — |
-| <img src="/img/items/0x1848.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scouring toxin | `0x1848` | — |
-| <img src="/img/items/0x26B4-h08B0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sea serpent scales | `0x26B4` | — |
-| <img src="/img/items/0x0DCF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | seed | `0x0DCF` | 1 |
-| <img src="/img/items/0x5736.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | seed of renewal | `0x5736` | — |
-| <img src="/img/items/0x1059.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sextant parts | `0x1059` | 2 |
-| <img src="/img/items/0x1BD4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shaft | `0x1BD4` | — |
-| <img src="/img/items/0x0E24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | silver serpent venom | `0x0E24` | — |
-| <img src="/img/items/0x5744.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | silver snake skin | `0x5744` | — |
-| <img src="/img/items/0x5746.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | slith tongue | `0x5746` | — |
-| <img src="/img/items/0x5749.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Slith's Eye | `0x5749` | — |
-| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small fish | `0x0DD6` | — |
-| <img src="/img/items/0x5720.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spider carapace | `0x5720` | — |
-| <img src="/img/items/0x0FA0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spool of thread | `0x0FA0` | 1 |
-| <img src="/img/items/0x105D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | springs | `0x105D` | 1 |
-| <img src="/img/items/0x0F0F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | star sapphire | `0x0F0F` | — |
-| <img src="/img/items/0x2F5F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | switch item | `0x2F5F` | — |
-| <img src="/img/items/0x3187.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | taint | `0x3187` | — |
-| <img src="/img/items/0x101F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tainted wool | `0x101F` | 4 |
-| <img src="/img/items/0x0F18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tourmaline | `0x0F18` | — |
-| <img src="/img/items/0x4005.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | toxic venom sac | `0x4005` | — |
-| <img src="/img/items/0x09D0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tribal berry | `0x09D0` | 1 |
-| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | truly rare fish | `0x0DD6` | — |
-| <img src="/img/items/0x3193.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | turquoise | `0x3193` | — |
-| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | uncut cloth | `0x1767` | — |
-| <img src="/img/items/0x5731.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | undying flesh | `0x5731` | — |
-| <img src="/img/items/0x0F7E-h0497.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | unholy bone | `0x0F7E` | — |
-| <img src="/img/items/0x5722.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vial of vitriol | `0x5722` | — |
-| <img src="/img/items/0x5727.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vile tentacles | `0x5727` | — |
-| <img src="/img/items/0x5728.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void core | `0x5728` | — |
-| <img src="/img/items/0x4007.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Essence | `0x4007` | — |
-| <img src="/img/items/0x573E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void orb | `0x573E` | — |
-| <img src="/img/items/0x3196.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | white pearl | `0x3196` | — |
-| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wondrous fish | `0x0DD6` | — |
-| <img src="/img/items/0x103D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wood pulp | `0x103D` | — |
-| <img src="/img/items/0x0DF8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wool | `0x0DF8` | 4 |
-| <img src="/img/items/0x4B80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | workable glass | `0x4B80` | 1 |
-| <img src="/img/items/0x1BD7-h04A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew board | `0x1BD7` | — |
-| <img src="/img/items/0x26B7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | zoogi fungus | `0x26B7` | 0.1 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x09CC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a big fish | `0x09CC` | — |  |
+| <img src="/img/items/0x1940.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A keg of Parasitic Poison potions | `0x1940` | 20 | Classic |
+| <img src="/img/items/0x136C-h07A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a large piece of blackrock | `0x136C` | — |  |
+| <img src="/img/items/0x1767-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | abyssal cloth | `0x1767` | — | SA |
+| <img src="/img/items/0x0F25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | amber | `0x0F25` | — |  |
+| <img src="/img/items/0x0F16.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | amethyst | `0x0F16` | — |  |
+| <img src="/img/items/0x182F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | animal pheromone | `0x182F` | — |  |
+| <img src="/img/items/0x1EA7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arcane Gem | `0x1EA7` | 1 |  |
+| <img src="/img/items/0x573C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcanic rune stone | `0x573C` | — | SA |
+| <img src="/img/items/0x0F3F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arrow | `0x0F3F` | — | Classic |
+| <img src="/img/items/0x1BD7-h04A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash board | `0x1BD7` | — |  |
+| <img src="/img/items/0x105B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | axle | `0x105B` | 1 | Classic |
+| <img src="/img/items/0x1051.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | axle gears | `0x1051` | 1 | Classic |
+| <img src="/img/items/0x0E21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bandage | `0x0E21` | — |  |
+| <img src="/img/items/0x318F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bark fragment | `0x318F` | — |  |
+| <img src="/img/items/0x1DB7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel hoops | `0x1DB7` | 5 | Classic |
+| <img src="/img/items/0x1DB8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel lid | `0x1DB8` | 2 | Classic |
+| <img src="/img/items/0x1EB1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel staves | `0x1EB1` | 1 | Classic |
+| <img src="/img/items/0x1004.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel tap | `0x1004` | 1 | Classic |
+| <img src="/img/items/0x1422.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | beeswax | `0x1422` | 1 |  |
+| <img src="/img/items/0x3183.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blight | `0x3183` | — |  |
+| <img src="/img/items/0x9D7F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blood of the Dark Father | `0x9D7F` | — |  |
+| <img src="/img/items/0x1BD7-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood board | `0x1BD7` | — |  |
+| <img src="/img/items/0x3198.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blue diamond | `0x3198` | — |  |
+| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | board | `0x1BD7` | — |  |
+| <img src="/img/items/0x0E73-h08AC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bola ball | `0x0E73` | 4 | Classic |
+| <img src="/img/items/0x1BFB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bolt | `0x1BFB` | — | Classic |
+| <img src="/img/items/0x0F95.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bolt of cloth | `0x0F95` | 5 |  |
+| <img src="/img/items/0x0F7E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bone | `0x0F7E` | 1 |  |
+| <img src="/img/items/0x0F0E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bottle | `0x0F0E` | 1 | Classic |
+| <img src="/img/items/0x5748.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bottle of ichor | `0x5748` | — | SA |
+| <img src="/img/items/0x3199.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brilliant amber | `0x3199` | — |  |
+| <img src="/img/items/0x318E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | captured essence | `0x318E` | — |  |
+| <img src="/img/items/0x5743.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chaga mushroom | `0x5743` | — |  |
+| <img src="/img/items/0x0F15.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | citrine | `0x0F15` | — |  |
+| <img src="/img/items/0x104D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | clock frame | `0x104D` | 2 | Classic |
+| <img src="/img/items/0x104F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | clock parts | `0x104F` | 1 | Classic |
+| <img src="/img/items/0x1EA8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Clockwork Assembly | `0x1EA8` | 5 |  |
+| <img src="/img/items/0x1766.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cloth | `0x1766` | — |  |
+| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | combine cloth | `0x1767` | — | Classic |
+| <img src="/img/items/0x3184.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | corruption | `0x3184` | — |  |
+| <img src="/img/items/0x0DF9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cotton | `0x0DF9` | 4 |  |
+| <img src="/img/items/0x573B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crushed glass | `0x573B` | — | SA |
+| <img src="/img/items/0x5738.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystal shards | `0x5738` | — |  |
+| <img src="/img/items/0x5732.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | crystalline blackrock | `0x5732` | — |  |
+| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cut-up cloth | `0x1767` | — | Classic |
+| <img src="/img/items/0x5721.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | daemon claw | `0x5721` | — |  |
+| <img src="/img/items/0x3192.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark sapphire | `0x3192` | — |  |
+| <img src="/img/items/0x0E1D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dark yarn | `0x0E1D` | 1 |  |
+| <img src="/img/items/0x573A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | delicate scales | `0x573A` | — |  |
+| <img src="/img/items/0x0F26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | diamond | `0x0F26` | — |  |
+| <img src="/img/items/0x318B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | diseased bark | `0x318B` | — |  |
+| <img src="/img/items/0x26B4-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |  |
+| <img src="/img/items/0x26B4-h0851.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |  |
+| <img src="/img/items/0x26B4-h066D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |  |
+| <img src="/img/items/0x26B4-h08FD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |  |
+| <img src="/img/items/0x26B4-h08A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |  |
+| <img src="/img/items/0x318A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dread horn mane | `0x318A` | — |  |
+| <img src="/img/items/0x3195.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ecru citrine | `0x3195` | — |  |
+| <img src="/img/items/0x5737.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven fletching | `0x5737` | — | SA |
+| <img src="/img/items/0x0F10.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | emerald | `0x0F10` | — |  |
+| <img src="/img/items/0x1C18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | empty oil flask | `0x1C18` | — | SA |
+| <img src="/img/items/0x2F5C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enchanted Switch | `0x2F5C` | 1 | ML |
+| <img src="/img/items/0x571C-h06BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of achievement | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h04F4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of balance | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h048D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of control | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h048E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of diligence | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h0484.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of direction | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h01C7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of feeling | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h0481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of order | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h0489.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of passion | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h0025.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of persistence | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h0486.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of precision | `0x571C` | — |  |
+| <img src="/img/items/0x571C-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | essence of singularity | `0x571C` | — |  |
+| <img src="/img/items/0xA3E8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ethereal sand | `0xA3E8` | — |  |
+| <img src="/img/items/0x122A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Explosive Goo | `0x122A` | — |  |
+| <img src="/img/items/0x318D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eye of the travesty | `0x318D` | — |  |
+| <img src="/img/items/0x5745.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | faery dust | `0x5745` | — |  |
+| <img src="/img/items/0x1BD1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | feather | `0x1BD1` | — |  |
+| <img src="/img/items/0x0F81.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fertile dirt | `0x0F81` | — |  |
+| <img src="/img/items/0x5726.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fey wings | `0x5726` | — |  |
+| <img src="/img/items/0x3197.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire ruby | `0x3197` | — |  |
+| <img src="/img/items/0x1A9C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | flax | `0x1A9C` | 1 |  |
+| <img src="/img/items/0x1F1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Focusing Gem of Virtue Bane | `0x1F1E` | — |  |
+| <img src="/img/items/0x1BD7-h047F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood board | `0x1BD7` | — |  |
+| <img src="/img/items/0x1053.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gears | `0x1053` | 1 | Classic |
+| <img src="/img/items/0x572C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | goblin blood | `0x572C` | — |  |
+| <img src="/img/items/0x318C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | grizzled bones | `0x318C` | — |  |
+| <img src="/img/items/0x1BD7-h04A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood board | `0x1BD7` | — |  |
+| <img src="/img/items/0x1779-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x1779-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |  |
+| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | highly peculiar fish | `0x0DD6` | — |  |
+| <img src="/img/items/0x1055.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hinge | `0x1055` | 1 | Classic |
+| <img src="/img/items/0x2F5D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hollow prism | `0x2F5D` | 1 | ML |
+| <img src="/img/items/0x2F5E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jeweled filigree | `0x2F5E` | 1 | ML |
+| <img src="/img/items/0x3189.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lard of paroxysmus | `0x3189` | — |  |
+| <img src="/img/items/0x572D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lava serpent crust | `0x572D` | — |  |
+| <img src="/img/items/0x0E1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | light yarn | `0x0E1E` | 1 |  |
+| <img src="/img/items/0x0E1F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | light yarn unraveled | `0x0E1F` | 1 |  |
+| <img src="/img/items/0xA3E9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | live rock | `0xA3E9` | — |  |
+| <img src="/img/items/0x3191.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | luminescent fungi | `0x3191` | — |  |
+| <img src="/img/items/0x2DB6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa Blood | `0x2DB6` | — |  |
+| <img src="/img/items/0x26B4-h08AF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |  |
+| <img src="/img/items/0x26B4-h04F2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |  |
+| <img src="/img/items/0x3188.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | muculent | `0x3188` | — |  |
+| <img src="/img/items/0x1BD7-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak board | `0x1BD7` | — |  |
+| <img src="/img/items/0xA414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ocean sapphire | `0xA414` | — |  |
+| <img src="/img/items/0x1C18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oil flask | `0x1C18` | — |  |
+| <img src="/img/items/0x3190.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | parasitic plant | `0x3190` | — |  |
+| <img src="/img/items/0x3194.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | perfect emerald | `0x3194` | — |  |
+| <img src="/img/items/0x4022.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Plant Clippings | `0x4022` | — |  |
+| <img src="/img/items/0xA1CE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | polished meteorite | `0xA1CE` | 3 |  |
+| <img src="/img/items/0x573D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | powdered iron | `0x573D` | — | SA |
+| <img src="/img/items/0x1F1C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | power crystal | `0x1F1C` | 1 |  |
+| <img src="/img/items/0x2DB5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Primeval Lich Dust | `0x2DB5` | — |  |
+| <img src="/img/items/0x315A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pristine dread horn | `0x315A` | — |  |
+| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | prized fish | `0x0DD6` | — |  |
+| <img src="/img/items/0x3186.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | putrefaction | `0x3186` | — |  |
+| <img src="/img/items/0x5747.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | raptor teeth | `0x5747` | — |  |
+| <img src="/img/items/0x1F14.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | recall rune | `0x1F14` | 1 |  |
+| <img src="/img/items/0x5749.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reflective wolf eye | `0x5749` | — |  |
+| <img src="/img/items/0x0F13.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ruby | `0x0F13` | — |  |
+| <img src="/img/items/0x2F57.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Runed Prism | `0x2F57` | 1 | ML |
+| <img src="/img/items/0x423A-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sand | `0x423A` | — |  |
+| <img src="/img/items/0x0F11.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sapphire | `0x0F11` | — |  |
+| <img src="/img/items/0x3185.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scourge | `0x3185` | — |  |
+| <img src="/img/items/0x1848.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scouring toxin | `0x1848` | — | ML |
+| <img src="/img/items/0x26B4-h08B0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sea serpent scales | `0x26B4` | — |  |
+| <img src="/img/items/0x0DCF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | seed | `0x0DCF` | 1 |  |
+| <img src="/img/items/0x5736.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | seed of renewal | `0x5736` | — |  |
+| <img src="/img/items/0x1059.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sextant parts | `0x1059` | 2 | Classic |
+| <img src="/img/items/0x1BD4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shaft | `0x1BD4` | — | Classic |
+| <img src="/img/items/0x0E24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | silver serpent venom | `0x0E24` | — |  |
+| <img src="/img/items/0x5744.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | silver snake skin | `0x5744` | — |  |
+| <img src="/img/items/0x5746.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | slith tongue | `0x5746` | — |  |
+| <img src="/img/items/0x5749.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Slith's Eye | `0x5749` | — |  |
+| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small fish | `0x0DD6` | — |  |
+| <img src="/img/items/0x5720.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spider carapace | `0x5720` | — |  |
+| <img src="/img/items/0x0FA0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | spool of thread | `0x0FA0` | 1 |  |
+| <img src="/img/items/0x105D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | springs | `0x105D` | 1 | Classic |
+| <img src="/img/items/0x0F0F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | star sapphire | `0x0F0F` | — |  |
+| <img src="/img/items/0x2F5F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | switch item | `0x2F5F` | — |  |
+| <img src="/img/items/0x3187.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | taint | `0x3187` | — |  |
+| <img src="/img/items/0x101F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tainted wool | `0x101F` | 4 |  |
+| <img src="/img/items/0x0F18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tourmaline | `0x0F18` | — |  |
+| <img src="/img/items/0x4005.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | toxic venom sac | `0x4005` | — |  |
+| <img src="/img/items/0x09D0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tribal berry | `0x09D0` | 1 |  |
+| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | truly rare fish | `0x0DD6` | — |  |
+| <img src="/img/items/0x3193.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | turquoise | `0x3193` | — |  |
+| <img src="/img/items/0x1767.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | uncut cloth | `0x1767` | — |  |
+| <img src="/img/items/0x5731.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | undying flesh | `0x5731` | — |  |
+| <img src="/img/items/0x0F7E-h0497.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | unholy bone | `0x0F7E` | — |  |
+| <img src="/img/items/0x5722.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vial of vitriol | `0x5722` | — | SA |
+| <img src="/img/items/0x5727.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | vile tentacles | `0x5727` | — |  |
+| <img src="/img/items/0x5728.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void core | `0x5728` | — |  |
+| <img src="/img/items/0x4007.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Void Essence | `0x4007` | — |  |
+| <img src="/img/items/0x573E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void orb | `0x573E` | — | SA |
+| <img src="/img/items/0x3196.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | white pearl | `0x3196` | — |  |
+| <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wondrous fish | `0x0DD6` | — |  |
+| <img src="/img/items/0x103D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wood pulp | `0x103D` | — | SA |
+| <img src="/img/items/0x0DF8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wool | `0x0DF8` | 4 |  |
+| <img src="/img/items/0x4B80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | workable glass | `0x4B80` | 1 | SA |
+| <img src="/img/items/0x1BD7-h04A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew board | `0x1BD7` | — |  |
+| <img src="/img/items/0x26B7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | zoogi fungus | `0x26B7` | 0.1 |  |

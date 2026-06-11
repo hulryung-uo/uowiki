@@ -15,166 +15,166 @@ last_verified: 2026-06-11
 
 Auto-generated catalog of every Containers — chests, bags, boxes and other containers (161 items). Items are classified by gameplay type from the ServUO source; icons are static client art and item IDs are the resolved ServUO `ItemID`.
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Box of Crystal Items | `0x09AA` | 4 |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Box of Shadow Items | `0x09AA` | 4 |
-| <img src="/img/items/0x241C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A fish bowl | `0x241C` | — |
-| <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Red Velvet Box | `0x0E7A` | — |
-| <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Red Velvet Box | `0x0E7A` | — |
-| <img src="/img/items/0x0E80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A ship's strongbox | `0x0E80` | — |
-| <img src="/img/items/0x0E3C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E3C` | — |
-| <img src="/img/items/0x0E3C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E3C` | — |
-| <img src="/img/items/0x0E3C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E3C` | — |
-| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x09AB` | — |
-| <img src="/img/items/0x0E40.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E40` | — |
-| <img src="/img/items/0x0A99.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | academic bookcase | `0x0A99` | 11 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | alchemist craftsman satchel | `0x0E75` | 3 |
-| <img src="/img/items/0x4C24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | alchemists bookshelf addon | `0x4C24` | — |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Allegiance Pouch | `0x0E75` | 1 |
-| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Unknown Bard's Skeleton | `0x0ECA` | 35 |
-| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Unknown Mage's Skeleton | `0x0ECA` | 35 |
-| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Unknown Rogue's Skeleton | `0x0ECA` | 35 |
-| <img src="/img/items/0x185B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | aquarium | `0x185B` | — |
-| <img src="/img/items/0x3086.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcane book shelf addon east | `0x3086` | — |
-| <img src="/img/items/0x3084.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcane book shelf addon south | `0x3084` | — |
-| <img src="/img/items/0x0A4F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | armoire | `0x0A4F` | 1 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Average Imbuing Bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | backpack | `0x0E75` | 3 |
-| <img src="/img/items/0x09B2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | backpack artifact | `0x09B2` | 10 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of all reagents | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bag of bulk order covers | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of necro reagents | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of reagents | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of smoke bombs | `0x0E76` | 2 |
-| <img src="/img/items/0x0E77.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel | `0x0E77` | 25 |
-| <img src="/img/items/0x0990.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket | `0x0990` | 1 |
-| <img src="/img/items/0x24DD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket1 artifact | `0x24DD` | 10 |
-| <img src="/img/items/0x24D7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket2 artifact | `0x24D7` | 10 |
-| <img src="/img/items/0x24DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket3 north artifact | `0x24DA` | 10 |
-| <img src="/img/items/0x24D9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket3 west artifact | `0x24D9` | 10 |
-| <img src="/img/items/0x24D8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket4 artifact | `0x24D8` | 10 |
-| <img src="/img/items/0x24DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket5 north artifact | `0x24DB` | 10 |
-| <img src="/img/items/0x24DC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket5 west artifact | `0x24DC` | 10 |
-| <img src="/img/items/0x24D5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket6 artifact | `0x24D5` | 10 |
-| <img src="/img/items/0x2068.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boiling Cauldron | `0x2068` | — |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boiling Cauldron | `0x14F0` | 1 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bulging Museum Bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carpenters craftsman satchel | `0x0E75` | 3 |
-| <img src="/img/items/0x285D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cherry armoire | `0x285D` | 1 |
-| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chest of Heirlooms | `0x2811` | — |
-| <img src="/img/items/0xA29F-h01C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | China Cabinet | `0xA29F` | — |
-| <img src="/img/items/0x0FAE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | closed barrel | `0x0FAE` | — |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Commodity Deed Box | `0x09AA` | 4 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | creature backpack | `0x0E75` | 3 |
-| <img src="/img/items/0xA393.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Cylinder Trap Training Kit | `0xA393` | — |
-| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | daemon blood chest | `0x09AB` | — |
-| <img src="/img/items/0x2DF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | decorative box | `0x2DF3` | 1 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Decorative Kitchen Set | `0x0E75` | 3 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Decorative Stable Set | `0x0E75` | 3 |
-| <img src="/img/items/0x0A2C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | drawer | `0x0A2C` | 1 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Adventurer's Backpack | `0x0E75` | 3 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Explorer's Backpack | `0x0E75` | 3 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Hunter's Backpack | `0x0E75` | 3 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Museum Bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Museum Bag | `0x0E76` | 2 |
-| <img src="/img/items/0x2859.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elegant armoire | `0x2859` | 1 |
-| <img src="/img/items/0x30E4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven dresser addon east | `0x30E4` | — |
-| <img src="/img/items/0x30E6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven dresser addon south | `0x30E6` | — |
-| <img src="/img/items/0x30E0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven wash basin east addon with drawer | `0x30E0` | — |
-| <img src="/img/items/0x30E2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven wash basin south addon with drawer | `0x30E2` | — |
-| <img src="/img/items/0x0E42.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eminos katana chest | `0x0E42` | 2 |
-| <img src="/img/items/0x0A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | empty bookcase | `0x0A9D` | — |
-| <img src="/img/items/0xA0DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | enchanted picnic basket | `0xA0DB` | — |
-| <img src="/img/items/0x9967.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enormous Venus Flytrap | `0x9967` | — |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Essence Box | `0x09AA` | 4 |
-| <img src="/img/items/0x0A4D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fancy armoire | `0x0A4D` | 1 |
-| <img src="/img/items/0x0A30.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fancy drawer | `0x0A30` | 1 |
-| <img src="/img/items/0x2D07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fancy elven armoire | `0x2D07` | 1 |
-| <img src="/img/items/0xA4E3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | feedbag | `0xA4E3` | — |
-| <img src="/img/items/0x0E77.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable barrel | `0x0E77` | — |
-| <img src="/img/items/0x0E3D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable large crate | `0x0E3D` | 1 |
-| <img src="/img/items/0x09A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable metal box | `0x09A8` | — |
-| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable metal chest | `0x09AB` | — |
-| <img src="/img/items/0x0E41.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable metal golden chest | `0x0E41` | — |
-| <img src="/img/items/0x09A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable small crate | `0x09A9` | 1 |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable wooden box | `0x09AA` | 4 |
-| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable wooden chest | `0x0E43` | — |
-| <img src="/img/items/0x2813.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | finished wooden chest | `0x2813` | — |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fletcher craftsman satchel | `0x0E75` | 3 |
-| <img src="/img/items/0x2AC0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fountain of Life | `0x2AC0` | — |
-| <img src="/img/items/0x0A97.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | full bookcase | `0x0A97` | 1 |
-| <img src="/img/items/0x4BEB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | garden shed | `0x4BEB` | — |
-| <img src="/img/items/0x4BED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | garden shed | `0x4BED` | — |
-| <img src="/img/items/0x4026.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish chest | `0x4026` | 1 |
-| <img src="/img/items/0x4025.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargoyle wooden chest | `0x4025` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gemologist's Satchel | `0x0E76` | 2 |
-| <img src="/img/items/0x46A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box angel | `0x46A7` | — |
-| <img src="/img/items/0x46A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box cube | `0x46A2` | — |
-| <img src="/img/items/0x46A3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box cylinder | `0x46A3` | — |
-| <img src="/img/items/0x46A4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box octogon | `0x46A4` | — |
-| <img src="/img/items/0x011E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box rectangle | `0x011E` | — |
-| <img src="/img/items/0x280F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gilded wooden chest | `0x280F` | — |
-| <img src="/img/items/0x2BD9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | green stocking | `0x2BD9` | — |
-| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | haochis treasure chest | `0x2811` | — |
-| <img src="/img/items/0x232A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Holiday Giftbox | `0x232A` | 2 |
-| <img src="/img/items/0x232A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Holiday Giftbox | `0x232A` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | initiation suit bag | `0x0E76` | 2 |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jaacar box | `0x09AA` | 4 |
-| <img src="/img/items/0x0E7F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | keg | `0x0E7F` | 15 |
-| <img src="/img/items/0x2257.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large bag ball | `0x2257` | 1 |
-| <img src="/img/items/0x0E3D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large crate | `0x0E3D` | 1 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large treasure bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0A97.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | library bookcase | `0x0A97` | 1 |
-| <img src="/img/items/0x0FAA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mahjong game | `0x0FAA` | 5 |
-| <img src="/img/items/0xA1F7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mailbox | `0xA1F7` | 5 |
-| <img src="/img/items/0xA207.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mailbox | `0xA207` | 5 |
-| <img src="/img/items/0x285B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | maple armoire | `0x285B` | 1 |
-| <img src="/img/items/0x0ECA-h044E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mark container | `0x0ECA` | — |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Meager Museum Bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E3F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | medium crate | `0x0E3F` | 2 |
-| <img src="/img/items/0x09A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal box | `0x09A8` | — |
-| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal chest | `0x09AB` | — |
-| <img src="/img/items/0x0E41.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal golden chest | `0x0E41` | — |
-| <img src="/img/items/0x0E41.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal golden treasure chest | `0x0E41` | — |
-| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal treasure chest | `0x09AB` | — |
-| <img src="/img/items/0x309A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate elven chest (east) | `0x309A` | — |
-| <img src="/img/items/0x3098.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate elven chest (south) | `0x3098` | — |
-| <img src="/img/items/0x280D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate wooden chest | `0x280D` | — |
-| <img src="/img/items/0x0E7C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | paragon chest | `0x0E7C` | — |
-| <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | picnic basket | `0x0E7A` | 2 |
-| <img src="/img/items/0xA29B-h01C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pie Safe | `0xA29B` | — |
-| <img src="/img/items/0x261B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast backpack | `0x261B` | — |
-| <img src="/img/items/0x280B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plain wooden chest | `0x280B` | — |
-| <img src="/img/items/0x0E79.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pouch | `0x0E79` | 1 |
-| <img src="/img/items/0x2DF1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | rarewood chest | `0x2DF1` | 1 |
-| <img src="/img/items/0x2857.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | red armoire | `0x2857` | 1 |
-| <img src="/img/items/0x2BDB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | red stocking | `0x2BDB` | — |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reward box | `0x09AA` | 4 |
-| <img src="/img/items/0x2A9B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sacrificial Altar | `0x2A9B` | — |
-| <img src="/img/items/0x1884.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Salvage Bag | `0x1884` | 2 |
-| <img src="/img/items/0x9707.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Secret Chest | `0x9707` | 5 |
-| <img src="/img/items/0x2817.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | short cabinet | `0x2817` | 1 |
-| <img src="/img/items/0x2D05.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | simple elven armoire | `0x2D05` | 1 |
-| <img src="/img/items/0x2256.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small bag ball | `0x2256` | 1 |
-| <img src="/img/items/0x09A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small crate | `0x09A9` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small trinket bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | smiths craftsman satchel | `0x0E75` | 3 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | strong backpack | `0x0E75` | 13 |
-| <img src="/img/items/0x0E80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | strong box | `0x0E80` | — |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tailors craftsman satchel | `0x0E75` | 3 |
-| <img src="/img/items/0x2815.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall cabinet | `0x2815` | 1 |
-| <img src="/img/items/0x4D0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The King's Collection | `0x4D0C` | 4 |
-| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tinkers craftsman satchel | `0x0E75` | 3 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | treasure bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | trinket bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Valuable Imbuing Bag | `0x0E76` | 2 |
-| <img src="/img/items/0x0A44.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Vanity | `0x0A44` | — |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Vanity | `0x14F0` | 1 |
-| <img src="/img/items/0xA567.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wine rack | `0xA567` | — |
-| <img src="/img/items/0x0A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wooden Bookcase | `0x0A9D` | — |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden box | `0x09AA` | 4 |
-| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden chest | `0x0E43` | 2 |
-| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden foot locker | `0x2811` | — |
-| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden treasure chest | `0x0E43` | — |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Box of Crystal Items | `0x09AA` | 4 |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Box of Shadow Items | `0x09AA` | 4 |  |
+| <img src="/img/items/0x241C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A fish bowl | `0x241C` | — |  |
+| <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Red Velvet Box | `0x0E7A` | — |  |
+| <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A Red Velvet Box | `0x0E7A` | — |  |
+| <img src="/img/items/0x0E80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | A ship's strongbox | `0x0E80` | — |  |
+| <img src="/img/items/0x0E3C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E3C` | — |  |
+| <img src="/img/items/0x0E3C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E3C` | — |  |
+| <img src="/img/items/0x0E3C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E3C` | — |  |
+| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x09AB` | — |  |
+| <img src="/img/items/0x0E40.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a treasure chest | `0x0E40` | — |  |
+| <img src="/img/items/0x0A99.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | academic bookcase | `0x0A99` | 11 | Classic |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | alchemist craftsman satchel | `0x0E75` | 3 |  |
+| <img src="/img/items/0x4C24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | alchemists bookshelf addon | `0x4C24` | — |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Allegiance Pouch | `0x0E75` | 1 |  |
+| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Unknown Bard's Skeleton | `0x0ECA` | 35 |  |
+| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Unknown Mage's Skeleton | `0x0ECA` | 35 |  |
+| <img src="/img/items/0x0ECA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | An Unknown Rogue's Skeleton | `0x0ECA` | 35 |  |
+| <img src="/img/items/0x185B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | aquarium | `0x185B` | — |  |
+| <img src="/img/items/0x3086.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcane book shelf addon east | `0x3086` | — |  |
+| <img src="/img/items/0x3084.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcane book shelf addon south | `0x3084` | — |  |
+| <img src="/img/items/0x0A4F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | armoire | `0x0A4F` | 1 | Classic |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Average Imbuing Bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | backpack | `0x0E75` | 3 |  |
+| <img src="/img/items/0x09B2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | backpack artifact | `0x09B2` | 10 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of all reagents | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bag of bulk order covers | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of necro reagents | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of reagents | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bag of smoke bombs | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E77.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrel | `0x0E77` | 25 |  |
+| <img src="/img/items/0x0990.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket | `0x0990` | 1 |  |
+| <img src="/img/items/0x24DD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket1 artifact | `0x24DD` | 10 |  |
+| <img src="/img/items/0x24D7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket2 artifact | `0x24D7` | 10 |  |
+| <img src="/img/items/0x24DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket3 north artifact | `0x24DA` | 10 |  |
+| <img src="/img/items/0x24D9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket3 west artifact | `0x24D9` | 10 |  |
+| <img src="/img/items/0x24D8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket4 artifact | `0x24D8` | 10 |  |
+| <img src="/img/items/0x24DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket5 north artifact | `0x24DB` | 10 |  |
+| <img src="/img/items/0x24DC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket5 west artifact | `0x24DC` | 10 |  |
+| <img src="/img/items/0x24D5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | basket6 artifact | `0x24D5` | 10 |  |
+| <img src="/img/items/0x2068.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boiling Cauldron | `0x2068` | — |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Boiling Cauldron | `0x14F0` | 1 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bulging Museum Bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carpenters craftsman satchel | `0x0E75` | 3 |  |
+| <img src="/img/items/0x285D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cherry armoire | `0x285D` | 1 | SE |
+| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chest of Heirlooms | `0x2811` | — |  |
+| <img src="/img/items/0xA29F-h01C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | China Cabinet | `0xA29F` | — |  |
+| <img src="/img/items/0x0FAE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | closed barrel | `0x0FAE` | — |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Commodity Deed Box | `0x09AA` | 4 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | creature backpack | `0x0E75` | 3 |  |
+| <img src="/img/items/0xA393.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Cylinder Trap Training Kit | `0xA393` | — |  |
+| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | daemon blood chest | `0x09AB` | — |  |
+| <img src="/img/items/0x2DF3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | decorative box | `0x2DF3` | 1 | ML |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Decorative Kitchen Set | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Decorative Stable Set | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0A2C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | drawer | `0x0A2C` | 1 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Adventurer's Backpack | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Explorer's Backpack | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Hunter's Backpack | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Museum Bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dusty Museum Bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x2859.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elegant armoire | `0x2859` | 1 | SE |
+| <img src="/img/items/0x30E4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven dresser addon east | `0x30E4` | — |  |
+| <img src="/img/items/0x30E6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven dresser addon south | `0x30E6` | — |  |
+| <img src="/img/items/0x30E0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven wash basin east addon with drawer | `0x30E0` | — |  |
+| <img src="/img/items/0x30E2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven wash basin south addon with drawer | `0x30E2` | — |  |
+| <img src="/img/items/0x0E42.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | eminos katana chest | `0x0E42` | 2 |  |
+| <img src="/img/items/0x0A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | empty bookcase | `0x0A9D` | — | Classic |
+| <img src="/img/items/0xA0DB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | enchanted picnic basket | `0xA0DB` | — | SA |
+| <img src="/img/items/0x9967.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Enormous Venus Flytrap | `0x9967` | — |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Essence Box | `0x09AA` | 4 |  |
+| <img src="/img/items/0x0A4D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fancy armoire | `0x0A4D` | 1 | Classic |
+| <img src="/img/items/0x0A30.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fancy drawer | `0x0A30` | 1 |  |
+| <img src="/img/items/0x2D07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fancy elven armoire | `0x2D07` | 1 | ML |
+| <img src="/img/items/0xA4E3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | feedbag | `0xA4E3` | — |  |
+| <img src="/img/items/0x0E77.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable barrel | `0x0E77` | — |  |
+| <img src="/img/items/0x0E3D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable large crate | `0x0E3D` | 1 |  |
+| <img src="/img/items/0x09A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable metal box | `0x09A8` | — |  |
+| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable metal chest | `0x09AB` | — |  |
+| <img src="/img/items/0x0E41.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable metal golden chest | `0x0E41` | — |  |
+| <img src="/img/items/0x09A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable small crate | `0x09A9` | 1 |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable wooden box | `0x09AA` | 4 |  |
+| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fillable wooden chest | `0x0E43` | — |  |
+| <img src="/img/items/0x2813.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | finished wooden chest | `0x2813` | — | SE |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fletcher craftsman satchel | `0x0E75` | 3 |  |
+| <img src="/img/items/0x2AC0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fountain of Life | `0x2AC0` | — |  |
+| <img src="/img/items/0x0A97.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | full bookcase | `0x0A97` | 1 |  |
+| <img src="/img/items/0x4BEB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | garden shed | `0x4BEB` | — |  |
+| <img src="/img/items/0x4BED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | garden shed | `0x4BED` | — |  |
+| <img src="/img/items/0x4026.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish chest | `0x4026` | 1 | SA |
+| <img src="/img/items/0x4025.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargoyle wooden chest | `0x4025` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gemologist's Satchel | `0x0E76` | 2 |  |
+| <img src="/img/items/0x46A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box angel | `0x46A7` | — |  |
+| <img src="/img/items/0x46A2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box cube | `0x46A2` | — |  |
+| <img src="/img/items/0x46A3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box cylinder | `0x46A3` | — |  |
+| <img src="/img/items/0x46A4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box octogon | `0x46A4` | — |  |
+| <img src="/img/items/0x011E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gift box rectangle | `0x011E` | — |  |
+| <img src="/img/items/0x280F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gilded wooden chest | `0x280F` | — | SE |
+| <img src="/img/items/0x2BD9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | green stocking | `0x2BD9` | — |  |
+| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | haochis treasure chest | `0x2811` | — |  |
+| <img src="/img/items/0x232A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Holiday Giftbox | `0x232A` | 2 |  |
+| <img src="/img/items/0x232A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Holiday Giftbox | `0x232A` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | initiation suit bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | jaacar box | `0x09AA` | 4 |  |
+| <img src="/img/items/0x0E7F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | keg | `0x0E7F` | 15 | Classic |
+| <img src="/img/items/0x2257.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large bag ball | `0x2257` | 1 |  |
+| <img src="/img/items/0x0E3D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large crate | `0x0E3D` | 1 | Classic |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large treasure bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0A97.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | library bookcase | `0x0A97` | 1 |  |
+| <img src="/img/items/0x0FAA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mahjong game | `0x0FAA` | 5 |  |
+| <img src="/img/items/0xA1F7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mailbox | `0xA1F7` | 5 |  |
+| <img src="/img/items/0xA207.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mailbox | `0xA207` | 5 |  |
+| <img src="/img/items/0x285B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | maple armoire | `0x285B` | 1 | SE |
+| <img src="/img/items/0x0ECA-h044E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mark container | `0x0ECA` | — |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Meager Museum Bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E3F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | medium crate | `0x0E3F` | 2 | Classic |
+| <img src="/img/items/0x09A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal box | `0x09A8` | — |  |
+| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal chest | `0x09AB` | — |  |
+| <img src="/img/items/0x0E41.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal golden chest | `0x0E41` | — |  |
+| <img src="/img/items/0x0E41.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal golden treasure chest | `0x0E41` | — |  |
+| <img src="/img/items/0x09AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal treasure chest | `0x09AB` | — |  |
+| <img src="/img/items/0x309A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate elven chest (east) | `0x309A` | — |  |
+| <img src="/img/items/0x3098.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate elven chest (south) | `0x3098` | — |  |
+| <img src="/img/items/0x280D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ornate wooden chest | `0x280D` | — | SE |
+| <img src="/img/items/0x0E7C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | paragon chest | `0x0E7C` | — |  |
+| <img src="/img/items/0x0E7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | picnic basket | `0x0E7A` | 2 |  |
+| <img src="/img/items/0xA29B-h01C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pie Safe | `0xA29B` | — |  |
+| <img src="/img/items/0x261B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plague beast backpack | `0x261B` | — |  |
+| <img src="/img/items/0x280B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | plain wooden chest | `0x280B` | — | SE |
+| <img src="/img/items/0x0E79.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pouch | `0x0E79` | 1 |  |
+| <img src="/img/items/0x2DF1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | rarewood chest | `0x2DF1` | 1 | ML |
+| <img src="/img/items/0x2857.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | red armoire | `0x2857` | 1 | SE |
+| <img src="/img/items/0x2BDB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | red stocking | `0x2BDB` | — |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | reward box | `0x09AA` | 4 |  |
+| <img src="/img/items/0x2A9B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sacrificial Altar | `0x2A9B` | — |  |
+| <img src="/img/items/0x1884.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Salvage Bag | `0x1884` | 2 |  |
+| <img src="/img/items/0x9707.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Secret Chest | `0x9707` | 5 |  |
+| <img src="/img/items/0x2817.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | short cabinet | `0x2817` | 1 | SE |
+| <img src="/img/items/0x2D05.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | simple elven armoire | `0x2D05` | 1 | ML |
+| <img src="/img/items/0x2256.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small bag ball | `0x2256` | 1 |  |
+| <img src="/img/items/0x09A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small crate | `0x09A9` | 2 | Classic |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small trinket bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | smiths craftsman satchel | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | strong backpack | `0x0E75` | 13 |  |
+| <img src="/img/items/0x0E80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | strong box | `0x0E80` | — |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tailors craftsman satchel | `0x0E75` | 3 |  |
+| <img src="/img/items/0x2815.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall cabinet | `0x2815` | 1 | SE |
+| <img src="/img/items/0x4D0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | The King's Collection | `0x4D0C` | 4 |  |
+| <img src="/img/items/0x0E75.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tinkers craftsman satchel | `0x0E75` | 3 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | treasure bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | trinket bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0E76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Valuable Imbuing Bag | `0x0E76` | 2 |  |
+| <img src="/img/items/0x0A44.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Vanity | `0x0A44` | — |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Vanity | `0x14F0` | 1 |  |
+| <img src="/img/items/0xA567.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wine rack | `0xA567` | — |  |
+| <img src="/img/items/0x0A9D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wooden Bookcase | `0x0A9D` | — |  |
+| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden box | `0x09AA` | 4 | Classic |
+| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden chest | `0x0E43` | 2 | Classic |
+| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden foot locker | `0x2811` | — | SE |
+| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden treasure chest | `0x0E43` | — |  |

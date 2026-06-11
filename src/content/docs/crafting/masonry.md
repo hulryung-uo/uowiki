@@ -16,104 +16,104 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Decorations
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0B46.png" class="uo-sprite" alt="" width="56" /> | vase | 52.5 – 102.5 | 1 Stones |
-| <img src="/img/items/0x0B45.png" class="uo-sprite" alt="" width="56" /> | large vase | 52.5 – 102.5 | 3 Stones |
-| <img src="/img/items/0x241C.png" class="uo-sprite" alt="" width="56" /> | small urn | 82.0 – 132.0 | 3 Stones |
-| <img src="/img/items/0x241A.png" class="uo-sprite" alt="" width="56" /> | tower sculpture | 82.0 – 132.0 | 3 Stones |
-| <img src="/img/items/0x403D.png" class="uo-sprite" alt="" width="56" /> | gargish painting | 83.0 – 133.0 | 3 Stones |
-| <img src="/img/items/0x403F.png" class="uo-sprite" alt="" width="56" /> | gargish sculpture | 82.0 – 132.0 | 3 Stones |
-| <img src="/img/items/0x4042.png" class="uo-sprite" alt="" width="56" /> | gargish vase | 80.0 – 126.0 | 3 Stones |
-| <img src="/img/items/0x9BC7.png" class="uo-sprite" alt="" width="56" /> | Tall 18th Anniversary Vase | 60.0 – 110.0 | 6 Stones |
-| <img src="/img/items/0x9BCA.png" class="uo-sprite" alt="" width="56" /> | Short 18th Anniversary Vase | 60.0 – 110.0 | 6 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0B46.png" class="uo-sprite" alt="" width="56" /> | vase | 52.5 – 102.5 | Classic | 1 Stones |
+| <img src="/img/items/0x0B45.png" class="uo-sprite" alt="" width="56" /> | large vase | 52.5 – 102.5 | Classic | 3 Stones |
+| <img src="/img/items/0x241C.png" class="uo-sprite" alt="" width="56" /> | small urn | 82.0 – 132.0 | SE | 3 Stones |
+| <img src="/img/items/0x241A.png" class="uo-sprite" alt="" width="56" /> | tower sculpture | 82.0 – 132.0 | SE | 3 Stones |
+| <img src="/img/items/0x403D.png" class="uo-sprite" alt="" width="56" /> | gargish painting | 83.0 – 133.0 | SA | 3 Stones |
+| <img src="/img/items/0x403F.png" class="uo-sprite" alt="" width="56" /> | gargish sculpture | 82.0 – 132.0 | SA | 3 Stones |
+| <img src="/img/items/0x4042.png" class="uo-sprite" alt="" width="56" /> | gargish vase | 80.0 – 126.0 | SA | 3 Stones |
+| <img src="/img/items/0x9BC7.png" class="uo-sprite" alt="" width="56" /> | Tall 18th Anniversary Vase | 60.0 – 110.0 | TOL | 6 Stones |
+| <img src="/img/items/0x9BCA.png" class="uo-sprite" alt="" width="56" /> | Short 18th Anniversary Vase | 60.0 – 110.0 | TOL | 6 Stones |
 
 ## Furniture
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x1218.png" class="uo-sprite" alt="" width="56" /> | stone chair | 55.0 – 105.0 | 4 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | medium stone table (east) | 65.0 – 115.0 | 6 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | medium stone table (south) | 65.0 – 115.0 | 6 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large stone table (east) | 75.0 – 125.0 | 9 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large stone table (south) | 75.0 – 125.0 | 9 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ritual table | 94.7 – 103.5 | 8 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x1218.png" class="uo-sprite" alt="" width="56" /> | stone chair | 55.0 – 105.0 | Classic | 4 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | medium stone table (east) | 65.0 – 115.0 | Classic | 6 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | medium stone table (south) | 65.0 – 115.0 | Classic | 6 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large stone table (east) | 75.0 – 125.0 | Classic | 9 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large stone table (south) | 75.0 – 125.0 | Classic | 9 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ritual table | 94.7 – 103.5 | Classic | 8 Stones |
 
 ## Statues
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x139A.png" class="uo-sprite" alt="" width="56" /> | small statue (south) | 60.0 – 110.0 | 3 Stones |
-| <img src="/img/items/0x139B.png" class="uo-sprite" alt="" width="56" /> | small statue (north) | 60.0 – 110.0 | 3 Stones |
-| <img src="/img/items/0x139C.png" class="uo-sprite" alt="" width="56" /> | small statue (east) | 60.0 – 110.0 | 3 Stones |
-| <img src="/img/items/0x139D.png" class="uo-sprite" alt="" width="56" /> | pegasus statuette | 70.0 – 120.0 | 4 Stones |
-| <img src="/img/items/0x494E.png" class="uo-sprite" alt="" width="56" /> | gargoyle statue | 54.5 – 104.5 | 20 Stones |
-| <img src="/img/items/0x493C.png" class="uo-sprite" alt="" width="56" /> | gryphon statue | 54.5 – 104.5 | 15 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x139A.png" class="uo-sprite" alt="" width="56" /> | small statue (south) | 60.0 – 110.0 | Classic | 3 Stones |
+| <img src="/img/items/0x139B.png" class="uo-sprite" alt="" width="56" /> | small statue (north) | 60.0 – 110.0 | Classic | 3 Stones |
+| <img src="/img/items/0x139C.png" class="uo-sprite" alt="" width="56" /> | small statue (east) | 60.0 – 110.0 | Classic | 3 Stones |
+| <img src="/img/items/0x139D.png" class="uo-sprite" alt="" width="56" /> | pegasus statuette | 70.0 – 120.0 | Classic | 4 Stones |
+| <img src="/img/items/0x494E.png" class="uo-sprite" alt="" width="56" /> | gargoyle statue | 54.5 – 104.5 | Classic | 20 Stones |
+| <img src="/img/items/0x493C.png" class="uo-sprite" alt="" width="56" /> | gryphon statue | 54.5 – 104.5 | Classic | 15 Stones |
 
 ## Misc. Add-Ons
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | stone anvil (south) | 78.0 – 128.0 | 20 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | stone anvil (east) | 78.0 – 128.0 | 20 Stones |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large gargish bed (south) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | 3 Stones, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large gargish bed (east) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | 3 Stones, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | gargish cot (east) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | 3 Stones, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | gargish cot (south) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | 3 Stones, 100 Cloth |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | stone anvil (south) | 78.0 – 128.0 | ML | 20 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | stone anvil (east) | 78.0 – 128.0 | ML | 20 Stones |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large gargish bed (south) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | SA | 3 Stones, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large gargish bed (east) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | SA | 3 Stones, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | gargish cot (east) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | SA | 3 Stones, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | gargish cot (south) | 76.0 – 126.0; Tailoring 70.0 – 75.0 | SA | 3 Stones, 100 Cloth |
 
 ## Stone Armor
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0283.png" class="uo-sprite" alt="" width="56" /> | gargish stone arms | 56.3 – 106.3 | 8 Stones |
-| <img src="/img/items/0x0285.png" class="uo-sprite" alt="" width="56" /> | gargish stone chest | 55.0 – 105.0 | 12 Stones |
-| <img src="/img/items/0x0289.png" class="uo-sprite" alt="" width="56" /> | gargish stone leggings | 58.8 – 108.8 | 10 Stones |
-| <img src="/img/items/0x0287.png" class="uo-sprite" alt="" width="56" /> | gargish stone kilt | 48.9 – 98.9 | 6 Stones |
-| <img src="/img/items/0x0284.png" class="uo-sprite" alt="" width="56" /> | gargish stone arms | 56.3 – 106.3 | 8 Stones |
-| <img src="/img/items/0x0286.png" class="uo-sprite" alt="" width="56" /> | gargish stone chest | 65.0 – 115.0 | 12 Stones |
-| <img src="/img/items/0x028A.png" class="uo-sprite" alt="" width="56" /> | gargish stone leggings | 58.8 – 108.8 | 10 Stones |
-| <img src="/img/items/0x0288.png" class="uo-sprite" alt="" width="56" /> | gargish stone kilt | 48.9 – 98.9 | 6 Stones |
-| <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="56" /> | large stone shield | 55.0 – 105.0 | 16 Stones |
-| <img src="/img/items/0x4D0A.png" class="uo-sprite" alt="" width="56" /> | Gargish Stone Amulet | 60.0 – 110.0 | 3 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0283.png" class="uo-sprite" alt="" width="56" /> | gargish stone arms | 56.3 – 106.3 | SA | 8 Stones |
+| <img src="/img/items/0x0285.png" class="uo-sprite" alt="" width="56" /> | gargish stone chest | 55.0 – 105.0 | SA | 12 Stones |
+| <img src="/img/items/0x0289.png" class="uo-sprite" alt="" width="56" /> | gargish stone leggings | 58.8 – 108.8 | SA | 10 Stones |
+| <img src="/img/items/0x0287.png" class="uo-sprite" alt="" width="56" /> | gargish stone kilt | 48.9 – 98.9 | SA | 6 Stones |
+| <img src="/img/items/0x0284.png" class="uo-sprite" alt="" width="56" /> | gargish stone arms | 56.3 – 106.3 | SA | 8 Stones |
+| <img src="/img/items/0x0286.png" class="uo-sprite" alt="" width="56" /> | gargish stone chest | 65.0 – 115.0 | SA | 12 Stones |
+| <img src="/img/items/0x028A.png" class="uo-sprite" alt="" width="56" /> | gargish stone leggings | 58.8 – 108.8 | SA | 10 Stones |
+| <img src="/img/items/0x0288.png" class="uo-sprite" alt="" width="56" /> | gargish stone kilt | 48.9 – 98.9 | SA | 6 Stones |
+| <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="56" /> | large stone shield | 55.0 – 105.0 | SA | 16 Stones |
+| <img src="/img/items/0x4D0A.png" class="uo-sprite" alt="" width="56" /> | Gargish Stone Amulet | 60.0 – 110.0 | SA | 3 Stones |
 
 ## Stone Weapons
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0900.png" class="uo-sprite" alt="" width="56" /> | stone war sword | 55.0 – 105.0 | 18 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0900.png" class="uo-sprite" alt="" width="56" /> | stone war sword | 55.0 – 105.0 | SA | 18 Stones |
 
 ## Stone Walls
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-|  | Rough Windowless | 60.0 – 110.0 | 10 Stones |
-|  | Rough Window | 60.0 – 110.0 | 10 Stones |
-|  | Rough Arch | 60.0 – 110.0 | 10 Stones |
-|  | Rough Pillar | 60.0 – 110.0 | 10 Stones |
-|  | Rough Rounded Arch | 60.0 – 110.0 | 10 Stones |
-|  | Rough Small Arch | 60.0 – 110.0 | 10 Stones |
-|  | Rough Angled Pillar | 60.0 – 110.0 | 10 Stones |
-|  | Short Rough | 60.0 – 110.0 | 10 Stones |
-| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (S In) | 60.0 – 110.0 | 10 Stones |
-| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (E Out) | 60.0 – 110.0 | 10 Stones |
-| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (S Out) | 60.0 – 110.0 | 10 Stones |
-| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (E In) | 60.0 – 110.0 | 10 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+|  | Rough Windowless | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Rough Window | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Rough Arch | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Rough Pillar | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Rough Rounded Arch | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Rough Small Arch | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Rough Angled Pillar | 60.0 – 110.0 | TOL | 10 Stones |
+|  | Short Rough | 60.0 – 110.0 | TOL | 10 Stones |
+| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (S In) | 60.0 – 110.0 | TOL | 10 Stones |
+| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (E Out) | 60.0 – 110.0 | TOL | 10 Stones |
+| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (S Out) | 60.0 – 110.0 | TOL | 10 Stones |
+| <img src="/img/items/0x0324.png" class="uo-sprite" alt="" width="56" /> | Stone Door (E In) | 60.0 – 110.0 | TOL | 10 Stones |
 
 ## Stone Stairs
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-|  | Rough Block | 60.0 – 110.0 | 5 Stones |
-|  | Rough Steps | 60.0 – 110.0 | 5 Stones |
-|  | Rough Corner Steps | 60.0 – 110.0 | 5 Stones |
-|  | Rough Rounded Corner Steps | 60.0 – 110.0 | 5 Stones |
-|  | Rough Inset Steps | 60.0 – 110.0 | 5 Stones |
-|  | Rough Rounded Inset Steps | 60.0 – 110.0 | 5 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+|  | Rough Block | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Rough Steps | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Rough Corner Steps | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Rough Rounded Corner Steps | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Rough Inset Steps | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Rough Rounded Inset Steps | 60.0 – 110.0 | TOL | 5 Stones |
 
 ## Stone Floor
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-|  | Light Paver | 60.0 – 110.0 | 5 Stones |
-|  | Medium Paver | 60.0 – 110.0 | 5 Stones |
-|  | Dark Paver | 60.0 – 110.0 | 5 Stones |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+|  | Light Paver | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Medium Paver | 60.0 – 110.0 | TOL | 5 Stones |
+|  | Dark Paver | 60.0 – 110.0 | TOL | 5 Stones |

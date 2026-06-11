@@ -15,42 +15,42 @@ last_verified: 2026-06-11
 
 Auto-generated catalog of every Potions — drinkable and thrown potions (37 items). Items are classified by gameplay type from the ServUO source; icons are static client art and item IDs are the resolved ServUO `ItemID`.
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a Confusion Blast potion | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a Greater Confusion Blast potion | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | conflagration potion | `0x0F06` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Darkglow Poison | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Exploding Tar Potion | `0x0F06` | 1 |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fear essence | `0x0F0D` | 2 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | greater conflagration potion | `0x0F06` | 1 |
-| <img src="/img/items/0x099B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Melisande's Fermented Wine | `0x099B` | 1 |
-| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F08` | 1 |
-| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F07` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0D` | 1 |
-| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F08` | 1 |
-| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F07` | 1 |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0D` | 1 |
-| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0C` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F09` | 1 |
-| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0C` | 1 |
-| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F07` | 1 |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0D` | 1 |
-| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0C` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F06` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0B` | 1 |
-| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F09` | 1 |
-| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0B` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Parasitic Poison | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Potion of Invisibility | `0x0F0A` | 1 |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shatter Potion | `0x0F0D` | 2 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a Confusion Blast potion | `0x0F06` | 1 | ML |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | a Greater Confusion Blast potion | `0x0F06` | 1 | ML |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 | TOL |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 | TOL |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 | TOL |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 | TOL |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 | TOL |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | barrab hemolymph concentrate | `0x0F06` | 1 | TOL |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | conflagration potion | `0x0F06` | 1 | ML |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Darkglow Poison | `0x0F0A` | 1 | ML |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Exploding Tar Potion | `0x0F06` | 1 |  |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fear essence | `0x0F0D` | 2 |  |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | greater conflagration potion | `0x0F06` | 1 | ML |
+| <img src="/img/items/0x099B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Melisande's Fermented Wine | `0x099B` | 1 |  |
+| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F08` | 1 | Classic |
+| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F07` | 1 | Classic |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 | Classic |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0D` | 1 | Classic |
+| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F08` | 1 | Classic |
+| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F07` | 1 | Classic |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0D` | 1 | Classic |
+| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0C` | 1 | Classic |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 | Classic |
+| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F09` | 1 | Classic |
+| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0C` | 1 | Classic |
+| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F07` | 1 | Classic |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0D` | 1 | Classic |
+| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0C` | 1 | Classic |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 | Classic |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F06` | 1 | Classic |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0A` | 1 | Classic |
+| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0B` | 1 | Classic |
+| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F09` | 1 | Classic |
+| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Nightsight potion | `0x0F0B` | 1 | Classic |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Parasitic Poison | `0x0F0A` | 1 | ML |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Potion of Invisibility | `0x0F0A` | 1 | ML |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shatter Potion | `0x0F0D` | 2 |  |

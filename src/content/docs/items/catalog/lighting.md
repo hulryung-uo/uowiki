@@ -15,70 +15,70 @@ last_verified: 2026-06-11
 
 Auto-generated catalog of every Lighting — lanterns, torches, candles and lamps (65 items). Items are classified by gameplay type from the ServUO source; icons are static client art and item IDs are the resolved ServUO `ItemID`.
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | beg lantern | `0x0A25` | 2 |
-| <img src="/img/items/0x4C44.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bird Lamp | `0x4C44` | 0 |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bird Lamp | `0x14F0` | — |
-| <img src="/img/items/0x0E31.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brazier | `0x0E31` | 20 |
-| <img src="/img/items/0x19AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brazier tall | `0x19AA` | 25 |
-| <img src="/img/items/0x0A27.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candelabra | `0x0A27` | 3 |
-| <img src="/img/items/0x0A29.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candelabra stand | `0x0A29` | 20 |
-| <img src="/img/items/0x0A28.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle | `0x0A28` | 1 |
-| <img src="/img/items/0x0A26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle large | `0x0A26` | 2 |
-| <img src="/img/items/0x1433.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle long | `0x1433` | 1 |
-| <img src="/img/items/0x142F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle short | `0x142F` | 1 |
-| <img src="/img/items/0x1853.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle skull | `0x1853` | 5 |
-| <img src="/img/items/0x9D22.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carvable gord pumpkin tall | `0x9D22` | 18 |
-| <img src="/img/items/0x9F51.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carvable plain pumpkin | `0x9F51` | 18 |
-| <img src="/img/items/0x992F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carvable pumpkin tall | `0x992F` | 16 |
-| <img src="/img/items/0x4C4C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon lamp | `0x4C4C` | 1 |
-| <img src="/img/items/0x4C40.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon lantern | `0x4C40` | 0 |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon lantern | `0x14F0` | — |
-| <img src="/img/items/0x2D04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fresh Green Lady Bug | `0x2D04` | 3 |
-| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friends of the Library Reading Lantern | `0x0A25` | 2 |
-| <img src="/img/items/0x4039.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargoyle candelabra | `0x4039` | 3 |
-| <img src="/img/items/0xA4B3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass tree | `0xA4B3` | 1 |
-| <img src="/img/items/0xA4B7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass tree | `0xA4B7` | 1 |
-| <img src="/img/items/0xA4AD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass tree | `0xA4AD` | 1 |
-| <img src="/img/items/0x9D36.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gypsy Wagon Lamp | `0x9D36` | 1 |
-| <img src="/img/items/0x0A1D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hanging lantern | `0x0A1D` | 40 |
-| <img src="/img/items/0x1849.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heating stand | `0x1849` | 1 |
-| <img src="/img/items/0x1433.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | honor candle | `0x1433` | 1 |
-| <img src="/img/items/0x9EED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | incense burner | `0x9EED` | 10 |
-| <img src="/img/items/0x4C49.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Koi Lamp | `0x4C49` | 0 |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Koi Lamp | `0x14F0` | — |
-| <img src="/img/items/0x0B24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post artifact | `0x0B24` | 10 |
-| <img src="/img/items/0x0B21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post1 | `0x0B21` | 40 |
-| <img src="/img/items/0x0B23.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post2 | `0x0B23` | 40 |
-| <img src="/img/items/0x0B25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post3 | `0x0B25` | 40 |
-| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0x0A25` | 2 |
-| <img src="/img/items/0xA469.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA469` | 1 |
-| <img src="/img/items/0xA471.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA471` | 1 |
-| <img src="/img/items/0xA481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA481` | 1 |
-| <img src="/img/items/0xA479.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA479` | 1 |
-| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lantern of Souls | `0x0A25` | 2 |
-| <img src="/img/items/0x2CFD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Large Glowing Lady Bug | `0x2CFD` | 3 |
-| <img src="/img/items/0x24BE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | paper lantern | `0x24BE` | 3 |
-| <img src="/img/items/0x24C2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | red hanging lantern | `0x24C2` | 3 |
-| <img src="/img/items/0x24CA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | round paper lantern | `0x24CA` | 3 |
-| <img src="/img/items/0x9F33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scarecrow | `0x9F33` | — |
-| <img src="/img/items/0xA49E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA49E` | 1 |
-| <img src="/img/items/0xA493.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA493` | 1 |
-| <img src="/img/items/0xA499.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA499` | 1 |
-| <img src="/img/items/0xA4A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA4A8` | 1 |
-| <img src="/img/items/0x24BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shoji lantern | `0x24BC` | 3 |
-| <img src="/img/items/0x1858.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skull candle artifact | `0x1858` | 10 |
-| <img src="/img/items/0x4C50.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | stained glass lamp | `0x4C50` | 1 |
-| <img src="/img/items/0x4C56.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall double lamp | `0x4C56` | 1 |
-| <img src="/img/items/0x4C52.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall lamp | `0x4C52` | 0 |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall lamp | `0x14F0` | — |
-| <img src="/img/items/0x4039.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ter mur style candelabra | `0x4039` | 10 |
-| <img src="/img/items/0x0F6B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | torch | `0x0F6B` | 1 |
-| <img src="/img/items/0x24C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tower lantern artifact | `0x24C0` | 10 |
-| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | twilight lantern | `0x0A25` | 2 |
-| <img src="/img/items/0x09FB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wall sconce | `0x09FB` | 3 |
-| <img src="/img/items/0x0A05.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wall torch | `0x0A05` | 3 |
-| <img src="/img/items/0x3D98.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wall Torch | `0x3D98` | — |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wall Torch | `0x14F0` | 1 |
-| <img src="/img/items/0x24C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | white hanging lantern | `0x24C6` | 3 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | beg lantern | `0x0A25` | 2 |  |
+| <img src="/img/items/0x4C44.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bird Lamp | `0x4C44` | 0 |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Bird Lamp | `0x14F0` | — |  |
+| <img src="/img/items/0x0E31.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brazier | `0x0E31` | 20 |  |
+| <img src="/img/items/0x19AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | brazier tall | `0x19AA` | 25 |  |
+| <img src="/img/items/0x0A27.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candelabra | `0x0A27` | 3 | Classic |
+| <img src="/img/items/0x0A29.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candelabra stand | `0x0A29` | 20 |  |
+| <img src="/img/items/0x0A28.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle | `0x0A28` | 1 |  |
+| <img src="/img/items/0x0A26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle large | `0x0A26` | 2 |  |
+| <img src="/img/items/0x1433.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle long | `0x1433` | 1 |  |
+| <img src="/img/items/0x142F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle short | `0x142F` | 1 |  |
+| <img src="/img/items/0x1853.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | candle skull | `0x1853` | 5 |  |
+| <img src="/img/items/0x9D22.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carvable gord pumpkin tall | `0x9D22` | 18 |  |
+| <img src="/img/items/0x9F51.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carvable plain pumpkin | `0x9F51` | 18 |  |
+| <img src="/img/items/0x992F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | carvable pumpkin tall | `0x992F` | 16 |  |
+| <img src="/img/items/0x4C4C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon lamp | `0x4C4C` | 1 | Classic |
+| <img src="/img/items/0x4C40.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon lantern | `0x4C40` | 0 |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon lantern | `0x14F0` | — |  |
+| <img src="/img/items/0x2D04.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Fresh Green Lady Bug | `0x2D04` | 3 |  |
+| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Friends of the Library Reading Lantern | `0x0A25` | 2 |  |
+| <img src="/img/items/0x4039.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargoyle candelabra | `0x4039` | 3 |  |
+| <img src="/img/items/0xA4B3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass tree | `0xA4B3` | 1 |  |
+| <img src="/img/items/0xA4B7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass tree | `0xA4B7` | 1 |  |
+| <img src="/img/items/0xA4AD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | glass tree | `0xA4AD` | 1 |  |
+| <img src="/img/items/0x9D36.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Gypsy Wagon Lamp | `0x9D36` | 1 |  |
+| <img src="/img/items/0x0A1D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hanging lantern | `0x0A1D` | 40 |  |
+| <img src="/img/items/0x1849.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heating stand | `0x1849` | 1 | Classic |
+| <img src="/img/items/0x1433.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | honor candle | `0x1433` | 1 |  |
+| <img src="/img/items/0x9EED.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | incense burner | `0x9EED` | 10 |  |
+| <img src="/img/items/0x4C49.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Koi Lamp | `0x4C49` | 0 |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Koi Lamp | `0x14F0` | — |  |
+| <img src="/img/items/0x0B24.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post artifact | `0x0B24` | 10 |  |
+| <img src="/img/items/0x0B21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post1 | `0x0B21` | 40 |  |
+| <img src="/img/items/0x0B23.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post2 | `0x0B23` | 40 |  |
+| <img src="/img/items/0x0B25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lamp post3 | `0x0B25` | 40 |  |
+| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0x0A25` | 2 | Classic |
+| <img src="/img/items/0xA469.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA469` | 1 |  |
+| <img src="/img/items/0xA471.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA471` | 1 |  |
+| <img src="/img/items/0xA481.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA481` | 1 |  |
+| <img src="/img/items/0xA479.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | lantern | `0xA479` | 1 |  |
+| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lantern of Souls | `0x0A25` | 2 |  |
+| <img src="/img/items/0x2CFD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Large Glowing Lady Bug | `0x2CFD` | 3 |  |
+| <img src="/img/items/0x24BE.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | paper lantern | `0x24BE` | 3 | SE |
+| <img src="/img/items/0x24C2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | red hanging lantern | `0x24C2` | 3 | SE |
+| <img src="/img/items/0x24CA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | round paper lantern | `0x24CA` | 3 | SE |
+| <img src="/img/items/0x9F33.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scarecrow | `0x9F33` | — |  |
+| <img src="/img/items/0xA49E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA49E` | 1 |  |
+| <img src="/img/items/0xA493.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA493` | 1 |  |
+| <img src="/img/items/0xA499.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA499` | 1 |  |
+| <img src="/img/items/0xA4A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sculpture | `0xA4A8` | 1 |  |
+| <img src="/img/items/0x24BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shoji lantern | `0x24BC` | 3 | SE |
+| <img src="/img/items/0x1858.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skull candle artifact | `0x1858` | 10 |  |
+| <img src="/img/items/0x4C50.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | stained glass lamp | `0x4C50` | 1 | Classic |
+| <img src="/img/items/0x4C56.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall double lamp | `0x4C56` | 1 | Classic |
+| <img src="/img/items/0x4C52.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall lamp | `0x4C52` | 0 |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tall lamp | `0x14F0` | — |  |
+| <img src="/img/items/0x4039.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ter mur style candelabra | `0x4039` | 10 | SA |
+| <img src="/img/items/0x0F6B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | torch | `0x0F6B` | 1 |  |
+| <img src="/img/items/0x24C0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | tower lantern artifact | `0x24C0` | 10 |  |
+| <img src="/img/items/0x0A25.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | twilight lantern | `0x0A25` | 2 |  |
+| <img src="/img/items/0x09FB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wall sconce | `0x09FB` | 3 |  |
+| <img src="/img/items/0x0A05.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wall torch | `0x0A05` | 3 |  |
+| <img src="/img/items/0x3D98.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wall Torch | `0x3D98` | — |  |
+| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wall Torch | `0x14F0` | 1 |  |
+| <img src="/img/items/0x24C6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | white hanging lantern | `0x24C6` | 3 | SE |

@@ -1,0 +1,174 @@
+{
+ "hue_count": 3000,
+ "notable": [
+  {
+   "kind": "metal",
+   "name": "Dull Copper",
+   "hue": "0x0973",
+   "hue_dec": 2419,
+   "swatch": "/img/hues/h-0x0973.png",
+   "demo": "/img/hues/demo-0x0973.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Shadow Iron",
+   "hue": "0x0966",
+   "hue_dec": 2406,
+   "swatch": "/img/hues/h-0x0966.png",
+   "demo": "/img/hues/demo-0x0966.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Copper",
+   "hue": "0x096D",
+   "hue_dec": 2413,
+   "swatch": "/img/hues/h-0x096D.png",
+   "demo": "/img/hues/demo-0x096D.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Bronze",
+   "hue": "0x0972",
+   "hue_dec": 2418,
+   "swatch": "/img/hues/h-0x0972.png",
+   "demo": "/img/hues/demo-0x0972.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Gold",
+   "hue": "0x08A5",
+   "hue_dec": 2213,
+   "swatch": "/img/hues/h-0x08A5.png",
+   "demo": "/img/hues/demo-0x08A5.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Agapite",
+   "hue": "0x0979",
+   "hue_dec": 2425,
+   "swatch": "/img/hues/h-0x0979.png",
+   "demo": "/img/hues/demo-0x0979.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Verite",
+   "hue": "0x089F",
+   "hue_dec": 2207,
+   "swatch": "/img/hues/h-0x089F.png",
+   "demo": "/img/hues/demo-0x089F.png"
+  },
+  {
+   "kind": "metal",
+   "name": "Valorite",
+   "hue": "0x08AB",
+   "hue_dec": 2219,
+   "swatch": "/img/hues/h-0x08AB.png",
+   "demo": "/img/hues/demo-0x08AB.png"
+  },
+  {
+   "kind": "leather",
+   "name": "Spined",
+   "hue": "0x0283",
+   "hue_dec": 643,
+   "swatch": "/img/hues/h-0x0283.png"
+  },
+  {
+   "kind": "leather",
+   "name": "Horned",
+   "hue": "0x0227",
+   "hue_dec": 551,
+   "swatch": "/img/hues/h-0x0227.png"
+  },
+  {
+   "kind": "leather",
+   "name": "Barbed",
+   "hue": "0x01C1",
+   "hue_dec": 449,
+   "swatch": "/img/hues/h-0x01C1.png"
+  },
+  {
+   "kind": "scale",
+   "name": "Red Scales",
+   "hue": "0x066D",
+   "hue_dec": 1645,
+   "swatch": "/img/hues/h-0x066D.png"
+  },
+  {
+   "kind": "scale",
+   "name": "Yellow Scales",
+   "hue": "0x08A8",
+   "hue_dec": 2216,
+   "swatch": "/img/hues/h-0x08A8.png"
+  },
+  {
+   "kind": "scale",
+   "name": "Black Scales",
+   "hue": "0x0455",
+   "hue_dec": 1109,
+   "swatch": "/img/hues/h-0x0455.png"
+  },
+  {
+   "kind": "scale",
+   "name": "Green Scales",
+   "hue": "0x0851",
+   "hue_dec": 2129,
+   "swatch": "/img/hues/h-0x0851.png"
+  },
+  {
+   "kind": "scale",
+   "name": "White Scales",
+   "hue": "0x08FD",
+   "hue_dec": 2301,
+   "swatch": "/img/hues/h-0x08FD.png"
+  },
+  {
+   "kind": "scale",
+   "name": "Blue Scales",
+   "hue": "0x08B0",
+   "hue_dec": 2224,
+   "swatch": "/img/hues/h-0x08B0.png"
+  },
+  {
+   "kind": "wood",
+   "name": "Oak",
+   "hue": "0x07DA",
+   "hue_dec": 2010,
+   "swatch": "/img/hues/h-0x07DA.png"
+  },
+  {
+   "kind": "wood",
+   "name": "Ash",
+   "hue": "0x04A7",
+   "hue_dec": 1191,
+   "swatch": "/img/hues/h-0x04A7.png"
+  },
+  {
+   "kind": "wood",
+   "name": "Yew",
+   "hue": "0x04A8",
+   "hue_dec": 1192,
+   "swatch": "/img/hues/h-0x04A8.png"
+  },
+  {
+   "kind": "wood",
+   "name": "Heartwood",
+   "hue": "0x04A9",
+   "hue_dec": 1193,
+   "swatch": "/img/hues/h-0x04A9.png"
+  },
+  {
+   "kind": "wood",
+   "name": "Bloodwood",
+   "hue": "0x04AA",
+   "hue_dec": 1194,
+   "swatch": "/img/hues/h-0x04AA.png"
+  },
+  {
+   "kind": "wood",
+   "name": "Frostwood",
+   "hue": "0x047F",
+   "hue_dec": 1151,
+   "swatch": "/img/hues/h-0x047F.png"
+  }
+ ]
+}

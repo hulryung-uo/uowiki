@@ -60,6 +60,10 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'shard' } }],
 				},
 				{
+					label: 'Reference',
+					items: [{ autogenerate: { directory: 'reference' } }],
+				},
+				{
 					label: 'Recent Changes',
 					link: '/changelog/',
 				},

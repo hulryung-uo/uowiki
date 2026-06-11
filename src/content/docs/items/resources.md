@@ -70,11 +70,30 @@ Which specific creatures yield which leather is bestiary territory — see the
 [Bestiary](/bestiary/). Each leather grade carries its own crafting attribute bundle
 (`CraftAttributeInfo`).
 
-## Cloth
+## Cloth — from sheep and fields to a bolt
 
-Cloth is commerce, not gathering: buy **bolts of cloth** (or wool/cotton to spin and weave)
-from tailor and provisioner vendors, cut bolts into cloth, and cut cloth into **bandages** —
-the fuel of [Healing](/skills/healing/). Tailors turn the same cloth into clothing.
+Cloth isn't gathered with a skill; it's *manufactured* from raw fibre through a spinning
+wheel and a loom. The chain (from `Scripts/Items/Resource/Cotton.cs`, `Wool.cs`, `Flax.cs`,
+`YarnsAndThreads.cs`, `BoltOfCloth.cs`):
+
+| Step | Tool | Yields |
+|---|---|---|
+| Raw fibre — <img src="/img/items/0x0DF9.png" class="uo-sprite" alt="" width="56" /> **cotton** (pick from cotton plants), <img src="/img/items/0x0DF8.png" class="uo-sprite" alt="" width="56" /> **wool** (shear sheep), or <img src="/img/items/0x1A9C.png" class="uo-sprite" alt="" width="56" /> **flax** (harvest flax plants) | — | the fibre itself |
+| **Spin** the fibre | Spinning wheel | <img src="/img/items/0x0FA0.png" class="uo-sprite" alt="" width="56" /> **spools of thread / yarn** (6 per use) |
+| **Weave** the thread | Loom | <img src="/img/items/0x0F95.png" class="uo-sprite" alt="" width="56" /> **bolt of cloth** |
+| **Cut** the bolt | Scissors | <img src="/img/items/0x1766.png" class="uo-sprite" alt="" width="56" /> **cloth** (50 per bolt) |
+| **Cut** the cloth | Scissors | <img src="/img/items/0x0E21.png" class="uo-sprite" alt="" width="56" /> **bandages** — the fuel of [Healing](/skills/healing/) |
+
+Spinning wheels and looms stand in tailor shops and many homes (both are craftable house
+addons). No skill check gates spinning or weaving — anyone can run fibre all the way to
+cloth; the skill comes later, when a tailor turns cloth into clothing and armor.
+
+You can also just **buy** bolts of cloth, wool, and cotton from tailor and provisioner
+vendors and skip straight to the scissors. Cloth takes any dye, so colored clothing is a
+dye-tub job rather than a separate material — see the [Hue Reference](/reference/hues/).
+
+Tailoring turns cloth into clothing and light armor — see [Tailoring](/crafting/tailoring/)
+and the [Clothing catalog](/items/catalog/clothing/).
 
 ## Related
 

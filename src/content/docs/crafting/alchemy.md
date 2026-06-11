@@ -16,81 +16,81 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Healing and Curative
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="56" /> | refresh | -25.0 – 25.0 | 1 Black Pearl, 1 Empty Bottles |
-| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="56" /> | greater refreshment | 25.0 – 75.0 | 5 Black Pearl, 1 Empty Bottles |
-| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="56" /> | lesser heal | -25.0 – 25.0 | 1 Ginseng, 1 Empty Bottles |
-| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="56" /> | heal | 15.0 – 65.0 | 3 Ginseng, 1 Empty Bottles |
-| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="56" /> | greater heal | 55.0 – 105.0 | 7 Ginseng, 1 Empty Bottles |
-| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="56" /> | lesser cure | -10.0 – 40.0 | 1 Garlic, 1 Empty Bottles |
-| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="56" /> | cure | 25.0 – 75.0 | 3 Garlic, 1 Empty Bottles |
-| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="56" /> | greater cure | 65.0 – 115.0 | 6 Garlic, 1 Empty Bottles |
-| <img src="/img/items/0x24E2.png" class="uo-sprite" alt="" width="56" /> | elixir of rebirth | 65.0 – 115.0 | 1 Medusa Blood, 3 Spiders' Silk, 1 Empty Bottles |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | barrab hemolymph concentrate | 51.0 – 151.0 | 1 Empty Bottles, 20 Ginseng, 5 Plant Clippings, 5 Myrmidex Eggsac |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="56" /> | refresh | -25.0 – 25.0 | Classic | 1 Black Pearl, 1 Empty Bottles |
+| <img src="/img/items/0x0F0B.png" class="uo-sprite" alt="" width="56" /> | greater refreshment | 25.0 – 75.0 | Classic | 5 Black Pearl, 1 Empty Bottles |
+| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="56" /> | lesser heal | -25.0 – 25.0 | Classic | 1 Ginseng, 1 Empty Bottles |
+| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="56" /> | heal | 15.0 – 65.0 | Classic | 3 Ginseng, 1 Empty Bottles |
+| <img src="/img/items/0x0F0C.png" class="uo-sprite" alt="" width="56" /> | greater heal | 55.0 – 105.0 | Classic | 7 Ginseng, 1 Empty Bottles |
+| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="56" /> | lesser cure | -10.0 – 40.0 | Classic | 1 Garlic, 1 Empty Bottles |
+| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="56" /> | cure | 25.0 – 75.0 | Classic | 3 Garlic, 1 Empty Bottles |
+| <img src="/img/items/0x0F07.png" class="uo-sprite" alt="" width="56" /> | greater cure | 65.0 – 115.0 | Classic | 6 Garlic, 1 Empty Bottles |
+| <img src="/img/items/0x24E2.png" class="uo-sprite" alt="" width="56" /> | elixir of rebirth | 65.0 – 115.0 | SA | 1 Medusa Blood, 3 Spiders' Silk, 1 Empty Bottles |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | barrab hemolymph concentrate | 51.0 – 151.0 | TOL | 1 Empty Bottles, 20 Ginseng, 5 Plant Clippings, 5 Myrmidex Eggsac |
 
 ## Enhancement
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="56" /> | agility | 15.0 – 65.0 | 1 Blood Moss, 1 Empty Bottles |
-| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="56" /> | greater agility | 35.0 – 85.0 | 3 Blood Moss, 1 Empty Bottles |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | night sight | -25.0 – 25.0 | 1 Spiders' Silk, 1 Empty Bottles |
-| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="56" /> | strength | 25.0 – 75.0 | 2 Mandrake Root, 1 Empty Bottles |
-| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="56" /> | greater strength | 45.0 – 95.0 | 5 Mandrake Root, 1 Empty Bottles |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | invisibility | 65.0 – 115.0 | 1 Empty Bottles, 4 Blood Moss, 3 Nightshade |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | jukari burn poultice | 51.0 – 151.0 | 1 Empty Bottles, 20 Black Pearl, 10 vanilla, 5 Lava Berry |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | kurak ambusher's essence | 51.0 – 151.0 | 1 Empty Bottles, 20 Blood Moss, 1 Blue Diamond, 10 Lava Berry |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | barako draft of might | 51.0 – 151.0 | 1 Empty Bottles, 20 Spiders' Silk, 10 bottle of liquor, 5 Perfect Bananas |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | urali trance tonic | 51.0 – 151.0 | 1 Empty Bottles, 20 Mandrake Root, 10 Sea Serpent or Dragon Scales, 5 River Moss |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | sakkhra prophylaxis potion | 51.0 – 151.0 | 1 Empty Bottles, 20 Nightshade, 10 bottle of wine, 5 Blue Corn |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="56" /> | agility | 15.0 – 65.0 | Classic | 1 Blood Moss, 1 Empty Bottles |
+| <img src="/img/items/0x0F08.png" class="uo-sprite" alt="" width="56" /> | greater agility | 35.0 – 85.0 | Classic | 3 Blood Moss, 1 Empty Bottles |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | night sight | -25.0 – 25.0 | Classic | 1 Spiders' Silk, 1 Empty Bottles |
+| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="56" /> | strength | 25.0 – 75.0 | Classic | 2 Mandrake Root, 1 Empty Bottles |
+| <img src="/img/items/0x0F09.png" class="uo-sprite" alt="" width="56" /> | greater strength | 45.0 – 95.0 | Classic | 5 Mandrake Root, 1 Empty Bottles |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | invisibility | 65.0 – 115.0 | ML | 1 Empty Bottles, 4 Blood Moss, 3 Nightshade |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | jukari burn poultice | 51.0 – 151.0 | TOL | 1 Empty Bottles, 20 Black Pearl, 10 vanilla, 5 Lava Berry |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | kurak ambusher's essence | 51.0 – 151.0 | TOL | 1 Empty Bottles, 20 Blood Moss, 1 Blue Diamond, 10 Lava Berry |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | barako draft of might | 51.0 – 151.0 | TOL | 1 Empty Bottles, 20 Spiders' Silk, 10 bottle of liquor, 5 Perfect Bananas |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | urali trance tonic | 51.0 – 151.0 | TOL | 1 Empty Bottles, 20 Mandrake Root, 10 Sea Serpent or Dragon Scales, 5 River Moss |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | sakkhra prophylaxis potion | 51.0 – 151.0 | TOL | 1 Empty Bottles, 20 Nightshade, 10 bottle of wine, 5 Blue Corn |
 
 ## Toxic
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | lesser poison | -5.0 – 45.0 | 1 Nightshade, 1 Empty Bottles |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | poison | 15.0 – 65.0 | 2 Nightshade, 1 Empty Bottles |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | greater poison | 55.0 – 105.0 | 4 Nightshade, 1 Empty Bottles |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | deadly poison | 90.0 – 140.0 | 8 Nightshade, 1 Empty Bottles |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | parasitic | 65.0 – 115.0 | 1 Empty Bottles, 5 parasitic plant |
-| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | darkglow | 65.0 – 115.0 | 1 Empty Bottles, 5 luminescent fungi |
-| <img src="/img/items/0x1848.png" class="uo-sprite" alt="" width="56" /> | scouring toxin | 75.0 – 100.0 | 1 toxic venom sac, 1 Empty Bottles |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | lesser poison | -5.0 – 45.0 | Classic | 1 Nightshade, 1 Empty Bottles |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | poison | 15.0 – 65.0 | Classic | 2 Nightshade, 1 Empty Bottles |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | greater poison | 55.0 – 105.0 | Classic | 4 Nightshade, 1 Empty Bottles |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | deadly poison | 90.0 – 140.0 | Classic | 8 Nightshade, 1 Empty Bottles |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | parasitic | 65.0 – 115.0 | ML | 1 Empty Bottles, 5 parasitic plant |
+| <img src="/img/items/0x0F0A.png" class="uo-sprite" alt="" width="56" /> | darkglow | 65.0 – 115.0 | ML | 1 Empty Bottles, 5 luminescent fungi |
+| <img src="/img/items/0x1848.png" class="uo-sprite" alt="" width="56" /> | scouring toxin | 75.0 – 100.0 | ML | 1 toxic venom sac, 1 Empty Bottles |
 
 ## Explosive
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="56" /> | lesser explosion | 5.0 – 55.0 | 3 Sulfurous Ash, 1 Empty Bottles |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="56" /> | explosion | 35.0 – 85.0 | 5 Sulfurous Ash, 1 Empty Bottles |
-| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="56" /> | greater explosion | 65.0 – 115.0 | 10 Sulfurous Ash, 1 Empty Bottles |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | conflagration | 55.0 – 105.0 | 1 Empty Bottles, 5 Grave Dust |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | greater conflagration | 70.0 – 120.0 | 1 Empty Bottles, 10 Grave Dust |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | confusion blast | 55.0 – 105.0 | 1 Empty Bottles, 5 Pig Iron |
-| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | greater confusion blast | 70.0 – 120.0 | 1 Empty Bottles, 10 Pig Iron |
-| <img src="/img/items/0x423A.png" class="uo-sprite" alt="" width="56" /> | black powder | 65.0 – 115.0 | 1 Sulfurous Ash, 6 saltpeter, 1 charcoal |
-| <img src="/img/items/0x1421.png" class="uo-sprite" alt="" width="56" /> | match cord | 25.0 – 80.0 | 1 ball of yarn, 1 pitcher of water, 1 saltpeter, 1 potash |
-| <img src="/img/items/0x1420.png" class="uo-sprite" alt="" width="56" /> | fuse cord | 55.0 – 105.0 | 1 ball of yarn, 1 black powder, 1 potash |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="56" /> | lesser explosion | 5.0 – 55.0 | Classic | 3 Sulfurous Ash, 1 Empty Bottles |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="56" /> | explosion | 35.0 – 85.0 | Classic | 5 Sulfurous Ash, 1 Empty Bottles |
+| <img src="/img/items/0x0F0D.png" class="uo-sprite" alt="" width="56" /> | greater explosion | 65.0 – 115.0 | Classic | 10 Sulfurous Ash, 1 Empty Bottles |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | conflagration | 55.0 – 105.0 | ML | 1 Empty Bottles, 5 Grave Dust |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | greater conflagration | 70.0 – 120.0 | ML | 1 Empty Bottles, 10 Grave Dust |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | confusion blast | 55.0 – 105.0 | ML | 1 Empty Bottles, 5 Pig Iron |
+| <img src="/img/items/0x0F06.png" class="uo-sprite" alt="" width="56" /> | greater confusion blast | 70.0 – 120.0 | ML | 1 Empty Bottles, 10 Pig Iron |
+| <img src="/img/items/0x423A.png" class="uo-sprite" alt="" width="56" /> | black powder | 65.0 – 115.0 | SA | 1 Sulfurous Ash, 6 saltpeter, 1 charcoal |
+| <img src="/img/items/0x1421.png" class="uo-sprite" alt="" width="56" /> | match cord | 25.0 – 80.0 | SA | 1 ball of yarn, 1 pitcher of water, 1 saltpeter, 1 potash |
+| <img src="/img/items/0x1420.png" class="uo-sprite" alt="" width="56" /> | fuse cord | 55.0 – 105.0 | SA | 1 ball of yarn, 1 black powder, 1 potash |
 
 ## Strange Brew
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x2808.png" class="uo-sprite" alt="" width="56" /> | smoke bomb | 90.0 – 120.0 | 1 Eggs, 3 Ginseng |
-| <img src="/img/items/0x2100.png" class="uo-sprite" alt="" width="56" /> | hovering wisp | 75.0 – 125.0 | 4 Captured Essence |
-| <img src="/img/items/0x182B.png" class="uo-sprite" alt="" width="56" /> | natural dye | 75.0 – 100.0 | 1 plant pigment, 1 color fixative |
-| <img src="/img/items/0x4B82.png" class="uo-sprite" alt="" width="56" /> | nexus core | 90.0 – 120.0 | 10 Mandrake, 10 Spider's Silk, 5 Dark Sapphire, 5 crushed glass |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x2808.png" class="uo-sprite" alt="" width="56" /> | smoke bomb | 90.0 – 120.0 | SE | 1 Eggs, 3 Ginseng |
+| <img src="/img/items/0x2100.png" class="uo-sprite" alt="" width="56" /> | hovering wisp | 75.0 – 125.0 | ML | 4 Captured Essence |
+| <img src="/img/items/0x182B.png" class="uo-sprite" alt="" width="56" /> | natural dye | 75.0 – 100.0 | SA | 1 plant pigment, 1 color fixative |
+| <img src="/img/items/0x4B82.png" class="uo-sprite" alt="" width="56" /> | nexus core | 90.0 – 120.0 | SA | 10 Mandrake, 10 Spider's Silk, 5 Dark Sapphire, 5 crushed glass |
 
 ## Ingredients
 
-|  | Item | Skill | Materials |
-| --- | --- | --- | --- |
-| <img src="/img/items/0x0F02.png" class="uo-sprite" alt="" width="56" /> | plant pigment | 33.0 – 83.0 | 1 Plant Clippings, 1 empty bottle |
-| <img src="/img/items/0x182D.png" class="uo-sprite" alt="" width="56" /> | color fixative | 75.0 – 100.0 | 1 silver serpent venom, 1 bottle of wine |
-| <img src="/img/items/0x4008.png" class="uo-sprite" alt="" width="56" /> | crystal granules | 75.0 – 100.0 | 1 Shimmering Crystals |
-| <img src="/img/items/0x4009.png" class="uo-sprite" alt="" width="56" /> | crystal dust | 75.0 – 100.0 | 4 broken crystals |
-| <img src="/img/items/0x4006.png" class="uo-sprite" alt="" width="56" /> | softened reeds | 75.0 – 100.0 | 1 dry reeds, 2 scouring toxin |
-| <img src="/img/items/0x5722.png" class="uo-sprite" alt="" width="56" /> | vial of vitriol | 90.0 – 100.0; Magery 75.0 – 100.0 | 1 Parasitic Poison, 30 Nightshade |
-| <img src="/img/items/0x5748.png" class="uo-sprite" alt="" width="56" /> | bottle of ichor | 90.0 – 100.0; Magery 75.0 – 100.0 | 1 Darkglow Poison, 1 Spiders' Silk |
-| <img src="/img/items/0x423A.png" class="uo-sprite" alt="" width="56" /> | potash | 0.0 – 50.0 | 1 Boards or Logs, 1 pitcher of water |
-| <img src="/img/items/0x4C09.png" class="uo-sprite" alt="" width="56" /> | gold dust | 90.0 – 120.0 | 1000 Gold |
+|  | Item | Skill | Era | Materials |
+| --- | --- | --- | --- | --- |
+| <img src="/img/items/0x0F02.png" class="uo-sprite" alt="" width="56" /> | plant pigment | 33.0 – 83.0 | SA | 1 Plant Clippings, 1 empty bottle |
+| <img src="/img/items/0x182D.png" class="uo-sprite" alt="" width="56" /> | color fixative | 75.0 – 100.0 | SA | 1 silver serpent venom, 1 bottle of wine |
+| <img src="/img/items/0x4008.png" class="uo-sprite" alt="" width="56" /> | crystal granules | 75.0 – 100.0 | SA | 1 Shimmering Crystals |
+| <img src="/img/items/0x4009.png" class="uo-sprite" alt="" width="56" /> | crystal dust | 75.0 – 100.0 | SA | 4 broken crystals |
+| <img src="/img/items/0x4006.png" class="uo-sprite" alt="" width="56" /> | softened reeds | 75.0 – 100.0 | SA | 1 dry reeds, 2 scouring toxin |
+| <img src="/img/items/0x5722.png" class="uo-sprite" alt="" width="56" /> | vial of vitriol | 90.0 – 100.0; Magery 75.0 – 100.0 | SA | 1 Parasitic Poison, 30 Nightshade |
+| <img src="/img/items/0x5748.png" class="uo-sprite" alt="" width="56" /> | bottle of ichor | 90.0 – 100.0; Magery 75.0 – 100.0 | SA | 1 Darkglow Poison, 1 Spiders' Silk |
+| <img src="/img/items/0x423A.png" class="uo-sprite" alt="" width="56" /> | potash | 0.0 – 50.0 | HS | 1 Boards or Logs, 1 pitcher of water |
+| <img src="/img/items/0x4C09.png" class="uo-sprite" alt="" width="56" /> | gold dust | 90.0 – 120.0 | SA | 1000 Gold |

@@ -15,83 +15,83 @@ last_verified: 2026-06-11
 
 Auto-generated catalog of every Shields — shields of every material (78 items). Items are classified by gameplay type from the ServUO source; icons are static client art and item IDs are the resolved ServUO `ItemID`.
 
-| Icon | Name | Item ID | Weight |
-|------|------|---------|--------|
-| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ancestral Shield | `0x1B74` | 7 |
-| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arcane Shield | `0x1B78` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodworm halloween costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | boura tail shield | `0x1B78` | 5 |
-| <img src="/img/items/0x1B72.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bronze shield | `0x1B72` | 6 |
-| <img src="/img/items/0x1B73.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | buckler | `0x1B73` | 5 |
-| <img src="/img/items/0x0F6B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Candlewood Torch | `0x0F6B` | 1 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | centaur costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1BC3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chaos shield | `0x1BC3` | 5 |
-| <img src="/img/items/0x1BC3-h00FA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chaos Shield - Museum of Vesper Replica | `0x1BC3` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cyclops costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Defender of the Magus | `0x1B7B` | 6 |
-| <img src="/img/items/0x4201.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon Hide Shield | `0x4201` | 7 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon wolf costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | drake costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dream wraith halloween costume | `0x19BC` | 4 |
-| <img src="/img/items/0x2B01.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dupre’s Shield | `0x2B01` | 6 |
-| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Escutcheon de Ariadne | `0x1B74` | 7 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ethereal warrior costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | exodus minion costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire elemental costume | `0x19BC` | 4 |
-| <img src="/img/items/0x4228.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish chaos shield | `0x4228` | 5 |
-| <img src="/img/items/0x4201.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish kite shield | `0x4201` | 7 |
-| <img src="/img/items/0x422A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish order shield | `0x422A` | 7 |
-| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish wooden shield | `0x4200` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gazer halloween costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | giant pixie costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | giant toad costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gore fiend costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heater shield | `0x1B76` | 8 |
-| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jade Armband [Replica] | `0x1B7B` | 6 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lady of the Snow costume | `0x19BC` | 4 |
-| <img src="/img/items/0x4204.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large plate shield | `0x4204` | — |
-| <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large stone shield | `0x4205` | 5 |
-| <img src="/img/items/0x1BC3-h0501.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lord Blackthorn's Exemplar | `0x1BC3` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | maddening horror costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Maleki's Honor (Juggernaut Set) | `0x1B74` | 7 |
-| <img src="/img/items/0x4203.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | medium plate shield | `0x4203` | 6 |
-| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal kite shield | `0x1B74` | 7 |
-| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal shield | `0x1B7B` | 6 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | minotaur costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mongbat costume | `0x19BC` | 4 |
-| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mystic's Guard | `0x4200` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oni costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ophidian matriarch costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ophidian warrior costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | order shield | `0x1BC4` | 7 |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Order Shield - Museum of Vesper Replica | `0x1BC4` | 7 |
-| <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pillar of Strength | `0x4205` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pixie costume | `0x19BC` | 4 |
-| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resonant Shield of Vengeance | `0x4200` | 5 |
-| <img src="/img/items/0x1B72.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resonant Shield of Vengeance | `0x1B72` | 6 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sabertoothed tiger costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | satyr costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sentinel's Guard | `0x1BC4` | 7 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shadow wyrm halloween costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shield of Invulnerability | `0x1BC4` | 7 |
-| <img src="/img/items/0x4228.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x4228` | 5 |
-| <img src="/img/items/0x1BC3-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x1BC3` | 5 |
-| <img src="/img/items/0x422A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Order | `0x422A` | 7 |
-| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Order | `0x1BC4` | 7 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skeleton halloween costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skittering hopper costume | `0x19BC` | 4 |
-| <img src="/img/items/0x4202.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small plate shield | `0x4202` | 6 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | solen warrior costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B72.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Surge Shield | `0x1B72` | 6 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | terathan warrior costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | titan costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tongue of the Beast [Replica] | `0x1B78` | 5 |
-| <img src="/img/items/0x7818.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtue Shield | `0x7818` | — |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void wanderer costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wall of Hungry Mouths | `0x1B76` | 8 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wisp costume | `0x19BC` | 4 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wolf spider costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden kite shield | `0x1B78` | 5 |
-| <img src="/img/items/0x1B7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden shield | `0x1B7A` | 5 |
-| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | zombie costume | `0x19BC` | 4 |
-| <img src="/img/items/0x1B76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ægis | `0x1B76` | 8 |
+| Icon | Name | Item ID | Weight | Era |
+|------|------|---------|--------|-----|
+| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ancestral Shield | `0x1B74` | 7 |  |
+| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arcane Shield | `0x1B78` | 5 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodworm halloween costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | boura tail shield | `0x1B78` | 5 |  |
+| <img src="/img/items/0x1B72.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bronze shield | `0x1B72` | 6 | Classic |
+| <img src="/img/items/0x1B73.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | buckler | `0x1B73` | 5 | Classic |
+| <img src="/img/items/0x0F6B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Candlewood Torch | `0x0F6B` | 1 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | centaur costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1BC3.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | chaos shield | `0x1BC3` | 5 | AOS |
+| <img src="/img/items/0x1BC3-h00FA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Chaos Shield - Museum of Vesper Replica | `0x1BC3` | 5 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | cyclops costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Defender of the Magus | `0x1B7B` | 6 |  |
+| <img src="/img/items/0x4201.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dragon Hide Shield | `0x4201` | 7 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon wolf costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | drake costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dream wraith halloween costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x2B01.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Dupre’s Shield | `0x2B01` | 6 |  |
+| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Escutcheon de Ariadne | `0x1B74` | 7 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ethereal warrior costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | exodus minion costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire elemental costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x4228.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish chaos shield | `0x4228` | 5 | SA |
+| <img src="/img/items/0x4201.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish kite shield | `0x4201` | 7 | SA |
+| <img src="/img/items/0x422A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish order shield | `0x422A` | 7 | SA |
+| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gargish wooden shield | `0x4200` | 5 | Classic |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gazer halloween costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | giant pixie costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | giant toad costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gore fiend costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heater shield | `0x1B76` | 8 | Classic |
+| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Jade Armband [Replica] | `0x1B7B` | 6 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lady of the Snow costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x4204.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large plate shield | `0x4204` | — | SA |
+| <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | large stone shield | `0x4205` | 5 | SA |
+| <img src="/img/items/0x1BC3-h0501.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Lord Blackthorn's Exemplar | `0x1BC3` | 5 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | maddening horror costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Maleki's Honor (Juggernaut Set) | `0x1B74` | 7 |  |
+| <img src="/img/items/0x4203.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | medium plate shield | `0x4203` | 6 | SA |
+| <img src="/img/items/0x1B74.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal kite shield | `0x1B74` | 7 | Classic |
+| <img src="/img/items/0x1B7B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | metal shield | `0x1B7B` | 6 | Classic |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | minotaur costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | mongbat costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Mystic's Guard | `0x4200` | 5 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oni costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ophidian matriarch costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ophidian warrior costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | order shield | `0x1BC4` | 7 | AOS |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Order Shield - Museum of Vesper Replica | `0x1BC4` | 7 |  |
+| <img src="/img/items/0x4205.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Pillar of Strength | `0x4205` | 5 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pixie costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resonant Shield of Vengeance | `0x4200` | 5 |  |
+| <img src="/img/items/0x1B72.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Resonant Shield of Vengeance | `0x1B72` | 6 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sabertoothed tiger costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | satyr costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sentinel's Guard | `0x1BC4` | 7 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | shadow wyrm halloween costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Shield of Invulnerability | `0x1BC4` | 7 |  |
+| <img src="/img/items/0x4228.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x4228` | 5 |  |
+| <img src="/img/items/0x1BC3-h081B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Chaos | `0x1BC3` | 5 |  |
+| <img src="/img/items/0x422A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Order | `0x422A` | 7 |  |
+| <img src="/img/items/0x1BC4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Sign of Order | `0x1BC4` | 7 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skeleton halloween costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | skittering hopper costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x4202.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | small plate shield | `0x4202` | 6 | SA |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | solen warrior costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B72.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Surge Shield | `0x1B72` | 6 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | terathan warrior costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | titan costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Tongue of the Beast [Replica] | `0x1B78` | 5 |  |
+| <img src="/img/items/0x7818.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Virtue Shield | `0x7818` | — |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | void wanderer costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Wall of Hungry Mouths | `0x1B76` | 8 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wisp costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wolf spider costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B78.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden kite shield | `0x1B78` | 5 | Classic |
+| <img src="/img/items/0x1B7A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wooden shield | `0x1B7A` | 5 | Classic |
+| <img src="/img/items/0x19BC.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | zombie costume | `0x19BC` | 4 |  |
+| <img src="/img/items/0x1B76.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Ægis | `0x1B76` | 8 |  |
