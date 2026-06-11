@@ -171,6 +171,9 @@ treasure favors rather than an exact list of where today's maps point.
 
 *All 193 classic dig sites from `Data/treasure.cfg`, plotted on the Felucca map.*
 
+**Want the exact coordinates?** Every site's absolute (X, Y) — with the nearest city and a
+jump-to-map link — is listed in **[Treasure Map Dig Sites](/playing/treasure-locations/)**.
+
 ## The chest & loot
 
 **Guardians.** Completing the dig spawns **4** monsters at the chest

@@ -1,0 +1,3146 @@
+{
+  "Ancient Lair": {
+    "facet": "Ilshenar",
+    "centre": [
+      85,
+      601
+    ],
+    "creatures": [
+      {
+        "class": "FireElemental",
+        "max": 8,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      },
+      {
+        "class": "LavaLizard",
+        "max": 8,
+        "name": "Lava Lizard",
+        "link": "/bestiary/monsters/lava-lizard/"
+      },
+      {
+        "class": "AncientWyrm",
+        "max": 1,
+        "name": "Ancient Wyrm",
+        "link": "/bestiary/monsters/ancient-wyrm/"
+      }
+    ],
+    "point_count": 6
+  },
+  "Ankh Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      132,
+      1286
+    ],
+    "creatures": [
+      {
+        "class": "EarthElemental",
+        "max": 10,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "EvilMage",
+        "max": 8,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "Imp",
+        "max": 7,
+        "name": "Imp",
+        "link": "/bestiary/monsters/imp/"
+      },
+      {
+        "class": "Mongbat",
+        "max": 7,
+        "name": "Mongbat",
+        "link": "/bestiary/monsters/mongbat/"
+      },
+      {
+        "class": "SkeletalKnight",
+        "max": 6,
+        "name": "Skeletal Knight",
+        "link": "/bestiary/undead/skeletal-knight/"
+      },
+      {
+        "class": "Pixie",
+        "max": 5,
+        "name": "Pixie",
+        "link": "/bestiary/monsters/pixie/"
+      },
+      {
+        "class": "Ratman",
+        "max": 5,
+        "name": "Ratman",
+        "link": "/bestiary/humanoids/ratman/"
+      },
+      {
+        "class": "SkeletalMage",
+        "max": 5,
+        "name": "Skeletal Mage",
+        "link": "/bestiary/undead/skeletal-mage/"
+      },
+      {
+        "class": "Drake",
+        "max": 4,
+        "name": "Drake",
+        "link": "/bestiary/monsters/drake/"
+      },
+      {
+        "class": "Lich",
+        "max": 4,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "Zombie",
+        "max": 4,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "BloodElemental",
+        "max": 3,
+        "name": "Blood Elemental",
+        "link": "/bestiary/elementals/blood-elemental/"
+      },
+      {
+        "class": "Mummy",
+        "max": 3,
+        "name": "Mummy",
+        "link": "/bestiary/undead/mummy/"
+      },
+      {
+        "class": "PoisonElemental",
+        "max": 3,
+        "name": "Poison Elemental",
+        "link": "/bestiary/elementals/poison-elemental/"
+      },
+      {
+        "class": "Skeleton",
+        "max": 3,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "Wisp",
+        "max": 3,
+        "name": "Wisp",
+        "link": "/bestiary/monsters/wisp/"
+      },
+      {
+        "class": "Dragon",
+        "max": 2,
+        "name": "Dragon",
+        "link": "/bestiary/monsters/dragon/"
+      },
+      {
+        "class": "FireElemental",
+        "max": 2,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      },
+      {
+        "class": "HellHound",
+        "max": 2,
+        "name": "Hell Hound",
+        "link": "/bestiary/monsters/hell-hound/"
+      },
+      {
+        "class": "RatmanArcher",
+        "max": 2,
+        "name": "Ratman Archer",
+        "link": "/bestiary/humanoids/ratman-archer/"
+      },
+      {
+        "class": "RatmanMage",
+        "max": 2,
+        "name": "Ratman Mage",
+        "link": "/bestiary/humanoids/ratman-mage/"
+      },
+      {
+        "class": "RottingCorpse",
+        "max": 2,
+        "name": "Rotting Corpse",
+        "link": "/bestiary/undead/rotting-corpse/"
+      },
+      {
+        "class": "ToxicElemental",
+        "max": 2,
+        "name": "Acid Elemental",
+        "link": "/bestiary/elementals/toxic-elemental/"
+      },
+      {
+        "class": "Daemon",
+        "max": 1,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "Kirin",
+        "max": 1,
+        "name": "Ki-Rin",
+        "link": "/bestiary/monsters/kirin/"
+      },
+      {
+        "class": "LichLord",
+        "max": 1,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "Nightmare",
+        "max": 1,
+        "name": "Nightmare",
+        "link": "/bestiary/monsters/nightmare/"
+      },
+      {
+        "class": "SerpentineDragon",
+        "max": 1,
+        "name": "Serpentine Dragon",
+        "link": "/bestiary/monsters/serpentine-dragon/"
+      },
+      {
+        "class": "wanderinghealer",
+        "max": 1
+      }
+    ],
+    "point_count": 31
+  },
+  "Bedlam": {
+    "facet": "Malas",
+    "centre": [
+      127,
+      1678
+    ],
+    "creatures": [
+      {
+        "class": "Gibberling",
+        "max": 8,
+        "name": "Gibberling",
+        "link": "/bestiary/monsters/gibberling/"
+      },
+      {
+        "class": "GoreFiend",
+        "max": 8,
+        "name": "Gore Fiend",
+        "link": "/bestiary/undead/gore-fiend/"
+      },
+      {
+        "class": "RottingCorpse",
+        "max": 3,
+        "name": "Rotting Corpse",
+        "link": "/bestiary/undead/rotting-corpse/"
+      },
+      {
+        "class": "Skeleton",
+        "max": 3,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "LadyJennifyr",
+        "max": 1,
+        "name": "Lady Jennifyr",
+        "link": "/bestiary/monsters/lady-jennifyr/"
+      },
+      {
+        "class": "LadyMarai",
+        "max": 1,
+        "name": "Lady Marai",
+        "link": "/bestiary/monsters/lady-marai/"
+      },
+      {
+        "class": "MasterJonath",
+        "max": 1,
+        "name": "Master Jonath",
+        "link": "/bestiary/monsters/master-jonath/"
+      },
+      {
+        "class": "MasterMikael",
+        "max": 1,
+        "name": "Master Mikael",
+        "link": "/bestiary/monsters/master-mikael/"
+      },
+      {
+        "class": "MasterTheophilus",
+        "max": 1,
+        "name": "Master Theophilus",
+        "link": "/bestiary/monsters/master-theophilus/"
+      },
+      {
+        "class": "Pyre",
+        "max": 1,
+        "name": "Pyre",
+        "link": "/bestiary/monsters/pyre/"
+      },
+      {
+        "class": "RedDeath",
+        "max": 1,
+        "name": "Red Death",
+        "link": "/bestiary/monsters/red-death/"
+      },
+      {
+        "class": "Rend",
+        "max": 1,
+        "name": "Rend",
+        "link": "/bestiary/monsters/rend/"
+      },
+      {
+        "class": "SirPatrick",
+        "max": 1,
+        "name": "Sir Patrick",
+        "link": "/bestiary/monsters/sir-patrick/"
+      },
+      {
+        "class": "SkeletalMage",
+        "max": 1,
+        "name": "Skeletal Mage",
+        "link": "/bestiary/undead/skeletal-mage/"
+      }
+    ],
+    "point_count": 10
+  },
+  "Blighted Grove": {
+    "facet": "Felucca",
+    "centre": [
+      6526,
+      877
+    ],
+    "creatures": [
+      {
+        "class": "Bogling",
+        "max": 68,
+        "name": "Bogling",
+        "link": "/bestiary/monsters/bogling/"
+      },
+      {
+        "class": "Harpy",
+        "max": 66,
+        "name": "Harpy",
+        "link": "/bestiary/monsters/harpy/"
+      },
+      {
+        "class": "GiantSerpent",
+        "max": 52,
+        "name": "Giant Serpent",
+        "link": "/bestiary/monsters/giant-serpent/"
+      },
+      {
+        "class": "Alligator",
+        "max": 34,
+        "name": "Alligator",
+        "link": "/bestiary/monsters/alligator/"
+      },
+      {
+        "class": "GiantToad",
+        "max": 34,
+        "name": "Giant Toad",
+        "link": "/bestiary/monsters/giant-toad/"
+      },
+      {
+        "class": "Reaper",
+        "max": 34,
+        "name": "Reaper",
+        "link": "/bestiary/monsters/reaper/"
+      },
+      {
+        "class": "SilverSerpent",
+        "max": 34,
+        "name": "Silver Serpent",
+        "link": "/bestiary/monsters/silver-serpent/"
+      },
+      {
+        "class": "Snake",
+        "max": 34,
+        "name": "Snake",
+        "link": "/bestiary/monsters/snake/"
+      },
+      {
+        "class": "WhippingVine",
+        "max": 34,
+        "name": "Whipping Vine",
+        "link": "/bestiary/monsters/whipping-vine/"
+      },
+      {
+        "class": "Changeling",
+        "max": 30,
+        "name": "Changeling",
+        "link": "/bestiary/monsters/changeling/"
+      },
+      {
+        "class": "SwampTentacle",
+        "max": 18,
+        "name": "Swamp Tentacle",
+        "link": "/bestiary/monsters/swamp-tentacle/"
+      },
+      {
+        "class": "Tangle",
+        "max": 17,
+        "name": "Tangle",
+        "link": "/bestiary/monsters/tangle/"
+      },
+      {
+        "class": "Corpser",
+        "max": 16,
+        "name": "Corpser",
+        "link": "/bestiary/monsters/corpser/"
+      },
+      {
+        "class": "insanedryad",
+        "max": 8
+      },
+      {
+        "class": "Abscess",
+        "max": 4,
+        "name": "Abscess",
+        "link": "/bestiary/monsters/abscess/"
+      },
+      {
+        "class": "BogThing",
+        "max": 4,
+        "name": "Bog Thing",
+        "link": "/bestiary/monsters/bog-thing/"
+      },
+      {
+        "class": "Hydra",
+        "max": 4,
+        "name": "Hydra",
+        "link": "/bestiary/monsters/hydra/"
+      },
+      {
+        "class": "Coil",
+        "max": 2,
+        "name": "Coil",
+        "link": "/bestiary/monsters/coil/"
+      },
+      {
+        "class": "Thrasher",
+        "max": 2,
+        "name": "Thrasher",
+        "link": "/bestiary/monsters/thrasher/"
+      },
+      {
+        "class": "Saliva",
+        "max": 1,
+        "name": "Saliva",
+        "link": "/bestiary/monsters/saliva/"
+      }
+    ],
+    "point_count": 20
+  },
+  "Blood Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      2112,
+      899
+    ],
+    "creatures": [
+      {
+        "class": "Imp",
+        "max": 20,
+        "name": "Imp",
+        "link": "/bestiary/monsters/imp/"
+      },
+      {
+        "class": "HellCat",
+        "max": 9,
+        "name": "Hell Cat",
+        "link": "/bestiary/monsters/hell-cat/"
+      },
+      {
+        "class": "BloodElemental",
+        "max": 4,
+        "name": "Blood Elemental",
+        "link": "/bestiary/elementals/blood-elemental/"
+      },
+      {
+        "class": "Daemon",
+        "max": 3,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "Succubus",
+        "max": 2,
+        "name": "Succubus",
+        "link": "/bestiary/monsters/succubus/"
+      },
+      {
+        "class": "Balron",
+        "max": 1,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      }
+    ],
+    "point_count": 16
+  },
+  "Covetous": {
+    "facet": "Trammel",
+    "centre": [
+      5176,
+      1829
+    ],
+    "creatures": [
+      {
+        "class": "Skeleton",
+        "max": 78,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "Corpser",
+        "max": 72,
+        "name": "Corpser",
+        "link": "/bestiary/monsters/corpser/"
+      },
+      {
+        "class": "Harpy",
+        "max": 42,
+        "name": "Harpy",
+        "link": "/bestiary/monsters/harpy/"
+      },
+      {
+        "class": "Gazer",
+        "max": 36,
+        "name": "Gazer",
+        "link": "/bestiary/monsters/gazer/"
+      },
+      {
+        "class": "Zombie",
+        "max": 28,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "HeadlessOne",
+        "max": 22,
+        "name": "Headless One",
+        "link": "/bestiary/humanoids/headless-one/"
+      },
+      {
+        "class": "BoneKnight",
+        "max": 21,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "Lich",
+        "max": 21,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "GazerLarva",
+        "max": 16,
+        "name": "Gazer Larva",
+        "link": "/bestiary/monsters/gazer-larva/"
+      },
+      {
+        "class": "Shade",
+        "max": 16,
+        "name": "Shade",
+        "link": "/bestiary/undead/shade/"
+      },
+      {
+        "class": "Spectre",
+        "max": 16,
+        "name": "Spectre",
+        "link": "/bestiary/undead/spectre/"
+      },
+      {
+        "class": "Slime",
+        "max": 15,
+        "name": "Slime",
+        "link": "/bestiary/monsters/slime/"
+      },
+      {
+        "class": "GiantSpider",
+        "max": 14,
+        "name": "Giant Spider",
+        "link": "/bestiary/monsters/giant-spider/"
+      },
+      {
+        "class": "DreadSpider",
+        "max": 10,
+        "name": "Dread Spider",
+        "link": "/bestiary/monsters/dread-spider/"
+      },
+      {
+        "class": "Mummy",
+        "max": 10,
+        "name": "Mummy",
+        "link": "/bestiary/undead/mummy/"
+      },
+      {
+        "class": "SkeletalKnight",
+        "max": 10,
+        "name": "Skeletal Knight",
+        "link": "/bestiary/undead/skeletal-knight/"
+      },
+      {
+        "class": "Wraith",
+        "max": 10,
+        "name": "Wraith",
+        "link": "/bestiary/undead/wraith/"
+      },
+      {
+        "class": "StoneHarpy",
+        "max": 6,
+        "name": "Stone Harpy",
+        "link": "/bestiary/monsters/stone-harpy/"
+      },
+      {
+        "class": "Drake",
+        "max": 4,
+        "name": "Drake",
+        "link": "/bestiary/monsters/drake/"
+      },
+      {
+        "class": "LichLord",
+        "max": 4,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "WaterElemental",
+        "max": 4,
+        "name": "Water Elemental",
+        "link": "/bestiary/elementals/water-elemental/"
+      },
+      {
+        "class": "Dragon",
+        "max": 2,
+        "name": "Dragon",
+        "link": "/bestiary/monsters/dragon/"
+      },
+      {
+        "class": "ElderGazer",
+        "max": 2,
+        "name": "Elder Gazer",
+        "link": "/bestiary/monsters/elder-gazer/"
+      },
+      {
+        "class": "RottingCorpse",
+        "max": 2,
+        "name": "Rotting Corpse",
+        "link": "/bestiary/undead/rotting-corpse/"
+      }
+    ],
+    "point_count": 119
+  },
+  "Deceit": {
+    "facet": "Trammel",
+    "centre": [
+      5232,
+      627
+    ],
+    "creatures": [
+      {
+        "class": "Skeleton",
+        "max": 54,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "Ghoul",
+        "max": 44,
+        "name": "Ghoul",
+        "link": "/bestiary/undead/ghoul/"
+      },
+      {
+        "class": "Lich",
+        "max": 40,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "Zombie",
+        "max": 34,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "Wraith",
+        "max": 22,
+        "name": "Wraith",
+        "link": "/bestiary/undead/wraith/"
+      },
+      {
+        "class": "Mummy",
+        "max": 21,
+        "name": "Mummy",
+        "link": "/bestiary/undead/mummy/"
+      },
+      {
+        "class": "Shade",
+        "max": 16,
+        "name": "Shade",
+        "link": "/bestiary/undead/shade/"
+      },
+      {
+        "class": "Spectre",
+        "max": 10,
+        "name": "Spectre",
+        "link": "/bestiary/undead/spectre/"
+      },
+      {
+        "class": "BoneKnight",
+        "max": 8,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "SkeletalKnight",
+        "max": 8,
+        "name": "Skeletal Knight",
+        "link": "/bestiary/undead/skeletal-knight/"
+      },
+      {
+        "class": "BoneMagi",
+        "max": 6,
+        "name": "Bone Mage",
+        "link": "/bestiary/undead/bone-magi/"
+      },
+      {
+        "class": "SilverSerpent",
+        "max": 6,
+        "name": "Silver Serpent",
+        "link": "/bestiary/monsters/silver-serpent/"
+      },
+      {
+        "class": "FireElemental",
+        "max": 4,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      },
+      {
+        "class": "PoisonElemental",
+        "max": 4,
+        "name": "Poison Elemental",
+        "link": "/bestiary/elementals/poison-elemental/"
+      },
+      {
+        "class": "WaterElemental",
+        "max": 4,
+        "name": "Water Elemental",
+        "link": "/bestiary/elementals/water-elemental/"
+      },
+      {
+        "class": "LichLord",
+        "max": 3,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "AncientLich",
+        "max": 1,
+        "name": "Ancient Lich",
+        "link": "/bestiary/undead/ancient-lich/"
+      }
+    ],
+    "point_count": 75
+  },
+  "Despise": {
+    "facet": "Trammel",
+    "centre": [
+      5468,
+      768
+    ],
+    "creatures": [
+      {
+        "class": "Lizardman",
+        "max": 45,
+        "name": "Lizardman",
+        "link": "/bestiary/humanoids/lizardman/"
+      },
+      {
+        "class": "Ettin",
+        "max": 42,
+        "name": "Ettin",
+        "link": "/bestiary/humanoids/ettin/"
+      },
+      {
+        "class": "BirlingBlades",
+        "max": 24
+      },
+      {
+        "class": "Darkmane",
+        "max": 24
+      },
+      {
+        "class": "Dendrite",
+        "max": 24
+      },
+      {
+        "class": "DespiseUnicorn",
+        "max": 24
+      },
+      {
+        "class": "DivineGuardian",
+        "max": 24
+      },
+      {
+        "class": "Echidnite",
+        "max": 24
+      },
+      {
+        "class": "Fairy",
+        "max": 24
+      },
+      {
+        "class": "ForestNymph",
+        "max": 24
+      },
+      {
+        "class": "Hellion",
+        "max": 24
+      },
+      {
+        "class": "Naba",
+        "max": 24
+      },
+      {
+        "class": "Phantom",
+        "max": 24
+      },
+      {
+        "class": "Prometheoid",
+        "max": 24
+      },
+      {
+        "class": "Sagittarri",
+        "max": 24
+      },
+      {
+        "class": "Silenii",
+        "max": 24
+      },
+      {
+        "class": "Skeletrex",
+        "max": 24
+      },
+      {
+        "class": "Ursadane",
+        "max": 24
+      },
+      {
+        "class": "EarthElemental",
+        "max": 16,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "Troll",
+        "max": 12,
+        "name": "Troll",
+        "link": "/bestiary/humanoids/troll/"
+      },
+      {
+        "class": "Cyclops",
+        "max": 3,
+        "name": "Cyclopean Warrior",
+        "link": "/bestiary/humanoids/cyclops/"
+      },
+      {
+        "class": "ToxicElemental",
+        "max": 3,
+        "name": "Acid Elemental",
+        "link": "/bestiary/elementals/toxic-elemental/"
+      },
+      {
+        "class": "OgreLord",
+        "max": 2,
+        "name": "Ogre Lord",
+        "link": "/bestiary/humanoids/ogre-lord/"
+      }
+    ],
+    "point_count": 86
+  },
+  "Destard": {
+    "facet": "Felucca",
+    "centre": [
+      5214,
+      904
+    ],
+    "creatures": [
+      {
+        "class": "Drake",
+        "max": 35,
+        "name": "Drake",
+        "link": "/bestiary/monsters/drake/"
+      },
+      {
+        "class": "Wyvern",
+        "max": 26,
+        "name": "Wyvern",
+        "link": "/bestiary/monsters/wyvern/"
+      },
+      {
+        "class": "GiantSerpent",
+        "max": 24,
+        "name": "Giant Serpent",
+        "link": "/bestiary/monsters/giant-serpent/"
+      },
+      {
+        "class": "WaterElemental",
+        "max": 20,
+        "name": "Water Elemental",
+        "link": "/bestiary/elementals/water-elemental/"
+      },
+      {
+        "class": "Dragon",
+        "max": 16,
+        "name": "Dragon",
+        "link": "/bestiary/monsters/dragon/"
+      },
+      {
+        "class": "Daemon",
+        "max": 4,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "ShadowWyrm",
+        "max": 4,
+        "name": "Shadow Wyrm",
+        "link": "/bestiary/monsters/shadow-wyrm/"
+      },
+      {
+        "class": "AncientWyrm",
+        "max": 2,
+        "name": "Ancient Wyrm",
+        "link": "/bestiary/monsters/ancient-wyrm/"
+      },
+      {
+        "class": "EvilMage",
+        "max": 2,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "FireElemental",
+        "max": 2,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      }
+    ],
+    "point_count": 51
+  },
+  "Doom": {
+    "facet": "Malas",
+    "centre": [
+      391,
+      138
+    ],
+    "creatures": [
+      {
+        "class": "VampireBat",
+        "max": 51,
+        "name": "Vampire Bat",
+        "link": "/bestiary/undead/vampire-bat/"
+      },
+      {
+        "class": "PatchworkSkeleton",
+        "max": 47,
+        "name": "Patchwork Skeleton",
+        "link": "/bestiary/undead/patchwork-skeleton/"
+      },
+      {
+        "class": "Skeleton",
+        "max": 45,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "Devourer",
+        "max": 17,
+        "name": "Devourer Of Souls",
+        "link": "/bestiary/monsters/devourer/"
+      },
+      {
+        "class": "Lich",
+        "max": 16,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "RottingCorpse",
+        "max": 10,
+        "name": "Rotting Corpse",
+        "link": "/bestiary/undead/rotting-corpse/"
+      },
+      {
+        "class": "Zombie",
+        "max": 7,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "FleshGolem",
+        "max": 6,
+        "name": "Flesh Golem",
+        "link": "/bestiary/monsters/flesh-golem/"
+      },
+      {
+        "class": "LichLord",
+        "max": 6,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "Mummy",
+        "max": 5,
+        "name": "Mummy",
+        "link": "/bestiary/undead/mummy/"
+      },
+      {
+        "class": "Gibberling",
+        "max": 4,
+        "name": "Gibberling",
+        "link": "/bestiary/monsters/gibberling/"
+      },
+      {
+        "class": "GoreFiend",
+        "max": 4,
+        "name": "Gore Fiend",
+        "link": "/bestiary/undead/gore-fiend/"
+      },
+      {
+        "class": "BoneKnight",
+        "max": 3,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "RestlessSoul",
+        "max": 3,
+        "name": "Restless Soul",
+        "link": "/bestiary/monsters/restless-soul/"
+      },
+      {
+        "class": "BoneMagi",
+        "max": 2,
+        "name": "Bone Mage",
+        "link": "/bestiary/undead/bone-magi/"
+      },
+      {
+        "class": "BoneDemon",
+        "max": 1,
+        "name": "Bone Demon",
+        "link": "/bestiary/undead/bone-demon/"
+      }
+    ],
+    "point_count": 47
+  },
+  "Exodus Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      1972,
+      120
+    ],
+    "creatures": [
+      {
+        "class": "ExodusZealot",
+        "max": 40
+      },
+      {
+        "class": "GolemController",
+        "max": 21,
+        "name": "Golem Controller",
+        "link": "/bestiary/humanoids/golem-controller/"
+      },
+      {
+        "class": "ExodusDrone",
+        "max": 20
+      },
+      {
+        "class": "ExodusMinion",
+        "max": 11,
+        "name": "Exodus Minion",
+        "link": "/bestiary/monsters/exodus-minion/"
+      },
+      {
+        "class": "ExodusOverseer",
+        "max": 9,
+        "name": "Exodus Overseer",
+        "link": "/bestiary/monsters/exodus-overseer/"
+      },
+      {
+        "class": "Golem",
+        "max": 9,
+        "name": "Golem",
+        "link": "/bestiary/monsters/golem/"
+      },
+      {
+        "class": "DupresSquire",
+        "max": 6
+      },
+      {
+        "class": "ExodusSentinel",
+        "max": 6
+      },
+      {
+        "class": "GargoyleDestroyer",
+        "max": 5,
+        "name": "Gargoyle Destroyer",
+        "link": "/bestiary/humanoids/gargoyle-destroyer/"
+      },
+      {
+        "class": "GargoyleEnforcer",
+        "max": 5,
+        "name": "Gargoyle Enforcer",
+        "link": "/bestiary/humanoids/gargoyle-enforcer/"
+      },
+      {
+        "class": "DupresChampion",
+        "max": 2
+      },
+      {
+        "class": "DupresKnight",
+        "max": 2
+      },
+      {
+        "class": "EnslavedGargoyle",
+        "max": 2,
+        "name": "Enslaved Gargoyle",
+        "link": "/bestiary/humanoids/enslaved-gargoyle/"
+      },
+      {
+        "class": "ExodusJuggernaut",
+        "max": 2
+      },
+      {
+        "class": "ExodusMinionLord",
+        "max": 2
+      }
+    ],
+    "point_count": 26
+  },
+  "Fan Dancer's Dojo": {
+    "facet": "Malas",
+    "centre": [
+      152,
+      508
+    ],
+    "creatures": [
+      {
+        "class": "HeadlessOne",
+        "max": 24,
+        "name": "Headless One",
+        "link": "/bestiary/humanoids/headless-one/"
+      },
+      {
+        "class": "FanDancer",
+        "max": 21,
+        "name": "Fan Dancer",
+        "link": "/bestiary/monsters/fan-dancer/"
+      },
+      {
+        "class": "HordeMinion",
+        "max": 16,
+        "name": "Horde Minion",
+        "link": "/bestiary/monsters/horde-minion/"
+      },
+      {
+        "class": "Daemon",
+        "max": 8,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "HellHound",
+        "max": 6,
+        "name": "Hell Hound",
+        "link": "/bestiary/monsters/hell-hound/"
+      },
+      {
+        "class": "HellCat",
+        "max": 4,
+        "name": "Hell Cat",
+        "link": "/bestiary/monsters/hell-cat/"
+      },
+      {
+        "class": "Succubus",
+        "max": 4,
+        "name": "Succubus",
+        "link": "/bestiary/monsters/succubus/"
+      },
+      {
+        "class": "Balron",
+        "max": 2,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      },
+      {
+        "class": "Oni",
+        "max": 2,
+        "name": "Oni",
+        "link": "/bestiary/monsters/oni/"
+      },
+      {
+        "class": "Ronin",
+        "max": 1,
+        "name": "Ronin",
+        "link": "/bestiary/monsters/ronin/"
+      }
+    ],
+    "point_count": 21
+  },
+  "Fire Dungeon": {
+    "facet": "Felucca",
+    "centre": [
+      5718,
+      1398
+    ],
+    "creatures": [
+      {
+        "class": "FireElemental",
+        "max": 47,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      },
+      {
+        "class": "HellHound",
+        "max": 37,
+        "name": "Hell Hound",
+        "link": "/bestiary/monsters/hell-hound/"
+      },
+      {
+        "class": "EvilMage",
+        "max": 19,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "BoneMagi",
+        "max": 12,
+        "name": "Bone Mage",
+        "link": "/bestiary/undead/bone-magi/"
+      },
+      {
+        "class": "HellCat",
+        "max": 12,
+        "name": "Hell Cat",
+        "link": "/bestiary/monsters/hell-cat/"
+      },
+      {
+        "class": "SkeletalMage",
+        "max": 12,
+        "name": "Skeletal Mage",
+        "link": "/bestiary/undead/skeletal-mage/"
+      },
+      {
+        "class": "LavaSnake",
+        "max": 11,
+        "name": "Lava Snake",
+        "link": "/bestiary/monsters/lava-snake/"
+      },
+      {
+        "class": "Lich",
+        "max": 11,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "EvilMageLord",
+        "max": 10,
+        "name": "Evil Mage Lord",
+        "link": "/bestiary/humanoids/evil-mage-lord/"
+      },
+      {
+        "class": "LavaLizard",
+        "max": 9,
+        "name": "Lava Lizard",
+        "link": "/bestiary/monsters/lava-lizard/"
+      },
+      {
+        "class": "Efreet",
+        "max": 8,
+        "name": "Efreet",
+        "link": "/bestiary/monsters/efreet/"
+      },
+      {
+        "class": "GiantRat",
+        "max": 6,
+        "name": "Giant Rat",
+        "link": "/bestiary/monsters/giant-rat/"
+      },
+      {
+        "class": "LavaSerpent",
+        "max": 6,
+        "name": "Lava Serpent",
+        "link": "/bestiary/monsters/lava-serpent/"
+      },
+      {
+        "class": "Slime",
+        "max": 3,
+        "name": "Slime",
+        "link": "/bestiary/monsters/slime/"
+      },
+      {
+        "class": "Daemon",
+        "max": 2,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "GiantSerpent",
+        "max": 2,
+        "name": "Giant Serpent",
+        "link": "/bestiary/monsters/giant-serpent/"
+      },
+      {
+        "class": "FireBeetle",
+        "max": 1,
+        "name": "Fire Beetle",
+        "link": "/bestiary/monsters/fire-beetle/"
+      },
+      {
+        "class": "LichLord",
+        "max": 1,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      }
+    ],
+    "point_count": 91
+  },
+  "Hythloth": {
+    "facet": "Trammel",
+    "centre": [
+      6016,
+      120
+    ],
+    "creatures": [
+      {
+        "class": "Gargoyle",
+        "max": 58,
+        "name": "Gargoyle",
+        "link": "/bestiary/humanoids/gargoyle/"
+      },
+      {
+        "class": "Imp",
+        "max": 45,
+        "name": "Imp",
+        "link": "/bestiary/monsters/imp/"
+      },
+      {
+        "class": "HellHound",
+        "max": 40,
+        "name": "Hell Hound",
+        "link": "/bestiary/monsters/hell-hound/"
+      },
+      {
+        "class": "Gazer",
+        "max": 28,
+        "name": "Gazer",
+        "link": "/bestiary/monsters/gazer/"
+      },
+      {
+        "class": "Daemon",
+        "max": 24,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "GazerLarva",
+        "max": 12,
+        "name": "Gazer Larva",
+        "link": "/bestiary/monsters/gazer-larva/"
+      },
+      {
+        "class": "FireGargoyle",
+        "max": 8,
+        "name": "Fire Gargoyle",
+        "link": "/bestiary/humanoids/fire-gargoyle/"
+      },
+      {
+        "class": "Balron",
+        "max": 4,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      },
+      {
+        "class": "StoneGargoyle",
+        "max": 4,
+        "name": "Stone Gargoyle",
+        "link": "/bestiary/humanoids/stone-gargoyle/"
+      },
+      {
+        "class": "ElderGazer",
+        "max": 2,
+        "name": "Elder Gazer",
+        "link": "/bestiary/monsters/elder-gazer/"
+      },
+      {
+        "class": "UndeadGargoyle",
+        "max": 2,
+        "name": "Undead Gargoyle",
+        "link": "/bestiary/undead/undead-gargoyle/"
+      }
+    ],
+    "point_count": 163
+  },
+  "Ice Dungeon": {
+    "facet": "Felucca",
+    "centre": [
+      5775,
+      228
+    ],
+    "creatures": [
+      {
+        "class": "IceElemental",
+        "max": 44,
+        "name": "Ice Elemental",
+        "link": "/bestiary/elementals/ice-elemental/"
+      },
+      {
+        "class": "SnowElemental",
+        "max": 40,
+        "name": "Snow Elemental",
+        "link": "/bestiary/elementals/snow-elemental/"
+      },
+      {
+        "class": "IceSerpent",
+        "max": 34,
+        "name": "Giant Ice Serpent",
+        "link": "/bestiary/monsters/ice-serpent/"
+      },
+      {
+        "class": "Ratman",
+        "max": 30,
+        "name": "Ratman",
+        "link": "/bestiary/humanoids/ratman/"
+      },
+      {
+        "class": "RatmanArcher",
+        "max": 14,
+        "name": "Ratman Archer",
+        "link": "/bestiary/humanoids/ratman-archer/"
+      },
+      {
+        "class": "FrostTroll",
+        "max": 12,
+        "name": "Frost Troll",
+        "link": "/bestiary/humanoids/frost-troll/"
+      },
+      {
+        "class": "RatmanMage",
+        "max": 12,
+        "name": "Ratman Mage",
+        "link": "/bestiary/humanoids/ratman-mage/"
+      },
+      {
+        "class": "FrostOoze",
+        "max": 8,
+        "name": "Frost Ooze",
+        "link": "/bestiary/monsters/frost-ooze/"
+      },
+      {
+        "class": "FrostSpider",
+        "max": 8,
+        "name": "Frost Spider",
+        "link": "/bestiary/monsters/frost-spider/"
+      },
+      {
+        "class": "IceSnake",
+        "max": 6,
+        "name": "Ice Snake",
+        "link": "/bestiary/monsters/ice-snake/"
+      },
+      {
+        "class": "ArcticOgreLord",
+        "max": 4,
+        "name": "Arctic Ogre Lord",
+        "link": "/bestiary/humanoids/arctic-ogre-lord/"
+      },
+      {
+        "class": "CrystalVortex",
+        "max": 4,
+        "name": "Crystal Vortex",
+        "link": "/bestiary/monsters/crystal-vortex/"
+      },
+      {
+        "class": "IceFiend",
+        "max": 4,
+        "name": "Ice Fiend",
+        "link": "/bestiary/monsters/ice-fiend/"
+      },
+      {
+        "class": "WhiteWyrm",
+        "max": 3,
+        "name": "White Wyrm",
+        "link": "/bestiary/monsters/white-wyrm/"
+      }
+    ],
+    "point_count": 68
+  },
+  "Khaldun": {
+    "facet": "Felucca",
+    "centre": [
+      5460,
+      1377
+    ],
+    "creatures": [
+      {
+        "class": "Shadowfiend",
+        "max": 30
+      },
+      {
+        "class": "Zombie",
+        "max": 24,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "Cursed",
+        "max": 22,
+        "name": "Cursed",
+        "link": "/bestiary/monsters/cursed/"
+      },
+      {
+        "class": "Skeleton",
+        "max": 18,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "SkeletalKnight",
+        "max": 8,
+        "name": "Skeletal Knight",
+        "link": "/bestiary/undead/skeletal-knight/"
+      },
+      {
+        "class": "KhaldunSummoner",
+        "max": 6,
+        "name": "Zealot Of Khaldun",
+        "link": "/bestiary/monsters/khaldun-summoner/"
+      },
+      {
+        "class": "KhaldunZealot",
+        "max": 6,
+        "name": "Zealot Of Khaldun",
+        "link": "/bestiary/monsters/khaldun-zealot/"
+      },
+      {
+        "class": "SpectralArmour",
+        "max": 6,
+        "name": "Spectral Armour",
+        "link": "/bestiary/undead/spectral-armour/"
+      },
+      {
+        "class": "AncientLich",
+        "max": 4,
+        "name": "Ancient Lich",
+        "link": "/bestiary/undead/ancient-lich/"
+      },
+      {
+        "class": "BoneMagi",
+        "max": 4,
+        "name": "Bone Mage",
+        "link": "/bestiary/undead/bone-magi/"
+      },
+      {
+        "class": "BoneKnight",
+        "max": 2,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "GrimmochDrummel",
+        "max": 2,
+        "name": "Grimmoch Drummel",
+        "link": "/bestiary/monsters/grimmoch-drummel/"
+      },
+      {
+        "class": "HarrowerTentacles",
+        "max": 2,
+        "name": "Tentacles Of The Harrower",
+        "link": "/bestiary/bosses/harrower-tentacles/"
+      },
+      {
+        "class": "LysanderGathenwale",
+        "max": 2,
+        "name": "Lysander Gathenwale",
+        "link": "/bestiary/monsters/lysander-gathenwale/"
+      },
+      {
+        "class": "MorgBergen",
+        "max": 2,
+        "name": "Morg Bergen",
+        "link": "/bestiary/monsters/morg-bergen/"
+      },
+      {
+        "class": "SkeletalMage",
+        "max": 2,
+        "name": "Skeletal Mage",
+        "link": "/bestiary/undead/skeletal-mage/"
+      },
+      {
+        "class": "TavaraSewel",
+        "max": 2,
+        "name": "Tavara Sewel",
+        "link": "/bestiary/monsters/tavara-sewel/"
+      }
+    ],
+    "point_count": 94
+  },
+  "Labyrinth": {
+    "facet": "Malas",
+    "centre": [
+      515,
+      1818
+    ],
+    "creatures": [
+      {
+        "class": "TropicalBird",
+        "max": 39,
+        "name": "Tropical Bird",
+        "link": "/bestiary/animals/tropical-bird/"
+      },
+      {
+        "class": "Bird",
+        "max": 35,
+        "name": "Crow",
+        "link": "/bestiary/animals/bird/"
+      },
+      {
+        "class": "Minotaur",
+        "max": 30,
+        "name": "Minotaur",
+        "link": "/bestiary/humanoids/minotaur/"
+      },
+      {
+        "class": "Rat",
+        "max": 24,
+        "name": "Rat",
+        "link": "/bestiary/animals/rat/"
+      },
+      {
+        "class": "MinotaurScout",
+        "max": 21,
+        "name": "Minotaur Scout",
+        "link": "/bestiary/humanoids/minotaur-scout/"
+      },
+      {
+        "class": "Eagle",
+        "max": 20,
+        "name": "Eagle",
+        "link": "/bestiary/animals/eagle/"
+      },
+      {
+        "class": "Cat",
+        "max": 19,
+        "name": "Cat",
+        "link": "/bestiary/animals/cat/"
+      },
+      {
+        "class": "Snake",
+        "max": 17,
+        "name": "Snake",
+        "link": "/bestiary/monsters/snake/"
+      },
+      {
+        "class": "Squirrel",
+        "max": 14,
+        "name": "Squirrel",
+        "link": "/bestiary/animals/squirrel/"
+      },
+      {
+        "class": "Reptalon",
+        "max": 6,
+        "name": "Reptalon",
+        "link": "/bestiary/monsters/reptalon/"
+      },
+      {
+        "class": "Scorpion",
+        "max": 6,
+        "name": "Scorpion",
+        "link": "/bestiary/monsters/scorpion/"
+      },
+      {
+        "class": "Flurry",
+        "max": 5,
+        "name": "Flurry",
+        "link": "/bestiary/monsters/flurry/"
+      },
+      {
+        "class": "Grim",
+        "max": 5,
+        "name": "Grim",
+        "link": "/bestiary/monsters/grim/"
+      },
+      {
+        "class": "Mistral",
+        "max": 5,
+        "name": "Mistral",
+        "link": "/bestiary/monsters/mistral/"
+      },
+      {
+        "class": "Tempest",
+        "max": 5,
+        "name": "Tempest",
+        "link": "/bestiary/monsters/tempest/"
+      },
+      {
+        "class": "AirElemental",
+        "max": 4,
+        "name": "Air Elemental",
+        "link": "/bestiary/elementals/air-elemental/"
+      },
+      {
+        "class": "Drake",
+        "max": 4,
+        "name": "Drake",
+        "link": "/bestiary/monsters/drake/"
+      },
+      {
+        "class": "Miasma",
+        "max": 2,
+        "name": "Miasma",
+        "link": "/bestiary/monsters/miasma/"
+      },
+      {
+        "class": "MinotaurCaptain",
+        "max": 1,
+        "name": "Minotaur Captain",
+        "link": "/bestiary/humanoids/minotaur-captain/"
+      },
+      {
+        "class": "Pyre",
+        "max": 1,
+        "name": "Pyre",
+        "link": "/bestiary/monsters/pyre/"
+      },
+      {
+        "class": "Rend",
+        "max": 1,
+        "name": "Rend",
+        "link": "/bestiary/monsters/rend/"
+      },
+      {
+        "class": "wanderinghealer",
+        "max": 1
+      }
+    ],
+    "point_count": 19
+  },
+  "Orc Cave": {
+    "facet": "Trammel",
+    "centre": [
+      5270,
+      1651
+    ],
+    "creatures": [
+      {
+        "class": "Orc",
+        "max": 61,
+        "name": "Orc",
+        "link": "/bestiary/humanoids/orc/"
+      },
+      {
+        "class": "OrcishLord",
+        "max": 18,
+        "name": "Orcish Lord",
+        "link": "/bestiary/humanoids/orcish-lord/"
+      },
+      {
+        "class": "OrcBomber",
+        "max": 12,
+        "name": "Orc Bomber",
+        "link": "/bestiary/humanoids/orc-bomber/"
+      },
+      {
+        "class": "OrcCaptain",
+        "max": 12,
+        "name": "Orc Captain",
+        "link": "/bestiary/humanoids/orc-captain/"
+      },
+      {
+        "class": "DireWolf",
+        "max": 10,
+        "name": "Dire Wolf",
+        "link": "/bestiary/monsters/dire-wolf/"
+      },
+      {
+        "class": "EarthElemental",
+        "max": 8,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "OrcishMage",
+        "max": 8,
+        "name": "Orcish Mage",
+        "link": "/bestiary/humanoids/orcish-mage/"
+      },
+      {
+        "class": "GiantRat",
+        "max": 6,
+        "name": "Giant Rat",
+        "link": "/bestiary/monsters/giant-rat/"
+      },
+      {
+        "class": "Corpser",
+        "max": 4,
+        "name": "Corpser",
+        "link": "/bestiary/monsters/corpser/"
+      },
+      {
+        "class": "Noble",
+        "max": 2
+      },
+      {
+        "class": "OrcBrute",
+        "max": 2,
+        "name": "Orc Brute",
+        "link": "/bestiary/humanoids/orc-brute/"
+      }
+    ],
+    "point_count": 39
+  },
+  "Painted Caves": {
+    "facet": "Trammel",
+    "centre": [
+      6281,
+      882
+    ],
+    "creatures": [
+      {
+        "class": "Cat",
+        "max": 16,
+        "name": "Cat",
+        "link": "/bestiary/animals/cat/"
+      },
+      {
+        "class": "Dog",
+        "max": 16,
+        "name": "Dog",
+        "link": "/bestiary/animals/dog/"
+      },
+      {
+        "class": "Rat",
+        "max": 16,
+        "name": "Rat",
+        "link": "/bestiary/animals/rat/"
+      },
+      {
+        "class": "Troglodyte",
+        "max": 12,
+        "name": "Troglodyte",
+        "link": "/bestiary/monsters/troglodyte/"
+      },
+      {
+        "class": "GiantRat",
+        "max": 6,
+        "name": "Giant Rat",
+        "link": "/bestiary/monsters/giant-rat/"
+      },
+      {
+        "class": "Grobu",
+        "max": 4,
+        "name": "Grobu",
+        "link": "/bestiary/monsters/grobu/"
+      },
+      {
+        "class": "Lurg",
+        "max": 4,
+        "name": "Lurg",
+        "link": "/bestiary/monsters/lurg/"
+      }
+    ],
+    "point_count": 6
+  },
+  "Palace of Paroxysmus": {
+    "facet": "Felucca",
+    "centre": [
+      6347,
+      482
+    ],
+    "creatures": [
+      {
+        "class": "CorrosiveSlime",
+        "max": 144,
+        "name": "Corrosive Slime",
+        "link": "/bestiary/monsters/corrosive-slime/"
+      },
+      {
+        "class": "PlagueBeast",
+        "max": 112,
+        "name": "Plague Beast",
+        "link": "/bestiary/monsters/plague-beast/"
+      },
+      {
+        "class": "PlagueSpawn",
+        "max": 102,
+        "name": "Plague Spawn",
+        "link": "/bestiary/monsters/plague-spawn/"
+      },
+      {
+        "class": "PoisonElemental",
+        "max": 68,
+        "name": "Poison Elemental",
+        "link": "/bestiary/elementals/poison-elemental/"
+      },
+      {
+        "class": "ToxicElemental",
+        "max": 64,
+        "name": "Acid Elemental",
+        "link": "/bestiary/elementals/toxic-elemental/"
+      },
+      {
+        "class": "Daemon",
+        "max": 44,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "Succubus",
+        "max": 44,
+        "name": "Succubus",
+        "link": "/bestiary/monsters/succubus/"
+      },
+      {
+        "class": "Balron",
+        "max": 38,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      },
+      {
+        "class": "PlagueBeastLord",
+        "max": 38,
+        "name": "Plague Beast Lord",
+        "link": "/bestiary/monsters/plague-beast-lord/"
+      },
+      {
+        "class": "EarthElemental",
+        "max": 34,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "InterredGrizzle",
+        "max": 26,
+        "name": "Interred Grizzle",
+        "link": "/bestiary/monsters/interred-grizzle/"
+      },
+      {
+        "class": "ChaosDaemon",
+        "max": 14,
+        "name": "Chaos Daemon",
+        "link": "/bestiary/monsters/chaos-daemon/"
+      },
+      {
+        "class": "Moloch",
+        "max": 14,
+        "name": "Moloch",
+        "link": "/bestiary/monsters/moloch/"
+      },
+      {
+        "class": "Putrefier",
+        "max": 2,
+        "name": "Putrefier",
+        "link": "/bestiary/monsters/putrefier/"
+      }
+    ],
+    "point_count": 40
+  },
+  "Prism of Light": {
+    "facet": "Felucca",
+    "centre": [
+      6526,
+      132
+    ],
+    "creatures": [
+      {
+        "class": "Wisp",
+        "max": 26,
+        "name": "Wisp",
+        "link": "/bestiary/monsters/wisp/"
+      },
+      {
+        "class": "CrystalWisp",
+        "max": 24
+      },
+      {
+        "class": "Snake",
+        "max": 20,
+        "name": "Snake",
+        "link": "/bestiary/monsters/snake/"
+      },
+      {
+        "class": "CrystalLatticeSeeker",
+        "max": 18,
+        "name": "Crystal Lattice Seeker",
+        "link": "/bestiary/monsters/crystal-lattice-seeker/"
+      },
+      {
+        "class": "IceSnake",
+        "max": 18,
+        "name": "Ice Snake",
+        "link": "/bestiary/monsters/ice-snake/"
+      },
+      {
+        "class": "Rat",
+        "max": 18,
+        "name": "Rat",
+        "link": "/bestiary/animals/rat/"
+      },
+      {
+        "class": "CrystalVortex",
+        "max": 14,
+        "name": "Crystal Vortex",
+        "link": "/bestiary/monsters/crystal-vortex/"
+      },
+      {
+        "class": "IceElemental",
+        "max": 14,
+        "name": "Ice Elemental",
+        "link": "/bestiary/elementals/ice-elemental/"
+      },
+      {
+        "class": "Crystalwisp",
+        "max": 12
+      },
+      {
+        "class": "Protector",
+        "max": 12,
+        "name": "Protector",
+        "link": "/bestiary/monsters/protector/"
+      },
+      {
+        "class": "ShadowWisp",
+        "max": 10,
+        "name": "Shadow Wisp",
+        "link": "/bestiary/monsters/shadow-wisp/"
+      },
+      {
+        "class": "CrystalDaemon",
+        "max": 6,
+        "name": "Crystal Daemon",
+        "link": "/bestiary/monsters/crystal-daemon/"
+      },
+      {
+        "class": "CrystalHydra",
+        "max": 4,
+        "name": "Crystal Hydra",
+        "link": "/bestiary/monsters/crystal-hydra/"
+      },
+      {
+        "class": "CrystalSeaSerpent",
+        "max": 4,
+        "name": "Crystal Sea Serpent",
+        "link": "/bestiary/sea/crystal-sea-serpent/"
+      },
+      {
+        "class": "Ferret",
+        "max": 4,
+        "name": "Ferret",
+        "link": "/bestiary/animals/ferret/"
+      },
+      {
+        "class": "UnfrozenMummy",
+        "max": 4,
+        "name": "Unfrozen Mummy",
+        "link": "/bestiary/undead/unfrozen-mummy/"
+      }
+    ],
+    "point_count": 44
+  },
+  "Rock Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      2161,
+      119
+    ],
+    "creatures": [
+      {
+        "class": "EvilMage",
+        "max": 5,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "Executioner",
+        "max": 5,
+        "name": "Executioner",
+        "link": "/bestiary/humanoids/executioner/"
+      },
+      {
+        "class": "Lich",
+        "max": 4,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "LichLord",
+        "max": 4,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "PoisonElemental",
+        "max": 4,
+        "name": "Poison Elemental",
+        "link": "/bestiary/elementals/poison-elemental/"
+      },
+      {
+        "class": "Skeleton",
+        "max": 3,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "Wraith",
+        "max": 3,
+        "name": "Wraith",
+        "link": "/bestiary/undead/wraith/"
+      },
+      {
+        "class": "Zombie",
+        "max": 3,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "ElderGazer",
+        "max": 1,
+        "name": "Elder Gazer",
+        "link": "/bestiary/monsters/elder-gazer/"
+      },
+      {
+        "class": "EvilMageLord",
+        "max": 1,
+        "name": "Evil Mage Lord",
+        "link": "/bestiary/humanoids/evil-mage-lord/"
+      },
+      {
+        "class": "HellHound",
+        "max": 1,
+        "name": "Hell Hound",
+        "link": "/bestiary/monsters/hell-hound/"
+      },
+      {
+        "class": "StoneGargoyle",
+        "max": 1,
+        "name": "Stone Gargoyle",
+        "link": "/bestiary/humanoids/stone-gargoyle/"
+      },
+      {
+        "class": "ToxicElemental",
+        "max": 1,
+        "name": "Acid Elemental",
+        "link": "/bestiary/elementals/toxic-elemental/"
+      }
+    ],
+    "point_count": 14
+  },
+  "Sanctuary": {
+    "facet": "Trammel",
+    "centre": [
+      6221,
+      92
+    ],
+    "creatures": [
+      {
+        "class": "Ratman",
+        "max": 154,
+        "name": "Ratman",
+        "link": "/bestiary/humanoids/ratman/"
+      },
+      {
+        "class": "Titan",
+        "max": 142,
+        "name": "Titan",
+        "link": "/bestiary/humanoids/titan/"
+      },
+      {
+        "class": "Rat",
+        "max": 128,
+        "name": "Rat",
+        "link": "/bestiary/animals/rat/"
+      },
+      {
+        "class": "Chicken",
+        "max": 106,
+        "name": "Chicken",
+        "link": "/bestiary/animals/chicken/"
+      },
+      {
+        "class": "Bull",
+        "max": 100,
+        "name": "Bull",
+        "link": "/bestiary/animals/bull/"
+      },
+      {
+        "class": "Cow",
+        "max": 100,
+        "name": "Cow",
+        "link": "/bestiary/animals/cow/"
+      },
+      {
+        "class": "RatmanArcher",
+        "max": 94,
+        "name": "Ratman Archer",
+        "link": "/bestiary/humanoids/ratman-archer/"
+      },
+      {
+        "class": "Doppleganger",
+        "max": 93,
+        "name": "Doppleganger",
+        "link": "/bestiary/monsters/doppleganger/"
+      },
+      {
+        "class": "Dog",
+        "max": 92,
+        "name": "Dog",
+        "link": "/bestiary/animals/dog/"
+      },
+      {
+        "class": "Bird",
+        "max": 86,
+        "name": "Crow",
+        "link": "/bestiary/animals/bird/"
+      },
+      {
+        "class": "Gargoyle",
+        "max": 82,
+        "name": "Gargoyle",
+        "link": "/bestiary/humanoids/gargoyle/"
+      },
+      {
+        "class": "Pig",
+        "max": 74,
+        "name": "Pig",
+        "link": "/bestiary/animals/pig/"
+      },
+      {
+        "class": "Snake",
+        "max": 64,
+        "name": "Snake",
+        "link": "/bestiary/monsters/snake/"
+      },
+      {
+        "class": "Cat",
+        "max": 60,
+        "name": "Cat",
+        "link": "/bestiary/animals/cat/"
+      },
+      {
+        "class": "Goat",
+        "max": 60,
+        "name": "Goat",
+        "link": "/bestiary/animals/goat/"
+      },
+      {
+        "class": "Changeling",
+        "max": 58,
+        "name": "Changeling",
+        "link": "/bestiary/monsters/changeling/"
+      },
+      {
+        "class": "Ettin",
+        "max": 58,
+        "name": "Ettin",
+        "link": "/bestiary/humanoids/ettin/"
+      },
+      {
+        "class": "RatmanMage",
+        "max": 58,
+        "name": "Ratman Mage",
+        "link": "/bestiary/humanoids/ratman-mage/"
+      },
+      {
+        "class": "Imp",
+        "max": 44,
+        "name": "Imp",
+        "link": "/bestiary/monsters/imp/"
+      },
+      {
+        "class": "Szavetra",
+        "max": 44,
+        "name": "Szavetra",
+        "link": "/bestiary/monsters/szavetra/"
+      },
+      {
+        "class": "Cyclops",
+        "max": 42,
+        "name": "Cyclopean Warrior",
+        "link": "/bestiary/humanoids/cyclops/"
+      },
+      {
+        "class": "Chiikkaha",
+        "max": 36,
+        "name": "Chiikkaha The Toothed",
+        "link": "/bestiary/monsters/chiikkaha/"
+      },
+      {
+        "class": "Orc",
+        "max": 32,
+        "name": "Orc",
+        "link": "/bestiary/humanoids/orc/"
+      },
+      {
+        "class": "OrcishMage",
+        "max": 28,
+        "name": "Orcish Mage",
+        "link": "/bestiary/humanoids/orcish-mage/"
+      },
+      {
+        "class": "Boar",
+        "max": 24,
+        "name": "Boar",
+        "link": "/bestiary/animals/boar/"
+      },
+      {
+        "class": "OgreLord",
+        "max": 24,
+        "name": "Ogre Lord",
+        "link": "/bestiary/humanoids/ogre-lord/"
+      },
+      {
+        "class": "Ogre",
+        "max": 22,
+        "name": "Ogre",
+        "link": "/bestiary/humanoids/ogre/"
+      },
+      {
+        "class": "MougGuur",
+        "max": 20,
+        "name": "Moug-Guur",
+        "link": "/bestiary/monsters/moug-guur/"
+      },
+      {
+        "class": "GargoyleDestroyer",
+        "max": 18,
+        "name": "Gargoyle Destroyer",
+        "link": "/bestiary/humanoids/gargoyle-destroyer/"
+      },
+      {
+        "class": "GargoyleEnforcer",
+        "max": 18,
+        "name": "Gargoyle Enforcer",
+        "link": "/bestiary/humanoids/gargoyle-enforcer/"
+      },
+      {
+        "class": "OrcCaptain",
+        "max": 18,
+        "name": "Orc Captain",
+        "link": "/bestiary/humanoids/orc-captain/"
+      },
+      {
+        "class": "OrcishLord",
+        "max": 16,
+        "name": "Orcish Lord",
+        "link": "/bestiary/humanoids/orcish-lord/"
+      },
+      {
+        "class": "OrcBomber",
+        "max": 14,
+        "name": "Orc Bomber",
+        "link": "/bestiary/humanoids/orc-bomber/"
+      },
+      {
+        "class": "OrcBrute",
+        "max": 14,
+        "name": "Orc Brute",
+        "link": "/bestiary/humanoids/orc-brute/"
+      },
+      {
+        "class": "OrcScout",
+        "max": 10,
+        "name": "Orc Scout",
+        "link": "/bestiary/humanoids/orc-scout/"
+      },
+      {
+        "class": "Lenley",
+        "max": 2
+      }
+    ],
+    "point_count": 19
+  },
+  "Shame": {
+    "facet": "Trammel",
+    "centre": [
+      5570,
+      108
+    ],
+    "creatures": [
+      {
+        "class": "EarthElemental",
+        "max": 112,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "Scorpion",
+        "max": 65,
+        "name": "Scorpion",
+        "link": "/bestiary/monsters/scorpion/"
+      },
+      {
+        "class": "AirElemental",
+        "max": 52,
+        "name": "Air Elemental",
+        "link": "/bestiary/elementals/air-elemental/"
+      },
+      {
+        "class": "DullCopperElemental",
+        "max": 36,
+        "name": "Dull Copper Elemental",
+        "link": "/bestiary/elementals/dull-copper-elemental/"
+      },
+      {
+        "class": "FireElemental",
+        "max": 35,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      },
+      {
+        "class": "WaterElemental",
+        "max": 34,
+        "name": "Water Elemental",
+        "link": "/bestiary/elementals/water-elemental/"
+      },
+      {
+        "class": "EvilMage",
+        "max": 28,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "EvilMageLord",
+        "max": 28,
+        "name": "Evil Mage Lord",
+        "link": "/bestiary/humanoids/evil-mage-lord/"
+      },
+      {
+        "class": "BloodElemental",
+        "max": 24,
+        "name": "Blood Elemental",
+        "link": "/bestiary/elementals/blood-elemental/"
+      },
+      {
+        "class": "SeaSerpent",
+        "max": 20,
+        "name": "Sea Serpent",
+        "link": "/bestiary/sea/sea-serpent/"
+      },
+      {
+        "class": "Kraken",
+        "max": 15,
+        "name": "Kraken",
+        "link": "/bestiary/sea/kraken/"
+      },
+      {
+        "class": "PoisonElemental",
+        "max": 15,
+        "name": "Poison Elemental",
+        "link": "/bestiary/elementals/poison-elemental/"
+      },
+      {
+        "class": "ElderGazer",
+        "max": 12,
+        "name": "Elder Gazer",
+        "link": "/bestiary/monsters/elder-gazer/"
+      },
+      {
+        "class": "ToxicElemental",
+        "max": 4,
+        "name": "Acid Elemental",
+        "link": "/bestiary/elementals/toxic-elemental/"
+      }
+    ],
+    "point_count": 279
+  },
+  "Solen Hive": {
+    "facet": "Felucca",
+    "centre": [
+      5779,
+      1915
+    ],
+    "creatures": [
+      {
+        "class": "BlackSolenWorker",
+        "max": 24,
+        "name": "Black Solen Worker",
+        "link": "/bestiary/monsters/black-solen-worker/"
+      },
+      {
+        "class": "RedSolenWorker",
+        "max": 24,
+        "name": "Red Solen Worker",
+        "link": "/bestiary/monsters/red-solen-worker/"
+      },
+      {
+        "class": "BlackSolenWarrior",
+        "max": 14,
+        "name": "Black Solen Warrior",
+        "link": "/bestiary/monsters/black-solen-warrior/"
+      },
+      {
+        "class": "RedSolenWarrior",
+        "max": 14,
+        "name": "Red Solen Warrior",
+        "link": "/bestiary/monsters/red-solen-warrior/"
+      },
+      {
+        "class": "AntLion",
+        "max": 6,
+        "name": "Ant Lion",
+        "link": "/bestiary/monsters/ant-lion/"
+      },
+      {
+        "class": "BlackSolenQueen",
+        "max": 1,
+        "name": "Black Solen Queen",
+        "link": "/bestiary/monsters/black-solen-queen/"
+      },
+      {
+        "class": "RedSolenQueen",
+        "max": 1,
+        "name": "Red Solen Queen",
+        "link": "/bestiary/monsters/red-solen-queen/"
+      }
+    ],
+    "point_count": 52
+  },
+  "Sorcerer's Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      293,
+      68
+    ],
+    "creatures": [
+      {
+        "class": "BloodElemental",
+        "max": 13,
+        "name": "Blood Elemental",
+        "link": "/bestiary/elementals/blood-elemental/"
+      },
+      {
+        "class": "Gargoyle",
+        "max": 9,
+        "name": "Gargoyle",
+        "link": "/bestiary/humanoids/gargoyle/"
+      },
+      {
+        "class": "Mongbat",
+        "max": 9,
+        "name": "Mongbat",
+        "link": "/bestiary/monsters/mongbat/"
+      },
+      {
+        "class": "Mummy",
+        "max": 9,
+        "name": "Mummy",
+        "link": "/bestiary/undead/mummy/"
+      },
+      {
+        "class": "BoneMagi",
+        "max": 6,
+        "name": "Bone Mage",
+        "link": "/bestiary/undead/bone-magi/"
+      },
+      {
+        "class": "HellHound",
+        "max": 6,
+        "name": "Hell Hound",
+        "link": "/bestiary/monsters/hell-hound/"
+      },
+      {
+        "class": "LichLord",
+        "max": 6,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "SkeletalMage",
+        "max": 6,
+        "name": "Skeletal Mage",
+        "link": "/bestiary/undead/skeletal-mage/"
+      },
+      {
+        "class": "BoneKnight",
+        "max": 5,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "DullCopperElemental",
+        "max": 5,
+        "name": "Dull Copper Elemental",
+        "link": "/bestiary/elementals/dull-copper-elemental/"
+      },
+      {
+        "class": "FireElemental",
+        "max": 5,
+        "name": "Fire Elemental",
+        "link": "/bestiary/elementals/fire-elemental/"
+      },
+      {
+        "class": "Shade",
+        "max": 5,
+        "name": "Shade",
+        "link": "/bestiary/undead/shade/"
+      },
+      {
+        "class": "ToxicElemental",
+        "max": 5,
+        "name": "Acid Elemental",
+        "link": "/bestiary/elementals/toxic-elemental/"
+      },
+      {
+        "class": "Gazer",
+        "max": 4,
+        "name": "Gazer",
+        "link": "/bestiary/monsters/gazer/"
+      },
+      {
+        "class": "HeadlessOne",
+        "max": 4,
+        "name": "Headless One",
+        "link": "/bestiary/humanoids/headless-one/"
+      },
+      {
+        "class": "Imp",
+        "max": 4,
+        "name": "Imp",
+        "link": "/bestiary/monsters/imp/"
+      },
+      {
+        "class": "Skeleton",
+        "max": 4,
+        "name": "Skeleton",
+        "link": "/bestiary/undead/skeleton/"
+      },
+      {
+        "class": "Balron",
+        "max": 3,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      },
+      {
+        "class": "EvilMage",
+        "max": 3,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "SkeletalKnight",
+        "max": 3,
+        "name": "Skeletal Knight",
+        "link": "/bestiary/undead/skeletal-knight/"
+      },
+      {
+        "class": "Zombie",
+        "max": 3,
+        "name": "Zombie",
+        "link": "/bestiary/undead/zombie/"
+      },
+      {
+        "class": "Daemon",
+        "max": 2,
+        "name": "Daemon",
+        "link": "/bestiary/monsters/daemon/"
+      },
+      {
+        "class": "EarthElemental",
+        "max": 2,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "Efreet",
+        "max": 2,
+        "name": "Efreet",
+        "link": "/bestiary/monsters/efreet/"
+      },
+      {
+        "class": "ElderGazer",
+        "max": 2,
+        "name": "Elder Gazer",
+        "link": "/bestiary/monsters/elder-gazer/"
+      },
+      {
+        "class": "GazerLarva",
+        "max": 2,
+        "name": "Gazer Larva",
+        "link": "/bestiary/monsters/gazer-larva/"
+      },
+      {
+        "class": "Lich",
+        "max": 2,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "DreadSpider",
+        "max": 1,
+        "name": "Dread Spider",
+        "link": "/bestiary/monsters/dread-spider/"
+      },
+      {
+        "class": "EvilMageLord",
+        "max": 1,
+        "name": "Evil Mage Lord",
+        "link": "/bestiary/humanoids/evil-mage-lord/"
+      },
+      {
+        "class": "PoisonElemental",
+        "max": 1,
+        "name": "Poison Elemental",
+        "link": "/bestiary/elementals/poison-elemental/"
+      },
+      {
+        "class": "StoneGargoyle",
+        "max": 1,
+        "name": "Stone Gargoyle",
+        "link": "/bestiary/humanoids/stone-gargoyle/"
+      },
+      {
+        "class": "wanderinghealer",
+        "max": 1
+      },
+      {
+        "class": "Wyvern",
+        "max": 1,
+        "name": "Wyvern",
+        "link": "/bestiary/monsters/wyvern/"
+      }
+    ],
+    "point_count": 34
+  },
+  "Spectre Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      2210,
+      1078
+    ],
+    "creatures": [
+      {
+        "class": "Shade",
+        "max": 7,
+        "name": "Shade",
+        "link": "/bestiary/undead/shade/"
+      },
+      {
+        "class": "Spectre",
+        "max": 7,
+        "name": "Spectre",
+        "link": "/bestiary/undead/spectre/"
+      },
+      {
+        "class": "Wraith",
+        "max": 7,
+        "name": "Wraith",
+        "link": "/bestiary/undead/wraith/"
+      },
+      {
+        "class": "Ghoul",
+        "max": 5,
+        "name": "Ghoul",
+        "link": "/bestiary/undead/ghoul/"
+      },
+      {
+        "class": "Lich",
+        "max": 2,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      }
+    ],
+    "point_count": 2
+  },
+  "Spider Cave": {
+    "facet": "Ilshenar",
+    "centre": [
+      1222,
+      1512
+    ],
+    "creatures": [
+      {
+        "class": "BoneKnight",
+        "max": 10,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "LavaLizard",
+        "max": 10,
+        "name": "Lava Lizard",
+        "link": "/bestiary/monsters/lava-lizard/"
+      },
+      {
+        "class": "SkeletalKnight",
+        "max": 10,
+        "name": "Skeletal Knight",
+        "link": "/bestiary/undead/skeletal-knight/"
+      },
+      {
+        "class": "EarthElemental",
+        "max": 7,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "Ratman",
+        "max": 7,
+        "name": "Ratman",
+        "link": "/bestiary/humanoids/ratman/"
+      },
+      {
+        "class": "RatmanMage",
+        "max": 7,
+        "name": "Ratman Mage",
+        "link": "/bestiary/humanoids/ratman-mage/"
+      },
+      {
+        "class": "SkeletalDragon",
+        "max": 1,
+        "name": "Skeletal Dragon",
+        "link": "/bestiary/undead/skeletal-dragon/"
+      }
+    ],
+    "point_count": 5
+  },
+  "Terathan Keep": {
+    "facet": "Trammel",
+    "centre": [
+      5273,
+      1681
+    ],
+    "creatures": [
+      {
+        "class": "TerathanDrone",
+        "max": 40,
+        "name": "Terathan Drone",
+        "link": "/bestiary/monsters/terathan-drone/"
+      },
+      {
+        "class": "TerathanWarrior",
+        "max": 39,
+        "name": "Terathan Warrior",
+        "link": "/bestiary/monsters/terathan-warrior/"
+      },
+      {
+        "class": "TerathanAvenger",
+        "max": 34,
+        "name": "Terathan Avenger",
+        "link": "/bestiary/monsters/terathan-avenger/"
+      },
+      {
+        "class": "OphidianWarrior",
+        "max": 32,
+        "name": "Ophidian Warrior",
+        "link": "/bestiary/monsters/ophidian-warrior/"
+      },
+      {
+        "class": "Nightmare",
+        "max": 31,
+        "name": "Nightmare",
+        "link": "/bestiary/monsters/nightmare/"
+      },
+      {
+        "class": "OphidianKnight",
+        "max": 31,
+        "name": "Ophidian Knight",
+        "link": "/bestiary/monsters/ophidian-knight/"
+      },
+      {
+        "class": "OphidianMage",
+        "max": 31,
+        "name": "Ophidian Mage",
+        "link": "/bestiary/monsters/ophidian-mage/"
+      },
+      {
+        "class": "OphidianMatriarch",
+        "max": 31,
+        "name": "Ophidian Matriarch",
+        "link": "/bestiary/monsters/ophidian-matriarch/"
+      },
+      {
+        "class": "TerathanMatriarch",
+        "max": 31,
+        "name": "Terathan Matriarch",
+        "link": "/bestiary/monsters/terathan-matriarch/"
+      },
+      {
+        "class": "OphidianArchmage",
+        "max": 30,
+        "name": "Ophidian Archmage",
+        "link": "/bestiary/monsters/ophidian-archmage/"
+      },
+      {
+        "class": "Balron",
+        "max": 28,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      },
+      {
+        "class": "Dragon",
+        "max": 28,
+        "name": "Dragon",
+        "link": "/bestiary/monsters/dragon/"
+      },
+      {
+        "class": "Drake",
+        "max": 28,
+        "name": "Drake",
+        "link": "/bestiary/monsters/drake/"
+      }
+    ],
+    "point_count": 100
+  },
+  "The Citadel": {
+    "facet": "Malas",
+    "centre": [
+      147,
+      1911
+    ],
+    "creatures": [
+      {
+        "class": "SerpentsFangAssassin",
+        "max": 68,
+        "name": "Black Order Assassin",
+        "link": "/bestiary/monsters/serpents-fang-assassin/"
+      },
+      {
+        "class": "DragonsFlameMage",
+        "max": 51,
+        "name": "Black Order Mage",
+        "link": "/bestiary/monsters/dragons-flame-mage/"
+      },
+      {
+        "class": "EliteNinja",
+        "max": 44,
+        "name": "Elite Ninja",
+        "link": "/bestiary/monsters/elite-ninja/"
+      },
+      {
+        "class": "TigersClawThief",
+        "max": 33,
+        "name": "Black Order Thief",
+        "link": "/bestiary/monsters/tigers-claw-thief/"
+      },
+      {
+        "class": "DragonsFlameGrandMage",
+        "max": 13,
+        "name": "Black Order Grand Mage",
+        "link": "/bestiary/monsters/dragons-flame-grand-mage/"
+      },
+      {
+        "class": "TigersClawMaster",
+        "max": 5,
+        "name": "Black Order Master",
+        "link": "/bestiary/monsters/tigers-claw-master/"
+      },
+      {
+        "class": "SerpentsFangHighExecutioner",
+        "max": 2,
+        "name": "Black Order High Executioner",
+        "link": "/bestiary/humanoids/serpents-fang-high-executioner/"
+      }
+    ],
+    "point_count": 31
+  },
+  "Wisp Dungeon": {
+    "facet": "Ilshenar",
+    "centre": [
+      1135,
+      1456
+    ],
+    "creatures": [
+      {
+        "class": "Wisp",
+        "max": 24,
+        "name": "Wisp",
+        "link": "/bestiary/monsters/wisp/"
+      },
+      {
+        "class": "Shade",
+        "max": 10,
+        "name": "Shade",
+        "link": "/bestiary/undead/shade/"
+      },
+      {
+        "class": "Imp",
+        "max": 8,
+        "name": "Imp",
+        "link": "/bestiary/monsters/imp/"
+      },
+      {
+        "class": "BoneKnight",
+        "max": 5,
+        "name": "Bone Knight",
+        "link": "/bestiary/undead/bone-knight/"
+      },
+      {
+        "class": "BoneMagi",
+        "max": 4,
+        "name": "Bone Mage",
+        "link": "/bestiary/undead/bone-magi/"
+      },
+      {
+        "class": "EvilMage",
+        "max": 4,
+        "name": "Evil Mage",
+        "link": "/bestiary/humanoids/evil-mage/"
+      },
+      {
+        "class": "EvilMageLord",
+        "max": 4,
+        "name": "Evil Mage Lord",
+        "link": "/bestiary/humanoids/evil-mage-lord/"
+      },
+      {
+        "class": "Spectre",
+        "max": 4,
+        "name": "Spectre",
+        "link": "/bestiary/undead/spectre/"
+      },
+      {
+        "class": "Wraith",
+        "max": 4,
+        "name": "Wraith",
+        "link": "/bestiary/undead/wraith/"
+      },
+      {
+        "class": "Balron",
+        "max": 3,
+        "name": "Balron",
+        "link": "/bestiary/monsters/balron/"
+      },
+      {
+        "class": "Cyclops",
+        "max": 3,
+        "name": "Cyclopean Warrior",
+        "link": "/bestiary/humanoids/cyclops/"
+      },
+      {
+        "class": "Ettin",
+        "max": 2,
+        "name": "Ettin",
+        "link": "/bestiary/humanoids/ettin/"
+      },
+      {
+        "class": "RottingCorpse",
+        "max": 2,
+        "name": "Rotting Corpse",
+        "link": "/bestiary/undead/rotting-corpse/"
+      },
+      {
+        "class": "Titan",
+        "max": 2,
+        "name": "Titan",
+        "link": "/bestiary/humanoids/titan/"
+      },
+      {
+        "class": "Lich",
+        "max": 1,
+        "name": "Lich",
+        "link": "/bestiary/undead/lich/"
+      },
+      {
+        "class": "LichLord",
+        "max": 1,
+        "name": "Lich Lord",
+        "link": "/bestiary/undead/lich-lord/"
+      },
+      {
+        "class": "SkeletalMage",
+        "max": 1,
+        "name": "Skeletal Mage",
+        "link": "/bestiary/undead/skeletal-mage/"
+      }
+    ],
+    "point_count": 22
+  },
+  "Wrong": {
+    "facet": "Felucca",
+    "centre": [
+      5774,
+      563
+    ],
+    "creatures": [
+      {
+        "class": "JukaWarrior",
+        "max": 47,
+        "name": "Juka Warrior",
+        "link": "/bestiary/humanoids/juka-warrior/"
+      },
+      {
+        "class": "JukaLord",
+        "max": 15,
+        "name": "Juka Lord",
+        "link": "/bestiary/humanoids/juka-lord/"
+      },
+      {
+        "class": "JukaMage",
+        "max": 15,
+        "name": "Juka Mage",
+        "link": "/bestiary/humanoids/juka-mage/"
+      },
+      {
+        "class": "Brigand",
+        "max": 9,
+        "name": "Brigand",
+        "link": "/bestiary/humanoids/brigand/"
+      },
+      {
+        "class": "Golem",
+        "max": 6,
+        "name": "Golem",
+        "link": "/bestiary/monsters/golem/"
+      },
+      {
+        "class": "GolemController",
+        "max": 4,
+        "name": "Golem Controller",
+        "link": "/bestiary/humanoids/golem-controller/"
+      }
+    ],
+    "point_count": 18
+  },
+  "Yomotsu Mines": {
+    "facet": "Malas",
+    "centre": [
+      76,
+      53
+    ],
+    "creatures": [
+      {
+        "class": "DullCopperElemental",
+        "max": 12,
+        "name": "Dull Copper Elemental",
+        "link": "/bestiary/elementals/dull-copper-elemental/"
+      },
+      {
+        "class": "EarthElemental",
+        "max": 12,
+        "name": "Earth Elemental",
+        "link": "/bestiary/elementals/earth-elemental/"
+      },
+      {
+        "class": "YomotsuPriest",
+        "max": 12,
+        "name": "Yomotsu Priest",
+        "link": "/bestiary/monsters/yomotsu-priest/"
+      },
+      {
+        "class": "YomotsuWarrior",
+        "max": 12,
+        "name": "Yomotsu Warrior",
+        "link": "/bestiary/monsters/yomotsu-warrior/"
+      },
+      {
+        "class": "FireBeetle",
+        "max": 1,
+        "name": "Fire Beetle",
+        "link": "/bestiary/monsters/fire-beetle/"
+      }
+    ],
+    "point_count": 9
+  }
+}
