@@ -9,6 +9,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/40.gif" alt="Swordsmanship skill banner" width="160" />
+
 From the duelling katana to the woodsman's double axe, Swordsmanship covers every edged weapon
 in Britannia — the most popular weapon skill for good reason.
 

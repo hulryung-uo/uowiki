@@ -10,6 +10,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/7.gif" alt="Blacksmithy skill banner" width="160" />
+
 The ring of hammer on anvil is the sound of Minoc — and of half the realm's economy.
 Blacksmiths turn miners' ingots into everything that cuts, bashes, or deflects.
 

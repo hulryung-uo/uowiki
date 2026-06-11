@@ -9,6 +9,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/17.gif" alt="Healing skill banner" width="160" />
+
 A warrior's best weapon is the strip of cloth in their off-hand. Healing turns bandages into
 hit points, antidotes, and — at the high end — second chances.
 

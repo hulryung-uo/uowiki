@@ -11,6 +11,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/44.gif" alt="Lumberjacking skill banner" width="160" />
+
 There is a particular satisfaction in felling a tree with an axe you forged yourself — and a
 particular profit, since carpenters and fletchers buy everything you can carry.
 

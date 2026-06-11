@@ -9,6 +9,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/27.gif" alt="Tactics skill banner" width="160" />
+
 Knowing *how* to fight matters as much as knowing how to swing. Tactics is the damage
 multiplier behind every weapon skill — no warrior build skips it.
 

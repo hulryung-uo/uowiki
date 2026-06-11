@@ -10,6 +10,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/35.gif" alt="Animal Taming skill banner" width="160" />
+
 Some adventurers carry swords; tamers carry an entourage. Animal Taming turns wild creatures
 into loyal companions — eventually including ones that breathe fire.
 

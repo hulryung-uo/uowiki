@@ -10,6 +10,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/45.gif" alt="Mining skill banner" width="160" />
+
 Swing a pickaxe at a mountainside and Britannia pays you in metal. Mining is the realm's
 foundational gathering skill — every smith's career starts in a tunnel.
 

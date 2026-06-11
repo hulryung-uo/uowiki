@@ -9,6 +9,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/21.gif" alt="Hiding skill banner" width="160" />
+
 Step into shadow and the world forgets you. Hiding is the foundation of every
 sneak's career — and the single easiest skill in Britannia to practice, because
 it needs **nothing**: no tool, no target, no reagent, no particular terrain.

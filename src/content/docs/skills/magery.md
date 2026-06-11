@@ -10,6 +10,8 @@ last_verified: 2026-06-11
 generated: false
 ---
 
+<img src="/img/skill-flags/25.gif" alt="Magery skill banner" width="160" />
+
 *Kal Ort Por* — and you are somewhere else. Magery is the realm's most versatile skill: damage,
 travel, defense, and utility across eight circles of spells.
 
