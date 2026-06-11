@@ -45,7 +45,9 @@ Run from `/Users/dkkang/dev/uo/uowiki`. Sibling repos: `../servuo` (ground truth
    Skip silently if the API is unreachable.
 
 7. **Ship** — `npm run build` (must pass), commit per CLAUDE.md convention,
-   `git push`, then deploy: `vercel --prod --yes`
+   `git push`, then deploy: `vercel --prod --yes --archive=tgz`
+   (`--archive=tgz` is required — the plain upload aborts on the ~1,700 media
+   asset files under public/)
    (CLI deploy is required until the Vercel GitHub integration is connected;
    once it is, push alone deploys and this step becomes push-only).
 
