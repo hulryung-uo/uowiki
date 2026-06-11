@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Reclassify catalog by gameplay type (Weapons/Armor/Shields/...).  
+  [Items](/items/) (24) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/986ff9b)</sub>
 - **Added** — Full item catalog — all 3,686 ServUO items with art.  
   [Items](/items/) (14) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/225f2e6)</sub>
 - **Updated** — Reader-facing changelog, per-dungeon location maps, 2x-larger icons.  
