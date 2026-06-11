@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — Add How to Play section — 22 operational game-mechanics pages.  
+  Playing (23) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/04e7898)</sub>
 - **Added** — Skill banner icons + per-skill pages for all 58 skills.  
   [Skills](/skills/) (59) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/3a1b6dc)</sub>
 - **Added** — Skills/hiding: new field-verified page (foundry thief evals); reports: HeadlessOne pack lethality data, Minoc east-face mining spot (2567,493).  
