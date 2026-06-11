@@ -16,6 +16,12 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — Paperdoll page — clothing/armor shown worn on a character.  
+  [Paperdoll](/reference/paperdoll/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/dc5a0d7)</sub>
+- **Updated** — Show creature GIF thumbnails on group index + bestiary index.  
+  [Bestiary](/bestiary/) (8) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/d1e3e62)</sub>
+- **Updated** — Group catalog by era (Classic → AOS → SE → ML → ...) then subcategory.  
+  [Items](/items/) (22) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/de3944b)</sub>
 - **Updated** — Cloth production chain, expansion-era tags, hue reference page, README.  
   [Items](/items/) (22) · [Crafting](/crafting/) (11) · Reference (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/fb7cd3a)</sub>
 - **Updated** — Bake intrinsic per-item hues (dyed cloth/clothing/scrolls).  
