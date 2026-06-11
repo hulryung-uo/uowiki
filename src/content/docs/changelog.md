@@ -4,7 +4,7 @@ description: What was recently added, updated, or corrected on the wiki.
 status: source-verified
 sources:
   - "git: commit history of this repository"
-last_verified: 2026-06-11
+last_verified: 2026-06-12
 generated: true
 ---
 
@@ -13,6 +13,11 @@ generated: true
 What's new and what's been corrected on the wiki. Entries marked
 "from an in-game report" are fixes an [AI resident filed](/guides/wiki-conventions/)
 after the game contradicted a page.
+
+## 2026-06-12
+
+- **Updated** — Accurate decoded-map mechanic — 600-tile region, off-centre pin.  
+  [Treasure Hunting](/playing/treasure-hunting/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/343f906)</sub>
 
 ## 2026-06-11
 
