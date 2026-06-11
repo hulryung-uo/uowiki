@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Kal Vas Xen Flam">Kal Vas Xen Flam</p>
 
-***Kal Vas Xen Flam*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
+<span class="uo-ascii">Kal Vas Xen Flam</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Eighth Circle Magery.
 
 Summons a fire elemental to fight for the caster, consuming two follower slots.
 
@@ -28,7 +28,7 @@ Summons a fire elemental to fight for the caster, consuming two follower slots.
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Kal Vas Xen Flam</span> &nbsp; *Kal Vas Xen Flam* |
+| Words of power | <span class="uo-runic">Kal Vas Xen Flam</span> &nbsp; <span class="uo-ascii">Kal Vas Xen Flam</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

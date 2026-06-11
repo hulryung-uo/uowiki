@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Por Ylem">In Por Ylem</p>
 
-***In Por Ylem*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
+<span class="uo-ascii">In Por Ylem</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. First Circle Magery.
 
 Fires a magical bolt at the target dealing a small amount of pure fire damage.
 
@@ -28,7 +28,7 @@ Fires a magical bolt at the target dealing a small amount of pure fire damage.
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Sulfurous Ash |
-| Words of power | <span class="uo-runic">In Por Ylem</span> &nbsp; *In Por Ylem* |
+| Words of power | <span class="uo-runic">In Por Ylem</span> &nbsp; <span class="uo-ascii">In Por Ylem</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

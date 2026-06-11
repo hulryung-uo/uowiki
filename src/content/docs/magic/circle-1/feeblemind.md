@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Rel Wis">Rel Wis</p>
 
-***Rel Wis*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
+<span class="uo-ascii">Rel Wis</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. First Circle Magery.
 
 Temporarily lowers the target's Intelligence, scaling on the caster's Evaluating Intelligence.
 
@@ -28,7 +28,7 @@ Temporarily lowers the target's Intelligence, scaling on the caster's Evaluating
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Ginseng, Nightshade |
-| Words of power | <span class="uo-runic">Rel Wis</span> &nbsp; *Rel Wis* |
+| Words of power | <span class="uo-runic">Rel Wis</span> &nbsp; <span class="uo-ascii">Rel Wis</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

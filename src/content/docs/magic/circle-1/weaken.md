@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Des Mani">Des Mani</p>
 
-***Des Mani*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
+<span class="uo-ascii">Des Mani</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. First Circle Magery.
 
 Temporarily lowers the target's Strength, scaling on the caster's Evaluating Intelligence.
 
@@ -28,7 +28,7 @@ Temporarily lowers the target's Strength, scaling on the caster's Evaluating Int
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Nightshade |
-| Words of power | <span class="uo-runic">Des Mani</span> &nbsp; *Des Mani* |
+| Words of power | <span class="uo-runic">Des Mani</span> &nbsp; <span class="uo-ascii">Des Mani</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

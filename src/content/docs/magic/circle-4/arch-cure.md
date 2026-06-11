@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas An Nox">Vas An Nox</p>
 
-***Vas An Nox*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">Vas An Nox</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Cures poison on all valid targets in an area around the target point (single-target cure with a skill bonus when targeting one mobile).
 
@@ -28,7 +28,7 @@ Cures poison on all valid targets in an area around the target point (single-tar
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Garlic, Ginseng, Mandrake Root |
-| Words of power | <span class="uo-runic">Vas An Nox</span> &nbsp; *Vas An Nox* |
+| Words of power | <span class="uo-runic">Vas An Nox</span> &nbsp; <span class="uo-ascii">Vas An Nox</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

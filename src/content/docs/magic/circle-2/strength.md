@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Uus Mani">Uus Mani</p>
 
-***Uus Mani*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
+<span class="uo-ascii">Uus Mani</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Second Circle Magery.
 
 Temporarily raises the target's Strength, scaling on the caster's Evaluating Intelligence.
 
@@ -28,7 +28,7 @@ Temporarily raises the target's Strength, scaling on the caster's Evaluating Int
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Mandrake Root, Nightshade |
-| Words of power | <span class="uo-runic">Uus Mani</span> &nbsp; *Uus Mani* |
+| Words of power | <span class="uo-runic">Uus Mani</span> &nbsp; <span class="uo-ascii">Uus Mani</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

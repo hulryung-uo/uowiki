@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Nox">In Nox</p>
 
-***In Nox*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
+<span class="uo-ascii">In Nox</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Third Circle Magery.
 
 Inflicts poison on the target, with poison level scaling on caster skill and proximity to the target.
 
@@ -28,7 +28,7 @@ Inflicts poison on the target, with poison level scaling on caster skill and pro
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Nightshade |
-| Words of power | <span class="uo-runic">In Nox</span> &nbsp; *In Nox* |
+| Words of power | <span class="uo-runic">In Nox</span> &nbsp; <span class="uo-ascii">In Nox</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

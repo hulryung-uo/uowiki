@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Uus Wis">Uus Wis</p>
 
-***Uus Wis*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
+<span class="uo-ascii">Uus Wis</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Second Circle Magery.
 
 Temporarily raises the target's Intelligence, scaling on the caster's Evaluating Intelligence.
 
@@ -28,7 +28,7 @@ Temporarily raises the target's Intelligence, scaling on the caster's Evaluating
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Mandrake Root, Nightshade |
-| Words of power | <span class="uo-runic">Uus Wis</span> &nbsp; *Uus Wis* |
+| Words of power | <span class="uo-runic">Uus Wis</span> &nbsp; <span class="uo-ascii">Uus Wis</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

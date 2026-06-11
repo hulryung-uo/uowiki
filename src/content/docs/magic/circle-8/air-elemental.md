@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Kal Vas Xen Hur">Kal Vas Xen Hur</p>
 
-***Kal Vas Xen Hur*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
+<span class="uo-ascii">Kal Vas Xen Hur</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Eighth Circle Magery.
 
 Summons an air elemental to fight for the caster, consuming two follower slots.
 
@@ -28,7 +28,7 @@ Summons an air elemental to fight for the caster, consuming two follower slots.
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Mandrake Root, Spiders' Silk |
-| Words of power | <span class="uo-runic">Kal Vas Xen Hur</span> &nbsp; *Kal Vas Xen Hur* |
+| Words of power | <span class="uo-runic">Kal Vas Xen Hur</span> &nbsp; <span class="uo-ascii">Kal Vas Xen Hur</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

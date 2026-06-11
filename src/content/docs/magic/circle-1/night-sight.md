@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Lor">In Lor</p>
 
-***In Lor*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
+<span class="uo-ascii">In Lor</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. First Circle Magery.
 
 Grants the target a magical light that lets them see in darkness for an extended duration.
 
@@ -28,7 +28,7 @@ Grants the target a magical light that lets them see in darkness for an extended
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Sulfurous Ash, Spiders' Silk |
-| Words of power | <span class="uo-runic">In Lor</span> &nbsp; *In Lor* |
+| Words of power | <span class="uo-runic">In Lor</span> &nbsp; <span class="uo-ascii">In Lor</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

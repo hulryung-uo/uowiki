@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Ort Grav">Vas Ort Grav</p>
 
-***Vas Ort Grav*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">Vas Ort Grav</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Calls down lightning on every valid target in an area, dealing energy damage (divided among targets pre-AOS).
 
@@ -28,7 +28,7 @@ Calls down lightning on every valid target in an area, dealing energy damage (di
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Bloodmoss, Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Vas Ort Grav</span> &nbsp; *Vas Ort Grav* |
+| Words of power | <span class="uo-runic">Vas Ort Grav</span> &nbsp; <span class="uo-ascii">Vas Ort Grav</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

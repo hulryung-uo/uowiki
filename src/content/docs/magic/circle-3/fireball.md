@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Flam">Vas Flam</p>
 
-***Vas Flam*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
+<span class="uo-ascii">Vas Flam</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Third Circle Magery.
 
 Hurls a ball of fire that deals moderate fire damage to the target.
 
@@ -28,7 +28,7 @@ Hurls a ball of fire that deals moderate fire damage to the target.
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Black Pearl |
-| Words of power | <span class="uo-runic">Vas Flam</span> &nbsp; *Vas Flam* |
+| Words of power | <span class="uo-runic">Vas Flam</span> &nbsp; <span class="uo-ascii">Vas Flam</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

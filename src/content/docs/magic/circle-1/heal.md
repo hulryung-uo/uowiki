@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Mani">In Mani</p>
 
-***In Mani*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
+<span class="uo-ascii">In Mani</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. First Circle Magery.
 
 Instantly restores a small amount of hit points to the target, but fails on poisoned or mortally wounded targets.
 
@@ -28,7 +28,7 @@ Instantly restores a small amount of hit points to the target, but fails on pois
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Ginseng, Spiders' Silk |
-| Words of power | <span class="uo-runic">In Mani</span> &nbsp; *In Mani* |
+| Words of power | <span class="uo-runic">In Mani</span> &nbsp; <span class="uo-ascii">In Mani</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Rel Por">Vas Rel Por</p>
 
-***Vas Rel Por*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">Vas Rel Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Opens a pair of linked moongates between the caster and the location stored in a marked rune, usable by anyone.
 
@@ -28,7 +28,7 @@ Opens a pair of linked moongates between the caster and the location stored in a
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Vas Rel Por</span> &nbsp; *Vas Rel Por* |
+| Words of power | <span class="uo-runic">Vas Rel Por</span> &nbsp; <span class="uo-ascii">Vas Rel Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

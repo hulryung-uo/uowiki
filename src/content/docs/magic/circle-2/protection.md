@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Uus Sanct">Uus Sanct</p>
 
-***Uus Sanct*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
+<span class="uo-ascii">Uus Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Second Circle Magery.
 
 Prevents the caster's spells from being interrupted, at the cost of physical resistance and Resisting Spells skill (pre-AOS: a timed armor buff).
 
@@ -28,7 +28,7 @@ Prevents the caster's spells from being interrupted, at the cost of physical res
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Garlic, Ginseng, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Uus Sanct</span> &nbsp; *Uus Sanct* |
+| Words of power | <span class="uo-runic">Uus Sanct</span> &nbsp; <span class="uo-ascii">Uus Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

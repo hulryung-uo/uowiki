@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Ort Flam">Vas Ort Flam</p>
 
-***Vas Ort Flam*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">Vas Ort Flam</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Plants a delayed explosion on the target that detonates for heavy fire damage after a few seconds.
 
@@ -28,7 +28,7 @@ Plants a delayed explosion on the target that detonates for heavy fire damage af
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Bloodmoss, Mandrake Root |
-| Words of power | <span class="uo-runic">Vas Ort Flam</span> &nbsp; *Vas Ort Flam* |
+| Words of power | <span class="uo-runic">Vas Ort Flam</span> &nbsp; <span class="uo-ascii">Vas Ort Flam</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

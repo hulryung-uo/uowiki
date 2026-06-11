@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Corp Por">Vas Corp Por</p>
 
-***Vas Corp Por*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
+<span class="uo-ascii">Vas Corp Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Eighth Circle Magery.
 
 Summons an uncontrolled energy vortex that relentlessly attacks the nearest creature, consuming follower slots.
 
@@ -28,7 +28,7 @@ Summons an uncontrolled energy vortex that relentlessly attacks the nearest crea
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Black Pearl, Mandrake Root, Nightshade |
-| Words of power | <span class="uo-runic">Vas Corp Por</span> &nbsp; *Vas Corp Por* |
+| Words of power | <span class="uo-runic">Vas Corp Por</span> &nbsp; <span class="uo-ascii">Vas Corp Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

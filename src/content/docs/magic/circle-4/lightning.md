@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Por Ort Grav">Por Ort Grav</p>
 
-***Por Ort Grav*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">Por Ort Grav</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Strikes the target with a bolt of lightning dealing energy damage.
 
@@ -28,7 +28,7 @@ Strikes the target with a bolt of lightning dealing energy damage.
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Por Ort Grav</span> &nbsp; *Por Ort Grav* |
+| Words of power | <span class="uo-runic">Por Ort Grav</span> &nbsp; <span class="uo-ascii">Por Ort Grav</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Sanct Grav">In Sanct Grav</p>
 
-***In Sanct Grav*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">In Sanct Grav</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Creates a temporary impassable wall of energy that blocks movement entirely.
 
@@ -28,7 +28,7 @@ Creates a temporary impassable wall of energy that blocks movement entirely.
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| Words of power | <span class="uo-runic">In Sanct Grav</span> &nbsp; *In Sanct Grav* |
+| Words of power | <span class="uo-runic">In Sanct Grav</span> &nbsp; <span class="uo-ascii">In Sanct Grav</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

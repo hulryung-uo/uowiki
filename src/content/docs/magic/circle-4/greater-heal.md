@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Vas Mani">In Vas Mani</p>
 
-***In Vas Mani*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">In Vas Mani</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Restores a large amount of hit points to the target, but fails on poisoned or mortally wounded targets.
 
@@ -28,7 +28,7 @@ Restores a large amount of hit points to the target, but fails on poisoned or mo
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Garlic, Ginseng, Mandrake Root, Spiders' Silk |
-| Words of power | <span class="uo-runic">In Vas Mani</span> &nbsp; *In Vas Mani* |
+| Words of power | <span class="uo-runic">In Vas Mani</span> &nbsp; <span class="uo-ascii">In Vas Mani</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

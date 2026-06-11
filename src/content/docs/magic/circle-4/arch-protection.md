@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Uus Sanct">Vas Uus Sanct</p>
 
-***Vas Uus Sanct*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">Vas Uus Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Casts Protection on the target (pre-AOS: on everyone in an area around the target point).
 
@@ -28,7 +28,7 @@ Casts Protection on the target (pre-AOS: on everyone in an area around the targe
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Garlic, Ginseng, Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Vas Uus Sanct</span> &nbsp; *Vas Uus Sanct* |
+| Words of power | <span class="uo-runic">Vas Uus Sanct</span> &nbsp; <span class="uo-ascii">Vas Uus Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

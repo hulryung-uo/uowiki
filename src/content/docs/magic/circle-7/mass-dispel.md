@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas An Ort">Vas An Ort</p>
 
-***Vas An Ort*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">Vas An Ort</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Attempts to dispel every summoned creature in a large area around the target point.
 
@@ -28,7 +28,7 @@ Attempts to dispel every summoned creature in a large area around the target poi
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Garlic, Mandrake Root, Black Pearl, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Vas An Ort</span> &nbsp; *Vas An Ort* |
+| Words of power | <span class="uo-runic">Vas An Ort</span> &nbsp; <span class="uo-ascii">Vas An Ort</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

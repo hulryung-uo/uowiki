@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Jux Sanct">In Jux Sanct</p>
 
-***In Jux Sanct*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
+<span class="uo-ascii">In Jux Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fifth Circle Magery.
 
 Causes hostile spells to reflect back at their caster (under AOS instead trades physical resistance for boosts to the elemental resistances).
 
@@ -28,7 +28,7 @@ Causes hostile spells to reflect back at their caster (under AOS instead trades 
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Garlic, Mandrake Root, Spiders' Silk |
-| Words of power | <span class="uo-runic">In Jux Sanct</span> &nbsp; *In Jux Sanct* |
+| Words of power | <span class="uo-runic">In Jux Sanct</span> &nbsp; <span class="uo-ascii">In Jux Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

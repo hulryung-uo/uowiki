@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Des Sanct">Des Sanct</p>
 
-***Des Sanct*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">Des Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Temporarily lowers the target's Strength, Dexterity and Intelligence, and under AOS also caps their resistances and blocks beneficial stat buffs.
 
@@ -28,7 +28,7 @@ Temporarily lowers the target's Strength, Dexterity and Intelligence, and under 
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Nightshade, Garlic, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Des Sanct</span> &nbsp; *Des Sanct* |
+| Words of power | <span class="uo-runic">Des Sanct</span> &nbsp; <span class="uo-ascii">Des Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

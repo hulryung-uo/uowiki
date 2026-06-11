@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Wis Quas">Wis Quas</p>
 
-***Wis Quas*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">Wis Quas</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Reveals hidden and invisible creatures and players in an area, with radius based on caster skill.
 
@@ -28,7 +28,7 @@ Reveals hidden and invisible creatures and players in an area, with radius based
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Bloodmoss, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Wis Quas</span> &nbsp; *Wis Quas* |
+| Words of power | <span class="uo-runic">Wis Quas</span> &nbsp; <span class="uo-ascii">Wis Quas</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

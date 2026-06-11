@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Ort Rel">Ort Rel</p>
 
-***Ort Rel*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">Ort Rel</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Drains mana from the target if they fail to resist (under AOS the mana returns to them after a delay).
 
@@ -28,7 +28,7 @@ Drains mana from the target if they fail to resist (under AOS the mana returns t
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Black Pearl, Mandrake Root, Spiders' Silk |
-| Words of power | <span class="uo-runic">Ort Rel</span> &nbsp; *Ort Rel* |
+| Words of power | <span class="uo-runic">Ort Rel</span> &nbsp; <span class="uo-ascii">Ort Rel</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

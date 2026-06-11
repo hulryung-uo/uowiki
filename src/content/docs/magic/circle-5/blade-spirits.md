@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Jux Hur Ylem">In Jux Hur Ylem</p>
 
-***In Jux Hur Ylem*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
+<span class="uo-ascii">In Jux Hur Ylem</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fifth Circle Magery.
 
 Summons an uncontrolled whirling blade spirit that attacks the nearest creatures, consuming follower slots.
 
@@ -28,7 +28,7 @@ Summons an uncontrolled whirling blade spirit that attacks the nearest creatures
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Black Pearl, Mandrake Root, Nightshade |
-| Words of power | <span class="uo-runic">In Jux Hur Ylem</span> &nbsp; *In Jux Hur Ylem* |
+| Words of power | <span class="uo-runic">In Jux Hur Ylem</span> &nbsp; <span class="uo-ascii">In Jux Hur Ylem</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

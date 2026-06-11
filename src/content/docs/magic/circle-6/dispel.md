@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Ort">An Ort</p>
 
-***An Ort*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">An Ort</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Attempts to banish a summoned creature outright, with success based on caster skill versus the summon's dispel difficulty.
 
@@ -28,7 +28,7 @@ Attempts to banish a summoned creature outright, with success based on caster sk
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Garlic, Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">An Ort</span> &nbsp; *An Ort* |
+| Words of power | <span class="uo-runic">An Ort</span> &nbsp; <span class="uo-ascii">An Ort</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

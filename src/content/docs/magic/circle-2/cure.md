@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Nox">An Nox</p>
 
-***An Nox*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
+<span class="uo-ascii">An Nox</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Second Circle Magery.
 
 Attempts to neutralize poison on the target, with success chance based on caster skill versus poison level.
 
@@ -28,7 +28,7 @@ Attempts to neutralize poison on the target, with success chance based on caster
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Garlic, Ginseng |
-| Words of power | <span class="uo-runic">An Nox</span> &nbsp; *An Nox* |
+| Words of power | <span class="uo-runic">An Nox</span> &nbsp; <span class="uo-ascii">An Nox</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

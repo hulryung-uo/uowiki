@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Flam Sanct">Flam Sanct</p>
 
-***Flam Sanct*** — the words of power, in the Britannian runic alphabet. First Circle Magery.
+<span class="uo-ascii">Flam Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. First Circle Magery.
 
 Buffs the caster's physical resistance at the cost of the other elemental resistances (pre-AOS: reflects part of melee damage back at attackers).
 
@@ -28,7 +28,7 @@ Buffs the caster's physical resistance at the cost of the other elemental resist
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 20 |
 | Reagents | Garlic, Spiders' Silk, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Flam Sanct</span> &nbsp; *Flam Sanct* |
+| Words of power | <span class="uo-runic">Flam Sanct</span> &nbsp; <span class="uo-ascii">Flam Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

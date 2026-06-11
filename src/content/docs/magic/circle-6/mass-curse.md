@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Vas Des Sanct">Vas Des Sanct</p>
 
-***Vas Des Sanct*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">Vas Des Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Lowers Strength, Dexterity and Intelligence of every valid target in an area around the target point.
 
@@ -28,7 +28,7 @@ Lowers Strength, Dexterity and Intelligence of every valid target in an area aro
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Garlic, Nightshade, Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Vas Des Sanct</span> &nbsp; *Vas Des Sanct* |
+| Words of power | <span class="uo-runic">Vas Des Sanct</span> &nbsp; <span class="uo-ascii">Vas Des Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

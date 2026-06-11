@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Flam Kal Des Ylem">Flam Kal Des Ylem</p>
 
-***Flam Kal Des Ylem*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">Flam Kal Des Ylem</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Rains meteors on an area, dealing fire damage to every valid target (divided among targets pre-AOS).
 
@@ -28,7 +28,7 @@ Rains meteors on an area, dealing fire damage to every valid target (divided amo
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Bloodmoss, Mandrake Root, Sulfurous Ash, Spiders' Silk |
-| Words of power | <span class="uo-runic">Flam Kal Des Ylem</span> &nbsp; *Flam Kal Des Ylem* |
+| Words of power | <span class="uo-runic">Flam Kal Des Ylem</span> &nbsp; <span class="uo-ascii">Flam Kal Des Ylem</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

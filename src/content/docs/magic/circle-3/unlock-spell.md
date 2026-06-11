@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Ex Por">Ex Por</p>
 
-***Ex Por*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
+<span class="uo-ascii">Ex Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Third Circle Magery.
 
 Magically unlocks chests with low-level locks (fails on door locks and strongly locked or trapped chests).
 
@@ -28,7 +28,7 @@ Magically unlocks chests with low-level locks (fails on door locks and strongly 
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Bloodmoss, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Ex Por</span> &nbsp; *Ex Por* |
+| Words of power | <span class="uo-runic">Ex Por</span> &nbsp; <span class="uo-ascii">Ex Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

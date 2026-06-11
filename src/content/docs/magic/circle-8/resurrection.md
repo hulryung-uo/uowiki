@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Corp">An Corp</p>
 
-***An Corp*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
+<span class="uo-ascii">An Corp</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Eighth Circle Magery.
 
 Returns a dead player's ghost to life where they stand.
 
@@ -28,7 +28,7 @@ Returns a dead player's ghost to life where they stand.
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Garlic, Ginseng |
-| Words of power | <span class="uo-runic">An Corp</span> &nbsp; *An Corp* |
+| Words of power | <span class="uo-runic">An Corp</span> &nbsp; <span class="uo-ascii">An Corp</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Ex Grav">In Ex Grav</p>
 
-***In Ex Grav*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">In Ex Grav</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Creates a temporary field that paralyzes anyone who walks into it.
 
@@ -28,7 +28,7 @@ Creates a temporary field that paralyzes anyone who walks into it.
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Black Pearl, Ginseng, Spiders' Silk |
-| Words of power | <span class="uo-runic">In Ex Grav</span> &nbsp; *In Ex Grav* |
+| Words of power | <span class="uo-runic">In Ex Grav</span> &nbsp; <span class="uo-ascii">In Ex Grav</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Vas Por">In Vas Por</p>
 
-***In Vas Por*** — the words of power, in the Britannian runic alphabet. Eighth Circle Magery.
+<span class="uo-ascii">In Vas Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Eighth Circle Magery.
 
 Shakes the earth, dealing physical damage to every valid target nearby based on their current hit points.
 
@@ -28,7 +28,7 @@ Shakes the earth, dealing physical damage to every valid target nearby based on 
 | Minimum Magery | 80 (0% success below this) |
 | Magery for 100% success | 120 |
 | Reagents | Bloodmoss, Ginseng, Mandrake Root, Sulfurous Ash |
-| Words of power | <span class="uo-runic">In Vas Por</span> &nbsp; *In Vas Por* |
+| Words of power | <span class="uo-runic">In Vas Por</span> &nbsp; <span class="uo-ascii">In Vas Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

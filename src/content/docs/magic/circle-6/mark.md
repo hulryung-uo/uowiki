@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Kal Por Ylem">Kal Por Ylem</p>
 
-***Kal Por Ylem*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">Kal Por Ylem</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Binds the caster's current location into a blank recall rune for later Recall or Gate Travel.
 
@@ -28,7 +28,7 @@ Binds the caster's current location into a blank recall rune for later Recall or
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Black Pearl, Bloodmoss, Mandrake Root |
-| Words of power | <span class="uo-runic">Kal Por Ylem</span> &nbsp; *Kal Por Ylem* |
+| Words of power | <span class="uo-runic">Kal Por Ylem</span> &nbsp; <span class="uo-ascii">Kal Por Ylem</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

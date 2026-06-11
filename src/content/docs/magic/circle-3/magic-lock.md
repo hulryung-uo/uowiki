@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Por">An Por</p>
 
-***An Por*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
+<span class="uo-ascii">An Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Third Circle Magery.
 
 Magically locks an unlocked, untrapped chest (cannot be used on doors or secured containers).
 
@@ -28,7 +28,7 @@ Magically locks an unlocked, untrapped chest (cannot be used on doors or secured
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Garlic, Bloodmoss, Sulfurous Ash |
-| Words of power | <span class="uo-runic">An Por</span> &nbsp; *An Por* |
+| Words of power | <span class="uo-runic">An Por</span> &nbsp; <span class="uo-ascii">An Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

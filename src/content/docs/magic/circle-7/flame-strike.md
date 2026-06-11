@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Kal Vas Flam">Kal Vas Flam</p>
 
-***Kal Vas Flam*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">Kal Vas Flam</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Engulfs the target in a pillar of flame dealing heavy fire damage.
 
@@ -28,7 +28,7 @@ Engulfs the target in a pillar of flame dealing heavy fire damage.
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Spiders' Silk, Sulfurous Ash |
-| Words of power | <span class="uo-runic">Kal Vas Flam</span> &nbsp; *Kal Vas Flam* |
+| Words of power | <span class="uo-runic">Kal Vas Flam</span> &nbsp; <span class="uo-ascii">Kal Vas Flam</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

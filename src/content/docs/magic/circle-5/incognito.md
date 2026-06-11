@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Kal In Ex">Kal In Ex</p>
 
-***Kal In Ex*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
+<span class="uo-ascii">Kal In Ex</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fifth Circle Magery.
 
 Disguises the caster with a random name, body and hair, concealing their identity for a duration.
 
@@ -28,7 +28,7 @@ Disguises the caster with a random name, body and hair, concealing their identit
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Bloodmoss, Garlic, Nightshade |
-| Words of power | <span class="uo-runic">Kal In Ex</span> &nbsp; *Kal In Ex* |
+| Words of power | <span class="uo-runic">Kal In Ex</span> &nbsp; <span class="uo-ascii">Kal In Ex</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

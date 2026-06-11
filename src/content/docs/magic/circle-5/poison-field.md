@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="In Nox Grav">In Nox Grav</p>
 
-***In Nox Grav*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
+<span class="uo-ascii">In Nox Grav</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fifth Circle Magery.
 
 Creates a temporary wall of poisonous vapor that poisons anyone moving through it.
 
@@ -28,7 +28,7 @@ Creates a temporary wall of poisonous vapor that poisons anyone moving through i
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Black Pearl, Nightshade, Spiders' Silk |
-| Words of power | <span class="uo-runic">In Nox Grav</span> &nbsp; *In Nox Grav* |
+| Words of power | <span class="uo-runic">In Nox Grav</span> &nbsp; <span class="uo-ascii">In Nox Grav</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

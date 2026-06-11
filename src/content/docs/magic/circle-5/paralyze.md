@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Ex Por">An Ex Por</p>
 
-***An Ex Por*** — the words of power, in the Britannian runic alphabet. Fifth Circle Magery.
+<span class="uo-ascii">An Ex Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fifth Circle Magery.
 
 Freezes the target in place for a duration based on caster skill, broken by damage.
 
@@ -28,7 +28,7 @@ Freezes the target in place for a duration based on caster skill, broken by dama
 | Minimum Magery | 37.1 (0% success below this) |
 | Magery for 100% success | 77.1 |
 | Reagents | Garlic, Mandrake Root, Spiders' Silk |
-| Words of power | <span class="uo-runic">An Ex Por</span> &nbsp; *An Ex Por* |
+| Words of power | <span class="uo-runic">An Ex Por</span> &nbsp; <span class="uo-ascii">An Ex Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

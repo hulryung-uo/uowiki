@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Kal Ort Por">Kal Ort Por</p>
 
-***Kal Ort Por*** — the words of power, in the Britannian runic alphabet. Fourth Circle Magery.
+<span class="uo-ascii">Kal Ort Por</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Fourth Circle Magery.
 
 Instantly transports the caster to the location stored in a marked rune (also works off ship keys to board a boat).
 
@@ -28,7 +28,7 @@ Instantly transports the caster to the location stored in a marked rune (also wo
 | Minimum Magery | 22.9 (0% success below this) |
 | Magery for 100% success | 62.9 |
 | Reagents | Black Pearl, Bloodmoss, Mandrake Root |
-| Words of power | <span class="uo-runic">Kal Ort Por</span> &nbsp; *Kal Ort Por* |
+| Words of power | <span class="uo-runic">Kal Ort Por</span> &nbsp; <span class="uo-ascii">Kal Ort Por</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

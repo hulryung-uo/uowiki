@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Lor Xen">An Lor Xen</p>
 
-***An Lor Xen*** — the words of power, in the Britannian runic alphabet. Sixth Circle Magery.
+<span class="uo-ascii">An Lor Xen</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Sixth Circle Magery.
 
 Renders the target invisible until the effect expires or they act.
 
@@ -28,7 +28,7 @@ Renders the target invisible until the effect expires or they act.
 | Minimum Magery | 51.4 (0% success below this) |
 | Magery for 100% success | 91.4 |
 | Reagents | Bloodmoss, Nightshade |
-| Words of power | <span class="uo-runic">An Lor Xen</span> &nbsp; *An Lor Xen* |
+| Words of power | <span class="uo-runic">An Lor Xen</span> &nbsp; <span class="uo-ascii">An Lor Xen</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

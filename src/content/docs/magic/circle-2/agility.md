@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Ex Uus">Ex Uus</p>
 
-***Ex Uus*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
+<span class="uo-ascii">Ex Uus</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Second Circle Magery.
 
 Temporarily raises the target's Dexterity, scaling on the caster's Evaluating Intelligence.
 
@@ -28,7 +28,7 @@ Temporarily raises the target's Dexterity, scaling on the caster's Evaluating In
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Bloodmoss, Mandrake Root |
-| Words of power | <span class="uo-runic">Ex Uus</span> &nbsp; *Ex Uus* |
+| Words of power | <span class="uo-runic">Ex Uus</span> &nbsp; <span class="uo-ascii">Ex Uus</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

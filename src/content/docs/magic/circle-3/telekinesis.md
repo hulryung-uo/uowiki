@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Ort Por Ylem">Ort Por Ylem</p>
 
-***Ort Por Ylem*** — the words of power, in the Britannian runic alphabet. Third Circle Magery.
+<span class="uo-ascii">Ort Por Ylem</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Third Circle Magery.
 
 Manipulates an item, lever or container from a distance, triggering or opening it remotely.
 
@@ -28,7 +28,7 @@ Manipulates an item, lever or container from a distance, triggering or opening i
 | Minimum Magery | 8.6 (0% success below this) |
 | Magery for 100% success | 48.6 |
 | Reagents | Bloodmoss, Mandrake Root |
-| Words of power | <span class="uo-runic">Ort Por Ylem</span> &nbsp; *Ort Por Ylem* |
+| Words of power | <span class="uo-runic">Ort Por Ylem</span> &nbsp; <span class="uo-ascii">Ort Por Ylem</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

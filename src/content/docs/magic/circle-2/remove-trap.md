@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="An Jux">An Jux</p>
 
-***An Jux*** — the words of power, in the Britannian runic alphabet. Second Circle Magery.
+<span class="uo-ascii">An Jux</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Second Circle Magery.
 
 Removes a magical trap from a trapped container.
 
@@ -28,7 +28,7 @@ Removes a magical trap from a trapped container.
 | Minimum Magery | 0 (0% success below this) |
 | Magery for 100% success | 34.3 |
 | Reagents | Bloodmoss, Sulfurous Ash |
-| Words of power | <span class="uo-runic">An Jux</span> &nbsp; *An Jux* |
+| Words of power | <span class="uo-runic">An Jux</span> &nbsp; <span class="uo-ascii">An Jux</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

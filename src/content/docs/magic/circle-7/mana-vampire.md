@@ -15,7 +15,7 @@ last_verified: 2026-06-11
 
 <p class="uo-runic" title="Ort Sanct">Ort Sanct</p>
 
-***Ort Sanct*** — the words of power, in the Britannian runic alphabet. Seventh Circle Magery.
+<span class="uo-ascii">Ort Sanct</span> — the words of power, shown above in the Britannian runic alphabet and here in the Ultima Online game typeface. Seventh Circle Magery.
 
 Drains mana from the target and transfers it to the caster if the target fails to resist.
 
@@ -28,7 +28,7 @@ Drains mana from the target and transfers it to the caster if the target fails t
 | Minimum Magery | 65.7 (0% success below this) |
 | Magery for 100% success | 105.7 |
 | Reagents | Black Pearl, Bloodmoss, Mandrake Root, Spiders' Silk |
-| Words of power | <span class="uo-runic">Ort Sanct</span> &nbsp; *Ort Sanct* |
+| Words of power | <span class="uo-runic">Ort Sanct</span> &nbsp; <span class="uo-ascii">Ort Sanct</span> |
 
 Casting from a scroll lowers the effective circle by two, reducing the skill
 requirement (mana cost is unchanged).

@@ -78,3 +78,22 @@
 	letter-spacing: 0.12em;
 	line-height: 1.4;
 }
+
+/* The UO game's own ASCII typeface, synthesized into a real web font from the
+   client's bitmap font (fonts.mul, ASCII font index 4 — the ornate upright
+   gothic spellbook face) by tools/extract_uo_font.py. Copyright-clean: the
+   glyphs come from our own client files. Each bitmap pixel is a filled square,
+   so it's a true pixel font — render it crisp and slightly enlarged so the
+   ornate letterforms read well. Used for spell power-words alongside .uo-runic. */
+@font-face {
+	font-family: 'UO Ascii';
+	src: url('/fonts/uo-ascii.ttf') format('truetype');
+	font-display: swap;
+}
+.uo-ascii {
+	font-family: 'UO Ascii', monospace;
+	font-size: 1.35em;
+	letter-spacing: 0.04em;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}
