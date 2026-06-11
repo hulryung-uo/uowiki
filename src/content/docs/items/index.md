@@ -21,18 +21,27 @@ categories the curated wiki documents directly, and points to the sections that 
 ## Full item catalog
 
 The **[Item Catalog](/items/catalog/)** is an auto-generated, image-rich index of *every*
-item in the ServUO source — over 3,600 items with client art, item IDs and weights, grouped
-by category and subcategory. Browse by category:
+item in the ServUO source — over 3,600 items with client art, item IDs and weights,
+classified by **gameplay type** (weapons by family, armor by material, and so on) and
+grouped by subcategory. Browse by category:
 
-- [Equipment](/items/catalog/equipment/) — weapons, armor, clothing, jewelry, instruments
-- [Artifacts](/items/catalog/artifacts/) — rare and event reward items
-- [Decorative](/items/catalog/decorative/) — statues, plants, furnishings, lights
-- [Addons](/items/catalog/addons/) — multi-tile house deco and crafting stations
-- [Consumables](/items/catalog/consumables/) — potions, scrolls, food, deeds
-- [Containers](/items/catalog/containers/), [Resource](/items/catalog/resource/),
-  [Tools](/items/catalog/tools/), [Functional](/items/catalog/functional/),
-  [Books](/items/catalog/books/), [Quest](/items/catalog/quest/),
-  [Store-Bought](/items/catalog/storebought/)
+- [Weapons](/items/catalog/weapons/) — swords, axes, polearms, maces, staves, daggers,
+  spears, bows, thrown weapons and wands, each with the skill it trains
+- [Armor](/items/catalog/armor/) — by material, from cloth and leather to plate and dragon scale
+- [Shields](/items/catalog/shields/) and [Jewelry](/items/catalog/jewelry/) (rings, bracelets,
+  necklaces, earrings)
+- [Clothing](/items/catalog/clothing/) — hats, robes, footwear, shirts and pants
+- [Instruments](/items/catalog/instruments/),
+  [Spellbooks &amp; Talismans](/items/catalog/spellbooks-talismans/)
+- [Potions](/items/catalog/potions/), [Scrolls](/items/catalog/scrolls/),
+  [Reagents](/items/catalog/reagents/), [Food &amp; Drink](/items/catalog/food-drink/)
+- [Resources](/items/catalog/resources/), [Tools](/items/catalog/tools/),
+  [Lighting](/items/catalog/lighting/), [Containers](/items/catalog/containers/),
+  [Books](/items/catalog/books/)
+- [Decorations](/items/catalog/decorations/),
+  [Addons &amp; Furniture](/items/catalog/addons-furniture/),
+  [Artifacts](/items/catalog/artifacts/), [Functional](/items/catalog/functional/),
+  [Quest Items](/items/catalog/quest-items/), [Miscellaneous](/items/catalog/miscellaneous/)
 
 ## Item categories at a glance
 

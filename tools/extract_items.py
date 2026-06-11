@@ -84,6 +84,22 @@ SKIP_CLASS_NAMES = {
     "AddonContainerComponent", "LockableContainer", "Container",
 }
 
+# Classifier base classes (gameplay families). For each item we walk its
+# ancestor chain (including itself) and record the FIRST ancestor whose name
+# is in this set as `base_type`. Used by gen_items.py to reclassify by
+# gameplay type rather than by ServUO source directory.
+CLASSIFIER_BASES = (
+    "BaseSword", "BaseAxe", "BasePoleArm", "BaseBashing", "BaseStaff",
+    "BaseKnife", "BaseSpear", "BaseRanged", "BaseThrown", "BaseWand",
+    "BaseMeleeWeapon", "BaseWeapon", "BaseShield", "BaseArmor", "BaseJewel",
+    "BaseClothing", "BaseHat", "BaseShoes", "BaseInstrument", "BaseBook",
+    "BasePotion", "BaseTalisman", "Spellbook", "Runebook", "Food",
+    "BaseBeverage", "BaseReagent", "BaseIngot", "BaseOre", "BaseLog",
+    "BaseBoard", "BaseLeather", "BaseHides", "BaseContainer", "BaseLight",
+    "BaseTool",
+)
+CLASSIFIER_SET = set(CLASSIFIER_BASES)
+
 NAME_ASSIGN_RE = re.compile(r'\bName\s*=\s*"((?:[^"\\]|\\.)*)"')
 BASE_STR_RE = re.compile(r':\s*(?:base|this)\s*\(\s*"((?:[^"\\]|\\.)*)"')
 LABELNUMBER_RE = re.compile(r"\bLabelNumber\s*=>?\s*(\d{4,7})\b")
@@ -196,6 +212,31 @@ def resolve_weight(classes, name, depth=0, seen=None):
     return None
 
 
+def resolve_base_type(classes, name, depth=0, seen=None):
+    """First ancestor (including self) whose name is in CLASSIFIER_SET, else None.
+
+    Walks the base-chain in order, so the closest classifier ancestor wins
+    (e.g. a Katana resolves to BaseSword, not the more distant BaseWeapon).
+    """
+    if seen is None:
+        seen = set()
+    if depth > 16 or name in seen:
+        return None
+    seen.add(name)
+    if name in CLASSIFIER_SET:
+        return name
+    entry = classes.get(name)
+    if entry is None:
+        return None
+    base = entry[0]
+    if not base:
+        return None
+    base = base.split(".")[-1]
+    if base in ("object", ""):
+        return None
+    return resolve_base_type(classes, base, depth + 1, seen)
+
+
 def main():
     cliloc = json.load(open(CLILOC_PATH))
     print("indexing ServUO classes ...")
@@ -284,6 +325,7 @@ def main():
             disp = extract_art.class_display_name(name)
             name_source = "class"
         weight = resolve_weight(classes, name)
+        base_type = resolve_base_type(classes, name)
         png = ensure_png(item_id)
         items.append({
             "class": name,
@@ -293,6 +335,7 @@ def main():
             "weight": weight,
             "category": category,
             "subcategory": subcategory,
+            "base_type": base_type,
             "png": png,
             "source": "Scripts/Items/" + os.path.relpath(path, ITEMS_DIR).replace(os.sep, "/"),
         })
@@ -324,6 +367,8 @@ def main():
             "fields": {
                 "name_source": "literal | cliloc | class",
                 "weight": "literal Weight or null",
+                "base_type": "first classifier base class in the ancestor "
+                             "chain (gameplay family), or null",
                 "png": "static art path, or null if no art entry exists",
             },
         },
