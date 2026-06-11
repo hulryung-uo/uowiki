@@ -17,6 +17,11 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'guides' } }],
 				},
 				{
+					label: 'How to Play',
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'playing', collapsed: true } }],
+				},
+				{
 					label: 'Character Templates',
 					items: [{ autogenerate: { directory: 'templates' } }],
 				},
