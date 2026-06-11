@@ -25,6 +25,7 @@ python3 tools/extract_spells.py      # servuo Scripts/Spells  → data/spells.js
 python3 tools/extract_crafting.py    # servuo Craft defs      → data/recipes.json
 python3 tools/extract_items.py       # all item classes       → data/items.json + item PNGs
 python3 tools/trim_item_art.py       # crop transparent padding off item PNGs (run after any art extract)
+python3 tools/apply_hues.py          # bake UO hues into colored resource variants (ingots, leather, scales)
 python3 tools/gen_bestiary.py        # data → src/content/docs/bestiary/
 python3 tools/gen_items.py           # data → src/content/docs/items/catalog/
 python3 tools/gen_spells.py          # data → src/content/docs/magic/

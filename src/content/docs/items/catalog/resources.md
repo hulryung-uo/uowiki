@@ -19,54 +19,54 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
+| <img src="/img/items/0x1BF2-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
 | <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
-| <img src="/img/items/0x1BF2.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
+| <img src="/img/items/0x1BF2-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ingots | `0x1BF2` | — |
 
 ## Ore
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
+| <img src="/img/items/0x19B8-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
 | <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
-| <img src="/img/items/0x19B8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
+| <img src="/img/items/0x19B8-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dull copper ore | `0x19B8` | — |
 
 ## Wood
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood log | `0x1BDD` | 2 |
+| <img src="/img/items/0x1BDD-h04A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash log | `0x1BDD` | 2 |
+| <img src="/img/items/0x1BDD-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood log | `0x1BDD` | 2 |
+| <img src="/img/items/0x1BDD-h047F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood log | `0x1BDD` | 2 |
+| <img src="/img/items/0x1BDD-h04A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood log | `0x1BDD` | 2 |
 | <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak log | `0x1BDD` | 2 |
-| <img src="/img/items/0x1BDD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew log | `0x1BDD` | 2 |
+| <img src="/img/items/0x1BDD-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak log | `0x1BDD` | 2 |
+| <img src="/img/items/0x1BDD-h04A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew log | `0x1BDD` | 2 |
 
 ## Leather & Hides
 
 | Icon | Name | Item ID | Weight |
 |------|------|---------|--------|
+| <img src="/img/items/0x1081-h01C1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
+| <img src="/img/items/0x1081-h0227.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
 | <img src="/img/items/0x1081.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1081.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1081.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
-| <img src="/img/items/0x1081.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
+| <img src="/img/items/0x1081-h0283.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | pieces of spined leather | `0x1081` | 1 |
+| <img src="/img/items/0x1079-h01C1.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
 | <img src="/img/items/0x1079.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
-| <img src="/img/items/0x1079.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
-| <img src="/img/items/0x1079.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
-| <img src="/img/items/0x1079.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
+| <img src="/img/items/0x1079-h0227.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
+| <img src="/img/items/0x1079-h0283.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | piles of spined hides | `0x1079` | 5 |
 
 ## Other
 
@@ -82,7 +82,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x1EA7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Arcane Gem | `0x1EA7` | 1 |
 | <img src="/img/items/0x573C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arcanic rune stone | `0x573C` | — |
 | <img src="/img/items/0x0F3F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | arrow | `0x0F3F` | — |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash board | `0x1BD7` | — |
+| <img src="/img/items/0x1BD7-h04A7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ash board | `0x1BD7` | — |
 | <img src="/img/items/0x105B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | axle | `0x105B` | 1 |
 | <img src="/img/items/0x1051.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | axle gears | `0x1051` | 1 |
 | <img src="/img/items/0x0E21.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bandage | `0x0E21` | — |
@@ -94,7 +94,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x1422.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | beeswax | `0x1422` | 1 |
 | <img src="/img/items/0x3183.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blight | `0x3183` | — |
 | <img src="/img/items/0x9D7F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Blood of the Dark Father | `0x9D7F` | — |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood board | `0x1BD7` | — |
+| <img src="/img/items/0x1BD7-h04AA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bloodwood board | `0x1BD7` | — |
 | <img src="/img/items/0x3198.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | blue diamond | `0x3198` | — |
 | <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | board | `0x1BD7` | — |
 | <img src="/img/items/0x0E73.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | bola ball | `0x0E73` | 4 |
@@ -124,11 +124,11 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x573A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | delicate scales | `0x573A` | — |
 | <img src="/img/items/0x0F26.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | diamond | `0x0F26` | — |
 | <img src="/img/items/0x318B.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | diseased bark | `0x318B` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h0455.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h0851.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h066D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h08FD.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h08A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dragon scales | `0x26B4` | — |
 | <img src="/img/items/0x318A.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | dread horn mane | `0x318A` | — |
 | <img src="/img/items/0x3195.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ecru citrine | `0x3195` | — |
 | <img src="/img/items/0x5737.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | elven fletching | `0x5737` | — |
@@ -156,20 +156,20 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x3197.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | fire ruby | `0x3197` | — |
 | <img src="/img/items/0x1A9C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | flax | `0x1A9C` | 1 |
 | <img src="/img/items/0x1F1E.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Focusing Gem of Virtue Bane | `0x1F1E` | — |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood board | `0x1BD7` | — |
+| <img src="/img/items/0x1BD7-h047F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | frostwood board | `0x1BD7` | — |
 | <img src="/img/items/0x1053.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | gears | `0x1053` | 1 |
 | <img src="/img/items/0x572C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | goblin blood | `0x572C` | — |
 | <img src="/img/items/0x318C.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | grizzled bones | `0x318C` | — |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood board | `0x1BD7` | — |
+| <img src="/img/items/0x1BD7-h04A9.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | heartwood board | `0x1BD7` | — |
+| <img src="/img/items/0x1779-h0979.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h0972.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h096D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h0973.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h08A5.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
 | <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
-| <img src="/img/items/0x1779.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h0966.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h08AB.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
+| <img src="/img/items/0x1779-h089F.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | high quality granite | `0x1779` | — |
 | <img src="/img/items/0x0DD6.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | highly peculiar fish | `0x0DD6` | — |
 | <img src="/img/items/0x1055.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hinge | `0x1055` | 1 |
 | <img src="/img/items/0x2F5D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | hollow prism | `0x2F5D` | 1 |
@@ -184,7 +184,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
 | <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | Medusa scales | `0x26B4` | — |
 | <img src="/img/items/0x3188.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | muculent | `0x3188` | — |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak board | `0x1BD7` | — |
+| <img src="/img/items/0x1BD7-h07DA.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oak board | `0x1BD7` | — |
 | <img src="/img/items/0xA414.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | ocean sapphire | `0xA414` | — |
 | <img src="/img/items/0x1C18.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | oil flask | `0x1C18` | — |
 | <img src="/img/items/0x3190.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | parasitic plant | `0x3190` | — |
@@ -206,7 +206,7 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x0F11.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sapphire | `0x0F11` | — |
 | <img src="/img/items/0x3185.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scourge | `0x3185` | — |
 | <img src="/img/items/0x1848.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | scouring toxin | `0x1848` | — |
-| <img src="/img/items/0x26B4.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sea serpent scales | `0x26B4` | — |
+| <img src="/img/items/0x26B4-h08B0.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sea serpent scales | `0x26B4` | — |
 | <img src="/img/items/0x0DCF.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | seed | `0x0DCF` | 1 |
 | <img src="/img/items/0x5736.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | seed of renewal | `0x5736` | — |
 | <img src="/img/items/0x1059.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | sextant parts | `0x1059` | 2 |
@@ -241,5 +241,5 @@ Auto-generated catalog of every Resources — raw crafting materials — ingots,
 | <img src="/img/items/0x103D.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wood pulp | `0x103D` | — |
 | <img src="/img/items/0x0DF8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | wool | `0x0DF8` | 4 |
 | <img src="/img/items/0x4B80.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | workable glass | `0x4B80` | 1 |
-| <img src="/img/items/0x1BD7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew board | `0x1BD7` | — |
+| <img src="/img/items/0x1BD7-h04A8.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | yew board | `0x1BD7` | — |
 | <img src="/img/items/0x26B7.png" class="uo-sprite" alt="" width="48" loading="lazy" /> | zoogi fungus | `0x26B7` | 0.1 |
