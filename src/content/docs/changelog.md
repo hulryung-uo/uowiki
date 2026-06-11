@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — By-profession hubs + PvP builds; plants/gardening; ServUO=emulator.  
+  Professions (23) · Guides (2) · Playing (1) · [Our Shard](/shard/) (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/b9ec1ef)</sub>
 - **Added** — Treasure hunting — system, skills, dig-location map, decoded-map gump.  
   [Treasure Hunting](/playing/treasure-hunting/) · [Cartography](/skills/cartography/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/8855a37)</sub>
 - **Updated** — Verbal commands in seven languages from client speech.mul.  
