@@ -388,60 +388,86 @@ def heading_for(category, sub):
     return md_escape(sub)
 
 
+# Expansion timeline — items are grouped under these in chronological order, so
+# Classic items come first, then each later expansion. Untagged items (era not
+# determinable from the source) fall into a final section.
+ERA_ORDER = ["Classic", "AOS", "SE", "ML", "SA", "HS", "TOL", "EJ"]
+ERA_NAMES = {
+    "Classic": "Classic (The Second Age era)",
+    "AOS": "Age of Shadows (AOS)",
+    "SE": "Samurai Empire (SE)",
+    "ML": "Mondain's Legacy (ML)",
+    "SA": "Stygian Abyss (SA)",
+    "HS": "High Seas (HS)",
+    "TOL": "Time of Legends (TOL)",
+    "EJ": "Endless Journey (EJ)",
+}
+ERA_UNTAGGED = "Era not determined"
+
+
+def _table(out, rows):
+    out.append("| Icon | Name | Item ID | Weight |")
+    out.append("|------|------|---------|--------|")
+    for it in rows:
+        out.append("| %s | %s | `%s` | %s |" % (
+            icon_cell(it["png"]), md_escape(it["name"]),
+            it["item_id"], weight_cell(it["weight"])))
+    out.append("")
+
+
+def _write_subcats(out, category, rows, heading_level):
+    """Emit rows grouped by subcategory under the given heading level (## or ###)."""
+    groups = {}
+    for it in rows:
+        groups.setdefault(it["subcategory"] or "All", []).append(it)
+    keys = sorted(groups.keys(), key=subcat_sort_key(category))
+    single = len(keys) == 1 and keys[0] == "All"
+    for sub in keys:
+        if not single:
+            out.append("%s %s\n" % (heading_level, heading_for(category, sub)))
+        _table(out, groups[sub])
+
+
 def write_category_page(out_dir, category, items):
     slug = slugify(category)
     order = CATEGORY_ORDER[category]
 
-    # group by subcategory
-    groups = {}
-    for it in items:
-        sub = it["subcategory"] or "All"
-        groups.setdefault(sub, []).append(it)
-    sub_keys = sorted(groups.keys(), key=subcat_sort_key(category))
-
-    # Include an Era column on this page only if at least one item has a
-    # known expansion era. Kept consistent across all subcategory tables.
-    show_era = any(it.get("era") for it in items)
-
     blurb = CATEGORY_BLURB.get(category, "items")
     title = category
-    description = ("Every %s item in the ServUO source (%d) — %s — with art, "
-                   "item IDs and weights." % (category, len(items), blurb))
-    sources = ["servuo: Scripts/Items", "client: artLegacyMUL.uop"]
+    description = ("Every %s item in the ServUO source (%d) — %s — grouped by the "
+                   "expansion era it was introduced in, with art, item IDs and "
+                   "weights." % (category, len(items), blurb))
+    sources = ["servuo: Scripts/Items", "servuo: Scripts/Services/Craft (eras)",
+               "client: artLegacyMUL.uop"]
 
     out = [frontmatter(title, description, sources, order)]
-    out.append("Auto-generated catalog of every %s — %s (%d items). Items are "
-               "classified by gameplay type from the ServUO source; icons are "
-               "static client art and item IDs are the resolved ServUO "
-               "`ItemID`.\n" % (category, blurb, len(items)))
+    out.append("Auto-generated catalog of every %s — %s (%d items), **grouped by the "
+               "game era each was introduced in** (oldest first). Era is derived from "
+               "the ServUO craft definitions; items with no determinable era are listed "
+               "last. Icons are static client art.\n" % (category, blurb, len(items)))
 
-    single = len(sub_keys) == 1 and sub_keys[0] == "All"
-    for sub in sub_keys:
-        rows = groups[sub]
-        if not single:
-            out.append("## %s\n" % heading_for(category, sub))
-        if show_era:
-            out.append("| Icon | Name | Item ID | Weight | Era |")
-            out.append("|------|------|---------|--------|-----|")
-            for it in rows:
-                out.append("| %s | %s | `%s` | %s | %s |" % (
-                    icon_cell(it["png"]),
-                    md_escape(it["name"]),
-                    it["item_id"],
-                    weight_cell(it["weight"]),
-                    it.get("era") or "",
-                ))
-        else:
-            out.append("| Icon | Name | Item ID | Weight |")
-            out.append("|------|------|---------|--------|")
-            for it in rows:
-                out.append("| %s | %s | `%s` | %s |" % (
-                    icon_cell(it["png"]),
-                    md_escape(it["name"]),
-                    it["item_id"],
-                    weight_cell(it["weight"]),
-                ))
-        out.append("")
+    # Bucket by era; only craftable items carry one, the rest go to "untagged".
+    by_era = {}
+    for it in items:
+        by_era.setdefault(it.get("era") or ERA_UNTAGGED, []).append(it)
+
+    has_any_era = any(e in by_era for e in ERA_ORDER)
+    if not has_any_era:
+        # Nothing in this category is era-tagged — just group by subcategory.
+        _write_subcats(out, category, items, "##")
+    else:
+        for era in ERA_ORDER:
+            if era not in by_era:
+                continue
+            rows = by_era[era]
+            out.append("## %s  *(%d)*\n" % (md_escape(ERA_NAMES[era]), len(rows)))
+            _write_subcats(out, category, rows, "###")
+        if ERA_UNTAGGED in by_era:
+            rows = by_era[ERA_UNTAGGED]
+            out.append("## %s  *(%d)*\n" % (ERA_UNTAGGED, len(rows)))
+            out.append("Not craftable, so the source gives no introduction era "
+                       "(many are loot, artifacts, or world items).\n")
+            _write_subcats(out, category, rows, "###")
 
     with open(os.path.join(out_dir, "%s.md" % slug), "w") as f:
         f.write("\n".join(out).rstrip() + "\n")
