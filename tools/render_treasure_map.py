@@ -166,11 +166,16 @@ def render_example(base: Image.Image, uop: uoplib.UopFile, spot: dict, out_path:
     """Crop a ~EXAMPLE_WINDOW regional view around `spot`, frame it with the
     client parchment art, draw a red pin at the dig spot."""
     ux, uy = spot["x"], spot["y"]
-    half = EXAMPLE_WINDOW // 2
-    cx1 = max(0, ux - half)
-    cy1 = max(0, uy - half)
-    cx2 = min(BRIT_W, ux + half)
-    cy2 = min(BRIT_H, uy + half)
+    # The game offsets the dig spot within the window rather than centering it
+    # (TreasureMap.cs: x1 = ChestLocation.X - RandomMinMax(width/4, 3*width/4)),
+    # so the pin sits off-centre and you must read the surrounding terrain to
+    # pinpoint it. Reproduce that with a fixed off-centre placement.
+    off_x = int(EXAMPLE_WINDOW * 0.38)
+    off_y = int(EXAMPLE_WINDOW * 0.60)
+    cx1 = max(0, min(ux - off_x, BRIT_W - EXAMPLE_WINDOW))
+    cy1 = max(0, min(uy - off_y, BRIT_H - EXAMPLE_WINDOW))
+    cx2 = cx1 + EXAMPLE_WINDOW
+    cy2 = cy1 + EXAMPLE_WINDOW
 
     region = base.crop((cx1, cy1, cx2, cy2)).convert("RGBA")
     # Upscale the regional view for legibility.

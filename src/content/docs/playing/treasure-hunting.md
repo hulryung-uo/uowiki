@@ -121,16 +121,27 @@ says you are "very close."
 
 ## Reading the map (the gump)
 
-When you decode a map it opens as a small parchment window showing a **regional view** of
-the area around the buried chest, with a **red pin** marking the exact spot. You read the
-surrounding terrain (coastline, roads, landmarks), travel to that real-world location, and
-dig within range of the pin.
+A decoded treasure map is exactly that — **a Cartography-drawn map of a patch of the world,
+with a single pin stuck in it** at the buried chest. It isn't a list of coordinates; it's a
+picture of the terrain you have to recognize.
 
-![Example of a decoded treasure map: a regional parchment view with a red pin at the dig spot](/img/treasure/example-map.png)
+Mechanically (`servuo: Scripts/Services/TreasureMaps/TreasureMap.cs`), when the map is made
+it captures a **600 × 600-tile region** of Britannia (Felucca/Trammel) around the chest —
+smaller on the other facets (300 × 300, or 200 × 200 in Ter Mur) — and shows it as a small
+parchment gump (the decoded-map item is graphic `0x14EC`). The map then calls
+`AddWorldPin(ChestLocation)` to drop **one pin** on the spot.
 
-*An example decoded map (rendered from the Felucca world map framed with the client's
-map-window parchment art, gump `0x139D`; red X marks the dig spot).* The in-client gump is
-the same idea: terrain inside a parchment frame with the dig location pinned.
+Crucially, the chest is **not in the centre**: the captured window is offset so the dig spot
+lands somewhere between a quarter and three-quarters across the map
+(`x1 = ChestLocation.X − RandomMinMax(width/4, 3·width/4)`). So you can't just sail to the
+middle — you have to **read the coastline, rivers, roads and landmarks** around the pin,
+match them to the real world, ride or sail there, and dig within range of that exact spot.
+
+![Example of a decoded treasure map: a 600-tile regional parchment view with a single pin off-centre at the dig spot](/img/treasure/example-map.png)
+
+*An example decoded map — a 600 × 600-tile slice of Felucca framed with the client's
+map-window parchment art (gump `0x139D`), the pin (red X) sitting off-centre at the dig spot,
+just as the game places it.*
 
 ## The dig locations
 
