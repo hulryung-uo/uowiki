@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Declutter sidebar, divide Monsters by type, PNG-default/GIF-on-hover.  
+  [Bestiary](/bestiary/) (570) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c1a4920)</sub>
 - **Updated** — Server-standard skin tone + colored clothing, fuller armor gallery.  
   [Paperdoll](/reference/paperdoll/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/2b46abe)</sub>
 - **Updated** — Show equipped humanoid mobs — dressed paperdoll + worn items.  
