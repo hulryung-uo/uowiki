@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Verbal commands, UI/gumps reference, UO splash background.  
+  [Character And Stats](/playing/character-and-stats/) · [Communication And Social](/playing/communication-and-social/) · [Housing](/playing/housing/) · [Interface](/playing/interface/) · [Targeting](/playing/targeting/) · [Verbal Commands](/playing/verbal-commands/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/08084a7)</sub>
 - **Added** — Detailed Weapons, Armor, and Tools references.  
   [Armor](/items/armor/) · [Items](/items/) · [Tools](/items/tools/) · [Weapons](/items/weapons/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/209346a)</sub>
 - **Updated** — Render power words in the UO game font too (extracted from fonts.mul).  
