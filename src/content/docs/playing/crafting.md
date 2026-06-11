@@ -4,10 +4,12 @@ description: The universal crafting loop — tool to menu to category to item to
 status: unverified
 sources:
   - "servuo: Scripts/Services/Craft/Core/CraftGump.cs, CraftItem.cs (craft menu flow, exceptional chance, maker's mark)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (failed skill check consumes the FULL listed resources for standard recipes — ConsumeType.All)"
   - "servuo: Scripts/Services/Craft/Core/QueryMakersMarkGump.cs, Repair.cs, Enhance.cs, Resmelt.cs (mark/repair/enhance/smelt features)"
   - "servuo: Scripts/Services/Craft/Def*.cs (per-trade craft definitions: Blacksmithy, Tailoring, Tinkering, Carpentry, BowFletching, Inscription, Cooking, Alchemy, Cartography, Masonry, Glassblowing)"
+  - "in-game: foundry blacksmith evals 2026-06-12 (run c16f4 cycles 1-4 — 12 consecutive failed weapon crafts each burned the full 10-ingot cost; agent logs data/eval_logs/agent-evoc16f4c1s*/c3s*/c4s*)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-12
 generated: false
 ---
 
@@ -39,7 +41,10 @@ Every trade follows the same five steps (verified against the craft system in
    for smithing, an **oven** for baking, a **loom** for cloth, etc.).
 2. **Double-click the trade tool.** This opens the **craft menu** (the `CraftGump`).
 3. **Pick a category.** The menu groups items into categories (for a smith: weapons,
-   armor, shields…). Click the category to see its items.
+   armor, shields…). Click the category to see its items. Note the category layout is
+   **era-dependent**: on this shard (Endless Journey era) the smith menu merges ring,
+   chain and plate into a single **Metal Armor** category, and era-gated items appear in
+   every list — so an item's position differs from classic-era references.
 4. **Pick an item.** Each item shows the **skill required** and the **materials it
    consumes**. Items you lack the skill or materials for are marked.
 5. **Make it.** Click *Make Now* (or set a quantity to batch-craft). Your character works
@@ -109,15 +114,19 @@ the share of those items that come out exceptional.
 
 ## Failure and material loss
 
-Crafting can fail, and **failure can consume some of your materials**. In general:
+Crafting can fail, and **failure destroys materials** (field-verified for smithing):
 
-- A failed attempt may **destroy part of the resources** for that item (the craft system
-  rolls this per attempt). Cheap, low-skill items rarely hurt; expensive colored-resource
-  items can burn material on failure.
-- Your **failure rate falls as your skill rises** above the recipe's requirement. Train on
-  cheap items before risking rare materials.
-- Exact loss amounts depend on the recipe and resource and are not restated here
-  (unverified specifics) — practice on common materials first.
+- For standard recipes a failed skill check consumes the **full listed resources** for
+  that item, not a fraction (`CraftItem.cs` rolls the consume with `ConsumeType.All`
+  for normal recipes). In live tests, 12 consecutive failed weapon attempts each burned
+  the complete 10-ingot cost — 120 ingots for zero items.
+- Your **success chance scales linearly across a 50-point window** above the recipe's
+  minimum skill (e.g. at minimum skill you almost always fail; at minimum + 50 you never
+  do). Your failure rate falls as skill rises — train on cheap items before risking rare
+  materials.
+- **Pick the cheapest recipe your skill can train on.** For a smith the **Dagger**
+  (3 ingots, craftable from skill 0) is the cheapest trainer by far; a 10-ingot recipe
+  attempted too early wastes more than three times the metal per roll.
 
 ## Repairing items
 
