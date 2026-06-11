@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — House types (with rendered exteriors) + decorating guide.  
+  [Decorating](/playing/decorating/) · [House Types](/playing/house-types/) · [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c9081cc)</sub>
 - **Updated** — Dressed animated mob GIFs, enriched skill pages, 7x GM template.  
   [Skills](/skills/) (49) · [Bestiary](/bestiary/) (21) · [Character Templates](/templates/) (2) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/3fecf64)</sub>
 - **Added** — Add How to Play section — 22 operational game-mechanics pages.  
