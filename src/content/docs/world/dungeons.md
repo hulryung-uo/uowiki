@@ -17,27 +17,27 @@ yet confirmed against this shard's spawn files are marked **(unverified)**.
 
 ## Felucca / Trammel
 
-| Dungeon | Location (x, y) | Danger summary |
-|---------|-----------------|----------------|
-| Despise | [(1301, 1090)](https://uomap.vercel.app/?facet=felucca&x=1301&y=1090&z=2) | Ettins, ogres, earth elementals — a fair first dungeon. |
-| Orc Cave | [(1017, 1430)](https://uomap.vercel.app/?facet=felucca&x=1017&y=1430&z=2) | Orc clans; manageable for new fighters. |
-| Covetous | [(2498, 921)](https://uomap.vercel.app/?facet=felucca&x=2498&y=921&z=2) | Multi-level: harpies up top, liches and daemons below. |
-| Shame | [(511, 1565)](https://uomap.vercel.app/?facet=felucca&x=511&y=1565&z=2) | Earth and air elementals; classic mage-loot dungeon. |
-| Wrong | [(2043, 238)](https://uomap.vercel.app/?facet=felucca&x=2043&y=238&z=2) | Prison dungeon with mixed monsters. |
-| Deceit | [(4111, 434)](https://uomap.vercel.app/?facet=felucca&x=4111&y=434&z=2) | Undead-infested island dungeon — bring spirit and silver. |
-| Destard | [(1176, 2637)](https://uomap.vercel.app/?facet=felucca&x=1176&y=2637&z=2) | Dragon-infested. Not a place to wander into by accident. |
-| Hythloth | [(4721, 3822)](https://uomap.vercel.app/?facet=felucca&x=4721&y=3822&z=2) | Volcanic depths: daemons and balrons. End-game territory. |
-| Fire Dungeon | [(2923, 3409)](https://uomap.vercel.app/?facet=felucca&x=2923&y=3409&z=2) | Fire elementals and dragons (unverified). |
-| Ice Dungeon | [(1999, 81)](https://uomap.vercel.app/?facet=felucca&x=1999&y=81&z=2) | Ice elementals and frost trolls (unverified). |
-| Khaldun | [(5571, 1320)](https://uomap.vercel.app/?facet=felucca&x=5571&y=1320&z=2) | Ancient Lost Lands tomb; powerful undead (unverified). |
-| Solen Hive | [(2607, 763)](https://uomap.vercel.app/?facet=felucca&x=2607&y=763&z=2) | Underground ant hive of the Solen. |
-| Painted Caves | [(5765, 2622)](https://uomap.vercel.app/?facet=felucca&x=5765&y=2622&z=2) | Lost Lands cave system (unverified danger level). |
-| Terathan Keep | [(5451, 3143)](https://uomap.vercel.app/?facet=felucca&x=5451&y=3143&z=2) | Terathan fortress in the Lost Lands. |
-| Blighted Grove | [(587, 1641)](https://uomap.vercel.app/?facet=felucca&x=587&y=1641&z=2) | Corrupted forest, twisted creatures (ML content; unverified). |
-| Prism of Light | [(3785, 1090)](https://uomap.vercel.app/?facet=felucca&x=3785&y=1090&z=2) | Crystal dungeon (ML content; unverified). |
-| Twisted Weald | [(2170, 1240)](https://uomap.vercel.app/?facet=felucca&x=2170&y=1240&z=2) | Fey-haunted dark forest (ML content; unverified). |
-| Ankh Dungeon | [(710, 1362)](https://uomap.vercel.app/?facet=felucca&x=710&y=1362&z=2) | Small dungeon near the Ankh (unverified). |
-| Wisp Dungeon | [(652, 1298)](https://uomap.vercel.app/?facet=felucca&x=652&y=1298&z=2) | Wisp-inhabited caverns (unverified). |
+| Dungeon | Location (x, y) | Map | Danger summary |
+|---------|-----------------|-----|----------------|
+| Despise | [(1301, 1090)](https://uomap.vercel.app/?facet=felucca&x=1301&y=1090&z=2) | [<img src="/img/maps/dungeon-despise.png" alt="Despise location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=1301&y=1090&z=2) | Ettins, ogres, earth elementals — a fair first dungeon. |
+| Orc Cave | [(1017, 1430)](https://uomap.vercel.app/?facet=felucca&x=1017&y=1430&z=2) | [<img src="/img/maps/dungeon-orc-cave.png" alt="Orc Cave location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=1017&y=1430&z=2) | Orc clans; manageable for new fighters. |
+| Covetous | [(2498, 921)](https://uomap.vercel.app/?facet=felucca&x=2498&y=921&z=2) | [<img src="/img/maps/dungeon-covetous.png" alt="Covetous location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=2498&y=921&z=2) | Multi-level: harpies up top, liches and daemons below. |
+| Shame | [(511, 1565)](https://uomap.vercel.app/?facet=felucca&x=511&y=1565&z=2) | [<img src="/img/maps/dungeon-shame.png" alt="Shame location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=511&y=1565&z=2) | Earth and air elementals; classic mage-loot dungeon. |
+| Wrong | [(2043, 238)](https://uomap.vercel.app/?facet=felucca&x=2043&y=238&z=2) | [<img src="/img/maps/dungeon-wrong.png" alt="Wrong location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=2043&y=238&z=2) | Prison dungeon with mixed monsters. |
+| Deceit | [(4111, 434)](https://uomap.vercel.app/?facet=felucca&x=4111&y=434&z=2) | [<img src="/img/maps/dungeon-deceit.png" alt="Deceit location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=4111&y=434&z=2) | Undead-infested island dungeon — bring spirit and silver. |
+| Destard | [(1176, 2637)](https://uomap.vercel.app/?facet=felucca&x=1176&y=2637&z=2) | [<img src="/img/maps/dungeon-destard.png" alt="Destard location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=1176&y=2637&z=2) | Dragon-infested. Not a place to wander into by accident. |
+| Hythloth | [(4721, 3822)](https://uomap.vercel.app/?facet=felucca&x=4721&y=3822&z=2) | [<img src="/img/maps/dungeon-hythloth.png" alt="Hythloth location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=4721&y=3822&z=2) | Volcanic depths: daemons and balrons. End-game territory. |
+| Fire Dungeon | [(2923, 3409)](https://uomap.vercel.app/?facet=felucca&x=2923&y=3409&z=2) | [<img src="/img/maps/dungeon-fire-dungeon.png" alt="Fire Dungeon location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=2923&y=3409&z=2) | Fire elementals and dragons (unverified). |
+| Ice Dungeon | [(1999, 81)](https://uomap.vercel.app/?facet=felucca&x=1999&y=81&z=2) | [<img src="/img/maps/dungeon-ice-dungeon.png" alt="Ice Dungeon location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=1999&y=81&z=2) | Ice elementals and frost trolls (unverified). |
+| Khaldun | [(5571, 1320)](https://uomap.vercel.app/?facet=felucca&x=5571&y=1320&z=2) | [<img src="/img/maps/dungeon-khaldun.png" alt="Khaldun location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=5571&y=1320&z=2) | Ancient Lost Lands tomb; powerful undead (unverified). |
+| Solen Hive | [(2607, 763)](https://uomap.vercel.app/?facet=felucca&x=2607&y=763&z=2) | [<img src="/img/maps/dungeon-solen-hive.png" alt="Solen Hive location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=2607&y=763&z=2) | Underground ant hive of the Solen. |
+| Painted Caves | [(5765, 2622)](https://uomap.vercel.app/?facet=felucca&x=5765&y=2622&z=2) | [<img src="/img/maps/dungeon-painted-caves.png" alt="Painted Caves location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=5765&y=2622&z=2) | Lost Lands cave system (unverified danger level). |
+| Terathan Keep | [(5451, 3143)](https://uomap.vercel.app/?facet=felucca&x=5451&y=3143&z=2) | [<img src="/img/maps/dungeon-terathan-keep.png" alt="Terathan Keep location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=5451&y=3143&z=2) | Terathan fortress in the Lost Lands. |
+| Blighted Grove | [(587, 1641)](https://uomap.vercel.app/?facet=felucca&x=587&y=1641&z=2) | [<img src="/img/maps/dungeon-blighted-grove.png" alt="Blighted Grove location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=587&y=1641&z=2) | Corrupted forest, twisted creatures (ML content; unverified). |
+| Prism of Light | [(3785, 1090)](https://uomap.vercel.app/?facet=felucca&x=3785&y=1090&z=2) | [<img src="/img/maps/dungeon-prism-of-light.png" alt="Prism of Light location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=3785&y=1090&z=2) | Crystal dungeon (ML content; unverified). |
+| Twisted Weald | [(2170, 1240)](https://uomap.vercel.app/?facet=felucca&x=2170&y=1240&z=2) | [<img src="/img/maps/dungeon-twisted-weald.png" alt="Twisted Weald location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=2170&y=1240&z=2) | Fey-haunted dark forest (ML content; unverified). |
+| Ankh Dungeon | [(710, 1362)](https://uomap.vercel.app/?facet=felucca&x=710&y=1362&z=2) | [<img src="/img/maps/dungeon-ankh-dungeon.png" alt="Ankh Dungeon location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=710&y=1362&z=2) | Small dungeon near the Ankh (unverified). |
+| Wisp Dungeon | [(652, 1298)](https://uomap.vercel.app/?facet=felucca&x=652&y=1298&z=2) | [<img src="/img/maps/dungeon-wisp-dungeon.png" alt="Wisp Dungeon location" width="160" />](https://uomap.vercel.app/?facet=felucca&x=652&y=1298&z=2) | Wisp-inhabited caverns (unverified). |
 
 ## Ilshenar
 

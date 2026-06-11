@@ -15,6 +15,7 @@ Outputs:
   - public/img/maps/felucca-dungeons.png
   - public/img/maps/felucca-moongates-shrines.png
   - public/img/maps/city-<slug>.png  (8 cities)
+  - public/img/maps/dungeon-<slug>.png  (one per felucca dungeon)
 
 Run:  uv run --script tools/gen_maps.py
 """
@@ -42,6 +43,9 @@ OVERVIEW_WIDTH = 1500
 CITY_MAX_SIDE = 1600
 CITY_PAD = 0.10
 CITY_MAX_LABELS = 25
+
+DUNGEON_WINDOW = 1100   # UO units, full crop side (~550 each direction from center)
+DUNGEON_MAX_WIDTH = 520  # downscaled output width for table thumbnails
 
 COLORS = {
     "city": ("#22c55e", "#ffffff"),       # fill, outline
@@ -349,6 +353,46 @@ def make_city_map(base: Image.Image, city_name, bounds, pois, out_path: Path):
     img.convert("RGB").save(out_path, optimize=True)
 
 
+def dungeon_slug(name: str) -> str:
+    """Slug for a dungeon image: lowercased, spaces->hyphens, apostrophes removed."""
+    s = name.lower().replace("'", "").replace("’", "")
+    s = re.sub(r"\s+", "-", s.strip())
+    return s
+
+
+def make_dungeon_map(base: Image.Image, dungeon, out_path: Path):
+    """Crop a ~DUNGEON_WINDOW square around the dungeon, mark it, label it,
+    downscale to DUNGEON_MAX_WIDTH. Reuses to_px/draw_marker/place_label."""
+    px_per_uo = base.width / UO_W  # 1.0 for the felucca image
+    half = DUNGEON_WINDOW / 2.0
+    ux, uy = dungeon["x"], dungeon["y"]
+
+    cx1 = max(0, round((ux - half) * px_per_uo))
+    cy1 = max(0, round((uy - half) * px_per_uo))
+    cx2 = min(base.width, round((ux + half) * px_per_uo))
+    cy2 = min(base.height, round((uy + half) * px_per_uo))
+
+    img = base.crop((cx1, cy1, cx2, cy2)).convert("RGBA")
+    scale = 1.0
+    if img.width > DUNGEON_MAX_WIDTH:
+        scale = DUNGEON_MAX_WIDTH / img.width
+        img = img.resize((round(img.width * scale), round(img.height * scale)),
+                         Image.LANCZOS)
+
+    draw = ImageDraw.Draw(img, "RGBA")
+    font = load_font(16)
+
+    def to_px(px_x, px_y):
+        return ((px_x * px_per_uo - cx1) * scale, (px_y * px_per_uo - cy1) * scale)
+
+    mx, my = to_px(ux, uy)
+    taken = [(mx - 7, my - 7, mx + 7, my + 7)]
+    draw_marker(draw, mx, my, 7, COLORS["dungeon"][0])
+    place_label(draw, taken, mx, my, 7, dungeon["name"], font)
+
+    img.convert("RGB").save(out_path, optimize=True)
+
+
 # ---------------------------------------------------------------- main
 
 def main():
@@ -390,6 +434,18 @@ def main():
             continue
         out = OUT_DIR / f"city-{slug}.png"
         make_city_map(base, info["name"], info["bounds"], pois, out)
+        print(f"wrote {out.name}")
+
+    seen_slugs = {}
+    for d in pois.get("dungeon", []):
+        slug = dungeon_slug(d["name"])
+        # Resolve name collisions deterministically: -2, -3, ...
+        n = seen_slugs.get(slug, 0) + 1
+        seen_slugs[slug] = n
+        if n > 1:
+            slug = f"{slug}-{n}"
+        out = OUT_DIR / f"dungeon-{slug}.png"
+        make_dungeon_map(base, d, out)
         print(f"wrote {out.name}")
 
 

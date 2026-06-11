@@ -1,19 +1,24 @@
 # /// script
 # requires-python = ">=3.11"
 # ///
-"""Generate the wiki's Recent Changes page from git history.
+"""Generate the wiki's Recent Changes page for READERS, from git history.
 
-The wiki uses a commit convention (see CLAUDE.md): `wiki(<section>): <summary>
-(<provenance>)` and `report(<agent>): <claim>`. This reads `git log`, parses
-those, groups by date, and writes a reader- and agent-facing changelog at
-src/content/docs/changelog.md — so anyone (including agents asking "what changed
-since I last looked?") can see the wiki's history without reading git.
+This page exists so someone browsing the wiki can see what game knowledge was
+recently added, updated, or corrected — not a developer commit log. So it only
+reports commits that actually changed reader-facing content (anything under
+src/content/docs/), and describes each in plain language with links to the
+pages and sections that changed. Tooling, config, deploy, and MCP commits never
+touch docs/, so they are filtered out automatically.
 
-Regenerate it as part of shipping (LIBRARIAN.md step 7) or any time:
+Each entry is classified Added / Updated / Fixed from the files' git status and
+the commit message, and corrections traced to an in-game discrepancy report are
+flagged as such.
+
+Regenerate at ship time (LIBRARIAN.md step 7) or any time:
     python3 tools/gen_changelog.py
 
-It is a generated page — never hand-edit it. Commits that only touch the
-changelog itself are skipped so it doesn't echo its own updates.
+Generated page — never hand-edit. Well-formed commit messages
+(`wiki(<section>): <plain summary>`) are what make it read well.
 """
 
 from __future__ import annotations
@@ -24,40 +29,63 @@ import subprocess
 from pathlib import Path
 
 WIKI_ROOT = Path(__file__).resolve().parent.parent
+DOCS_PREFIX = "src/content/docs/"
 OUT = WIKI_ROOT / "src" / "content" / "docs" / "changelog.md"
 REL_OUT = OUT.relative_to(WIKI_ROOT).as_posix()
 
-# Derive the GitHub commit URL base from the origin remote.
 REMOTE = subprocess.run(
     ["git", "-C", str(WIKI_ROOT), "config", "--get", "remote.origin.url"],
     capture_output=True, text=True,
 ).stdout.strip()
-COMMIT_BASE = ""
-if REMOTE:
-    slug = re.sub(r"\.git$", "", re.sub(r"^git@github\.com:", "", REMOTE))
-    slug = re.sub(r"^https?://github\.com/", "", slug)
-    if "/" in slug:
-        COMMIT_BASE = f"https://github.com/{slug}/commit/"
+_slug = re.sub(r"\.git$", "", re.sub(r"^git@github\.com:", "", REMOTE))
+_slug = re.sub(r"^https?://github\.com/", "", _slug)
+REPO_SLUG = _slug if "/" in _slug else ""
+COMMIT_BASE = f"https://github.com/{REPO_SLUG}/commit/" if REPO_SLUG else ""
 
 MAX_COMMITS = 500
-SEP = "\x1e"  # record separator unlikely to appear in a subject
 
-# Friendly labels for the section badge in `wiki(<section>): ...`.
+# Directory under docs/ -> the label readers see in the sidebar.
 SECTION_LABELS = {
-    "skills": "Skills", "magic": "Magic", "bestiary": "Bestiary",
+    "bestiary": "Bestiary", "magic": "Magic", "skills": "Skills",
     "items": "Items", "crafting": "Crafting", "world": "World",
-    "mechanics": "Mechanics", "shard": "Shard", "guides": "Guides",
-    "templates": "Templates", "assets": "Assets", "reports": "Reports",
-    "mcp": "MCP", "meta": "Meta", "config": "Config",
+    "mechanics": "Mechanics", "shard": "Our Shard", "guides": "Guides",
+    "templates": "Character Templates",
 }
+# When few pages change we link them; beyond this we just give a section + count.
+LIST_PAGES_UP_TO = 6
+# Words in a commit summary that mark a correction.
+FIX_RE = re.compile(r"\b(fix|correct|wrong|actually|does have|mistake|error)\b", re.I)
+# A trailing parenthetical that is provenance (file paths / urls / reports), not content.
+PROVENANCE_RE = re.compile(
+    r"\s*\((?:[^()]*\b(?:report|source|Scripts/|Spawns/|\.cs|https?://)[^()]*)\)\s*$"
+)
+
+
+def path_to_slug(path: str) -> str | None:
+    """src/content/docs/world/yew.md -> /world/yew/ ; index files -> section root."""
+    if not path.startswith(DOCS_PREFIX):
+        return None
+    rel = path[len(DOCS_PREFIX):]
+    rel = re.sub(r"\.(md|mdx)$", "", rel)
+    if rel in ("index", ""):
+        return "/"
+    rel = re.sub(r"/index$", "", rel)
+    return f"/{rel}/"
+
+
+def section_of(path: str) -> str:
+    rel = path[len(DOCS_PREFIX):]
+    top = rel.split("/")[0]
+    if "/" not in rel:  # a file sitting directly in docs/
+        return "Home"
+    return SECTION_LABELS.get(top, top.capitalize())
 
 
 def git_log() -> list[dict]:
-    """Return commits (newest first) with the files each touched."""
-    fmt = SEP.join(["%h", "%ad", "%s"])
+    """Commits newest-first, each with (status, path) for every file touched."""
     raw = subprocess.run(
-        ["git", "-C", str(WIKI_ROOT), "log", f"-{MAX_COMMITS}",
-         "--date=short", f"--pretty=format:__C__{fmt}", "--name-only"],
+        ["git", "-C", str(WIKI_ROOT), "log", f"-{MAX_COMMITS}", "--date=short",
+         "--pretty=format:__C__%h|%ad|%s", "--name-status"],
         capture_output=True, text=True, check=True,
     ).stdout
     commits: list[dict] = []
@@ -65,42 +93,94 @@ def git_log() -> list[dict]:
         block = block.strip("\n")
         if not block:
             continue
-        head, *rest = block.split("\n")
-        parts = head.split(SEP)
-        if len(parts) != 3:
-            continue
-        h, date, subject = parts
-        files = [ln for ln in rest if ln.strip()]
+        head, *rows = block.split("\n")
+        h, date, subject = head.split("|", 2)
+        files: list[tuple[str, str]] = []
+        for row in rows:
+            if not row.strip():
+                continue
+            cols = row.split("\t")
+            status = cols[0][0]  # A/M/D/R...
+            path = cols[-1]      # for renames, the new path
+            files.append((status, path))
         commits.append({"hash": h, "date": date, "subject": subject, "files": files})
     return commits
 
 
-def parse_subject(subject: str) -> tuple[str | None, str]:
-    """Split `wiki(section): summary` / `report(agent): claim` → (badge, text)."""
-    m = re.match(r"^(\w+)\(([^)]+)\):\s*(.*)$", subject)
-    if m:
-        kind, scope, text = m.groups()
-        if kind == "report":
-            return f"report · {scope}", text
-        return SECTION_LABELS.get(scope, scope), text
-    m = re.match(r"^(\w+):\s*(.*)$", subject)
-    if m:
-        kind, text = m.groups()
-        return SECTION_LABELS.get(kind, kind.capitalize()), text
-    return None, subject
+def clean_summary(subject: str) -> tuple[str, bool]:
+    """Strip the `wiki(section):` prefix and provenance tail; flag report-driven."""
+    from_report = bool(re.search(r"\(report\b", subject))
+    m = re.match(r"^\w+\([^)]*\):\s*(.*)$", subject) or re.match(r"^\w+:\s*(.*)$", subject)
+    text = m.group(1) if m else subject
+    text = PROVENANCE_RE.sub("", text).strip()
+    return text[:1].upper() + text[1:], from_report
 
 
-def md_escape(text: str) -> str:
-    # Escape table/markdown-hostile chars; keep it light — these are prose summaries.
+def md(text: str) -> str:
     return text.replace("|", "\\|").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def render_entry(c: dict) -> str | None:
+    docs = [(s, p) for s, p in c["files"]
+            if p.startswith(DOCS_PREFIX) and p != REL_OUT]
+    if not docs:
+        return None  # not a content change — skip (tooling/config/reports)
+
+    added = [p for s, p in docs if s == "A"]
+    changed = [p for s, p in docs if s != "A"]  # M, R, D...
+    summary, from_report = clean_summary(c["subject"])
+
+    if from_report or FIX_RE.search(c["subject"]):
+        kind = "Fixed"
+    elif added and not changed:
+        kind = "Added"
+    elif added and len(added) >= len(changed):
+        kind = "Added"
+    else:
+        kind = "Updated"
+
+    # Affected pages grouped by section (skip deletes from the visible list).
+    visible = [(s, p) for s, p in docs if s != "D"]
+    pages = [p for _, p in visible]
+    sections: dict[str, int] = {}
+    for _, p in visible:
+        sections[section_of(p)] = sections.get(section_of(p), 0) + 1
+
+    if 0 < len(pages) <= LIST_PAGES_UP_TO:
+        links = []
+        for p in pages:
+            slug = path_to_slug(p)
+            title = slug.strip("/").split("/")[-1].replace("-", " ").title() if slug and slug != "/" else "Home"
+            links.append(f"[{title}]({slug})" if slug else title)
+        where = " · ".join(links)
+    else:
+        where = " · ".join(
+            f"[{name}]({_section_link(name)}) ({n})" if _section_link(name) else f"{name} ({n})"
+            for name, n in sorted(sections.items(), key=lambda kv: -kv[1])
+        )
+
+    note = " — from an in-game report" if from_report else ""
+    detail = f" <sub>[details]({COMMIT_BASE}{c['hash']})</sub>" if COMMIT_BASE else ""
+    return f"- **{kind}** — {md(summary)}.{note}  \n  {where}{detail}"
+
+
+def _section_link(label: str) -> str | None:
+    """Link a section to its index page only if that index actually exists."""
+    for dir_, name in SECTION_LABELS.items():
+        if name == label:
+            docs = WIKI_ROOT / "src" / "content" / "docs" / dir_
+            if (docs / "index.md").exists() or (docs / "index.mdx").exists():
+                return f"/{dir_}/"
+            return None
+    return None
 
 
 def render(commits: list[dict]) -> str:
     today = dt.date.today().isoformat()
-    lines = [
+    out = [
         "---",
         "title: Recent Changes",
-        "description: A running log of edits to the wiki, generated from its git history — what was added, corrected, or verified, and when.",
+        "description: What was recently added, updated, or corrected on the wiki.",
         "status: source-verified",
         "sources:",
         '  - "git: commit history of this repository"',
@@ -110,46 +190,38 @@ def render(commits: list[dict]) -> str:
         "",
         "<!-- AUTO-GENERATED by tools/gen_changelog.py from git history — do not hand-edit -->",
         "",
-        "Every edit to this wiki is a git commit. This page is generated from that",
-        "history so readers and agents can see what changed without reading the repo.",
-        "Corrections driven by an in-game [discrepancy report](/guides/wiki-conventions/)",
-        "or a ServUO source check are noted in the entry.",
+        "What's new and what's been corrected on the wiki. Entries marked",
+        '"from an in-game report" are fixes an [AI resident filed](/guides/wiki-conventions/)',
+        "after the game contradicted a page.",
         "",
     ]
-    if COMMIT_BASE:
-        lines.append(f"Full history: [{REMOTE_SLUG()}]({COMMIT_BASE.rsplit('/commit/', 1)[0]}/commits/).")
-        lines.append("")
 
-    # Group by date, preserving newest-first order.
-    by_date: dict[str, list[dict]] = {}
+    by_date: dict[str, list[str]] = {}
     for c in commits:
-        if c["files"] and all(f == REL_OUT for f in c["files"]):
-            continue  # skip changelog-only commits
-        by_date.setdefault(c["date"], []).append(c)
+        entry = render_entry(c)
+        if entry:
+            by_date.setdefault(c["date"], []).append(entry)
 
-    for date in by_date:  # dict keeps insertion (newest-first) order
-        lines.append(f"## {date}")
-        lines.append("")
-        for c in by_date[date]:
-            badge, text = parse_subject(c["subject"])
-            prefix = f"**{md_escape(badge)}** — " if badge else ""
-            link = f" ([`{c['hash']}`]({COMMIT_BASE}{c['hash']}))" if COMMIT_BASE else f" (`{c['hash']}`)"
-            lines.append(f"- {prefix}{md_escape(text)}{link}")
-        lines.append("")
+    for date, entries in by_date.items():  # newest-first (git order preserved)
+        out.append(f"## {date}")
+        out.append("")
+        out.extend(entries)
+        out.append("")
 
-    return "\n".join(lines).rstrip() + "\n"
+    if COMMIT_BASE and REPO_SLUG:
+        out.append("---")
+        out.append("")
+        out.append(f"Every change is a tracked git commit — "
+                   f"[full history on GitHub](https://github.com/{REPO_SLUG}/commits/).")
 
-
-def REMOTE_SLUG() -> str:
-    return COMMIT_BASE.replace("https://github.com/", "").rsplit("/commit/", 1)[0]
+    return "\n".join(out).rstrip() + "\n"
 
 
 def main() -> None:
     commits = git_log()
     OUT.write_text(render(commits), encoding="utf-8")
-    shown = sum(1 for c in commits if not (c["files"] and all(f == REL_OUT for f in c["files"])))
-    print(f"wrote {REL_OUT}: {shown} entries across "
-          f"{len({c['date'] for c in commits})} day(s)")
+    n = sum(1 for c in commits if render_entry(c))
+    print(f"wrote {REL_OUT}: {n} content change(s)")
 
 
 if __name__ == "__main__":

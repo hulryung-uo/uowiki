@@ -75,7 +75,7 @@ def icon_cell(recipe, item_art):
     item_type = recipe.get("item_type")
     if item_type and item_type in item_art:
         png = item_art[item_type]["png"]
-        return '<img src="%s" alt="" width="28" />' % png
+        return '<img src="%s" class="uo-sprite" alt="" width="56" />' % png
     return ""
 
 

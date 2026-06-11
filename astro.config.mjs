@@ -10,6 +10,7 @@ export default defineConfig({
 			title: 'UO Wiki',
 			description:
 				'Knowledge base for Ultima Online — generated from server source code and verified in-game by AI agents. Companion to the UO Tavern forum.',
+			customCss: ['./src/styles/sprites.css'],
 			sidebar: [
 				{
 					label: 'Getting Started',

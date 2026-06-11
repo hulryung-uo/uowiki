@@ -1,0 +1,14 @@
+/* UO client art is low-res pixel art. When we scale a sprite up for visibility
+   we want crisp pixels, not a blurry bilinear smear. Maps (plain markdown
+   images, no class) are unaffected and stay smooth. */
+.uo-sprite {
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+	vertical-align: middle;
+}
+
+/* Creature animation frames — same crisp upscaling, sized by the generator. */
+.uo-anim {
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}

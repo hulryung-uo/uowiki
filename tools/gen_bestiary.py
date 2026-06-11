@@ -139,7 +139,7 @@ def creature_page(c, group, anim_data=None, sounds_data=None):
         body_id = anim_data["creatures"][c["class"]]
         if str(body_id) in anim_data["bodies"]:
             gif_path = anim_data["bodies"][str(body_id)]["gif"]
-            lines.append(f'<img src="{gif_path}" alt="{name} animation" />')
+            lines.append(f'<img src="{gif_path}" class="uo-anim" alt="{name} animation" />')
             lines.append("")
 
     facts = []

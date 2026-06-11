@@ -95,7 +95,7 @@ def gen_spell_page(spell: dict, spell_id: int, circles: dict, spell_icons: dict)
     spell_id_str = str(spell_id)
     icon_html = ""
     if spell_id_str in spell_icons.get("icons", {}):
-        icon_html = f'<img src="/img/spells/{spell_id_str}.png" alt="{spell["name"]} spell icon" width="44" height="44" />\n\n'
+        icon_html = f'<img src="/img/spells/{spell_id_str}.png" class="uo-sprite" alt="{spell["name"]} spell icon" width="72" height="72" />\n\n'
 
     body = f"""{icon_html}*{spell['mantra']}* — {CIRCLE_WORDS[c]} Circle Magery
 
@@ -162,7 +162,7 @@ def gen_index(spells: list, circles: dict, spell_icons: dict) -> str:
             spell_id_str = str(spell_idx)
             icon_html = ""
             if spell_id_str in spell_icons.get("icons", {}):
-                icon_html = f'<img src="/img/spells/{spell_id_str}.png" alt="" width="22" height="22" />'
+                icon_html = f'<img src="/img/spells/{spell_id_str}.png" class="uo-sprite" alt="" width="44" height="44" />'
             out.append(f"| {icon_html} | {spell_link(s)} | *{s['mantra']}* | {', '.join(s['reagents'])} |")
         out.append("")
 
