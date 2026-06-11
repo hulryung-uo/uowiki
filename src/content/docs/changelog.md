@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — Treasure hunting — system, skills, dig-location map, decoded-map gump.  
+  [Treasure Hunting](/playing/treasure-hunting/) · [Cartography](/skills/cartography/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/8855a37)</sub>
 - **Updated** — Verbal commands in seven languages from client speech.mul.  
   [Verbal Commands](/playing/verbal-commands/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/b133847)</sub>
 - **Updated** — Verbal commands, UI/gumps reference, UO splash background.  
