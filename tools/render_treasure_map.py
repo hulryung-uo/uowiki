@@ -1,23 +1,30 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["pillow"]
+# dependencies = ["pillow", "numpy"]
 # ///
 """Render treasure-hunting images for the UO wiki.
 
 Outputs:
   public/img/treasure/locations.png    -- 193 classic dig sites plotted on Felucca
-  public/img/treasure/example-map.png  -- an example decoded treasure-map gump
+  public/img/treasure/example-map.png  -- the decoded treasure-map gump, drawn the way
+                                          the real client shows it: hand-drawn ink
+                                          line-art (coastline outlines + hatch ticks)
+                                          on a cream parchment scroll, with the client's
+                                          "Plot Course" title, compass rose and a
+                                          numbered pin at the dig spot.
 
 Reuses:
   - gen_maps.py's base image + 1px==1 UO unit coordinate mapping
-  - render_ui.py / uoplib gump decoder for the client parchment art (gump 0x139D)
+  - render_ui.py / uoplib gump decoder for the real client map-gump art
 
 Sources (read-only):
   - Base map:  /Users/dkkang/dev/uo/uomap/images/map_felucca.png (7170x4098, 1px/UO unit)
   - Sites:     data/treasure.json (from tools/extract_treasure.py)
-  - Parchment: /Users/dkkang/dev/uo/uo-resource/gumpartLegacyMUL.uop, gump 0x139D
-               (the map-window background tile the client uses for decoded maps;
-               ServUO MapItem.cs sends 0x139D as the map background)
+  - Client gump art: /Users/dkkang/dev/uo/uo-resource/gumpartLegacyMUL.uop
+      0x1432  parchment scroll frame (ResizePic 9-slice; wooden-rod end + edge)
+      0x1398  "Plot Course" title graphic (top centre)
+      0x139D  compass rose with "N" (bottom-right)
+    Gump IDs verified against ClassicUO MapGump.cs.
 
 Run:  uv run --script tools/render_treasure_map.py
 """
@@ -28,7 +35,8 @@ import struct
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+import numpy as np
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 WIKI = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(WIKI / "tools"))
@@ -41,11 +49,16 @@ OUT_DIR = WIKI / "public" / "img" / "treasure"
 UO_DIR = "/Users/dkkang/dev/uo/uo-resource"
 GUMP_UOP = os.path.join(UO_DIR, "gumpartLegacyMUL.uop")
 GUMP_PATTERN = "build/gumpartlegacymul/%08d.tga"
-PARCHMENT_GUMP = 0x139D  # map-window background tile (MapItem.cs)
+
+# Real client map-gump art (verified against ClassicUO MapGump.cs).
+FRAME_GUMP = 0x1432    # parchment scroll frame (ResizePic 9-slice)
+TITLE_GUMP = 0x1398    # "Plot Course" title graphic
+COMPASS_GUMP = 0x139D  # compass rose with "N"
 
 UO_W, UO_H = 7170, 4098  # felucca image == UO coordinate space (gen_maps.py)
 
 FONT_BOLD = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+UO_FONT = str(WIKI / "public" / "fonts" / "uo-ascii.ttf")
 
 # Britannia (Felucca/Trammel) coordinate bounds: 0..5119 x 0..4095.
 BRIT_W, BRIT_H = 5120, 4096
@@ -97,13 +110,70 @@ def decode_gump(uop: uoplib.UopFile, gump_id: int) -> Image.Image:
     return Image.frombytes("RGBA", (w, h), bytes(out))
 
 
-def tile_parchment(uop: uoplib.UopFile, w: int, h: int) -> Image.Image:
-    """Tile the client map-window parchment art (0x139D) to fill w x h."""
-    tile = decode_gump(uop, PARCHMENT_GUMP).convert("RGBA")
-    out = Image.new("RGBA", (w, h))
-    for ty in range(0, h, tile.height):
-        for tx in range(0, w, tile.width):
-            out.alpha_composite(tile, (tx, ty))
+# --------------------------------------------------------------- parchment scroll
+
+def make_parchment(w: int, h: int, seed: int = 7) -> Image.Image:
+    """A cream parchment canvas with subtle mottling, ready for ink line-art."""
+    rng = np.random.default_rng(seed)
+    base_col = np.array([0xec, 0xdf, 0xbe], dtype=np.float32)
+    noise = rng.normal(0, 6, (h, w, 1))
+    blob = Image.fromarray((rng.normal(0, 1, (h, w)) * 255).astype(np.uint8))
+    mott = np.asarray(blob.filter(ImageFilter.GaussianBlur(10)), dtype=np.float32)
+    mott -= mott.mean()
+    canvas = base_col[None, None, :] + noise + mott[..., None] * 0.6
+    arr = np.clip(canvas, 150, 240).astype(np.uint8)
+    return Image.fromarray(arr).convert("RGBA")
+
+
+def build_scroll(uop: uoplib.UopFile, body: Image.Image) -> Image.Image:
+    """Wrap `body` (the parchment line-art map) in the client scroll frame.
+
+    Gump 0x1432 is the ResizePic top-left corner: a wooden rod with a turned
+    finial on the left and the parchment top edge to the right. We slice it into
+    the rod band + finial and tile/mirror those to form top & bottom wooden rods
+    with end caps, leaving the parchment body between them.
+    """
+    corner = decode_gump(uop, FRAME_GUMP).convert("RGBA")  # 38x38
+    # The wooden rod occupies the upper band; the turned finial is the left ~14px.
+    rod_h = 22
+    finial_w = 14
+    rod_band = corner.crop((0, 0, corner.width, rod_h))
+    finial = corner.crop((0, 0, finial_w, rod_h))           # left turned cap
+    # A clean rod tile from the edge region (right of the finial), to repeat.
+    rod_tile = corner.crop((finial_w + 6, 0, corner.width, rod_h))
+
+    bw, bh = body.width, body.height
+    pad = 10  # parchment margin around the map
+    inner_w = bw + pad * 2
+    rod_overhang = 8  # rods stick out past the parchment a touch
+
+    full_w = inner_w + rod_overhang * 2
+    full_h = bh + pad * 2 + rod_h * 2
+    out = Image.new("RGBA", (full_w, full_h), (0, 0, 0, 0))
+
+    # Parchment body panel (slightly larger than the map, map centred on it).
+    panel = make_parchment(inner_w, bh + pad * 2, seed=11)
+    out.alpha_composite(panel, (rod_overhang, rod_h))
+    out.alpha_composite(body, (rod_overhang + pad, rod_h + pad))
+
+    def lay_rod(y_top: int, flip_v: bool):
+        rod = rod_tile
+        cap = finial
+        if flip_v:
+            rod = rod.transpose(Image.FLIP_TOP_BOTTOM)
+            cap = cap.transpose(Image.FLIP_TOP_BOTTOM)
+        # Tile the plain rod across the full width.
+        x = 0
+        while x < full_w:
+            out.alpha_composite(rod, (x, y_top))
+            x += rod.width
+        # End-cap finials (left as-is, right mirrored).
+        out.alpha_composite(cap, (0, y_top))
+        out.alpha_composite(cap.transpose(Image.FLIP_LEFT_RIGHT),
+                            (full_w - cap.width, y_top))
+
+    lay_rod(0, flip_v=False)               # top rod
+    lay_rod(full_h - rod_h, flip_v=True)   # bottom rod (mirrored)
     return out
 
 
@@ -162,9 +232,109 @@ def render_locations(base: Image.Image, locations: list[dict], out_path: Path):
 
 # --------------------------------------------------------------- example-map.png
 
+INK = (52, 34, 20, 255)  # dark sepia ink
+
+
+def land_water_mask(crop_rgb: Image.Image) -> np.ndarray:
+    """Classify each pixel land vs water on the Felucca base map.
+
+    Ocean is blue (B clearly above R and G, fairly dark); land is green/brown/
+    grey. A simple per-channel threshold splits them cleanly (the B-R histogram
+    on a regional crop is strongly bimodal). We then median-filter the mask so
+    coastlines come out smooth rather than pixel-noisy.
+    """
+    arr = np.asarray(crop_rgb).astype(np.int16)
+    r, g, b = arr[..., 0], arr[..., 1], arr[..., 2]
+    water = (b > r + 10) & (b > g + 5)
+    land = ~water
+    lm = Image.fromarray((land * 255).astype(np.uint8))
+    lm = lm.filter(ImageFilter.MedianFilter(7)).filter(ImageFilter.MedianFilter(5))
+    return np.asarray(lm) > 128
+
+
+def _mask_boundary(mask: np.ndarray) -> np.ndarray:
+    """Land pixels that touch water in a 4-neighbourhood (the coastline)."""
+    m = mask.astype(np.uint8)
+    up = np.zeros_like(m); up[1:, :] = m[:-1, :]
+    dn = np.zeros_like(m); dn[:-1, :] = m[1:, :]
+    lf = np.zeros_like(m); lf[:, 1:] = m[:, :-1]
+    rt = np.zeros_like(m); rt[:, :-1] = m[:, 1:]
+    return (m == 1) & (up + dn + lf + rt < 4)
+
+
+def render_lineart(land: np.ndarray, seed: int = 7) -> Image.Image:
+    """Hand-drawn ink map: coastline outlines + outward hatch ticks + sparse
+    stipple, all in sepia ink on a cream parchment canvas (no colour fill)."""
+    h, w = land.shape
+    coast = _mask_boundary(land)
+    img = make_parchment(w, h, seed=seed)
+    draw = ImageDraw.Draw(img, "RGBA")
+    px = img.load()
+
+    # Coastline: thicken the boundary by one pixel for a confident ink line.
+    thick = np.asarray(
+        Image.fromarray((coast * 255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3))
+    ) > 128
+    for y, x in zip(*np.where(thick)):
+        px[x, y] = INK
+
+    # Outward normals (toward water) from a blurred land field, for the ticks.
+    field = np.asarray(
+        Image.fromarray((land * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(2.5)),
+        dtype=np.float32,
+    ) / 255.0
+    gy, gx = np.gradient(field)
+    ys, xs = np.where(coast)
+    for i in range(len(ys)):
+        if i % 5:  # sample every 5th boundary pixel
+            continue
+        y, x = int(ys[i]), int(xs[i])
+        nx, ny = -gx[y, x], -gy[y, x]  # decreasing land -> water side
+        mag = (nx * nx + ny * ny) ** 0.5
+        if mag < 1e-3:
+            continue
+        nx /= mag; ny /= mag
+        draw.line((x + nx * 1.5, y + ny * 1.5, x + nx * 7, y + ny * 7),
+                  fill=INK, width=1)
+
+    # Very sparse stipple well inside large landmasses (the classic UO texture).
+    rng = np.random.default_rng(seed)
+    interior = np.asarray(
+        Image.fromarray((land * 255).astype(np.uint8)).filter(ImageFilter.MinFilter(11))
+    ) > 128
+    iy, ix = np.where(interior)
+    if len(iy):
+        sel = rng.choice(len(iy), size=min(len(iy) // 90, 400), replace=False)
+        for k in sel:
+            px[int(ix[k]), int(iy[k])] = INK
+
+    return img
+
+
+def draw_pin(draw: ImageDraw.ImageDraw, x: float, y: float):
+    """A numbered dig-spot marker: a little stake with a blue '1' label box."""
+    # Stake driven into the coast.
+    draw.line((x, y, x, y - 16), fill=(40, 30, 18, 255), width=3)
+    draw.ellipse((x - 3, y - 3, x + 3, y + 3), fill=(40, 30, 18, 255))
+    # Blue-outlined label box with "1".
+    bw, bh = 18, 16
+    bx, by = x - bw // 2, y - 16 - bh
+    draw.rectangle((bx, by, bx + bw, by + bh), fill=(247, 243, 224, 255),
+                   outline=(40, 78, 150, 255), width=2)
+    try:
+        font = ImageFont.truetype(UO_FONT, 13)
+    except OSError:
+        font = load_font(13)
+    tb = draw.textbbox((0, 0), "1", font=font)
+    tx = bx + (bw - (tb[2] - tb[0])) / 2 - tb[0]
+    ty = by + (bh - (tb[3] - tb[1])) / 2 - tb[1]
+    draw.text((tx, ty), "1", font=font, fill=(40, 78, 150, 255))
+
+
 def render_example(base: Image.Image, uop: uoplib.UopFile, spot: dict, out_path: Path):
-    """Crop a ~EXAMPLE_WINDOW regional view around `spot`, frame it with the
-    client parchment art, draw a red pin at the dig spot."""
+    """Draw the decoded map the way the real client does: ink line-art on a
+    parchment scroll, with the "Plot Course" title, compass rose and a numbered
+    pin at the dig spot."""
     ux, uy = spot["x"], spot["y"]
     # The game offsets the dig spot within the window rather than centering it
     # (TreasureMap.cs: x1 = ChestLocation.X - RandomMinMax(width/4, 3*width/4)),
@@ -177,49 +347,60 @@ def render_example(base: Image.Image, uop: uoplib.UopFile, spot: dict, out_path:
     cx2 = cx1 + EXAMPLE_WINDOW
     cy2 = cy1 + EXAMPLE_WINDOW
 
-    region = base.crop((cx1, cy1, cx2, cy2)).convert("RGBA")
-    # Upscale the regional view for legibility.
-    view_scale = 1.0
-    if region.width < 520:
-        view_scale = 520 / region.width
-        region = region.resize(
-            (round(region.width * view_scale), round(region.height * view_scale)),
-            Image.LANCZOS)
+    crop = base.crop((cx1, cy1, cx2, cy2)).convert("RGB")
+    land = land_water_mask(crop)
 
-    # Parchment frame: a border of tiled map-window art around the region.
-    border = 46
-    fw = region.width + border * 2
-    fh = region.height + border * 2
-    frame = tile_parchment(uop, fw, fh)
+    # Ink line-art at native crop resolution, then upscale for display.
+    art = render_lineart(land)
+    target_w = 460
+    view_scale = target_w / art.width
+    art = art.resize((target_w, round(art.height * view_scale)), Image.LANCZOS)
 
-    # Inset shadow + the regional map.
-    draw = ImageDraw.Draw(frame, "RGBA")
-    draw.rectangle((border - 3, border - 3, border + region.width + 2,
-                    border + region.height + 2), outline=(60, 40, 20, 255), width=3)
-    frame.alpha_composite(region, (border, border))
+    # A faint ink border framing the drawn map, like the real gump.
+    bd = ImageDraw.Draw(art, "RGBA")
+    bd.rectangle((1, 1, art.width - 2, art.height - 2),
+                 outline=(90, 64, 38, 160), width=1)
 
-    # Red pin at the dig spot, in framed coordinates.
-    draw = ImageDraw.Draw(frame, "RGBA")
-    pin_x = border + (ux - cx1) * view_scale
-    pin_y = border + (uy - cy1) * view_scale
-    r = 9
-    draw.line((pin_x - r, pin_y - r, pin_x + r, pin_y + r), fill="#ffffff", width=6)
-    draw.line((pin_x - r, pin_y + r, pin_x + r, pin_y - r), fill="#ffffff", width=6)
-    draw.line((pin_x - r, pin_y - r, pin_x + r, pin_y + r), fill="#dc2626", width=4)
-    draw.line((pin_x - r, pin_y + r, pin_x + r, pin_y - r), fill="#dc2626", width=4)
-    draw.ellipse((pin_x - 3, pin_y - 3, pin_x + 3, pin_y + 3),
-                 fill="#dc2626", outline="#ffffff", width=1)
+    # Numbered pin at the dig spot, in line-art coordinates.
+    draw = ImageDraw.Draw(art, "RGBA")
+    pin_x = (ux - cx1) * view_scale
+    pin_y = (uy - cy1) * view_scale
+    draw_pin(draw, pin_x, pin_y)
 
-    # Caption inside the lower parchment border.
-    cap_font = load_font(18)
-    cap = f"Decoded treasure map - dig near ({ux}, {uy}) on Felucca"
-    bb = draw.textbbox((0, 0), cap, font=cap_font)
-    cap_x = (fw - (bb[2] - bb[0])) // 2
-    draw.text((cap_x, border + region.height + 12), cap, font=cap_font,
-              fill="#2b1d0e", stroke_width=1, stroke_fill="#d8c08a")
+    # Wrap the map in the client parchment scroll frame (0x1432).
+    scroll = build_scroll(uop, art)
 
-    frame.convert("RGB").save(out_path, optimize=True)
-    print(f"wrote {out_path.relative_to(WIKI)}  (spot {ux},{uy}; {fw}x{fh})")
+    # Title (0x1398) across the top, compass rose (0x139D) bottom-right.
+    title = decode_gump(uop, TITLE_GUMP).convert("RGBA")
+    compass = decode_gump(uop, COMPASS_GUMP).convert("RGBA")
+
+    top_gap = 16
+    side_gap = 12
+    canvas_w = max(scroll.width, title.width + 8) + side_gap * 2
+    canvas_h = top_gap + title.height + 10 + scroll.height + side_gap
+    canvas = make_parchment(canvas_w, canvas_h, seed=3).convert("RGBA")
+    # Tint the outer canvas a touch darker so the scroll reads as a panel on it.
+    shade = Image.new("RGBA", (canvas_w, canvas_h), (120, 92, 52, 38))
+    canvas.alpha_composite(shade)
+
+    scroll_x = (canvas_w - scroll.width) // 2
+    scroll_y = top_gap + title.height + 10
+    canvas.alpha_composite(scroll, (scroll_x, scroll_y))
+
+    title_x = (canvas_w - title.width) // 2
+    canvas.alpha_composite(title, (title_x, top_gap))
+
+    cmp_scale = 1.55
+    compass = compass.resize(
+        (round(compass.width * cmp_scale), round(compass.height * cmp_scale)),
+        Image.LANCZOS)
+    cmp_x = scroll_x + scroll.width - compass.width - 18
+    cmp_y = scroll_y + scroll.height - compass.height - 18
+    canvas.alpha_composite(compass, (cmp_x, cmp_y))
+
+    canvas.convert("RGB").save(out_path, optimize=True)
+    print(f"wrote {out_path.relative_to(WIKI)}  (spot {ux},{uy}; "
+          f"{canvas_w}x{canvas_h})")
 
 
 # --------------------------------------------------------------- main

@@ -137,11 +137,13 @@ lands somewhere between a quarter and three-quarters across the map
 middle — you have to **read the coastline, rivers, roads and landmarks** around the pin,
 match them to the real world, ride or sail there, and dig within range of that exact spot.
 
-![Example of a decoded treasure map: a 600-tile regional parchment view with a single pin off-centre at the dig spot](/img/treasure/example-map.png)
+![Example of a decoded treasure map: an ink-drawn coastline on a parchment scroll with a numbered pin off-centre at the dig spot](/img/treasure/example-map.png)
 
-*An example decoded map — a 600 × 600-tile slice of Felucca framed with the client's
-map-window parchment art (gump `0x139D`), the pin (red X) sitting off-centre at the dig spot,
-just as the game places it.*
+*An example decoded map, drawn the way the client shows it — hand-inked coastline outlines
+(with the classic hatch ticks) on a parchment scroll, framed with the real client gump art:
+the "Plot Course" title bar (gump `0x1398`), the wooden-rod scroll frame (`0x1432`) and the
+compass rose (`0x139D`). The numbered pin sits off-centre at the dig spot, so you read the
+surrounding coastline to find the matching spot in the world.*
 
 ## The dig locations
 
