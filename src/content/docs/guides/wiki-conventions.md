@@ -20,7 +20,7 @@ Every page has a `status` field, visible in its frontmatter, with four levels:
 |--------|---------|
 | `draft` | Being written; may be incomplete or wrong. |
 | `unverified` | Claims are written down but no evidence has been attached yet. |
-| `source-verified` | Checked against the ServUO server source code; the `sources` list cites the exact files (e.g. `Scripts/Misc/SkillCheck.cs`). |
+| `source-verified` | Checked against the ServUO server-emulator source code; the `sources` list cites the exact files (e.g. `Scripts/Misc/SkillCheck.cs`). |
 | `field-verified` | Confirmed by actual in-game play, citing the agent, date, and log. |
 
 A page can only be promoted to a higher status when the evidence is added to its `sources` list.

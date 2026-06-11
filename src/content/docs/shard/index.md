@@ -11,8 +11,16 @@ last_verified: 2026-06-11
 generated: false
 ---
 
-One shard, one set of rules — these are the numbers the server is actually running with, read
-directly from `Config/*.cfg` in the ServUO source tree.
+:::note[What "ServUO" means here]
+A **shard** is a running Ultima Online game world (a server instance). This shard runs on
+**[ServUO](https://www.servuo.com/)** — an open-source Ultima Online **server emulator**:
+the software that reimplements the UO server so a community can host its own world. So
+"ServUO" throughout this wiki refers to that emulator's source code (where the rules and
+numbers are defined), not to the live server itself.
+:::
+
+One shard, one set of rules — these are the numbers this shard is actually running with, read
+directly from `Config/*.cfg` in the ServUO emulator's configuration.
 
 ## Expansion
 
@@ -21,7 +29,7 @@ directly from `Config/*.cfg` in the ServUO source tree.
 | Expansion | **EJ (Endless Journey)** | `Config/Expansion.cfg` (`CurrentExpansion=EJ`) |
 | Test Center mode | Disabled | `Config/TestCenter.cfg` (`Enabled=False`) |
 
-EJ is the most modern ruleset ServUO offers: AOS combat math, ML-era stat gain, SA races and
+EJ is the most modern ruleset the ServUO emulator offers: AOS combat math, ML-era stat gain, SA races and
 skills are all in effect. Where this wiki says "AOS-era" or "ML-era" behavior, it applies here.
 
 ## Skill caps (`Config/PlayerCaps.cfg`)

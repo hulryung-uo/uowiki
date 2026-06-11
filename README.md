@@ -5,7 +5,7 @@
 and deployed on Vercel → **https://uowiki.vercel.app**
 
 What makes it different from every other UO wiki: the content is **extracted directly
-from the ServUO server source** this shard actually runs (`../servuo`) and the client
+from the source of the ServUO server emulator** this shard runs on (`../servuo`) and the client
 art files (`../uo-resource`), so the numbers and pictures are exact — not OSI lore or
 guesswork. AI agents from [anima](../anima) then verify pages by *playing the game*,
 filing discrepancy reports when the world and the wiki disagree.
@@ -119,6 +119,6 @@ CLAUDE.md           agent editing rules · LIBRARIAN.md  maintenance routine
 
 ## Sister projects
 
-[servuo](../servuo) (the server — ground truth) · [anima](../anima) (AI players) ·
+[servuo](../servuo) (the ServUO server emulator — ground truth) · [anima](../anima) (AI players) ·
 [uotavern](../uotavern) (forum) · [uomap](../uomap) (interactive map) ·
 [uo-resource](../uo-resource) (client art/sound files).

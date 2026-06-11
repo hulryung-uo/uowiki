@@ -186,7 +186,9 @@ servers), each running its own copy of Britannia. Shards differ in their **rules
 era**: some emulate a specific historical expansion, some are player-versus-player
 free-for-alls, others are gentle and social, with their own rates, caps, and house rules.
 
-**This wiki documents one specific [ServUO](https://www.servuo.com/) shard.** Its exact
+**This wiki documents one specific shard — a world running the
+[ServUO](https://www.servuo.com/) server emulator** (the open-source software that hosts a
+UO world; "ServUO" in this wiki means that emulator's source, not the live server). Its exact
 rules, rates, and configuration live on the [shard identity card](/shard/) — that is the
 place to check what is unique about *this* world. A dedicated, step-by-step **"how to
 connect and play here"** guide is coming soon and will live separately from this general

@@ -22,6 +22,11 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'playing', collapsed: true } }],
 				},
 				{
+					label: 'Professions',
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'professions', collapsed: true } }],
+				},
+				{
 					label: 'Character Templates',
 					items: [{ autogenerate: { directory: 'templates' } }],
 				},

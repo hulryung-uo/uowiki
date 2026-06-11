@@ -1,0 +1,799 @@
+{
+  "_meta": {
+    "extracted_by": "tools/extract_plants.py",
+    "sources": [
+      "servuo: Scripts/Services/Plants/PlantItem.cs",
+      "servuo: Scripts/Services/Plants/PlantType.cs",
+      "servuo: Scripts/Services/Plants/PlantHue.cs",
+      "servuo: Scripts/Services/Plants/PlantResources.cs",
+      "servuo: Scripts/Services/Plants/PlantSystem.cs",
+      "anima/data/cliloc.json",
+      "uowiki/data/items.json"
+    ],
+    "notes": {
+      "growth_check_delay_hours": 23.0,
+      "ideal_water_level": 2,
+      "water_range": "0-4",
+      "malady_range": "0-2 each (infestation, fungus, poison, disease)",
+      "plant_name_cliloc_rule": "itemID < 0x4000 ? 1020000+itemID : 1078872+itemID (PlantTypeInfo.Name)"
+    }
+  },
+  "stages": [
+    {
+      "name": "BowlOfDirt",
+      "value": 0,
+      "description": "An empty plant bowl filled with dirt. Soften it with water, then plant a seed."
+    },
+    {
+      "name": "Seed",
+      "value": 1,
+      "description": "A seed has been planted. Keep the water level steady and it will sprout."
+    },
+    {
+      "name": "Sapling",
+      "value": 2,
+      "description": "A young sapling (stages 2-3). It keeps growing on each daily check."
+    },
+    {
+      "name": "Plant",
+      "value": 4,
+      "description": "A recognisable plant (stages 4-6). The bowl turns green."
+    },
+    {
+      "name": "FullGrownPlant",
+      "value": 7,
+      "description": "Fully grown (stages 7-9). It now shows its type and colour, can be pollinated, and yields seeds/resources."
+    },
+    {
+      "name": "DecorativePlant",
+      "value": 10,
+      "description": "Set to decorative: a finished houseplant that no longer needs watering and can be placed for decoration."
+    },
+    {
+      "name": "DeadTwigs",
+      "value": 11,
+      "description": "Dead twigs. The plant was neglected or killed; only twigs remain."
+    }
+  ],
+  "plant_types": [
+    {
+      "type": "CampionFlowers",
+      "name": "campion flowers",
+      "name_cliloc": 1023203,
+      "item_id": "0x0C83",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "Poppies",
+      "name": "poppies",
+      "name_cliloc": 1023206,
+      "item_id": "0x0C86",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "Snowdrops",
+      "name": "snowdrops",
+      "name_cliloc": 1023208,
+      "item_id": "0x0C88",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "Bulrushes",
+      "name": "bulrushes",
+      "name_cliloc": 1023220,
+      "item_id": "0x0C94",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "Lilies",
+      "name": "lilies",
+      "name_cliloc": 1023211,
+      "item_id": "0x0C8B",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "PampasGrass",
+      "name": "pampas grass",
+      "name_cliloc": 1023237,
+      "item_id": "0x0CA5",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "Rushes",
+      "name": "rushes",
+      "name_cliloc": 1023239,
+      "item_id": "0x0CA7",
+      "category": "Default",
+      "flowery": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "ElephantEarPlant",
+      "name": "elephant ear plant",
+      "name_cliloc": 1023223,
+      "item_id": "0x0C97",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "Fern",
+      "name": "fern",
+      "name_cliloc": 1023231,
+      "item_id": "0x0C9F",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "PonytailPalm",
+      "name": "ponytail palm",
+      "name_cliloc": 1023238,
+      "item_id": "0x0CA6",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "SmallPalm",
+      "name": "small palm",
+      "name_cliloc": 1023228,
+      "item_id": "0x0C9C",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "CenturyPlant",
+      "name": "century plant",
+      "name_cliloc": 1023377,
+      "item_id": "0x0D31",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "WaterPlant",
+      "name": "water plant",
+      "name_cliloc": 1023332,
+      "item_id": "0x0D04",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "SnakePlant",
+      "name": "snake plant",
+      "name_cliloc": 1023241,
+      "item_id": "0x0CA9",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "PricklyPearCactus",
+      "name": "prickly pear cactus",
+      "name_cliloc": 1023372,
+      "item_id": "0x0D2C",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "BarrelCactus",
+      "name": "barrel cactus",
+      "name_cliloc": 1023366,
+      "item_id": "0x0D26",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "TribarrelCactus",
+      "name": "tribarrel cactus",
+      "name_cliloc": 1023367,
+      "item_id": "0x0D27",
+      "category": "Default",
+      "flowery": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "type": "CommonGreenBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030460,
+      "item_id": "0x28DC",
+      "category": "Common",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "CommonPinkBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030463,
+      "item_id": "0x28DF",
+      "category": "Common",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "UncommonGreenBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030461,
+      "item_id": "0x28DD",
+      "category": "Uncommon",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "UncommonPinkBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030464,
+      "item_id": "0x28E0",
+      "category": "Uncommon",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "RareGreenBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030462,
+      "item_id": "0x28DE",
+      "category": "Rare",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "RarePinkBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030465,
+      "item_id": "0x28E1",
+      "category": "Rare",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "ExceptionalBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030466,
+      "item_id": "0x28E2",
+      "category": "Exceptional",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "ExoticBonsai",
+      "name": "bonsai tree",
+      "name_cliloc": 1030467,
+      "item_id": "0x28E3",
+      "category": "Exotic",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "Cactus",
+      "name": "cactus",
+      "name_cliloc": 1023365,
+      "item_id": "0x0D25",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "FlaxFlowers",
+      "name": "flax",
+      "name_cliloc": 1026810,
+      "item_id": "0x1A9A",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "FoxgloveFlowers",
+      "name": "foxglove flowers",
+      "name_cliloc": 1023204,
+      "item_id": "0x0C84",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "HopsEast",
+      "name": "hops",
+      "name_cliloc": 1026815,
+      "item_id": "0x1A9F",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "OrfluerFlowers",
+      "name": "orfluer flowers",
+      "name_cliloc": 1023265,
+      "item_id": "0x0CC1",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "CypressTwisted",
+      "name": "cypress tree",
+      "name_cliloc": 1023326,
+      "item_id": "0x0CFE",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "HedgeShort",
+      "name": "hedge",
+      "name_cliloc": 1023215,
+      "item_id": "0x0C8F",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "JuniperBush",
+      "name": "juniper bush",
+      "name_cliloc": 1023272,
+      "item_id": "0x0CC8",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "SnowdropPatch",
+      "name": "snowdrops",
+      "name_cliloc": 1023214,
+      "item_id": "0x0C8E",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "Cattails",
+      "name": "cattails",
+      "name_cliloc": 1023255,
+      "item_id": "0x0CB7",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "PoppyPatch",
+      "name": "poppies",
+      "name_cliloc": 1023262,
+      "item_id": "0x0CBE",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "SpiderTree",
+      "name": "spider tree",
+      "name_cliloc": 1023273,
+      "item_id": "0x0CC9",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "WaterLily",
+      "name": "water lilly",
+      "name_cliloc": 1023521,
+      "item_id": "0x0DC1",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "CypressStraight",
+      "name": "cypress tree",
+      "name_cliloc": 1023323,
+      "item_id": "0x0CFB",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "HedgeTall",
+      "name": "hedge",
+      "name_cliloc": 1023512,
+      "item_id": "0x0DB8",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "HopsSouth",
+      "name": "hops",
+      "name_cliloc": 1026817,
+      "item_id": "0x1AA1",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "type": "SugarCanes",
+      "name": "bamboo",
+      "name_cliloc": 1029324,
+      "item_id": "0x246C",
+      "category": "Peculiar",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": true
+    },
+    {
+      "type": "CocoaTree",
+      "name": "o'hii tree",
+      "name_cliloc": 1023230,
+      "item_id": "0x0C9E",
+      "category": "Fragrant",
+      "flowery": false,
+      "crossable": false,
+      "reproduces": true
+    },
+    {
+      "type": "Vanilla",
+      "name": "vanilla",
+      "name_cliloc": 1098212,
+      "item_id": "0x4B8C",
+      "category": "Peculiar",
+      "flowery": true,
+      "crossable": false,
+      "reproduces": true
+    }
+  ],
+  "plant_hues": [
+    {
+      "hue_name": "Plain",
+      "name": "plain",
+      "name_cliloc": 1060813,
+      "display_hue": "0x0",
+      "gump_hue": "0x835",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Red",
+      "name": "red",
+      "name_cliloc": 1060814,
+      "display_hue": "0x66D",
+      "gump_hue": "0x24",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Blue",
+      "name": "blue",
+      "name_cliloc": 1060815,
+      "display_hue": "0x53D",
+      "gump_hue": "0x6",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Yellow",
+      "name": "yellow",
+      "name_cliloc": 1060818,
+      "display_hue": "0x8A5",
+      "gump_hue": "0x38",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "BrightRed",
+      "name": "red",
+      "name_cliloc": 1060814,
+      "display_hue": "0x21",
+      "gump_hue": "0x21",
+      "bright": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "BrightBlue",
+      "name": "blue",
+      "name_cliloc": 1060815,
+      "display_hue": "0x5",
+      "gump_hue": "0x6",
+      "bright": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "BrightYellow",
+      "name": "yellow",
+      "name_cliloc": 1060818,
+      "display_hue": "0x38",
+      "gump_hue": "0x35",
+      "bright": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Purple",
+      "name": "purple",
+      "name_cliloc": 1060816,
+      "display_hue": "0xD",
+      "gump_hue": "0x10",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Green",
+      "name": "green",
+      "name_cliloc": 1060819,
+      "display_hue": "0x59B",
+      "gump_hue": "0x42",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Orange",
+      "name": "orange",
+      "name_cliloc": 1060817,
+      "display_hue": "0x46F",
+      "gump_hue": "0x2E",
+      "bright": false,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "BrightPurple",
+      "name": "purple",
+      "name_cliloc": 1060816,
+      "display_hue": "0x10",
+      "gump_hue": "0xD",
+      "bright": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "BrightGreen",
+      "name": "green",
+      "name_cliloc": 1060819,
+      "display_hue": "0x42",
+      "gump_hue": "0x3F",
+      "bright": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "BrightOrange",
+      "name": "orange",
+      "name_cliloc": 1060817,
+      "display_hue": "0x2B",
+      "gump_hue": "0x2B",
+      "bright": true,
+      "crossable": true,
+      "reproduces": true
+    },
+    {
+      "hue_name": "Black",
+      "name": "black",
+      "name_cliloc": 1060820,
+      "display_hue": "0x455",
+      "gump_hue": "0x0",
+      "bright": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "hue_name": "White",
+      "name": "white",
+      "name_cliloc": 1060821,
+      "display_hue": "0x481",
+      "gump_hue": "0x481",
+      "bright": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "hue_name": "Pink",
+      "name": "rare pink",
+      "name_cliloc": 1061854,
+      "display_hue": "0x48E",
+      "gump_hue": "0x48E",
+      "bright": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "hue_name": "Magenta",
+      "name": "rare magenta",
+      "name_cliloc": 1061852,
+      "display_hue": "0x486",
+      "gump_hue": "0x486",
+      "bright": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "hue_name": "Aqua",
+      "name": "rare aqua",
+      "name_cliloc": 1061853,
+      "display_hue": "0x495",
+      "gump_hue": "0x495",
+      "bright": false,
+      "crossable": false,
+      "reproduces": false
+    },
+    {
+      "hue_name": "FireRed",
+      "name": "rare fire red",
+      "name_cliloc": 1061855,
+      "display_hue": "0x489",
+      "gump_hue": "0x489",
+      "bright": false,
+      "crossable": false,
+      "reproduces": false
+    }
+  ],
+  "resources": [
+    {
+      "plant_type": "ElephantEarPlant",
+      "required_hue": "BrightRed",
+      "resource_class": "RedLeaves",
+      "resource_name": "red leaves",
+      "resource_item_id": "0x1E85"
+    },
+    {
+      "plant_type": "PonytailPalm",
+      "required_hue": "BrightRed",
+      "resource_class": "RedLeaves",
+      "resource_name": "red leaves",
+      "resource_item_id": "0x1E85"
+    },
+    {
+      "plant_type": "CenturyPlant",
+      "required_hue": "BrightRed",
+      "resource_class": "RedLeaves",
+      "resource_name": "red leaves",
+      "resource_item_id": "0x1E85"
+    },
+    {
+      "plant_type": "Poppies",
+      "required_hue": "BrightOrange",
+      "resource_class": "OrangePetals",
+      "resource_name": "orange petals",
+      "resource_item_id": "0x1021"
+    },
+    {
+      "plant_type": "Bulrushes",
+      "required_hue": "BrightOrange",
+      "resource_class": "OrangePetals",
+      "resource_name": "orange petals",
+      "resource_item_id": "0x1021"
+    },
+    {
+      "plant_type": "PampasGrass",
+      "required_hue": "BrightOrange",
+      "resource_class": "OrangePetals",
+      "resource_name": "orange petals",
+      "resource_item_id": "0x1021"
+    },
+    {
+      "plant_type": "SnakePlant",
+      "required_hue": "BrightGreen",
+      "resource_class": "GreenThorns",
+      "resource_name": "green thorns",
+      "resource_item_id": "0x0F42"
+    },
+    {
+      "plant_type": "BarrelCactus",
+      "required_hue": "BrightGreen",
+      "resource_class": "GreenThorns",
+      "resource_name": "green thorns",
+      "resource_item_id": "0x0F42"
+    },
+    {
+      "plant_type": "CocoaTree",
+      "required_hue": "Plain",
+      "resource_class": "CocoaPulp",
+      "resource_name": "cocoa pulp",
+      "resource_item_id": "0x0F7C"
+    },
+    {
+      "plant_type": "SugarCanes",
+      "required_hue": "Plain",
+      "resource_class": "SackOfSugar",
+      "resource_name": "Sack of sugar",
+      "resource_item_id": "0x1039"
+    },
+    {
+      "plant_type": "FlaxFlowers",
+      "required_hue": "Plain",
+      "resource_class": "Flax",
+      "resource_name": "flax",
+      "resource_item_id": "0x1A9C"
+    },
+    {
+      "plant_type": "CypressStraight",
+      "required_hue": "Plain",
+      "resource_class": "BarkFragment",
+      "resource_name": "bark fragment",
+      "resource_item_id": "0x318F"
+    },
+    {
+      "plant_type": "CypressTwisted",
+      "required_hue": "Plain",
+      "resource_class": "BarkFragment",
+      "resource_name": "bark fragment",
+      "resource_item_id": "0x318F"
+    },
+    {
+      "plant_type": "Vanilla",
+      "required_hue": "Plain",
+      "resource_class": "Vanilla",
+      "resource_name": "Vanilla",
+      "resource_item_id": "0x0E2A"
+    },
+    {
+      "plant_type": "PoppyPatch",
+      "required_hue": "Plain",
+      "resource_class": "PoppiesDust",
+      "resource_name": "poppies dust",
+      "resource_item_id": "0x0C4D"
+    }
+  ]
+}
