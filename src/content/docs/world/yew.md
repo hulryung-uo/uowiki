@@ -12,8 +12,12 @@ last_verified: 2026-06-11
 generated: false
 ---
 
-Yew is less a town than a forest with buildings in it — a scattered woodland settlement of
-lumberjacks and carpenters, seat of the Courts of Truth.
+Yew is less a town than a forest with buildings in it. Spread across the great north-western
+woods, it is a hushed, green settlement of lumberjacks and carpenters, anchored by **Empath
+Abbey** and the **Courts of Truth** — Britannia's seat of Justice, the Virtue Yew embodies.
+There is no town square here, no tidy grid of shops; the abbey monks tend their vineyard, the
+Courts hear their cases, and the woodsmen work the endless trees. It is the quietest of the
+great towns, and to many the most beautiful.
 
 ![Map of Yew with NPC vendor locations](/img/maps/city-yew.png)
 
@@ -25,16 +29,34 @@ lumberjacks and carpenters, seat of the Courts of Truth.
 - **Nearest moongate:** Yew Moongate at (771, 752), in the forest north-east of town
 - [View on the interactive map](https://uomap.vercel.app)
 
+## Getting there
+
+Yew lies in the **north-west** of the Felucca/Trammel mainland. The **Yew Moongate**
+(771, 752) sits in the forest north-east of town — take any public gate and choose Yew, then
+walk south-west into the woods. Roads thread south toward Britain. Mages can
+[*Recall*](/skills/magery/) to a rune. See [Moongates & shrines](/world/moongates-and-shrines/).
+
 ## Services
 
-carpenter · bowyer · inn · court · **bank**
+From the NPC vendors recorded around Yew and the abbey
+([what the icons mean](/world/town-services/)):
+
+<img src="/img/services/bank.gif" alt="Bank" width="28" /> Bank ·
+<img src="/img/services/carpenter.gif" alt="Carpenter" width="28" /> Carpenter ·
+<img src="/img/services/bowyer.gif" alt="Bowyer" width="28" /> Bowyer ·
+<img src="/img/services/baker.gif" alt="Baker" width="28" /> Baker ·
+<img src="/img/services/healer.gif" alt="Healer" width="28" /> Healer ·
+<img src="/img/services/inn.gif" alt="Inn" width="28" /> Inn
 
 **Yew does have a bank**, by **Empath Abbey** (639, 858): a banker and minter spawn at
 (652, 820) per the server spawn data (`Spawns/felucca.xml`, spawner `Vendors#293`).
 Note: anima's `world_knowledge.yaml` omits the bank from Yew's feature list — that list
-is incomplete, not authoritative. **No blacksmith is listed** for Yew. Other nearby
-landmarks include the infamous **Hedge Maze** to the south, and the dungeons **Shame**,
-the **Wisp Dungeon**, and the **Ankh Dungeon** in the forests south of town.
+is incomplete, not authoritative. **No blacksmith is listed** for Yew, and there is no mage
+or tailor shop; this is a wood town, so its vendors lean toward the
+[carpenter and bowyer](/professions/carpenter-bowyer/) trades. A fur trader, tanner, butcher,
+mapmaker, and shipwright round out the roster. Other nearby landmarks include the infamous
+**Hedge Maze** to the south, and the dungeons **Shame**, the **Wisp Dungeon**, and the
+**Ankh Dungeon** in the forests south of town.
 
 ## Nearby resources
 
@@ -51,5 +73,7 @@ low-key hunting for new fighters.
 
 ## Related
 
+- [Carpenter & Bowyer](/professions/carpenter-bowyer/) — the trades Yew's wood feeds
 - [Lumberjacking](/skills/lumberjacking/) · [Items: resources](/items/resources/) (log and board types)
-- [World overview](/world/)
+- [Town services legend](/world/town-services/) · [Vendors & banking](/playing/vendors-and-banking/)
+- [World overview](/world/) · [Dungeons](/world/dungeons/) — Shame, Wisp, and Ankh lie south

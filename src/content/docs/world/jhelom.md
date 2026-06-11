@@ -10,8 +10,12 @@ last_verified: 2026-06-11
 generated: false
 ---
 
-Jhelom, the City of Valor, sprawls across the Valarian Isles in the far south — a warrior's
-town where disputes are settled in the fighting pit and nobody finds that unusual.
+Jhelom, the City of Valor, sprawls across the Valarian Isles in the far south — a windswept
+warrior's town where courage is the highest currency. This is the island of fighters: disputes
+are settled in the **fighting pits**, weapon racks outnumber flower boxes, and the locals
+regard a good brawl the way other towns regard a market day. Jhelom embodies Valor, and it
+shows in every weaponsmith, training dummy, and scarred veteran propping up the tavern. If you
+came to Britannia to swing a blade, this is where you cut your teeth.
 
 ![Map of Jhelom with NPC vendor locations](/img/maps/city-jhelom.png)
 
@@ -23,14 +27,34 @@ town where disputes are settled in the fighting pit and nobody finds that unusua
 - **Nearest moongate:** Jhelom Moongate at (1499, 3771)
 - [View on the interactive map](https://uomap.vercel.app)
 
+## Getting there
+
+Jhelom occupies islands in the **far south** of the Felucca/Trammel map, so you arrive by
+magic or by sea. The **Jhelom Moongate** (1499, 3771) is the easy route — take any public gate
+and choose Jhelom. Otherwise it's a boat. Mages can [*Recall*](/skills/magery/) or *Gate* to a
+marked rune. See [Moongates & shrines](/world/moongates-and-shrines/).
+
 ## Services
 
-Per `world_knowledge.yaml`:
+A roster with a strong martial slant, from the NPC vendors recorded across the isles
+([what the icons mean](/world/town-services/)):
 
-blacksmith · bank · healer · inn · fighting pit
+<img src="/img/services/bank.gif" alt="Bank" width="28" /> Bank ·
+<img src="/img/services/blacksmith.gif" alt="Blacksmith" width="28" /> Blacksmith ·
+<img src="/img/services/tinker.gif" alt="Tinker" width="28" /> Tinker ·
+<img src="/img/services/carpenter.gif" alt="Carpenter" width="28" /> Carpenter ·
+<img src="/img/services/tailor.gif" alt="Tailor" width="28" /> Tailor ·
+<img src="/img/services/eye.gif" alt="Scribe" width="28" /> Scribe ·
+<img src="/img/services/healer.gif" alt="Healer" width="28" /> Healer ·
+<img src="/img/services/provisioner.gif" alt="Provisioner" width="28" /> Provisioner ·
+<img src="/img/services/baker.gif" alt="Baker" width="28" /> Baker ·
+<img src="/img/services/inn.gif" alt="Inn" width="28" /> Inn ·
+<img src="/img/services/tavern.gif" alt="Tavern" width="28" /> Tavern
 
-The vendor data shows a strong martial slant: armorers, weaponsmiths, and a scribe and mage for
-the rare bookish visitor.
+The smith here is really an **armorer-and-weaponsmith** pair, and the famous **fighting pit**
+is the city's beating heart. A mapmaker, shipwright, and fisherman serve the docks; there's a
+scribe for the rare bookish visitor, but no dedicated mage shop — this is a fighter's island
+through and through.
 
 ## Nearby resources
 
@@ -47,5 +71,7 @@ mind before buying in bulk.
 
 ## Related
 
+- [Warrior](/professions/warrior/) — the island's calling
 - [Swordsmanship](/skills/swordsmanship/) · [Tactics](/skills/tactics/) · [Healing](/skills/healing/)
+- [Town services legend](/world/town-services/) · [Vendors & banking](/playing/vendors-and-banking/)
 - [Moongates and shrines](/world/moongates-and-shrines/)
