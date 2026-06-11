@@ -1,0 +1,453 @@
+{
+  "_schema": {
+    "description": "Paperdoll reference renders: nude body gumps composited with layered equipment gumps, per ClassicUO PaperDollInteractable. Equipment gump id = item AnimID (tiledata.mul) + 50000 (male). Pieces drawn in PaperDollInteractable layer order, tinted by item hue via hues.mul.",
+    "extracted_by": "tools/extract_paperdoll.py",
+    "sources": [
+      "uo-resource/gumpartLegacyMUL.uop",
+      "uo-resource/tiledata.mul",
+      "uo-resource/hues.mul"
+    ],
+    "layer_order": [
+      "Cloak",
+      "Shirt",
+      "Pants",
+      "Shoes",
+      "Legs",
+      "Arms",
+      "Torso",
+      "Tunic",
+      "Ring",
+      "Bracelet",
+      "Face",
+      "Gloves",
+      "Skirt",
+      "Robe",
+      "Waist",
+      "Necklace",
+      "Hair",
+      "Beard",
+      "Earrings",
+      "Helmet",
+      "OneHanded",
+      "TwoHanded",
+      "Talisman"
+    ],
+    "male_gump_offset": 50000,
+    "female_gump_offset": 60000
+  },
+  "bodies": {
+    "male": {
+      "gump_id": "0x000C",
+      "png": "/img/paperdoll/body-male.png",
+      "size": [
+        260,
+        237
+      ]
+    },
+    "female": {
+      "gump_id": "0x000D",
+      "png": "/img/paperdoll/body-female.png",
+      "size": [
+        260,
+        237
+      ]
+    }
+  },
+  "suits": {
+    "leather": {
+      "png": "/img/paperdoll/suit-leather.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "LeatherLegs",
+          "item_id": "0x13CB",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "LeatherArms",
+          "item_id": "0x13CD",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "LeatherChest",
+          "item_id": "0x13CC",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "LeatherGloves",
+          "item_id": "0x13C6",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "LeatherGorget",
+          "item_id": "0x13C7",
+          "layer": "Necklace",
+          "hue": null
+        },
+        {
+          "class": "LeatherCap",
+          "item_id": "0x1DB9",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "studded": {
+      "png": "/img/paperdoll/suit-studded.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "StuddedLegs",
+          "item_id": "0x13DA",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "StuddedArms",
+          "item_id": "0x13DC",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "StuddedChest",
+          "item_id": "0x13DB",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "StuddedGloves",
+          "item_id": "0x13D5",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "StuddedGorget",
+          "item_id": "0x13D6",
+          "layer": "Necklace",
+          "hue": null
+        }
+      ]
+    },
+    "bone": {
+      "png": "/img/paperdoll/suit-bone.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "BoneLegs",
+          "item_id": "0x1452",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "BoneArms",
+          "item_id": "0x144E",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "BoneChest",
+          "item_id": "0x144F",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "BoneGloves",
+          "item_id": "0x1450",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "BoneHelm",
+          "item_id": "0x1451",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "ringmail": {
+      "png": "/img/paperdoll/suit-ringmail.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "RingmailLegs",
+          "item_id": "0x13F0",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "RingmailArms",
+          "item_id": "0x13EE",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "RingmailChest",
+          "item_id": "0x13EC",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "RingmailGloves",
+          "item_id": "0x13EB",
+          "layer": "Gloves",
+          "hue": null
+        }
+      ]
+    },
+    "chainmail": {
+      "png": "/img/paperdoll/suit-chainmail.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "ChainLegs",
+          "item_id": "0x13BE",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "ChainChest",
+          "item_id": "0x13BF",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "ChainCoif",
+          "item_id": "0x13BB",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "plate": {
+      "png": "/img/paperdoll/suit-plate.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "PlateLegs",
+          "item_id": "0x1411",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "PlateArms",
+          "item_id": "0x1410",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "PlateChest",
+          "item_id": "0x1415",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "PlateGloves",
+          "item_id": "0x1414",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "PlateGorget",
+          "item_id": "0x1413",
+          "layer": "Necklace",
+          "hue": null
+        },
+        {
+          "class": "PlateHelm",
+          "item_id": "0x1412",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "dragon": {
+      "png": "/img/paperdoll/suit-dragon.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "DragonLegs",
+          "item_id": "0x2647",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "DragonArms",
+          "item_id": "0x2657",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "DragonChest",
+          "item_id": "0x2641",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "DragonGloves",
+          "item_id": "0x2643",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "DragonHelm",
+          "item_id": "0x2645",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "robe": {
+      "png": "/img/paperdoll/suit-robe.png",
+      "size": [
+        260,
+        237
+      ],
+      "kind": "clothing",
+      "pieces": [
+        {
+          "class": "Robe",
+          "item_id": "0x1F03",
+          "layer": "Robe",
+          "hue": null
+        }
+      ]
+    },
+    "fancy-shirt-and-pants": {
+      "png": "/img/paperdoll/suit-fancy-shirt-and-pants.png",
+      "size": [
+        260,
+        237
+      ],
+      "kind": "clothing",
+      "pieces": [
+        {
+          "class": "FancyShirt",
+          "item_id": "0x1EFD",
+          "layer": "Shirt",
+          "hue": null
+        },
+        {
+          "class": "LongPants",
+          "item_id": "0x1539",
+          "layer": "Pants",
+          "hue": null
+        }
+      ]
+    },
+    "wizard": {
+      "png": "/img/paperdoll/suit-wizard.png",
+      "size": [
+        260,
+        237
+      ],
+      "kind": "clothing",
+      "pieces": [
+        {
+          "class": "Robe",
+          "item_id": "0x1F03",
+          "layer": "Robe",
+          "hue": null
+        },
+        {
+          "class": "WizardsHat",
+          "item_id": "0x1718",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    }
+  },
+  "items": {
+    "plate-chest": {
+      "class": "PlateChest",
+      "item_id": "0x1415",
+      "layer": "Torso",
+      "hue": null,
+      "png": "/img/paperdoll/item-plate-chest.png",
+      "size": [
+        260,
+        237
+      ]
+    },
+    "dragon-helm": {
+      "class": "DragonHelm",
+      "item_id": "0x2645",
+      "layer": "Helmet",
+      "hue": null,
+      "png": "/img/paperdoll/item-dragon-helm.png",
+      "size": [
+        260,
+        237
+      ]
+    },
+    "bone-chest": {
+      "class": "BoneChest",
+      "item_id": "0x144F",
+      "layer": "Torso",
+      "hue": null,
+      "png": "/img/paperdoll/item-bone-chest.png",
+      "size": [
+        260,
+        237
+      ]
+    },
+    "robe-blue": {
+      "class": "Robe",
+      "item_id": "0x1F03",
+      "layer": "Robe",
+      "hue": "0x0005",
+      "png": "/img/paperdoll/item-robe-blue.png",
+      "size": [
+        260,
+        237
+      ]
+    },
+    "robe-red": {
+      "class": "Robe",
+      "item_id": "0x1F03",
+      "layer": "Robe",
+      "hue": "0x0026",
+      "png": "/img/paperdoll/item-robe-red.png",
+      "size": [
+        260,
+        237
+      ]
+    },
+    "wizards-hat-green": {
+      "class": "WizardsHat",
+      "item_id": "0x1718",
+      "layer": "Helmet",
+      "hue": "0x0048",
+      "png": "/img/paperdoll/item-wizards-hat-green.png",
+      "size": [
+        260,
+        237
+      ]
+    }
+  }
+}
