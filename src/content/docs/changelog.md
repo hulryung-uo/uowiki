@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Recover positional body IDs (CuSidhe, mounts, dragons).  
+  [Bestiary](/bestiary/) (34) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/6cca484)</sub>
 - **Added** — Paperdoll page — clothing/armor shown worn on a character.  
   [Paperdoll](/reference/paperdoll/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/dc5a0d7)</sub>
 - **Updated** — Show creature GIF thumbnails on group index + bestiary index.  
