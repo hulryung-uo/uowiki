@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — Full item catalog — all 3,686 ServUO items with art.  
+  [Items](/items/) (14) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/225f2e6)</sub>
 - **Updated** — Reader-facing changelog, per-dungeon location maps, 2x-larger icons.  
   [Bestiary](/bestiary/) (430) · [Magic](/magic/) (65) · [Crafting](/crafting/) (11) · [Items](/items/) (2) · [World](/world/) (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/a7cb00a)</sub>
 - **Updated** — Annotated region maps + interactive-map deep links.  
