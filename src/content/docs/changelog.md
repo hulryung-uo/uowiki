@@ -16,6 +16,12 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — Detailed Weapons, Armor, and Tools references.  
+  [Armor](/items/armor/) · [Items](/items/) · [Tools](/items/tools/) · [Weapons](/items/weapons/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/209346a)</sub>
+- **Updated** — Render power words in the UO game font too (extracted from fonts.mul).  
+  [Magic](/magic/) (65) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/db8fd1c)</sub>
+- **Updated** — Render spell words of power in Britannian runic font; rewrite Getting Started.  
+  [Magic](/magic/) (65) · Guides (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/64882ac)</sub>
 - **Added** — House types (with rendered exteriors) + decorating guide.  
   [Decorating](/playing/decorating/) · [House Types](/playing/house-types/) · [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c9081cc)</sub>
 - **Updated** — Dressed animated mob GIFs, enriched skill pages, 7x GM template.  
