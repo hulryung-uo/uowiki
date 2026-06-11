@@ -2,19 +2,24 @@
    we want crisp pixels, not a blurry bilinear smear. Maps (plain markdown
    images, no class) are unaffected and stay smooth. */
 .uo-sprite {
-	/* UO item sprites are tiny natively (~30–50px). Force a clearly visible
-	   size here so every icon is consistent and tunable in one place — this
-	   overrides the per-image width attributes the generators emit. */
-	width: 160px;
-	height: auto;
+	/* UO sprites have wildly different native sizes and aspect ratios (a 49px
+	   cap vs a 200px+ tall totem). Fitting each into a fixed square box with
+	   object-fit makes every icon a consistent, visible size — small ones scale
+	   up, big ones scale down, none distort. Tunable in one place; overrides the
+	   per-image width attributes the generators emit. */
+	width: 88px;
+	height: 88px;
+	object-fit: contain;
+	object-position: left center;
 	image-rendering: pixelated;
 	image-rendering: crisp-edges;
 	vertical-align: middle;
 }
 
-/* Inside dense data tables, keep them a touch smaller but still large. */
+/* Inside dense data tables, a slightly smaller uniform box keeps rows compact. */
 .sl-markdown-content table .uo-sprite {
-	width: 144px;
+	width: 72px;
+	height: 72px;
 }
 
 /* Creature animation frames — same crisp upscaling, sized by the generator. */
