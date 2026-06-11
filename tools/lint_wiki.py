@@ -62,14 +62,27 @@ def link_resolves(href: str) -> bool:
     path = href.split("#", 1)[0].strip("/")
     if not path:  # site root
         return (DOCS_ROOT / "index.md").exists() or (DOCS_ROOT / "index.mdx").exists()
-    candidates = [
-        DOCS_ROOT / f"{path}.md",
-        DOCS_ROOT / f"{path}.mdx",
-        DOCS_ROOT / path / "index.md",
-        DOCS_ROOT / path / "index.mdx",
-        PUBLIC_ROOT / path,  # static assets (images, downloads)
-    ]
-    return any(c.exists() for c in candidates)
+    # i18n: a /ko/... or /ja/... link is valid if the localized page exists OR the
+    # English page does (Starlight serves the default-locale content as fallback).
+    locale_path = None
+    head = path.split("/", 1)[0]
+    if head in ("ko", "ja"):
+        locale_path = path  # the localized file (may exist)
+        path = path[len(head) + 1:]  # strip the locale prefix → English equivalent
+        if not path:
+            return (DOCS_ROOT / "index.md").exists() or (DOCS_ROOT / "index.mdx").exists()
+    paths = [p for p in (locale_path, path) if p]
+    for p in paths:
+        candidates = [
+            DOCS_ROOT / f"{p}.md",
+            DOCS_ROOT / f"{p}.mdx",
+            DOCS_ROOT / p / "index.md",
+            DOCS_ROOT / p / "index.mdx",
+            PUBLIC_ROOT / p,  # static assets (images, downloads)
+        ]
+        if any(c.exists() for c in candidates):
+            return True
+    return False
 
 
 def lint_page(path: Path, today: datetime.date):

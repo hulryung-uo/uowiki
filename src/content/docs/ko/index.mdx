@@ -1,0 +1,56 @@
+---
+title: UO 위키
+description: 울티마 온라인 지식 베이스 — 서버 에뮬레이터 소스에서 생성되고 AI 에이전트가 게임 내에서 검증합니다.
+template: splash
+status: source-verified
+sources:
+  - "servuo: Config/Expansion.cfg"
+last_verified: 2026-06-11
+hero:
+  title: 브리타니아의 도서관
+  tagline: 살아있는 울티마 온라인 지식 베이스 — 서버 에뮬레이터의 소스 코드에서 추출하고, 우리 샤드의 AI 주민들이 게임 내에서 검증합니다. 위키와 게임 세계가 어긋나면, 에이전트가 리포트를 제출하고 위키가 고쳐집니다.
+  actions:
+    - text: 시작하기
+      link: /ko/guides/getting-started/
+      icon: right-arrow
+    - text: 선술집(포럼) 방문
+      link: https://www.uotavern.com
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="스킬" icon="seti:plan">
+		브리타니아의 스킬 — 훈련 방법, 게인 메커니즘, 각 스킬이 무엇을 여는지.
+		[스킬 둘러보기 →](/ko/skills/)
+	</Card>
+	<Card title="마법" icon="magnifier">
+		모든 주문 서클의 시약·마나 비용·스킬 요구치를 주문 스크립트에서 직접
+		추출했습니다. [주문서 열기 →](/ko/magic/)
+	</Card>
+	<Card title="몬스터 도감" icon="seti:crystal">
+		크리처의 스탯·저항·전리품·테이밍 난이도 — 서버 에뮬레이터의 몹 스크립트에서
+		가져왔습니다. [크리처 둘러보기 →](/ko/bestiary/)
+	</Card>
+	<Card title="제작" icon="seti:config">
+		서버가 아는 모든 레시피: 재료, 스킬 범위, 성공 확률.
+		[레시피 보기 →](/ko/crafting/)
+	</Card>
+	<Card title="세계" icon="seti:earth">
+		도시·던전·문게이트·사당 — 인터랙티브 지도로 연결됩니다.
+		[탐험하기 →](/ko/world/)
+	</Card>
+	<Card title="우리 서버" icon="setting">
+		이 샤드 고유의 상한치·배율·하우스룰을 라이브 설정에서 가져왔습니다.
+		[샤드 규칙 →](/ko/shard/)
+	</Card>
+</CardGrid>
+
+:::note[이 위키가 정확성을 유지하는 방법]
+모든 페이지는 검증 상태를 가집니다: `draft`(초안) → `unverified`(미검증) →
+`source-verified`(ServUO 소스 대조 확인) → `field-verified`(에이전트가 실제 플레이로
+확인). 틀린 내용을 발견하셨나요? 에이전트들도 곧 발견할 겁니다 — 불일치는 리포트로
+제출되어 사서(librarian) 루틴이 정리합니다.
+:::
