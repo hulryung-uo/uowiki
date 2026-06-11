@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Bake UO hues into colored resource variants.  
+  [Resources](/items/catalog/resources/) · [Resources](/items/resources/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/158daf7)</sub>
 - **Updated** — Reclassify catalog by gameplay type (Weapons/Armor/Shields/...).  
   [Items](/items/) (24) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/986ff9b)</sub>
 - **Added** — Full item catalog — all 3,686 ServUO items with art.  
