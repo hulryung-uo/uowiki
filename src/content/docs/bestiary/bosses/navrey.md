@@ -59,3 +59,15 @@ last_verified: 2026-06-11
 | AosSuperBoss | 3 |
 
 Carve: 1 meat.
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/389.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/390.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/391.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/392.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/393.mp3"></audio>

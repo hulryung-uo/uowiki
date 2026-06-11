@@ -31,106 +31,106 @@ Skill values come from `MagerySpell.GetCastSkills` (success chance ramps linearl
 
 ## Circle 1 — First
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Clumsy](/magic/circle-1/clumsy/) | *Uus Jux* | Bloodmoss, Nightshade |
-| [Create Food](/magic/circle-1/create-food/) | *In Mani Ylem* | Garlic, Ginseng, Mandrake Root |
-| [Feeblemind](/magic/circle-1/feeblemind/) | *Rel Wis* | Ginseng, Nightshade |
-| [Heal](/magic/circle-1/heal/) | *In Mani* | Garlic, Ginseng, Spiders' Silk |
-| [Magic Arrow](/magic/circle-1/magic-arrow/) | *In Por Ylem* | Sulfurous Ash |
-| [Night Sight](/magic/circle-1/night-sight/) | *In Lor* | Sulfurous Ash, Spiders' Silk |
-| [Reactive Armor](/magic/circle-1/reactive-armor/) | *Flam Sanct* | Garlic, Spiders' Silk, Sulfurous Ash |
-| [Weaken](/magic/circle-1/weaken/) | *Des Mani* | Garlic, Nightshade |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/1.png" alt="" width="22" height="22" /> | [Clumsy](/magic/circle-1/clumsy/) | *Uus Jux* | Bloodmoss, Nightshade |
+| <img src="/img/spells/2.png" alt="" width="22" height="22" /> | [Create Food](/magic/circle-1/create-food/) | *In Mani Ylem* | Garlic, Ginseng, Mandrake Root |
+| <img src="/img/spells/3.png" alt="" width="22" height="22" /> | [Feeblemind](/magic/circle-1/feeblemind/) | *Rel Wis* | Ginseng, Nightshade |
+| <img src="/img/spells/4.png" alt="" width="22" height="22" /> | [Heal](/magic/circle-1/heal/) | *In Mani* | Garlic, Ginseng, Spiders' Silk |
+| <img src="/img/spells/5.png" alt="" width="22" height="22" /> | [Magic Arrow](/magic/circle-1/magic-arrow/) | *In Por Ylem* | Sulfurous Ash |
+| <img src="/img/spells/6.png" alt="" width="22" height="22" /> | [Night Sight](/magic/circle-1/night-sight/) | *In Lor* | Sulfurous Ash, Spiders' Silk |
+| <img src="/img/spells/7.png" alt="" width="22" height="22" /> | [Reactive Armor](/magic/circle-1/reactive-armor/) | *Flam Sanct* | Garlic, Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/8.png" alt="" width="22" height="22" /> | [Weaken](/magic/circle-1/weaken/) | *Des Mani* | Garlic, Nightshade |
 
 ## Circle 2 — Second
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Agility](/magic/circle-2/agility/) | *Ex Uus* | Bloodmoss, Mandrake Root |
-| [Cunning](/magic/circle-2/cunning/) | *Uus Wis* | Mandrake Root, Nightshade |
-| [Cure](/magic/circle-2/cure/) | *An Nox* | Garlic, Ginseng |
-| [Harm](/magic/circle-2/harm/) | *An Mani* | Nightshade, Spiders' Silk |
-| [Magic Trap](/magic/circle-2/magic-trap/) | *In Jux* | Garlic, Spiders' Silk, Sulfurous Ash |
-| [Protection](/magic/circle-2/protection/) | *Uus Sanct* | Garlic, Ginseng, Sulfurous Ash |
-| [Remove Trap](/magic/circle-2/remove-trap/) | *An Jux* | Bloodmoss, Sulfurous Ash |
-| [Strength](/magic/circle-2/strength/) | *Uus Mani* | Mandrake Root, Nightshade |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/9.png" alt="" width="22" height="22" /> | [Agility](/magic/circle-2/agility/) | *Ex Uus* | Bloodmoss, Mandrake Root |
+| <img src="/img/spells/10.png" alt="" width="22" height="22" /> | [Cunning](/magic/circle-2/cunning/) | *Uus Wis* | Mandrake Root, Nightshade |
+| <img src="/img/spells/11.png" alt="" width="22" height="22" /> | [Cure](/magic/circle-2/cure/) | *An Nox* | Garlic, Ginseng |
+| <img src="/img/spells/12.png" alt="" width="22" height="22" /> | [Harm](/magic/circle-2/harm/) | *An Mani* | Nightshade, Spiders' Silk |
+| <img src="/img/spells/13.png" alt="" width="22" height="22" /> | [Magic Trap](/magic/circle-2/magic-trap/) | *In Jux* | Garlic, Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/14.png" alt="" width="22" height="22" /> | [Protection](/magic/circle-2/protection/) | *Uus Sanct* | Garlic, Ginseng, Sulfurous Ash |
+| <img src="/img/spells/15.png" alt="" width="22" height="22" /> | [Remove Trap](/magic/circle-2/remove-trap/) | *An Jux* | Bloodmoss, Sulfurous Ash |
+| <img src="/img/spells/16.png" alt="" width="22" height="22" /> | [Strength](/magic/circle-2/strength/) | *Uus Mani* | Mandrake Root, Nightshade |
 
 ## Circle 3 — Third
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Bless](/magic/circle-3/bless/) | *Rel Sanct* | Garlic, Mandrake Root |
-| [Fireball](/magic/circle-3/fireball/) | *Vas Flam* | Black Pearl |
-| [Magic Lock](/magic/circle-3/magic-lock/) | *An Por* | Garlic, Bloodmoss, Sulfurous Ash |
-| [Poison](/magic/circle-3/poison/) | *In Nox* | Nightshade |
-| [Telekinesis](/magic/circle-3/telekinesis/) | *Ort Por Ylem* | Bloodmoss, Mandrake Root |
-| [Teleport](/magic/circle-3/teleport/) | *Rel Por* | Bloodmoss, Mandrake Root |
-| [Unlock Spell](/magic/circle-3/unlock-spell/) | *Ex Por* | Bloodmoss, Sulfurous Ash |
-| [Wall of Stone](/magic/circle-3/wall-of-stone/) | *In Sanct Ylem* | Bloodmoss, Garlic |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/17.png" alt="" width="22" height="22" /> | [Bless](/magic/circle-3/bless/) | *Rel Sanct* | Garlic, Mandrake Root |
+| <img src="/img/spells/18.png" alt="" width="22" height="22" /> | [Fireball](/magic/circle-3/fireball/) | *Vas Flam* | Black Pearl |
+| <img src="/img/spells/19.png" alt="" width="22" height="22" /> | [Magic Lock](/magic/circle-3/magic-lock/) | *An Por* | Garlic, Bloodmoss, Sulfurous Ash |
+| <img src="/img/spells/20.png" alt="" width="22" height="22" /> | [Poison](/magic/circle-3/poison/) | *In Nox* | Nightshade |
+| <img src="/img/spells/21.png" alt="" width="22" height="22" /> | [Telekinesis](/magic/circle-3/telekinesis/) | *Ort Por Ylem* | Bloodmoss, Mandrake Root |
+| <img src="/img/spells/22.png" alt="" width="22" height="22" /> | [Teleport](/magic/circle-3/teleport/) | *Rel Por* | Bloodmoss, Mandrake Root |
+| <img src="/img/spells/23.png" alt="" width="22" height="22" /> | [Unlock Spell](/magic/circle-3/unlock-spell/) | *Ex Por* | Bloodmoss, Sulfurous Ash |
+| <img src="/img/spells/24.png" alt="" width="22" height="22" /> | [Wall of Stone](/magic/circle-3/wall-of-stone/) | *In Sanct Ylem* | Bloodmoss, Garlic |
 
 ## Circle 4 — Fourth
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Arch Cure](/magic/circle-4/arch-cure/) | *Vas An Nox* | Garlic, Ginseng, Mandrake Root |
-| [Arch Protection](/magic/circle-4/arch-protection/) | *Vas Uus Sanct* | Garlic, Ginseng, Mandrake Root, Sulfurous Ash |
-| [Curse](/magic/circle-4/curse/) | *Des Sanct* | Nightshade, Garlic, Sulfurous Ash |
-| [Fire Field](/magic/circle-4/fire-field/) | *In Flam Grav* | Black Pearl, Spiders' Silk, Sulfurous Ash |
-| [Greater Heal](/magic/circle-4/greater-heal/) | *In Vas Mani* | Garlic, Ginseng, Mandrake Root, Spiders' Silk |
-| [Lightning](/magic/circle-4/lightning/) | *Por Ort Grav* | Mandrake Root, Sulfurous Ash |
-| [Mana Drain](/magic/circle-4/mana-drain/) | *Ort Rel* | Black Pearl, Mandrake Root, Spiders' Silk |
-| [Recall](/magic/circle-4/recall/) | *Kal Ort Por* | Black Pearl, Bloodmoss, Mandrake Root |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/25.png" alt="" width="22" height="22" /> | [Arch Cure](/magic/circle-4/arch-cure/) | *Vas An Nox* | Garlic, Ginseng, Mandrake Root |
+| <img src="/img/spells/26.png" alt="" width="22" height="22" /> | [Arch Protection](/magic/circle-4/arch-protection/) | *Vas Uus Sanct* | Garlic, Ginseng, Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/27.png" alt="" width="22" height="22" /> | [Curse](/magic/circle-4/curse/) | *Des Sanct* | Nightshade, Garlic, Sulfurous Ash |
+| <img src="/img/spells/28.png" alt="" width="22" height="22" /> | [Fire Field](/magic/circle-4/fire-field/) | *In Flam Grav* | Black Pearl, Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/29.png" alt="" width="22" height="22" /> | [Greater Heal](/magic/circle-4/greater-heal/) | *In Vas Mani* | Garlic, Ginseng, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/30.png" alt="" width="22" height="22" /> | [Lightning](/magic/circle-4/lightning/) | *Por Ort Grav* | Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/31.png" alt="" width="22" height="22" /> | [Mana Drain](/magic/circle-4/mana-drain/) | *Ort Rel* | Black Pearl, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/32.png" alt="" width="22" height="22" /> | [Recall](/magic/circle-4/recall/) | *Kal Ort Por* | Black Pearl, Bloodmoss, Mandrake Root |
 
 ## Circle 5 — Fifth
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Blade Spirits](/magic/circle-5/blade-spirits/) | *In Jux Hur Ylem* | Black Pearl, Mandrake Root, Nightshade |
-| [Dispel Field](/magic/circle-5/dispel-field/) | *An Grav* | Black Pearl, Spiders' Silk, Sulfurous Ash, Garlic |
-| [Incognito](/magic/circle-5/incognito/) | *Kal In Ex* | Bloodmoss, Garlic, Nightshade |
-| [Magic Reflection](/magic/circle-5/magic-reflection/) | *In Jux Sanct* | Garlic, Mandrake Root, Spiders' Silk |
-| [Mind Blast](/magic/circle-5/mind-blast/) | *Por Corp Wis* | Black Pearl, Mandrake Root, Nightshade, Sulfurous Ash |
-| [Paralyze](/magic/circle-5/paralyze/) | *An Ex Por* | Garlic, Mandrake Root, Spiders' Silk |
-| [Poison Field](/magic/circle-5/poison-field/) | *In Nox Grav* | Black Pearl, Nightshade, Spiders' Silk |
-| [Summon Creature](/magic/circle-5/summon-creature/) | *Kal Xen* | Bloodmoss, Mandrake Root, Spiders' Silk |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/33.png" alt="" width="22" height="22" /> | [Blade Spirits](/magic/circle-5/blade-spirits/) | *In Jux Hur Ylem* | Black Pearl, Mandrake Root, Nightshade |
+| <img src="/img/spells/34.png" alt="" width="22" height="22" /> | [Dispel Field](/magic/circle-5/dispel-field/) | *An Grav* | Black Pearl, Spiders' Silk, Sulfurous Ash, Garlic |
+| <img src="/img/spells/35.png" alt="" width="22" height="22" /> | [Incognito](/magic/circle-5/incognito/) | *Kal In Ex* | Bloodmoss, Garlic, Nightshade |
+| <img src="/img/spells/36.png" alt="" width="22" height="22" /> | [Magic Reflection](/magic/circle-5/magic-reflection/) | *In Jux Sanct* | Garlic, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/37.png" alt="" width="22" height="22" /> | [Mind Blast](/magic/circle-5/mind-blast/) | *Por Corp Wis* | Black Pearl, Mandrake Root, Nightshade, Sulfurous Ash |
+| <img src="/img/spells/38.png" alt="" width="22" height="22" /> | [Paralyze](/magic/circle-5/paralyze/) | *An Ex Por* | Garlic, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/39.png" alt="" width="22" height="22" /> | [Poison Field](/magic/circle-5/poison-field/) | *In Nox Grav* | Black Pearl, Nightshade, Spiders' Silk |
+| <img src="/img/spells/40.png" alt="" width="22" height="22" /> | [Summon Creature](/magic/circle-5/summon-creature/) | *Kal Xen* | Bloodmoss, Mandrake Root, Spiders' Silk |
 
 ## Circle 6 — Sixth
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Dispel](/magic/circle-6/dispel/) | *An Ort* | Garlic, Mandrake Root, Sulfurous Ash |
-| [Energy Bolt](/magic/circle-6/energy-bolt/) | *Corp Por* | Black Pearl, Nightshade |
-| [Explosion](/magic/circle-6/explosion/) | *Vas Ort Flam* | Bloodmoss, Mandrake Root |
-| [Invisibility](/magic/circle-6/invisibility/) | *An Lor Xen* | Bloodmoss, Nightshade |
-| [Mark](/magic/circle-6/mark/) | *Kal Por Ylem* | Black Pearl, Bloodmoss, Mandrake Root |
-| [Mass Curse](/magic/circle-6/mass-curse/) | *Vas Des Sanct* | Garlic, Nightshade, Mandrake Root, Sulfurous Ash |
-| [Paralyze Field](/magic/circle-6/paralyze-field/) | *In Ex Grav* | Black Pearl, Ginseng, Spiders' Silk |
-| [Reveal](/magic/circle-6/reveal/) | *Wis Quas* | Bloodmoss, Sulfurous Ash |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/41.png" alt="" width="22" height="22" /> | [Dispel](/magic/circle-6/dispel/) | *An Ort* | Garlic, Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/42.png" alt="" width="22" height="22" /> | [Energy Bolt](/magic/circle-6/energy-bolt/) | *Corp Por* | Black Pearl, Nightshade |
+| <img src="/img/spells/43.png" alt="" width="22" height="22" /> | [Explosion](/magic/circle-6/explosion/) | *Vas Ort Flam* | Bloodmoss, Mandrake Root |
+| <img src="/img/spells/44.png" alt="" width="22" height="22" /> | [Invisibility](/magic/circle-6/invisibility/) | *An Lor Xen* | Bloodmoss, Nightshade |
+| <img src="/img/spells/45.png" alt="" width="22" height="22" /> | [Mark](/magic/circle-6/mark/) | *Kal Por Ylem* | Black Pearl, Bloodmoss, Mandrake Root |
+| <img src="/img/spells/46.png" alt="" width="22" height="22" /> | [Mass Curse](/magic/circle-6/mass-curse/) | *Vas Des Sanct* | Garlic, Nightshade, Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/47.png" alt="" width="22" height="22" /> | [Paralyze Field](/magic/circle-6/paralyze-field/) | *In Ex Grav* | Black Pearl, Ginseng, Spiders' Silk |
+| <img src="/img/spells/48.png" alt="" width="22" height="22" /> | [Reveal](/magic/circle-6/reveal/) | *Wis Quas* | Bloodmoss, Sulfurous Ash |
 
 ## Circle 7 — Seventh
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Chain Lightning](/magic/circle-7/chain-lightning/) | *Vas Ort Grav* | Black Pearl, Bloodmoss, Mandrake Root, Sulfurous Ash |
-| [Energy Field](/magic/circle-7/energy-field/) | *In Sanct Grav* | Black Pearl, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| [Flame Strike](/magic/circle-7/flame-strike/) | *Kal Vas Flam* | Spiders' Silk, Sulfurous Ash |
-| [Gate Travel](/magic/circle-7/gate-travel/) | *Vas Rel Por* | Black Pearl, Mandrake Root, Sulfurous Ash |
-| [Mana Vampire](/magic/circle-7/mana-vampire/) | *Ort Sanct* | Black Pearl, Bloodmoss, Mandrake Root, Spiders' Silk |
-| [Mass Dispel](/magic/circle-7/mass-dispel/) | *Vas An Ort* | Garlic, Mandrake Root, Black Pearl, Sulfurous Ash |
-| [Meteor Swarm](/magic/circle-7/meteor-swarm/) | *Flam Kal Des Ylem* | Bloodmoss, Mandrake Root, Sulfurous Ash, Spiders' Silk |
-| [Polymorph](/magic/circle-7/polymorph/) | *Vas Ylem Rel* | Bloodmoss, Spiders' Silk, Mandrake Root |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/49.png" alt="" width="22" height="22" /> | [Chain Lightning](/magic/circle-7/chain-lightning/) | *Vas Ort Grav* | Black Pearl, Bloodmoss, Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/50.png" alt="" width="22" height="22" /> | [Energy Field](/magic/circle-7/energy-field/) | *In Sanct Grav* | Black Pearl, Mandrake Root, Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/51.png" alt="" width="22" height="22" /> | [Flame Strike](/magic/circle-7/flame-strike/) | *Kal Vas Flam* | Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/52.png" alt="" width="22" height="22" /> | [Gate Travel](/magic/circle-7/gate-travel/) | *Vas Rel Por* | Black Pearl, Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/53.png" alt="" width="22" height="22" /> | [Mana Vampire](/magic/circle-7/mana-vampire/) | *Ort Sanct* | Black Pearl, Bloodmoss, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/54.png" alt="" width="22" height="22" /> | [Mass Dispel](/magic/circle-7/mass-dispel/) | *Vas An Ort* | Garlic, Mandrake Root, Black Pearl, Sulfurous Ash |
+| <img src="/img/spells/55.png" alt="" width="22" height="22" /> | [Meteor Swarm](/magic/circle-7/meteor-swarm/) | *Flam Kal Des Ylem* | Bloodmoss, Mandrake Root, Sulfurous Ash, Spiders' Silk |
+| <img src="/img/spells/56.png" alt="" width="22" height="22" /> | [Polymorph](/magic/circle-7/polymorph/) | *Vas Ylem Rel* | Bloodmoss, Spiders' Silk, Mandrake Root |
 
 ## Circle 8 — Eighth
 
-| Spell | Words of power | Reagents |
-| --- | --- | --- |
-| [Air Elemental](/magic/circle-8/air-elemental/) | *Kal Vas Xen Hur* | Bloodmoss, Mandrake Root, Spiders' Silk |
-| [Earth Elemental](/magic/circle-8/earth-elemental/) | *Kal Vas Xen Ylem* | Bloodmoss, Mandrake Root, Spiders' Silk |
-| [Earthquake](/magic/circle-8/earthquake/) | *In Vas Por* | Bloodmoss, Ginseng, Mandrake Root, Sulfurous Ash |
-| [Energy Vortex](/magic/circle-8/energy-vortex/) | *Vas Corp Por* | Bloodmoss, Black Pearl, Mandrake Root, Nightshade |
-| [Fire Elemental](/magic/circle-8/fire-elemental/) | *Kal Vas Xen Flam* | Bloodmoss, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| [Resurrection](/magic/circle-8/resurrection/) | *An Corp* | Bloodmoss, Garlic, Ginseng |
-| [Summon Daemon](/magic/circle-8/summon-daemon/) | *Kal Vas Xen Corp* | Bloodmoss, Mandrake Root, Spiders' Silk, Sulfurous Ash |
-| [Water Elemental](/magic/circle-8/water-elemental/) | *Kal Vas Xen An Flam* | Bloodmoss, Mandrake Root, Spiders' Silk |
+| | Spell | Words of power | Reagents |
+| --- | --- | --- | --- |
+| <img src="/img/spells/57.png" alt="" width="22" height="22" /> | [Air Elemental](/magic/circle-8/air-elemental/) | *Kal Vas Xen Hur* | Bloodmoss, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/58.png" alt="" width="22" height="22" /> | [Earth Elemental](/magic/circle-8/earth-elemental/) | *Kal Vas Xen Ylem* | Bloodmoss, Mandrake Root, Spiders' Silk |
+| <img src="/img/spells/59.png" alt="" width="22" height="22" /> | [Earthquake](/magic/circle-8/earthquake/) | *In Vas Por* | Bloodmoss, Ginseng, Mandrake Root, Sulfurous Ash |
+| <img src="/img/spells/60.png" alt="" width="22" height="22" /> | [Energy Vortex](/magic/circle-8/energy-vortex/) | *Vas Corp Por* | Bloodmoss, Black Pearl, Mandrake Root, Nightshade |
+| <img src="/img/spells/61.png" alt="" width="22" height="22" /> | [Fire Elemental](/magic/circle-8/fire-elemental/) | *Kal Vas Xen Flam* | Bloodmoss, Mandrake Root, Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/62.png" alt="" width="22" height="22" /> | [Resurrection](/magic/circle-8/resurrection/) | *An Corp* | Bloodmoss, Garlic, Ginseng |
+| <img src="/img/spells/63.png" alt="" width="22" height="22" /> | [Summon Daemon](/magic/circle-8/summon-daemon/) | *Kal Vas Xen Corp* | Bloodmoss, Mandrake Root, Spiders' Silk, Sulfurous Ash |
+| <img src="/img/spells/64.png" alt="" width="22" height="22" /> | [Water Elemental](/magic/circle-8/water-elemental/) | *Kal Vas Xen An Flam* | Bloodmoss, Mandrake Root, Spiders' Silk |
 
 See also: [Reagents](/magic/reagents/)

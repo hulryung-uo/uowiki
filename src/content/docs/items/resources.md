@@ -20,17 +20,17 @@ Dig ore from mountains and caves, smelt at a forge into ingots of the same metal
 requirements and vein rarity from `Scripts/Services/Harvest/Mining.cs`; the ore→ingot type
 mapping from `Scripts/Misc/ResourceInfo.cs`:
 
-| Ore → Ingot | Mining required | Vein chance | Smith skill to work |
-|-------------|-----------------|-------------|---------------------|
-| Iron | 0 | 49.6% | 0 |
-| Dull Copper | 65.0 | 11.2% | 65.0 |
-| Shadow Iron | 70.0 | 9.8% | 70.0 |
-| Copper | 75.0 | 8.4% | 75.0 |
-| Bronze | 80.0 | 7.0% | 80.0 |
-| Gold | 85.0 | 5.6% | 85.0 |
-| Agapite | 90.0 | 4.2% | 90.0 |
-| Verite | 95.0 | 2.8% | 95.0 |
-| Valorite | 99.0 | 1.4% | 99.0 |
+| | Ore → Ingot | Mining required | Vein chance | Smith skill to work |
+|---|-------------|-----------------|-------------|---------------------|
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Iron | 0 | 49.6% | 0 |
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Dull Copper | 65.0 | 11.2% | 65.0 |
+| | Shadow Iron | 70.0 | 9.8% | 70.0 |
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Copper | 75.0 | 8.4% | 75.0 |
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Bronze | 80.0 | 7.0% | 80.0 |
+| | Gold | 85.0 | 5.6% | 85.0 |
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Agapite | 90.0 | 4.2% | 90.0 |
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Verite | 95.0 | 2.8% | 95.0 |
+| <img src="/img/items/0x1BF2.png" alt="" width="28" /> | Valorite | 99.0 | 1.4% | 99.0 |
 
 Mining also yields matching **granite** (for stonecraft), **sand** at 70+ skill (glassblowing),
 and — at 100.0 — rare gems and blackrock as bonus finds.
@@ -41,15 +41,15 @@ Chop trees for logs (10 per swing), cut logs into boards with an axe. Chop requi
 `Lumberjacking.cs`; board-cutting accepts **Carpentry or Lumberjacking** at the listed skill
 (`Log.cs`):
 
-| Log → Board | Lumberjacking to chop | Vein chance | Skill to cut boards |
-|-------------|----------------------|-------------|---------------------|
-| Ordinary | 0 | 49% | 0 |
-| Oak | 65.0 | 30% | 65 |
-| Ash | 80.0 | 10% | 80 |
-| Yew | 95.0 | 5% | 95 |
-| Heartwood | 100.0 | 3% | 100 |
-| Bloodwood | 100.0 | 2% | 100 |
-| Frostwood | 100.0 | 1% | 100 |
+| Log | Board | Lumberjacking to chop | Vein chance | Skill to cut boards |
+|---|---|---|---|---|
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Ordinary | 0 | 49% | 0 |
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Oak | 65.0 | 30% | 65 |
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Ash | 80.0 | 10% | 80 |
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Yew | 95.0 | 5% | 95 |
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Heartwood | 100.0 | 3% | 100 |
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Bloodwood | 100.0 | 2% | 100 |
+| <img src="/img/items/0x1BDD.png" alt="" width="28" /> | Frostwood | 100.0 | 1% | 100 |
 
 Bonus chops at 100.0: bark fragments, luminescent fungi, switches, parasitic plants,
 brilliant amber.
@@ -59,12 +59,12 @@ brilliant amber.
 Skin animal corpses with a bladed tool for **hides**, cut into **leather** with scissors.
 Four types per `ResourceInfo.cs` (`m_AOSLeatherInfo`):
 
-| Leather | Comes from |
-|---------|-----------|
-| Normal | Common animals (cows, deer, etc.) |
-| Spined | Tougher beasts |
-| Horned | Dangerous monsters |
-| Barbed | The top predators (dragons and kin) |
+| | Leather | Comes from |
+|---|---------|-----------|
+| <img src="/img/items/0x1081.png" alt="" width="28" /> | Normal | Common animals (cows, deer, etc.) |
+| | Spined | Tougher beasts |
+| | Horned | Dangerous monsters |
+| | Barbed | The top predators (dragons and kin) |
 
 Which specific creatures yield which leather is bestiary territory — see the
 [Bestiary](/bestiary/). Each leather grade carries its own crafting attribute bundle

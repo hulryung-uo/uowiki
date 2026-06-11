@@ -45,3 +45,15 @@ last_verified: 2026-06-11
 | Meditation | 90.1–100.0 |
 | Tactics | 100.0 |
 | Wrestling | 98.1–99.0 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/357.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/358.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/359.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/360.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/361.mp3"></audio>

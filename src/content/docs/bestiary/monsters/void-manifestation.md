@@ -62,3 +62,15 @@ last_verified: 2026-06-11
 | UltraRich | 3 |
 | MedScrolls | 2 |
 | HighScrolls | 3 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/684.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/685.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/686.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/687.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/688.mp3"></audio>

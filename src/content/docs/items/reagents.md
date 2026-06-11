@@ -17,16 +17,16 @@ guide; per-spell recipes live in the [Magic section](/magic/).
 Usage counts are how many of the 64 magery spells consume each reagent, surveyed from the
 spell sources (`Scripts/Spells/First` through `Eighth`):
 
-| Reagent | Spells using it | Heaviest circles | Signature spells |
-|---------|-----------------|------------------|------------------|
-| Mandrake Root | 35 | 4th, 7th, 8th | Recall, Greater Heal, Gate Travel |
-| Bloodmoss | 27 | 3rd, 8th | Recall, Teleport, the 8th-circle summons |
-| Sulfurous Ash | 25 | 7th, 4th | Flamestrike, Gate Travel, Fireball line |
-| Spider's Silk | 22 | 7th, 8th | Heal, Greater Heal, Flamestrike, summons |
-| Garlic | 20 | 4th, 1st–3rd | Heal, Greater Heal, Cure, protection line |
-| Black Pearl | 17 | 7th, 5th | Recall, Energy Bolt, Gate Travel |
-| Nightshade | 16 | 5th, 2nd | Energy Bolt, curse/poison line |
-| Ginseng | 11 | 1st, 4th | Heal, Greater Heal, Cure |
+| | Reagent | Spells using it | Heaviest circles | Signature spells |
+|---|---------|-----------------|------------------|------------------|
+| <img src="/img/items/0x0F86.png" alt="" width="28" /> | Mandrake Root | 35 | 4th, 7th, 8th | Recall, Greater Heal, Gate Travel |
+| <img src="/img/items/0x0F7B.png" alt="" width="28" /> | Bloodmoss | 27 | 3rd, 8th | Recall, Teleport, the 8th-circle summons |
+| <img src="/img/items/0x0F8C.png" alt="" width="28" /> | Sulfurous Ash | 25 | 7th, 4th | Flamestrike, Gate Travel, Fireball line |
+| <img src="/img/items/0x0F8D.png" alt="" width="28" /> | Spider's Silk | 22 | 7th, 8th | Heal, Greater Heal, Flamestrike, summons |
+| <img src="/img/items/0x0F84.png" alt="" width="28" /> | Garlic | 20 | 4th, 1st–3rd | Heal, Greater Heal, Cure, protection line |
+| <img src="/img/items/0x0F7A.png" alt="" width="28" /> | Black Pearl | 17 | 7th, 5th | Recall, Energy Bolt, Gate Travel |
+| <img src="/img/items/0x0F88.png" alt="" width="28" /> | Nightshade | 16 | 5th, 2nd | Energy Bolt, curse/poison line |
+| <img src="/img/items/0x0F85.png" alt="" width="28" /> | Ginseng | 11 | 1st, 4th | Heal, Greater Heal, Cure |
 
 Buying advice that falls out of the table:
 

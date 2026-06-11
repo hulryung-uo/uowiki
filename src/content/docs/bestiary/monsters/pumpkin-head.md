@@ -59,3 +59,15 @@ last_verified: 2026-06-11
 | Loot pack | Count |
 |---|---|
 | UltraRich | 2 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/268.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/269.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/270.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/271.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/272.mp3"></audio>

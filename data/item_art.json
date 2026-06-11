@@ -1,0 +1,6617 @@
+{
+  "_schema": {
+    "description": "Static item art PNGs extracted from artLegacyMUL.uop for item classes used by data/recipes.json plus curated reagents/resources/tools. Keyed by ServUO item class name. item_id resolved from ServUO constructors.",
+    "extracted_by": "tools/extract_art.py",
+    "sources": [
+      "uo-resource/artLegacyMUL.uop",
+      "servuo: Scripts/Items/**"
+    ]
+  },
+  "items": {
+    "AbbatoirDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "abbatoir"
+    },
+    "AbyssalCloth": {
+      "item_id": "0x1767",
+      "png": "/img/items/0x1767.png",
+      "name": "abyssal cloth"
+    },
+    "AcademicBookCase": {
+      "item_id": "0x0A99",
+      "png": "/img/items/0x0A99.png",
+      "name": "academic bookcase"
+    },
+    "AcademicBooksArtifact": {
+      "item_id": "0x1E25",
+      "png": "/img/items/0x1E25.png",
+      "name": "academic books"
+    },
+    "AcidProofRope": {
+      "item_id": "0x020D",
+      "png": "/img/items/0x020D.png",
+      "name": "Acid Proof Rope"
+    },
+    "AdvancedTrainingDummyEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "advanced training dummy (east)"
+    },
+    "AdvancedTrainingDummySouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "advanced training dummy (south)"
+    },
+    "AdventurersMachete": {
+      "item_id": "0x2D35",
+      "png": "/img/items/0x2D35.png",
+      "name": "adventurer's machete"
+    },
+    "AgapiteIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "agapite ingot"
+    },
+    "AgapiteOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "agapite ore"
+    },
+    "AgilityPotion": {
+      "item_id": "0x0F08",
+      "png": "/img/items/0x0F08.png",
+      "name": "agility"
+    },
+    "AgilityScroll": {
+      "item_id": "0x1F35",
+      "png": "/img/items/0x1F35.png",
+      "name": "Agility"
+    },
+    "AlchemistTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "alchemist table (east)"
+    },
+    "AlchemistTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "alchemist table (south)"
+    },
+    "Amber": {
+      "item_id": "0x0F25",
+      "png": "/img/items/0x0F25.png",
+      "name": "Amber"
+    },
+    "Amethyst": {
+      "item_id": "0x0F16",
+      "png": "/img/items/0x0F16.png",
+      "name": "Amethysts"
+    },
+    "AncientParchment": {
+      "item_id": "0x2269",
+      "png": "/img/items/0x2269.png",
+      "name": "Ancient Parchment"
+    },
+    "AncientWildStaff": {
+      "item_id": "0x2D25",
+      "png": "/img/items/0x2D25.png",
+      "name": "ancient wild staff"
+    },
+    "AniLargeVioletFlask": {
+      "item_id": "0x1841",
+      "png": "/img/items/0x1841.png",
+      "name": "flask (bubbling purple)"
+    },
+    "AniRedRibbedFlask": {
+      "item_id": "0x183E",
+      "png": "/img/items/0x183E.png",
+      "name": "flask (bubbling red)"
+    },
+    "AniSmallBlueFlask": {
+      "item_id": "0x1844",
+      "png": "/img/items/0x1844.png",
+      "name": "flask (bubbling blue)"
+    },
+    "AnimalPheromone": {
+      "item_id": "0x182F",
+      "png": "/img/items/0x182F.png",
+      "name": "animal pheromone"
+    },
+    "AnimateDeadScroll": {
+      "item_id": "0x2260",
+      "png": "/img/items/0x2260.png",
+      "name": "Animate Dead"
+    },
+    "AnimatedWeaponScroll": {
+      "item_id": "0x02AB",
+      "png": "/img/items/0x02AB.png",
+      "name": "Animated Weapon"
+    },
+    "AnniversaryVaseShort": {
+      "item_id": "0x9BCA",
+      "png": "/img/items/0x9BCA.png",
+      "name": "Short 18th Anniversary Vase"
+    },
+    "AnniversaryVaseTall": {
+      "item_id": "0x9BC7",
+      "png": "/img/items/0x9BC7.png",
+      "name": "Tall 18th Anniversary Vase"
+    },
+    "AntiqueDocumentsKit": {
+      "item_id": "0x1EBB",
+      "png": "/img/items/0x1EBB.png",
+      "name": "Antique Documents Kit"
+    },
+    "AnvilEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "anvil (east)"
+    },
+    "AnvilSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "anvil (south)"
+    },
+    "Apple": {
+      "item_id": "0x09D0",
+      "png": "/img/items/0x09D0.png",
+      "name": "Apples"
+    },
+    "ApplePie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "baked apple pie"
+    },
+    "ArcaneBookShelfDeedEast": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "arcane bookshelf (east)"
+    },
+    "ArcaneBookShelfDeedSouth": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "arcane bookshelf (south)"
+    },
+    "ArcaneCircleDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "arcane circle"
+    },
+    "ArcanicRuneStone": {
+      "item_id": "0x573C",
+      "png": "/img/items/0x573C.png",
+      "name": "arcanic rune stone"
+    },
+    "ArcanistStatueEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "arcanist statue (east)"
+    },
+    "ArcanistStatueSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "arcanist statue (south)"
+    },
+    "ArcanistsWildStaff": {
+      "item_id": "0x2D25",
+      "png": "/img/items/0x2D25.png",
+      "name": "arcanist's wild staff"
+    },
+    "ArchCureScroll": {
+      "item_id": "0x1F45",
+      "png": "/img/items/0x1F45.png",
+      "name": "Arch Cure"
+    },
+    "ArchProtectionScroll": {
+      "item_id": "0x1F46",
+      "png": "/img/items/0x1F46.png",
+      "name": "Arch Protection"
+    },
+    "Armoire": {
+      "item_id": "0x0A4F",
+      "png": "/img/items/0x0A4F.png",
+      "name": "armoire"
+    },
+    "Arrow": {
+      "item_id": "0x0F3F",
+      "png": "/img/items/0x0F3F.png",
+      "name": "arrow"
+    },
+    "AshBoard": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "ash board"
+    },
+    "AshLog": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "ash log"
+    },
+    "AssassinSpike": {
+      "item_id": "0x2D21",
+      "png": "/img/items/0x2D21.png",
+      "name": "assassin spike"
+    },
+    "AssassinsCowl": {
+      "item_id": "0xA410",
+      "png": "/img/items/0xA410.png",
+      "name": "assassin's cowl"
+    },
+    "AssassinsShortbow": {
+      "item_id": "0x2D2B",
+      "png": "/img/items/0x2D2B.png",
+      "name": "assassin's shortbow"
+    },
+    "AudChar": {
+      "item_id": "0x403B",
+      "png": "/img/items/0x403B.png",
+      "name": "aud-char"
+    },
+    "AutomatonActuator": {
+      "item_id": "0x9CE9",
+      "png": "/img/items/0x9CE9.png",
+      "name": "Automaton Actuator"
+    },
+    "AutumnDragonfishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "autumn dragonfish pie"
+    },
+    "AutumnDragonfishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "autumn dragonfish steak"
+    },
+    "AwaseMisoSoup": {
+      "item_id": "0x2850",
+      "png": "/img/items/0x2850.png",
+      "name": "awase miso soup"
+    },
+    "Axe": {
+      "item_id": "0x0F49",
+      "png": "/img/items/0x0F49.png",
+      "name": "axe"
+    },
+    "Axle": {
+      "item_id": "0x105B",
+      "png": "/img/items/0x105B.png",
+      "name": "axle"
+    },
+    "AxleGears": {
+      "item_id": "0x1051",
+      "png": "/img/items/0x1051.png",
+      "name": "axle with gears"
+    },
+    "BallotBoxDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "ballot box"
+    },
+    "BambooChair": {
+      "item_id": "0x0B5B",
+      "png": "/img/items/0x0B5B.png",
+      "name": "straw chair"
+    },
+    "BambooFlute": {
+      "item_id": "0x2805",
+      "png": "/img/items/0x2805.png",
+      "name": "bamboo flute"
+    },
+    "BambooScreen": {
+      "item_id": "0x24D0",
+      "png": "/img/items/0x24D0.png",
+      "name": "bamboo screen"
+    },
+    "Banana": {
+      "item_id": "0x171F",
+      "png": "/img/items/0x171F.png",
+      "name": "Bananas"
+    },
+    "Bandage": {
+      "item_id": "0x0E21",
+      "png": "/img/items/0x0E21.png",
+      "name": "bandage"
+    },
+    "Bandana": {
+      "item_id": "0x1540",
+      "png": "/img/items/0x1540.png",
+      "name": "bandana"
+    },
+    "BarakoDraftOfMight": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "barako draft of might"
+    },
+    "BarbedHides": {
+      "item_id": "0x1079",
+      "png": "/img/items/0x1079.png",
+      "name": "barbed hides"
+    },
+    "BarbedLeather": {
+      "item_id": "0x1081",
+      "png": "/img/items/0x1081.png",
+      "name": "barbed leather"
+    },
+    "BarbedLongbow": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "barbed longbow"
+    },
+    "Bardiche": {
+      "item_id": "0x0F4D",
+      "png": "/img/items/0x0F4D.png",
+      "name": "bardiche"
+    },
+    "BarkFragment": {
+      "item_id": "0x318F",
+      "png": "/img/items/0x318F.png",
+      "name": "Bark Fragment"
+    },
+    "BarrabHemolymphConcentrate": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "barrab hemolymph concentrate"
+    },
+    "BarrelHoops": {
+      "item_id": "0x1DB7",
+      "png": "/img/items/0x1DB7.png",
+      "name": "Barrel Hoops"
+    },
+    "BarrelLid": {
+      "item_id": "0x1DB8",
+      "png": "/img/items/0x1DB8.png",
+      "name": "barrel lid"
+    },
+    "BarrelStaves": {
+      "item_id": "0x1EB1",
+      "png": "/img/items/0x1EB1.png",
+      "name": "barrel staves"
+    },
+    "BarrelTap": {
+      "item_id": "0x1004",
+      "png": "/img/items/0x1004.png",
+      "name": "barrel tap"
+    },
+    "Bascinet": {
+      "item_id": "0x140C",
+      "png": "/img/items/0x140C.png",
+      "name": "bascinet"
+    },
+    "BaseExplosionPotion": {
+      "item_id": "0x0F0D",
+      "png": "/img/items/0x0F0D.png",
+      "name": "Purple Potions"
+    },
+    "BasePoisonPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "Green Potions"
+    },
+    "BasketCraftable": {
+      "item_id": "0x24D7",
+      "png": "/img/items/0x24D7.png",
+      "name": "basket"
+    },
+    "BasketOfGreenTeaMug": {
+      "item_id": "0x0995",
+      "png": "/img/items/0x0995.png",
+      "name": "Basket of Green Tea"
+    },
+    "BatWing": {
+      "item_id": "0x0F78",
+      "png": "/img/items/0x0F78.png",
+      "name": "Batwing"
+    },
+    "BattleAxe": {
+      "item_id": "0x0F47",
+      "png": "/img/items/0x0F47.png",
+      "name": "battle axe"
+    },
+    "BearMask": {
+      "item_id": "0x1545",
+      "png": "/img/items/0x1545.png",
+      "name": "bear mask"
+    },
+    "Beeswax": {
+      "item_id": "0x1422",
+      "png": "/img/items/0x1422.png",
+      "name": "Beeswax"
+    },
+    "BigElvenChair": {
+      "item_id": "0x2DEB",
+      "png": "/img/items/0x2DEB.png",
+      "name": "cozy elven chair"
+    },
+    "BlackPearl": {
+      "item_id": "0x0F7A",
+      "png": "/img/items/0x0F7A.png",
+      "name": "Black Pearl"
+    },
+    "BlackPowder": {
+      "item_id": "0x423A",
+      "png": "/img/items/0x423A.png",
+      "name": "black powder"
+    },
+    "BlackStaff": {
+      "item_id": "0x0DF0",
+      "png": "/img/items/0x0DF0.png",
+      "name": "black staff"
+    },
+    "BlackrockMoonstone": {
+      "item_id": "0x9CAA",
+      "png": "/img/items/0x9CAA.png",
+      "name": "Black Moonstone"
+    },
+    "BladeSpiritsScroll": {
+      "item_id": "0x1F4D",
+      "png": "/img/items/0x1F4D.png",
+      "name": "Blade Spirits"
+    },
+    "BladedStaff": {
+      "item_id": "0x26BD",
+      "png": "/img/items/0x26BD.png",
+      "name": "bladed staff"
+    },
+    "BlankMap": {
+      "item_id": "0x14EC",
+      "png": "/img/items/0x14EC.png",
+      "name": "Blank Maps or Scrolls"
+    },
+    "BlankScroll": {
+      "item_id": "0x0EF3",
+      "png": "/img/items/0x0EF3.png",
+      "name": "Blank Scrolls"
+    },
+    "BlessScroll": {
+      "item_id": "0x1F3D",
+      "png": "/img/items/0x1F3D.png",
+      "name": "Bless"
+    },
+    "Blight": {
+      "item_id": "0x3183",
+      "png": "/img/items/0x3183.png",
+      "name": "Blight"
+    },
+    "BlightGrippedLongbow": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "Blight Gripped Longbow"
+    },
+    "BloodBlade": {
+      "item_id": "0x08FE",
+      "png": "/img/items/0x08FE.png",
+      "name": "bloodblade"
+    },
+    "BloodOathScroll": {
+      "item_id": "0x2261",
+      "png": "/img/items/0x2261.png",
+      "name": "Blood Oath"
+    },
+    "BloodOfTheDarkFather": {
+      "item_id": "0x9D7F",
+      "png": "/img/items/0x9D7F.png",
+      "name": "Blood of the Dark Father"
+    },
+    "Bloodmoss": {
+      "item_id": "0x0F7B",
+      "png": "/img/items/0x0F7B.png",
+      "name": "Blood Moss"
+    },
+    "BloodwoodBoard": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "bloodwood board"
+    },
+    "BloodwoodLog": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "bloodwood log"
+    },
+    "BlueCorn": {
+      "item_id": "0x0C81",
+      "png": "/img/items/0x0C81.png",
+      "name": "Blue Corn"
+    },
+    "BlueDiamond": {
+      "item_id": "0x3198",
+      "png": "/img/items/0x3198.png",
+      "name": "Blue Diamond"
+    },
+    "BlueDiamondRing": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "blue diamond ring"
+    },
+    "BlueLobsterMeat": {
+      "item_id": "0x103F",
+      "png": "/img/items/0x103F.png",
+      "name": "blue lobster meat"
+    },
+    "BlueLobsterPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "blue lobster pie"
+    },
+    "Board": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "Boards or Logs"
+    },
+    "BodySash": {
+      "item_id": "0x1541",
+      "png": "/img/items/0x1541.png",
+      "name": "body sash"
+    },
+    "Bokuto": {
+      "item_id": "0x27A8",
+      "png": "/img/items/0x27A8.png",
+      "name": "bokuto"
+    },
+    "Bola": {
+      "item_id": "0x26AC",
+      "png": "/img/items/0x26AC.png",
+      "name": "bola"
+    },
+    "BolaBall": {
+      "item_id": "0x0E73",
+      "png": "/img/items/0x0E73.png",
+      "name": "bola balls"
+    },
+    "Bolt": {
+      "item_id": "0x1BFB",
+      "png": "/img/items/0x1BFB.png",
+      "name": "crossbow bolt"
+    },
+    "BoltOfCloth": {
+      "item_id": "0x0F95",
+      "png": "/img/items/0x0F95.png",
+      "name": "Bolts of Cloth"
+    },
+    "BombardScroll": {
+      "item_id": "0x02B0",
+      "png": "/img/items/0x02B0.png",
+      "name": "Bombard"
+    },
+    "Bone": {
+      "item_id": "0x0F7E",
+      "png": "/img/items/0x0F7E.png",
+      "name": "Bones"
+    },
+    "BoneArms": {
+      "item_id": "0x144E",
+      "png": "/img/items/0x144E.png",
+      "name": "bone arms"
+    },
+    "BoneChest": {
+      "item_id": "0x144F",
+      "png": "/img/items/0x144F.png",
+      "name": "bone armor"
+    },
+    "BoneGloves": {
+      "item_id": "0x1450",
+      "png": "/img/items/0x1450.png",
+      "name": "bone gloves"
+    },
+    "BoneHarvester": {
+      "item_id": "0x26BB",
+      "png": "/img/items/0x26BB.png",
+      "name": "bone harvester"
+    },
+    "BoneHelm": {
+      "item_id": "0x1451",
+      "png": "/img/items/0x1451.png",
+      "name": "bone helmet"
+    },
+    "BoneLegs": {
+      "item_id": "0x1452",
+      "png": "/img/items/0x1452.png",
+      "name": "bone leggings"
+    },
+    "BoneMachete": {
+      "item_id": "0x2D35",
+      "png": "/img/items/0x2D35.png",
+      "name": "bone machete"
+    },
+    "Bonnet": {
+      "item_id": "0x1719",
+      "png": "/img/items/0x1719.png",
+      "name": "bonnet"
+    },
+    "Boomerang": {
+      "item_id": "0x08FF",
+      "png": "/img/items/0x08FF.png",
+      "name": "boomerang"
+    },
+    "Boots": {
+      "item_id": "0x170B",
+      "png": "/img/items/0x170B.png",
+      "name": "boots"
+    },
+    "Bottle": {
+      "item_id": "0x0F0E",
+      "png": "/img/items/0x0F0E.png",
+      "name": "Empty Bottles"
+    },
+    "BottleIchor": {
+      "item_id": "0x5748",
+      "png": "/img/items/0x5748.png",
+      "name": "bottle of ichor"
+    },
+    "Bow": {
+      "item_id": "0x13B2",
+      "png": "/img/items/0x13B2.png",
+      "name": "bow"
+    },
+    "BowlOfBlackrockStew": {
+      "item_id": "0x2DBA",
+      "png": "/img/items/0x2DBA.png",
+      "name": "blackrock stew"
+    },
+    "BowlOfRotwormStew": {
+      "item_id": "0x2DBA",
+      "png": "/img/items/0x2DBA.png",
+      "name": "bowl of rotworm stew"
+    },
+    "BraceletOfPrimalConsumption": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "bracelet of primal consumption"
+    },
+    "BrambleCoat": {
+      "item_id": "0x2B67",
+      "png": "/img/items/0x2B67.png",
+      "name": "Bramble Coat"
+    },
+    "BreadLoaf": {
+      "item_id": "0x103B",
+      "png": "/img/items/0x103B.png",
+      "name": "bread loaf"
+    },
+    "BrilliantAmber": {
+      "item_id": "0x3199",
+      "png": "/img/items/0x3199.png",
+      "name": "Brilliant Amber"
+    },
+    "BrilliantAmberBracelet": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "brilliant amber bracelet"
+    },
+    "BritchesOfWarding": {
+      "item_id": "0x13BE",
+      "png": "/img/items/0x13BE.png",
+      "name": "britches of warding"
+    },
+    "BroadcastCrystal": {
+      "item_id": "0x07D0",
+      "png": "/img/items/0x07D0.png",
+      "name": "Farspeaker"
+    },
+    "Broadsword": {
+      "item_id": "0x0F5E",
+      "png": "/img/items/0x0F5E.png",
+      "name": "broadsword"
+    },
+    "BrocadeGozaMatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "brocade goza (east)"
+    },
+    "BrocadeGozaMatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "brocade goza (south)"
+    },
+    "BrocadeSquareGozaMatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "square brocade goza (east)"
+    },
+    "BrocadeSquareGozaMatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "square brocade goza (south)"
+    },
+    "BronzeIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "bronze ingots:"
+    },
+    "BronzeOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "bronze ore"
+    },
+    "BronzeShield": {
+      "item_id": "0x1B72",
+      "png": "/img/items/0x1B72.png",
+      "name": "bronze shield"
+    },
+    "Buckler": {
+      "item_id": "0x1B73",
+      "png": "/img/items/0x1B73.png",
+      "name": "buckler"
+    },
+    "BulkOrderBook": {
+      "item_id": "0x2259",
+      "png": "/img/items/0x2259.png",
+      "name": "Bulk Order Book"
+    },
+    "BullFishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "bull fish pie"
+    },
+    "BullFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "bull fish steak"
+    },
+    "ButcherKnife": {
+      "item_id": "0x13F6",
+      "png": "/img/items/0x13F6.png",
+      "name": "butcher knife"
+    },
+    "ButchersWarCleaver": {
+      "item_id": "0x2D2F",
+      "png": "/img/items/0x2D2F.png",
+      "name": "butcher's war cleaver"
+    },
+    "Cabbage": {
+      "item_id": "0x0C7B",
+      "png": "/img/items/0x0C7B.png",
+      "name": "head of cabbage"
+    },
+    "Cake": {
+      "item_id": "0x09E9",
+      "png": "/img/items/0x09E9.png",
+      "name": "cake"
+    },
+    "CakeMix": {
+      "item_id": "0x103F",
+      "png": "/img/items/0x103F.png",
+      "name": "cake mix"
+    },
+    "Candelabra": {
+      "item_id": "0x0A27",
+      "png": "/img/items/0x0A27.png",
+      "name": "candelabra"
+    },
+    "Cannonball": {
+      "item_id": "0x4224",
+      "png": "/img/items/0x4224.png",
+      "name": "Cannonball"
+    },
+    "Cap": {
+      "item_id": "0x1715",
+      "png": "/img/items/0x1715.png",
+      "name": "cap"
+    },
+    "CapturedEssence": {
+      "item_id": "0x318E",
+      "png": "/img/items/0x318E.png",
+      "name": "Captured Essence"
+    },
+    "Carrot": {
+      "item_id": "0x0C78",
+      "png": "/img/items/0x0C78.png",
+      "name": "carrot"
+    },
+    "CelloDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "cello"
+    },
+    "ChainChest": {
+      "item_id": "0x13BF",
+      "png": "/img/items/0x13BF.png",
+      "name": "chainmail tunic"
+    },
+    "ChainCoif": {
+      "item_id": "0x13BB",
+      "png": "/img/items/0x13BB.png",
+      "name": "chainmail coif"
+    },
+    "ChainHatsuburi": {
+      "item_id": "0x2774",
+      "png": "/img/items/0x2774.png",
+      "name": "chainmail hatsuburi"
+    },
+    "ChainLegs": {
+      "item_id": "0x13BE",
+      "png": "/img/items/0x13BE.png",
+      "name": "chainmail leggings"
+    },
+    "ChainLightningScroll": {
+      "item_id": "0x1F5D",
+      "png": "/img/items/0x1F5D.png",
+      "name": "Chain Lightning"
+    },
+    "ChaosShield": {
+      "item_id": "0x1BC3",
+      "png": "/img/items/0x1BC3.png",
+      "name": "chaos shield"
+    },
+    "Charcoal": {
+      "item_id": "0x423A",
+      "png": "/img/items/0x423A.png",
+      "name": "charcoal"
+    },
+    "ChargedAssassinSpike": {
+      "item_id": "0x2D21",
+      "png": "/img/items/0x2D21.png",
+      "name": "charged assassin spike"
+    },
+    "CheckeredKilt": {
+      "item_id": "0x781C",
+      "png": "/img/items/0x781C.png",
+      "name": "Checkered Kilt"
+    },
+    "CheesePizza": {
+      "item_id": "0x1040",
+      "png": "/img/items/0x1040.png",
+      "name": "cheese pizza"
+    },
+    "CheeseWheel": {
+      "item_id": "0x097E",
+      "png": "/img/items/0x097E.png",
+      "name": "Cheese"
+    },
+    "ChefsToque": {
+      "item_id": "0x781A",
+      "png": "/img/items/0x781A.png",
+      "name": "Chef's Toque"
+    },
+    "CherryArmoire": {
+      "item_id": "0x285D",
+      "png": "/img/items/0x285D.png",
+      "name": "cherry armoire"
+    },
+    "ChickenCoop": {
+      "item_id": "0x4513",
+      "png": "/img/items/0x4513.png",
+      "name": "a chicken coop"
+    },
+    "ChickenLeg": {
+      "item_id": "0x1608",
+      "png": "/img/items/0x1608.png",
+      "name": "chicken leg"
+    },
+    "ChocolateNutcracker": {
+      "item_id": "0x9C10",
+      "png": "/img/items/0x9C10.png",
+      "name": "dark chocolate nutcracker"
+    },
+    "Circlet": {
+      "item_id": "0x2B6E",
+      "png": "/img/items/0x2B6E.png",
+      "name": "circlet"
+    },
+    "Citrine": {
+      "item_id": "0x0F15",
+      "png": "/img/items/0x0F15.png",
+      "name": "Citrines"
+    },
+    "CityMap": {
+      "item_id": "0x14EC",
+      "png": "/img/items/0x14EC.png",
+      "name": "city map"
+    },
+    "CleansingWindsScroll": {
+      "item_id": "0x02AF",
+      "png": "/img/items/0x02AF.png",
+      "name": "Cleansing Winds"
+    },
+    "Cleaver": {
+      "item_id": "0x0EC3",
+      "png": "/img/items/0x0EC3.png",
+      "name": "cleaver"
+    },
+    "Clippers": {
+      "item_id": "0x0DFC",
+      "png": "/img/items/0x0DFC.png",
+      "name": "clippers"
+    },
+    "Cloak": {
+      "item_id": "0x1515",
+      "png": "/img/items/0x1515.png",
+      "name": "cloak"
+    },
+    "ClockFrame": {
+      "item_id": "0x104D",
+      "png": "/img/items/0x104D.png",
+      "name": "clock frame"
+    },
+    "ClockLeft": {
+      "item_id": "0x104C",
+      "png": "/img/items/0x104C.png",
+      "name": "clock (left)"
+    },
+    "ClockParts": {
+      "item_id": "0x104F",
+      "png": "/img/items/0x104F.png",
+      "name": "clock parts"
+    },
+    "ClockRight": {
+      "item_id": "0x104B",
+      "png": "/img/items/0x104B.png",
+      "name": "clock (right)"
+    },
+    "ClockworkAssembly": {
+      "item_id": "0x1EA8",
+      "png": "/img/items/0x1EA8.png",
+      "name": "Clockwork Assembly"
+    },
+    "CloseHelm": {
+      "item_id": "0x1408",
+      "png": "/img/items/0x1408.png",
+      "name": "close helmet"
+    },
+    "Cloth": {
+      "item_id": "0x1766",
+      "png": "/img/items/0x1766.png",
+      "name": "Cloth"
+    },
+    "ClothNinjaHood": {
+      "item_id": "0x278F",
+      "png": "/img/items/0x278F.png",
+      "name": "cloth ninja hood"
+    },
+    "ClothNinjaJacket": {
+      "item_id": "0x2794",
+      "png": "/img/items/0x2794.png",
+      "name": "cloth ninja jacket"
+    },
+    "Club": {
+      "item_id": "0x13B4",
+      "png": "/img/items/0x13B4.png",
+      "name": "club"
+    },
+    "ClumsyScroll": {
+      "item_id": "0x1F2E",
+      "png": "/img/items/0x1F2E.png",
+      "name": "Clumsy"
+    },
+    "CocoaButter": {
+      "item_id": "0x1044",
+      "png": "/img/items/0x1044.png",
+      "name": "cocoa butter"
+    },
+    "CocoaLiquor": {
+      "item_id": "0x103F",
+      "png": "/img/items/0x103F.png",
+      "name": "cocoa liquor"
+    },
+    "CocoaPulp": {
+      "item_id": "0x0F7C",
+      "png": "/img/items/0x0F7C.png",
+      "name": "cocoa pulp"
+    },
+    "CoffeeGrounds": {
+      "item_id": "0x573B",
+      "png": "/img/items/0x573B.png",
+      "name": "Coffee Grounds"
+    },
+    "CoffeeMug": {
+      "item_id": "0x0995",
+      "png": "/img/items/0x0995.png",
+      "name": "Coffee"
+    },
+    "ColdForgedBlade": {
+      "item_id": "0x2D20",
+      "png": "/img/items/0x2D20.png",
+      "name": "Cold Forged Blade"
+    },
+    "ColorFixative": {
+      "item_id": "0x182D",
+      "png": "/img/items/0x182D.png",
+      "name": "color fixative"
+    },
+    "CombineCloth": {
+      "item_id": "0x1767",
+      "png": "/img/items/0x1767.png",
+      "name": "combine cloth"
+    },
+    "CompositeBow": {
+      "item_id": "0x26C2",
+      "png": "/img/items/0x26C2.png",
+      "name": "composite bow"
+    },
+    "ConflagrationPotion": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "conflagration"
+    },
+    "ConfusionBlastPotion": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "confusion blast"
+    },
+    "CookableSausage": {
+      "item_id": "0xA0D6",
+      "png": "/img/items/0xA0D6.png",
+      "name": "sausage"
+    },
+    "CookedBird": {
+      "item_id": "0x09B7",
+      "png": "/img/items/0x09B7.png",
+      "name": "cooked bird"
+    },
+    "CookieMix": {
+      "item_id": "0x103F",
+      "png": "/img/items/0x103F.png",
+      "name": "cookie mix"
+    },
+    "Cookies": {
+      "item_id": "0x160B",
+      "png": "/img/items/0x160B.png",
+      "name": "pan of cookies"
+    },
+    "CopperIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "copper ingot"
+    },
+    "CopperOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "copper ore"
+    },
+    "CopperWire": {
+      "item_id": "0x1879",
+      "png": "/img/items/0x1879.png",
+      "name": "copper wire"
+    },
+    "CorpseSkinScroll": {
+      "item_id": "0x2262",
+      "png": "/img/items/0x2262.png",
+      "name": "Corpse Skin"
+    },
+    "CorruptedRuneBlade": {
+      "item_id": "0x2D32",
+      "png": "/img/items/0x2D32.png",
+      "name": "Corrupted Rune Blade"
+    },
+    "Corruption": {
+      "item_id": "0x3184",
+      "png": "/img/items/0x3184.png",
+      "name": "Corruption"
+    },
+    "CowBellDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "cowbell"
+    },
+    "CowlOfTheMaceAndShield": {
+      "item_id": "0xA410",
+      "png": "/img/items/0xA410.png",
+      "name": "cowl of the mace & shield"
+    },
+    "CraftableMetalHouseDoor": {
+      "item_id": "0x0675",
+      "png": "/img/items/0x0675.png",
+      "name": "Left Metal Door (S In)"
+    },
+    "CraftableStoneHouseDoor": {
+      "item_id": "0x0324",
+      "png": "/img/items/0x0324.png",
+      "name": "Stone Door (S In)"
+    },
+    "CreateFoodScroll": {
+      "item_id": "0x1F2F",
+      "png": "/img/items/0x1F2F.png",
+      "name": "Create Food"
+    },
+    "CrescentBlade": {
+      "item_id": "0x26C1",
+      "png": "/img/items/0x26C1.png",
+      "name": "crescent blade"
+    },
+    "CrimsonCincture": {
+      "item_id": "0x153B",
+      "png": "/img/items/0x153B.png",
+      "name": "Crimson Cincture"
+    },
+    "CrimsonDaggerBelt": {
+      "item_id": "0xA40E",
+      "png": "/img/items/0xA40E.png",
+      "name": "crimson dagger belt"
+    },
+    "CrimsonMaceBelt": {
+      "item_id": "0xA40C",
+      "png": "/img/items/0xA40C.png",
+      "name": "crimson mace belt"
+    },
+    "CrimsonSwordBelt": {
+      "item_id": "0xA40D",
+      "png": "/img/items/0xA40D.png",
+      "name": "crimson sword belt"
+    },
+    "Crossbow": {
+      "item_id": "0x0F50",
+      "png": "/img/items/0x0F50.png",
+      "name": "crossbow"
+    },
+    "CrushedGlass": {
+      "item_id": "0x573B",
+      "png": "/img/items/0x573B.png",
+      "name": "crushed glass"
+    },
+    "CrystalDust": {
+      "item_id": "0x4009",
+      "png": "/img/items/0x4009.png",
+      "name": "crystal dust"
+    },
+    "CrystalFishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "crystal fish pie"
+    },
+    "CrystalFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "crystal fish steak"
+    },
+    "CrystalGranules": {
+      "item_id": "0x4008",
+      "png": "/img/items/0x4008.png",
+      "name": "crystal granules"
+    },
+    "CrystalShards": {
+      "item_id": "0x5738",
+      "png": "/img/items/0x5738.png",
+      "name": "Crystal Shards"
+    },
+    "CrystallineBlackrock": {
+      "item_id": "0x5732",
+      "png": "/img/items/0x5732.png",
+      "name": "Crystalline Blackrock"
+    },
+    "CrystallineFragments": {
+      "item_id": "0x223B",
+      "png": "/img/items/0x223B.png",
+      "name": "broken crystals"
+    },
+    "CuffsOfTheArchmage": {
+      "item_id": "0x144E",
+      "png": "/img/items/0x144E.png",
+      "name": "cuffs of the archmage"
+    },
+    "CunningScroll": {
+      "item_id": "0x1F36",
+      "png": "/img/items/0x1F36.png",
+      "name": "Cunning"
+    },
+    "CurePotion": {
+      "item_id": "0x0F07",
+      "png": "/img/items/0x0F07.png",
+      "name": "cure"
+    },
+    "CureScroll": {
+      "item_id": "0x1F37",
+      "png": "/img/items/0x1F37.png",
+      "name": "Cure"
+    },
+    "CurseScroll": {
+      "item_id": "0x1F47",
+      "png": "/img/items/0x1F47.png",
+      "name": "Curse"
+    },
+    "CurseWeaponScroll": {
+      "item_id": "0x2263",
+      "png": "/img/items/0x2263.png",
+      "name": "Curse Weapon"
+    },
+    "CurvedFlask": {
+      "item_id": "0x1832",
+      "png": "/img/items/0x1832.png",
+      "name": "flask (curved)"
+    },
+    "CutUpCloth": {
+      "item_id": "0x1767",
+      "png": "/img/items/0x1767.png",
+      "name": "cut-up cloth"
+    },
+    "Cutlass": {
+      "item_id": "0x1441",
+      "png": "/img/items/0x1441.png",
+      "name": "cutlass"
+    },
+    "Cyclone": {
+      "item_id": "0x0901",
+      "png": "/img/items/0x0901.png",
+      "name": "cyclone"
+    },
+    "DaemonBlood": {
+      "item_id": "0x0F7D",
+      "png": "/img/items/0x0F7D.png",
+      "name": "Daemon Blood"
+    },
+    "DaemonBone": {
+      "item_id": "0x0F80",
+      "png": "/img/items/0x0F80.png",
+      "name": "Daemon Bone"
+    },
+    "Dagger": {
+      "item_id": "0x0F52",
+      "png": "/img/items/0x0F52.png",
+      "name": "dagger"
+    },
+    "DaggerBelt": {
+      "item_id": "0xA40E",
+      "png": "/img/items/0xA40E.png",
+      "name": "dagger belt"
+    },
+    "Daisho": {
+      "item_id": "0x27A9",
+      "png": "/img/items/0x27A9.png",
+      "name": "daisho"
+    },
+    "DarkChocolate": {
+      "item_id": "0x0F10",
+      "png": "/img/items/0x0F10.png",
+      "name": "dark chocolate"
+    },
+    "DarkSapphire": {
+      "item_id": "0x3192",
+      "png": "/img/items/0x3192.png",
+      "name": "Dark Sapphire"
+    },
+    "DarkSapphireBracelet": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "dark sapphire bracelet"
+    },
+    "DarkTruffle": {
+      "item_id": "0x0D18",
+      "png": "/img/items/0x0D18.png",
+      "name": "dark truffle"
+    },
+    "DarkYarn": {
+      "item_id": "0x0E1D",
+      "png": "/img/items/0x0E1D.png",
+      "name": "ball of yarn"
+    },
+    "DarkglowPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "darkglow"
+    },
+    "DarkglowScimitar": {
+      "item_id": "0x2D33",
+      "png": "/img/items/0x2D33.png",
+      "name": "darkglow scimitar"
+    },
+    "DarkwoodChest": {
+      "item_id": "0x2B67",
+      "png": "/img/items/0x2B67.png",
+      "name": "Darkwood Chest"
+    },
+    "DarkwoodCrown": {
+      "item_id": "0x2B71",
+      "png": "/img/items/0x2B71.png",
+      "name": "Darkwood Crown"
+    },
+    "DarkwoodGloves": {
+      "item_id": "0x2B6A",
+      "png": "/img/items/0x2B6A.png",
+      "name": "Darkwood Gauntlets"
+    },
+    "DarkwoodGorget": {
+      "item_id": "0x2B69",
+      "png": "/img/items/0x2B69.png",
+      "name": "Darkwood Gorget"
+    },
+    "DarkwoodLegs": {
+      "item_id": "0x2B6B",
+      "png": "/img/items/0x2B6B.png",
+      "name": "Darkwood Leggings"
+    },
+    "DarkwoodPauldrons": {
+      "item_id": "0x2B6C",
+      "png": "/img/items/0x2B6C.png",
+      "name": "Darkwood Pauldrons"
+    },
+    "DartBoardEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "dartboard (east)"
+    },
+    "DartBoardSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "dartboard (south)"
+    },
+    "DeadlyPoisonPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "deadly poison"
+    },
+    "DecorativeBox": {
+      "item_id": "0x2DF3",
+      "png": "/img/items/0x2DF3.png",
+      "name": "decorative box"
+    },
+    "DecorativePlateKabuto": {
+      "item_id": "0x2778",
+      "png": "/img/items/0x2778.png",
+      "name": "decorative platemail kabuto"
+    },
+    "DeerMask": {
+      "item_id": "0x1547",
+      "png": "/img/items/0x1547.png",
+      "name": "deer mask"
+    },
+    "Diamond": {
+      "item_id": "0x0F26",
+      "png": "/img/items/0x0F26.png",
+      "name": "Diamonds"
+    },
+    "DiamondMace": {
+      "item_id": "0x2D24",
+      "png": "/img/items/0x2D24.png",
+      "name": "diamond mace"
+    },
+    "DiscMace": {
+      "item_id": "0x0903",
+      "png": "/img/items/0x0903.png",
+      "name": "disc mace"
+    },
+    "DiseasedBark": {
+      "item_id": "0x318B",
+      "png": "/img/items/0x318B.png",
+      "name": "Diseased Bark"
+    },
+    "DiseasedMachete": {
+      "item_id": "0x2D35",
+      "png": "/img/items/0x2D35.png",
+      "name": "Diseased Machete"
+    },
+    "DispelFieldScroll": {
+      "item_id": "0x1F4E",
+      "png": "/img/items/0x1F4E.png",
+      "name": "Dispel Field"
+    },
+    "DispelScroll": {
+      "item_id": "0x1F55",
+      "png": "/img/items/0x1F55.png",
+      "name": "Dispel"
+    },
+    "DistilleryEastAddonDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "distillery (east)"
+    },
+    "DistillerySouthAddonDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "distillery (south)"
+    },
+    "DoubleAxe": {
+      "item_id": "0x0F4B",
+      "png": "/img/items/0x0F4B.png",
+      "name": "double axe"
+    },
+    "DoubleBladedStaff": {
+      "item_id": "0x26BF",
+      "png": "/img/items/0x26BF.png",
+      "name": "double bladed staff"
+    },
+    "Doublet": {
+      "item_id": "0x1F7B",
+      "png": "/img/items/0x1F7B.png",
+      "name": "doublet"
+    },
+    "Dough": {
+      "item_id": "0x103D",
+      "png": "/img/items/0x103D.png",
+      "name": "dough"
+    },
+    "DovetailSaw": {
+      "item_id": "0x1028",
+      "png": "/img/items/0x1028.png",
+      "name": "dovetail saw"
+    },
+    "DrSpectorsLenses": {
+      "item_id": "0x2FB8",
+      "png": "/img/items/0x2FB8.png",
+      "name": "Dr. Spector's lenses"
+    },
+    "DragonArms": {
+      "item_id": "0x2657",
+      "png": "/img/items/0x2657.png",
+      "name": "dragon sleeves"
+    },
+    "DragonBardingDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "dragon barding deed"
+    },
+    "DragonBlood": {
+      "item_id": "0x4077",
+      "png": "/img/items/0x4077.png",
+      "name": "Dragon's Blood"
+    },
+    "DragonChest": {
+      "item_id": "0x2641",
+      "png": "/img/items/0x2641.png",
+      "name": "dragon breastplate"
+    },
+    "DragonGloves": {
+      "item_id": "0x2643",
+      "png": "/img/items/0x2643.png",
+      "name": "dragon gloves"
+    },
+    "DragonHelm": {
+      "item_id": "0x2645",
+      "png": "/img/items/0x2645.png",
+      "name": "dragon helm"
+    },
+    "DragonLamp": {
+      "item_id": "0x4C4C",
+      "png": "/img/items/0x4C4C.png",
+      "name": "dragon lamp"
+    },
+    "DragonLegs": {
+      "item_id": "0x2647",
+      "png": "/img/items/0x2647.png",
+      "name": "dragon leggings"
+    },
+    "DragonTurtleHideArms": {
+      "item_id": "0x782E",
+      "png": "/img/items/0x782E.png",
+      "name": "Dragon Turtle Hide Arms"
+    },
+    "DragonTurtleHideBustier": {
+      "item_id": "0x782B",
+      "png": "/img/items/0x782B.png",
+      "name": "Dragon Turtle Hide Bustier"
+    },
+    "DragonTurtleHideChest": {
+      "item_id": "0x782A",
+      "png": "/img/items/0x782A.png",
+      "name": "Dragon Turtle Hide Chest"
+    },
+    "DragonTurtleHideHelm": {
+      "item_id": "0x782D",
+      "png": "/img/items/0x782D.png",
+      "name": "Dragon Turtle Hide Helm"
+    },
+    "DragonTurtleHideLegs": {
+      "item_id": "0x782C",
+      "png": "/img/items/0x782C.png",
+      "name": "Dragon Turtle Hide Leggings"
+    },
+    "DragonTurtleScute": {
+      "item_id": "0x9BCE",
+      "png": "/img/items/0x9BCE.png",
+      "name": "Dragon Turtle Scute"
+    },
+    "DrawKnife": {
+      "item_id": "0x10E4",
+      "png": "/img/items/0x10E4.png",
+      "name": "draw knife"
+    },
+    "DreadHornMane": {
+      "item_id": "0x318A",
+      "png": "/img/items/0x318A.png",
+      "name": "Dread Horn Mane"
+    },
+    "DreadSword": {
+      "item_id": "0x090B",
+      "png": "/img/items/0x090B.png",
+      "name": "dread sword"
+    },
+    "DressformFront": {
+      "item_id": "0x0EC6",
+      "png": "/img/items/0x0EC6.png",
+      "name": "dressform (front)"
+    },
+    "DressformSide": {
+      "item_id": "0x0EC7",
+      "png": "/img/items/0x0EC7.png",
+      "name": "dressform (side)"
+    },
+    "DriedHerbs": {
+      "item_id": "0x0C42",
+      "png": "/img/items/0x0C42.png",
+      "name": "dried herbs"
+    },
+    "Drums": {
+      "item_id": "0x0E9C",
+      "png": "/img/items/0x0E9C.png",
+      "name": "drum"
+    },
+    "DryReeds": {
+      "item_id": "0x1BD5",
+      "png": "/img/items/0x1BD5.png",
+      "name": "dry reeds"
+    },
+    "DualPointedSpear": {
+      "item_id": "0x0904",
+      "png": "/img/items/0x0904.png",
+      "name": "dual pointed spear"
+    },
+    "DualShortAxes": {
+      "item_id": "0x08FD",
+      "png": "/img/items/0x08FD.png",
+      "name": "dual short axes"
+    },
+    "DullCopperIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "dull copper ingot"
+    },
+    "DullCopperOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "dull copper ore"
+    },
+    "Dyes": {
+      "item_id": "0x0FA9",
+      "png": "/img/items/0x0FA9.png",
+      "name": "dyes"
+    },
+    "EagleStrikeScroll": {
+      "item_id": "0x02AA",
+      "png": "/img/items/0x02AA.png",
+      "name": "Eagle Strike"
+    },
+    "EarOfCorn": {
+      "item_id": "0x0C81",
+      "png": "/img/items/0x0C81.png",
+      "name": "ear of corn"
+    },
+    "EarthquakeScroll": {
+      "item_id": "0x1F65",
+      "png": "/img/items/0x1F65.png",
+      "name": "Earthquake"
+    },
+    "EasleEast": {
+      "item_id": "0x0F68",
+      "png": "/img/items/0x0F68.png",
+      "name": "easel (east)"
+    },
+    "EasleNorth": {
+      "item_id": "0x0F6A",
+      "png": "/img/items/0x0F6A.png",
+      "name": "easel (north)"
+    },
+    "EasleSouth": {
+      "item_id": "0x0F66",
+      "png": "/img/items/0x0F66.png",
+      "name": "easel (south)"
+    },
+    "EcruCitrine": {
+      "item_id": "0x3195",
+      "png": "/img/items/0x3195.png",
+      "name": "Ecru Citrine"
+    },
+    "EcruCitrineRing": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "ecru citrine ring"
+    },
+    "EggBomb": {
+      "item_id": "0x2808",
+      "png": "/img/items/0x2808.png",
+      "name": "egg bomb"
+    },
+    "Eggs": {
+      "item_id": "0x09B5",
+      "png": "/img/items/0x09B5.png",
+      "name": "Eggs"
+    },
+    "ElegantArmoire": {
+      "item_id": "0x2859",
+      "png": "/img/items/0x2859.png",
+      "name": "elegant armoire"
+    },
+    "ElegantCollar": {
+      "item_id": "0xA40F",
+      "png": "/img/items/0xA40F.png",
+      "name": "elegant collar"
+    },
+    "ElegantCollarOfFortune": {
+      "item_id": "0xA40F",
+      "png": "/img/items/0xA40F.png",
+      "name": "elegant collar of fortune"
+    },
+    "ElegantLowTable": {
+      "item_id": "0x2819",
+      "png": "/img/items/0x2819.png",
+      "name": "elegant low table"
+    },
+    "ElixirOfRebirth": {
+      "item_id": "0x24E2",
+      "png": "/img/items/0x24E2.png",
+      "name": "elixir of rebirth"
+    },
+    "ElvenBedEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven bed (east)"
+    },
+    "ElvenBedSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven bed (south)"
+    },
+    "ElvenBoots": {
+      "item_id": "0x2FC4",
+      "png": "/img/items/0x2FC4.png",
+      "name": "elven boots"
+    },
+    "ElvenCompositeLongbow": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "elven composite longbow"
+    },
+    "ElvenDarkShirt": {
+      "item_id": "0x3176",
+      "png": "/img/items/0x3176.png",
+      "name": "elven shirt"
+    },
+    "ElvenDresserDeedEast": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven dresser (east)"
+    },
+    "ElvenDresserDeedSouth": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven dresser (south)"
+    },
+    "ElvenFletching": {
+      "item_id": "0x5737",
+      "png": "/img/items/0x5737.png",
+      "name": "elven fletching"
+    },
+    "ElvenForgeDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven forge"
+    },
+    "ElvenLoveseatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven loveseat (east)"
+    },
+    "ElvenLoveseatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven loveseat (south)"
+    },
+    "ElvenMachete": {
+      "item_id": "0x2D35",
+      "png": "/img/items/0x2D35.png",
+      "name": "elven machete"
+    },
+    "ElvenPants": {
+      "item_id": "0x2FC3",
+      "png": "/img/items/0x2FC3.png",
+      "name": "elven pants"
+    },
+    "ElvenPodium": {
+      "item_id": "0x2DDD",
+      "png": "/img/items/0x2DDD.png",
+      "name": "elven podium"
+    },
+    "ElvenQuiver": {
+      "item_id": "0x2FB7",
+      "png": "/img/items/0x2FB7.png",
+      "name": "elven quiver"
+    },
+    "ElvenReadingChair": {
+      "item_id": "0x2DF5",
+      "png": "/img/items/0x2DF5.png",
+      "name": "reading chair"
+    },
+    "ElvenShirt": {
+      "item_id": "0x3175",
+      "png": "/img/items/0x3175.png",
+      "name": "elven shirt"
+    },
+    "ElvenSpellblade": {
+      "item_id": "0x2D20",
+      "png": "/img/items/0x2D20.png",
+      "name": "elven spellblade"
+    },
+    "ElvenSpinningwheelEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven spinning wheel (east)"
+    },
+    "ElvenSpinningwheelSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven spinning wheel (south)"
+    },
+    "ElvenStoveEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven oven (east)"
+    },
+    "ElvenStoveSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven oven (south)"
+    },
+    "ElvenWashBasinEastWithDrawerDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven wash basin (east)"
+    },
+    "ElvenWashBasinSouthWithDrawerDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "elven wash basin (south)"
+    },
+    "Emerald": {
+      "item_id": "0x0F10",
+      "png": "/img/items/0x0F10.png",
+      "name": "Emeralds"
+    },
+    "EmeraldMace": {
+      "item_id": "0x2D24",
+      "png": "/img/items/0x2D24.png",
+      "name": "emerald mace"
+    },
+    "EmptyBookcase": {
+      "item_id": "0x0A9D",
+      "png": "/img/items/0x0A9D.png",
+      "name": "wooden shelf"
+    },
+    "EmptyOilFlask": {
+      "item_id": "0x1C18",
+      "png": "/img/items/0x1C18.png",
+      "name": "empty oil flask"
+    },
+    "EmptyPewterBowl": {
+      "item_id": "0x15FD",
+      "png": "/img/items/0x15FD.png",
+      "name": "pewter bowl"
+    },
+    "EmptyVenomVial": {
+      "item_id": "0x0E24",
+      "png": "/img/items/0x0E24.png",
+      "name": "empty venom vial"
+    },
+    "EmptyVialsWRack": {
+      "item_id": "0x185B",
+      "png": "/img/items/0x185B.png",
+      "name": "empty vials"
+    },
+    "EmptyWoodenBowl": {
+      "item_id": "0x15F8",
+      "png": "/img/items/0x15F8.png",
+      "name": "Wooden Bowl"
+    },
+    "EnchantScroll": {
+      "item_id": "0x02A8",
+      "png": "/img/items/0x02A8.png",
+      "name": "Enchant"
+    },
+    "EnchantedApple": {
+      "item_id": "0x2FD8",
+      "png": "/img/items/0x2FD8.png",
+      "name": "enchanted apple"
+    },
+    "EnchantedPicnicBasket": {
+      "item_id": "0xA0DB",
+      "png": "/img/items/0xA0DB.png",
+      "name": "enchanted picnic basket"
+    },
+    "EnchantedSwitch": {
+      "item_id": "0x2F5C",
+      "png": "/img/items/0x2F5C.png",
+      "name": "Enchanted Switch"
+    },
+    "EnergyBoltScroll": {
+      "item_id": "0x1F56",
+      "png": "/img/items/0x1F56.png",
+      "name": "Energy Bolt"
+    },
+    "EnergyFieldScroll": {
+      "item_id": "0x1F5E",
+      "png": "/img/items/0x1F5E.png",
+      "name": "Energy Field"
+    },
+    "EnergyVortexScroll": {
+      "item_id": "0x1F66",
+      "png": "/img/items/0x1F66.png",
+      "name": "Energy Vortex"
+    },
+    "EodonianWallMap": {
+      "item_id": "0x9D3D",
+      "png": "/img/items/0x9D3D.png",
+      "name": "Wall Map of Eodon"
+    },
+    "EssenceOfBattle": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "Essence of Battle"
+    },
+    "EtherealSand": {
+      "item_id": "0xA3E8",
+      "png": "/img/items/0xA3E8.png",
+      "name": "ethereal sand"
+    },
+    "EtherealSoulbinder": {
+      "item_id": "0xA1E7",
+      "png": "/img/items/0xA1E7.png",
+      "name": "ethereal soulbinder"
+    },
+    "EveningGown": {
+      "item_id": "0x7821",
+      "png": "/img/items/0x7821.png",
+      "name": "Evening Gown"
+    },
+    "EvilOmenScroll": {
+      "item_id": "0x2264",
+      "png": "/img/items/0x2264.png",
+      "name": "Evil Omen"
+    },
+    "ExecutionersAxe": {
+      "item_id": "0x0F45",
+      "png": "/img/items/0x0F45.png",
+      "name": "executioner's axe"
+    },
+    "ExodusSacrificalDagger": {
+      "item_id": "0x2D2D",
+      "png": "/img/items/0x2D2D.png",
+      "name": "exodus sacrificial dagger"
+    },
+    "ExodusSummoningAlter": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "exodus summoning altar"
+    },
+    "ExodusSummoningRite": {
+      "item_id": "0x2258",
+      "png": "/img/items/0x2258.png",
+      "name": "exodus summoning rite"
+    },
+    "ExorcismScroll": {
+      "item_id": "0x2270",
+      "png": "/img/items/0x2270.png",
+      "name": "Exorcism"
+    },
+    "ExplosionPotion": {
+      "item_id": "0x0F0D",
+      "png": "/img/items/0x0F0D.png",
+      "name": "explosion"
+    },
+    "ExplosionScroll": {
+      "item_id": "0x1F57",
+      "png": "/img/items/0x1F57.png",
+      "name": "Explosion"
+    },
+    "EyeOfTheTravesty": {
+      "item_id": "0x318D",
+      "png": "/img/items/0x318D.png",
+      "name": "Eye of the Travesty"
+    },
+    "FactionExplosionTrapDeed": {
+      "item_id": "0x36D2",
+      "png": "/img/items/0x36D2.png",
+      "name": "faction explosion trap"
+    },
+    "FactionGasTrapDeed": {
+      "item_id": "0x11AB",
+      "png": "/img/items/0x11AB.png",
+      "name": "faction gas trap"
+    },
+    "FactionSawTrapDeed": {
+      "item_id": "0x1107",
+      "png": "/img/items/0x1107.png",
+      "name": "faction saw trap"
+    },
+    "FactionSpikeTrapDeed": {
+      "item_id": "0x11A5",
+      "png": "/img/items/0x11A5.png",
+      "name": "faction spike trap"
+    },
+    "FactionTrapRemovalKit": {
+      "item_id": "0x1EBB",
+      "png": "/img/items/0x1EBB.png",
+      "name": "faction trap removal kit"
+    },
+    "FaerieFire": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "Faerie Fire"
+    },
+    "FaeryDust": {
+      "item_id": "0x5745",
+      "png": "/img/items/0x5745.png",
+      "name": "faery dust"
+    },
+    "FairySalmonPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "fairy salmon pie"
+    },
+    "FairySalmonSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "fairy salmon steak"
+    },
+    "FancyArmoire": {
+      "item_id": "0x0A4D",
+      "png": "/img/items/0x0A4D.png",
+      "name": "armoire (red)"
+    },
+    "FancyCouchEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Couch (East)"
+    },
+    "FancyCouchNorthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Couch (North)"
+    },
+    "FancyCouchSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Couch (South)"
+    },
+    "FancyCouchWestDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Couch (West)"
+    },
+    "FancyDress": {
+      "item_id": "0x1F00",
+      "png": "/img/items/0x1F00.png",
+      "name": "fancy dress"
+    },
+    "FancyElvenArmoire": {
+      "item_id": "0x2D07",
+      "png": "/img/items/0x2D07.png",
+      "name": "elven armoire (fancy)"
+    },
+    "FancyElvenTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "hardwood table (east)"
+    },
+    "FancyElvenTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "hardwood table (south)"
+    },
+    "FancyKilt": {
+      "item_id": "0x781D",
+      "png": "/img/items/0x781D.png",
+      "name": "Fancy Kilt"
+    },
+    "FancyLoveseatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Loveseat (East)"
+    },
+    "FancyLoveseatNorthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Loveseat (North)"
+    },
+    "FancyLoveseatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Loveseat (South)"
+    },
+    "FancyLoveseatWestDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Loveseat (West)"
+    },
+    "FancyShirt": {
+      "item_id": "0x1EFD",
+      "png": "/img/items/0x1EFD.png",
+      "name": "fancy shirt"
+    },
+    "FancyWindChimes": {
+      "item_id": "0x2833",
+      "png": "/img/items/0x2833.png",
+      "name": "fancy wind chimes"
+    },
+    "FancyWoodenChairCushion": {
+      "item_id": "0x0B4F",
+      "png": "/img/items/0x0B4F.png",
+      "name": "vesper-style chair"
+    },
+    "FancyWoodenShelfEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Wooden Shelf (East)"
+    },
+    "FancyWoodenShelfSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Fancy Wooden Shelf (South)"
+    },
+    "Feather": {
+      "item_id": "0x1BD1",
+      "png": "/img/items/0x1BD1.png",
+      "name": "Feathers"
+    },
+    "FeatheredHat": {
+      "item_id": "0x171A",
+      "png": "/img/items/0x171A.png",
+      "name": "feathered hat"
+    },
+    "FeeblemindScroll": {
+      "item_id": "0x1F30",
+      "png": "/img/items/0x1F30.png",
+      "name": "Feeblemind"
+    },
+    "FemaleElvenRobe": {
+      "item_id": "0x2FBA",
+      "png": "/img/items/0x2FBA.png",
+      "name": "female elven robe"
+    },
+    "FemaleGargishClothArmsArmor": {
+      "item_id": "0x0403",
+      "png": "/img/items/0x0403.png",
+      "name": "gargish cloth arms"
+    },
+    "FemaleGargishClothChestArmor": {
+      "item_id": "0x0405",
+      "png": "/img/items/0x0405.png",
+      "name": "gargish cloth chest"
+    },
+    "FemaleGargishClothKiltArmor": {
+      "item_id": "0x0407",
+      "png": "/img/items/0x0407.png",
+      "name": "gargish cloth kilt"
+    },
+    "FemaleGargishClothLegsArmor": {
+      "item_id": "0x0409",
+      "png": "/img/items/0x0409.png",
+      "name": "gargish cloth leggings"
+    },
+    "FemaleGargishLeatherArms": {
+      "item_id": "0x0301",
+      "png": "/img/items/0x0301.png",
+      "name": "gargish leather arms"
+    },
+    "FemaleGargishLeatherChest": {
+      "item_id": "0x0303",
+      "png": "/img/items/0x0303.png",
+      "name": "gargish leather chest"
+    },
+    "FemaleGargishLeatherKilt": {
+      "item_id": "0x0310",
+      "png": "/img/items/0x0310.png",
+      "name": "gargish leather kilt"
+    },
+    "FemaleGargishLeatherLegs": {
+      "item_id": "0x0305",
+      "png": "/img/items/0x0305.png",
+      "name": "gargish leather leggings"
+    },
+    "FemaleGargishPlateArms": {
+      "item_id": "0x0307",
+      "png": "/img/items/0x0307.png",
+      "name": "gargish platemail arms"
+    },
+    "FemaleGargishPlateChest": {
+      "item_id": "0x0309",
+      "png": "/img/items/0x0309.png",
+      "name": "gargish platemail chest"
+    },
+    "FemaleGargishPlateKilt": {
+      "item_id": "0x030B",
+      "png": "/img/items/0x030B.png",
+      "name": "gargish platemail kilt"
+    },
+    "FemaleGargishPlateLegs": {
+      "item_id": "0x030D",
+      "png": "/img/items/0x030D.png",
+      "name": "gargish platemail leggings"
+    },
+    "FemaleGargishStoneArms": {
+      "item_id": "0x0283",
+      "png": "/img/items/0x0283.png",
+      "name": "gargish stone arms"
+    },
+    "FemaleGargishStoneChest": {
+      "item_id": "0x0285",
+      "png": "/img/items/0x0285.png",
+      "name": "gargish stone chest"
+    },
+    "FemaleGargishStoneKilt": {
+      "item_id": "0x0287",
+      "png": "/img/items/0x0287.png",
+      "name": "gargish stone kilt"
+    },
+    "FemaleGargishStoneLegs": {
+      "item_id": "0x0289",
+      "png": "/img/items/0x0289.png",
+      "name": "gargish stone leggings"
+    },
+    "FemaleKimono": {
+      "item_id": "0x2783",
+      "png": "/img/items/0x2783.png",
+      "name": "female kimono"
+    },
+    "FemaleLeatherChest": {
+      "item_id": "0x1C06",
+      "png": "/img/items/0x1C06.png",
+      "name": "female leather armor"
+    },
+    "FemalePlateChest": {
+      "item_id": "0x1C04",
+      "png": "/img/items/0x1C04.png",
+      "name": "platemail (female)"
+    },
+    "FemaleStuddedChest": {
+      "item_id": "0x1C02",
+      "png": "/img/items/0x1C02.png",
+      "name": "studded armor"
+    },
+    "FertileDirt": {
+      "item_id": "0x0F81",
+      "png": "/img/items/0x0F81.png",
+      "name": "Fertile Dirt"
+    },
+    "FeyWings": {
+      "item_id": "0x5726",
+      "png": "/img/items/0x5726.png",
+      "name": "fey wings"
+    },
+    "FierySpellblade": {
+      "item_id": "0x2D20",
+      "png": "/img/items/0x2D20.png",
+      "name": "fiery spellblade"
+    },
+    "FinishedWoodenChest": {
+      "item_id": "0x2813",
+      "png": "/img/items/0x2813.png",
+      "name": "finished wooden chest"
+    },
+    "FireFieldScroll": {
+      "item_id": "0x1F48",
+      "png": "/img/items/0x1F48.png",
+      "name": "Fire Field"
+    },
+    "FireFishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "fire fish pie"
+    },
+    "FireFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "fire fish steak"
+    },
+    "FireRuby": {
+      "item_id": "0x3197",
+      "png": "/img/items/0x3197.png",
+      "name": "Fire Ruby"
+    },
+    "FireRubyBracelet": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "fire ruby bracelet"
+    },
+    "FireballScroll": {
+      "item_id": "0x1F3E",
+      "png": "/img/items/0x1F3E.png",
+      "name": "Fireball"
+    },
+    "FishSteak": {
+      "item_id": "0x097B",
+      "png": "/img/items/0x097B.png",
+      "name": "fish steak"
+    },
+    "FishingPole": {
+      "item_id": "0x0DC0",
+      "png": "/img/items/0x0DC0.png",
+      "name": "fishing pole"
+    },
+    "FlamestrikeScroll": {
+      "item_id": "0x1F5F",
+      "png": "/img/items/0x1F5F.png",
+      "name": "Flamestrike"
+    },
+    "FletcherTools": {
+      "item_id": "0x1022",
+      "png": "/img/items/0x1022.png",
+      "name": "fletcher's tools"
+    },
+    "FloppyHat": {
+      "item_id": "0x1713",
+      "png": "/img/items/0x1713.png",
+      "name": "floppy hat"
+    },
+    "FlourMillEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "flour mill (east)"
+    },
+    "FlourMillSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "flour mill (south)"
+    },
+    "FlourSifter": {
+      "item_id": "0x103E",
+      "png": "/img/items/0x103E.png",
+      "name": "flour sifter"
+    },
+    "FlowerGarland": {
+      "item_id": "0x2306",
+      "png": "/img/items/0x2306.png",
+      "name": "flower garland"
+    },
+    "FloweredDress": {
+      "item_id": "0x781E",
+      "png": "/img/items/0x781E.png",
+      "name": "Flowered Dress"
+    },
+    "FoodEngraver": {
+      "item_id": "0x1BD1",
+      "png": "/img/items/0x1BD1.png",
+      "name": "food decoration tool"
+    },
+    "FootStool": {
+      "item_id": "0x0B5E",
+      "png": "/img/items/0x0B5E.png",
+      "name": "foot stool"
+    },
+    "ForkLeft": {
+      "item_id": "0x09F4",
+      "png": "/img/items/0x09F4.png",
+      "name": "fork (left)"
+    },
+    "ForkRight": {
+      "item_id": "0x09F5",
+      "png": "/img/items/0x09F5.png",
+      "name": "fork (right)"
+    },
+    "FormalShirt": {
+      "item_id": "0x2310",
+      "png": "/img/items/0x2310.png",
+      "name": "formal shirt"
+    },
+    "FreshGinger": {
+      "item_id": "0x2BE3",
+      "png": "/img/items/0x2BE3.png",
+      "name": "Fresh Ginger"
+    },
+    "FriedEggs": {
+      "item_id": "0x09B6",
+      "png": "/img/items/0x09B6.png",
+      "name": "fried eggs"
+    },
+    "Froe": {
+      "item_id": "0x10E5",
+      "png": "/img/items/0x10E5.png",
+      "name": "froe"
+    },
+    "FrostwoodBoard": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "frostwood board"
+    },
+    "FrostwoodLog": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "frostwood log"
+    },
+    "FrozenLongbow": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "frozen longbow"
+    },
+    "FruitBowl": {
+      "item_id": "0x2D4F",
+      "png": "/img/items/0x2D4F.png",
+      "name": "fruit bowl"
+    },
+    "FruitPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "baked fruit pie"
+    },
+    "Fukiya": {
+      "item_id": "0x27AA",
+      "png": "/img/items/0x27AA.png",
+      "name": "fukiya"
+    },
+    "FukiyaDarts": {
+      "item_id": "0x2806",
+      "png": "/img/items/0x2806.png",
+      "name": "fukiya dart"
+    },
+    "FullApron": {
+      "item_id": "0x153D",
+      "png": "/img/items/0x153D.png",
+      "name": "full apron"
+    },
+    "FullVialsWRack": {
+      "item_id": "0x185D",
+      "png": "/img/items/0x185D.png",
+      "name": "full vials"
+    },
+    "FurBoots": {
+      "item_id": "0x2307",
+      "png": "/img/items/0x2307.png",
+      "name": "fur boots"
+    },
+    "FurCape": {
+      "item_id": "0x230A",
+      "png": "/img/items/0x230A.png",
+      "name": "fur cape"
+    },
+    "FurSarong": {
+      "item_id": "0x230C",
+      "png": "/img/items/0x230C.png",
+      "name": "fur sarong"
+    },
+    "FuseCord": {
+      "item_id": "0x1420",
+      "png": "/img/items/0x1420.png",
+      "name": "fuse cord"
+    },
+    "GargishAmulet": {
+      "item_id": "0x4D0B",
+      "png": "/img/items/0x4D0B.png",
+      "name": "Gargish Amulet"
+    },
+    "GargishAxe": {
+      "item_id": "0x48B2",
+      "png": "/img/items/0x48B2.png",
+      "name": "gargish axe"
+    },
+    "GargishBanner": {
+      "item_id": "0x4037",
+      "png": "/img/items/0x4037.png",
+      "name": "gargish banner"
+    },
+    "GargishBardiche": {
+      "item_id": "0x48B4",
+      "png": "/img/items/0x48B4.png",
+      "name": "gargish bardiche"
+    },
+    "GargishBattleAxe": {
+      "item_id": "0x48B0",
+      "png": "/img/items/0x48B0.png",
+      "name": "gargish battle axe"
+    },
+    "GargishBoneHarvester": {
+      "item_id": "0x48C6",
+      "png": "/img/items/0x48C6.png",
+      "name": "gargish bone harvester"
+    },
+    "GargishBracelet": {
+      "item_id": "0x4211",
+      "png": "/img/items/0x4211.png",
+      "name": "gargish bracelet"
+    },
+    "GargishButcherKnife": {
+      "item_id": "0x48B6",
+      "png": "/img/items/0x48B6.png",
+      "name": "gargish butcher's knife"
+    },
+    "GargishChaosShield": {
+      "item_id": "0x4228",
+      "png": "/img/items/0x4228.png",
+      "name": "gargish Chaos shield"
+    },
+    "GargishChest": {
+      "item_id": "0x4026",
+      "png": "/img/items/0x4026.png",
+      "name": "gargish chest"
+    },
+    "GargishCleaver": {
+      "item_id": "0x48AE",
+      "png": "/img/items/0x48AE.png",
+      "name": "gargish cleaver"
+    },
+    "GargishClothArmsArmor": {
+      "item_id": "0x0404",
+      "png": "/img/items/0x0404.png",
+      "name": "gargish cloth arms"
+    },
+    "GargishClothChestArmor": {
+      "item_id": "0x0406",
+      "png": "/img/items/0x0406.png",
+      "name": "gargish cloth chest"
+    },
+    "GargishClothKiltArmor": {
+      "item_id": "0x0408",
+      "png": "/img/items/0x0408.png",
+      "name": "gargish cloth kilt"
+    },
+    "GargishClothLegsArmor": {
+      "item_id": "0x040A",
+      "png": "/img/items/0x040A.png",
+      "name": "gargish cloth leggings"
+    },
+    "GargishClothWingArmor": {
+      "item_id": "0x45A4",
+      "png": "/img/items/0x45A4.png",
+      "name": "gargish cloth wing armor"
+    },
+    "GargishCotEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "gargish cot (east)"
+    },
+    "GargishCotSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "gargish cot (south)"
+    },
+    "GargishCouchEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "gargish couch (east)"
+    },
+    "GargishCouchSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "gargish couch (south)"
+    },
+    "GargishDagger": {
+      "item_id": "0x0902",
+      "png": "/img/items/0x0902.png",
+      "name": "gargish dagger"
+    },
+    "GargishDaisho": {
+      "item_id": "0x48D0",
+      "png": "/img/items/0x48D0.png",
+      "name": "gargish daisho"
+    },
+    "GargishEarrings": {
+      "item_id": "0x4213",
+      "png": "/img/items/0x4213.png",
+      "name": "gargish earrings"
+    },
+    "GargishFancyRobe": {
+      "item_id": "0x4002",
+      "png": "/img/items/0x4002.png",
+      "name": "gargish fancy robe"
+    },
+    "GargishGnarledStaff": {
+      "item_id": "0x48B8",
+      "png": "/img/items/0x48B8.png",
+      "name": "gargish gnarled staff"
+    },
+    "GargishKatana": {
+      "item_id": "0x48BA",
+      "png": "/img/items/0x48BA.png",
+      "name": "gargish katana"
+    },
+    "GargishKiteShield": {
+      "item_id": "0x4201",
+      "png": "/img/items/0x4201.png",
+      "name": "gargish kite shield"
+    },
+    "GargishKryss": {
+      "item_id": "0x48BC",
+      "png": "/img/items/0x48BC.png",
+      "name": "gargish kryss"
+    },
+    "GargishLance": {
+      "item_id": "0x48CA",
+      "png": "/img/items/0x48CA.png",
+      "name": "gargish lance"
+    },
+    "GargishLeatherArms": {
+      "item_id": "0x0302",
+      "png": "/img/items/0x0302.png",
+      "name": "gargish leather arms"
+    },
+    "GargishLeatherChest": {
+      "item_id": "0x0304",
+      "png": "/img/items/0x0304.png",
+      "name": "gargish leather chest"
+    },
+    "GargishLeatherKilt": {
+      "item_id": "0x0311",
+      "png": "/img/items/0x0311.png",
+      "name": "gargish leather kilt"
+    },
+    "GargishLeatherLegs": {
+      "item_id": "0x0305",
+      "png": "/img/items/0x0305.png",
+      "name": "gargish leather leggings"
+    },
+    "GargishLeatherWingArmor": {
+      "item_id": "0x457E",
+      "png": "/img/items/0x457E.png",
+      "name": "Gargish Leather Wing Armor"
+    },
+    "GargishMaul": {
+      "item_id": "0x48C2",
+      "png": "/img/items/0x48C2.png",
+      "name": "gargish maul"
+    },
+    "GargishNecklace": {
+      "item_id": "0x4210",
+      "png": "/img/items/0x4210.png",
+      "name": "gargish necklace"
+    },
+    "GargishOrderShield": {
+      "item_id": "0x422A",
+      "png": "/img/items/0x422A.png",
+      "name": "gargish Order shield"
+    },
+    "GargishPike": {
+      "item_id": "0x48C8",
+      "png": "/img/items/0x48C8.png",
+      "name": "gargish pike"
+    },
+    "GargishPlateArms": {
+      "item_id": "0x0308",
+      "png": "/img/items/0x0308.png",
+      "name": "gargish platemail arms"
+    },
+    "GargishPlateChest": {
+      "item_id": "0x030A",
+      "png": "/img/items/0x030A.png",
+      "name": "gargish platemail chest"
+    },
+    "GargishPlateKilt": {
+      "item_id": "0x030C",
+      "png": "/img/items/0x030C.png",
+      "name": "gargish platemail kilt"
+    },
+    "GargishPlateLegs": {
+      "item_id": "0x030E",
+      "png": "/img/items/0x030E.png",
+      "name": "gargish platemail leggings"
+    },
+    "GargishRing": {
+      "item_id": "0x4212",
+      "png": "/img/items/0x4212.png",
+      "name": "gargish ring"
+    },
+    "GargishRobe": {
+      "item_id": "0x4000",
+      "png": "/img/items/0x4000.png",
+      "name": "gargish robe"
+    },
+    "GargishSash": {
+      "item_id": "0x46B4",
+      "png": "/img/items/0x46B4.png",
+      "name": "gargish sash"
+    },
+    "GargishSculpture": {
+      "item_id": "0x403F",
+      "png": "/img/items/0x403F.png",
+      "name": "gargish sculpture"
+    },
+    "GargishScythe": {
+      "item_id": "0x48C4",
+      "png": "/img/items/0x48C4.png",
+      "name": "gargish scythe"
+    },
+    "GargishStoneAmulet": {
+      "item_id": "0x4D0A",
+      "png": "/img/items/0x4D0A.png",
+      "name": "Gargish Stone Amulet"
+    },
+    "GargishStoneArms": {
+      "item_id": "0x0284",
+      "png": "/img/items/0x0284.png",
+      "name": "gargish stone arms"
+    },
+    "GargishStoneChest": {
+      "item_id": "0x0286",
+      "png": "/img/items/0x0286.png",
+      "name": "gargish stone chest"
+    },
+    "GargishStoneKilt": {
+      "item_id": "0x0288",
+      "png": "/img/items/0x0288.png",
+      "name": "gargish stone kilt"
+    },
+    "GargishStoneLegs": {
+      "item_id": "0x028A",
+      "png": "/img/items/0x028A.png",
+      "name": "gargish stone leggings"
+    },
+    "GargishTalwar": {
+      "item_id": "0x0908",
+      "png": "/img/items/0x0908.png",
+      "name": "gargish talwar"
+    },
+    "GargishTekagi": {
+      "item_id": "0x48CE",
+      "png": "/img/items/0x48CE.png",
+      "name": "gargish tekagi"
+    },
+    "GargishTessen": {
+      "item_id": "0x48CC",
+      "png": "/img/items/0x48CC.png",
+      "name": "gargish tessen"
+    },
+    "GargishWarFork": {
+      "item_id": "0x48BE",
+      "png": "/img/items/0x48BE.png",
+      "name": "gargish war fork"
+    },
+    "GargishWarHammer": {
+      "item_id": "0x48C0",
+      "png": "/img/items/0x48C0.png",
+      "name": "gargish war hammer"
+    },
+    "GargishWoodenShield": {
+      "item_id": "0x4200",
+      "png": "/img/items/0x4200.png",
+      "name": "gargish wooden shield"
+    },
+    "GargoyleBook100": {
+      "item_id": "0x42B7",
+      "png": "/img/items/0x42B7.png",
+      "name": "Book (100 pages)"
+    },
+    "GargoyleBook200": {
+      "item_id": "0x42B8",
+      "png": "/img/items/0x42B8.png",
+      "name": "Book (200 pages)"
+    },
+    "GargoyleFloorMirror": {
+      "item_id": "0x403A",
+      "png": "/img/items/0x403A.png",
+      "name": "Ter-Mur style floor mirror"
+    },
+    "GargoyleHalfApron": {
+      "item_id": "0x50D8",
+      "png": "/img/items/0x50D8.png",
+      "name": "Gargish Half Apron"
+    },
+    "GargoylePainting": {
+      "item_id": "0x403D",
+      "png": "/img/items/0x403D.png",
+      "name": "gargish painting"
+    },
+    "GargoyleVase": {
+      "item_id": "0x4042",
+      "png": "/img/items/0x4042.png",
+      "name": "gargish vase"
+    },
+    "GargoyleWallMirror": {
+      "item_id": "0x4044",
+      "png": "/img/items/0x4044.png",
+      "name": "Ter-Mur style wall mirror"
+    },
+    "Garlic": {
+      "item_id": "0x0F84",
+      "png": "/img/items/0x0F84.png",
+      "name": "Garlic"
+    },
+    "GateTravelScroll": {
+      "item_id": "0x1F60",
+      "png": "/img/items/0x1F60.png",
+      "name": "Gate Travel"
+    },
+    "GauntletsOfNobility": {
+      "item_id": "0x13EB",
+      "png": "/img/items/0x13EB.png",
+      "name": "Gauntlets of Nobility"
+    },
+    "Gears": {
+      "item_id": "0x1053",
+      "png": "/img/items/0x1053.png",
+      "name": "Gears"
+    },
+    "GemmedCirclet": {
+      "item_id": "0x2B70",
+      "png": "/img/items/0x2B70.png",
+      "name": "gemmed circlet"
+    },
+    "GiantKoiPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "giant koi pie"
+    },
+    "GiantKoiSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "You don't have the components needed to make that."
+    },
+    "GiantReplicaAcorn": {
+      "item_id": "0x2D4A",
+      "png": "/img/items/0x2D4A.png",
+      "name": "giant replica acorn"
+    },
+    "GildedDress": {
+      "item_id": "0x230E",
+      "png": "/img/items/0x230E.png",
+      "name": "gilded dress"
+    },
+    "GildedWoodenChest": {
+      "item_id": "0x280F",
+      "png": "/img/items/0x280F.png",
+      "name": "gilded wooden chest"
+    },
+    "Ginseng": {
+      "item_id": "0x0F85",
+      "png": "/img/items/0x0F85.png",
+      "name": "Ginseng"
+    },
+    "GlassStaff": {
+      "item_id": "0x0905",
+      "png": "/img/items/0x0905.png",
+      "name": "glass staff"
+    },
+    "GlassSword": {
+      "item_id": "0x090C",
+      "png": "/img/items/0x090C.png",
+      "name": "glass sword"
+    },
+    "Globe": {
+      "item_id": "0x1047",
+      "png": "/img/items/0x1047.png",
+      "name": "globe"
+    },
+    "GlovesOfFeudalGrip": {
+      "item_id": "0x2643",
+      "png": "/img/items/0x2643.png",
+      "name": "gloves of feudal grip"
+    },
+    "GnarledStaff": {
+      "item_id": "0x13F8",
+      "png": "/img/items/0x13F8.png",
+      "name": "gnarled staff"
+    },
+    "Goblet": {
+      "item_id": "0x099A",
+      "png": "/img/items/0x099A.png",
+      "name": "goblet"
+    },
+    "Gold": {
+      "item_id": "0x0EED",
+      "png": "/img/items/0x0EED.png",
+      "name": "Gold"
+    },
+    "GoldBeadNecklace": {
+      "item_id": "0x1089",
+      "png": "/img/items/0x1089.png",
+      "name": "star sapphire necklace (golden)"
+    },
+    "GoldBracelet": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "bracelet"
+    },
+    "GoldDust": {
+      "item_id": "0x4C09",
+      "png": "/img/items/0x4C09.png",
+      "name": "gold dust"
+    },
+    "GoldEarrings": {
+      "item_id": "0x1087",
+      "png": "/img/items/0x1087.png",
+      "name": "star sapphire earrings"
+    },
+    "GoldIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "gold ingot"
+    },
+    "GoldNecklace": {
+      "item_id": "0x1088",
+      "png": "/img/items/0x1088.png",
+      "name": "star sapphire necklace (jewelled)"
+    },
+    "GoldOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "gold ore"
+    },
+    "GoldRing": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "ring"
+    },
+    "GorgonLense": {
+      "item_id": "0x26B1",
+      "png": "/img/items/0x26B1.png",
+      "name": "Gorgon Lens"
+    },
+    "GozaMatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "goza (east)"
+    },
+    "GozaMatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "goza (south)"
+    },
+    "Granite": {
+      "item_id": "0x1779",
+      "png": "/img/items/0x1779.png",
+      "name": "high quality granite"
+    },
+    "Grapes": {
+      "item_id": "0x09D1",
+      "png": "/img/items/0x09D1.png",
+      "name": "Grapes"
+    },
+    "GrapesOfWrath": {
+      "item_id": "0x2FD7",
+      "png": "/img/items/0x2FD7.png",
+      "name": "grapes of wrath"
+    },
+    "Grapeshot": {
+      "item_id": "0xA2BF",
+      "png": "/img/items/0xA2BF.png",
+      "name": "grapeshot"
+    },
+    "GraveDust": {
+      "item_id": "0x0F8F",
+      "png": "/img/items/0x0F8F.png",
+      "name": "Grave Dust"
+    },
+    "GreatBarracudaPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "great barracuda pie"
+    },
+    "GreatBarracudaSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "great barracuda steak"
+    },
+    "GreaterAgilityPotion": {
+      "item_id": "0x0F08",
+      "png": "/img/items/0x0F08.png",
+      "name": "greater agility"
+    },
+    "GreaterConflagrationPotion": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "greater conflagration"
+    },
+    "GreaterConfusionBlastPotion": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "greater confusion blast"
+    },
+    "GreaterCurePotion": {
+      "item_id": "0x0F07",
+      "png": "/img/items/0x0F07.png",
+      "name": "greater cure"
+    },
+    "GreaterExplosionPotion": {
+      "item_id": "0x0F0D",
+      "png": "/img/items/0x0F0D.png",
+      "name": "greater explosion"
+    },
+    "GreaterHealPotion": {
+      "item_id": "0x0F0C",
+      "png": "/img/items/0x0F0C.png",
+      "name": "greater heal"
+    },
+    "GreaterHealScroll": {
+      "item_id": "0x1F49",
+      "png": "/img/items/0x1F49.png",
+      "name": "Greater Heal"
+    },
+    "GreaterPoisonPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "greater poison"
+    },
+    "GreaterStrengthPotion": {
+      "item_id": "0x0F09",
+      "png": "/img/items/0x0F09.png",
+      "name": "greater strength"
+    },
+    "GreenTea": {
+      "item_id": "0x284C",
+      "png": "/img/items/0x284C.png",
+      "name": "Green Tea"
+    },
+    "GreenTeaBasket": {
+      "item_id": "0x284B",
+      "png": "/img/items/0x284B.png",
+      "name": "Green Tea"
+    },
+    "GrizzledBones": {
+      "item_id": "0x318C",
+      "png": "/img/items/0x318C.png",
+      "name": "Grizzled Bones"
+    },
+    "GuardianAxe": {
+      "item_id": "0x2D28",
+      "png": "/img/items/0x2D28.png",
+      "name": "guardian axe"
+    },
+    "GuildedKilt": {
+      "item_id": "0x781B",
+      "png": "/img/items/0x781B.png",
+      "name": "Gilded Kilt"
+    },
+    "HailStormScroll": {
+      "item_id": "0x02B2",
+      "png": "/img/items/0x02B2.png",
+      "name": "Hail Storm"
+    },
+    "Hakama": {
+      "item_id": "0x279A",
+      "png": "/img/items/0x279A.png",
+      "name": "hakama"
+    },
+    "HakamaShita": {
+      "item_id": "0x279C",
+      "png": "/img/items/0x279C.png",
+      "name": "hakama-shita"
+    },
+    "Halberd": {
+      "item_id": "0x143E",
+      "png": "/img/items/0x143E.png",
+      "name": "halberd"
+    },
+    "HalfApron": {
+      "item_id": "0x153B",
+      "png": "/img/items/0x153B.png",
+      "name": "half apron"
+    },
+    "Ham": {
+      "item_id": "0x09C9",
+      "png": "/img/items/0x09C9.png",
+      "name": "ham"
+    },
+    "Hamburger": {
+      "item_id": "0xA0DA",
+      "png": "/img/items/0xA0DA.png",
+      "name": "hamburger"
+    },
+    "Hammer": {
+      "item_id": "0x102A",
+      "png": "/img/items/0x102A.png",
+      "name": "hammer"
+    },
+    "HammerPick": {
+      "item_id": "0x143D",
+      "png": "/img/items/0x143D.png",
+      "name": "hammer pick"
+    },
+    "HardenedWildStaff": {
+      "item_id": "0x2D25",
+      "png": "/img/items/0x2D25.png",
+      "name": "hardened wild staff"
+    },
+    "HarmScroll": {
+      "item_id": "0x1F38",
+      "png": "/img/items/0x1F38.png",
+      "name": "Harm"
+    },
+    "Harp": {
+      "item_id": "0x0EB1",
+      "png": "/img/items/0x0EB1.png",
+      "name": "standing harp"
+    },
+    "HatOfTheMagi": {
+      "item_id": "0x1718",
+      "png": "/img/items/0x1718.png",
+      "name": "Hat of the Magi"
+    },
+    "Hatchet": {
+      "item_id": "0x0F43",
+      "png": "/img/items/0x0F43.png",
+      "name": "hatchet"
+    },
+    "HealPotion": {
+      "item_id": "0x0F0C",
+      "png": "/img/items/0x0F0C.png",
+      "name": "heal"
+    },
+    "HealScroll": {
+      "item_id": "0x1F31",
+      "png": "/img/items/0x1F31.png",
+      "name": "Heal"
+    },
+    "HealingStoneScroll": {
+      "item_id": "0x02A6",
+      "png": "/img/items/0x02A6.png",
+      "name": "Healing Stone"
+    },
+    "HeartwoodBoard": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "heartwood board"
+    },
+    "HeartwoodLog": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "heartwood log"
+    },
+    "HeaterShield": {
+      "item_id": "0x1B76",
+      "png": "/img/items/0x1B76.png",
+      "name": "heater shield"
+    },
+    "HeatingStand": {
+      "item_id": "0x1849",
+      "png": "/img/items/0x1849.png",
+      "name": "heating stand"
+    },
+    "HeavyCannonball": {
+      "item_id": "0x4224",
+      "png": "/img/items/0x4224.png",
+      "name": "cannonball"
+    },
+    "HeavyCrossbow": {
+      "item_id": "0x13FD",
+      "png": "/img/items/0x13FD.png",
+      "name": "heavy crossbow"
+    },
+    "HeavyGrapeshot": {
+      "item_id": "0x41E5",
+      "png": "/img/items/0x41E5.png",
+      "name": "grapeshot"
+    },
+    "HeavyOrnateAxe": {
+      "item_id": "0x2D28",
+      "png": "/img/items/0x2D28.png",
+      "name": "heavy ornate axe"
+    },
+    "HeavyPlateJingasa": {
+      "item_id": "0x2777",
+      "png": "/img/items/0x2777.png",
+      "name": "heavy platemail jingasa"
+    },
+    "HeavyPowderCharge": {
+      "item_id": "0x4224",
+      "png": "/img/items/0x4224.png",
+      "name": "powder charge"
+    },
+    "HeavyShipCannonDeed": {
+      "item_id": "0x14F2",
+      "png": "/img/items/0x14F2.png",
+      "name": "carronade"
+    },
+    "Helmet": {
+      "item_id": "0x140A",
+      "png": "/img/items/0x140A.png",
+      "name": "helmet"
+    },
+    "HideChest": {
+      "item_id": "0x2B74",
+      "png": "/img/items/0x2B74.png",
+      "name": "hide tunic"
+    },
+    "HideGloves": {
+      "item_id": "0x2B75",
+      "png": "/img/items/0x2B75.png",
+      "name": "hide gloves"
+    },
+    "HideGorget": {
+      "item_id": "0x2B76",
+      "png": "/img/items/0x2B76.png",
+      "name": "hide gorget"
+    },
+    "HidePants": {
+      "item_id": "0x2B78",
+      "png": "/img/items/0x2B78.png",
+      "name": "hide pants"
+    },
+    "HidePauldrons": {
+      "item_id": "0x2B77",
+      "png": "/img/items/0x2B77.png",
+      "name": "hide pauldrons"
+    },
+    "Hides": {
+      "item_id": "0x1079",
+      "png": "/img/items/0x1079.png",
+      "name": "hides"
+    },
+    "Hinge": {
+      "item_id": "0x1055",
+      "png": "/img/items/0x1055.png",
+      "name": "hinge"
+    },
+    "HitchingPost": {
+      "item_id": "0x14E7",
+      "png": "/img/items/0x14E7.png",
+      "name": "hitching post (replica)"
+    },
+    "HitchingRope": {
+      "item_id": "0x14F8",
+      "png": "/img/items/0x14F8.png",
+      "name": "hitching rope"
+    },
+    "HollowPrism": {
+      "item_id": "0x2F5D",
+      "png": "/img/items/0x2F5D.png",
+      "name": "hollow prism"
+    },
+    "HolyMackerelPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "holy mackerel pie"
+    },
+    "HolyMackerelSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "holy mackerel steak"
+    },
+    "HornedHides": {
+      "item_id": "0x1079",
+      "png": "/img/items/0x1079.png",
+      "name": "horned hides"
+    },
+    "HornedLeather": {
+      "item_id": "0x1081",
+      "png": "/img/items/0x1081.png",
+      "name": "horned leather"
+    },
+    "HornedTribalMask": {
+      "item_id": "0x1549",
+      "png": "/img/items/0x1549.png",
+      "name": "tribal mask"
+    },
+    "HorrificBeastScroll": {
+      "item_id": "0x2265",
+      "png": "/img/items/0x2265.png",
+      "name": "Horrific Beast"
+    },
+    "HotCocoaMug": {
+      "item_id": "0x0995",
+      "png": "/img/items/0x0995.png",
+      "name": "Hot Cocoa"
+    },
+    "HotDog": {
+      "item_id": "0xA0D8",
+      "png": "/img/items/0xA0D8.png",
+      "name": "hot dog"
+    },
+    "HoveringWisp": {
+      "item_id": "0x2100",
+      "png": "/img/items/0x2100.png",
+      "name": "hovering wisp"
+    },
+    "IcyScimitar": {
+      "item_id": "0x2D33",
+      "png": "/img/items/0x2D33.png",
+      "name": "icy scimitar"
+    },
+    "IcySpellblade": {
+      "item_id": "0x2D20",
+      "png": "/img/items/0x2D20.png",
+      "name": "icy spellblade"
+    },
+    "IncognitoScroll": {
+      "item_id": "0x1F4F",
+      "png": "/img/items/0x1F4F.png",
+      "name": "Incognito"
+    },
+    "Incubator": {
+      "item_id": "0x407C",
+      "png": "/img/items/0x407C.png",
+      "name": "an incubator"
+    },
+    "InoperativeAutomatonHead": {
+      "item_id": "0x9DB1",
+      "png": "/img/items/0x9DB1.png",
+      "name": "Inoperative Automaton Head"
+    },
+    "Inshave": {
+      "item_id": "0x10E6",
+      "png": "/img/items/0x10E6.png",
+      "name": "inshave"
+    },
+    "InvisibilityPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "invisibility"
+    },
+    "InvisibilityScroll": {
+      "item_id": "0x1F58",
+      "png": "/img/items/0x1F58.png",
+      "name": "Invisibility"
+    },
+    "IronIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "Ingots"
+    },
+    "IronOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "iron ore"
+    },
+    "IronwoodCrown": {
+      "item_id": "0x2B71",
+      "png": "/img/items/0x2B71.png",
+      "name": "Ironwood Crown"
+    },
+    "JarHoney": {
+      "item_id": "0x09EC",
+      "png": "/img/items/0x09EC.png",
+      "name": "Honey"
+    },
+    "JesterHat": {
+      "item_id": "0x171C",
+      "png": "/img/items/0x171C.png",
+      "name": "jester hat"
+    },
+    "JesterShoes": {
+      "item_id": "0x7819",
+      "png": "/img/items/0x7819.png",
+      "name": "Jester Shoes"
+    },
+    "JesterSuit": {
+      "item_id": "0x1F9F",
+      "png": "/img/items/0x1F9F.png",
+      "name": "jester suit"
+    },
+    "JeweledFiligree": {
+      "item_id": "0x2F5E",
+      "png": "/img/items/0x2F5E.png",
+      "name": "jeweled filigree"
+    },
+    "JinBaori": {
+      "item_id": "0x27A1",
+      "png": "/img/items/0x27A1.png",
+      "name": "jin-baori"
+    },
+    "JointingPlane": {
+      "item_id": "0x1030",
+      "png": "/img/items/0x1030.png",
+      "name": "jointing plane"
+    },
+    "JukariBurnPoiltice": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "jukari burn poultice"
+    },
+    "Kama": {
+      "item_id": "0x27AD",
+      "png": "/img/items/0x27AD.png",
+      "name": "kama"
+    },
+    "Kamishimo": {
+      "item_id": "0x2799",
+      "png": "/img/items/0x2799.png",
+      "name": "kamishimo"
+    },
+    "Kasa": {
+      "item_id": "0x2798",
+      "png": "/img/items/0x2798.png",
+      "name": "kasa"
+    },
+    "Katana": {
+      "item_id": "0x13FF",
+      "png": "/img/items/0x13FF.png",
+      "name": "katana"
+    },
+    "Keg": {
+      "item_id": "0x0E7F",
+      "png": "/img/items/0x0E7F.png",
+      "name": "keg"
+    },
+    "KeyRing": {
+      "item_id": "0x1011",
+      "png": "/img/items/0x1011.png",
+      "name": "key ring"
+    },
+    "KhaldunTastyTreat": {
+      "item_id": "0x0978",
+      "png": "/img/items/0x0978.png",
+      "name": "khaldun tasty treat"
+    },
+    "Kilt": {
+      "item_id": "0x1537",
+      "png": "/img/items/0x1537.png",
+      "name": "kilt"
+    },
+    "Kindling": {
+      "item_id": "0x0DE1",
+      "png": "/img/items/0x0DE1.png",
+      "name": "kindling"
+    },
+    "KnifeLeft": {
+      "item_id": "0x09F6",
+      "png": "/img/items/0x09F6.png",
+      "name": "knife (left)"
+    },
+    "KnifeRight": {
+      "item_id": "0x09F7",
+      "png": "/img/items/0x09F7.png",
+      "name": "knife (right)"
+    },
+    "KnightsWarCleaver": {
+      "item_id": "0x2D2F",
+      "png": "/img/items/0x2D2F.png",
+      "name": "knight's war cleaver"
+    },
+    "KotlAutomatonHead": {
+      "item_id": "0x9DB1",
+      "png": "/img/items/0x9DB1.png",
+      "name": "Kotl Automaton"
+    },
+    "KotlBlackRod": {
+      "item_id": "0x0E89",
+      "png": "/img/items/0x0E89.png",
+      "name": "kotl black rod"
+    },
+    "KotlPowerCore": {
+      "item_id": "0x9CD3",
+      "png": "/img/items/0x9CD3.png",
+      "name": "Kotl Power Core"
+    },
+    "KrampusMinionBoots": {
+      "item_id": "0xA28D",
+      "png": "/img/items/0xA28D.png",
+      "name": "krampus minion boots"
+    },
+    "KrampusMinionEarrings": {
+      "item_id": "0xA295",
+      "png": "/img/items/0xA295.png",
+      "name": "krampus minion earrings"
+    },
+    "KrampusMinionHat": {
+      "item_id": "0xA28F",
+      "png": "/img/items/0xA28F.png",
+      "name": "krampus minion hat"
+    },
+    "KrampusMinionTalons": {
+      "item_id": "0xA294",
+      "png": "/img/items/0xA294.png",
+      "name": "krampus minion talons"
+    },
+    "Kryss": {
+      "item_id": "0x1401",
+      "png": "/img/items/0x1401.png",
+      "name": "kryss"
+    },
+    "KurakAmbushersEssence": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "kurak ambusher's essence"
+    },
+    "Lajatang": {
+      "item_id": "0x27A7",
+      "png": "/img/items/0x27A7.png",
+      "name": "lajatang"
+    },
+    "LambLeg": {
+      "item_id": "0x160A",
+      "png": "/img/items/0x160A.png",
+      "name": "leg of lamb"
+    },
+    "Lance": {
+      "item_id": "0x26C0",
+      "png": "/img/items/0x26C0.png",
+      "name": "lance"
+    },
+    "Lantern": {
+      "item_id": "0x0A25",
+      "png": "/img/items/0x0A25.png",
+      "name": "lantern"
+    },
+    "LapHarp": {
+      "item_id": "0x0EB2",
+      "png": "/img/items/0x0EB2.png",
+      "name": "lap harp"
+    },
+    "LardOfParoxysmus": {
+      "item_id": "0x3189",
+      "png": "/img/items/0x3189.png",
+      "name": "Lard of Paroxysmus"
+    },
+    "LargeBattleAxe": {
+      "item_id": "0x13FB",
+      "png": "/img/items/0x13FB.png",
+      "name": "large battle axe"
+    },
+    "LargeBedEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large bed (east)"
+    },
+    "LargeBedSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large bed (south)"
+    },
+    "LargeCrate": {
+      "item_id": "0x0E3D",
+      "png": "/img/items/0x0E3D.png",
+      "name": "large crate"
+    },
+    "LargeFlask": {
+      "item_id": "0x183B",
+      "png": "/img/items/0x183B.png",
+      "name": "flask (large #2)"
+    },
+    "LargeForgeEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large forge (east)"
+    },
+    "LargeForgeSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large forge (south)"
+    },
+    "LargeGargoyleBedEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large gargish bed (east)"
+    },
+    "LargeGargoyleBedSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large gargish bed (south)"
+    },
+    "LargePlateShield": {
+      "item_id": "0x4204",
+      "png": "/img/items/0x4204.png",
+      "name": "large plate shield"
+    },
+    "LargeStoneShield": {
+      "item_id": "0x4205",
+      "png": "/img/items/0x4205.png",
+      "name": "large stone shield"
+    },
+    "LargeStoneTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large stone table (east)"
+    },
+    "LargeStoneTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "large stone table (south)"
+    },
+    "LargeTable": {
+      "item_id": "0x0B90",
+      "png": "/img/items/0x0B90.png",
+      "name": "yew-wood table"
+    },
+    "LargeVase": {
+      "item_id": "0x0B45",
+      "png": "/img/items/0x0B45.png",
+      "name": "large vase"
+    },
+    "LavaBerry": {
+      "item_id": "0x5736",
+      "png": "/img/items/0x5736.png",
+      "name": "Lava Berry"
+    },
+    "LavaFishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "lava fish pie"
+    },
+    "LavaFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "lava fish steak"
+    },
+    "LeafArms": {
+      "item_id": "0x2FC8",
+      "png": "/img/items/0x2FC8.png",
+      "name": "leaf arms"
+    },
+    "LeafChest": {
+      "item_id": "0x2FC5",
+      "png": "/img/items/0x2FC5.png",
+      "name": "leaf tunic"
+    },
+    "LeafGloves": {
+      "item_id": "0x2FC6",
+      "png": "/img/items/0x2FC6.png",
+      "name": "leaf gloves"
+    },
+    "LeafGorget": {
+      "item_id": "0x2FC7",
+      "png": "/img/items/0x2FC7.png",
+      "name": "leaf gorget"
+    },
+    "LeafLegs": {
+      "item_id": "0x2FC9",
+      "png": "/img/items/0x2FC9.png",
+      "name": "leaf leggings"
+    },
+    "LeafTonlet": {
+      "item_id": "0x2FCA",
+      "png": "/img/items/0x2FCA.png",
+      "name": "leaf tonlet"
+    },
+    "Leafblade": {
+      "item_id": "0x2D22",
+      "png": "/img/items/0x2D22.png",
+      "name": "leafblade"
+    },
+    "LeafbladeOfEase": {
+      "item_id": "0x2D22",
+      "png": "/img/items/0x2D22.png",
+      "name": "leafblade of ease"
+    },
+    "Leather": {
+      "item_id": "0x1081",
+      "png": "/img/items/0x1081.png",
+      "name": "Leather or Hides"
+    },
+    "LeatherArms": {
+      "item_id": "0x13CD",
+      "png": "/img/items/0x13CD.png",
+      "name": "leather sleeves"
+    },
+    "LeatherBustierArms": {
+      "item_id": "0x1C0A",
+      "png": "/img/items/0x1C0A.png",
+      "name": "leather bustier"
+    },
+    "LeatherCap": {
+      "item_id": "0x1DB9",
+      "png": "/img/items/0x1DB9.png",
+      "name": "leather cap"
+    },
+    "LeatherChest": {
+      "item_id": "0x13CC",
+      "png": "/img/items/0x13CC.png",
+      "name": "leather tunic"
+    },
+    "LeatherContainerEngraver": {
+      "item_id": "0x0F9D",
+      "png": "/img/items/0x0F9D.png",
+      "name": "leather container engraving tool"
+    },
+    "LeatherDo": {
+      "item_id": "0x27C6",
+      "png": "/img/items/0x27C6.png",
+      "name": "leather do"
+    },
+    "LeatherGloves": {
+      "item_id": "0x13C6",
+      "png": "/img/items/0x13C6.png",
+      "name": "leather gloves"
+    },
+    "LeatherGorget": {
+      "item_id": "0x13C7",
+      "png": "/img/items/0x13C7.png",
+      "name": "leather gorget"
+    },
+    "LeatherHaidate": {
+      "item_id": "0x278A",
+      "png": "/img/items/0x278A.png",
+      "name": "leather haidate"
+    },
+    "LeatherHiroSode": {
+      "item_id": "0x277E",
+      "png": "/img/items/0x277E.png",
+      "name": "leather hiro sode"
+    },
+    "LeatherJingasa": {
+      "item_id": "0x2776",
+      "png": "/img/items/0x2776.png",
+      "name": "leather jingasa"
+    },
+    "LeatherLegs": {
+      "item_id": "0x13CB",
+      "png": "/img/items/0x13CB.png",
+      "name": "leather leggings"
+    },
+    "LeatherMempo": {
+      "item_id": "0x277A",
+      "png": "/img/items/0x277A.png",
+      "name": "leather mempo"
+    },
+    "LeatherNinjaBelt": {
+      "item_id": "0x2790",
+      "png": "/img/items/0x2790.png",
+      "name": "leather ninja belt"
+    },
+    "LeatherNinjaHood": {
+      "item_id": "0x278E",
+      "png": "/img/items/0x278E.png",
+      "name": "leather ninja hood"
+    },
+    "LeatherNinjaJacket": {
+      "item_id": "0x2793",
+      "png": "/img/items/0x2793.png",
+      "name": "leather ninja jacket"
+    },
+    "LeatherNinjaMitts": {
+      "item_id": "0x2792",
+      "png": "/img/items/0x2792.png",
+      "name": "leather ninja mitts"
+    },
+    "LeatherNinjaPants": {
+      "item_id": "0x2791",
+      "png": "/img/items/0x2791.png",
+      "name": "leather ninja pants"
+    },
+    "LeatherShorts": {
+      "item_id": "0x1C00",
+      "png": "/img/items/0x1C00.png",
+      "name": "leather shorts"
+    },
+    "LeatherSkirt": {
+      "item_id": "0x1C08",
+      "png": "/img/items/0x1C08.png",
+      "name": "leather skirt"
+    },
+    "LeatherSuneate": {
+      "item_id": "0x2786",
+      "png": "/img/items/0x2786.png",
+      "name": "leather suneate"
+    },
+    "LeatherTalons": {
+      "item_id": "0x41D8",
+      "png": "/img/items/0x41D8.png",
+      "name": "Gargish Leather Talons"
+    },
+    "LeggingsOfBane": {
+      "item_id": "0x13BE",
+      "png": "/img/items/0x13BE.png",
+      "name": "Leggings of Bane"
+    },
+    "LesserCurePotion": {
+      "item_id": "0x0F07",
+      "png": "/img/items/0x0F07.png",
+      "name": "lesser cure"
+    },
+    "LesserExplosionPotion": {
+      "item_id": "0x0F0D",
+      "png": "/img/items/0x0F0D.png",
+      "name": "lesser explosion"
+    },
+    "LesserHealPotion": {
+      "item_id": "0x0F0C",
+      "png": "/img/items/0x0F0C.png",
+      "name": "lesser heal"
+    },
+    "LesserPoisonPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "lesser poison"
+    },
+    "Lettuce": {
+      "item_id": "0x0C70",
+      "png": "/img/items/0x0C70.png",
+      "name": "head of lettuce"
+    },
+    "LeurociansMempoOfFortune": {
+      "item_id": "0x277A",
+      "png": "/img/items/0x277A.png",
+      "name": "Leurocian's Mempo of Fortune"
+    },
+    "LichFormScroll": {
+      "item_id": "0x2266",
+      "png": "/img/items/0x2266.png",
+      "name": "Lich Form"
+    },
+    "LightCannonball": {
+      "item_id": "0x4224",
+      "png": "/img/items/0x4224.png",
+      "name": "cannonball"
+    },
+    "LightGrapeshot": {
+      "item_id": "0x41E5",
+      "png": "/img/items/0x41E5.png",
+      "name": "grapeshot"
+    },
+    "LightPlateJingasa": {
+      "item_id": "0x2781",
+      "png": "/img/items/0x2781.png",
+      "name": "light platemail jingasa"
+    },
+    "LightPowderCharge": {
+      "item_id": "0x4224",
+      "png": "/img/items/0x4224.png",
+      "name": "powder charge"
+    },
+    "LightShipCannonDeed": {
+      "item_id": "0x14F2",
+      "png": "/img/items/0x14F2.png",
+      "name": "culverin"
+    },
+    "LightningScroll": {
+      "item_id": "0x1F4A",
+      "png": "/img/items/0x1F4A.png",
+      "name": "Lightning"
+    },
+    "LightweightShortbow": {
+      "item_id": "0x2D2B",
+      "png": "/img/items/0x2D2B.png",
+      "name": "lightweight shortbow"
+    },
+    "LiquorBarrel": {
+      "item_id": "0x0FAE",
+      "png": "/img/items/0x0FAE.png",
+      "name": "empty liquor barrel"
+    },
+    "LocalMap": {
+      "item_id": "0x14EC",
+      "png": "/img/items/0x14EC.png",
+      "name": "local map"
+    },
+    "Lockpick": {
+      "item_id": "0x14FC",
+      "png": "/img/items/0x14FC.png",
+      "name": "lockpick"
+    },
+    "Lodestone": {
+      "item_id": "0x5739",
+      "png": "/img/items/0x5739.png",
+      "name": "fey wings"
+    },
+    "Log": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "log"
+    },
+    "LongFlask": {
+      "item_id": "0x1838",
+      "png": "/img/items/0x1838.png",
+      "name": "flask (large #1)"
+    },
+    "LongMetalTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Long Metal Table (East)"
+    },
+    "LongMetalTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Long Metal Table (South)"
+    },
+    "LongPants": {
+      "item_id": "0x1539",
+      "png": "/img/items/0x1539.png",
+      "name": "long pants"
+    },
+    "LongTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "long table (east)"
+    },
+    "LongTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "long table (south)"
+    },
+    "LongWoodenTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Long Wooden Table (East)"
+    },
+    "LongWoodenTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Long Wooden Table (South)"
+    },
+    "LongbowOfMight": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "longbow of might"
+    },
+    "Longsword": {
+      "item_id": "0x0F61",
+      "png": "/img/items/0x0F61.png",
+      "name": "longsword"
+    },
+    "LoomEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "loom (east)"
+    },
+    "LoomSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "loom (south)"
+    },
+    "Luckblade": {
+      "item_id": "0x2D22",
+      "png": "/img/items/0x2D22.png",
+      "name": "luckblade"
+    },
+    "LuminescentFungi": {
+      "item_id": "0x3191",
+      "png": "/img/items/0x3191.png",
+      "name": "luminescent fungi"
+    },
+    "LuminousRuneBlade": {
+      "item_id": "0x2D32",
+      "png": "/img/items/0x2D32.png",
+      "name": "Luminous Rune Blade"
+    },
+    "Lute": {
+      "item_id": "0x0EB3",
+      "png": "/img/items/0x0EB3.png",
+      "name": "lute"
+    },
+    "Mace": {
+      "item_id": "0x0F5C",
+      "png": "/img/items/0x0F5C.png",
+      "name": "mace"
+    },
+    "MaceAndShieldGlasses": {
+      "item_id": "0x2FB8",
+      "png": "/img/items/0x2FB8.png",
+      "name": "Mace and Shield Reading Glasses"
+    },
+    "MaceBelt": {
+      "item_id": "0xA40C",
+      "png": "/img/items/0xA40C.png",
+      "name": "mace belt"
+    },
+    "MacheteOfDefense": {
+      "item_id": "0x2D35",
+      "png": "/img/items/0x2D35.png",
+      "name": "machete of defense"
+    },
+    "MagekillerAssassinSpike": {
+      "item_id": "0x2D21",
+      "png": "/img/items/0x2D21.png",
+      "name": "magekiller assassin spike"
+    },
+    "MagekillerLeafblade": {
+      "item_id": "0x2D22",
+      "png": "/img/items/0x2D22.png",
+      "name": "magekiller leafblade"
+    },
+    "MagesHood": {
+      "item_id": "0xA411",
+      "png": "/img/items/0xA411.png",
+      "name": "mage's hood"
+    },
+    "MagesHoodOfScholarlyInsight": {
+      "item_id": "0xA411",
+      "png": "/img/items/0xA411.png",
+      "name": "mage's hood of scholarly insight"
+    },
+    "MagesRuneBlade": {
+      "item_id": "0x2D32",
+      "png": "/img/items/0x2D32.png",
+      "name": "mage's rune blade"
+    },
+    "MagicArrowScroll": {
+      "item_id": "0x1F32",
+      "png": "/img/items/0x1F32.png",
+      "name": "Magic Arrow"
+    },
+    "MagicLockScroll": {
+      "item_id": "0x1F3F",
+      "png": "/img/items/0x1F3F.png",
+      "name": "Magic Lock"
+    },
+    "MagicReflectScroll": {
+      "item_id": "0x1F50",
+      "png": "/img/items/0x1F50.png",
+      "name": "Magic Reflection"
+    },
+    "MagicTrapScroll": {
+      "item_id": "0x1F39",
+      "png": "/img/items/0x1F39.png",
+      "name": "Magic Trap"
+    },
+    "MagicUnTrapScroll": {
+      "item_id": "0x1F3A",
+      "png": "/img/items/0x1F3A.png",
+      "name": "Magic Untrap"
+    },
+    "MagicalShortbow": {
+      "item_id": "0x2D2B",
+      "png": "/img/items/0x2D2B.png",
+      "name": "magical shortbow"
+    },
+    "MaleElvenRobe": {
+      "item_id": "0x2FB9",
+      "png": "/img/items/0x2FB9.png",
+      "name": "elven robe"
+    },
+    "MaleKimono": {
+      "item_id": "0x2782",
+      "png": "/img/items/0x2782.png",
+      "name": "male kimono"
+    },
+    "ManaDrainScroll": {
+      "item_id": "0x1F4B",
+      "png": "/img/items/0x1F4B.png",
+      "name": "Mana Drain"
+    },
+    "ManaVampireScroll": {
+      "item_id": "0x1F61",
+      "png": "/img/items/0x1F61.png",
+      "name": "Mana Vampire"
+    },
+    "MandrakeRoot": {
+      "item_id": "0x0F86",
+      "png": "/img/items/0x0F86.png",
+      "name": "Mandrake Root"
+    },
+    "MapleArmoire": {
+      "item_id": "0x285B",
+      "png": "/img/items/0x285B.png",
+      "name": "maple armoire"
+    },
+    "MapmakersPen": {
+      "item_id": "0x0FBF",
+      "png": "/img/items/0x0FBF.png",
+      "name": "mapmaker's pen"
+    },
+    "MarkScroll": {
+      "item_id": "0x1F59",
+      "png": "/img/items/0x1F59.png",
+      "name": "Mark"
+    },
+    "MassCurseScroll": {
+      "item_id": "0x1F5A",
+      "png": "/img/items/0x1F5A.png",
+      "name": "Mass Curse"
+    },
+    "MassDispelScroll": {
+      "item_id": "0x1F62",
+      "png": "/img/items/0x1F62.png",
+      "name": "Mass Dispel"
+    },
+    "MassSleepScroll": {
+      "item_id": "0x02AE",
+      "png": "/img/items/0x02AE.png",
+      "name": "Mass Sleep"
+    },
+    "Matchcord": {
+      "item_id": "0x1421",
+      "png": "/img/items/0x1421.png",
+      "name": "match cord"
+    },
+    "Matches": {
+      "item_id": "0x0F6B",
+      "png": "/img/items/0x0F6B.png",
+      "name": "match"
+    },
+    "Maul": {
+      "item_id": "0x143B",
+      "png": "/img/items/0x143B.png",
+      "name": "maul"
+    },
+    "MeatPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "baked meat pie"
+    },
+    "MediumCrate": {
+      "item_id": "0x0E3F",
+      "png": "/img/items/0x0E3F.png",
+      "name": "medium crate"
+    },
+    "MediumFlask": {
+      "item_id": "0x182A",
+      "png": "/img/items/0x182A.png",
+      "name": "flask (medium)"
+    },
+    "MediumPlateShield": {
+      "item_id": "0x4203",
+      "png": "/img/items/0x4203.png",
+      "name": "medium plate shield"
+    },
+    "MediumStoneTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "medium stone table (east)"
+    },
+    "MediumStoneTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "medium stone table (south)"
+    },
+    "MedusaBlood": {
+      "item_id": "0x2DB6",
+      "png": "/img/items/0x2DB6.png",
+      "name": "Medusa Blood"
+    },
+    "MedusaDarkScales": {
+      "item_id": "0x26B4",
+      "png": "/img/items/0x26B4.png",
+      "name": "Medusa scales"
+    },
+    "MentoSeasoning": {
+      "item_id": "0x0996",
+      "png": "/img/items/0x0996.png",
+      "name": "Mento Seasoning"
+    },
+    "MetalContainerEngraver": {
+      "item_id": "0x1EB8",
+      "png": "/img/items/0x1EB8.png",
+      "name": "metal container engraving tool"
+    },
+    "MetalKeg": {
+      "item_id": "0x0E7F",
+      "png": "/img/items/0x0E7F.png",
+      "name": "metal keg"
+    },
+    "MetalKiteShield": {
+      "item_id": "0x1B74",
+      "png": "/img/items/0x1B74.png",
+      "name": "metal kite shield"
+    },
+    "MetalShield": {
+      "item_id": "0x1B7B",
+      "png": "/img/items/0x1B7B.png",
+      "name": "metal shield"
+    },
+    "MetalTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Metal Table (East)"
+    },
+    "MetalTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Metal Table (South)"
+    },
+    "MeteorSwarmScroll": {
+      "item_id": "0x1F63",
+      "png": "/img/items/0x1F63.png",
+      "name": "Meteor Swarm"
+    },
+    "MidnightBracers": {
+      "item_id": "0x144E",
+      "png": "/img/items/0x144E.png",
+      "name": "Midnight Bracers"
+    },
+    "MilkChocolate": {
+      "item_id": "0x0F18",
+      "png": "/img/items/0x0F18.png",
+      "name": "milk chocolate"
+    },
+    "MindBlastScroll": {
+      "item_id": "0x1F51",
+      "png": "/img/items/0x1F51.png",
+      "name": "Mind Blast"
+    },
+    "MindRotScroll": {
+      "item_id": "0x2267",
+      "png": "/img/items/0x2267.png",
+      "name": "Mind Rot"
+    },
+    "MischiefMaker": {
+      "item_id": "0x2D2B",
+      "png": "/img/items/0x2D2B.png",
+      "name": "Mischief Maker"
+    },
+    "MisoSoup": {
+      "item_id": "0x284D",
+      "png": "/img/items/0x284D.png",
+      "name": "miso soup"
+    },
+    "ModifiedClockworkAssembly": {
+      "item_id": "0x1EA8",
+      "png": "/img/items/0x1EA8.png",
+      "name": "leather wolf assembly"
+    },
+    "MoonstoneCrystalShard": {
+      "item_id": "0x9CB6",
+      "png": "/img/items/0x9CB6.png",
+      "name": "Moonstone Crystal Shards"
+    },
+    "MortarPestle": {
+      "item_id": "0x0E9B",
+      "png": "/img/items/0x0E9B.png",
+      "name": "mortar and pestle"
+    },
+    "MouldingPlane": {
+      "item_id": "0x102C",
+      "png": "/img/items/0x102C.png",
+      "name": "moulding planes"
+    },
+    "MountedDreadHorn": {
+      "item_id": "0x3158",
+      "png": "/img/items/0x3158.png",
+      "name": "mounted dread horn"
+    },
+    "Muculent": {
+      "item_id": "0x3188",
+      "png": "/img/items/0x3188.png",
+      "name": "Muculent"
+    },
+    "Muffins": {
+      "item_id": "0x09EB",
+      "png": "/img/items/0x09EB.png",
+      "name": "muffins"
+    },
+    "MyrmidexEggsac": {
+      "item_id": "0x2808",
+      "png": "/img/items/0x2808.png",
+      "name": "Myrmidex Eggsac"
+    },
+    "MysticBook": {
+      "item_id": "0x2D9D",
+      "png": "/img/items/0x2D9D.png",
+      "name": "Mysticism Spellbook"
+    },
+    "MysticalShortbow": {
+      "item_id": "0x2D2B",
+      "png": "/img/items/0x2D2B.png",
+      "name": "mystical shortbow"
+    },
+    "NaturalDye": {
+      "item_id": "0x182B",
+      "png": "/img/items/0x182B.png",
+      "name": "natural dye"
+    },
+    "NecromancerSpellbook": {
+      "item_id": "0x2253",
+      "png": "/img/items/0x2253.png",
+      "name": "Necromancer Spellbook"
+    },
+    "NetherBoltScroll": {
+      "item_id": "0x02A5",
+      "png": "/img/items/0x02A5.png",
+      "name": "Nether Bolt"
+    },
+    "NetherCycloneScroll": {
+      "item_id": "0x02B3",
+      "png": "/img/items/0x02B3.png",
+      "name": "Nether Cyclone"
+    },
+    "NexusCore": {
+      "item_id": "0x4B82",
+      "png": "/img/items/0x4B82.png",
+      "name": "nexus core"
+    },
+    "NightSightPotion": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "night sight"
+    },
+    "NightSightScroll": {
+      "item_id": "0x1F33",
+      "png": "/img/items/0x1F33.png",
+      "name": "Night Sight"
+    },
+    "Nightshade": {
+      "item_id": "0x0F88",
+      "png": "/img/items/0x0F88.png",
+      "name": "Nightshade"
+    },
+    "Nightstand": {
+      "item_id": "0x0B35",
+      "png": "/img/items/0x0B35.png",
+      "name": "small table"
+    },
+    "NinjaTabi": {
+      "item_id": "0x2797",
+      "png": "/img/items/0x2797.png",
+      "name": "ninja tabi"
+    },
+    "NoDachi": {
+      "item_id": "0x27A2",
+      "png": "/img/items/0x27A2.png",
+      "name": "no-dachi"
+    },
+    "NorseHelm": {
+      "item_id": "0x140E",
+      "png": "/img/items/0x140E.png",
+      "name": "norse helm"
+    },
+    "NoxCrystal": {
+      "item_id": "0x0F8E",
+      "png": "/img/items/0x0F8E.png",
+      "name": "Nox Crystal"
+    },
+    "Nunchaku": {
+      "item_id": "0x27AE",
+      "png": "/img/items/0x27AE.png",
+      "name": "nunchaku"
+    },
+    "OakBoard": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "oak board"
+    },
+    "OakLog": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "oak log"
+    },
+    "Obi": {
+      "item_id": "0x27A0",
+      "png": "/img/items/0x27A0.png",
+      "name": "obi"
+    },
+    "OilCloth": {
+      "item_id": "0x175D",
+      "png": "/img/items/0x175D.png",
+      "name": "oil cloth"
+    },
+    "Onion": {
+      "item_id": "0x0C6D",
+      "png": "/img/items/0x0C6D.png",
+      "name": "onion"
+    },
+    "OrcHelm": {
+      "item_id": "0x1F0B",
+      "png": "/img/items/0x1F0B.png",
+      "name": "orc helm"
+    },
+    "OrcMask": {
+      "item_id": "0x141B",
+      "png": "/img/items/0x141B.png",
+      "name": "orc mask"
+    },
+    "OrcishMachete": {
+      "item_id": "0x2D35",
+      "png": "/img/items/0x2D35.png",
+      "name": "Orcish Machete"
+    },
+    "OrderShield": {
+      "item_id": "0x1BC4",
+      "png": "/img/items/0x1BC4.png",
+      "name": "order shield"
+    },
+    "OrnateAxe": {
+      "item_id": "0x2D28",
+      "png": "/img/items/0x2D28.png",
+      "name": "ornate axe"
+    },
+    "OrnateElvenChair": {
+      "item_id": "0x2DE3",
+      "png": "/img/items/0x2DE3.png",
+      "name": "ornate elven chair"
+    },
+    "OrnateElvenChestEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "ornate elven chest (east)"
+    },
+    "OrnateElvenChestSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "ornate elven chest (south)"
+    },
+    "OrnateElvenTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "ornate table (east)"
+    },
+    "OrnateElvenTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "ornate table (south)"
+    },
+    "OrnateWoodenChest": {
+      "item_id": "0x280D",
+      "png": "/img/items/0x280D.png",
+      "name": "ornate wooden chest"
+    },
+    "OverseerSunderedBlade": {
+      "item_id": "0x2D33",
+      "png": "/img/items/0x2D33.png",
+      "name": "Overseer Sundered Blade"
+    },
+    "PainSpikeScroll": {
+      "item_id": "0x2268",
+      "png": "/img/items/0x2268.png",
+      "name": "Pain Spike"
+    },
+    "PaperLantern": {
+      "item_id": "0x24BE",
+      "png": "/img/items/0x24BE.png",
+      "name": "paper lantern"
+    },
+    "ParalyzeFieldScroll": {
+      "item_id": "0x1F5B",
+      "png": "/img/items/0x1F5B.png",
+      "name": "Paralyze Field"
+    },
+    "ParalyzeScroll": {
+      "item_id": "0x1F52",
+      "png": "/img/items/0x1F52.png",
+      "name": "Paralyze"
+    },
+    "ParasiticPlant": {
+      "item_id": "0x3190",
+      "png": "/img/items/0x3190.png",
+      "name": "parasitic plant"
+    },
+    "ParasiticPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "parasitic"
+    },
+    "ParrotPerchAddonDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "parrot perch"
+    },
+    "ParrotWafer": {
+      "item_id": "0x2FD6",
+      "png": "/img/items/0x2FD6.png",
+      "name": "parrot wafer"
+    },
+    "Peach": {
+      "item_id": "0x09D2",
+      "png": "/img/items/0x09D2.png",
+      "name": "Peaches"
+    },
+    "PeachCobbler": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "baked peach cobbler"
+    },
+    "Pear": {
+      "item_id": "0x0994",
+      "png": "/img/items/0x0994.png",
+      "name": "Pears"
+    },
+    "PendantOfTheMagi": {
+      "item_id": "0x1088",
+      "png": "/img/items/0x1088.png",
+      "name": "Pendant of the Magi"
+    },
+    "PentagramDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "pentagram"
+    },
+    "PerfectBanana": {
+      "item_id": "0x1722",
+      "png": "/img/items/0x1722.png",
+      "name": "Perfect Bananas"
+    },
+    "PerfectEmerald": {
+      "item_id": "0x3194",
+      "png": "/img/items/0x3194.png",
+      "name": "Perfect Emerald"
+    },
+    "PerfectEmeraldRing": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "perfect emerald ring"
+    },
+    "PersonalTelescope": {
+      "item_id": "0xA12C",
+      "png": "/img/items/0xA12C.png",
+      "name": "telescope"
+    },
+    "PewterMug": {
+      "item_id": "0x0FFF",
+      "png": "/img/items/0x0FFF.png",
+      "name": "pewter mug"
+    },
+    "PhantomStaff": {
+      "item_id": "0x2D25",
+      "png": "/img/items/0x2D25.png",
+      "name": "Phantom Staff"
+    },
+    "Pickaxe": {
+      "item_id": "0x0E86",
+      "png": "/img/items/0x0E86.png",
+      "name": "pickaxe"
+    },
+    "PickpocketDipEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "pickpocket dip (east)"
+    },
+    "PickpocketDipSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "pickpocket dip (south)"
+    },
+    "PicnicBasket2": {
+      "item_id": "0x0E7A",
+      "png": "/img/items/0x0E7A.png",
+      "name": "picnic basket"
+    },
+    "PigIron": {
+      "item_id": "0x0F8A",
+      "png": "/img/items/0x0F8A.png",
+      "name": "Pig Iron"
+    },
+    "Pike": {
+      "item_id": "0x26BE",
+      "png": "/img/items/0x26BE.png",
+      "name": "pike"
+    },
+    "Pitchfork": {
+      "item_id": "0x0E87",
+      "png": "/img/items/0x0E87.png",
+      "name": "pitchfork"
+    },
+    "PlainDress": {
+      "item_id": "0x1F01",
+      "png": "/img/items/0x1F01.png",
+      "name": "plain dress"
+    },
+    "PlainLowTable": {
+      "item_id": "0x281A",
+      "png": "/img/items/0x281A.png",
+      "name": "plain low table"
+    },
+    "PlainWoodenChest": {
+      "item_id": "0x280B",
+      "png": "/img/items/0x280B.png",
+      "name": "plain wooden chest"
+    },
+    "PlainWoodenShelfEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Plain Wooden Shelf (East)"
+    },
+    "PlainWoodenShelfSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Plain Wooden Shelf (South)"
+    },
+    "PlantClippings": {
+      "item_id": "0x4022",
+      "png": "/img/items/0x4022.png",
+      "name": "Plant Clippings"
+    },
+    "PlantPigment": {
+      "item_id": "0x0F02",
+      "png": "/img/items/0x0F02.png",
+      "name": "plant pigment"
+    },
+    "PlantTapestryEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Plant Tapestry (East)"
+    },
+    "PlantTapestrySouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Plant Tapestry (South)"
+    },
+    "Plate": {
+      "item_id": "0x09D7",
+      "png": "/img/items/0x09D7.png",
+      "name": "plate"
+    },
+    "PlateArms": {
+      "item_id": "0x1410",
+      "png": "/img/items/0x1410.png",
+      "name": "platemail arms"
+    },
+    "PlateBattleKabuto": {
+      "item_id": "0x2785",
+      "png": "/img/items/0x2785.png",
+      "name": "platemail battle kabuto"
+    },
+    "PlateChest": {
+      "item_id": "0x1415",
+      "png": "/img/items/0x1415.png",
+      "name": "platemail (tunic)"
+    },
+    "PlateDo": {
+      "item_id": "0x277D",
+      "png": "/img/items/0x277D.png",
+      "name": "platemail do"
+    },
+    "PlateGloves": {
+      "item_id": "0x1414",
+      "png": "/img/items/0x1414.png",
+      "name": "platemail gloves"
+    },
+    "PlateGorget": {
+      "item_id": "0x1413",
+      "png": "/img/items/0x1413.png",
+      "name": "platemail gorget"
+    },
+    "PlateHaidate": {
+      "item_id": "0x278D",
+      "png": "/img/items/0x278D.png",
+      "name": "platemail haidate"
+    },
+    "PlateHatsuburi": {
+      "item_id": "0x2775",
+      "png": "/img/items/0x2775.png",
+      "name": "platemail hatsuburi"
+    },
+    "PlateHelm": {
+      "item_id": "0x1412",
+      "png": "/img/items/0x1412.png",
+      "name": "plate helm"
+    },
+    "PlateHiroSode": {
+      "item_id": "0x2780",
+      "png": "/img/items/0x2780.png",
+      "name": "platemail hiro sode"
+    },
+    "PlateLegs": {
+      "item_id": "0x1411",
+      "png": "/img/items/0x1411.png",
+      "name": "platemail legs"
+    },
+    "PlateMempo": {
+      "item_id": "0x2779",
+      "png": "/img/items/0x2779.png",
+      "name": "platemail mempo"
+    },
+    "PlateSuneate": {
+      "item_id": "0x2788",
+      "png": "/img/items/0x2788.png",
+      "name": "platemail suneate"
+    },
+    "PlayerBBEast": {
+      "item_id": "0x2312",
+      "png": "/img/items/0x2312.png",
+      "name": "bulletin board"
+    },
+    "PlayerBBSouth": {
+      "item_id": "0x2311",
+      "png": "/img/items/0x2311.png",
+      "name": "bulletin board"
+    },
+    "PlushLoveseatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Plush Loveseat (East)"
+    },
+    "PlushLoveseatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Plush Loveseat (South)"
+    },
+    "PoisonFieldScroll": {
+      "item_id": "0x1F53",
+      "png": "/img/items/0x1F53.png",
+      "name": "Poison Field"
+    },
+    "PoisonPotion": {
+      "item_id": "0x0F0A",
+      "png": "/img/items/0x0F0A.png",
+      "name": "poison"
+    },
+    "PoisonScroll": {
+      "item_id": "0x1F40",
+      "png": "/img/items/0x1F40.png",
+      "name": "Poison"
+    },
+    "PoisonStrikeScroll": {
+      "item_id": "0x2269",
+      "png": "/img/items/0x2269.png",
+      "name": "Poison Strike"
+    },
+    "PolymorphScroll": {
+      "item_id": "0x1F64",
+      "png": "/img/items/0x1F64.png",
+      "name": "Polymorph"
+    },
+    "Potash": {
+      "item_id": "0x423A",
+      "png": "/img/items/0x423A.png",
+      "name": "potash"
+    },
+    "PotionKeg": {
+      "item_id": "0x1940",
+      "png": "/img/items/0x1940.png",
+      "name": "potion keg"
+    },
+    "PowderCharge": {
+      "item_id": "0xA2BE",
+      "png": "/img/items/0xA2BE.png",
+      "name": "powder charge"
+    },
+    "PowderedIron": {
+      "item_id": "0x573D",
+      "png": "/img/items/0x573D.png",
+      "name": "powdered iron"
+    },
+    "PowerCrystal": {
+      "item_id": "0x1F1C",
+      "png": "/img/items/0x1F1C.png",
+      "name": "power crystal"
+    },
+    "PristineDreadHorn": {
+      "item_id": "0x315A",
+      "png": "/img/items/0x315A.png",
+      "name": "Pristine Dread Horn"
+    },
+    "PropheticManuscript": {
+      "item_id": "0x42BF",
+      "png": "/img/items/0x42BF.png",
+      "name": "Prophetic Manuscript"
+    },
+    "ProtectionScroll": {
+      "item_id": "0x1F3B",
+      "png": "/img/items/0x1F3B.png",
+      "name": "Protection"
+    },
+    "Pumpkin": {
+      "item_id": "0x0C6A",
+      "png": "/img/items/0x0C6A.png",
+      "name": "Pumpkin"
+    },
+    "PumpkinPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "baked pumpkin pie"
+    },
+    "PurgeMagicScroll": {
+      "item_id": "0x02A7",
+      "png": "/img/items/0x02A7.png",
+      "name": "Purge Magic"
+    },
+    "Putrefaction": {
+      "item_id": "0x3186",
+      "png": "/img/items/0x3186.png",
+      "name": "Putrefaction"
+    },
+    "QuarterStaff": {
+      "item_id": "0x0E89",
+      "png": "/img/items/0x0E89.png",
+      "name": "quarter staff"
+    },
+    "Quiche": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "baked quiche"
+    },
+    "QuiverOfBlight": {
+      "item_id": "0x2FB7",
+      "png": "/img/items/0x2FB7.png",
+      "name": "Quiver of Blight"
+    },
+    "QuiverOfFire": {
+      "item_id": "0x2FB7",
+      "png": "/img/items/0x2FB7.png",
+      "name": "quiver of fire"
+    },
+    "QuiverOfIce": {
+      "item_id": "0x2FB7",
+      "png": "/img/items/0x2FB7.png",
+      "name": "quiver of ice"
+    },
+    "QuiverOfLightning": {
+      "item_id": "0x2FB7",
+      "png": "/img/items/0x2FB7.png",
+      "name": "Quiver of Lightning"
+    },
+    "RadiantScimitar": {
+      "item_id": "0x2D33",
+      "png": "/img/items/0x2D33.png",
+      "name": "radiant scimitar"
+    },
+    "Ramrod": {
+      "item_id": "0x4246",
+      "png": "/img/items/0x4246.png",
+      "name": "ramrod"
+    },
+    "RangersShortbow": {
+      "item_id": "0x2D2B",
+      "png": "/img/items/0x2D2B.png",
+      "name": "ranger's shortbow"
+    },
+    "RarewoodChest": {
+      "item_id": "0x2DF1",
+      "png": "/img/items/0x2DF1.png",
+      "name": "rarewood chest"
+    },
+    "RavenHelm": {
+      "item_id": "0x2B71",
+      "png": "/img/items/0x2B71.png",
+      "name": "raven helm"
+    },
+    "RawBird": {
+      "item_id": "0x09B9",
+      "png": "/img/items/0x09B9.png",
+      "name": "Raw Birds"
+    },
+    "RawChickenLeg": {
+      "item_id": "0x1607",
+      "png": "/img/items/0x1607.png",
+      "name": "Raw Chicken Legs"
+    },
+    "RawFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "Raw Fish Steaks"
+    },
+    "RawLambLeg": {
+      "item_id": "0x1609",
+      "png": "/img/items/0x1609.png",
+      "name": "Raw Legs of Lamb"
+    },
+    "RawRibs": {
+      "item_id": "0x09F1",
+      "png": "/img/items/0x09F1.png",
+      "name": "Raw Meat"
+    },
+    "RawRotwormMeat": {
+      "item_id": "0x2DB9",
+      "png": "/img/items/0x2DB9.png",
+      "name": "raw rotworm meat"
+    },
+    "ReactiveArmorScroll": {
+      "item_id": "0x1F2D",
+      "png": "/img/items/0x1F2D.png",
+      "name": "Reactive Armor"
+    },
+    "ReaperFishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "reaper fish pie"
+    },
+    "ReaperFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "reaper fish steak"
+    },
+    "RecallRune": {
+      "item_id": "0x1F14",
+      "png": "/img/items/0x1F14.png",
+      "name": "Unmarked Runes"
+    },
+    "RecallScroll": {
+      "item_id": "0x1F4C",
+      "png": "/img/items/0x1F4C.png",
+      "name": "Recall"
+    },
+    "RedArmoire": {
+      "item_id": "0x2857",
+      "png": "/img/items/0x2857.png",
+      "name": "red armoire"
+    },
+    "RedHangingLantern": {
+      "item_id": "0x24C2",
+      "png": "/img/items/0x24C2.png",
+      "name": "red hanging lantern"
+    },
+    "RedMisoSoup": {
+      "item_id": "0x284F",
+      "png": "/img/items/0x284F.png",
+      "name": "red miso soup"
+    },
+    "RedScales": {
+      "item_id": "0x26B4",
+      "png": "/img/items/0x26B4.png",
+      "name": "Dragon Scales"
+    },
+    "RefreshPotion": {
+      "item_id": "0x0F0B",
+      "png": "/img/items/0x0F0B.png",
+      "name": "refresh"
+    },
+    "RelicFragment": {
+      "item_id": "0x2DB3",
+      "png": "/img/items/0x2DB3.png",
+      "name": "Relic Fragment"
+    },
+    "RepeatingCrossbow": {
+      "item_id": "0x26C3",
+      "png": "/img/items/0x26C3.png",
+      "name": "repeating crossbow"
+    },
+    "ResilientBracer": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "Resilient Bracer"
+    },
+    "ResolvesBridle": {
+      "item_id": "0x1374",
+      "png": "/img/items/0x1374.png",
+      "name": "Resolve's Bridle"
+    },
+    "ResurrectionScroll": {
+      "item_id": "0x1F67",
+      "png": "/img/items/0x1F67.png",
+      "name": "Resurrection"
+    },
+    "RevealScroll": {
+      "item_id": "0x1F5C",
+      "png": "/img/items/0x1F5C.png",
+      "name": "Reveal"
+    },
+    "Ribs": {
+      "item_id": "0x09F2",
+      "png": "/img/items/0x09F2.png",
+      "name": "cut of ribs"
+    },
+    "RingOfTheElements": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "Ring of the Elements"
+    },
+    "RingmailArms": {
+      "item_id": "0x13EE",
+      "png": "/img/items/0x13EE.png",
+      "name": "ringmail sleeves"
+    },
+    "RingmailChest": {
+      "item_id": "0x13EC",
+      "png": "/img/items/0x13EC.png",
+      "name": "ringmail tunic"
+    },
+    "RingmailGloves": {
+      "item_id": "0x13EB",
+      "png": "/img/items/0x13EB.png",
+      "name": "ringmail gloves"
+    },
+    "RingmailLegs": {
+      "item_id": "0x13F0",
+      "png": "/img/items/0x13F0.png",
+      "name": "ringmail leggings"
+    },
+    "RisingColossusScroll": {
+      "item_id": "0x02B4",
+      "png": "/img/items/0x02B4.png",
+      "name": "Rising Colossus"
+    },
+    "RitualTableDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "ritual table"
+    },
+    "RiverMoss": {
+      "item_id": "0x573D",
+      "png": "/img/items/0x573D.png",
+      "name": "River Moss"
+    },
+    "Robe": {
+      "item_id": "0x1F03",
+      "png": "/img/items/0x1F03.png",
+      "name": "robe"
+    },
+    "RobeofRite": {
+      "item_id": "0x1F03",
+      "png": "/img/items/0x1F03.png",
+      "name": "robe of rite"
+    },
+    "RollingPin": {
+      "item_id": "0x1043",
+      "png": "/img/items/0x1043.png",
+      "name": "rolling pin"
+    },
+    "Rope": {
+      "item_id": "0x14F8",
+      "png": "/img/items/0x14F8.png",
+      "name": "rope"
+    },
+    "RoundBasket": {
+      "item_id": "0x0990",
+      "png": "/img/items/0x0990.png",
+      "name": "round basket"
+    },
+    "RoundBasketHandles": {
+      "item_id": "0x09AC",
+      "png": "/img/items/0x09AC.png",
+      "name": "bushel"
+    },
+    "RoundPaperLantern": {
+      "item_id": "0x24CA",
+      "png": "/img/items/0x24CA.png",
+      "name": "round paper lantern"
+    },
+    "RoyalCirclet": {
+      "item_id": "0x2B6F",
+      "png": "/img/items/0x2B6F.png",
+      "name": "royal circlet"
+    },
+    "Ruby": {
+      "item_id": "0x0F13",
+      "png": "/img/items/0x0F13.png",
+      "name": "Rubies"
+    },
+    "RubyMace": {
+      "item_id": "0x2D24",
+      "png": "/img/items/0x2D24.png",
+      "name": "ruby mace"
+    },
+    "RuneBlade": {
+      "item_id": "0x2D32",
+      "png": "/img/items/0x2D32.png",
+      "name": "rune blade"
+    },
+    "RuneBladeOfKnowledge": {
+      "item_id": "0x2D32",
+      "png": "/img/items/0x2D32.png",
+      "name": "rune blade of knowledge"
+    },
+    "RuneCarvingKnife": {
+      "item_id": "0x2D21",
+      "png": "/img/items/0x2D21.png",
+      "name": "Rune Carving Knife"
+    },
+    "Runebook": {
+      "item_id": "0x22C5",
+      "png": "/img/items/0x22C5.png",
+      "name": "Runebook"
+    },
+    "RunedPrism": {
+      "item_id": "0x2F57",
+      "png": "/img/items/0x2F57.png",
+      "name": "Runed Prism"
+    },
+    "RunedSwitch": {
+      "item_id": "0x2F61",
+      "png": "/img/items/0x2F61.png",
+      "name": "runed switch"
+    },
+    "Runesabre": {
+      "item_id": "0x2D32",
+      "png": "/img/items/0x2D32.png",
+      "name": "runesabre"
+    },
+    "RunicAtlas": {
+      "item_id": "0x9C16",
+      "png": "/img/items/0x9C16.png",
+      "name": "Runic Atlas"
+    },
+    "RusticBenchEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "rustic bench (east)"
+    },
+    "RusticBenchSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "rustic bench (south)"
+    },
+    "SackFlour": {
+      "item_id": "0x1039",
+      "png": "/img/items/0x1039.png",
+      "name": "sack of flour"
+    },
+    "SackFlourOpen": {
+      "item_id": "0x103A",
+      "png": "/img/items/0x103A.png",
+      "name": "Flour"
+    },
+    "SackOfSugar": {
+      "item_id": "0x1039",
+      "png": "/img/items/0x1039.png",
+      "name": "sack of sugar"
+    },
+    "Sai": {
+      "item_id": "0x27AF",
+      "png": "/img/items/0x27AF.png",
+      "name": "sai"
+    },
+    "SakkhraProphylaxisPotion": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "sakkhra prophylaxis potion"
+    },
+    "Saltpeter": {
+      "item_id": "0x423A",
+      "png": "/img/items/0x423A.png",
+      "name": "saltpeter"
+    },
+    "SamuelsSecretSauce": {
+      "item_id": "0x099F",
+      "png": "/img/items/0x099F.png",
+      "name": "Samuel's Secret Sauce"
+    },
+    "SamuraiTabi": {
+      "item_id": "0x2796",
+      "png": "/img/items/0x2796.png",
+      "name": "waraji and tabi"
+    },
+    "Sand": {
+      "item_id": "0x423A",
+      "png": "/img/items/0x423A.png",
+      "name": "Sand"
+    },
+    "Sandals": {
+      "item_id": "0x170D",
+      "png": "/img/items/0x170D.png",
+      "name": "sandals"
+    },
+    "Sapphire": {
+      "item_id": "0x0F11",
+      "png": "/img/items/0x0F11.png",
+      "name": "Sapphires"
+    },
+    "SapphireMace": {
+      "item_id": "0x2D24",
+      "png": "/img/items/0x2D24.png",
+      "name": "sapphire mace"
+    },
+    "Sausage": {
+      "item_id": "0x09C0",
+      "png": "/img/items/0x09C0.png",
+      "name": "Sausage"
+    },
+    "SausagePizza": {
+      "item_id": "0x1040",
+      "png": "/img/items/0x1040.png",
+      "name": "sausage pizza"
+    },
+    "Saw": {
+      "item_id": "0x1034",
+      "png": "/img/items/0x1034.png",
+      "name": "saw"
+    },
+    "ScaleCollar": {
+      "item_id": "0x108B",
+      "png": "/img/items/0x108B.png",
+      "name": "a scale collar"
+    },
+    "Scales": {
+      "item_id": "0x1852",
+      "png": "/img/items/0x1852.png",
+      "name": "scales"
+    },
+    "Scepter": {
+      "item_id": "0x26BC",
+      "png": "/img/items/0x26BC.png",
+      "name": "scepter"
+    },
+    "Scimitar": {
+      "item_id": "0x13B6",
+      "png": "/img/items/0x13B6.png",
+      "name": "scimitar"
+    },
+    "Scissors": {
+      "item_id": "0x0F9F",
+      "png": "/img/items/0x0F9F.png",
+      "name": "scissors"
+    },
+    "Scorp": {
+      "item_id": "0x10E7",
+      "png": "/img/items/0x10E7.png",
+      "name": "scorp"
+    },
+    "Scourge": {
+      "item_id": "0x3185",
+      "png": "/img/items/0x3185.png",
+      "name": "Scourge"
+    },
+    "ScouringToxin": {
+      "item_id": "0x1848",
+      "png": "/img/items/0x1848.png",
+      "name": "scouring toxin"
+    },
+    "ScrappersCompendium": {
+      "item_id": "0x0EFA",
+      "png": "/img/items/0x0EFA.png",
+      "name": "Scrapper's Compendium"
+    },
+    "ScribesPen": {
+      "item_id": "0x0FBF",
+      "png": "/img/items/0x0FBF.png",
+      "name": "scribe's pen"
+    },
+    "ScrollBinderDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Scroll Binder"
+    },
+    "Scythe": {
+      "item_id": "0x26BA",
+      "png": "/img/items/0x26BA.png",
+      "name": "scythe"
+    },
+    "SeaChart": {
+      "item_id": "0x14EC",
+      "png": "/img/items/0x14EC.png",
+      "name": "sea chart"
+    },
+    "SerpentStoneStaff": {
+      "item_id": "0x0906",
+      "png": "/img/items/0x0906.png",
+      "name": "serpentstone staff"
+    },
+    "SerratedWarCleaver": {
+      "item_id": "0x2D2F",
+      "png": "/img/items/0x2D2F.png",
+      "name": "serrated war cleaver"
+    },
+    "SewingKit": {
+      "item_id": "0x0F9D",
+      "png": "/img/items/0x0F9D.png",
+      "name": "sewing kit"
+    },
+    "Sextant": {
+      "item_id": "0x1058",
+      "png": "/img/items/0x1058.png",
+      "name": "sextant"
+    },
+    "SextantParts": {
+      "item_id": "0x1059",
+      "png": "/img/items/0x1059.png",
+      "name": "sextant parts"
+    },
+    "ShadowIronIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "shadow iron ingot"
+    },
+    "ShadowIronOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "shadow iron ore"
+    },
+    "Shaft": {
+      "item_id": "0x1BD4",
+      "png": "/img/items/0x1BD4.png",
+      "name": "shaft"
+    },
+    "ShardThrasher": {
+      "item_id": "0x2D24",
+      "png": "/img/items/0x2D24.png",
+      "name": "Shard Thrasher"
+    },
+    "ShepherdsCrook": {
+      "item_id": "0x0E81",
+      "png": "/img/items/0x0E81.png",
+      "name": "shepherd's crook"
+    },
+    "Shirt": {
+      "item_id": "0x1517",
+      "png": "/img/items/0x1517.png",
+      "name": "shirt"
+    },
+    "Shoes": {
+      "item_id": "0x170F",
+      "png": "/img/items/0x170F.png",
+      "name": "shoes"
+    },
+    "ShojiLantern": {
+      "item_id": "0x24BC",
+      "png": "/img/items/0x24BC.png",
+      "name": "shoji lantern"
+    },
+    "ShojiScreen": {
+      "item_id": "0x24CB",
+      "png": "/img/items/0x24CB.png",
+      "name": "shoji screen"
+    },
+    "ShortCabinet": {
+      "item_id": "0x2817",
+      "png": "/img/items/0x2817.png",
+      "name": "short cabinet"
+    },
+    "ShortMusicStandLeft": {
+      "item_id": "0x0EB6",
+      "png": "/img/items/0x0EB6.png",
+      "name": "short music stand (left)"
+    },
+    "ShortMusicStandRight": {
+      "item_id": "0x0EB8",
+      "png": "/img/items/0x0EB8.png",
+      "name": "short music stand (right)"
+    },
+    "ShortPants": {
+      "item_id": "0x152E",
+      "png": "/img/items/0x152E.png",
+      "name": "short pants"
+    },
+    "ShortSpear": {
+      "item_id": "0x1403",
+      "png": "/img/items/0x1403.png",
+      "name": "short spear"
+    },
+    "Shortblade": {
+      "item_id": "0x0907",
+      "png": "/img/items/0x0907.png",
+      "name": "shortblade"
+    },
+    "Shovel": {
+      "item_id": "0x0F39",
+      "png": "/img/items/0x0F39.png",
+      "name": "shovel"
+    },
+    "Shuriken": {
+      "item_id": "0x27AC",
+      "png": "/img/items/0x27AC.png",
+      "name": "shuriken"
+    },
+    "SilvanisFeywoodBow": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "Silvani's Feywood Bow"
+    },
+    "Silver": {
+      "item_id": "0x0EF0",
+      "png": "/img/items/0x0EF0.png",
+      "name": "Faction Silver"
+    },
+    "SilverBeadNecklace": {
+      "item_id": "0x1F05",
+      "png": "/img/items/0x1F05.png",
+      "name": "star sapphire necklace (silver)"
+    },
+    "SilverEtchedMace": {
+      "item_id": "0x2D24",
+      "png": "/img/items/0x2D24.png",
+      "name": "silver-etched mace"
+    },
+    "SilverSerpentVenom": {
+      "item_id": "0x0E24",
+      "png": "/img/items/0x0E24.png",
+      "name": "silver serpent venom"
+    },
+    "SimpleElvenArmoire": {
+      "item_id": "0x2D05",
+      "png": "/img/items/0x2D05.png",
+      "name": "elven armoire (simple)"
+    },
+    "SingingAxe": {
+      "item_id": "0x2D28",
+      "png": "/img/items/0x2D28.png",
+      "name": "singing axe"
+    },
+    "Skillet": {
+      "item_id": "0x097F",
+      "png": "/img/items/0x097F.png",
+      "name": "skillet"
+    },
+    "SkinningKnife": {
+      "item_id": "0x0EC4",
+      "png": "/img/items/0x0EC4.png",
+      "name": "skinning knife"
+    },
+    "Skirt": {
+      "item_id": "0x1516",
+      "png": "/img/items/0x1516.png",
+      "name": "skirt"
+    },
+    "SkullCap": {
+      "item_id": "0x1544",
+      "png": "/img/items/0x1544.png",
+      "name": "skullcap"
+    },
+    "SlayerLongbow": {
+      "item_id": "0x2D1E",
+      "png": "/img/items/0x2D1E.png",
+      "name": "slayer longbow"
+    },
+    "SledgeHammerWeapon": {
+      "item_id": "0x0FB5",
+      "png": "/img/items/0x0FB5.png",
+      "name": "sledge hammer"
+    },
+    "SleepScroll": {
+      "item_id": "0x02A9",
+      "png": "/img/items/0x02A9.png",
+      "name": "Sleep"
+    },
+    "SmallBedEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "small bed (east)"
+    },
+    "SmallBedSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "small bed (south)"
+    },
+    "SmallBushel": {
+      "item_id": "0x09B1",
+      "png": "/img/items/0x09B1.png",
+      "name": "small bushel"
+    },
+    "SmallCrate": {
+      "item_id": "0x09A9",
+      "png": "/img/items/0x09A9.png",
+      "name": "small crate"
+    },
+    "SmallDisplayCaseEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Small Display Case (East)"
+    },
+    "SmallDisplayCaseSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Small Display Case (South)"
+    },
+    "SmallFlask": {
+      "item_id": "0x182E",
+      "png": "/img/items/0x182E.png",
+      "name": "flask (small)"
+    },
+    "SmallForgeDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "small forge"
+    },
+    "SmallPieceofBlackrock": {
+      "item_id": "0x0F28",
+      "png": "/img/items/0x0F28.png",
+      "name": "a small piece of blackrock"
+    },
+    "SmallPlateJingasa": {
+      "item_id": "0x2784",
+      "png": "/img/items/0x2784.png",
+      "name": "small platemail jingasa"
+    },
+    "SmallPlateShield": {
+      "item_id": "0x4202",
+      "png": "/img/items/0x4202.png",
+      "name": "small plate shield"
+    },
+    "SmallRoundBasket": {
+      "item_id": "0x24DD",
+      "png": "/img/items/0x24DD.png",
+      "name": "small round basket"
+    },
+    "SmallSquareBasket": {
+      "item_id": "0x24D9",
+      "png": "/img/items/0x24D9.png",
+      "name": "small square basket"
+    },
+    "SmallTowerSculpture": {
+      "item_id": "0x241A",
+      "png": "/img/items/0x241A.png",
+      "name": "tower sculpture"
+    },
+    "SmallUrn": {
+      "item_id": "0x241C",
+      "png": "/img/items/0x241C.png",
+      "name": "small urn"
+    },
+    "SmithHammer": {
+      "item_id": "0x13E3",
+      "png": "/img/items/0x13E3.png",
+      "name": "smith hammer"
+    },
+    "SmithyHammer": {
+      "item_id": "0x13E3",
+      "png": "/img/items/0x13E3.png",
+      "name": "smith's hammer"
+    },
+    "SmokeBomb": {
+      "item_id": "0x2808",
+      "png": "/img/items/0x2808.png",
+      "name": "smoke bomb"
+    },
+    "SmoothingPlane": {
+      "item_id": "0x1032",
+      "png": "/img/items/0x1032.png",
+      "name": "smoothing plane"
+    },
+    "SnakeCharmerFlute": {
+      "item_id": "0x2805",
+      "png": "/img/items/0x2805.png",
+      "name": "snake charmer flute"
+    },
+    "SoftenedReeds": {
+      "item_id": "0x4006",
+      "png": "/img/items/0x4006.png",
+      "name": "softened reeds"
+    },
+    "SongWovenMantle": {
+      "item_id": "0x2FC8",
+      "png": "/img/items/0x2FC8.png",
+      "name": "Song Woven Mantle"
+    },
+    "SoulForgeDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "soulforge"
+    },
+    "SoulGlaive": {
+      "item_id": "0x090A",
+      "png": "/img/items/0x090A.png",
+      "name": "soul glaive"
+    },
+    "SoulstoneFragment": {
+      "item_id": "0x2AA1",
+      "png": "/img/items/0x2AA1.png",
+      "name": "soulstone fragment"
+    },
+    "Spear": {
+      "item_id": "0x0F62",
+      "png": "/img/items/0x0F62.png",
+      "name": "spear"
+    },
+    "SpellPlagueScroll": {
+      "item_id": "0x02B1",
+      "png": "/img/items/0x02B1.png",
+      "name": "Spell Plague"
+    },
+    "SpellTriggerScroll": {
+      "item_id": "0x02AD",
+      "png": "/img/items/0x02AD.png",
+      "name": "Spell Trigger"
+    },
+    "SpellWovenBritches": {
+      "item_id": "0x2FC9",
+      "png": "/img/items/0x2FC9.png",
+      "name": "Spell Woven Britches"
+    },
+    "SpellbladeOfDefense": {
+      "item_id": "0x2D20",
+      "png": "/img/items/0x2D20.png",
+      "name": "spellblade of defense"
+    },
+    "Spellbook": {
+      "item_id": "0x0EFA",
+      "png": "/img/items/0x0EFA.png",
+      "name": "Spellbook"
+    },
+    "SpellbookEngraver": {
+      "item_id": "0x0FBF",
+      "png": "/img/items/0x0FBF.png",
+      "name": "Spellbook Engraving Tool"
+    },
+    "SpiderCrabMeat": {
+      "item_id": "0x103F",
+      "png": "/img/items/0x103F.png",
+      "name": "spider crab meat"
+    },
+    "SpiderCrabPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "spider crab pie"
+    },
+    "SpidersSilk": {
+      "item_id": "0x0F8D",
+      "png": "/img/items/0x0F8D.png",
+      "name": "Spiders' Silk"
+    },
+    "SpinedHides": {
+      "item_id": "0x1079",
+      "png": "/img/items/0x1079.png",
+      "name": "spined hides"
+    },
+    "SpinedLeather": {
+      "item_id": "0x1081",
+      "png": "/img/items/0x1081.png",
+      "name": "spined leather"
+    },
+    "SpinningHourglass": {
+      "item_id": "0x1810",
+      "png": "/img/items/0x1810.png",
+      "name": "spinning hourglass"
+    },
+    "SpinningwheelEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "spinning wheel (east)"
+    },
+    "SpinningwheelSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "spinning wheel (south)"
+    },
+    "SpoolOfThread": {
+      "item_id": "0x0FA0",
+      "png": "/img/items/0x0FA0.png",
+      "name": "Spools of Thread"
+    },
+    "SpoonLeft": {
+      "item_id": "0x09F8",
+      "png": "/img/items/0x09F8.png",
+      "name": "spoon (left)"
+    },
+    "SpoonRight": {
+      "item_id": "0x09F9",
+      "png": "/img/items/0x09F9.png",
+      "name": "spoon (right)"
+    },
+    "Springs": {
+      "item_id": "0x105D",
+      "png": "/img/items/0x105D.png",
+      "name": "Springs"
+    },
+    "Spyglass": {
+      "item_id": "0x14F5",
+      "png": "/img/items/0x14F5.png",
+      "name": "spyglass"
+    },
+    "SquareBasket": {
+      "item_id": "0x24D5",
+      "png": "/img/items/0x24D5.png",
+      "name": "square basket"
+    },
+    "SquareGozaMatEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "square goza (east)"
+    },
+    "SquareGozaMatSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "square goza (south)"
+    },
+    "Squash": {
+      "item_id": "0x0C72",
+      "png": "/img/items/0x0C72.png",
+      "name": "squash"
+    },
+    "SquirrelStatueEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "squirrel statue (east)"
+    },
+    "SquirrelStatueSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "squirrel statue (south)"
+    },
+    "StaffOfTheMagi": {
+      "item_id": "0x0DF0",
+      "png": "/img/items/0x0DF0.png",
+      "name": "Staff of the Magi"
+    },
+    "StainedGlassLamp": {
+      "item_id": "0x4C50",
+      "png": "/img/items/0x4C50.png",
+      "name": "stained glass lamp"
+    },
+    "StandardPlateKabuto": {
+      "item_id": "0x2789",
+      "png": "/img/items/0x2789.png",
+      "name": "standard platemail kabuto"
+    },
+    "StarChart": {
+      "item_id": "0xA1E4",
+      "png": "/img/items/0xA1E4.png",
+      "name": "star chart"
+    },
+    "StarSapphire": {
+      "item_id": "0x0F0F",
+      "png": "/img/items/0x0F0F.png",
+      "name": "Star Sapphires"
+    },
+    "StasisChamberPowerCore": {
+      "item_id": "0x9CDB",
+      "png": "/img/items/0x9CDB.png",
+      "name": "Stasis Chamber Power Core"
+    },
+    "StatueEast": {
+      "item_id": "0x139C",
+      "png": "/img/items/0x139C.png",
+      "name": "small statue (east)"
+    },
+    "StatueGargoyleEast": {
+      "item_id": "0x494E",
+      "png": "/img/items/0x494E.png",
+      "name": "gargoyle statue"
+    },
+    "StatueGryphonEast": {
+      "item_id": "0x493C",
+      "png": "/img/items/0x493C.png",
+      "name": "gryphon statue"
+    },
+    "StatueNorth": {
+      "item_id": "0x139B",
+      "png": "/img/items/0x139B.png",
+      "name": "small statue (north)"
+    },
+    "StatuePegasusSouth": {
+      "item_id": "0x139D",
+      "png": "/img/items/0x139D.png",
+      "name": "pegasus statuette"
+    },
+    "StatueSouth": {
+      "item_id": "0x139A",
+      "png": "/img/items/0x139A.png",
+      "name": "small statue (south)"
+    },
+    "StitchersMittens": {
+      "item_id": "0x2FC6",
+      "png": "/img/items/0x2FC6.png",
+      "name": "Stitcher's Mittens"
+    },
+    "StoneAnvilEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "stone anvil (east)"
+    },
+    "StoneAnvilSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "stone anvil (south)"
+    },
+    "StoneChair": {
+      "item_id": "0x1218",
+      "png": "/img/items/0x1218.png",
+      "name": "stone chair"
+    },
+    "StoneCrabMeat": {
+      "item_id": "0x103F",
+      "png": "/img/items/0x103F.png",
+      "name": "stone crab meat"
+    },
+    "StoneCrabPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "stone crab pie"
+    },
+    "StoneFormScroll": {
+      "item_id": "0x02AC",
+      "png": "/img/items/0x02AC.png",
+      "name": "Stone Form"
+    },
+    "StoneOvenEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "stone oven (east)"
+    },
+    "StoneOvenSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "stone oven (south)"
+    },
+    "StoneWarSword": {
+      "item_id": "0x0900",
+      "png": "/img/items/0x0900.png",
+      "name": "stone war sword"
+    },
+    "Stool": {
+      "item_id": "0x0A2A",
+      "png": "/img/items/0x0A2A.png",
+      "name": "stool"
+    },
+    "StrangleScroll": {
+      "item_id": "0x226A",
+      "png": "/img/items/0x226A.png",
+      "name": "Strangle"
+    },
+    "StrawHat": {
+      "item_id": "0x1717",
+      "png": "/img/items/0x1717.png",
+      "name": "straw hat"
+    },
+    "StrengthPotion": {
+      "item_id": "0x0F09",
+      "png": "/img/items/0x0F09.png",
+      "name": "strength"
+    },
+    "StrengthScroll": {
+      "item_id": "0x1F3C",
+      "png": "/img/items/0x1F3C.png",
+      "name": "Strength"
+    },
+    "StuddedArms": {
+      "item_id": "0x13DC",
+      "png": "/img/items/0x13DC.png",
+      "name": "studded sleeves"
+    },
+    "StuddedBustierArms": {
+      "item_id": "0x1C0C",
+      "png": "/img/items/0x1C0C.png",
+      "name": "studded bustier"
+    },
+    "StuddedChest": {
+      "item_id": "0x13DB",
+      "png": "/img/items/0x13DB.png",
+      "name": "studded tunic"
+    },
+    "StuddedDo": {
+      "item_id": "0x27C7",
+      "png": "/img/items/0x27C7.png",
+      "name": "studded do"
+    },
+    "StuddedGloves": {
+      "item_id": "0x13D5",
+      "png": "/img/items/0x13D5.png",
+      "name": "studded gloves"
+    },
+    "StuddedGorget": {
+      "item_id": "0x13D6",
+      "png": "/img/items/0x13D6.png",
+      "name": "studded gorget"
+    },
+    "StuddedHaidate": {
+      "item_id": "0x278B",
+      "png": "/img/items/0x278B.png",
+      "name": "studded haidate"
+    },
+    "StuddedHiroSode": {
+      "item_id": "0x277F",
+      "png": "/img/items/0x277F.png",
+      "name": "studded hiro sode"
+    },
+    "StuddedLegs": {
+      "item_id": "0x13DA",
+      "png": "/img/items/0x13DA.png",
+      "name": "studded leggings"
+    },
+    "StuddedMempo": {
+      "item_id": "0x279D",
+      "png": "/img/items/0x279D.png",
+      "name": "studded mempo"
+    },
+    "StuddedSuneate": {
+      "item_id": "0x27D2",
+      "png": "/img/items/0x27D2.png",
+      "name": "studded suneate"
+    },
+    "SulfurousAsh": {
+      "item_id": "0x0F8C",
+      "png": "/img/items/0x0F8C.png",
+      "name": "Sulfurous Ash"
+    },
+    "SummerDragonfishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "summer dragonfish pie"
+    },
+    "SummerDragonfishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "summer dragonfish steak"
+    },
+    "SummonAirElementalScroll": {
+      "item_id": "0x1F68",
+      "png": "/img/items/0x1F68.png",
+      "name": "Summon Air Elemental"
+    },
+    "SummonCreatureScroll": {
+      "item_id": "0x1F54",
+      "png": "/img/items/0x1F54.png",
+      "name": "Summon Creature"
+    },
+    "SummonDaemonScroll": {
+      "item_id": "0x1F69",
+      "png": "/img/items/0x1F69.png",
+      "name": "Summon Daemon"
+    },
+    "SummonEarthElementalScroll": {
+      "item_id": "0x1F6A",
+      "png": "/img/items/0x1F6A.png",
+      "name": "Summon Earth Elemental"
+    },
+    "SummonFamiliarScroll": {
+      "item_id": "0x226B",
+      "png": "/img/items/0x226B.png",
+      "name": "Summon Familiar"
+    },
+    "SummonFireElementalScroll": {
+      "item_id": "0x1F6B",
+      "png": "/img/items/0x1F6B.png",
+      "name": "Summon Fire Elemental"
+    },
+    "SummonWaterElementalScroll": {
+      "item_id": "0x1F6C",
+      "png": "/img/items/0x1F6C.png",
+      "name": "Summon Water Elemental"
+    },
+    "Surcoat": {
+      "item_id": "0x1FFD",
+      "png": "/img/items/0x1FFD.png",
+      "name": "surcoat"
+    },
+    "SushiPlatter": {
+      "item_id": "0x2840",
+      "png": "/img/items/0x2840.png",
+      "name": "sushi platter"
+    },
+    "SushiRolls": {
+      "item_id": "0x283E",
+      "png": "/img/items/0x283E.png",
+      "name": "sushi rolls"
+    },
+    "Swab": {
+      "item_id": "0x4248",
+      "png": "/img/items/0x4248.png",
+      "name": "swab"
+    },
+    "SweetCocoaButter": {
+      "item_id": "0x103D",
+      "png": "/img/items/0x103D.png",
+      "name": "sweet cocoa butter"
+    },
+    "SweetDough": {
+      "item_id": "0x103D",
+      "png": "/img/items/0x103D.png",
+      "name": "sweet dough"
+    },
+    "SwitchItem": {
+      "item_id": "0x2F5F",
+      "png": "/img/items/0x2F5F.png",
+      "name": "switch"
+    },
+    "SwordBelt": {
+      "item_id": "0xA40D",
+      "png": "/img/items/0xA40D.png",
+      "name": "sword belt"
+    },
+    "Taint": {
+      "item_id": "0x3187",
+      "png": "/img/items/0x3187.png",
+      "name": "Grizzled Bones"
+    },
+    "TallBasket": {
+      "item_id": "0x24DB",
+      "png": "/img/items/0x24DB.png",
+      "name": "tall basket"
+    },
+    "TallCabinet": {
+      "item_id": "0x2815",
+      "png": "/img/items/0x2815.png",
+      "name": "tall cabinet"
+    },
+    "TallDoubleLamp": {
+      "item_id": "0x4C56",
+      "png": "/img/items/0x4C56.png",
+      "name": "tall double lamp"
+    },
+    "TallElvenBedEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "tall elven bed (east)"
+    },
+    "TallElvenBedSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "tall elven bed (south)"
+    },
+    "TallMusicStandLeft": {
+      "item_id": "0x0EBB",
+      "png": "/img/items/0x0EBB.png",
+      "name": "tall music stand (left)"
+    },
+    "TallMusicStandRight": {
+      "item_id": "0x0EBC",
+      "png": "/img/items/0x0EBC.png",
+      "name": "tall music stand (right)"
+    },
+    "TallRoundBasket": {
+      "item_id": "0x24D8",
+      "png": "/img/items/0x24D8.png",
+      "name": "tall round basket"
+    },
+    "TallStrawHat": {
+      "item_id": "0x1716",
+      "png": "/img/items/0x1716.png",
+      "name": "tall straw hat"
+    },
+    "Tambourine": {
+      "item_id": "0x0E9D",
+      "png": "/img/items/0x0E9D.png",
+      "name": "tambourine"
+    },
+    "TambourineTassel": {
+      "item_id": "0x0E9E",
+      "png": "/img/items/0x0E9E.png",
+      "name": "tambourine (tassel)"
+    },
+    "TatteredWallMapEast": {
+      "item_id": "0x2D73",
+      "png": "/img/items/0x2D73.png",
+      "name": "tattered wall map (east)"
+    },
+    "TatteredWallMapSouth": {
+      "item_id": "0x2D74",
+      "png": "/img/items/0x2D74.png",
+      "name": "tattered wall map (south)"
+    },
+    "TattsukeHakama": {
+      "item_id": "0x279B",
+      "png": "/img/items/0x279B.png",
+      "name": "tattsuke-hakama"
+    },
+    "Tekagi": {
+      "item_id": "0x27AB",
+      "png": "/img/items/0x27AB.png",
+      "name": "tekagi"
+    },
+    "TelekinisisScroll": {
+      "item_id": "0x1F41",
+      "png": "/img/items/0x1F41.png",
+      "name": "Telekinesis"
+    },
+    "TeleportScroll": {
+      "item_id": "0x1F42",
+      "png": "/img/items/0x1F42.png",
+      "name": "Teleport"
+    },
+    "TerMurDresserEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Ter-Mur style dresser (east)"
+    },
+    "TerMurDresserSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Ter-Mur style dresser (south)"
+    },
+    "TerMurStyleCandelabra": {
+      "item_id": "0x4039",
+      "png": "/img/items/0x4039.png",
+      "name": "Ter-Mur style candelabra"
+    },
+    "TerMurStyleChair": {
+      "item_id": "0x4023",
+      "png": "/img/items/0x4023.png",
+      "name": "Ter-Mur style chair"
+    },
+    "TerMurStyleTable": {
+      "item_id": "0x4041",
+      "png": "/img/items/0x4041.png",
+      "name": "Ter-Mur style table"
+    },
+    "Tessen": {
+      "item_id": "0x27A3",
+      "png": "/img/items/0x27A3.png",
+      "name": "tessen"
+    },
+    "Tetsubo": {
+      "item_id": "0x27A6",
+      "png": "/img/items/0x27A6.png",
+      "name": "tetsubo"
+    },
+    "TheNightReaper": {
+      "item_id": "0x26C3",
+      "png": "/img/items/0x26C3.png",
+      "name": "The Night Reaper"
+    },
+    "TheScholarsHalo": {
+      "item_id": "0x1540",
+      "png": "/img/items/0x1540.png",
+      "name": "the scholar's halo"
+    },
+    "ThighBoots": {
+      "item_id": "0x1711",
+      "png": "/img/items/0x1711.png",
+      "name": "thigh boots"
+    },
+    "ThornedWildStaff": {
+      "item_id": "0x2D25",
+      "png": "/img/items/0x2D25.png",
+      "name": "thorned wild staff"
+    },
+    "ThreeTieredCake": {
+      "item_id": "0x4BA3",
+      "png": "/img/items/0x4BA3.png",
+      "name": "three tiered cake"
+    },
+    "Throne": {
+      "item_id": "0x0B33",
+      "png": "/img/items/0x0B33.png",
+      "name": "magincia-style throne"
+    },
+    "ThunderingAxe": {
+      "item_id": "0x2D28",
+      "png": "/img/items/0x2D28.png",
+      "name": "thundering axe"
+    },
+    "TigerPelt": {
+      "item_id": "0x9BCC",
+      "png": "/img/items/0x9BCC.png",
+      "name": "Lava Berry"
+    },
+    "TigerPeltBustier": {
+      "item_id": "0x7823",
+      "png": "/img/items/0x7823.png",
+      "name": "Tiger Pelt Bustier"
+    },
+    "TigerPeltChest": {
+      "item_id": "0x7822",
+      "png": "/img/items/0x7822.png",
+      "name": "Tiger Pelt Chest"
+    },
+    "TigerPeltCollar": {
+      "item_id": "0x7829",
+      "png": "/img/items/0x7829.png",
+      "name": "Tiger Pelt Collar"
+    },
+    "TigerPeltHelm": {
+      "item_id": "0x7828",
+      "png": "/img/items/0x7828.png",
+      "name": "Tiger Pelt Helm"
+    },
+    "TigerPeltLegs": {
+      "item_id": "0x7824",
+      "png": "/img/items/0x7824.png",
+      "name": "Tiger Pelt Leggings"
+    },
+    "TigerPeltLongSkirt": {
+      "item_id": "0x7826",
+      "png": "/img/items/0x7826.png",
+      "name": "Tiger Pelt Long Skirt"
+    },
+    "TigerPeltShorts": {
+      "item_id": "0x7825",
+      "png": "/img/items/0x7825.png",
+      "name": "Tiger Pelt Shorts"
+    },
+    "TigerPeltSkirt": {
+      "item_id": "0x7827",
+      "png": "/img/items/0x7827.png",
+      "name": "Tiger Pelt Skirt"
+    },
+    "TinkerTools": {
+      "item_id": "0x1EB8",
+      "png": "/img/items/0x1EB8.png",
+      "name": "tinker's tools"
+    },
+    "TinkersTools": {
+      "item_id": "0x1EBC",
+      "png": "/img/items/0x1EBC.png",
+      "name": "tinkers tools"
+    },
+    "Tongs": {
+      "item_id": "0x0FBB",
+      "png": "/img/items/0x0FBB.png",
+      "name": "tongs"
+    },
+    "TotalRefreshPotion": {
+      "item_id": "0x0F0B",
+      "png": "/img/items/0x0F0B.png",
+      "name": "greater refreshment"
+    },
+    "Tourmaline": {
+      "item_id": "0x0F18",
+      "png": "/img/items/0x0F18.png",
+      "name": "Tourmalines"
+    },
+    "ToxicVenomSac": {
+      "item_id": "0x4005",
+      "png": "/img/items/0x4005.png",
+      "name": "toxic venom sac"
+    },
+    "TrainingDummyEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "training dummy (east)"
+    },
+    "TrainingDummySouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "training dummy (south)"
+    },
+    "TreasureMap": {
+      "item_id": "0x1803",
+      "png": "/img/items/0x1803.png",
+      "name": "Level 1 Treasure Maps"
+    },
+    "TribalBerry": {
+      "item_id": "0x09D0",
+      "png": "/img/items/0x09D0.png",
+      "name": "Tribal Berries"
+    },
+    "TribalMask": {
+      "item_id": "0x154B",
+      "png": "/img/items/0x154B.png",
+      "name": "tribal mask"
+    },
+    "TribalPaint": {
+      "item_id": "0x09EC",
+      "png": "/img/items/0x09EC.png",
+      "name": "savage kin paint"
+    },
+    "TricorneHat": {
+      "item_id": "0x171B",
+      "png": "/img/items/0x171B.png",
+      "name": "tricorne hat"
+    },
+    "TrueAssassinSpike": {
+      "item_id": "0x2D21",
+      "png": "/img/items/0x2D21.png",
+      "name": "true assassin spike"
+    },
+    "TrueLeafblade": {
+      "item_id": "0x2D22",
+      "png": "/img/items/0x2D22.png",
+      "name": "true leafblade"
+    },
+    "TrueRadiantScimitar": {
+      "item_id": "0x2D33",
+      "png": "/img/items/0x2D33.png",
+      "name": "true radiant scimitar"
+    },
+    "TrueSpellblade": {
+      "item_id": "0x2D20",
+      "png": "/img/items/0x2D20.png",
+      "name": "true spellblade"
+    },
+    "TrueWarCleaver": {
+      "item_id": "0x2D2F",
+      "png": "/img/items/0x2D2F.png",
+      "name": "true war cleaver"
+    },
+    "TrumpetDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "trumpet"
+    },
+    "Tunic": {
+      "item_id": "0x1FA1",
+      "png": "/img/items/0x1FA1.png",
+      "name": "tunic"
+    },
+    "TurqouiseRing": {
+      "item_id": "0x108A",
+      "png": "/img/items/0x108A.png",
+      "name": "turquoise ring"
+    },
+    "Turquoise": {
+      "item_id": "0x3193",
+      "png": "/img/items/0x3193.png",
+      "name": "Turquoise"
+    },
+    "TwinklingScimitar": {
+      "item_id": "0x2D33",
+      "png": "/img/items/0x2D33.png",
+      "name": "twinkling scimitar"
+    },
+    "TwoHandedAxe": {
+      "item_id": "0x1443",
+      "png": "/img/items/0x1443.png",
+      "name": "two handed axe"
+    },
+    "UnabridgedAtlasOfEodon": {
+      "item_id": "0x1C11",
+      "png": "/img/items/0x1C11.png",
+      "name": "Unabridged Atlas of Eodon"
+    },
+    "UnbakedApplePie": {
+      "item_id": "0x1042",
+      "png": "/img/items/0x1042.png",
+      "name": "unbaked apple pie"
+    },
+    "UnbakedFruitPie": {
+      "item_id": "0x1042",
+      "png": "/img/items/0x1042.png",
+      "name": "unbaked fruit pie"
+    },
+    "UnbakedMeatPie": {
+      "item_id": "0x1042",
+      "png": "/img/items/0x1042.png",
+      "name": "unbaked meat pie"
+    },
+    "UnbakedPeachCobbler": {
+      "item_id": "0x1042",
+      "png": "/img/items/0x1042.png",
+      "name": "unbaked peach cobbler"
+    },
+    "UnbakedPumpkinPie": {
+      "item_id": "0x1042",
+      "png": "/img/items/0x1042.png",
+      "name": "unbaked pumpkin pie"
+    },
+    "UnbakedQuiche": {
+      "item_id": "0x1042",
+      "png": "/img/items/0x1042.png",
+      "name": "unbaked quiche"
+    },
+    "UncookedCheesePizza": {
+      "item_id": "0x1083",
+      "png": "/img/items/0x1083.png",
+      "name": "uncooked cheese pizza"
+    },
+    "UncookedSausagePizza": {
+      "item_id": "0x1083",
+      "png": "/img/items/0x1083.png",
+      "name": "uncooked sausage pizza"
+    },
+    "UncutCloth": {
+      "item_id": "0x1767",
+      "png": "/img/items/0x1767.png",
+      "name": "uncut cloth"
+    },
+    "UnicornFishPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "unicorn fish pie"
+    },
+    "UnicornFishSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "unicorn fish steak"
+    },
+    "UnlockScroll": {
+      "item_id": "0x1F43",
+      "png": "/img/items/0x1F43.png",
+      "name": "Unlock"
+    },
+    "UpholsteredChairDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Upholstered Chair"
+    },
+    "UraliTranceTonic": {
+      "item_id": "0x0F06",
+      "png": "/img/items/0x0F06.png",
+      "name": "urali trance tonic"
+    },
+    "ValoriteIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "valorite ingot"
+    },
+    "ValoriteOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "valorite ore"
+    },
+    "VampiricEmbraceScroll": {
+      "item_id": "0x226C",
+      "png": "/img/items/0x226C.png",
+      "name": "Vampiric Embrace"
+    },
+    "Vanilla": {
+      "item_id": "0x0E2A",
+      "png": "/img/items/0x0E2A.png",
+      "name": "vanilla"
+    },
+    "Vase": {
+      "item_id": "0x0B46",
+      "png": "/img/items/0x0B46.png",
+      "name": "vase"
+    },
+    "VengefulSpiritScroll": {
+      "item_id": "0x226D",
+      "png": "/img/items/0x226D.png",
+      "name": "Vengeful Spirit"
+    },
+    "VeriteIngot": {
+      "item_id": "0x1BF2",
+      "png": "/img/items/0x1BF2.png",
+      "name": "verite ingot"
+    },
+    "VeriteOre": {
+      "item_id": "0x19B8",
+      "png": "/img/items/0x19B8.png",
+      "name": "verite ore"
+    },
+    "VialOfVitriol": {
+      "item_id": "0x5722",
+      "png": "/img/items/0x5722.png",
+      "name": "vial of vitriol"
+    },
+    "VikingSword": {
+      "item_id": "0x13B9",
+      "png": "/img/items/0x13B9.png",
+      "name": "viking sword"
+    },
+    "VileTentacles": {
+      "item_id": "0x5727",
+      "png": "/img/items/0x5727.png",
+      "name": "vile tentacles"
+    },
+    "VoidCore": {
+      "item_id": "0x5728",
+      "png": "/img/items/0x5728.png",
+      "name": "void core"
+    },
+    "VoidEssence": {
+      "item_id": "0x4007",
+      "png": "/img/items/0x4007.png",
+      "name": "Void Essence"
+    },
+    "VoidOrb": {
+      "item_id": "0x573E",
+      "png": "/img/items/0x573E.png",
+      "name": "void orb"
+    },
+    "VultureHelm": {
+      "item_id": "0x2B72",
+      "png": "/img/items/0x2B72.png",
+      "name": "vulture helm"
+    },
+    "Wakizashi": {
+      "item_id": "0x27A4",
+      "png": "/img/items/0x27A4.png",
+      "name": "wakizashi"
+    },
+    "WallMountedBellEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Wall Mounted Bell (East)"
+    },
+    "WallMountedBellSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Wall Mounted Bell (South)"
+    },
+    "WallOfStoneScroll": {
+      "item_id": "0x1F44",
+      "png": "/img/items/0x1F44.png",
+      "name": "Wall of Stone"
+    },
+    "WallSafeDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "currency wall safe"
+    },
+    "WarAxe": {
+      "item_id": "0x13B0",
+      "png": "/img/items/0x13B0.png",
+      "name": "war axe"
+    },
+    "WarCleaver": {
+      "item_id": "0x2D2F",
+      "png": "/img/items/0x2D2F.png",
+      "name": "war cleaver"
+    },
+    "WarFork": {
+      "item_id": "0x1405",
+      "png": "/img/items/0x1405.png",
+      "name": "war fork"
+    },
+    "WarHammer": {
+      "item_id": "0x1439",
+      "png": "/img/items/0x1439.png",
+      "name": "war hammer"
+    },
+    "WarMace": {
+      "item_id": "0x1407",
+      "png": "/img/items/0x1407.png",
+      "name": "war mace"
+    },
+    "WarriorStatueEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "warrior statue (east)"
+    },
+    "WarriorStatueSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "warrior statue (south)"
+    },
+    "WasabiClumps": {
+      "item_id": "0x24EB",
+      "png": "/img/items/0x24EB.png",
+      "name": "wasabi clumps"
+    },
+    "WaterTroughEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "water trough (east)"
+    },
+    "WaterTroughSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "water trough (south)"
+    },
+    "WeakenScroll": {
+      "item_id": "0x1F34",
+      "png": "/img/items/0x1F34.png",
+      "name": "Weaken"
+    },
+    "WeatheredBronzeArcherDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "weathered bronze archer sculpture"
+    },
+    "WeatheredBronzeFairySculptureDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "weathered bronze fairy sculpture"
+    },
+    "WeatheredBronzeGlobeSculptureDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "weathered bronze globe sculpture"
+    },
+    "WeatheredBronzeManOnABenchDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "weathered bronze man on a bench sculpture"
+    },
+    "WheatSheaf": {
+      "item_id": "0x1EBD",
+      "png": "/img/items/0x1EBD.png",
+      "name": "Wheat"
+    },
+    "WheatWort": {
+      "item_id": "0x1848",
+      "png": "/img/items/0x1848.png",
+      "name": "wheat wort"
+    },
+    "WhiteChocolate": {
+      "item_id": "0x0F11",
+      "png": "/img/items/0x0F11.png",
+      "name": "white chocolate"
+    },
+    "WhiteHangingLantern": {
+      "item_id": "0x24C6",
+      "png": "/img/items/0x24C6.png",
+      "name": "white hanging lantern"
+    },
+    "WhiteMisoSoup": {
+      "item_id": "0x284E",
+      "png": "/img/items/0x284E.png",
+      "name": "white miso soup"
+    },
+    "WhitePearl": {
+      "item_id": "0x3196",
+      "png": "/img/items/0x3196.png",
+      "name": "White Pearl"
+    },
+    "WhitePearlBracelet": {
+      "item_id": "0x1086",
+      "png": "/img/items/0x1086.png",
+      "name": "white pearl bracelet"
+    },
+    "WideBrimHat": {
+      "item_id": "0x1714",
+      "png": "/img/items/0x1714.png",
+      "name": "wide-brim hat"
+    },
+    "WildStaff": {
+      "item_id": "0x2D25",
+      "png": "/img/items/0x2D25.png",
+      "name": "wild staff"
+    },
+    "WindChimes": {
+      "item_id": "0x2832",
+      "png": "/img/items/0x2832.png",
+      "name": "wind chimes"
+    },
+    "WingedHelm": {
+      "item_id": "0x2B73",
+      "png": "/img/items/0x2B73.png",
+      "name": "winged helm"
+    },
+    "WinnowingBasket": {
+      "item_id": "0x1882",
+      "png": "/img/items/0x1882.png",
+      "name": "winnowing basket"
+    },
+    "WitherScroll": {
+      "item_id": "0x226E",
+      "png": "/img/items/0x226E.png",
+      "name": "Wither"
+    },
+    "WizardsHat": {
+      "item_id": "0x1718",
+      "png": "/img/items/0x1718.png",
+      "name": "wizard's hat"
+    },
+    "WoodPulp": {
+      "item_id": "0x103D",
+      "png": "/img/items/0x103D.png",
+      "name": "wood pulp"
+    },
+    "WoodenBench": {
+      "item_id": "0x0B2D",
+      "png": "/img/items/0x0B2D.png",
+      "name": "wooden bench"
+    },
+    "WoodenBowlOfPeas": {
+      "item_id": "0x15FC",
+      "png": "/img/items/0x15FC.png",
+      "name": "bowl of peas"
+    },
+    "WoodenBox": {
+      "item_id": "0x09AA",
+      "png": "/img/items/0x09AA.png",
+      "name": "wooden box"
+    },
+    "WoodenChair": {
+      "item_id": "0x0B57",
+      "png": "/img/items/0x0B57.png",
+      "name": "wooden chair"
+    },
+    "WoodenChairCushion": {
+      "item_id": "0x0B53",
+      "png": "/img/items/0x0B53.png",
+      "name": "trinsic-style chair"
+    },
+    "WoodenChest": {
+      "item_id": "0x0E43",
+      "png": "/img/items/0x0E43.png",
+      "name": "wooden chest"
+    },
+    "WoodenContainerEngraver": {
+      "item_id": "0x1026",
+      "png": "/img/items/0x1026.png",
+      "name": "wooden container engraving tool"
+    },
+    "WoodenFootLocker": {
+      "item_id": "0x2811",
+      "png": "/img/items/0x2811.png",
+      "name": "wooden footlocker"
+    },
+    "WoodenKiteShield": {
+      "item_id": "0x1B78",
+      "png": "/img/items/0x1B78.png",
+      "name": "tear kite shield"
+    },
+    "WoodenShield": {
+      "item_id": "0x1B7A",
+      "png": "/img/items/0x1B7A.png",
+      "name": "wooden shield"
+    },
+    "WoodenTableEastDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Wooden Table (East)"
+    },
+    "WoodenTableSouthDeed": {
+      "item_id": "0x14F0",
+      "png": "/img/items/0x14F0.png",
+      "name": "Wooden Table (South)"
+    },
+    "WoodenThrone": {
+      "item_id": "0x0B2E",
+      "png": "/img/items/0x0B2E.png",
+      "name": "wooden throne"
+    },
+    "WoodlandArms": {
+      "item_id": "0x2B6C",
+      "png": "/img/items/0x2B6C.png",
+      "name": "woodland arms"
+    },
+    "WoodlandBelt": {
+      "item_id": "0x2B68",
+      "png": "/img/items/0x2B68.png",
+      "name": "woodland belt"
+    },
+    "WoodlandChest": {
+      "item_id": "0x2B67",
+      "png": "/img/items/0x2B67.png",
+      "name": "woodland chest"
+    },
+    "WoodlandGloves": {
+      "item_id": "0x2B6A",
+      "png": "/img/items/0x2B6A.png",
+      "name": "woodland gauntlets"
+    },
+    "WoodlandGorget": {
+      "item_id": "0x2B69",
+      "png": "/img/items/0x2B69.png",
+      "name": "woodland gorget"
+    },
+    "WoodlandLegs": {
+      "item_id": "0x2B6B",
+      "png": "/img/items/0x2B6B.png",
+      "name": "woodland leggings"
+    },
+    "WorkableGlass": {
+      "item_id": "0x4B80",
+      "png": "/img/items/0x4B80.png",
+      "name": "workable glass"
+    },
+    "WorldMap": {
+      "item_id": "0x14EC",
+      "png": "/img/items/0x14EC.png",
+      "name": "world map"
+    },
+    "WoundingAssassinSpike": {
+      "item_id": "0x2D21",
+      "png": "/img/items/0x2D21.png",
+      "name": "wounding assassin spike"
+    },
+    "WraithFormScroll": {
+      "item_id": "0x226F",
+      "png": "/img/items/0x226F.png",
+      "name": "Wraith Form"
+    },
+    "WritingTable": {
+      "item_id": "0x0B4A",
+      "png": "/img/items/0x0B4A.png",
+      "name": "writing table"
+    },
+    "YellowScales": {
+      "item_id": "0x26B4",
+      "png": "/img/items/0x26B4.png",
+      "name": "Sea Serpent or Dragon Scales"
+    },
+    "YellowtailBarracudaPie": {
+      "item_id": "0x1041",
+      "png": "/img/items/0x1041.png",
+      "name": "yellowtail barracuda"
+    },
+    "YellowtailBarracudaSteak": {
+      "item_id": "0x097A",
+      "png": "/img/items/0x097A.png",
+      "name": "yellowtail barracuda steak"
+    },
+    "YewBoard": {
+      "item_id": "0x1BD7",
+      "png": "/img/items/0x1BD7.png",
+      "name": "yew board"
+    },
+    "YewLog": {
+      "item_id": "0x1BDD",
+      "png": "/img/items/0x1BDD.png",
+      "name": "yew log"
+    },
+    "YewWoodTable": {
+      "item_id": "0x0B8F",
+      "png": "/img/items/0x0B8F.png",
+      "name": "large table"
+    },
+    "Yumi": {
+      "item_id": "0x27A5",
+      "png": "/img/items/0x27A5.png",
+      "name": "yumi"
+    },
+    "ZoogiFungus": {
+      "item_id": "0x26B7",
+      "png": "/img/items/0x26B7.png",
+      "name": "zoogi fungus"
+    }
+  }
+}

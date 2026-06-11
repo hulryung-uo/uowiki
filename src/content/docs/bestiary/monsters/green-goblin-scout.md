@@ -56,3 +56,15 @@ last_verified: 2026-06-11
 | Meager | 1 |
 
 Carve: 1 meat.
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1536.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1537.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1538.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1539.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1540.mp3"></audio>

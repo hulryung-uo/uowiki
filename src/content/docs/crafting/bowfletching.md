@@ -16,42 +16,42 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Materials
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| elven fletching | 90.0 – 130.0 | 20 Feathers, 1 faery dust |
-| kindling | 0.0 – 0.0 | 1 Boards or Logs |
-| shaft | 0.0 – 40.0 | 1 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x5737.png" alt="" width="28" /> | elven fletching | 90.0 – 130.0 | 20 Feathers, 1 faery dust |
+| <img src="/img/items/0x0DE1.png" alt="" width="28" /> | kindling | 0.0 – 0.0 | 1 Boards or Logs |
+| <img src="/img/items/0x1BD4.png" alt="" width="28" /> | shaft | 0.0 – 40.0 | 1 Boards or Logs |
 
 ## Ammunition
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| arrow | 0.0 – 40.0 | 1 Arrow Shafts, 1 Feathers |
-| crossbow bolt | 0.0 – 40.0 | 1 Arrow Shafts, 1 Feathers |
-| fukiya dart | 50.0 – 73.8 | 1 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0F3F.png" alt="" width="28" /> | arrow | 0.0 – 40.0 | 1 Arrow Shafts, 1 Feathers |
+| <img src="/img/items/0x1BFB.png" alt="" width="28" /> | crossbow bolt | 0.0 – 40.0 | 1 Arrow Shafts, 1 Feathers |
+| <img src="/img/items/0x2806.png" alt="" width="28" /> | fukiya dart | 50.0 – 73.8 | 1 Boards or Logs |
 
 ## Weapons
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bow | 30.0 – 70.0 | 7 Boards or Logs |
-| crossbow | 60.0 – 100.0 | 7 Boards or Logs |
-| heavy crossbow | 80.0 – 120.0 | 10 Boards or Logs |
-| composite bow | 70.0 – 110.0 | 7 Boards or Logs |
-| repeating crossbow | 90.0 – 130.0 | 10 Boards or Logs |
-| yumi | 90.0 – 130.0 | 10 Boards or Logs |
-| elven composite longbow | 95.0 – 145.0 | 20 Boards or Logs |
-| magical shortbow | 85.0 – 135.0 | 15 Boards or Logs |
-| Blight Gripped Longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Corruption |
-| Faerie Fire | 75.0 – 125.0 | 20 Boards or Logs, 1 Lard of Paroxysmus, 10 Putrefaction, 10 Taint |
-| Silvani's Feywood Bow | 75.0 – 125.0 | 20 Boards or Logs, 1 Lard of Paroxysmus, 10 Scourge, 10 Muculent |
-| Mischief Maker | 75.0 – 125.0 | 15 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Putrefaction |
-| The Night Reaper | 75.0 – 125.0 | 10 Boards or Logs, 1 Dread Horn Mane, 10 Blight, 10 Scourge |
-| barbed longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 fire ruby |
-| slayer longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 brilliant amber |
-| frozen longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 turquoise |
-| longbow of might | 75.0 – 125.0 | 10 Boards or Logs, 1 blue diamond |
-| ranger's shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 perfect emerald |
-| lightweight shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 white pearl |
-| mystical shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 ecru citrine |
-| assassin's shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 dark sapphire |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x13B2.png" alt="" width="28" /> | bow | 30.0 – 70.0 | 7 Boards or Logs |
+| <img src="/img/items/0x0F50.png" alt="" width="28" /> | crossbow | 60.0 – 100.0 | 7 Boards or Logs |
+| <img src="/img/items/0x13FD.png" alt="" width="28" /> | heavy crossbow | 80.0 – 120.0 | 10 Boards or Logs |
+| <img src="/img/items/0x26C2.png" alt="" width="28" /> | composite bow | 70.0 – 110.0 | 7 Boards or Logs |
+| <img src="/img/items/0x26C3.png" alt="" width="28" /> | repeating crossbow | 90.0 – 130.0 | 10 Boards or Logs |
+| <img src="/img/items/0x27A5.png" alt="" width="28" /> | yumi | 90.0 – 130.0 | 10 Boards or Logs |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | elven composite longbow | 95.0 – 145.0 | 20 Boards or Logs |
+| <img src="/img/items/0x2D2B.png" alt="" width="28" /> | magical shortbow | 85.0 – 135.0 | 15 Boards or Logs |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | Blight Gripped Longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Corruption |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | Faerie Fire | 75.0 – 125.0 | 20 Boards or Logs, 1 Lard of Paroxysmus, 10 Putrefaction, 10 Taint |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | Silvani's Feywood Bow | 75.0 – 125.0 | 20 Boards or Logs, 1 Lard of Paroxysmus, 10 Scourge, 10 Muculent |
+| <img src="/img/items/0x2D2B.png" alt="" width="28" /> | Mischief Maker | 75.0 – 125.0 | 15 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x26C3.png" alt="" width="28" /> | The Night Reaper | 75.0 – 125.0 | 10 Boards or Logs, 1 Dread Horn Mane, 10 Blight, 10 Scourge |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | barbed longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 fire ruby |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | slayer longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 brilliant amber |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | frozen longbow | 75.0 – 125.0 | 20 Boards or Logs, 1 turquoise |
+| <img src="/img/items/0x2D1E.png" alt="" width="28" /> | longbow of might | 75.0 – 125.0 | 10 Boards or Logs, 1 blue diamond |
+| <img src="/img/items/0x2D2B.png" alt="" width="28" /> | ranger's shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 perfect emerald |
+| <img src="/img/items/0x2D2B.png" alt="" width="28" /> | lightweight shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 white pearl |
+| <img src="/img/items/0x2D2B.png" alt="" width="28" /> | mystical shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x2D2B.png" alt="" width="28" /> | assassin's shortbow | 75.0 – 125.0 | 15 Boards or Logs, 1 dark sapphire |

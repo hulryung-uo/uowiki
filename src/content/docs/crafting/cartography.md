@@ -16,13 +16,13 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Maps
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| local map | 10.0 – 70.0 | 1 Blank Maps or Scrolls |
-| city map | 25.0 – 85.0 | 1 Blank Maps or Scrolls |
-| sea chart | 35.0 – 95.0 | 1 Blank Maps or Scrolls |
-| world map | 39.5 – 99.5 | 1 Blank Maps or Scrolls |
-| tattered wall map (south) | 90.0 – 150.0 | 10 Level 1 Treasure Maps, 5 Level 3 Treasure Maps, 3 Level 4 Treasure Maps, 1 Level 5 Treasure Maps |
-| tattered wall map (east) | 90.0 – 150.0 | 10 Level 1 Treasure Maps, 5 Level 3 Treasure Maps, 3 Level 4 Treasure Maps, 1 Level 5 Treasure Maps |
-| Wall Map of Eodon | 65.0 – 125.0 | 50 Blank Maps or Scrolls, 1 Unabridged Atlas of Eodon |
-| star chart | 0.0 – 60.0 | 1 Blank Maps or Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x14EC.png" alt="" width="28" /> | local map | 10.0 – 70.0 | 1 Blank Maps or Scrolls |
+| <img src="/img/items/0x14EC.png" alt="" width="28" /> | city map | 25.0 – 85.0 | 1 Blank Maps or Scrolls |
+| <img src="/img/items/0x14EC.png" alt="" width="28" /> | sea chart | 35.0 – 95.0 | 1 Blank Maps or Scrolls |
+| <img src="/img/items/0x14EC.png" alt="" width="28" /> | world map | 39.5 – 99.5 | 1 Blank Maps or Scrolls |
+| <img src="/img/items/0x2D74.png" alt="" width="28" /> | tattered wall map (south) | 90.0 – 150.0 | 10 Level 1 Treasure Maps, 5 Level 3 Treasure Maps, 3 Level 4 Treasure Maps, 1 Level 5 Treasure Maps |
+| <img src="/img/items/0x2D73.png" alt="" width="28" /> | tattered wall map (east) | 90.0 – 150.0 | 10 Level 1 Treasure Maps, 5 Level 3 Treasure Maps, 3 Level 4 Treasure Maps, 1 Level 5 Treasure Maps |
+| <img src="/img/items/0x9D3D.png" alt="" width="28" /> | Wall Map of Eodon | 65.0 – 125.0 | 50 Blank Maps or Scrolls, 1 Unabridged Atlas of Eodon |
+| <img src="/img/items/0xA1E4.png" alt="" width="28" /> | star chart | 0.0 – 60.0 | 1 Blank Maps or Scrolls |

@@ -55,3 +55,15 @@ last_verified: 2026-06-11
 |---|---|
 | Rich | 3 |
 | MedScrolls | 2 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1521.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1522.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1523.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1524.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1525.mp3"></audio>

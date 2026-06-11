@@ -56,3 +56,15 @@ Carve: 1 meat, 12 hides.
 |---|---|
 | **Min taming skill** | 29.1 |
 | **Control slots** | 1 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1011.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1012.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1013.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1014.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1015.mp3"></audio>

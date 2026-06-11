@@ -53,3 +53,15 @@ last_verified: 2026-06-11
 | UltraRich | 1 |
 
 Carve: 1 meat, 25 feathers.
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1642.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1643.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1644.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1645.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1646.mp3"></audio>

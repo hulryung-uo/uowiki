@@ -16,32 +16,32 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Miscellaneous
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| empty bottle | 52.5 – 102.5 | 1 Sand |
-| flask (small) | 52.5 – 102.5 | 2 Sand |
-| flask (medium) | 52.5 – 102.5 | 3 Sand |
-| flask (curved) | 55.0 – 105.0 | 2 Sand |
-| flask (large #1) | 57.5 – 107.5 | 4 Sand |
-| flask (large #2) | 60.0 – 110.0 | 5 Sand |
-| flask (bubbling blue) | 60.0 – 110.0 | 5 Sand |
-| flask (bubbling purple) | 60.0 – 110.0 | 5 Sand |
-| flask (bubbling red) | 60.0 – 110.0 | 7 Sand |
-| empty vials | 65.0 – 115.0 | 8 Sand |
-| full vials | 65.0 – 115.0 | 9 Sand |
-| spinning hourglass | 75.0 – 125.0 | 10 Sand |
-| hollow prism | 100.0 – 150.0 | 8 Sand |
-| Ter-Mur style floor mirror | 75.0 – 125.0 | 20 Sand |
-| Ter-Mur style wall mirror | 70.0 – 120.0 | 10 Sand |
-| soulstone fragment | 70.0 – 120.0 | 2 crystal granules, 2 Void Essence |
-| empty venom vial | 52.5 – 102.5 | 1 Sand |
-| empty oil flask | 60.0 – 110.0 | 5 Sand |
-| workable glass | 55.0 – 105.0 | 10 Sand |
-| ethereal soulbinder | 100.0 – 190.0 | 20 Sand, 5 ethereal sand |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0F0E.png" alt="" width="28" /> | empty bottle | 52.5 – 102.5 | 1 Sand |
+| <img src="/img/items/0x182E.png" alt="" width="28" /> | flask (small) | 52.5 – 102.5 | 2 Sand |
+| <img src="/img/items/0x182A.png" alt="" width="28" /> | flask (medium) | 52.5 – 102.5 | 3 Sand |
+| <img src="/img/items/0x1832.png" alt="" width="28" /> | flask (curved) | 55.0 – 105.0 | 2 Sand |
+| <img src="/img/items/0x1838.png" alt="" width="28" /> | flask (large #1) | 57.5 – 107.5 | 4 Sand |
+| <img src="/img/items/0x183B.png" alt="" width="28" /> | flask (large #2) | 60.0 – 110.0 | 5 Sand |
+| <img src="/img/items/0x1844.png" alt="" width="28" /> | flask (bubbling blue) | 60.0 – 110.0 | 5 Sand |
+| <img src="/img/items/0x1841.png" alt="" width="28" /> | flask (bubbling purple) | 60.0 – 110.0 | 5 Sand |
+| <img src="/img/items/0x183E.png" alt="" width="28" /> | flask (bubbling red) | 60.0 – 110.0 | 7 Sand |
+| <img src="/img/items/0x185B.png" alt="" width="28" /> | empty vials | 65.0 – 115.0 | 8 Sand |
+| <img src="/img/items/0x185D.png" alt="" width="28" /> | full vials | 65.0 – 115.0 | 9 Sand |
+| <img src="/img/items/0x1810.png" alt="" width="28" /> | spinning hourglass | 75.0 – 125.0 | 10 Sand |
+| <img src="/img/items/0x2F5D.png" alt="" width="28" /> | hollow prism | 100.0 – 150.0 | 8 Sand |
+| <img src="/img/items/0x403A.png" alt="" width="28" /> | Ter-Mur style floor mirror | 75.0 – 125.0 | 20 Sand |
+| <img src="/img/items/0x4044.png" alt="" width="28" /> | Ter-Mur style wall mirror | 70.0 – 120.0 | 10 Sand |
+| <img src="/img/items/0x2AA1.png" alt="" width="28" /> | soulstone fragment | 70.0 – 120.0 | 2 crystal granules, 2 Void Essence |
+| <img src="/img/items/0x0E24.png" alt="" width="28" /> | empty venom vial | 52.5 – 102.5 | 1 Sand |
+| <img src="/img/items/0x1C18.png" alt="" width="28" /> | empty oil flask | 60.0 – 110.0 | 5 Sand |
+| <img src="/img/items/0x4B80.png" alt="" width="28" /> | workable glass | 55.0 – 105.0 | 10 Sand |
+| <img src="/img/items/0xA1E7.png" alt="" width="28" /> | ethereal soulbinder | 100.0 – 190.0 | 20 Sand, 5 ethereal sand |
 
 ## Glass Weapons
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| glass sword | 55.0 – 105.0 | 14 Sand |
-| glass staff | 53.6 – 103.6 | 10 Sand |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x090C.png" alt="" width="28" /> | glass sword | 55.0 – 105.0 | 14 Sand |
+| <img src="/img/items/0x0905.png" alt="" width="28" /> | glass staff | 53.6 – 103.6 | 10 Sand |

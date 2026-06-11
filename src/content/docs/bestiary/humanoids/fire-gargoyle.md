@@ -59,3 +59,15 @@ last_verified: 2026-06-11
 | Gems | 1 |
 
 Carve: 1 meat.
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/372.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/373.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/374.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/375.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/376.mp3"></audio>

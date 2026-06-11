@@ -16,128 +16,128 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Ingredients
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| sack of flour | 0.0 – 100.0 | 2 Wheat |
-| dough | 0.0 – 100.0 | 1 Flour, 1 Water |
-| sweet dough | 0.0 – 100.0 | 1 Dough, 1 Honey |
-| cake mix | 0.0 – 100.0 | 1 Flour, 1 Sweet Dough |
-| cookie mix | 0.0 – 100.0 | 1 Honey, 1 Sweet Dough |
-| cocoa butter | 0.0 – 100.0 | 1 cocoa pulp |
-| cocoa liquor | 0.0 – 100.0 | 1 cocoa pulp, 1 pewter bowl |
-| wheat wort | 30.0 – 100.0 | 1 empty bottle, 1 Water, 1 Flour |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1039.png" alt="" width="28" /> | sack of flour | 0.0 – 100.0 | 2 Wheat |
+| <img src="/img/items/0x103D.png" alt="" width="28" /> | dough | 0.0 – 100.0 | 1 Flour, 1 Water |
+| <img src="/img/items/0x103D.png" alt="" width="28" /> | sweet dough | 0.0 – 100.0 | 1 Dough, 1 Honey |
+| <img src="/img/items/0x103F.png" alt="" width="28" /> | cake mix | 0.0 – 100.0 | 1 Flour, 1 Sweet Dough |
+| <img src="/img/items/0x103F.png" alt="" width="28" /> | cookie mix | 0.0 – 100.0 | 1 Honey, 1 Sweet Dough |
+| <img src="/img/items/0x1044.png" alt="" width="28" /> | cocoa butter | 0.0 – 100.0 | 1 cocoa pulp |
+| <img src="/img/items/0x103F.png" alt="" width="28" /> | cocoa liquor | 0.0 – 100.0 | 1 cocoa pulp, 1 pewter bowl |
+| <img src="/img/items/0x1848.png" alt="" width="28" /> | wheat wort | 30.0 – 100.0 | 1 empty bottle, 1 Water, 1 Flour |
 
 ## Preparations
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| unbaked quiche | 0.0 – 100.0 | 1 Dough, 1 Eggs |
-| unbaked meat pie | 0.0 – 100.0 | 1 Dough, 1 Raw Meat |
-| uncooked sausage pizza | 0.0 – 100.0 | 1 Dough, 1 Sausage |
-| uncooked cheese pizza | 0.0 – 100.0 | 1 Dough, 1 Cheese |
-| unbaked fruit pie | 0.0 – 100.0 | 1 Dough, 1 Pears |
-| unbaked peach cobbler | 0.0 – 100.0 | 1 Dough, 1 Peaches |
-| unbaked apple pie | 0.0 – 100.0 | 1 Dough, 1 Apples |
-| unbaked pumpkin pie | 0.0 – 100.0 | 1 Dough, 1 Pumpkin |
-| Green Tea | 80.0 – 130.0 | 1 Green Tea, 1 Water |
-| wasabi clumps | 70.0 – 120.0 | 1 Water, 3 bowl of peas |
-| sushi rolls | 90.0 – 120.0 | 1 Water, 10 Raw Fish Steaks |
-| sushi platter | 90.0 – 120.0 | 1 Water, 10 Raw Fish Steaks |
-| savage kin paint | 55.0 – 105.0 | 1 Flour, 1 Tribal Berries |
-| egg bomb | 90.0 – 120.0 | 1 Eggs, 3 Flour |
-| parrot wafer | 37.5 – 87.5 | 1 Dough, 1 Honey, 10 Raw Fish Steaks |
-| plant pigment | 75.0 – 100.0 | 1 Plant Clippings, 1 empty bottle |
-| natural dye | 65.0 – 115.0 | 1 plant pigment, 1 color fixative |
-| color fixative | 75.0 – 100.0 | 1 bottle of wine, 1 silver serpent venom |
-| wood pulp | 60.0 – 100.0 | 1 Bark Fragment, 1 Water |
-| charcoal | 0.0 – 50.0 | 1 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1042.png" alt="" width="28" /> | unbaked quiche | 0.0 – 100.0 | 1 Dough, 1 Eggs |
+| <img src="/img/items/0x1042.png" alt="" width="28" /> | unbaked meat pie | 0.0 – 100.0 | 1 Dough, 1 Raw Meat |
+| <img src="/img/items/0x1083.png" alt="" width="28" /> | uncooked sausage pizza | 0.0 – 100.0 | 1 Dough, 1 Sausage |
+| <img src="/img/items/0x1083.png" alt="" width="28" /> | uncooked cheese pizza | 0.0 – 100.0 | 1 Dough, 1 Cheese |
+| <img src="/img/items/0x1042.png" alt="" width="28" /> | unbaked fruit pie | 0.0 – 100.0 | 1 Dough, 1 Pears |
+| <img src="/img/items/0x1042.png" alt="" width="28" /> | unbaked peach cobbler | 0.0 – 100.0 | 1 Dough, 1 Peaches |
+| <img src="/img/items/0x1042.png" alt="" width="28" /> | unbaked apple pie | 0.0 – 100.0 | 1 Dough, 1 Apples |
+| <img src="/img/items/0x1042.png" alt="" width="28" /> | unbaked pumpkin pie | 0.0 – 100.0 | 1 Dough, 1 Pumpkin |
+| <img src="/img/items/0x284C.png" alt="" width="28" /> | Green Tea | 80.0 – 130.0 | 1 Green Tea, 1 Water |
+| <img src="/img/items/0x24EB.png" alt="" width="28" /> | wasabi clumps | 70.0 – 120.0 | 1 Water, 3 bowl of peas |
+| <img src="/img/items/0x283E.png" alt="" width="28" /> | sushi rolls | 90.0 – 120.0 | 1 Water, 10 Raw Fish Steaks |
+| <img src="/img/items/0x2840.png" alt="" width="28" /> | sushi platter | 90.0 – 120.0 | 1 Water, 10 Raw Fish Steaks |
+| <img src="/img/items/0x09EC.png" alt="" width="28" /> | savage kin paint | 55.0 – 105.0 | 1 Flour, 1 Tribal Berries |
+| <img src="/img/items/0x2808.png" alt="" width="28" /> | egg bomb | 90.0 – 120.0 | 1 Eggs, 3 Flour |
+| <img src="/img/items/0x2FD6.png" alt="" width="28" /> | parrot wafer | 37.5 – 87.5 | 1 Dough, 1 Honey, 10 Raw Fish Steaks |
+| <img src="/img/items/0x0F02.png" alt="" width="28" /> | plant pigment | 75.0 – 100.0 | 1 Plant Clippings, 1 empty bottle |
+| <img src="/img/items/0x182B.png" alt="" width="28" /> | natural dye | 65.0 – 115.0 | 1 plant pigment, 1 color fixative |
+| <img src="/img/items/0x182D.png" alt="" width="28" /> | color fixative | 75.0 – 100.0 | 1 bottle of wine, 1 silver serpent venom |
+| <img src="/img/items/0x103D.png" alt="" width="28" /> | wood pulp | 60.0 – 100.0 | 1 Bark Fragment, 1 Water |
+| <img src="/img/items/0x423A.png" alt="" width="28" /> | charcoal | 0.0 – 50.0 | 1 Boards or Logs |
 
 ## Baking
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bread loaf | 0.0 – 100.0 | 1 Dough |
-| pan of cookies | 0.0 – 100.0 | 1 Cookie Mix |
-| cake | 0.0 – 100.0 | 1 Cake Mix |
-| muffins | 0.0 – 100.0 | 1 Sweet Dough |
-| baked quiche | 0.0 – 100.0 | 1 Uncooked Quiches |
-| baked meat pie | 0.0 – 100.0 | 1 Uncooked Meat Pies |
-| sausage pizza | 0.0 – 100.0 | 1 Uncooked Sausage Pizzas |
-| cheese pizza | 0.0 – 100.0 | 1 Uncooked Cheese Pizzas |
-| baked fruit pie | 0.0 – 100.0 | 1 Uncooked Fruit Pies |
-| baked peach cobbler | 0.0 – 100.0 | 1 Uncooked Peach Cobblers |
-| baked apple pie | 0.0 – 100.0 | 1 Uncooked Apple Pies |
-| baked pumpkin pie | 0.0 – 100.0 | 1 Unbaked Pumpkin Pies |
-| miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
-| white miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
-| red miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
-| awase miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
-| Gingerbread Cookie | 35.0 – 85.0 | 1 Cookie Mix, 1 Fresh Ginger |
-| three tiered cake | 60.0 – 110.0 | 3 Cake Mix |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x103B.png" alt="" width="28" /> | bread loaf | 0.0 – 100.0 | 1 Dough |
+| <img src="/img/items/0x160B.png" alt="" width="28" /> | pan of cookies | 0.0 – 100.0 | 1 Cookie Mix |
+| <img src="/img/items/0x09E9.png" alt="" width="28" /> | cake | 0.0 – 100.0 | 1 Cake Mix |
+| <img src="/img/items/0x09EB.png" alt="" width="28" /> | muffins | 0.0 – 100.0 | 1 Sweet Dough |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | baked quiche | 0.0 – 100.0 | 1 Uncooked Quiches |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | baked meat pie | 0.0 – 100.0 | 1 Uncooked Meat Pies |
+| <img src="/img/items/0x1040.png" alt="" width="28" /> | sausage pizza | 0.0 – 100.0 | 1 Uncooked Sausage Pizzas |
+| <img src="/img/items/0x1040.png" alt="" width="28" /> | cheese pizza | 0.0 – 100.0 | 1 Uncooked Cheese Pizzas |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | baked fruit pie | 0.0 – 100.0 | 1 Uncooked Fruit Pies |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | baked peach cobbler | 0.0 – 100.0 | 1 Uncooked Peach Cobblers |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | baked apple pie | 0.0 – 100.0 | 1 Uncooked Apple Pies |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | baked pumpkin pie | 0.0 – 100.0 | 1 Unbaked Pumpkin Pies |
+| <img src="/img/items/0x284D.png" alt="" width="28" /> | miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
+| <img src="/img/items/0x284E.png" alt="" width="28" /> | white miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
+| <img src="/img/items/0x284F.png" alt="" width="28" /> | red miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
+| <img src="/img/items/0x2850.png" alt="" width="28" /> | awase miso soup | 60.0 – 110.0 | 1 Raw Fish Steaks, 1 Water |
+|  | Gingerbread Cookie | 35.0 – 85.0 | 1 Cookie Mix, 1 Fresh Ginger |
+| <img src="/img/items/0x4BA3.png" alt="" width="28" /> | three tiered cake | 60.0 – 110.0 | 3 Cake Mix |
 
 ## Barbecue
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| cooked bird | 0.0 – 100.0 | 1 Raw Birds |
-| chicken leg | 0.0 – 100.0 | 1 Raw Chicken Legs |
-| fish steak | 0.0 – 100.0 | 1 Raw Fish Steaks |
-| fried eggs | 0.0 – 100.0 | 1 Eggs |
-| leg of lamb | 0.0 – 100.0 | 1 Raw Legs of Lamb |
-| cut of ribs | 0.0 – 100.0 | 1 Raw Ribs |
-| bowl of rotworm stew | 0.0 – 100.0 | 1 raw rotworm meat |
-| blackrock stew | 30.0 – 70.0 | 1 bowl of rotworm stew, 1 a piece of blackrock |
-| khaldun tasty treat | 60.0 – 100.0 | 40 Raw Fish Steaks |
-| hamburger | 40.0 – 80.0 | 1 bread loaf, 1 Raw Ribs, 1 head of lettuce |
-| hot dog | 40.0 – 80.0 | 1 bread loaf, 1 sausage |
-| sausage | 30.0 – 70.0 | 1 ham, 1 dried herbs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x09B7.png" alt="" width="28" /> | cooked bird | 0.0 – 100.0 | 1 Raw Birds |
+| <img src="/img/items/0x1608.png" alt="" width="28" /> | chicken leg | 0.0 – 100.0 | 1 Raw Chicken Legs |
+| <img src="/img/items/0x097B.png" alt="" width="28" /> | fish steak | 0.0 – 100.0 | 1 Raw Fish Steaks |
+| <img src="/img/items/0x09B6.png" alt="" width="28" /> | fried eggs | 0.0 – 100.0 | 1 Eggs |
+| <img src="/img/items/0x160A.png" alt="" width="28" /> | leg of lamb | 0.0 – 100.0 | 1 Raw Legs of Lamb |
+| <img src="/img/items/0x09F2.png" alt="" width="28" /> | cut of ribs | 0.0 – 100.0 | 1 Raw Ribs |
+| <img src="/img/items/0x2DBA.png" alt="" width="28" /> | bowl of rotworm stew | 0.0 – 100.0 | 1 raw rotworm meat |
+| <img src="/img/items/0x2DBA.png" alt="" width="28" /> | blackrock stew | 30.0 – 70.0 | 1 bowl of rotworm stew, 1 a piece of blackrock |
+| <img src="/img/items/0x0978.png" alt="" width="28" /> | khaldun tasty treat | 60.0 – 100.0 | 40 Raw Fish Steaks |
+| <img src="/img/items/0xA0DA.png" alt="" width="28" /> | hamburger | 40.0 – 80.0 | 1 bread loaf, 1 Raw Ribs, 1 head of lettuce |
+| <img src="/img/items/0xA0D8.png" alt="" width="28" /> | hot dog | 40.0 – 80.0 | 1 bread loaf, 1 sausage |
+| <img src="/img/items/0xA0D6.png" alt="" width="28" /> | sausage | 30.0 – 70.0 | 1 ham, 1 dried herbs |
 
 ## Enchanted
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| food decoration tool | 75.0 – 100.0 | 1 Dough, 1 Honey |
-| enchanted apple | 60.0 – 85.0 | 1 Apples, 1 Greater Heal Potion |
-| grapes of wrath | 95.0 – 120.0 | 1 Grapes, 1 Greater Strength Potion |
-| fruit bowl | 55.0 – 105.0 | 1 Wooden Bowl, 3 Pears, 3 Apples, 3 Bananas |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1BD1.png" alt="" width="28" /> | food decoration tool | 75.0 – 100.0 | 1 Dough, 1 Honey |
+| <img src="/img/items/0x2FD8.png" alt="" width="28" /> | enchanted apple | 60.0 – 85.0 | 1 Apples, 1 Greater Heal Potion |
+| <img src="/img/items/0x2FD7.png" alt="" width="28" /> | grapes of wrath | 95.0 – 120.0 | 1 Grapes, 1 Greater Strength Potion |
+| <img src="/img/items/0x2D4F.png" alt="" width="28" /> | fruit bowl | 55.0 – 105.0 | 1 Wooden Bowl, 3 Pears, 3 Apples, 3 Bananas |
 
 ## Chocolatiering
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| sweet cocoa butter | 15.0 – 100.0 | 1 sack of sugar, 1 cocoa butter |
-| dark chocolate | 15.0 – 100.0 | 1 sack of sugar, 1 cocoa butter, 1 cocoa liquor |
-| milk chocolate | 32.5 – 107.5 | 1 sack of sugar, 1 cocoa butter, 1 cocoa liquor, 1 milk |
-| white chocolate | 52.5 – 127.5 | 1 sack of sugar, 1 cocoa butter, 1 vanilla, 1 milk |
-| dark chocolate nutcracker | 15.0 – 100.0 | 1 sweet cocoa butter, 1 foil sheet, 1 cocoa liquor |
-| milk chocolate nutcracker | 32.5 – 107.5 | 1 sweet cocoa butter, 1 foil sheet, 1 cocoa liquor |
-| white chocolate nutcracker | 52.5 – 127.5 | 1 sweet cocoa butter, 1 foil sheet, 1 cocoa liquor |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x103D.png" alt="" width="28" /> | sweet cocoa butter | 15.0 – 100.0 | 1 sack of sugar, 1 cocoa butter |
+| <img src="/img/items/0x0F10.png" alt="" width="28" /> | dark chocolate | 15.0 – 100.0 | 1 sack of sugar, 1 cocoa butter, 1 cocoa liquor |
+| <img src="/img/items/0x0F18.png" alt="" width="28" /> | milk chocolate | 32.5 – 107.5 | 1 sack of sugar, 1 cocoa butter, 1 cocoa liquor, 1 milk |
+| <img src="/img/items/0x0F11.png" alt="" width="28" /> | white chocolate | 52.5 – 127.5 | 1 sack of sugar, 1 cocoa butter, 1 vanilla, 1 milk |
+| <img src="/img/items/0x9C10.png" alt="" width="28" /> | dark chocolate nutcracker | 15.0 – 100.0 | 1 sweet cocoa butter, 1 foil sheet, 1 cocoa liquor |
+| <img src="/img/items/0x9C10.png" alt="" width="28" /> | milk chocolate nutcracker | 32.5 – 107.5 | 1 sweet cocoa butter, 1 foil sheet, 1 cocoa liquor |
+| <img src="/img/items/0x9C10.png" alt="" width="28" /> | white chocolate nutcracker | 52.5 – 127.5 | 1 sweet cocoa butter, 1 foil sheet, 1 cocoa liquor |
 
 ## Magical Fish Pies
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| great barracuda pie | 61.0 – 110.0 | 1 great barracuda steak, 1 Mento Seasoning, 1 zoogi fungus |
-| giant koi pie | 61.0 – 110.0 | 1 You don't have the components needed to make that., 1 Mento Seasoning, 1 bowl of peas, 1 dough |
-| fire fish pie | 55.0 – 105.0 | 1 fire fish steak, 1 dough, 1 carrot, 1 Samuel's Secret Sauce |
-| stone crab pie | 55.0 – 105.0 | 1 stone crab meat, 1 dough, 1 head of cabbage, 1 Samuel's Secret Sauce |
-| blue lobster pie | 55.0 – 105.0 | 1 blue lobster meat, 1 dough, 1 tribal berry, 1 Samuel's Secret Sauce |
-| reaper fish pie | 55.0 – 105.0 | 1 reaper fish steak, 1 dough, 1 pumpkin, 1 Samuel's Secret Sauce |
-| crystal fish pie | 55.0 – 105.0 | 1 crystal fish steak, 1 dough, 1 apple, 1 Samuel's Secret Sauce |
-| bull fish pie | 55.0 – 105.0 | 1 bull fish steak, 1 dough, 1 squash, 1 Mento Seasoning |
-| summer dragonfish pie | 55.0 – 105.0 | 1 summer dragonfish steak, 1 dough, 1 onion, 1 Mento Seasoning |
-| fairy salmon pie | 55.0 – 105.0 | 1 fairy salmon steak, 1 dough, 1 ear of corn, 1 dark truffle |
-| lava fish pie | 55.0 – 105.0 | 1 lava fish steak, 1 dough, 1 Cheese, 1 dark truffle |
-| autumn dragonfish pie | 55.0 – 105.0 | 1 autumn dragonfish steak, 1 dough, 1 pear, 1 Mento Seasoning |
-| spider crab pie | 55.0 – 105.0 | 1 spider crab meat, 1 dough, 1 head of lettuce, 1 Mento Seasoning |
-| yellowtail barracuda | 55.0 – 105.0 | 1 yellowtail barracuda steak, 1 dough, 1 bottle of wine, 1 Mento Seasoning |
-| holy mackerel pie | 55.0 – 105.0 | 1 holy mackerel steak, 1 dough, 1 jar of honey, 1 Mento Seasoning |
-| unicorn fish pie | 55.0 – 105.0 | 1 unicorn fish steak, 1 dough, 1 Fresh Ginger, 1 Mento Seasoning |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | great barracuda pie | 61.0 – 110.0 | 1 great barracuda steak, 1 Mento Seasoning, 1 zoogi fungus |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | giant koi pie | 61.0 – 110.0 | 1 You don't have the components needed to make that., 1 Mento Seasoning, 1 bowl of peas, 1 dough |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | fire fish pie | 55.0 – 105.0 | 1 fire fish steak, 1 dough, 1 carrot, 1 Samuel's Secret Sauce |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | stone crab pie | 55.0 – 105.0 | 1 stone crab meat, 1 dough, 1 head of cabbage, 1 Samuel's Secret Sauce |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | blue lobster pie | 55.0 – 105.0 | 1 blue lobster meat, 1 dough, 1 tribal berry, 1 Samuel's Secret Sauce |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | reaper fish pie | 55.0 – 105.0 | 1 reaper fish steak, 1 dough, 1 pumpkin, 1 Samuel's Secret Sauce |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | crystal fish pie | 55.0 – 105.0 | 1 crystal fish steak, 1 dough, 1 apple, 1 Samuel's Secret Sauce |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | bull fish pie | 55.0 – 105.0 | 1 bull fish steak, 1 dough, 1 squash, 1 Mento Seasoning |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | summer dragonfish pie | 55.0 – 105.0 | 1 summer dragonfish steak, 1 dough, 1 onion, 1 Mento Seasoning |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | fairy salmon pie | 55.0 – 105.0 | 1 fairy salmon steak, 1 dough, 1 ear of corn, 1 dark truffle |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | lava fish pie | 55.0 – 105.0 | 1 lava fish steak, 1 dough, 1 Cheese, 1 dark truffle |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | autumn dragonfish pie | 55.0 – 105.0 | 1 autumn dragonfish steak, 1 dough, 1 pear, 1 Mento Seasoning |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | spider crab pie | 55.0 – 105.0 | 1 spider crab meat, 1 dough, 1 head of lettuce, 1 Mento Seasoning |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | yellowtail barracuda | 55.0 – 105.0 | 1 yellowtail barracuda steak, 1 dough, 1 bottle of wine, 1 Mento Seasoning |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | holy mackerel pie | 55.0 – 105.0 | 1 holy mackerel steak, 1 dough, 1 jar of honey, 1 Mento Seasoning |
+| <img src="/img/items/0x1041.png" alt="" width="28" /> | unicorn fish pie | 55.0 – 105.0 | 1 unicorn fish steak, 1 dough, 1 Fresh Ginger, 1 Mento Seasoning |
 
 ## Beverages
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Coffee | 0.0 – 28.6 | 1 Coffee Grounds, 1 Water |
-| Basket of Green Tea | 0.0 – 28.6 | 1 Coffee Grounds, 1 Water |
-| Hot Cocoa | 0.0 – 28.6 | 1 Cocoa liquor, 1 Sack of sugar, 1 Pitcher of Milk |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0995.png" alt="" width="28" /> | Coffee | 0.0 – 28.6 | 1 Coffee Grounds, 1 Water |
+| <img src="/img/items/0x0995.png" alt="" width="28" /> | Basket of Green Tea | 0.0 – 28.6 | 1 Coffee Grounds, 1 Water |
+| <img src="/img/items/0x0995.png" alt="" width="28" /> | Hot Cocoa | 0.0 – 28.6 | 1 Cocoa liquor, 1 Sack of sugar, 1 Pitcher of Milk |

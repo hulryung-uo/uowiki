@@ -53,3 +53,15 @@ last_verified: 2026-06-11
 |---|---|
 | FilthyRich | 1 |
 | Rich | 1 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1387.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1388.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1389.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1390.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1391.mp3"></audio>

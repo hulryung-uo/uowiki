@@ -16,273 +16,273 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Other
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| barrel staves | 0.0 – 25.0 | 5 Boards or Logs |
-| barrel lid | 11.0 – 36.0 | 4 Boards or Logs |
-| short music stand (left) | 78.9 – 103.9 | 15 Boards or Logs |
-| short music stand (right) | 78.9 – 103.9 | 15 Boards or Logs |
-| tall music stand (left) | 81.5 – 106.5 | 20 Boards or Logs |
-| tall music stand (right) | 81.5 – 106.5 | 20 Boards or Logs |
-| easel (south) | 86.8 – 111.8 | 20 Boards or Logs |
-| easel (east) | 86.8 – 111.8 | 20 Boards or Logs |
-| easel (north) | 86.8 – 111.8 | 20 Boards or Logs |
-| red hanging lantern | 65.0 – 90.0 | 5 Boards or Logs, 10 Blank Scrolls |
-| white hanging lantern | 65.0 – 90.0 | 5 Boards or Logs, 10 Blank Scrolls |
-| shoji screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 | 75 Boards or Logs, 60 Cloth |
-| bamboo screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 | 75 Boards or Logs, 60 Cloth |
-| fishing pole | 68.4 – 93.4; Tailoring 40.0 – 45.0 | 5 Boards or Logs, 5 Cloth |
-| wooden container engraving tool | 75.0 – 100.0 | 4 Boards or Logs, 2 Ingots |
-| runed switch | 70.0 – 120.0 | 2 Boards or Logs, 1 Enchanted Switch, 1 Runed Prism, 1 jeweled filigree |
-| arcanist statue (south) | 0.0 – 35.0 | 250 Boards or Logs |
-| arcanist statue (east) | 0.0 – 35.0 | 250 Boards or Logs |
-| warrior statue (south) | 0.0 – 35.0 | 250 Boards or Logs |
-| warrior statue (east) | 0.0 – 35.0 | 250 Boards or Logs |
-| squirrel statue (south) | 0.0 – 35.0 | 250 Boards or Logs |
-| squirrel statue (east) | 0.0 – 35.0 | 250 Boards or Logs |
-| giant replica acorn | 80.0 – 105.0 | 35 Boards or Logs |
-| mounted dread horn | 90.0 – 115.0 | 50 Boards or Logs, 1 Pristine Dread Horn |
-| Acid Proof Rope | 80.0 – 130.0 | 2 Greater Strength Potion, 1 Protection, 1 switch |
-| gargish banner | 94.7 – 115.0; Tailoring 75.0 – 105.0 | 50 Boards or Logs, 50 Cloth |
-| an incubator | 90.0 – 115.0 | 100 Boards or Logs |
-| a chicken coop | 90.0 – 115.0 | 150 Boards or Logs |
-| exodus summoning altar | 95.0 – 120.0; Magery 75.0 – 120.0 | 100 Boards or Logs, 10 high quality granite, 10 a small piece of blackrock, 1 nexus core |
-| Dark Wooden Sign Hanger | 42.1 – 77.7 | 5 Boards or Logs |
-| Light Wooden Sign Hanger | 42.1 – 77.7 | 5 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1EB1.png" alt="" width="28" /> | barrel staves | 0.0 – 25.0 | 5 Boards or Logs |
+| <img src="/img/items/0x1DB8.png" alt="" width="28" /> | barrel lid | 11.0 – 36.0 | 4 Boards or Logs |
+| <img src="/img/items/0x0EB6.png" alt="" width="28" /> | short music stand (left) | 78.9 – 103.9 | 15 Boards or Logs |
+| <img src="/img/items/0x0EB8.png" alt="" width="28" /> | short music stand (right) | 78.9 – 103.9 | 15 Boards or Logs |
+| <img src="/img/items/0x0EBB.png" alt="" width="28" /> | tall music stand (left) | 81.5 – 106.5 | 20 Boards or Logs |
+| <img src="/img/items/0x0EBC.png" alt="" width="28" /> | tall music stand (right) | 81.5 – 106.5 | 20 Boards or Logs |
+| <img src="/img/items/0x0F66.png" alt="" width="28" /> | easel (south) | 86.8 – 111.8 | 20 Boards or Logs |
+| <img src="/img/items/0x0F68.png" alt="" width="28" /> | easel (east) | 86.8 – 111.8 | 20 Boards or Logs |
+| <img src="/img/items/0x0F6A.png" alt="" width="28" /> | easel (north) | 86.8 – 111.8 | 20 Boards or Logs |
+| <img src="/img/items/0x24C2.png" alt="" width="28" /> | red hanging lantern | 65.0 – 90.0 | 5 Boards or Logs, 10 Blank Scrolls |
+| <img src="/img/items/0x24C6.png" alt="" width="28" /> | white hanging lantern | 65.0 – 90.0 | 5 Boards or Logs, 10 Blank Scrolls |
+| <img src="/img/items/0x24CB.png" alt="" width="28" /> | shoji screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 | 75 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x24D0.png" alt="" width="28" /> | bamboo screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 | 75 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x0DC0.png" alt="" width="28" /> | fishing pole | 68.4 – 93.4; Tailoring 40.0 – 45.0 | 5 Boards or Logs, 5 Cloth |
+| <img src="/img/items/0x1026.png" alt="" width="28" /> | wooden container engraving tool | 75.0 – 100.0 | 4 Boards or Logs, 2 Ingots |
+| <img src="/img/items/0x2F61.png" alt="" width="28" /> | runed switch | 70.0 – 120.0 | 2 Boards or Logs, 1 Enchanted Switch, 1 Runed Prism, 1 jeweled filigree |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | arcanist statue (south) | 0.0 – 35.0 | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | arcanist statue (east) | 0.0 – 35.0 | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | warrior statue (south) | 0.0 – 35.0 | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | warrior statue (east) | 0.0 – 35.0 | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | squirrel statue (south) | 0.0 – 35.0 | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | squirrel statue (east) | 0.0 – 35.0 | 250 Boards or Logs |
+| <img src="/img/items/0x2D4A.png" alt="" width="28" /> | giant replica acorn | 80.0 – 105.0 | 35 Boards or Logs |
+| <img src="/img/items/0x3158.png" alt="" width="28" /> | mounted dread horn | 90.0 – 115.0 | 50 Boards or Logs, 1 Pristine Dread Horn |
+| <img src="/img/items/0x020D.png" alt="" width="28" /> | Acid Proof Rope | 80.0 – 130.0 | 2 Greater Strength Potion, 1 Protection, 1 switch |
+| <img src="/img/items/0x4037.png" alt="" width="28" /> | gargish banner | 94.7 – 115.0; Tailoring 75.0 – 105.0 | 50 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x407C.png" alt="" width="28" /> | an incubator | 90.0 – 115.0 | 100 Boards or Logs |
+| <img src="/img/items/0x4513.png" alt="" width="28" /> | a chicken coop | 90.0 – 115.0 | 150 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | exodus summoning altar | 95.0 – 120.0; Magery 75.0 – 120.0 | 100 Boards or Logs, 10 high quality granite, 10 a small piece of blackrock, 1 nexus core |
+|  | Dark Wooden Sign Hanger | 42.1 – 77.7 | 5 Boards or Logs |
+|  | Light Wooden Sign Hanger | 42.1 – 77.7 | 5 Boards or Logs |
 
 ## Furniture
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| foot stool | 11.0 – 36.0 | 9 Boards or Logs |
-| stool | 11.0 – 36.0 | 9 Boards or Logs |
-| straw chair | 21.0 – 46.0 | 13 Boards or Logs |
-| wooden chair | 21.0 – 46.0 | 13 Boards or Logs |
-| vesper-style chair | 42.1 – 67.1 | 15 Boards or Logs |
-| trinsic-style chair | 42.1 – 67.1 | 13 Boards or Logs |
-| wooden bench | 52.6 – 77.6 | 17 Boards or Logs |
-| wooden throne | 52.6 – 77.6 | 17 Boards or Logs |
-| magincia-style throne | 73.6 – 98.6 | 19 Boards or Logs |
-| small table | 42.1 – 67.1 | 17 Boards or Logs |
-| writing table | 63.1 – 88.1 | 17 Boards or Logs |
-| yew-wood table | 84.2 – 109.2 | 27 Boards or Logs |
-| large table | 63.1 – 88.1 | 23 Boards or Logs |
-| elegant low table | 80.0 – 105.0 | 35 Boards or Logs |
-| plain low table | 80.0 – 105.0 | 35 Boards or Logs |
-| ornate table (south) | 85.0 – 110.0 | 60 Boards or Logs |
-| ornate table (east) | 85.0 – 110.0 | 60 Boards or Logs |
-| hardwood table (south) | 80.0 – 105.0 | 50 Boards or Logs |
-| hardwood table (east) | 80.0 – 105.0 | 50 Boards or Logs |
-| elven podium | 80.0 – 105.0 | 20 Boards or Logs |
-| ornate elven chair | 80.0 – 105.0 | 30 Boards or Logs |
-| cozy elven chair | 85.0 – 110.0 | 40 Boards or Logs |
-| reading chair | 80.0 – 105.0 | 30 Boards or Logs |
-| Ter-Mur style chair | 85.0 – 110.0 | 40 Boards or Logs |
-| Ter-Mur style table | 75.0 – 100.0 | 50 Boards or Logs |
-| Upholstered Chair | 70.0 – 110.0; Tailoring 55.0 – 60.0 | 40 Boards or Logs, 12 Cloth |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0B5E.png" alt="" width="28" /> | foot stool | 11.0 – 36.0 | 9 Boards or Logs |
+| <img src="/img/items/0x0A2A.png" alt="" width="28" /> | stool | 11.0 – 36.0 | 9 Boards or Logs |
+| <img src="/img/items/0x0B5B.png" alt="" width="28" /> | straw chair | 21.0 – 46.0 | 13 Boards or Logs |
+| <img src="/img/items/0x0B57.png" alt="" width="28" /> | wooden chair | 21.0 – 46.0 | 13 Boards or Logs |
+| <img src="/img/items/0x0B4F.png" alt="" width="28" /> | vesper-style chair | 42.1 – 67.1 | 15 Boards or Logs |
+| <img src="/img/items/0x0B53.png" alt="" width="28" /> | trinsic-style chair | 42.1 – 67.1 | 13 Boards or Logs |
+| <img src="/img/items/0x0B2D.png" alt="" width="28" /> | wooden bench | 52.6 – 77.6 | 17 Boards or Logs |
+| <img src="/img/items/0x0B2E.png" alt="" width="28" /> | wooden throne | 52.6 – 77.6 | 17 Boards or Logs |
+| <img src="/img/items/0x0B33.png" alt="" width="28" /> | magincia-style throne | 73.6 – 98.6 | 19 Boards or Logs |
+| <img src="/img/items/0x0B35.png" alt="" width="28" /> | small table | 42.1 – 67.1 | 17 Boards or Logs |
+| <img src="/img/items/0x0B4A.png" alt="" width="28" /> | writing table | 63.1 – 88.1 | 17 Boards or Logs |
+| <img src="/img/items/0x0B90.png" alt="" width="28" /> | yew-wood table | 84.2 – 109.2 | 27 Boards or Logs |
+| <img src="/img/items/0x0B8F.png" alt="" width="28" /> | large table | 63.1 – 88.1 | 23 Boards or Logs |
+| <img src="/img/items/0x2819.png" alt="" width="28" /> | elegant low table | 80.0 – 105.0 | 35 Boards or Logs |
+| <img src="/img/items/0x281A.png" alt="" width="28" /> | plain low table | 80.0 – 105.0 | 35 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | ornate table (south) | 85.0 – 110.0 | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | ornate table (east) | 85.0 – 110.0 | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | hardwood table (south) | 80.0 – 105.0 | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | hardwood table (east) | 80.0 – 105.0 | 50 Boards or Logs |
+| <img src="/img/items/0x2DDD.png" alt="" width="28" /> | elven podium | 80.0 – 105.0 | 20 Boards or Logs |
+| <img src="/img/items/0x2DE3.png" alt="" width="28" /> | ornate elven chair | 80.0 – 105.0 | 30 Boards or Logs |
+| <img src="/img/items/0x2DEB.png" alt="" width="28" /> | cozy elven chair | 85.0 – 110.0 | 40 Boards or Logs |
+| <img src="/img/items/0x2DF5.png" alt="" width="28" /> | reading chair | 80.0 – 105.0 | 30 Boards or Logs |
+| <img src="/img/items/0x4023.png" alt="" width="28" /> | Ter-Mur style chair | 85.0 – 110.0 | 40 Boards or Logs |
+| <img src="/img/items/0x4041.png" alt="" width="28" /> | Ter-Mur style table | 75.0 – 100.0 | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Upholstered Chair | 70.0 – 110.0; Tailoring 55.0 – 60.0 | 40 Boards or Logs, 12 Cloth |
 
 ## Containers
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| wooden box | 21.0 – 46.0 | 10 Boards or Logs |
-| small crate | 10.0 – 35.0 | 8 Boards or Logs |
-| medium crate | 31.0 – 56.0 | 15 Boards or Logs |
-| large crate | 47.3 – 72.3 | 18 Boards or Logs |
-| wooden chest | 73.6 – 98.6 | 20 Boards or Logs |
-| wooden shelf | 31.5 – 56.5 | 25 Boards or Logs |
-| armoire (red) | 84.2 – 109.2 | 35 Boards or Logs |
-| armoire | 84.2 – 109.2 | 35 Boards or Logs |
-| plain wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
-| ornate wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
-| gilded wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
-| wooden footlocker | 90.0 – 115.0 | 30 Boards or Logs |
-| finished wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
-| tall cabinet | 90.0 – 115.0 | 35 Boards or Logs |
-| short cabinet | 90.0 – 115.0 | 35 Boards or Logs |
-| red armoire | 90.0 – 115.0 | 40 Boards or Logs |
-| elegant armoire | 90.0 – 115.0 | 40 Boards or Logs |
-| maple armoire | 90.0 – 115.0 | 40 Boards or Logs |
-| cherry armoire | 90.0 – 115.0 | 40 Boards or Logs |
-| keg | 57.8 – 82.8 | 3 Barrel Staves, 1 Barrel Hoops, 1 Barrel Lids |
-| arcane bookshelf (south) | 94.7 – 119.7 | 80 Boards or Logs |
-| arcane bookshelf (east) | 94.7 – 119.7 | 80 Boards or Logs |
-| ornate elven chest (south) | 94.7 – 119.7 | 40 Boards or Logs |
-| ornate elven chest (east) | 94.7 – 119.7 | 40 Boards or Logs |
-| elven wash basin (south) | 70.0 – 95.0 | 40 Boards or Logs |
-| elven wash basin (east) | 70.0 – 95.0 | 40 Boards or Logs |
-| elven dresser (south) | 75.0 – 100.0 | 45 Boards or Logs |
-| elven dresser (east) | 75.0 – 100.0 | 45 Boards or Logs |
-| elven armoire (fancy) | 80.0 – 105.0 | 60 Boards or Logs |
-| elven armoire (simple) | 80.0 – 105.0 | 60 Boards or Logs |
-| rarewood chest | 80.0 – 105.0 | 30 Boards or Logs |
-| decorative box | 80.0 – 105.0 | 25 Boards or Logs |
-| academic bookcase | 60.0 – 85.0 | 25 Boards or Logs, 1 academic books |
-| gargish chest | 80.0 – 105.0 | 30 Boards or Logs |
-| empty liquor barrel | 60.0 – 90.0 | 50 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x09AA.png" alt="" width="28" /> | wooden box | 21.0 – 46.0 | 10 Boards or Logs |
+| <img src="/img/items/0x09A9.png" alt="" width="28" /> | small crate | 10.0 – 35.0 | 8 Boards or Logs |
+| <img src="/img/items/0x0E3F.png" alt="" width="28" /> | medium crate | 31.0 – 56.0 | 15 Boards or Logs |
+| <img src="/img/items/0x0E3D.png" alt="" width="28" /> | large crate | 47.3 – 72.3 | 18 Boards or Logs |
+| <img src="/img/items/0x0E43.png" alt="" width="28" /> | wooden chest | 73.6 – 98.6 | 20 Boards or Logs |
+| <img src="/img/items/0x0A9D.png" alt="" width="28" /> | wooden shelf | 31.5 – 56.5 | 25 Boards or Logs |
+| <img src="/img/items/0x0A4D.png" alt="" width="28" /> | armoire (red) | 84.2 – 109.2 | 35 Boards or Logs |
+| <img src="/img/items/0x0A4F.png" alt="" width="28" /> | armoire | 84.2 – 109.2 | 35 Boards or Logs |
+| <img src="/img/items/0x280B.png" alt="" width="28" /> | plain wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
+| <img src="/img/items/0x280D.png" alt="" width="28" /> | ornate wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
+| <img src="/img/items/0x280F.png" alt="" width="28" /> | gilded wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
+| <img src="/img/items/0x2811.png" alt="" width="28" /> | wooden footlocker | 90.0 – 115.0 | 30 Boards or Logs |
+| <img src="/img/items/0x2813.png" alt="" width="28" /> | finished wooden chest | 90.0 – 115.0 | 30 Boards or Logs |
+| <img src="/img/items/0x2815.png" alt="" width="28" /> | tall cabinet | 90.0 – 115.0 | 35 Boards or Logs |
+| <img src="/img/items/0x2817.png" alt="" width="28" /> | short cabinet | 90.0 – 115.0 | 35 Boards or Logs |
+| <img src="/img/items/0x2857.png" alt="" width="28" /> | red armoire | 90.0 – 115.0 | 40 Boards or Logs |
+| <img src="/img/items/0x2859.png" alt="" width="28" /> | elegant armoire | 90.0 – 115.0 | 40 Boards or Logs |
+| <img src="/img/items/0x285B.png" alt="" width="28" /> | maple armoire | 90.0 – 115.0 | 40 Boards or Logs |
+| <img src="/img/items/0x285D.png" alt="" width="28" /> | cherry armoire | 90.0 – 115.0 | 40 Boards or Logs |
+| <img src="/img/items/0x0E7F.png" alt="" width="28" /> | keg | 57.8 – 82.8 | 3 Barrel Staves, 1 Barrel Hoops, 1 Barrel Lids |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | arcane bookshelf (south) | 94.7 – 119.7 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | arcane bookshelf (east) | 94.7 – 119.7 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | ornate elven chest (south) | 94.7 – 119.7 | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | ornate elven chest (east) | 94.7 – 119.7 | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven wash basin (south) | 70.0 – 95.0 | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven wash basin (east) | 70.0 – 95.0 | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven dresser (south) | 75.0 – 100.0 | 45 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven dresser (east) | 75.0 – 100.0 | 45 Boards or Logs |
+| <img src="/img/items/0x2D07.png" alt="" width="28" /> | elven armoire (fancy) | 80.0 – 105.0 | 60 Boards or Logs |
+| <img src="/img/items/0x2D05.png" alt="" width="28" /> | elven armoire (simple) | 80.0 – 105.0 | 60 Boards or Logs |
+| <img src="/img/items/0x2DF1.png" alt="" width="28" /> | rarewood chest | 80.0 – 105.0 | 30 Boards or Logs |
+| <img src="/img/items/0x2DF3.png" alt="" width="28" /> | decorative box | 80.0 – 105.0 | 25 Boards or Logs |
+| <img src="/img/items/0x0A99.png" alt="" width="28" /> | academic bookcase | 60.0 – 85.0 | 25 Boards or Logs, 1 academic books |
+| <img src="/img/items/0x4026.png" alt="" width="28" /> | gargish chest | 80.0 – 105.0 | 30 Boards or Logs |
+| <img src="/img/items/0x0FAE.png" alt="" width="28" /> | empty liquor barrel | 60.0 – 90.0 | 50 Boards or Logs |
 
 ## Weapons
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| shepherd's crook | 78.9 – 103.9 | 7 Boards or Logs |
-| quarter staff | 73.6 – 98.6 | 6 Boards or Logs |
-| gnarled staff | 78.9 – 103.9 | 7 Boards or Logs |
-| bokuto | 70.0 – 95.0 | 6 Boards or Logs |
-| fukiya | 60.0 – 85.0 | 6 Boards or Logs |
-| tetsubo | 80.0 – 105.0 | 10 Boards or Logs |
-| wild staff | 63.8 – 113.8 | 16 Boards or Logs |
-| Phantom Staff | 90.0 – 130.0 | 16 Boards or Logs, 1 Diseased Bark, 10 Putrefaction, 10 Taint |
-| arcanist's wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 white pearl |
-| ancient wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 perfect emerald |
-| thorned wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 fire ruby |
-| hardened wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 turquoise |
-| serpentstone staff | 63.8 – 113.8 | 16 Boards or Logs, 1 ecru citrine |
-| gargish gnarled staff | 78.9 – 128.9 | 16 Boards or Logs, 1 ecru citrine |
-| club | 65.0 – 90.0 | 9 Boards or Logs |
-| black staff | 81.5 – 106.5 | 9 Boards or Logs |
-| kotl black rod | 100.0 – 160.0 | 20 Boards or Logs, 1 Black Moonstone, 1 Staff of the Magi |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0E81.png" alt="" width="28" /> | shepherd's crook | 78.9 – 103.9 | 7 Boards or Logs |
+| <img src="/img/items/0x0E89.png" alt="" width="28" /> | quarter staff | 73.6 – 98.6 | 6 Boards or Logs |
+| <img src="/img/items/0x13F8.png" alt="" width="28" /> | gnarled staff | 78.9 – 103.9 | 7 Boards or Logs |
+| <img src="/img/items/0x27A8.png" alt="" width="28" /> | bokuto | 70.0 – 95.0 | 6 Boards or Logs |
+| <img src="/img/items/0x27AA.png" alt="" width="28" /> | fukiya | 60.0 – 85.0 | 6 Boards or Logs |
+| <img src="/img/items/0x27A6.png" alt="" width="28" /> | tetsubo | 80.0 – 105.0 | 10 Boards or Logs |
+| <img src="/img/items/0x2D25.png" alt="" width="28" /> | wild staff | 63.8 – 113.8 | 16 Boards or Logs |
+| <img src="/img/items/0x2D25.png" alt="" width="28" /> | Phantom Staff | 90.0 – 130.0 | 16 Boards or Logs, 1 Diseased Bark, 10 Putrefaction, 10 Taint |
+| <img src="/img/items/0x2D25.png" alt="" width="28" /> | arcanist's wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 white pearl |
+| <img src="/img/items/0x2D25.png" alt="" width="28" /> | ancient wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 perfect emerald |
+| <img src="/img/items/0x2D25.png" alt="" width="28" /> | thorned wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 fire ruby |
+| <img src="/img/items/0x2D25.png" alt="" width="28" /> | hardened wild staff | 63.8 – 113.8 | 16 Boards or Logs, 1 turquoise |
+| <img src="/img/items/0x0906.png" alt="" width="28" /> | serpentstone staff | 63.8 – 113.8 | 16 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x48B8.png" alt="" width="28" /> | gargish gnarled staff | 78.9 – 128.9 | 16 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x13B4.png" alt="" width="28" /> | club | 65.0 – 90.0 | 9 Boards or Logs |
+| <img src="/img/items/0x0DF0.png" alt="" width="28" /> | black staff | 81.5 – 106.5 | 9 Boards or Logs |
+| <img src="/img/items/0x0E89.png" alt="" width="28" /> | kotl black rod | 100.0 – 160.0 | 20 Boards or Logs, 1 Black Moonstone, 1 Staff of the Magi |
 
 ## Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| wooden shield | 52.6 – 77.6 | 9 Boards or Logs |
-| woodland chest | 90.0 – 115.0 | 20 Boards or Logs, 6 Bark Fragment |
-| woodland arms | 80.0 – 105.0 | 15 Boards or Logs, 4 Bark Fragment |
-| woodland gauntlets | 85.0 – 110.0 | 15 Boards or Logs, 4 Bark Fragment |
-| woodland leggings | 85.0 – 110.0 | 15 Boards or Logs, 4 Bark Fragment |
-| woodland gorget | 85.0 – 110.0 | 15 Boards or Logs, 4 Bark Fragment |
-| raven helm | 65.0 – 115.0 | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
-| vulture helm | 63.9 – 113.9 | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
-| winged helm | 58.4 – 108.4 | 10 Boards or Logs, 4 Bark Fragment, 60 feathers |
-| Ironwood Crown | 85.0 – 120.0 | 10 Boards or Logs, 1 Diseased Bark, 10 Corruption, 10 Putrefaction |
-| Bramble Coat | 85.0 – 120.0 | 10 Boards or Logs, 1 Diseased Bark, 10 Taint, 10 Scourge |
-| Darkwood Crown | 85.0 – 120.0 | 10 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Taint |
-| Darkwood Chest | 85.0 – 120.0 | 20 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Muculent |
-| Darkwood Gorget | 85.0 – 120.0 | 15 Boards or Logs, 1 Diseased Bark, 10 Blight, 10 Scourge |
-| Darkwood Leggings | 85.0 – 120.0 | 15 Boards or Logs, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
-| Darkwood Pauldrons | 85.0 – 120.0 | 15 Boards or Logs, 1 Eye of the Travesty, 10 Scourge, 10 Taint |
-| Darkwood Gauntlets | 85.0 – 120.0 | 15 Boards or Logs, 1 Captured Essence, 10 Putrefaction, 10 Muculent |
-| gargish wooden shield | 52.6 – 77.6 | 9 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1B7A.png" alt="" width="28" /> | wooden shield | 52.6 – 77.6 | 9 Boards or Logs |
+| <img src="/img/items/0x2B67.png" alt="" width="28" /> | woodland chest | 90.0 – 115.0 | 20 Boards or Logs, 6 Bark Fragment |
+| <img src="/img/items/0x2B6C.png" alt="" width="28" /> | woodland arms | 80.0 – 105.0 | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B6A.png" alt="" width="28" /> | woodland gauntlets | 85.0 – 110.0 | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B6B.png" alt="" width="28" /> | woodland leggings | 85.0 – 110.0 | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B69.png" alt="" width="28" /> | woodland gorget | 85.0 – 110.0 | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B71.png" alt="" width="28" /> | raven helm | 65.0 – 115.0 | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
+| <img src="/img/items/0x2B72.png" alt="" width="28" /> | vulture helm | 63.9 – 113.9 | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
+| <img src="/img/items/0x2B73.png" alt="" width="28" /> | winged helm | 58.4 – 108.4 | 10 Boards or Logs, 4 Bark Fragment, 60 feathers |
+| <img src="/img/items/0x2B71.png" alt="" width="28" /> | Ironwood Crown | 85.0 – 120.0 | 10 Boards or Logs, 1 Diseased Bark, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x2B67.png" alt="" width="28" /> | Bramble Coat | 85.0 – 120.0 | 10 Boards or Logs, 1 Diseased Bark, 10 Taint, 10 Scourge |
+| <img src="/img/items/0x2B71.png" alt="" width="28" /> | Darkwood Crown | 85.0 – 120.0 | 10 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Taint |
+| <img src="/img/items/0x2B67.png" alt="" width="28" /> | Darkwood Chest | 85.0 – 120.0 | 20 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Muculent |
+| <img src="/img/items/0x2B69.png" alt="" width="28" /> | Darkwood Gorget | 85.0 – 120.0 | 15 Boards or Logs, 1 Diseased Bark, 10 Blight, 10 Scourge |
+| <img src="/img/items/0x2B6B.png" alt="" width="28" /> | Darkwood Leggings | 85.0 – 120.0 | 15 Boards or Logs, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x2B6C.png" alt="" width="28" /> | Darkwood Pauldrons | 85.0 – 120.0 | 15 Boards or Logs, 1 Eye of the Travesty, 10 Scourge, 10 Taint |
+| <img src="/img/items/0x2B6A.png" alt="" width="28" /> | Darkwood Gauntlets | 85.0 – 120.0 | 15 Boards or Logs, 1 Captured Essence, 10 Putrefaction, 10 Muculent |
+| <img src="/img/items/0x4200.png" alt="" width="28" /> | gargish wooden shield | 52.6 – 77.6 | 9 Boards or Logs |
 
 ## Instruments
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| lap harp | 63.1 – 88.1; Musicianship 45.0 – 50.0 | 20 Boards or Logs, 10 Cloth |
-| standing harp | 78.9 – 103.9; Musicianship 45.0 – 50.0 | 35 Boards or Logs, 15 Cloth |
-| drum | 57.8 – 82.8; Musicianship 45.0 – 50.0 | 20 Boards or Logs, 10 Cloth |
-| lute | 68.4 – 93.4; Musicianship 45.0 – 50.0 | 25 Boards or Logs, 10 Cloth |
-| tambourine | 57.8 – 82.8; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 10 Cloth |
-| tambourine (tassel) | 57.8 – 82.8; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 15 Cloth |
-| bamboo flute | 80.0 – 105.0; Musicianship 45.0 – 50.0 | 15 Boards or Logs |
-| aud-char | 78.9 – 103.9; Musicianship 45.0 – 50.0 | 35 Boards or Logs, 3 Stones |
-| snake charmer flute | 80.0 – 105.0; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 3 luminescent fungi |
-| cello | 75.0 – 105.0; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 5 Cloth |
-| Wall Mounted Bell (South) | 75.0 – 105.0; Musicianship 45.0 – 50.0 | 50 Boards or Logs, 50 Ingots |
-| Wall Mounted Bell (East) | 75.0 – 105.0; Musicianship 45.0 – 50.0 | 50 Boards or Logs, 50 Ingots |
-| trumpet | 85.0 – 105.0; Musicianship 45.0 – 50.0 | 10 Boards or Logs, 15 Ingots |
-| cowbell | 85.0 – 105.0; Musicianship 45.0 – 50.0 | 10 Boards or Logs, 15 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0EB2.png" alt="" width="28" /> | lap harp | 63.1 – 88.1; Musicianship 45.0 – 50.0 | 20 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EB1.png" alt="" width="28" /> | standing harp | 78.9 – 103.9; Musicianship 45.0 – 50.0 | 35 Boards or Logs, 15 Cloth |
+| <img src="/img/items/0x0E9C.png" alt="" width="28" /> | drum | 57.8 – 82.8; Musicianship 45.0 – 50.0 | 20 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EB3.png" alt="" width="28" /> | lute | 68.4 – 93.4; Musicianship 45.0 – 50.0 | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0E9D.png" alt="" width="28" /> | tambourine | 57.8 – 82.8; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0E9E.png" alt="" width="28" /> | tambourine (tassel) | 57.8 – 82.8; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 15 Cloth |
+| <img src="/img/items/0x2805.png" alt="" width="28" /> | bamboo flute | 80.0 – 105.0; Musicianship 45.0 – 50.0 | 15 Boards or Logs |
+| <img src="/img/items/0x403B.png" alt="" width="28" /> | aud-char | 78.9 – 103.9; Musicianship 45.0 – 50.0 | 35 Boards or Logs, 3 Stones |
+| <img src="/img/items/0x2805.png" alt="" width="28" /> | snake charmer flute | 80.0 – 105.0; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 3 luminescent fungi |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | cello | 75.0 – 105.0; Musicianship 45.0 – 50.0 | 15 Boards or Logs, 5 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Wall Mounted Bell (South) | 75.0 – 105.0; Musicianship 45.0 – 50.0 | 50 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Wall Mounted Bell (East) | 75.0 – 105.0; Musicianship 45.0 – 50.0 | 50 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | trumpet | 85.0 – 105.0; Musicianship 45.0 – 50.0 | 10 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | cowbell | 85.0 – 105.0; Musicianship 45.0 – 50.0 | 10 Boards or Logs, 15 Ingots |
 
 ## Misc. Add-Ons
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bulletin board | 85.0 – 110.0 | 50 Boards or Logs |
-| bulletin board | 85.0 – 110.0 | 50 Boards or Logs |
-| parrot perch | 50.0 – 85.0 | 100 Boards or Logs |
-| arcane circle | 94.7 – 119.7 | 100 Boards or Logs, 2 blue diamond, 2 perfect emerald, 2 fire ruby |
-| tall elven bed (south) | 94.7 – 119.7; Tailoring 75.0 – 80.0 | 200 Boards or Logs, 100 Cloth |
-| tall elven bed (east) | 94.7 – 119.7; Tailoring 75.0 – 80.0 | 200 Boards or Logs, 100 Cloth |
-| elven bed (south) | 94.7 – 119.7 | 100 Boards or Logs, 100 Cloth |
-| elven bed (east) | 94.7 – 119.7 | 100 Boards or Logs, 100 Cloth |
-| elven loveseat (south) | 80.0 – 105.0 | 50 Boards or Logs |
-| elven loveseat (east) | 80.0 – 105.0 | 50 Boards or Logs |
-| alchemist table (south) | 85.0 – 110.0 | 70 Boards or Logs |
-| alchemist table (east) | 85.0 – 110.0 | 70 Boards or Logs |
-| small bed (south) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 100 Boards or Logs, 100 Cloth |
-| small bed (east) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 100 Boards or Logs, 100 Cloth |
-| large bed (south) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 150 Boards or Logs, 150 Cloth |
-| large bed (east) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 150 Boards or Logs, 150 Cloth |
-| dartboard (south) | 15.7 – 40.7 | 5 Boards or Logs |
-| dartboard (east) | 15.7 – 40.7 | 5 Boards or Logs |
-| ballot box | 47.3 – 72.3 | 5 Boards or Logs |
-| pentagram | 100.0 – 125.0; Magery 75.0 – 80.0 | 100 Boards or Logs, 40 Ingots |
-| abbatoir | 100.0 – 125.0; Magery 50.0 – 55.0 | 100 Boards or Logs, 40 Ingots |
-| gargish couch (east) | 90.0 – 115.0 | 75 Boards or Logs |
-| gargish couch (south) | 90.0 – 115.0 | 75 Boards or Logs |
-| long table (south) | 90.0 – 115.0 | 80 Boards or Logs |
-| long table (east) | 90.0 – 115.0 | 80 Boards or Logs |
-| Ter-Mur style dresser (east) | 90.0 – 115.0 | 60 Boards or Logs |
-| Ter-Mur style dresser (south) | 90.0 – 115.0 | 60 Boards or Logs |
-| rustic bench (south) | 94.7 – 119.8 | 35 Boards or Logs |
-| rustic bench (east) | 94.7 – 119.8 | 35 Boards or Logs |
-| Plain Wooden Shelf (South) | 40.0 – 90.0 | 15 Boards or Logs |
-| Plain Wooden Shelf (East) | 40.0 – 90.0 | 15 Boards or Logs |
-| Fancy Wooden Shelf (South) | 40.0 – 90.0 | 15 Boards or Logs |
-| Fancy Wooden Shelf (East) | 40.0 – 90.0 | 15 Boards or Logs |
-| Fancy Loveseat (South) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
-| Fancy Loveseat (East) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
-| Fancy Couch (South) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
-| Fancy Couch (East) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
-| Plush Loveseat (South) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
-| Plush Loveseat (East) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
-| Plant Tapestry (South) | 85.0 – 110.0; Tailoring 75.0 – 80.0 | 12 Boards or Logs, 50 Cloth |
-| Plant Tapestry (East) | 85.0 – 110.0; Tailoring 75.0 – 80.0 | 12 Boards or Logs, 50 Cloth |
-| Metal Table (South) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 20 Boards or Logs, 15 Ingots |
-| Metal Table (East) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 20 Boards or Logs, 15 Ingots |
-| Long Metal Table (South) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 30 Ingots |
-| Long Metal Table (East) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 30 Ingots |
-| Wooden Table (South) | 80.0 – 105.0 | 20 Boards or Logs |
-| Wooden Table (East) | 80.0 – 105.0 | 20 Boards or Logs |
-| Long Wooden Table (South) | 80.0 – 105.0 | 80 Boards or Logs |
-| Long Wooden Table (East) | 80.0 – 105.0 | 80 Boards or Logs |
-| Small Display Case (South) | 95.0 – 120.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 10 Ingots |
-| Small Display Case (East) | 95.0 – 120.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 10 Ingots |
-| Fancy Loveseat (North) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
-| Fancy Loveseat (West) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
-| Fancy Couch (North) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
-| Fancy Couch (West) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x2312.png" alt="" width="28" /> | bulletin board | 85.0 – 110.0 | 50 Boards or Logs |
+| <img src="/img/items/0x2311.png" alt="" width="28" /> | bulletin board | 85.0 – 110.0 | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | parrot perch | 50.0 – 85.0 | 100 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | arcane circle | 94.7 – 119.7 | 100 Boards or Logs, 2 blue diamond, 2 perfect emerald, 2 fire ruby |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | tall elven bed (south) | 94.7 – 119.7; Tailoring 75.0 – 80.0 | 200 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | tall elven bed (east) | 94.7 – 119.7; Tailoring 75.0 – 80.0 | 200 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven bed (south) | 94.7 – 119.7 | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven bed (east) | 94.7 – 119.7 | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven loveseat (south) | 80.0 – 105.0 | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven loveseat (east) | 80.0 – 105.0 | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | alchemist table (south) | 85.0 – 110.0 | 70 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | alchemist table (east) | 85.0 – 110.0 | 70 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | small bed (south) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | small bed (east) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | large bed (south) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 150 Boards or Logs, 150 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | large bed (east) | 94.7 – 119.8; Tailoring 75.0 – 80.0 | 150 Boards or Logs, 150 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | dartboard (south) | 15.7 – 40.7 | 5 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | dartboard (east) | 15.7 – 40.7 | 5 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | ballot box | 47.3 – 72.3 | 5 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | pentagram | 100.0 – 125.0; Magery 75.0 – 80.0 | 100 Boards or Logs, 40 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | abbatoir | 100.0 – 125.0; Magery 50.0 – 55.0 | 100 Boards or Logs, 40 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | gargish couch (east) | 90.0 – 115.0 | 75 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | gargish couch (south) | 90.0 – 115.0 | 75 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | long table (south) | 90.0 – 115.0 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | long table (east) | 90.0 – 115.0 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Ter-Mur style dresser (east) | 90.0 – 115.0 | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Ter-Mur style dresser (south) | 90.0 – 115.0 | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | rustic bench (south) | 94.7 – 119.8 | 35 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | rustic bench (east) | 94.7 – 119.8 | 35 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Plain Wooden Shelf (South) | 40.0 – 90.0 | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Plain Wooden Shelf (East) | 40.0 – 90.0 | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Wooden Shelf (South) | 40.0 – 90.0 | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Wooden Shelf (East) | 40.0 – 90.0 | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Loveseat (South) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Loveseat (East) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Couch (South) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Couch (East) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Plush Loveseat (South) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Plush Loveseat (East) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Plant Tapestry (South) | 85.0 – 110.0; Tailoring 75.0 – 80.0 | 12 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Plant Tapestry (East) | 85.0 – 110.0; Tailoring 75.0 – 80.0 | 12 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Metal Table (South) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 20 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Metal Table (East) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 20 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Long Metal Table (South) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 30 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Long Metal Table (East) | 80.0 – 105.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 30 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Wooden Table (South) | 80.0 – 105.0 | 20 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Wooden Table (East) | 80.0 – 105.0 | 20 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Long Wooden Table (South) | 80.0 – 105.0 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Long Wooden Table (East) | 80.0 – 105.0 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Small Display Case (South) | 95.0 – 120.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 10 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Small Display Case (East) | 95.0 – 120.0; Tinkering 75.0 – 80.0 | 40 Boards or Logs, 10 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Loveseat (North) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Loveseat (West) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Couch (North) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Fancy Couch (West) | 70.0 – 120.0; Tailoring 55.0 – 60.0 | 80 Boards or Logs, 48 Cloth |
 
 ## Tailoring and Cooking
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| dressform (front) | 63.1 – 88.1; Tailoring 65.0 – 70.0 | 25 Boards or Logs, 10 Cloth |
-| dressform (side) | 63.1 – 88.1; Tailoring 65.0 – 70.0 | 25 Boards or Logs, 10 Cloth |
-| elven spinning wheel (east) | 75.0 – 100.0; Tailoring 65.0 – 85.0 | 60 Boards or Logs, 40 Cloth |
-| elven spinning wheel (south) | 75.0 – 100.0; Tailoring 65.0 – 85.0 | 60 Boards or Logs, 40 Cloth |
-| elven oven (south) | 85.0 – 110.0 | 80 Boards or Logs |
-| elven oven (east) | 85.0 – 110.0 | 80 Boards or Logs |
-| spinning wheel (east) | 73.6 – 98.6; Tailoring 65.0 – 70.0 | 75 Boards or Logs, 25 Cloth |
-| spinning wheel (south) | 73.6 – 98.6; Tailoring 65.0 – 70.0 | 75 Boards or Logs, 25 Cloth |
-| loom (east) | 84.2 – 109.2; Tailoring 65.0 – 70.0 | 85 Boards or Logs, 25 Cloth |
-| loom (south) | 84.2 – 109.2; Tailoring 65.0 – 70.0 | 85 Boards or Logs, 25 Cloth |
-| stone oven (east) | 68.4 – 93.4; Tinkering 50.0 – 55.0 | 85 Boards or Logs, 125 Ingots |
-| stone oven (south) | 68.4 – 93.4; Tinkering 50.0 – 55.0 | 85 Boards or Logs, 125 Ingots |
-| flour mill (east) | 94.7 – 119.7; Tinkering 50.0 – 55.0 | 100 Boards or Logs, 50 Ingots |
-| flour mill (south) | 94.7 – 119.7; Tinkering 50.0 – 55.0 | 100 Boards or Logs, 50 Ingots |
-| water trough (east) | 94.7 – 119.7 | 150 Boards or Logs |
-| water trough (south) | 94.7 – 119.7 | 150 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0EC6.png" alt="" width="28" /> | dressform (front) | 63.1 – 88.1; Tailoring 65.0 – 70.0 | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EC7.png" alt="" width="28" /> | dressform (side) | 63.1 – 88.1; Tailoring 65.0 – 70.0 | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven spinning wheel (east) | 75.0 – 100.0; Tailoring 65.0 – 85.0 | 60 Boards or Logs, 40 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven spinning wheel (south) | 75.0 – 100.0; Tailoring 65.0 – 85.0 | 60 Boards or Logs, 40 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven oven (south) | 85.0 – 110.0 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven oven (east) | 85.0 – 110.0 | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | spinning wheel (east) | 73.6 – 98.6; Tailoring 65.0 – 70.0 | 75 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | spinning wheel (south) | 73.6 – 98.6; Tailoring 65.0 – 70.0 | 75 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | loom (east) | 84.2 – 109.2; Tailoring 65.0 – 70.0 | 85 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | loom (south) | 84.2 – 109.2; Tailoring 65.0 – 70.0 | 85 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | stone oven (east) | 68.4 – 93.4; Tinkering 50.0 – 55.0 | 85 Boards or Logs, 125 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | stone oven (south) | 68.4 – 93.4; Tinkering 50.0 – 55.0 | 85 Boards or Logs, 125 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | flour mill (east) | 94.7 – 119.7; Tinkering 50.0 – 55.0 | 100 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | flour mill (south) | 94.7 – 119.7; Tinkering 50.0 – 55.0 | 100 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | water trough (east) | 94.7 – 119.7 | 150 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | water trough (south) | 94.7 – 119.7 | 150 Boards or Logs |
 
 ## Anvils and Forges
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| elven forge | 94.7 – 119.7 | 200 Boards or Logs |
-| soulforge | 100.0 – 200.0; Imbuing 75.0 – 80.0 | 150 Boards or Logs, 150 Ingots, 1 Relic Fragment |
-| small forge | 73.6 – 98.6; Blacksmith 75.0 – 80.0 | 5 Boards or Logs, 75 Ingots |
-| large forge (east) | 78.9 – 103.9; Blacksmith 80.0 – 85.0 | 5 Boards or Logs, 100 Ingots |
-| large forge (south) | 78.9 – 103.9; Blacksmith 80.0 – 85.0 | 5 Boards or Logs, 100 Ingots |
-| anvil (east) | 73.6 – 98.6; Blacksmith 75.0 – 80.0 | 5 Boards or Logs, 150 Ingots |
-| anvil (south) | 73.6 – 98.6; Blacksmith 75.0 – 80.0 | 5 Boards or Logs, 150 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | elven forge | 94.7 – 119.7 | 200 Boards or Logs |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | soulforge | 100.0 – 200.0; Imbuing 75.0 – 80.0 | 150 Boards or Logs, 150 Ingots, 1 Relic Fragment |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | small forge | 73.6 – 98.6; Blacksmith 75.0 – 80.0 | 5 Boards or Logs, 75 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | large forge (east) | 78.9 – 103.9; Blacksmith 80.0 – 85.0 | 5 Boards or Logs, 100 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | large forge (south) | 78.9 – 103.9; Blacksmith 80.0 – 85.0 | 5 Boards or Logs, 100 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | anvil (east) | 73.6 – 98.6; Blacksmith 75.0 – 80.0 | 5 Boards or Logs, 150 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | anvil (south) | 73.6 – 98.6; Blacksmith 75.0 – 80.0 | 5 Boards or Logs, 150 Ingots |
 
 ## Training
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| training dummy (east) | 68.4 – 93.4; Tailoring 50.0 – 55.0 | 55 Boards or Logs, 60 Cloth |
-| training dummy (south) | 68.4 – 93.4; Tailoring 50.0 – 55.0 | 55 Boards or Logs, 60 Cloth |
-| pickpocket dip (east) | 73.6 – 98.6; Tailoring 50.0 – 55.0 | 65 Boards or Logs, 60 Cloth |
-| pickpocket dip (south) | 73.6 – 98.6; Tailoring 50.0 – 55.0 | 65 Boards or Logs, 60 Cloth |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | training dummy (east) | 68.4 – 93.4; Tailoring 50.0 – 55.0 | 55 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | training dummy (south) | 68.4 – 93.4; Tailoring 50.0 – 55.0 | 55 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | pickpocket dip (east) | 73.6 – 98.6; Tailoring 50.0 – 55.0 | 65 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | pickpocket dip (south) | 73.6 – 98.6; Tailoring 50.0 – 55.0 | 65 Boards or Logs, 60 Cloth |

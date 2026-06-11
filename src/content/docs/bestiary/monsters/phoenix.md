@@ -66,3 +66,15 @@ Carve: 1 meat, 36 feathers.
 |---|---|
 | **Min taming skill** | 102.0 |
 | **Control slots** | 4 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/143.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/144.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/145.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/146.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/147.mp3"></audio>

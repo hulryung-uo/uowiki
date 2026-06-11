@@ -1,0 +1,713 @@
+{
+  "_schema": {
+    "description": "Magery spell icon PNGs extracted from gumpartLegacyMUL.uop (small spellbook icons, gump 0x8C0..0x8FF). Keyed by magery spell id 1..64; slug matches data/spells.json.",
+    "extracted_by": "tools/extract_spell_icons.py",
+    "source": "uo-resource/gumpartLegacyMUL.uop"
+  },
+  "icons": {
+    "1": {
+      "name": "Clumsy",
+      "slug": "clumsy",
+      "gump_id": "0x8C0",
+      "icon": "small",
+      "png": "/img/spells/1.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "2": {
+      "name": "Create Food",
+      "slug": "create-food",
+      "gump_id": "0x8C1",
+      "icon": "small",
+      "png": "/img/spells/2.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "3": {
+      "name": "Feeblemind",
+      "slug": "feeblemind",
+      "gump_id": "0x8C2",
+      "icon": "small",
+      "png": "/img/spells/3.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "4": {
+      "name": "Heal",
+      "slug": "heal",
+      "gump_id": "0x8C3",
+      "icon": "small",
+      "png": "/img/spells/4.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "5": {
+      "name": "Magic Arrow",
+      "slug": "magic-arrow",
+      "gump_id": "0x8C4",
+      "icon": "small",
+      "png": "/img/spells/5.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "6": {
+      "name": "Night Sight",
+      "slug": "night-sight",
+      "gump_id": "0x8C5",
+      "icon": "small",
+      "png": "/img/spells/6.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "7": {
+      "name": "Reactive Armor",
+      "slug": "reactive-armor",
+      "gump_id": "0x8C6",
+      "icon": "small",
+      "png": "/img/spells/7.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "8": {
+      "name": "Weaken",
+      "slug": "weaken",
+      "gump_id": "0x8C7",
+      "icon": "small",
+      "png": "/img/spells/8.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "9": {
+      "name": "Agility",
+      "slug": "agility",
+      "gump_id": "0x8C8",
+      "icon": "small",
+      "png": "/img/spells/9.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "10": {
+      "name": "Cunning",
+      "slug": "cunning",
+      "gump_id": "0x8C9",
+      "icon": "small",
+      "png": "/img/spells/10.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "11": {
+      "name": "Cure",
+      "slug": "cure",
+      "gump_id": "0x8CA",
+      "icon": "small",
+      "png": "/img/spells/11.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "12": {
+      "name": "Harm",
+      "slug": "harm",
+      "gump_id": "0x8CB",
+      "icon": "small",
+      "png": "/img/spells/12.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "13": {
+      "name": "Magic Trap",
+      "slug": "magic-trap",
+      "gump_id": "0x8CC",
+      "icon": "small",
+      "png": "/img/spells/13.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "14": {
+      "name": "Remove Trap",
+      "slug": "remove-trap",
+      "gump_id": "0x8CD",
+      "icon": "small",
+      "png": "/img/spells/14.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "15": {
+      "name": "Protection",
+      "slug": "protection",
+      "gump_id": "0x8CE",
+      "icon": "small",
+      "png": "/img/spells/15.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "16": {
+      "name": "Strength",
+      "slug": "strength",
+      "gump_id": "0x8CF",
+      "icon": "small",
+      "png": "/img/spells/16.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "17": {
+      "name": "Bless",
+      "slug": "bless",
+      "gump_id": "0x8D0",
+      "icon": "small",
+      "png": "/img/spells/17.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "18": {
+      "name": "Fireball",
+      "slug": "fireball",
+      "gump_id": "0x8D1",
+      "icon": "small",
+      "png": "/img/spells/18.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "19": {
+      "name": "Magic Lock",
+      "slug": "magic-lock",
+      "gump_id": "0x8D2",
+      "icon": "small",
+      "png": "/img/spells/19.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "20": {
+      "name": "Poison",
+      "slug": "poison",
+      "gump_id": "0x8D3",
+      "icon": "small",
+      "png": "/img/spells/20.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "21": {
+      "name": "Telekinesis",
+      "slug": "telekinesis",
+      "gump_id": "0x8D4",
+      "icon": "small",
+      "png": "/img/spells/21.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "22": {
+      "name": "Teleport",
+      "slug": "teleport",
+      "gump_id": "0x8D5",
+      "icon": "small",
+      "png": "/img/spells/22.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "23": {
+      "name": "Unlock Spell",
+      "slug": "unlock-spell",
+      "gump_id": "0x8D6",
+      "icon": "small",
+      "png": "/img/spells/23.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "24": {
+      "name": "Wall of Stone",
+      "slug": "wall-of-stone",
+      "gump_id": "0x8D7",
+      "icon": "small",
+      "png": "/img/spells/24.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "25": {
+      "name": "Arch Cure",
+      "slug": "arch-cure",
+      "gump_id": "0x8D8",
+      "icon": "small",
+      "png": "/img/spells/25.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "26": {
+      "name": "Arch Protection",
+      "slug": "arch-protection",
+      "gump_id": "0x8D9",
+      "icon": "small",
+      "png": "/img/spells/26.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "27": {
+      "name": "Curse",
+      "slug": "curse",
+      "gump_id": "0x8DA",
+      "icon": "small",
+      "png": "/img/spells/27.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "28": {
+      "name": "Fire Field",
+      "slug": "fire-field",
+      "gump_id": "0x8DB",
+      "icon": "small",
+      "png": "/img/spells/28.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "29": {
+      "name": "Greater Heal",
+      "slug": "greater-heal",
+      "gump_id": "0x8DC",
+      "icon": "small",
+      "png": "/img/spells/29.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "30": {
+      "name": "Lightning",
+      "slug": "lightning",
+      "gump_id": "0x8DD",
+      "icon": "small",
+      "png": "/img/spells/30.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "31": {
+      "name": "Mana Drain",
+      "slug": "mana-drain",
+      "gump_id": "0x8DE",
+      "icon": "small",
+      "png": "/img/spells/31.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "32": {
+      "name": "Recall",
+      "slug": "recall",
+      "gump_id": "0x8DF",
+      "icon": "small",
+      "png": "/img/spells/32.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "33": {
+      "name": "Blade Spirits",
+      "slug": "blade-spirits",
+      "gump_id": "0x8E0",
+      "icon": "small",
+      "png": "/img/spells/33.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "34": {
+      "name": "Dispel Field",
+      "slug": "dispel-field",
+      "gump_id": "0x8E1",
+      "icon": "small",
+      "png": "/img/spells/34.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "35": {
+      "name": "Incognito",
+      "slug": "incognito",
+      "gump_id": "0x8E2",
+      "icon": "small",
+      "png": "/img/spells/35.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "36": {
+      "name": "Magic Reflection",
+      "slug": "magic-reflection",
+      "gump_id": "0x8E3",
+      "icon": "small",
+      "png": "/img/spells/36.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "37": {
+      "name": "Mind Blast",
+      "slug": "mind-blast",
+      "gump_id": "0x8E4",
+      "icon": "small",
+      "png": "/img/spells/37.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "38": {
+      "name": "Paralyze",
+      "slug": "paralyze",
+      "gump_id": "0x8E5",
+      "icon": "small",
+      "png": "/img/spells/38.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "39": {
+      "name": "Poison Field",
+      "slug": "poison-field",
+      "gump_id": "0x8E6",
+      "icon": "small",
+      "png": "/img/spells/39.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "40": {
+      "name": "Summon Creature",
+      "slug": "summon-creature",
+      "gump_id": "0x8E7",
+      "icon": "small",
+      "png": "/img/spells/40.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "41": {
+      "name": "Dispel",
+      "slug": "dispel",
+      "gump_id": "0x8E8",
+      "icon": "small",
+      "png": "/img/spells/41.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "42": {
+      "name": "Energy Bolt",
+      "slug": "energy-bolt",
+      "gump_id": "0x8E9",
+      "icon": "small",
+      "png": "/img/spells/42.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "43": {
+      "name": "Explosion",
+      "slug": "explosion",
+      "gump_id": "0x8EA",
+      "icon": "small",
+      "png": "/img/spells/43.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "44": {
+      "name": "Invisibility",
+      "slug": "invisibility",
+      "gump_id": "0x8EB",
+      "icon": "small",
+      "png": "/img/spells/44.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "45": {
+      "name": "Mark",
+      "slug": "mark",
+      "gump_id": "0x8EC",
+      "icon": "small",
+      "png": "/img/spells/45.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "46": {
+      "name": "Mass Curse",
+      "slug": "mass-curse",
+      "gump_id": "0x8ED",
+      "icon": "small",
+      "png": "/img/spells/46.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "47": {
+      "name": "Paralyze Field",
+      "slug": "paralyze-field",
+      "gump_id": "0x8EE",
+      "icon": "small",
+      "png": "/img/spells/47.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "48": {
+      "name": "Reveal",
+      "slug": "reveal",
+      "gump_id": "0x8EF",
+      "icon": "small",
+      "png": "/img/spells/48.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "49": {
+      "name": "Chain Lightning",
+      "slug": "chain-lightning",
+      "gump_id": "0x8F0",
+      "icon": "small",
+      "png": "/img/spells/49.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "50": {
+      "name": "Energy Field",
+      "slug": "energy-field",
+      "gump_id": "0x8F1",
+      "icon": "small",
+      "png": "/img/spells/50.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "51": {
+      "name": "Flame Strike",
+      "slug": "flame-strike",
+      "gump_id": "0x8F2",
+      "icon": "small",
+      "png": "/img/spells/51.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "52": {
+      "name": "Gate Travel",
+      "slug": "gate-travel",
+      "gump_id": "0x8F3",
+      "icon": "small",
+      "png": "/img/spells/52.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "53": {
+      "name": "Mana Vampire",
+      "slug": "mana-vampire",
+      "gump_id": "0x8F4",
+      "icon": "small",
+      "png": "/img/spells/53.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "54": {
+      "name": "Mass Dispel",
+      "slug": "mass-dispel",
+      "gump_id": "0x8F5",
+      "icon": "small",
+      "png": "/img/spells/54.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "55": {
+      "name": "Meteor Swarm",
+      "slug": "meteor-swarm",
+      "gump_id": "0x8F6",
+      "icon": "small",
+      "png": "/img/spells/55.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "56": {
+      "name": "Polymorph",
+      "slug": "polymorph",
+      "gump_id": "0x8F7",
+      "icon": "small",
+      "png": "/img/spells/56.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "57": {
+      "name": "Earthquake",
+      "slug": "earthquake",
+      "gump_id": "0x8F8",
+      "icon": "small",
+      "png": "/img/spells/57.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "58": {
+      "name": "Energy Vortex",
+      "slug": "energy-vortex",
+      "gump_id": "0x8F9",
+      "icon": "small",
+      "png": "/img/spells/58.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "59": {
+      "name": "Resurrection",
+      "slug": "resurrection",
+      "gump_id": "0x8FA",
+      "icon": "small",
+      "png": "/img/spells/59.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "60": {
+      "name": "Air Elemental",
+      "slug": "air-elemental",
+      "gump_id": "0x8FB",
+      "icon": "small",
+      "png": "/img/spells/60.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "61": {
+      "name": "Summon Daemon",
+      "slug": "summon-daemon",
+      "gump_id": "0x8FC",
+      "icon": "small",
+      "png": "/img/spells/61.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "62": {
+      "name": "Earth Elemental",
+      "slug": "earth-elemental",
+      "gump_id": "0x8FD",
+      "icon": "small",
+      "png": "/img/spells/62.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "63": {
+      "name": "Fire Elemental",
+      "slug": "fire-elemental",
+      "gump_id": "0x8FE",
+      "icon": "small",
+      "png": "/img/spells/63.png",
+      "size": [
+        44,
+        44
+      ]
+    },
+    "64": {
+      "name": "Water Elemental",
+      "slug": "water-elemental",
+      "gump_id": "0x8FF",
+      "icon": "small",
+      "png": "/img/spells/64.png",
+      "size": [
+        44,
+        44
+      ]
+    }
+  }
+}

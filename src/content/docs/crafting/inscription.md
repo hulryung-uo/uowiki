@@ -16,148 +16,148 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## First - Second Circle
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Reactive Armor | -25.0 – 25.0 | 1 Garlic, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Clumsy | -25.0 – 25.0 | 1 Blood Moss, 1 Nightshade, 1 Blank Scrolls |
-| Create Food | -25.0 – 25.0 | 1 Garlic, 1 Ginseng, 1 Mandrake Root, 1 Blank Scrolls |
-| Feeblemind | -25.0 – 25.0 | 1 Nightshade, 1 Ginseng, 1 Blank Scrolls |
-| Heal | -25.0 – 25.0 | 1 Garlic, 1 Ginseng, 1 Spiders' Silk, 1 Blank Scrolls |
-| Magic Arrow | -25.0 – 25.0 | 1 Sulfurous Ash, 1 Blank Scrolls |
-| Night Sight | -25.0 – 25.0 | 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Weaken | -25.0 – 25.0 | 1 Garlic, 1 Nightshade, 1 Blank Scrolls |
-| Agility | -10.8 – 39.2 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
-| Cunning | -10.8 – 39.2 | 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
-| Cure | -10.8 – 39.2 | 1 Garlic, 1 Ginseng, 1 Blank Scrolls |
-| Harm | -10.8 – 39.2 | 1 Nightshade, 1 Spiders' Silk, 1 Blank Scrolls |
-| Magic Trap | -10.8 – 39.2 | 1 Garlic, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Magic Untrap | -10.8 – 39.2 | 1 Blood Moss, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Protection | -10.8 – 39.2 | 1 Garlic, 1 Ginseng, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Strength | -10.8 – 39.2 | 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1F2D.png" alt="" width="28" /> | Reactive Armor | -25.0 – 25.0 | 1 Garlic, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F2E.png" alt="" width="28" /> | Clumsy | -25.0 – 25.0 | 1 Blood Moss, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F2F.png" alt="" width="28" /> | Create Food | -25.0 – 25.0 | 1 Garlic, 1 Ginseng, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F30.png" alt="" width="28" /> | Feeblemind | -25.0 – 25.0 | 1 Nightshade, 1 Ginseng, 1 Blank Scrolls |
+| <img src="/img/items/0x1F31.png" alt="" width="28" /> | Heal | -25.0 – 25.0 | 1 Garlic, 1 Ginseng, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F32.png" alt="" width="28" /> | Magic Arrow | -25.0 – 25.0 | 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F33.png" alt="" width="28" /> | Night Sight | -25.0 – 25.0 | 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F34.png" alt="" width="28" /> | Weaken | -25.0 – 25.0 | 1 Garlic, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F35.png" alt="" width="28" /> | Agility | -10.8 – 39.2 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F36.png" alt="" width="28" /> | Cunning | -10.8 – 39.2 | 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F37.png" alt="" width="28" /> | Cure | -10.8 – 39.2 | 1 Garlic, 1 Ginseng, 1 Blank Scrolls |
+| <img src="/img/items/0x1F38.png" alt="" width="28" /> | Harm | -10.8 – 39.2 | 1 Nightshade, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F39.png" alt="" width="28" /> | Magic Trap | -10.8 – 39.2 | 1 Garlic, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F3A.png" alt="" width="28" /> | Magic Untrap | -10.8 – 39.2 | 1 Blood Moss, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F3B.png" alt="" width="28" /> | Protection | -10.8 – 39.2 | 1 Garlic, 1 Ginseng, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F3C.png" alt="" width="28" /> | Strength | -10.8 – 39.2 | 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
 
 ## Third - Fourth Circle
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Bless | 3.5 – 53.5 | 1 Garlic, 1 Mandrake Root, 1 Blank Scrolls |
-| Fireball | 3.5 – 53.5 | 1 Black Pearl, 1 Blank Scrolls |
-| Magic Lock | 3.5 – 53.5 | 1 Blood Moss, 1 Garlic, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Poison | 3.5 – 53.5 | 1 Nightshade, 1 Blank Scrolls |
-| Telekinesis | 3.5 – 53.5 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
-| Teleport | 3.5 – 53.5 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
-| Unlock | 3.5 – 53.5 | 1 Blood Moss, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Wall of Stone | 3.5 – 53.5 | 1 Blood Moss, 1 Garlic, 1 Blank Scrolls |
-| Arch Cure | 17.8 – 67.8 | 1 Garlic, 1 Ginseng, 1 Mandrake Root, 1 Blank Scrolls |
-| Arch Protection | 17.8 – 67.8 | 1 Garlic, 1 Ginseng, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Curse | 17.8 – 67.8 | 1 Garlic, 1 Nightshade, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Fire Field | 17.8 – 67.8 | 1 Black Pearl, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Greater Heal | 17.8 – 67.8 | 1 Garlic, 1 Spiders' Silk, 1 Mandrake Root, 1 Ginseng, 1 Blank Scrolls |
-| Lightning | 17.8 – 67.8 | 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Mana Drain | 17.8 – 67.8 | 1 Black Pearl, 1 Spiders' Silk, 1 Mandrake Root, 1 Blank Scrolls |
-| Recall | 17.8 – 67.8 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1F3D.png" alt="" width="28" /> | Bless | 3.5 – 53.5 | 1 Garlic, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F3E.png" alt="" width="28" /> | Fireball | 3.5 – 53.5 | 1 Black Pearl, 1 Blank Scrolls |
+| <img src="/img/items/0x1F3F.png" alt="" width="28" /> | Magic Lock | 3.5 – 53.5 | 1 Blood Moss, 1 Garlic, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F40.png" alt="" width="28" /> | Poison | 3.5 – 53.5 | 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F41.png" alt="" width="28" /> | Telekinesis | 3.5 – 53.5 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F42.png" alt="" width="28" /> | Teleport | 3.5 – 53.5 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F43.png" alt="" width="28" /> | Unlock | 3.5 – 53.5 | 1 Blood Moss, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F44.png" alt="" width="28" /> | Wall of Stone | 3.5 – 53.5 | 1 Blood Moss, 1 Garlic, 1 Blank Scrolls |
+| <img src="/img/items/0x1F45.png" alt="" width="28" /> | Arch Cure | 17.8 – 67.8 | 1 Garlic, 1 Ginseng, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F46.png" alt="" width="28" /> | Arch Protection | 17.8 – 67.8 | 1 Garlic, 1 Ginseng, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F47.png" alt="" width="28" /> | Curse | 17.8 – 67.8 | 1 Garlic, 1 Nightshade, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F48.png" alt="" width="28" /> | Fire Field | 17.8 – 67.8 | 1 Black Pearl, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F49.png" alt="" width="28" /> | Greater Heal | 17.8 – 67.8 | 1 Garlic, 1 Spiders' Silk, 1 Mandrake Root, 1 Ginseng, 1 Blank Scrolls |
+| <img src="/img/items/0x1F4A.png" alt="" width="28" /> | Lightning | 17.8 – 67.8 | 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F4B.png" alt="" width="28" /> | Mana Drain | 17.8 – 67.8 | 1 Black Pearl, 1 Spiders' Silk, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F4C.png" alt="" width="28" /> | Recall | 17.8 – 67.8 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
 
 ## Fifth - Sixth Circle
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Blade Spirits | 32.1 – 82.1 | 1 Black Pearl, 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
-| Dispel Field | 32.1 – 82.1 | 1 Black Pearl, 1 Garlic, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Incognito | 32.1 – 82.1 | 1 Blood Moss, 1 Garlic, 1 Nightshade, 1 Blank Scrolls |
-| Magic Reflection | 32.1 – 82.1 | 1 Garlic, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Mind Blast | 32.1 – 82.1 | 1 Black Pearl, 1 Mandrake Root, 1 Nightshade, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Paralyze | 32.1 – 82.1 | 1 Garlic, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Poison Field | 32.1 – 82.1 | 1 Black Pearl, 1 Nightshade, 1 Spiders' Silk, 1 Blank Scrolls |
-| Summon Creature | 32.1 – 82.1 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Dispel | 46.4 – 96.4 | 1 Garlic, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Energy Bolt | 46.4 – 96.4 | 1 Black Pearl, 1 Nightshade, 1 Blank Scrolls |
-| Explosion | 46.4 – 96.4 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
-| Invisibility | 46.4 – 96.4 | 1 Blood Moss, 1 Nightshade, 1 Blank Scrolls |
-| Mark | 46.4 – 96.4 | 1 Blood Moss, 1 Black Pearl, 1 Mandrake Root, 1 Blank Scrolls |
-| Mass Curse | 46.4 – 96.4 | 1 Garlic, 1 Mandrake Root, 1 Nightshade, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Paralyze Field | 46.4 – 96.4 | 1 Black Pearl, 1 Ginseng, 1 Spiders' Silk, 1 Blank Scrolls |
-| Reveal | 46.4 – 96.4 | 1 Blood Moss, 1 Sulfurous Ash, 1 Blank Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1F4D.png" alt="" width="28" /> | Blade Spirits | 32.1 – 82.1 | 1 Black Pearl, 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F4E.png" alt="" width="28" /> | Dispel Field | 32.1 – 82.1 | 1 Black Pearl, 1 Garlic, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F4F.png" alt="" width="28" /> | Incognito | 32.1 – 82.1 | 1 Blood Moss, 1 Garlic, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F50.png" alt="" width="28" /> | Magic Reflection | 32.1 – 82.1 | 1 Garlic, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F51.png" alt="" width="28" /> | Mind Blast | 32.1 – 82.1 | 1 Black Pearl, 1 Mandrake Root, 1 Nightshade, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F52.png" alt="" width="28" /> | Paralyze | 32.1 – 82.1 | 1 Garlic, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F53.png" alt="" width="28" /> | Poison Field | 32.1 – 82.1 | 1 Black Pearl, 1 Nightshade, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F54.png" alt="" width="28" /> | Summon Creature | 32.1 – 82.1 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F55.png" alt="" width="28" /> | Dispel | 46.4 – 96.4 | 1 Garlic, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F56.png" alt="" width="28" /> | Energy Bolt | 46.4 – 96.4 | 1 Black Pearl, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F57.png" alt="" width="28" /> | Explosion | 46.4 – 96.4 | 1 Blood Moss, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F58.png" alt="" width="28" /> | Invisibility | 46.4 – 96.4 | 1 Blood Moss, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F59.png" alt="" width="28" /> | Mark | 46.4 – 96.4 | 1 Blood Moss, 1 Black Pearl, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x1F5A.png" alt="" width="28" /> | Mass Curse | 46.4 – 96.4 | 1 Garlic, 1 Mandrake Root, 1 Nightshade, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F5B.png" alt="" width="28" /> | Paralyze Field | 46.4 – 96.4 | 1 Black Pearl, 1 Ginseng, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F5C.png" alt="" width="28" /> | Reveal | 46.4 – 96.4 | 1 Blood Moss, 1 Sulfurous Ash, 1 Blank Scrolls |
 
 ## Seventh - Eighth Circle
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Chain Lightning | 60.7 – 110.7 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Energy Field | 60.7 – 110.7 | 1 Black Pearl, 1 Mandrake Root, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Flamestrike | 60.7 – 110.7 | 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Gate Travel | 60.7 – 110.7 | 1 Black Pearl, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Mana Vampire | 60.7 – 110.7 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Mass Dispel | 60.7 – 110.7 | 1 Black Pearl, 1 Garlic, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Meteor Swarm | 60.7 – 110.7 | 1 Blood Moss, 1 Mandrake Root, 1 Sulfurous Ash, 1 Spiders' Silk, 1 Blank Scrolls |
-| Polymorph | 60.7 – 110.7 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Earthquake | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Ginseng, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Energy Vortex | 75.0 – 125.0 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Nightshade, 1 Blank Scrolls |
-| Resurrection | 75.0 – 125.0 | 1 Blood Moss, 1 Garlic, 1 Ginseng, 1 Blank Scrolls |
-| Summon Air Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Summon Daemon | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Summon Earth Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
-| Summon Fire Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Summon Water Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1F5D.png" alt="" width="28" /> | Chain Lightning | 60.7 – 110.7 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F5E.png" alt="" width="28" /> | Energy Field | 60.7 – 110.7 | 1 Black Pearl, 1 Mandrake Root, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F5F.png" alt="" width="28" /> | Flamestrike | 60.7 – 110.7 | 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F60.png" alt="" width="28" /> | Gate Travel | 60.7 – 110.7 | 1 Black Pearl, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F61.png" alt="" width="28" /> | Mana Vampire | 60.7 – 110.7 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F62.png" alt="" width="28" /> | Mass Dispel | 60.7 – 110.7 | 1 Black Pearl, 1 Garlic, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F63.png" alt="" width="28" /> | Meteor Swarm | 60.7 – 110.7 | 1 Blood Moss, 1 Mandrake Root, 1 Sulfurous Ash, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F64.png" alt="" width="28" /> | Polymorph | 60.7 – 110.7 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F65.png" alt="" width="28" /> | Earthquake | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Ginseng, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F66.png" alt="" width="28" /> | Energy Vortex | 75.0 – 125.0 | 1 Black Pearl, 1 Blood Moss, 1 Mandrake Root, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x1F67.png" alt="" width="28" /> | Resurrection | 75.0 – 125.0 | 1 Blood Moss, 1 Garlic, 1 Ginseng, 1 Blank Scrolls |
+| <img src="/img/items/0x1F68.png" alt="" width="28" /> | Summon Air Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F69.png" alt="" width="28" /> | Summon Daemon | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F6A.png" alt="" width="28" /> | Summon Earth Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x1F6B.png" alt="" width="28" /> | Summon Fire Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x1F6C.png" alt="" width="28" /> | Summon Water Elemental | 75.0 – 125.0 | 1 Blood Moss, 1 Mandrake Root, 1 Spiders' Silk, 1 Blank Scrolls |
 
 ## Spells of Necromancy
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Animate Dead | 39.6 – 40.6 | 1 Grave Dust, 1 Daemon Blood, 1 Blank Scrolls |
-| Blood Oath | 19.6 – 20.6 | 1 Daemon Blood, 1 Blank Scrolls |
-| Corpse Skin | 19.6 – 20.6 | 1 Batwing, 1 Grave Dust, 1 Blank Scrolls |
-| Curse Weapon | 19.6 – 20.6 | 1 Pig Iron, 1 Blank Scrolls |
-| Evil Omen | 19.6 – 20.6 | 1 Batwing, 1 Nox Crystal, 1 Blank Scrolls |
-| Horrific Beast | 39.6 – 40.6 | 1 Batwing, 1 Daemon Blood, 1 Blank Scrolls |
-| Lich Form | 69.6 – 70.6 | 1 Grave Dust, 1 Daemon Blood, 1 Nox Crystal, 1 Blank Scrolls |
-| Mind Rot | 29.6 – 30.6 | 1 Batwing, 1 Daemon Blood, 1 Pig Iron, 1 Blank Scrolls |
-| Pain Spike | 19.6 – 20.6 | 1 Grave Dust, 1 Pig Iron, 1 Blank Scrolls |
-| Poison Strike | 49.6 – 50.6 | 1 Nox Crystal, 1 Blank Scrolls |
-| Strangle | 64.6 – 65.6 | 1 Daemon Blood, 1 Nox Crystal, 1 Blank Scrolls |
-| Summon Familiar | 29.6 – 30.6 | 1 Batwing, 1 Grave Dust, 1 Daemon Blood, 1 Blank Scrolls |
-| Vampiric Embrace | 98.6 – 99.6 | 1 Batwing, 1 Nox Crystal, 1 Pig Iron, 1 Blank Scrolls |
-| Vengeful Spirit | 79.6 – 80.6 | 1 Batwing, 1 Grave Dust, 1 Pig Iron, 1 Blank Scrolls |
-| Wither | 59.6 – 60.6 | 1 Grave Dust, 1 Nox Crystal, 1 Pig Iron, 1 Blank Scrolls |
-| Wraith Form | 19.6 – 20.6 | 1 Nox Crystal, 1 Pig Iron, 1 Blank Scrolls |
-| Exorcism | 79.6 – 80.6 | 1 Nox Crystal, 1 Grave Dust, 1 Blank Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x2260.png" alt="" width="28" /> | Animate Dead | 39.6 – 40.6 | 1 Grave Dust, 1 Daemon Blood, 1 Blank Scrolls |
+| <img src="/img/items/0x2261.png" alt="" width="28" /> | Blood Oath | 19.6 – 20.6 | 1 Daemon Blood, 1 Blank Scrolls |
+| <img src="/img/items/0x2262.png" alt="" width="28" /> | Corpse Skin | 19.6 – 20.6 | 1 Batwing, 1 Grave Dust, 1 Blank Scrolls |
+| <img src="/img/items/0x2263.png" alt="" width="28" /> | Curse Weapon | 19.6 – 20.6 | 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x2264.png" alt="" width="28" /> | Evil Omen | 19.6 – 20.6 | 1 Batwing, 1 Nox Crystal, 1 Blank Scrolls |
+| <img src="/img/items/0x2265.png" alt="" width="28" /> | Horrific Beast | 39.6 – 40.6 | 1 Batwing, 1 Daemon Blood, 1 Blank Scrolls |
+| <img src="/img/items/0x2266.png" alt="" width="28" /> | Lich Form | 69.6 – 70.6 | 1 Grave Dust, 1 Daemon Blood, 1 Nox Crystal, 1 Blank Scrolls |
+| <img src="/img/items/0x2267.png" alt="" width="28" /> | Mind Rot | 29.6 – 30.6 | 1 Batwing, 1 Daemon Blood, 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x2268.png" alt="" width="28" /> | Pain Spike | 19.6 – 20.6 | 1 Grave Dust, 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x2269.png" alt="" width="28" /> | Poison Strike | 49.6 – 50.6 | 1 Nox Crystal, 1 Blank Scrolls |
+| <img src="/img/items/0x226A.png" alt="" width="28" /> | Strangle | 64.6 – 65.6 | 1 Daemon Blood, 1 Nox Crystal, 1 Blank Scrolls |
+| <img src="/img/items/0x226B.png" alt="" width="28" /> | Summon Familiar | 29.6 – 30.6 | 1 Batwing, 1 Grave Dust, 1 Daemon Blood, 1 Blank Scrolls |
+| <img src="/img/items/0x226C.png" alt="" width="28" /> | Vampiric Embrace | 98.6 – 99.6 | 1 Batwing, 1 Nox Crystal, 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x226D.png" alt="" width="28" /> | Vengeful Spirit | 79.6 – 80.6 | 1 Batwing, 1 Grave Dust, 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x226E.png" alt="" width="28" /> | Wither | 59.6 – 60.6 | 1 Grave Dust, 1 Nox Crystal, 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x226F.png" alt="" width="28" /> | Wraith Form | 19.6 – 20.6 | 1 Nox Crystal, 1 Pig Iron, 1 Blank Scrolls |
+| <img src="/img/items/0x2270.png" alt="" width="28" /> | Exorcism | 79.6 – 80.6 | 1 Nox Crystal, 1 Grave Dust, 1 Blank Scrolls |
 
 ## Other
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Enchanted Switch | 45.0 – 95.0 | 1 Blank Scrolls, 1 Spiders' Silk, 1 Black Pearl, 1 Switch |
-| Runed Prism | 45.0 – 95.0 | 1 Blank Scrolls, 1 Spiders' Silk, 1 Black Pearl, 1 hollow prism |
-| Runebook | 45.0 – 95.0 | 8 Blank Scrolls, 1 Recall Scrolls, 1 Gate Scrolls |
-| Runic Atlas | 45.0 – 95.0 | 24 Blank Scrolls, 3 Unmarked Runes, 3 Recall Scrolls, 3 Gate Scrolls |
-| Bulk Order Book | 65.0 – 115.0 | 10 Blank Scrolls |
-| Spellbook | 50.0 – 126.0 | 10 Blank Scrolls |
-| Scrapper's Compendium | 75.0 – 125.0 | 100 Blank Scrolls, 1 Dread Horn Mane, 10 Taint, 10 Corruption |
-| Spellbook Engraving Tool | 75.0 – 100.0 | 1 Feathers, 7 Black Pearl |
-| Necromancer Spellbook | 50.0 – 100.0 | 10 Blank Scrolls |
-| Mysticism Spellbook | 50.0 – 100.0 | 10 Blank Scrolls |
-| exodus summoning rite | 95.0 – 120.0 | 5 Daemon Blood, 1 Taint, 5 Daemon Bone, 1 A Daemon Summoning Scroll |
-| Prophetic Manuscript | 90.0 – 115.0 | 10 Ancient Parchment, 1 Antique Documents Kit, 10 wood pulp, 5 Beeswax |
-| blank scroll | 50.0 – 100.0 | 1 wood pulp |
-| Scroll Binder | 75.0 – 125.0 | 1 wood pulp |
-| Book (100 pages) | 60.0 – 100.0 | 40 Blank Scrolls, 2 Beeswax |
-| Book (200 pages) | 72.0 – 100.0 | 40 Blank Scrolls, 4 Beeswax |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x2F5C.png" alt="" width="28" /> | Enchanted Switch | 45.0 – 95.0 | 1 Blank Scrolls, 1 Spiders' Silk, 1 Black Pearl, 1 Switch |
+| <img src="/img/items/0x2F57.png" alt="" width="28" /> | Runed Prism | 45.0 – 95.0 | 1 Blank Scrolls, 1 Spiders' Silk, 1 Black Pearl, 1 hollow prism |
+| <img src="/img/items/0x22C5.png" alt="" width="28" /> | Runebook | 45.0 – 95.0 | 8 Blank Scrolls, 1 Recall Scrolls, 1 Gate Scrolls |
+| <img src="/img/items/0x9C16.png" alt="" width="28" /> | Runic Atlas | 45.0 – 95.0 | 24 Blank Scrolls, 3 Unmarked Runes, 3 Recall Scrolls, 3 Gate Scrolls |
+| <img src="/img/items/0x2259.png" alt="" width="28" /> | Bulk Order Book | 65.0 – 115.0 | 10 Blank Scrolls |
+| <img src="/img/items/0x0EFA.png" alt="" width="28" /> | Spellbook | 50.0 – 126.0 | 10 Blank Scrolls |
+| <img src="/img/items/0x0EFA.png" alt="" width="28" /> | Scrapper's Compendium | 75.0 – 125.0 | 100 Blank Scrolls, 1 Dread Horn Mane, 10 Taint, 10 Corruption |
+| <img src="/img/items/0x0FBF.png" alt="" width="28" /> | Spellbook Engraving Tool | 75.0 – 100.0 | 1 Feathers, 7 Black Pearl |
+| <img src="/img/items/0x2253.png" alt="" width="28" /> | Necromancer Spellbook | 50.0 – 100.0 | 10 Blank Scrolls |
+| <img src="/img/items/0x2D9D.png" alt="" width="28" /> | Mysticism Spellbook | 50.0 – 100.0 | 10 Blank Scrolls |
+| <img src="/img/items/0x2258.png" alt="" width="28" /> | exodus summoning rite | 95.0 – 120.0 | 5 Daemon Blood, 1 Taint, 5 Daemon Bone, 1 A Daemon Summoning Scroll |
+| <img src="/img/items/0x42BF.png" alt="" width="28" /> | Prophetic Manuscript | 90.0 – 115.0 | 10 Ancient Parchment, 1 Antique Documents Kit, 10 wood pulp, 5 Beeswax |
+| <img src="/img/items/0x0EF3.png" alt="" width="28" /> | blank scroll | 50.0 – 100.0 | 1 wood pulp |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | Scroll Binder | 75.0 – 125.0 | 1 wood pulp |
+| <img src="/img/items/0x42B7.png" alt="" width="28" /> | Book (100 pages) | 60.0 – 100.0 | 40 Blank Scrolls, 2 Beeswax |
+| <img src="/img/items/0x42B8.png" alt="" width="28" /> | Book (200 pages) | 72.0 – 100.0 | 40 Blank Scrolls, 4 Beeswax |
 
 ## Spells of Mysticism
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Nether Bolt | 0.0 – 1.0 | 1 Sulfurous Ash, 1 Black Pearl, 1 Blank Scrolls |
-| Healing Stone | 0.0 – 1.0 | 1 Bone, 1 Garlic, 1 Ginseng, 1 Spiders' Silk, 1 Blank Scrolls |
-| Purge Magic | 0.0 – 1.0 | 1 Fertile Dirt, 1 Garlic, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Enchant | 0.0 – 1.0 | 1 Spiders' Silk, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
-| Sleep | 3.5 – 4.5 | 1 Spiders' Silk, 1 Black Pearl, 1 Nightshade, 1 Blank Scrolls |
-| Eagle Strike | 3.5 – 4.5 | 1 Spiders' Silk, 1 Blood Moss, 1 Mandrake Root, 1 Bone, 1 Blank Scrolls |
-| Animated Weapon | 17.8 – 18.8 | 1 Bone, 1 Black Pearl, 1 Mandrake Root, 1 Nightshade, 1 Blank Scrolls |
-| Stone Form | 17.8 – 18.8 | 1 Blood Moss, 1 Fertile Dirt, 1 Garlic, 1 Blank Scrolls |
-| Spell Trigger | 32.1 – 33.1 | 1 Spiders' Silk, 1 Mandrake Root, 1 Garlic, 1 Dragon's Blood, 1 Blank Scrolls |
-| Mass Sleep | 32.1 – 33.1 | 1 Spiders' Silk, 1 Nightshade, 1 Ginseng, 1 Blank Scrolls |
-| Cleansing Winds | 46.4 – 47.4 | 1 Ginseng, 1 Garlic, 1 Dragon's Blood, 1 Mandrake Root, 1 Blank Scrolls |
-| Bombard | 46.4 – 47.4 | 1 Garlic, 1 Dragon's Blood, 1 Sulfurous Ash, 1 Blood Moss, 1 Blank Scrolls |
-| Spell Plague | 60.7 – 61.7 | 1 Daemon Bone, 1 Dragon's Blood, 1 Mandrake Root, 1 Nightshade, 1 Sulfurous Ash, 1 Daemon Bone, 1 Blank Scrolls |
-| Hail Storm | 60.7 – 61.7 | 1 Dragon's Blood, 1 Black Pearl, 1 Mandrake Root, 1 Blood Moss, 1 Blank Scrolls |
-| Nether Cyclone | 75.0 – 76.0 | 1 Blood Moss, 1 Nightshade, 1 Sulfurous Ash, 1 Mandrake Root, 1 Blank Scrolls |
-| Rising Colossus | 75.0 – 76.0 | 1 Daemon Bone, 1 Fertile Dirt, 1 Dragon's Blood, 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x02A5.png" alt="" width="28" /> | Nether Bolt | 0.0 – 1.0 | 1 Sulfurous Ash, 1 Black Pearl, 1 Blank Scrolls |
+| <img src="/img/items/0x02A6.png" alt="" width="28" /> | Healing Stone | 0.0 – 1.0 | 1 Bone, 1 Garlic, 1 Ginseng, 1 Spiders' Silk, 1 Blank Scrolls |
+| <img src="/img/items/0x02A7.png" alt="" width="28" /> | Purge Magic | 0.0 – 1.0 | 1 Fertile Dirt, 1 Garlic, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x02A8.png" alt="" width="28" /> | Enchant | 0.0 – 1.0 | 1 Spiders' Silk, 1 Mandrake Root, 1 Sulfurous Ash, 1 Blank Scrolls |
+| <img src="/img/items/0x02A9.png" alt="" width="28" /> | Sleep | 3.5 – 4.5 | 1 Spiders' Silk, 1 Black Pearl, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x02AA.png" alt="" width="28" /> | Eagle Strike | 3.5 – 4.5 | 1 Spiders' Silk, 1 Blood Moss, 1 Mandrake Root, 1 Bone, 1 Blank Scrolls |
+| <img src="/img/items/0x02AB.png" alt="" width="28" /> | Animated Weapon | 17.8 – 18.8 | 1 Bone, 1 Black Pearl, 1 Mandrake Root, 1 Nightshade, 1 Blank Scrolls |
+| <img src="/img/items/0x02AC.png" alt="" width="28" /> | Stone Form | 17.8 – 18.8 | 1 Blood Moss, 1 Fertile Dirt, 1 Garlic, 1 Blank Scrolls |
+| <img src="/img/items/0x02AD.png" alt="" width="28" /> | Spell Trigger | 32.1 – 33.1 | 1 Spiders' Silk, 1 Mandrake Root, 1 Garlic, 1 Dragon's Blood, 1 Blank Scrolls |
+| <img src="/img/items/0x02AE.png" alt="" width="28" /> | Mass Sleep | 32.1 – 33.1 | 1 Spiders' Silk, 1 Nightshade, 1 Ginseng, 1 Blank Scrolls |
+| <img src="/img/items/0x02AF.png" alt="" width="28" /> | Cleansing Winds | 46.4 – 47.4 | 1 Ginseng, 1 Garlic, 1 Dragon's Blood, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x02B0.png" alt="" width="28" /> | Bombard | 46.4 – 47.4 | 1 Garlic, 1 Dragon's Blood, 1 Sulfurous Ash, 1 Blood Moss, 1 Blank Scrolls |
+| <img src="/img/items/0x02B1.png" alt="" width="28" /> | Spell Plague | 60.7 – 61.7 | 1 Daemon Bone, 1 Dragon's Blood, 1 Mandrake Root, 1 Nightshade, 1 Sulfurous Ash, 1 Daemon Bone, 1 Blank Scrolls |
+| <img src="/img/items/0x02B2.png" alt="" width="28" /> | Hail Storm | 60.7 – 61.7 | 1 Dragon's Blood, 1 Black Pearl, 1 Mandrake Root, 1 Blood Moss, 1 Blank Scrolls |
+| <img src="/img/items/0x02B3.png" alt="" width="28" /> | Nether Cyclone | 75.0 – 76.0 | 1 Blood Moss, 1 Nightshade, 1 Sulfurous Ash, 1 Mandrake Root, 1 Blank Scrolls |
+| <img src="/img/items/0x02B4.png" alt="" width="28" /> | Rising Colossus | 75.0 – 76.0 | 1 Daemon Bone, 1 Fertile Dirt, 1 Dragon's Blood, 1 Nightshade, 1 Mandrake Root, 1 Blank Scrolls |

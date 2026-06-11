@@ -16,246 +16,246 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Metal Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| ringmail gloves | 12.0 – 62.0 | 10 Ingots |
-| ringmail leggings | 19.4 – 69.4 | 16 Ingots |
-| ringmail sleeves | 16.9 – 66.9 | 14 Ingots |
-| ringmail tunic | 21.9 – 71.9 | 18 Ingots |
-| chainmail coif | 14.5 – 64.5 | 10 Ingots |
-| chainmail leggings | 36.7 – 86.7 | 18 Ingots |
-| chainmail tunic | 39.1 – 89.1 | 20 Ingots |
-| platemail arms | 66.3 – 116.3 | 18 Ingots |
-| platemail gloves | 58.9 – 108.9 | 12 Ingots |
-| platemail gorget | 56.4 – 106.4 | 10 Ingots |
-| platemail legs | 68.8 – 118.8 | 20 Ingots |
-| platemail (tunic) | 75.0 – 125.0 | 25 Ingots |
-| platemail (female) | 44.1 – 94.1 | 20 Ingots |
-| dragon barding deed | 72.5 – 122.5 | 750 Ingots |
-| platemail mempo | 80.0 – 130.0 | 18 Ingots |
-| platemail do | 80.0 – 130.0 | 28 Ingots |
-| platemail hiro sode | 80.0 – 130.0 | 16 Ingots |
-| platemail suneate | 65.0 – 115.0 | 20 Ingots |
-| platemail haidate | 65.0 – 115.0 | 20 Ingots |
-| gargish platemail arms | 66.3 – 116.3 | 18 Ingots |
-| gargish platemail chest | 75.0 – 125.0 | 25 Ingots |
-| gargish platemail leggings | 68.8 – 118.8 | 20 Ingots |
-| gargish platemail kilt | 58.9 – 108.9 | 12 Ingots |
-| gargish platemail arms | 66.3 – 116.3 | 18 Ingots |
-| gargish platemail chest | 75.0 – 125.0 | 25 Ingots |
-| gargish platemail leggings | 68.8 – 118.8 | 20 Ingots |
-| gargish platemail kilt | 58.9 – 108.9 | 12 Ingots |
-| Gargish Amulet | 60.0 – 110.0 | 3 Ingots |
-| britches of warding | 120.0 – 120.1 | 18 Ingots, 1 Leggings of Bane, 4 Turquoise, 5 Blood of the Dark Father |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x13EB.png" alt="" width="28" /> | ringmail gloves | 12.0 – 62.0 | 10 Ingots |
+| <img src="/img/items/0x13F0.png" alt="" width="28" /> | ringmail leggings | 19.4 – 69.4 | 16 Ingots |
+| <img src="/img/items/0x13EE.png" alt="" width="28" /> | ringmail sleeves | 16.9 – 66.9 | 14 Ingots |
+| <img src="/img/items/0x13EC.png" alt="" width="28" /> | ringmail tunic | 21.9 – 71.9 | 18 Ingots |
+| <img src="/img/items/0x13BB.png" alt="" width="28" /> | chainmail coif | 14.5 – 64.5 | 10 Ingots |
+| <img src="/img/items/0x13BE.png" alt="" width="28" /> | chainmail leggings | 36.7 – 86.7 | 18 Ingots |
+| <img src="/img/items/0x13BF.png" alt="" width="28" /> | chainmail tunic | 39.1 – 89.1 | 20 Ingots |
+| <img src="/img/items/0x1410.png" alt="" width="28" /> | platemail arms | 66.3 – 116.3 | 18 Ingots |
+| <img src="/img/items/0x1414.png" alt="" width="28" /> | platemail gloves | 58.9 – 108.9 | 12 Ingots |
+| <img src="/img/items/0x1413.png" alt="" width="28" /> | platemail gorget | 56.4 – 106.4 | 10 Ingots |
+| <img src="/img/items/0x1411.png" alt="" width="28" /> | platemail legs | 68.8 – 118.8 | 20 Ingots |
+| <img src="/img/items/0x1415.png" alt="" width="28" /> | platemail (tunic) | 75.0 – 125.0 | 25 Ingots |
+| <img src="/img/items/0x1C04.png" alt="" width="28" /> | platemail (female) | 44.1 – 94.1 | 20 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | dragon barding deed | 72.5 – 122.5 | 750 Ingots |
+| <img src="/img/items/0x2779.png" alt="" width="28" /> | platemail mempo | 80.0 – 130.0 | 18 Ingots |
+| <img src="/img/items/0x277D.png" alt="" width="28" /> | platemail do | 80.0 – 130.0 | 28 Ingots |
+| <img src="/img/items/0x2780.png" alt="" width="28" /> | platemail hiro sode | 80.0 – 130.0 | 16 Ingots |
+| <img src="/img/items/0x2788.png" alt="" width="28" /> | platemail suneate | 65.0 – 115.0 | 20 Ingots |
+| <img src="/img/items/0x278D.png" alt="" width="28" /> | platemail haidate | 65.0 – 115.0 | 20 Ingots |
+| <img src="/img/items/0x0307.png" alt="" width="28" /> | gargish platemail arms | 66.3 – 116.3 | 18 Ingots |
+| <img src="/img/items/0x0309.png" alt="" width="28" /> | gargish platemail chest | 75.0 – 125.0 | 25 Ingots |
+| <img src="/img/items/0x030D.png" alt="" width="28" /> | gargish platemail leggings | 68.8 – 118.8 | 20 Ingots |
+| <img src="/img/items/0x030B.png" alt="" width="28" /> | gargish platemail kilt | 58.9 – 108.9 | 12 Ingots |
+| <img src="/img/items/0x0308.png" alt="" width="28" /> | gargish platemail arms | 66.3 – 116.3 | 18 Ingots |
+| <img src="/img/items/0x030A.png" alt="" width="28" /> | gargish platemail chest | 75.0 – 125.0 | 25 Ingots |
+| <img src="/img/items/0x030E.png" alt="" width="28" /> | gargish platemail leggings | 68.8 – 118.8 | 20 Ingots |
+| <img src="/img/items/0x030C.png" alt="" width="28" /> | gargish platemail kilt | 58.9 – 108.9 | 12 Ingots |
+| <img src="/img/items/0x4D0B.png" alt="" width="28" /> | Gargish Amulet | 60.0 – 110.0 | 3 Ingots |
+| <img src="/img/items/0x13BE.png" alt="" width="28" /> | britches of warding | 120.0 – 120.1 | 18 Ingots, 1 Leggings of Bane, 4 Turquoise, 5 Blood of the Dark Father |
 
 ## Helmets
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bascinet | 8.3 – 58.3 | 15 Ingots |
-| close helmet | 37.9 – 87.9 | 15 Ingots |
-| helmet | 37.9 – 87.9 | 15 Ingots |
-| norse helm | 37.9 – 87.9 | 15 Ingots |
-| plate helm | 62.6 – 112.6 | 15 Ingots |
-| chainmail hatsuburi | 30.0 – 80.0 | 20 Ingots |
-| platemail hatsuburi | 45.0 – 95.0 | 20 Ingots |
-| heavy platemail jingasa | 45.0 – 95.0 | 20 Ingots |
-| light platemail jingasa | 45.0 – 95.0 | 20 Ingots |
-| small platemail jingasa | 45.0 – 95.0 | 20 Ingots |
-| decorative platemail kabuto | 90.0 – 140.0 | 25 Ingots |
-| platemail battle kabuto | 90.0 – 140.0 | 25 Ingots |
-| standard platemail kabuto | 90.0 – 140.0 | 25 Ingots |
-| circlet | 62.1 – 112.1 | 6 Ingots |
-| royal circlet | 70.0 – 120.0 | 6 Ingots |
-| gemmed circlet | 75.0 – 125.0 | 6 Ingots, 1 Tourmalines, 1 Amethysts, 1 Blue Diamond |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x140C.png" alt="" width="28" /> | bascinet | 8.3 – 58.3 | 15 Ingots |
+| <img src="/img/items/0x1408.png" alt="" width="28" /> | close helmet | 37.9 – 87.9 | 15 Ingots |
+| <img src="/img/items/0x140A.png" alt="" width="28" /> | helmet | 37.9 – 87.9 | 15 Ingots |
+| <img src="/img/items/0x140E.png" alt="" width="28" /> | norse helm | 37.9 – 87.9 | 15 Ingots |
+| <img src="/img/items/0x1412.png" alt="" width="28" /> | plate helm | 62.6 – 112.6 | 15 Ingots |
+| <img src="/img/items/0x2774.png" alt="" width="28" /> | chainmail hatsuburi | 30.0 – 80.0 | 20 Ingots |
+| <img src="/img/items/0x2775.png" alt="" width="28" /> | platemail hatsuburi | 45.0 – 95.0 | 20 Ingots |
+| <img src="/img/items/0x2777.png" alt="" width="28" /> | heavy platemail jingasa | 45.0 – 95.0 | 20 Ingots |
+| <img src="/img/items/0x2781.png" alt="" width="28" /> | light platemail jingasa | 45.0 – 95.0 | 20 Ingots |
+| <img src="/img/items/0x2784.png" alt="" width="28" /> | small platemail jingasa | 45.0 – 95.0 | 20 Ingots |
+| <img src="/img/items/0x2778.png" alt="" width="28" /> | decorative platemail kabuto | 90.0 – 140.0 | 25 Ingots |
+| <img src="/img/items/0x2785.png" alt="" width="28" /> | platemail battle kabuto | 90.0 – 140.0 | 25 Ingots |
+| <img src="/img/items/0x2789.png" alt="" width="28" /> | standard platemail kabuto | 90.0 – 140.0 | 25 Ingots |
+| <img src="/img/items/0x2B6E.png" alt="" width="28" /> | circlet | 62.1 – 112.1 | 6 Ingots |
+| <img src="/img/items/0x2B6F.png" alt="" width="28" /> | royal circlet | 70.0 – 120.0 | 6 Ingots |
+| <img src="/img/items/0x2B70.png" alt="" width="28" /> | gemmed circlet | 75.0 – 125.0 | 6 Ingots, 1 Tourmalines, 1 Amethysts, 1 Blue Diamond |
 
 ## Shields
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| buckler | -25.0 – 25.0 | 10 Ingots |
-| bronze shield | -15.2 – 34.8 | 12 Ingots |
-| heater shield | 24.3 – 74.3 | 18 Ingots |
-| metal shield | -10.2 – 39.8 | 14 Ingots |
-| metal kite shield | 4.6 – 54.6 | 16 Ingots |
-| tear kite shield | -15.2 – 34.8 | 8 Ingots |
-| chaos shield | 85.0 – 135.0 | 25 Ingots |
-| order shield | 85.0 – 135.0 | 25 Ingots |
-| small plate shield | -25.0 – 25.0 | 12 Ingots |
-| gargish kite shield | 4.6 – 54.6 | 16 Ingots |
-| large plate shield | 24.3 – 74.3 | 18 Ingots |
-| medium plate shield | -10.2 – 39.8 | 14 Ingots |
-| gargish Chaos shield | 85.0 – 135.0 | 25 Ingots |
-| gargish Order shield | 85.0 – 135.0 | 25 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1B73.png" alt="" width="28" /> | buckler | -25.0 – 25.0 | 10 Ingots |
+| <img src="/img/items/0x1B72.png" alt="" width="28" /> | bronze shield | -15.2 – 34.8 | 12 Ingots |
+| <img src="/img/items/0x1B76.png" alt="" width="28" /> | heater shield | 24.3 – 74.3 | 18 Ingots |
+| <img src="/img/items/0x1B7B.png" alt="" width="28" /> | metal shield | -10.2 – 39.8 | 14 Ingots |
+| <img src="/img/items/0x1B74.png" alt="" width="28" /> | metal kite shield | 4.6 – 54.6 | 16 Ingots |
+| <img src="/img/items/0x1B78.png" alt="" width="28" /> | tear kite shield | -15.2 – 34.8 | 8 Ingots |
+| <img src="/img/items/0x1BC3.png" alt="" width="28" /> | chaos shield | 85.0 – 135.0 | 25 Ingots |
+| <img src="/img/items/0x1BC4.png" alt="" width="28" /> | order shield | 85.0 – 135.0 | 25 Ingots |
+| <img src="/img/items/0x4202.png" alt="" width="28" /> | small plate shield | -25.0 – 25.0 | 12 Ingots |
+| <img src="/img/items/0x4201.png" alt="" width="28" /> | gargish kite shield | 4.6 – 54.6 | 16 Ingots |
+| <img src="/img/items/0x4204.png" alt="" width="28" /> | large plate shield | 24.3 – 74.3 | 18 Ingots |
+| <img src="/img/items/0x4203.png" alt="" width="28" /> | medium plate shield | -10.2 – 39.8 | 14 Ingots |
+| <img src="/img/items/0x4228.png" alt="" width="28" /> | gargish Chaos shield | 85.0 – 135.0 | 25 Ingots |
+| <img src="/img/items/0x422A.png" alt="" width="28" /> | gargish Order shield | 85.0 – 135.0 | 25 Ingots |
 
 ## Bladed
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bone harvester | 33.0 – 83.0 | 10 Ingots |
-| broadsword | 35.4 – 85.4 | 10 Ingots |
-| crescent blade | 45.0 – 95.0 | 14 Ingots |
-| cutlass | 24.3 – 74.3 | 8 Ingots |
-| dagger | -0.4 – 49.6 | 3 Ingots |
-| katana | 44.1 – 94.1 | 8 Ingots |
-| kryss | 36.7 – 86.7 | 8 Ingots |
-| longsword | 28.0 – 78.0 | 12 Ingots |
-| scimitar | 31.7 – 81.7 | 10 Ingots |
-| viking sword | 24.3 – 74.3 | 14 Ingots |
-| no-dachi | 75.0 – 125.0 | 18 Ingots |
-| wakizashi | 50.0 – 100.0 | 8 Ingots |
-| lajatang | 80.0 – 130.0 | 25 Ingots |
-| daisho | 60.0 – 110.0 | 15 Ingots |
-| tekagi | 55.0 – 105.0 | 12 Ingots |
-| shuriken | 45.0 – 95.0 | 5 Ingots |
-| kama | 40.0 – 90.0 | 14 Ingots |
-| sai | 50.0 – 100.0 | 12 Ingots |
-| radiant scimitar | 75.0 – 125.0 | 15 Ingots |
-| war cleaver | 70.0 – 120.0 | 18 Ingots |
-| elven spellblade | 70.0 – 120.0 | 14 Ingots |
-| assassin spike | 70.0 – 120.0 | 9 Ingots |
-| leafblade | 70.0 – 120.0 | 12 Ingots |
-| rune blade | 70.0 – 120.0 | 15 Ingots |
-| elven machete | 70.0 – 120.0 | 14 Ingots |
-| Rune Carving Knife | 70.0 – 120.0 | 9 Ingots, 1 Dread Horn Mane, 10 Putrefaction, 10 Muculent |
-| Cold Forged Blade | 70.0 – 120.0 | 18 Ingots, 1 Grizzled Bones, 10 Grizzled Bones, 10 Blight |
-| Overseer Sundered Blade | 70.0 – 120.0 | 15 Ingots, 1 Grizzled Bones, 10 Blight, 10 Scourge |
-| Luminous Rune Blade | 70.0 – 120.0 | 15 Ingots, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
-| true spellblade | 75.0 – 125.0 | 14 Ingots, 1 Blue Diamond |
-| icy spellblade | 75.0 – 125.0 | 14 Ingots, 1 Turquoise |
-| fiery spellblade | 75.0 – 125.0 | 14 Ingots, 1 Fire Ruby |
-| spellblade of defense | 75.0 – 125.0 | 18 Ingots, 1 White Pearl |
-| true assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Dark Sapphire |
-| charged assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Ecru Citrine |
-| magekiller assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Brilliant Amber |
-| wounding assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Perfect Emerald |
-| true leafblade | 75.0 – 125.0 | 12 Ingots, 1 Blue Diamond |
-| luckblade | 75.0 – 125.0 | 12 Ingots, 1 White Pearl |
-| magekiller leafblade | 75.0 – 125.0 | 12 Ingots, 1 Fire Ruby |
-| leafblade of ease | 75.0 – 125.0 | 12 Ingots, 1 Perfect Emerald |
-| knight's war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Perfect Emerald |
-| butcher's war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Turquoise |
-| serrated war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Ecru Citrine |
-| true war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Brilliant Amber |
-| adventurer's machete | 75.0 – 125.0 | 14 Ingots, 1 White Pearl |
-| Orcish Machete | 75.0 – 125.0 | 14 Ingots, 1 Scourge |
-| machete of defense | 75.0 – 125.0 | 14 Ingots, 1 Brilliant Amber |
-| Diseased Machete | 75.0 – 125.0 | 14 Ingots, 1 Blight |
-| runesabre | 75.0 – 125.0 | 15 Ingots, 1 Turquoise |
-| mage's rune blade | 75.0 – 125.0 | 15 Ingots, 1 Blue Diamond |
-| rune blade of knowledge | 75.0 – 125.0 | 15 Ingots, 1 Ecru Citrine |
-| Corrupted Rune Blade | 75.0 – 125.0 | 15 Ingots, 1 Corruption |
-| true radiant scimitar | 75.0 – 125.0 | 15 Ingots, 1 Brilliant Amber |
-| darkglow scimitar | 75.0 – 125.0 | 15 Ingots, 1 Dark Sapphire |
-| icy scimitar | 75.0 – 125.0 | 15 Ingots, 1 Dark Sapphire |
-| twinkling scimitar | 75.0 – 125.0 | 15 Ingots, 1 Dark Sapphire |
-| bone machete | 45.0 – 95.0 | 20 Ingots, 6 Bones |
-| gargish katana | 44.1 – 94.1 | 8 Ingots |
-| gargish kryss | 36.7 – 86.7 | 8 Ingots |
-| gargish bone harvester | 33.0 – 83.0 | 10 Ingots |
-| gargish tekagi | 55.0 – 105.0 | 12 Ingots |
-| gargish daisho | 60.0 – 110.0 | 15 Ingots |
-| dread sword | 75.0 – 125.0 | 14 Ingots |
-| gargish talwar | 75.0 – 150.0 | 18 Ingots |
-| gargish dagger | 0.0 – 100.0 | 3 Ingots |
-| bloodblade | 44.1 – 125.0 | 8 Ingots |
-| shortblade | 28.0 – 100.0 | 12 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x26BB.png" alt="" width="28" /> | bone harvester | 33.0 – 83.0 | 10 Ingots |
+| <img src="/img/items/0x0F5E.png" alt="" width="28" /> | broadsword | 35.4 – 85.4 | 10 Ingots |
+| <img src="/img/items/0x26C1.png" alt="" width="28" /> | crescent blade | 45.0 – 95.0 | 14 Ingots |
+| <img src="/img/items/0x1441.png" alt="" width="28" /> | cutlass | 24.3 – 74.3 | 8 Ingots |
+| <img src="/img/items/0x0F52.png" alt="" width="28" /> | dagger | -0.4 – 49.6 | 3 Ingots |
+| <img src="/img/items/0x13FF.png" alt="" width="28" /> | katana | 44.1 – 94.1 | 8 Ingots |
+| <img src="/img/items/0x1401.png" alt="" width="28" /> | kryss | 36.7 – 86.7 | 8 Ingots |
+| <img src="/img/items/0x0F61.png" alt="" width="28" /> | longsword | 28.0 – 78.0 | 12 Ingots |
+| <img src="/img/items/0x13B6.png" alt="" width="28" /> | scimitar | 31.7 – 81.7 | 10 Ingots |
+| <img src="/img/items/0x13B9.png" alt="" width="28" /> | viking sword | 24.3 – 74.3 | 14 Ingots |
+| <img src="/img/items/0x27A2.png" alt="" width="28" /> | no-dachi | 75.0 – 125.0 | 18 Ingots |
+| <img src="/img/items/0x27A4.png" alt="" width="28" /> | wakizashi | 50.0 – 100.0 | 8 Ingots |
+| <img src="/img/items/0x27A7.png" alt="" width="28" /> | lajatang | 80.0 – 130.0 | 25 Ingots |
+| <img src="/img/items/0x27A9.png" alt="" width="28" /> | daisho | 60.0 – 110.0 | 15 Ingots |
+| <img src="/img/items/0x27AB.png" alt="" width="28" /> | tekagi | 55.0 – 105.0 | 12 Ingots |
+| <img src="/img/items/0x27AC.png" alt="" width="28" /> | shuriken | 45.0 – 95.0 | 5 Ingots |
+| <img src="/img/items/0x27AD.png" alt="" width="28" /> | kama | 40.0 – 90.0 | 14 Ingots |
+| <img src="/img/items/0x27AF.png" alt="" width="28" /> | sai | 50.0 – 100.0 | 12 Ingots |
+| <img src="/img/items/0x2D33.png" alt="" width="28" /> | radiant scimitar | 75.0 – 125.0 | 15 Ingots |
+| <img src="/img/items/0x2D2F.png" alt="" width="28" /> | war cleaver | 70.0 – 120.0 | 18 Ingots |
+| <img src="/img/items/0x2D20.png" alt="" width="28" /> | elven spellblade | 70.0 – 120.0 | 14 Ingots |
+| <img src="/img/items/0x2D21.png" alt="" width="28" /> | assassin spike | 70.0 – 120.0 | 9 Ingots |
+| <img src="/img/items/0x2D22.png" alt="" width="28" /> | leafblade | 70.0 – 120.0 | 12 Ingots |
+| <img src="/img/items/0x2D32.png" alt="" width="28" /> | rune blade | 70.0 – 120.0 | 15 Ingots |
+| <img src="/img/items/0x2D35.png" alt="" width="28" /> | elven machete | 70.0 – 120.0 | 14 Ingots |
+| <img src="/img/items/0x2D21.png" alt="" width="28" /> | Rune Carving Knife | 70.0 – 120.0 | 9 Ingots, 1 Dread Horn Mane, 10 Putrefaction, 10 Muculent |
+| <img src="/img/items/0x2D20.png" alt="" width="28" /> | Cold Forged Blade | 70.0 – 120.0 | 18 Ingots, 1 Grizzled Bones, 10 Grizzled Bones, 10 Blight |
+| <img src="/img/items/0x2D33.png" alt="" width="28" /> | Overseer Sundered Blade | 70.0 – 120.0 | 15 Ingots, 1 Grizzled Bones, 10 Blight, 10 Scourge |
+| <img src="/img/items/0x2D32.png" alt="" width="28" /> | Luminous Rune Blade | 70.0 – 120.0 | 15 Ingots, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x2D20.png" alt="" width="28" /> | true spellblade | 75.0 – 125.0 | 14 Ingots, 1 Blue Diamond |
+| <img src="/img/items/0x2D20.png" alt="" width="28" /> | icy spellblade | 75.0 – 125.0 | 14 Ingots, 1 Turquoise |
+| <img src="/img/items/0x2D20.png" alt="" width="28" /> | fiery spellblade | 75.0 – 125.0 | 14 Ingots, 1 Fire Ruby |
+| <img src="/img/items/0x2D20.png" alt="" width="28" /> | spellblade of defense | 75.0 – 125.0 | 18 Ingots, 1 White Pearl |
+| <img src="/img/items/0x2D21.png" alt="" width="28" /> | true assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Dark Sapphire |
+| <img src="/img/items/0x2D21.png" alt="" width="28" /> | charged assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Ecru Citrine |
+| <img src="/img/items/0x2D21.png" alt="" width="28" /> | magekiller assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Brilliant Amber |
+| <img src="/img/items/0x2D21.png" alt="" width="28" /> | wounding assassin spike | 75.0 – 125.0 | 9 Ingots, 1 Perfect Emerald |
+| <img src="/img/items/0x2D22.png" alt="" width="28" /> | true leafblade | 75.0 – 125.0 | 12 Ingots, 1 Blue Diamond |
+| <img src="/img/items/0x2D22.png" alt="" width="28" /> | luckblade | 75.0 – 125.0 | 12 Ingots, 1 White Pearl |
+| <img src="/img/items/0x2D22.png" alt="" width="28" /> | magekiller leafblade | 75.0 – 125.0 | 12 Ingots, 1 Fire Ruby |
+| <img src="/img/items/0x2D22.png" alt="" width="28" /> | leafblade of ease | 75.0 – 125.0 | 12 Ingots, 1 Perfect Emerald |
+| <img src="/img/items/0x2D2F.png" alt="" width="28" /> | knight's war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Perfect Emerald |
+| <img src="/img/items/0x2D2F.png" alt="" width="28" /> | butcher's war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Turquoise |
+| <img src="/img/items/0x2D2F.png" alt="" width="28" /> | serrated war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Ecru Citrine |
+| <img src="/img/items/0x2D2F.png" alt="" width="28" /> | true war cleaver | 75.0 – 125.0 | 18 Ingots, 1 Brilliant Amber |
+| <img src="/img/items/0x2D35.png" alt="" width="28" /> | adventurer's machete | 75.0 – 125.0 | 14 Ingots, 1 White Pearl |
+| <img src="/img/items/0x2D35.png" alt="" width="28" /> | Orcish Machete | 75.0 – 125.0 | 14 Ingots, 1 Scourge |
+| <img src="/img/items/0x2D35.png" alt="" width="28" /> | machete of defense | 75.0 – 125.0 | 14 Ingots, 1 Brilliant Amber |
+| <img src="/img/items/0x2D35.png" alt="" width="28" /> | Diseased Machete | 75.0 – 125.0 | 14 Ingots, 1 Blight |
+| <img src="/img/items/0x2D32.png" alt="" width="28" /> | runesabre | 75.0 – 125.0 | 15 Ingots, 1 Turquoise |
+| <img src="/img/items/0x2D32.png" alt="" width="28" /> | mage's rune blade | 75.0 – 125.0 | 15 Ingots, 1 Blue Diamond |
+| <img src="/img/items/0x2D32.png" alt="" width="28" /> | rune blade of knowledge | 75.0 – 125.0 | 15 Ingots, 1 Ecru Citrine |
+| <img src="/img/items/0x2D32.png" alt="" width="28" /> | Corrupted Rune Blade | 75.0 – 125.0 | 15 Ingots, 1 Corruption |
+| <img src="/img/items/0x2D33.png" alt="" width="28" /> | true radiant scimitar | 75.0 – 125.0 | 15 Ingots, 1 Brilliant Amber |
+| <img src="/img/items/0x2D33.png" alt="" width="28" /> | darkglow scimitar | 75.0 – 125.0 | 15 Ingots, 1 Dark Sapphire |
+| <img src="/img/items/0x2D33.png" alt="" width="28" /> | icy scimitar | 75.0 – 125.0 | 15 Ingots, 1 Dark Sapphire |
+| <img src="/img/items/0x2D33.png" alt="" width="28" /> | twinkling scimitar | 75.0 – 125.0 | 15 Ingots, 1 Dark Sapphire |
+| <img src="/img/items/0x2D35.png" alt="" width="28" /> | bone machete | 45.0 – 95.0 | 20 Ingots, 6 Bones |
+| <img src="/img/items/0x48BA.png" alt="" width="28" /> | gargish katana | 44.1 – 94.1 | 8 Ingots |
+| <img src="/img/items/0x48BC.png" alt="" width="28" /> | gargish kryss | 36.7 – 86.7 | 8 Ingots |
+| <img src="/img/items/0x48C6.png" alt="" width="28" /> | gargish bone harvester | 33.0 – 83.0 | 10 Ingots |
+| <img src="/img/items/0x48CE.png" alt="" width="28" /> | gargish tekagi | 55.0 – 105.0 | 12 Ingots |
+| <img src="/img/items/0x48D0.png" alt="" width="28" /> | gargish daisho | 60.0 – 110.0 | 15 Ingots |
+| <img src="/img/items/0x090B.png" alt="" width="28" /> | dread sword | 75.0 – 125.0 | 14 Ingots |
+| <img src="/img/items/0x0908.png" alt="" width="28" /> | gargish talwar | 75.0 – 150.0 | 18 Ingots |
+| <img src="/img/items/0x0902.png" alt="" width="28" /> | gargish dagger | 0.0 – 100.0 | 3 Ingots |
+| <img src="/img/items/0x08FE.png" alt="" width="28" /> | bloodblade | 44.1 – 125.0 | 8 Ingots |
+| <img src="/img/items/0x0907.png" alt="" width="28" /> | shortblade | 28.0 – 100.0 | 12 Ingots |
 
 ## Axes
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| axe | 34.2 – 84.2 | 14 Ingots |
-| battle axe | 30.5 – 80.5 | 14 Ingots |
-| double axe | 29.3 – 79.3 | 12 Ingots |
-| executioner's axe | 34.2 – 84.2 | 14 Ingots |
-| large battle axe | 28.0 – 78.0 | 12 Ingots |
-| two handed axe | 33.0 – 83.0 | 16 Ingots |
-| war axe | 39.1 – 89.1 | 16 Ingots |
-| ornate axe | 70.0 – 120.0 | 18 Ingots |
-| guardian axe | 75.0 – 125.0 | 15 Ingots, 1 Blue Diamond |
-| singing axe | 75.0 – 125.0 | 15 Ingots, 1 Brilliant Amber |
-| thundering axe | 75.0 – 125.0 | 15 Ingots, 1 Ecru Citrine |
-| heavy ornate axe | 75.0 – 125.0 | 15 Ingots, 1 Turquoise |
-| gargish battle axe | 30.5 – 80.5 | 14 Ingots |
-| gargish axe | 34.2 – 84.2 | 14 Ingots |
-| dual short axes | 75.0 – 125.0 | 24 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0F49.png" alt="" width="28" /> | axe | 34.2 – 84.2 | 14 Ingots |
+| <img src="/img/items/0x0F47.png" alt="" width="28" /> | battle axe | 30.5 – 80.5 | 14 Ingots |
+| <img src="/img/items/0x0F4B.png" alt="" width="28" /> | double axe | 29.3 – 79.3 | 12 Ingots |
+| <img src="/img/items/0x0F45.png" alt="" width="28" /> | executioner's axe | 34.2 – 84.2 | 14 Ingots |
+| <img src="/img/items/0x13FB.png" alt="" width="28" /> | large battle axe | 28.0 – 78.0 | 12 Ingots |
+| <img src="/img/items/0x1443.png" alt="" width="28" /> | two handed axe | 33.0 – 83.0 | 16 Ingots |
+| <img src="/img/items/0x13B0.png" alt="" width="28" /> | war axe | 39.1 – 89.1 | 16 Ingots |
+| <img src="/img/items/0x2D28.png" alt="" width="28" /> | ornate axe | 70.0 – 120.0 | 18 Ingots |
+| <img src="/img/items/0x2D28.png" alt="" width="28" /> | guardian axe | 75.0 – 125.0 | 15 Ingots, 1 Blue Diamond |
+| <img src="/img/items/0x2D28.png" alt="" width="28" /> | singing axe | 75.0 – 125.0 | 15 Ingots, 1 Brilliant Amber |
+| <img src="/img/items/0x2D28.png" alt="" width="28" /> | thundering axe | 75.0 – 125.0 | 15 Ingots, 1 Ecru Citrine |
+| <img src="/img/items/0x2D28.png" alt="" width="28" /> | heavy ornate axe | 75.0 – 125.0 | 15 Ingots, 1 Turquoise |
+| <img src="/img/items/0x48B0.png" alt="" width="28" /> | gargish battle axe | 30.5 – 80.5 | 14 Ingots |
+| <img src="/img/items/0x48B2.png" alt="" width="28" /> | gargish axe | 34.2 – 84.2 | 14 Ingots |
+| <img src="/img/items/0x08FD.png" alt="" width="28" /> | dual short axes | 75.0 – 125.0 | 24 Ingots |
 
 ## Polearms
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bardiche | 31.7 – 81.7 | 18 Ingots |
-| bladed staff | 40.0 – 90.0 | 12 Ingots |
-| double bladed staff | 45.0 – 95.0 | 16 Ingots |
-| halberd | 39.1 – 89.1 | 20 Ingots |
-| lance | 48.0 – 98.0 | 20 Ingots |
-| pike | 47.0 – 97.0 | 12 Ingots |
-| short spear | 45.3 – 95.3 | 6 Ingots |
-| scythe | 39.0 – 89.0 | 14 Ingots |
-| spear | 49.0 – 99.0 | 12 Ingots |
-| war fork | 42.9 – 92.9 | 12 Ingots |
-| gargish bardiche | 31.7 – 81.7 | 18 Ingots |
-| gargish war fork | 42.9 – 92.9 | 12 Ingots |
-| gargish scythe | 39.0 – 89.0 | 14 Ingots |
-| gargish pike | 47.0 – 97.0 | 12 Ingots |
-| gargish lance | 48.0 – 98.0 | 20 Ingots |
-| dual pointed spear | 47.0 – 97.0 | 16 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0F4D.png" alt="" width="28" /> | bardiche | 31.7 – 81.7 | 18 Ingots |
+| <img src="/img/items/0x26BD.png" alt="" width="28" /> | bladed staff | 40.0 – 90.0 | 12 Ingots |
+| <img src="/img/items/0x26BF.png" alt="" width="28" /> | double bladed staff | 45.0 – 95.0 | 16 Ingots |
+| <img src="/img/items/0x143E.png" alt="" width="28" /> | halberd | 39.1 – 89.1 | 20 Ingots |
+| <img src="/img/items/0x26C0.png" alt="" width="28" /> | lance | 48.0 – 98.0 | 20 Ingots |
+| <img src="/img/items/0x26BE.png" alt="" width="28" /> | pike | 47.0 – 97.0 | 12 Ingots |
+| <img src="/img/items/0x1403.png" alt="" width="28" /> | short spear | 45.3 – 95.3 | 6 Ingots |
+| <img src="/img/items/0x26BA.png" alt="" width="28" /> | scythe | 39.0 – 89.0 | 14 Ingots |
+| <img src="/img/items/0x0F62.png" alt="" width="28" /> | spear | 49.0 – 99.0 | 12 Ingots |
+| <img src="/img/items/0x1405.png" alt="" width="28" /> | war fork | 42.9 – 92.9 | 12 Ingots |
+| <img src="/img/items/0x48B4.png" alt="" width="28" /> | gargish bardiche | 31.7 – 81.7 | 18 Ingots |
+| <img src="/img/items/0x48BE.png" alt="" width="28" /> | gargish war fork | 42.9 – 92.9 | 12 Ingots |
+| <img src="/img/items/0x48C4.png" alt="" width="28" /> | gargish scythe | 39.0 – 89.0 | 14 Ingots |
+| <img src="/img/items/0x48C8.png" alt="" width="28" /> | gargish pike | 47.0 – 97.0 | 12 Ingots |
+| <img src="/img/items/0x48CA.png" alt="" width="28" /> | gargish lance | 48.0 – 98.0 | 20 Ingots |
+| <img src="/img/items/0x0904.png" alt="" width="28" /> | dual pointed spear | 47.0 – 97.0 | 16 Ingots |
 
 ## Bashing
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| hammer pick | 34.2 – 84.2 | 16 Ingots |
-| mace | 14.5 – 64.5 | 6 Ingots |
-| maul | 19.4 – 69.4 | 10 Ingots |
-| scepter | 21.4 – 71.4 | 10 Ingots |
-| war mace | 28.0 – 78.0 | 14 Ingots |
-| war hammer | 34.2 – 84.2 | 16 Ingots |
-| tessen | 85.0 – 135.0; Tailoring 50.0 – 55.0 | 16 Ingots, 10 Cloth |
-| diamond mace | 70.0 – 120.0 | 20 Ingots |
-| Shard Thrasher | 70.0 – 120.0 | 20 Ingots, 1 Eye of the Travesty, 10 Muculent, 10 Corruption |
-| ruby mace | 75.0 – 125.0 | 20 Ingots, 1 Fire Ruby |
-| emerald mace | 75.0 – 125.0 | 20 Ingots, 1 Perfect Emerald |
-| sapphire mace | 75.0 – 125.0 | 20 Ingots, 1 Dark Sapphire |
-| silver-etched mace | 75.0 – 125.0 | 20 Ingots, 1 Blue Diamond |
-| gargish war hammer | 34.2 – 84.2 | 16 Ingots |
-| gargish maul | 19.4 – 69.4 | 10 Ingots |
-| gargish tessen | 85.0 – 135.0; Tailoring 50.0 – 55.0 | 16 Ingots, 10 Cloth |
-| disc mace | 70.0 – 120.0 | 20 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x143D.png" alt="" width="28" /> | hammer pick | 34.2 – 84.2 | 16 Ingots |
+| <img src="/img/items/0x0F5C.png" alt="" width="28" /> | mace | 14.5 – 64.5 | 6 Ingots |
+| <img src="/img/items/0x143B.png" alt="" width="28" /> | maul | 19.4 – 69.4 | 10 Ingots |
+| <img src="/img/items/0x26BC.png" alt="" width="28" /> | scepter | 21.4 – 71.4 | 10 Ingots |
+| <img src="/img/items/0x1407.png" alt="" width="28" /> | war mace | 28.0 – 78.0 | 14 Ingots |
+| <img src="/img/items/0x1439.png" alt="" width="28" /> | war hammer | 34.2 – 84.2 | 16 Ingots |
+| <img src="/img/items/0x27A3.png" alt="" width="28" /> | tessen | 85.0 – 135.0; Tailoring 50.0 – 55.0 | 16 Ingots, 10 Cloth |
+| <img src="/img/items/0x2D24.png" alt="" width="28" /> | diamond mace | 70.0 – 120.0 | 20 Ingots |
+| <img src="/img/items/0x2D24.png" alt="" width="28" /> | Shard Thrasher | 70.0 – 120.0 | 20 Ingots, 1 Eye of the Travesty, 10 Muculent, 10 Corruption |
+| <img src="/img/items/0x2D24.png" alt="" width="28" /> | ruby mace | 75.0 – 125.0 | 20 Ingots, 1 Fire Ruby |
+| <img src="/img/items/0x2D24.png" alt="" width="28" /> | emerald mace | 75.0 – 125.0 | 20 Ingots, 1 Perfect Emerald |
+| <img src="/img/items/0x2D24.png" alt="" width="28" /> | sapphire mace | 75.0 – 125.0 | 20 Ingots, 1 Dark Sapphire |
+| <img src="/img/items/0x2D24.png" alt="" width="28" /> | silver-etched mace | 75.0 – 125.0 | 20 Ingots, 1 Blue Diamond |
+| <img src="/img/items/0x48C0.png" alt="" width="28" /> | gargish war hammer | 34.2 – 84.2 | 16 Ingots |
+| <img src="/img/items/0x48C2.png" alt="" width="28" /> | gargish maul | 19.4 – 69.4 | 10 Ingots |
+| <img src="/img/items/0x48CC.png" alt="" width="28" /> | gargish tessen | 85.0 – 135.0; Tailoring 50.0 – 55.0 | 16 Ingots, 10 Cloth |
+| <img src="/img/items/0x0903.png" alt="" width="28" /> | disc mace | 70.0 – 120.0 | 20 Ingots |
 
 ## Cannons
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Cannonball | 10.0 – 60.0 | 12 Ingots |
-| cannonball | 0.0 – 50.0 | 6 Ingots |
-| cannonball | 10.0 – 60.0 | 12 Ingots |
-| grapeshot | 15.0 – 70.0 | 12 Ingots, 2 Cloth |
-| grapeshot | 0.0 – 50.0 | 6 Ingots, 1 Cloth |
-| grapeshot | 15.0 – 70.0 | 12 Ingots, 2 Cloth |
-| culverin | 65.0 – 120.0; Carpentry 65.0 – 100.0 | 900 Ingots, 50 Boards or Logs |
-| carronade | 70.0 – 120.0; Carpentry 70.0 – 100.0 | 1800 Ingots, 75 Boards or Logs |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x4224.png" alt="" width="28" /> | Cannonball | 10.0 – 60.0 | 12 Ingots |
+| <img src="/img/items/0x4224.png" alt="" width="28" /> | cannonball | 0.0 – 50.0 | 6 Ingots |
+| <img src="/img/items/0x4224.png" alt="" width="28" /> | cannonball | 10.0 – 60.0 | 12 Ingots |
+| <img src="/img/items/0xA2BF.png" alt="" width="28" /> | grapeshot | 15.0 – 70.0 | 12 Ingots, 2 Cloth |
+| <img src="/img/items/0x41E5.png" alt="" width="28" /> | grapeshot | 0.0 – 50.0 | 6 Ingots, 1 Cloth |
+| <img src="/img/items/0x41E5.png" alt="" width="28" /> | grapeshot | 15.0 – 70.0 | 12 Ingots, 2 Cloth |
+| <img src="/img/items/0x14F2.png" alt="" width="28" /> | culverin | 65.0 – 120.0; Carpentry 65.0 – 100.0 | 900 Ingots, 50 Boards or Logs |
+| <img src="/img/items/0x14F2.png" alt="" width="28" /> | carronade | 70.0 – 120.0; Carpentry 70.0 – 100.0 | 1800 Ingots, 75 Boards or Logs |
 
 ## Throwing
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| boomerang | 75.0 – 125.0 | 5 Ingots |
-| cyclone | 75.0 – 125.0 | 9 Ingots |
-| soul glaive | 75.0 – 125.0 | 9 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x08FF.png" alt="" width="28" /> | boomerang | 75.0 – 125.0 | 5 Ingots |
+| <img src="/img/items/0x0901.png" alt="" width="28" /> | cyclone | 75.0 – 125.0 | 9 Ingots |
+| <img src="/img/items/0x090A.png" alt="" width="28" /> | soul glaive | 75.0 – 125.0 | 9 Ingots |
 
 ## Miscellaneous
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| dragon gloves | 68.9 – 118.9 | 16 Dragon Scales |
-| dragon helm | 72.6 – 122.6 | 20 Dragon Scales |
-| dragon leggings | 78.8 – 128.8 | 28 Dragon Scales |
-| dragon sleeves | 76.3 – 126.3 | 24 Dragon Scales |
-| dragon breastplate | 85.0 – 135.0 | 36 Dragon Scales |
-| crushed glass | 110.0 – 135.0 | 1 Blue Diamond, 5 glass sword |
-| powdered iron | 110.0 – 135.0 | 1 white pearl, 20 Ingots |
-| metal keg | 85.0 – 100.0 | 25 Ingots |
-| exodus sacrificial dagger | 95.0 – 120.0 | 12 Ingots, 2 Blue Diamond, 2 Fire Ruby, 10 a small piece of blackrock |
-| gloves of feudal grip | 120.0 – 120.1 | 18 Dragon Scales, 4 Blue Diamond, 1 Gauntlets of Nobility, 5 Blood of the Dark Father |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x2643.png" alt="" width="28" /> | dragon gloves | 68.9 – 118.9 | 16 Dragon Scales |
+| <img src="/img/items/0x2645.png" alt="" width="28" /> | dragon helm | 72.6 – 122.6 | 20 Dragon Scales |
+| <img src="/img/items/0x2647.png" alt="" width="28" /> | dragon leggings | 78.8 – 128.8 | 28 Dragon Scales |
+| <img src="/img/items/0x2657.png" alt="" width="28" /> | dragon sleeves | 76.3 – 126.3 | 24 Dragon Scales |
+| <img src="/img/items/0x2641.png" alt="" width="28" /> | dragon breastplate | 85.0 – 135.0 | 36 Dragon Scales |
+| <img src="/img/items/0x573B.png" alt="" width="28" /> | crushed glass | 110.0 – 135.0 | 1 Blue Diamond, 5 glass sword |
+| <img src="/img/items/0x573D.png" alt="" width="28" /> | powdered iron | 110.0 – 135.0 | 1 white pearl, 20 Ingots |
+| <img src="/img/items/0x0E7F.png" alt="" width="28" /> | metal keg | 85.0 – 100.0 | 25 Ingots |
+| <img src="/img/items/0x2D2D.png" alt="" width="28" /> | exodus sacrificial dagger | 95.0 – 120.0 | 12 Ingots, 2 Blue Diamond, 2 Fire Ruby, 10 a small piece of blackrock |
+| <img src="/img/items/0x2643.png" alt="" width="28" /> | gloves of feudal grip | 120.0 – 120.1 | 18 Dragon Scales, 4 Blue Diamond, 1 Gauntlets of Nobility, 5 Blood of the Dark Father |

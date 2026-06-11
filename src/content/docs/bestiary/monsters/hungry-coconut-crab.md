@@ -52,3 +52,15 @@ last_verified: 2026-06-11
 |---|---|
 | **Min taming skill** | 0.0 |
 | **Control slots** | 1 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1266.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1267.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1268.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1269.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1270.mp3"></audio>

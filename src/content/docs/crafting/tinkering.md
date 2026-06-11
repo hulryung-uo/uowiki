@@ -16,258 +16,258 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Jewelry
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| ring | 65.0 – 115.0 | 3 Ingots |
-| bracelet | 55.0 – 105.0 | 3 Ingots |
-| gargish necklace | 60.0 – 110.0 | 3 Ingots |
-| gargish bracelet | 55.0 – 105.0 | 3 Ingots |
-| gargish ring | 65.0 – 115.0 | 3 Ingots |
-| gargish earrings | 55.0 – 105.0 | 3 Ingots |
-| star sapphire ring | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
-| star sapphire necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
-| star sapphire necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
-| star sapphire earrings | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
-| star sapphire necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
-| star sapphire bracelet | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
-| emerald ring | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
-| emerald necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
-| emerald necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
-| emerald earrings | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
-| emerald necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
-| emerald bracelet | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
-| sapphire ring | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
-| sapphire necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
-| sapphire necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
-| sapphire earrings | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
-| sapphire necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
-| sapphire bracelet | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
-| ruby ring | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
-| ruby necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
-| ruby necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
-| ruby earrings | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
-| ruby necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
-| ruby bracelet | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
-| citrine ring | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
-| citrine necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
-| citrine necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
-| citrine earrings | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
-| citrine necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
-| citrine bracelet | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
-| amethyst ring | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
-| amethyst necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
-| amethyst necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
-| amethyst earrings | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
-| amethyst necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
-| amethyst bracelet | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
-| tourmaline ring | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
-| tourmaline necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
-| tourmaline necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
-| tourmaline earrings | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
-| tourmaline necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
-| tourmaline bracelet | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
-| amber ring | 40.0 – 90.0 | 2 Ingots, 1 Amber |
-| amber necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Amber |
-| amber necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Amber |
-| amber earrings | 40.0 – 90.0 | 2 Ingots, 1 Amber |
-| amber necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Amber |
-| amber bracelet | 40.0 – 90.0 | 2 Ingots, 1 Amber |
-| diamond ring | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
-| diamond necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
-| diamond necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
-| diamond earrings | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
-| diamond necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
-| diamond bracelet | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
-| krampus minion earrings | 100.0 – 500.0 | 3 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | ring | 65.0 – 115.0 | 3 Ingots |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | bracelet | 55.0 – 105.0 | 3 Ingots |
+| <img src="/img/items/0x4210.png" alt="" width="28" /> | gargish necklace | 60.0 – 110.0 | 3 Ingots |
+| <img src="/img/items/0x4211.png" alt="" width="28" /> | gargish bracelet | 55.0 – 105.0 | 3 Ingots |
+| <img src="/img/items/0x4212.png" alt="" width="28" /> | gargish ring | 65.0 – 115.0 | 3 Ingots |
+| <img src="/img/items/0x4213.png" alt="" width="28" /> | gargish earrings | 55.0 – 105.0 | 3 Ingots |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | star sapphire ring | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | star sapphire necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | star sapphire necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | star sapphire earrings | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | star sapphire necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | star sapphire bracelet | 40.0 – 90.0 | 2 Ingots, 1 Star Sapphires |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | emerald ring | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | emerald necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | emerald necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | emerald earrings | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | emerald necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | emerald bracelet | 40.0 – 90.0 | 2 Ingots, 1 Emeralds |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | sapphire ring | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | sapphire necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | sapphire necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | sapphire earrings | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | sapphire necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | sapphire bracelet | 40.0 – 90.0 | 2 Ingots, 1 Sapphires |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | ruby ring | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | ruby necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | ruby necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | ruby earrings | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | ruby necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | ruby bracelet | 40.0 – 90.0 | 2 Ingots, 1 Rubies |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | citrine ring | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | citrine necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | citrine necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | citrine earrings | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | citrine necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | citrine bracelet | 40.0 – 90.0 | 2 Ingots, 1 Citrines |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | amethyst ring | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | amethyst necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | amethyst necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | amethyst earrings | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | amethyst necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | amethyst bracelet | 40.0 – 90.0 | 2 Ingots, 1 Amethysts |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | tourmaline ring | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | tourmaline necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | tourmaline necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | tourmaline earrings | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | tourmaline necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | tourmaline bracelet | 40.0 – 90.0 | 2 Ingots, 1 Tourmalines |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | amber ring | 40.0 – 90.0 | 2 Ingots, 1 Amber |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | amber necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Amber |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | amber necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Amber |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | amber earrings | 40.0 – 90.0 | 2 Ingots, 1 Amber |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | amber necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Amber |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | amber bracelet | 40.0 – 90.0 | 2 Ingots, 1 Amber |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | diamond ring | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
+| <img src="/img/items/0x1F05.png" alt="" width="28" /> | diamond necklace (silver) | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | diamond necklace (jewelled) | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
+| <img src="/img/items/0x1087.png" alt="" width="28" /> | diamond earrings | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
+| <img src="/img/items/0x1089.png" alt="" width="28" /> | diamond necklace (golden) | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | diamond bracelet | 40.0 – 90.0 | 2 Ingots, 1 Diamonds |
+| <img src="/img/items/0xA295.png" alt="" width="28" /> | krampus minion earrings | 100.0 – 500.0 | 3 Ingots |
 
 ## Wooden Items
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| nunchaku | 70.0 – 120.0 | 3 Ingots, 8 Boards or Logs |
-| jointing plane | 0.0 – 50.0 | 4 Boards or Logs |
-| moulding planes | 0.0 – 50.0 | 4 Boards or Logs |
-| smoothing plane | 0.0 – 50.0 | 4 Boards or Logs |
-| clock frame | 0.0 – 50.0 | 6 Boards or Logs |
-| axle | -25.0 – 25.0 | 2 Boards or Logs |
-| rolling pin | 0.0 – 50.0 | 5 Boards or Logs |
-| ramrod | 0.0 – 50.0 | 8 Boards or Logs |
-| swab | 0.0 – 50.0 | 1 Cloth, 4 Boards or Logs |
-| softened reeds | 75.0 – 100.0 | 1 dry reeds, 2 scouring toxin |
-| round basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
-| bushel | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
-| small bushel | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
-| picnic basket | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
-| winnowing basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
-| square basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
-| basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
-| tall round basket | 75.0 – 100.0 | 3 softened reeds, 4 shafts |
-| small square basket | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
-| tall basket | 75.0 – 100.0 | 3 softened reeds, 4 shafts |
-| small round basket | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
-| enchanted picnic basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x27AE.png" alt="" width="28" /> | nunchaku | 70.0 – 120.0 | 3 Ingots, 8 Boards or Logs |
+| <img src="/img/items/0x1030.png" alt="" width="28" /> | jointing plane | 0.0 – 50.0 | 4 Boards or Logs |
+| <img src="/img/items/0x102C.png" alt="" width="28" /> | moulding planes | 0.0 – 50.0 | 4 Boards or Logs |
+| <img src="/img/items/0x1032.png" alt="" width="28" /> | smoothing plane | 0.0 – 50.0 | 4 Boards or Logs |
+| <img src="/img/items/0x104D.png" alt="" width="28" /> | clock frame | 0.0 – 50.0 | 6 Boards or Logs |
+| <img src="/img/items/0x105B.png" alt="" width="28" /> | axle | -25.0 – 25.0 | 2 Boards or Logs |
+| <img src="/img/items/0x1043.png" alt="" width="28" /> | rolling pin | 0.0 – 50.0 | 5 Boards or Logs |
+| <img src="/img/items/0x4246.png" alt="" width="28" /> | ramrod | 0.0 – 50.0 | 8 Boards or Logs |
+| <img src="/img/items/0x4248.png" alt="" width="28" /> | swab | 0.0 – 50.0 | 1 Cloth, 4 Boards or Logs |
+| <img src="/img/items/0x4006.png" alt="" width="28" /> | softened reeds | 75.0 – 100.0 | 1 dry reeds, 2 scouring toxin |
+| <img src="/img/items/0x0990.png" alt="" width="28" /> | round basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
+| <img src="/img/items/0x09AC.png" alt="" width="28" /> | bushel | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
+| <img src="/img/items/0x09B1.png" alt="" width="28" /> | small bushel | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
+| <img src="/img/items/0x0E7A.png" alt="" width="28" /> | picnic basket | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
+| <img src="/img/items/0x1882.png" alt="" width="28" /> | winnowing basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
+| <img src="/img/items/0x24D5.png" alt="" width="28" /> | square basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
+| <img src="/img/items/0x24D7.png" alt="" width="28" /> | basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
+| <img src="/img/items/0x24D8.png" alt="" width="28" /> | tall round basket | 75.0 – 100.0 | 3 softened reeds, 4 shafts |
+| <img src="/img/items/0x24D9.png" alt="" width="28" /> | small square basket | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
+| <img src="/img/items/0x24DB.png" alt="" width="28" /> | tall basket | 75.0 – 100.0 | 3 softened reeds, 4 shafts |
+| <img src="/img/items/0x24DD.png" alt="" width="28" /> | small round basket | 75.0 – 100.0 | 1 softened reeds, 2 shafts |
+| <img src="/img/items/0xA0DB.png" alt="" width="28" /> | enchanted picnic basket | 75.0 – 100.0 | 2 softened reeds, 3 shafts |
 
 ## Tools
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| scissors | 5.0 – 55.0 | 2 Ingots |
-| mortar and pestle | 20.0 – 70.0 | 3 Ingots |
-| scorp | 30.0 – 80.0 | 2 Ingots |
-| tinker's tools | 10.0 – 60.0 | 2 Ingots |
-| hatchet | 30.0 – 80.0 | 4 Ingots |
-| draw knife | 30.0 – 80.0 | 2 Ingots |
-| sewing kit | 10.0 – 70.0 | 2 Ingots |
-| saw | 30.0 – 80.0 | 4 Ingots |
-| dovetail saw | 30.0 – 80.0 | 4 Ingots |
-| froe | 30.0 – 80.0 | 2 Ingots |
-| shovel | 40.0 – 90.0 | 4 Ingots |
-| hammer | 30.0 – 80.0 | 1 Ingots |
-| tongs | 35.0 – 85.0 | 1 Ingots |
-| smith's hammer | 40.0 – 90.0 | 4 Ingots |
-| sledge hammer | 40.0 – 90.0 | 4 Ingots |
-| inshave | 30.0 – 80.0 | 2 Ingots |
-| pickaxe | 40.0 – 90.0 | 4 Ingots |
-| lockpick | 45.0 – 95.0 | 1 Ingots |
-| skillet | 30.0 – 80.0 | 4 Ingots |
-| flour sifter | 50.0 – 100.0 | 3 Ingots |
-| fletcher's tools | 35.0 – 85.0 | 3 Ingots |
-| mapmaker's pen | 25.0 – 75.0 | 1 Ingots |
-| scribe's pen | 25.0 – 75.0 | 1 Ingots |
-| clippers | 50.0 – 50.0 | 4 Ingots |
-| metal container engraving tool | 75.0 – 100.0 | 4 Ingots, 1 Springs, 2 Gears, 1 diamond |
-| pitchfork | 40.0 – 90.0 | 4 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0F9F.png" alt="" width="28" /> | scissors | 5.0 – 55.0 | 2 Ingots |
+| <img src="/img/items/0x0E9B.png" alt="" width="28" /> | mortar and pestle | 20.0 – 70.0 | 3 Ingots |
+| <img src="/img/items/0x10E7.png" alt="" width="28" /> | scorp | 30.0 – 80.0 | 2 Ingots |
+| <img src="/img/items/0x1EB8.png" alt="" width="28" /> | tinker's tools | 10.0 – 60.0 | 2 Ingots |
+| <img src="/img/items/0x0F43.png" alt="" width="28" /> | hatchet | 30.0 – 80.0 | 4 Ingots |
+| <img src="/img/items/0x10E4.png" alt="" width="28" /> | draw knife | 30.0 – 80.0 | 2 Ingots |
+| <img src="/img/items/0x0F9D.png" alt="" width="28" /> | sewing kit | 10.0 – 70.0 | 2 Ingots |
+| <img src="/img/items/0x1034.png" alt="" width="28" /> | saw | 30.0 – 80.0 | 4 Ingots |
+| <img src="/img/items/0x1028.png" alt="" width="28" /> | dovetail saw | 30.0 – 80.0 | 4 Ingots |
+| <img src="/img/items/0x10E5.png" alt="" width="28" /> | froe | 30.0 – 80.0 | 2 Ingots |
+| <img src="/img/items/0x0F39.png" alt="" width="28" /> | shovel | 40.0 – 90.0 | 4 Ingots |
+| <img src="/img/items/0x102A.png" alt="" width="28" /> | hammer | 30.0 – 80.0 | 1 Ingots |
+| <img src="/img/items/0x0FBB.png" alt="" width="28" /> | tongs | 35.0 – 85.0 | 1 Ingots |
+| <img src="/img/items/0x13E3.png" alt="" width="28" /> | smith's hammer | 40.0 – 90.0 | 4 Ingots |
+| <img src="/img/items/0x0FB5.png" alt="" width="28" /> | sledge hammer | 40.0 – 90.0 | 4 Ingots |
+| <img src="/img/items/0x10E6.png" alt="" width="28" /> | inshave | 30.0 – 80.0 | 2 Ingots |
+| <img src="/img/items/0x0E86.png" alt="" width="28" /> | pickaxe | 40.0 – 90.0 | 4 Ingots |
+| <img src="/img/items/0x14FC.png" alt="" width="28" /> | lockpick | 45.0 – 95.0 | 1 Ingots |
+| <img src="/img/items/0x097F.png" alt="" width="28" /> | skillet | 30.0 – 80.0 | 4 Ingots |
+| <img src="/img/items/0x103E.png" alt="" width="28" /> | flour sifter | 50.0 – 100.0 | 3 Ingots |
+| <img src="/img/items/0x1022.png" alt="" width="28" /> | fletcher's tools | 35.0 – 85.0 | 3 Ingots |
+| <img src="/img/items/0x0FBF.png" alt="" width="28" /> | mapmaker's pen | 25.0 – 75.0 | 1 Ingots |
+| <img src="/img/items/0x0FBF.png" alt="" width="28" /> | scribe's pen | 25.0 – 75.0 | 1 Ingots |
+| <img src="/img/items/0x0DFC.png" alt="" width="28" /> | clippers | 50.0 – 50.0 | 4 Ingots |
+| <img src="/img/items/0x1EB8.png" alt="" width="28" /> | metal container engraving tool | 75.0 – 100.0 | 4 Ingots, 1 Springs, 2 Gears, 1 diamond |
+| <img src="/img/items/0x0E87.png" alt="" width="28" /> | pitchfork | 40.0 – 90.0 | 4 Ingots |
 
 ## Parts
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| gears | 5.0 – 55.0 | 2 Ingots |
-| clock parts | 25.0 – 75.0 | 1 Ingots |
-| barrel tap | 35.0 – 85.0 | 2 Ingots |
-| springs | 5.0 – 55.0 | 2 Ingots |
-| sextant parts | 30.0 – 80.0 | 4 Ingots |
-| barrel hoops | -15.0 – 35.0 | 5 Ingots |
-| hinge | 5.0 – 55.0 | 2 Ingots |
-| bola balls | 45.0 – 95.0 | 10 Ingots |
-| jeweled filigree | 70.0 – 110.0 | 2 Ingots, 1 Star Sapphires, 1 Rubies |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1053.png" alt="" width="28" /> | gears | 5.0 – 55.0 | 2 Ingots |
+| <img src="/img/items/0x104F.png" alt="" width="28" /> | clock parts | 25.0 – 75.0 | 1 Ingots |
+| <img src="/img/items/0x1004.png" alt="" width="28" /> | barrel tap | 35.0 – 85.0 | 2 Ingots |
+| <img src="/img/items/0x105D.png" alt="" width="28" /> | springs | 5.0 – 55.0 | 2 Ingots |
+| <img src="/img/items/0x1059.png" alt="" width="28" /> | sextant parts | 30.0 – 80.0 | 4 Ingots |
+| <img src="/img/items/0x1DB7.png" alt="" width="28" /> | barrel hoops | -15.0 – 35.0 | 5 Ingots |
+| <img src="/img/items/0x1055.png" alt="" width="28" /> | hinge | 5.0 – 55.0 | 2 Ingots |
+| <img src="/img/items/0x0E73.png" alt="" width="28" /> | bola balls | 45.0 – 95.0 | 10 Ingots |
+| <img src="/img/items/0x2F5E.png" alt="" width="28" /> | jeweled filigree | 70.0 – 110.0 | 2 Ingots, 1 Star Sapphires, 1 Rubies |
 
 ## Utensils
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| butcher knife | 25.0 – 75.0 | 2 Ingots |
-| spoon (left) | 0.0 – 50.0 | 1 Ingots |
-| spoon (right) | 0.0 – 50.0 | 1 Ingots |
-| plate | 0.0 – 50.0 | 2 Ingots |
-| fork (left) | 0.0 – 50.0 | 1 Ingots |
-| fork (right) | 0.0 – 50.0 | 1 Ingots |
-| cleaver | 20.0 – 70.0 | 3 Ingots |
-| knife (left) | 0.0 – 50.0 | 1 Ingots |
-| knife (right) | 0.0 – 50.0 | 1 Ingots |
-| goblet | 10.0 – 60.0 | 2 Ingots |
-| pewter mug | 10.0 – 60.0 | 2 Ingots |
-| skinning knife | 25.0 – 75.0 | 2 Ingots |
-| gargish cleaver | 20.0 – 70.0 | 3 Ingots |
-| gargish butcher's knife | 25.0 – 75.0 | 2 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x13F6.png" alt="" width="28" /> | butcher knife | 25.0 – 75.0 | 2 Ingots |
+| <img src="/img/items/0x09F8.png" alt="" width="28" /> | spoon (left) | 0.0 – 50.0 | 1 Ingots |
+| <img src="/img/items/0x09F9.png" alt="" width="28" /> | spoon (right) | 0.0 – 50.0 | 1 Ingots |
+| <img src="/img/items/0x09D7.png" alt="" width="28" /> | plate | 0.0 – 50.0 | 2 Ingots |
+| <img src="/img/items/0x09F4.png" alt="" width="28" /> | fork (left) | 0.0 – 50.0 | 1 Ingots |
+| <img src="/img/items/0x09F5.png" alt="" width="28" /> | fork (right) | 0.0 – 50.0 | 1 Ingots |
+| <img src="/img/items/0x0EC3.png" alt="" width="28" /> | cleaver | 20.0 – 70.0 | 3 Ingots |
+| <img src="/img/items/0x09F6.png" alt="" width="28" /> | knife (left) | 0.0 – 50.0 | 1 Ingots |
+| <img src="/img/items/0x09F7.png" alt="" width="28" /> | knife (right) | 0.0 – 50.0 | 1 Ingots |
+| <img src="/img/items/0x099A.png" alt="" width="28" /> | goblet | 10.0 – 60.0 | 2 Ingots |
+| <img src="/img/items/0x0FFF.png" alt="" width="28" /> | pewter mug | 10.0 – 60.0 | 2 Ingots |
+| <img src="/img/items/0x0EC4.png" alt="" width="28" /> | skinning knife | 25.0 – 75.0 | 2 Ingots |
+| <img src="/img/items/0x48AE.png" alt="" width="28" /> | gargish cleaver | 20.0 – 70.0 | 3 Ingots |
+| <img src="/img/items/0x48B6.png" alt="" width="28" /> | gargish butcher's knife | 25.0 – 75.0 | 2 Ingots |
 
 ## Miscellaneous
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| key ring | 10.0 – 60.0 | 2 Ingots |
-| candelabra | 55.0 – 105.0 | 4 Ingots |
-| scales | 60.0 – 110.0 | 4 Ingots |
-| iron key | 20.0 – 70.0 | 3 Ingots |
-| globe | 55.0 – 105.0 | 4 Ingots |
-| spyglass | 60.0 – 110.0 | 4 Ingots |
-| lantern | 30.0 – 80.0 | 2 Ingots |
-| heating stand | 60.0 – 110.0 | 4 Ingots |
-| shoji lantern | 65.0 – 115.0 | 10 Ingots, 5 Boards or Logs |
-| paper lantern | 65.0 – 115.0 | 10 Ingots, 5 Boards or Logs |
-| round paper lantern | 65.0 – 115.0 | 10 Ingots, 5 Boards or Logs |
-| wind chimes | 80.0 – 130.0 | 15 Ingots |
-| fancy wind chimes | 80.0 – 130.0 | 15 Ingots |
-| Ter-Mur style candelabra | 55.0 – 105.0 | 4 Ingots |
-| match | 15.0 – 70.0 | 10 match cord, 4 Boards or Logs |
-| Farspeaker | 80.0 – 130.0 | 20 Ingots, 10 emerald, 10 ruby, 1 copper wire |
-| Gorgon Lens | 90.0 – 120.0 | 2 Medusa scales, 3 crystal dust |
-| a scale collar | 50.0 – 100.0 | 4 Medusa scales, 1 Scourge |
-| dragon lamp | 75.0 – 125.0 | 8 Ingots, 1 candelabra, 1 workable glass |
-| stained glass lamp | 75.0 – 125.0 | 8 Ingots, 1 candelabra, 1 workable glass |
-| tall double lamp | 75.0 – 125.0 | 8 Ingots, 1 candelabra, 1 workable glass |
-| Curled Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
-| Flourished Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
-| Inward Curled Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
-| End Curled Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
-| Left Metal Door (S In) | 85.0 – 135.0 | 50 Ingots |
-| Right Metal Door (S In) | 85.0 – 135.0 | 50 Ingots |
-| Left Metal Door (E Out) | 85.0 – 135.0 | 50 Ingots |
-| Right Metal Door (E Out) | 85.0 – 135.0 | 50 Ingots |
-| currency wall safe | 0.0 – 0.0 | 20 Ingots |
-| Left Metal Door (E In) | 85.0 – 135.0 | 50 Ingots |
-| Right Metal Door (E In) | 85.0 – 135.0 | 50 Ingots |
-| Left Metal Door (S Out) | 85.0 – 135.0 | 50 Ingots |
-| Right Metal Door (S Out) | 85.0 – 135.0 | 50 Ingots |
-| Kotl Power Core | 85.0 – 135.0 | 5 workable glass, 5 copper wire, 100 Ingots, 5 Moonstone Crystal Shards |
-| weathered bronze globe sculpture | 85.0 – 135.0 | 200 bronze ingots: |
-| weathered bronze man on a bench sculpture | 85.0 – 135.0 | 200 bronze ingots: |
-| weathered bronze fairy sculpture | 85.0 – 135.0 | 200 bronze ingots: |
-| weathered bronze archer sculpture | 85.0 – 135.0 | 200 bronze ingots: |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1011.png" alt="" width="28" /> | key ring | 10.0 – 60.0 | 2 Ingots |
+| <img src="/img/items/0x0A27.png" alt="" width="28" /> | candelabra | 55.0 – 105.0 | 4 Ingots |
+| <img src="/img/items/0x1852.png" alt="" width="28" /> | scales | 60.0 – 110.0 | 4 Ingots |
+|  | iron key | 20.0 – 70.0 | 3 Ingots |
+| <img src="/img/items/0x1047.png" alt="" width="28" /> | globe | 55.0 – 105.0 | 4 Ingots |
+| <img src="/img/items/0x14F5.png" alt="" width="28" /> | spyglass | 60.0 – 110.0 | 4 Ingots |
+| <img src="/img/items/0x0A25.png" alt="" width="28" /> | lantern | 30.0 – 80.0 | 2 Ingots |
+| <img src="/img/items/0x1849.png" alt="" width="28" /> | heating stand | 60.0 – 110.0 | 4 Ingots |
+| <img src="/img/items/0x24BC.png" alt="" width="28" /> | shoji lantern | 65.0 – 115.0 | 10 Ingots, 5 Boards or Logs |
+| <img src="/img/items/0x24BE.png" alt="" width="28" /> | paper lantern | 65.0 – 115.0 | 10 Ingots, 5 Boards or Logs |
+| <img src="/img/items/0x24CA.png" alt="" width="28" /> | round paper lantern | 65.0 – 115.0 | 10 Ingots, 5 Boards or Logs |
+| <img src="/img/items/0x2832.png" alt="" width="28" /> | wind chimes | 80.0 – 130.0 | 15 Ingots |
+| <img src="/img/items/0x2833.png" alt="" width="28" /> | fancy wind chimes | 80.0 – 130.0 | 15 Ingots |
+| <img src="/img/items/0x4039.png" alt="" width="28" /> | Ter-Mur style candelabra | 55.0 – 105.0 | 4 Ingots |
+| <img src="/img/items/0x0F6B.png" alt="" width="28" /> | match | 15.0 – 70.0 | 10 match cord, 4 Boards or Logs |
+| <img src="/img/items/0x07D0.png" alt="" width="28" /> | Farspeaker | 80.0 – 130.0 | 20 Ingots, 10 emerald, 10 ruby, 1 copper wire |
+| <img src="/img/items/0x26B1.png" alt="" width="28" /> | Gorgon Lens | 90.0 – 120.0 | 2 Medusa scales, 3 crystal dust |
+| <img src="/img/items/0x108B.png" alt="" width="28" /> | a scale collar | 50.0 – 100.0 | 4 Medusa scales, 1 Scourge |
+| <img src="/img/items/0x4C4C.png" alt="" width="28" /> | dragon lamp | 75.0 – 125.0 | 8 Ingots, 1 candelabra, 1 workable glass |
+| <img src="/img/items/0x4C50.png" alt="" width="28" /> | stained glass lamp | 75.0 – 125.0 | 8 Ingots, 1 candelabra, 1 workable glass |
+| <img src="/img/items/0x4C56.png" alt="" width="28" /> | tall double lamp | 75.0 – 125.0 | 8 Ingots, 1 candelabra, 1 workable glass |
+|  | Curled Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
+|  | Flourished Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
+|  | Inward Curled Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
+|  | End Curled Metal Sign Hanger | 40.0 – 90.0 | 8 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Left Metal Door (S In) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Right Metal Door (S In) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Left Metal Door (E Out) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Right Metal Door (E Out) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | currency wall safe | 0.0 – 0.0 | 20 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Left Metal Door (E In) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Right Metal Door (E In) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Left Metal Door (S Out) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x0675.png" alt="" width="28" /> | Right Metal Door (S Out) | 85.0 – 135.0 | 50 Ingots |
+| <img src="/img/items/0x9CD3.png" alt="" width="28" /> | Kotl Power Core | 85.0 – 135.0 | 5 workable glass, 5 copper wire, 100 Ingots, 5 Moonstone Crystal Shards |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | weathered bronze globe sculpture | 85.0 – 135.0 | 200 bronze ingots: |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | weathered bronze man on a bench sculpture | 85.0 – 135.0 | 200 bronze ingots: |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | weathered bronze fairy sculpture | 85.0 – 135.0 | 200 bronze ingots: |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | weathered bronze archer sculpture | 85.0 – 135.0 | 200 bronze ingots: |
 
 ## Assemblies
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| axle with gears | 0.0 – 0.0 | 1 Axles, 1 Gears |
-| clock parts | 0.0 – 0.0 | 1 Axles with Gears, 1 Springs |
-| sextant parts | 0.0 – 0.0 | 1 Axles with Gears, 1 Hinges |
-| clock (right) | 0.0 – 0.0 | 1 Clock Frames, 1 Clock Parts |
-| clock (left) | 0.0 – 0.0 | 1 Clock Frames, 1 Clock Parts |
-| sextant | 0.0 – 0.0 | 1 Sextant Parts |
-| bola | 60.0 – 80.0 | 4 Bola Balls, 3 Leather or Hides |
-| potion keg | 75.0 – 100.0 | 1 Empty Kegs, 10 Empty Bottles, 1 Barrel Lids, 1 Keg Taps |
-| leather wolf assembly | 65.0 – 115.0 | 1 Clockwork Assembly, 1 power crystal, 1 Void Essence |
-| clockwork scorpion assembly | 65.0 – 115.0 | 1 Clockwork Assembly, 1 power crystal, 2 Void Essence |
-| vollem assembly | 65.0 – 115.0 | 1 Clockwork Assembly, 1 power crystal, 3 Void Essence |
-| hitching rope | 60.0 – 120.0; AnimalLore 15.0 – 100.0 | 1 rope, 1 Resolve's Bridle |
-| hitching post (replica) | 90.0 – 160.0 | 50 Ingots, 1 animal pheromone, 2 hitching rope, 1 Phillip's Wooden Steed |
-| arcanic rune stone | 90.0 – 140.0; Magery 80.0 – 85.0 | 1 Crystal Shards, 5 power crystal |
-| void orb | 90.0 – 104.3; Magery 80.0 – 100.0 | 1 Dark Sapphire, 50 Black Pearl |
-| advanced training dummy (south) | 90.0 – 120.0 | 1 training dummy (south), 1 platemail tunic, 1 close helmet, 1 broadsword |
-| advanced training dummy (east) | 90.0 – 120.0 | 1 training dummy (east), 1 platemail tunic, 1 close helmet, 1 broadsword |
-| distillery (south) | 90.0 – 110.0 | 2 metal keg, 4 heating stand, 1 copper wire |
-| distillery (east) | 90.0 – 110.0 | 2 metal keg, 4 heating stand, 1 copper wire |
-| Kotl Automaton | 100.0 – 580.0 | 300 Ingots, 1 Automaton Actuator, 1 Stasis Chamber Power Core, 1 Inoperative Automaton Head |
-| telescope | 95.0 – 196.0 | 25 Ingots, 1 workable glass, 1 Sextant Parts |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1051.png" alt="" width="28" /> | axle with gears | 0.0 – 0.0 | 1 Axles, 1 Gears |
+| <img src="/img/items/0x104F.png" alt="" width="28" /> | clock parts | 0.0 – 0.0 | 1 Axles with Gears, 1 Springs |
+| <img src="/img/items/0x1059.png" alt="" width="28" /> | sextant parts | 0.0 – 0.0 | 1 Axles with Gears, 1 Hinges |
+| <img src="/img/items/0x104B.png" alt="" width="28" /> | clock (right) | 0.0 – 0.0 | 1 Clock Frames, 1 Clock Parts |
+| <img src="/img/items/0x104C.png" alt="" width="28" /> | clock (left) | 0.0 – 0.0 | 1 Clock Frames, 1 Clock Parts |
+| <img src="/img/items/0x1058.png" alt="" width="28" /> | sextant | 0.0 – 0.0 | 1 Sextant Parts |
+| <img src="/img/items/0x26AC.png" alt="" width="28" /> | bola | 60.0 – 80.0 | 4 Bola Balls, 3 Leather or Hides |
+| <img src="/img/items/0x1940.png" alt="" width="28" /> | potion keg | 75.0 – 100.0 | 1 Empty Kegs, 10 Empty Bottles, 1 Barrel Lids, 1 Keg Taps |
+| <img src="/img/items/0x1EA8.png" alt="" width="28" /> | leather wolf assembly | 65.0 – 115.0 | 1 Clockwork Assembly, 1 power crystal, 1 Void Essence |
+| <img src="/img/items/0x1EA8.png" alt="" width="28" /> | clockwork scorpion assembly | 65.0 – 115.0 | 1 Clockwork Assembly, 1 power crystal, 2 Void Essence |
+| <img src="/img/items/0x1EA8.png" alt="" width="28" /> | vollem assembly | 65.0 – 115.0 | 1 Clockwork Assembly, 1 power crystal, 3 Void Essence |
+| <img src="/img/items/0x14F8.png" alt="" width="28" /> | hitching rope | 60.0 – 120.0; AnimalLore 15.0 – 100.0 | 1 rope, 1 Resolve's Bridle |
+| <img src="/img/items/0x14E7.png" alt="" width="28" /> | hitching post (replica) | 90.0 – 160.0 | 50 Ingots, 1 animal pheromone, 2 hitching rope, 1 Phillip's Wooden Steed |
+| <img src="/img/items/0x573C.png" alt="" width="28" /> | arcanic rune stone | 90.0 – 140.0; Magery 80.0 – 85.0 | 1 Crystal Shards, 5 power crystal |
+| <img src="/img/items/0x573E.png" alt="" width="28" /> | void orb | 90.0 – 104.3; Magery 80.0 – 100.0 | 1 Dark Sapphire, 50 Black Pearl |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | advanced training dummy (south) | 90.0 – 120.0 | 1 training dummy (south), 1 platemail tunic, 1 close helmet, 1 broadsword |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | advanced training dummy (east) | 90.0 – 120.0 | 1 training dummy (east), 1 platemail tunic, 1 close helmet, 1 broadsword |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | distillery (south) | 90.0 – 110.0 | 2 metal keg, 4 heating stand, 1 copper wire |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | distillery (east) | 90.0 – 110.0 | 2 metal keg, 4 heating stand, 1 copper wire |
+| <img src="/img/items/0x9DB1.png" alt="" width="28" /> | Kotl Automaton | 100.0 – 580.0 | 300 Ingots, 1 Automaton Actuator, 1 Stasis Chamber Power Core, 1 Inoperative Automaton Head |
+| <img src="/img/items/0xA12C.png" alt="" width="28" /> | telescope | 95.0 – 196.0 | 25 Ingots, 1 workable glass, 1 Sextant Parts |
 
 ## Traps
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| dart trap | 30.0 – 80.0 | 1 Ingots, 1 Crossbow Bolts |
-| poison trap | 30.0 – 80.0 | 1 Ingots, 1 Green Potions |
-| explosion trap | 55.0 – 105.0 | 1 Ingots, 1 Purple Potions |
-| faction gas trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Green Potions |
-| faction explosion trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Purple Potions |
-| faction saw trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Gears |
-| faction spike trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Springs |
-| faction trap removal kit | 90.0 – 115.0 | 500 Faction Silver, 10 Ingots |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+|  | dart trap | 30.0 – 80.0 | 1 Ingots, 1 Crossbow Bolts |
+|  | poison trap | 30.0 – 80.0 | 1 Ingots, 1 Green Potions |
+|  | explosion trap | 55.0 – 105.0 | 1 Ingots, 1 Purple Potions |
+| <img src="/img/items/0x11AB.png" alt="" width="28" /> | faction gas trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Green Potions |
+| <img src="/img/items/0x36D2.png" alt="" width="28" /> | faction explosion trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Purple Potions |
+| <img src="/img/items/0x1107.png" alt="" width="28" /> | faction saw trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Gears |
+| <img src="/img/items/0x11A5.png" alt="" width="28" /> | faction spike trap | 65.0 – 115.0 | 250 Faction Silver, 10 Ingots, 1 Springs |
+| <img src="/img/items/0x1EBB.png" alt="" width="28" /> | faction trap removal kit | 90.0 – 115.0 | 500 Faction Silver, 10 Ingots |
 
 ## Magic Jewelry
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| brilliant amber bracelet | 75.0 – 125.0 | 5 Ingots, 20 amber, 10 Brilliant Amber |
-| fire ruby bracelet | 75.0 – 125.0 | 5 Ingots, 20 ruby, 10 Fire Ruby |
-| dark sapphire bracelet | 75.0 – 125.0 | 5 Ingots, 20 sapphire, 10 Dark Sapphire |
-| white pearl bracelet | 75.0 – 125.0 | 5 Ingots, 20 tourmaline, 10 White Pearl |
-| ecru citrine ring | 75.0 – 125.0 | 5 Ingots, 20 citrine, 10 Ecru Citrine |
-| blue diamond ring | 75.0 – 125.0 | 5 Ingots, 20 diamond, 10 Blue Diamond |
-| perfect emerald ring | 75.0 – 125.0 | 5 Ingots, 20 emerald, 10 Perfect Emerald |
-| turquoise ring | 75.0 – 125.0 | 5 Ingots, 20 amethyst, 10 Turquoise |
-| Resilient Bracer | 100.0 – 125.0 | 2 Ingots, 1 Captured Essence, 10 Blue Diamond, 50 diamond |
-| Essence of Battle | 100.0 – 125.0 | 2 Ingots, 1 Captured Essence, 10 Fire Ruby, 50 ruby |
-| Pendant of the Magi | 100.0 – 125.0 | 2 Ingots, 1 Eye of the Travesty, 5 White Pearl, 50 star-saphire |
-| Dr. Spector's lenses | 100.0 – 580.0 | 20 Ingots, 1 Black Moonstone, 1 Hat of the Magi |
-| bracelet of primal consumption | 100.0 – 580.0 | 3 Ingots, 1 Ring of the Elements, 5 Blood of the Dark Father, 4 White Pearl |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | brilliant amber bracelet | 75.0 – 125.0 | 5 Ingots, 20 amber, 10 Brilliant Amber |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | fire ruby bracelet | 75.0 – 125.0 | 5 Ingots, 20 ruby, 10 Fire Ruby |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | dark sapphire bracelet | 75.0 – 125.0 | 5 Ingots, 20 sapphire, 10 Dark Sapphire |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | white pearl bracelet | 75.0 – 125.0 | 5 Ingots, 20 tourmaline, 10 White Pearl |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | ecru citrine ring | 75.0 – 125.0 | 5 Ingots, 20 citrine, 10 Ecru Citrine |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | blue diamond ring | 75.0 – 125.0 | 5 Ingots, 20 diamond, 10 Blue Diamond |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | perfect emerald ring | 75.0 – 125.0 | 5 Ingots, 20 emerald, 10 Perfect Emerald |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | turquoise ring | 75.0 – 125.0 | 5 Ingots, 20 amethyst, 10 Turquoise |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | Resilient Bracer | 100.0 – 125.0 | 2 Ingots, 1 Captured Essence, 10 Blue Diamond, 50 diamond |
+| <img src="/img/items/0x108A.png" alt="" width="28" /> | Essence of Battle | 100.0 – 125.0 | 2 Ingots, 1 Captured Essence, 10 Fire Ruby, 50 ruby |
+| <img src="/img/items/0x1088.png" alt="" width="28" /> | Pendant of the Magi | 100.0 – 125.0 | 2 Ingots, 1 Eye of the Travesty, 5 White Pearl, 50 star-saphire |
+| <img src="/img/items/0x2FB8.png" alt="" width="28" /> | Dr. Spector's lenses | 100.0 – 580.0 | 20 Ingots, 1 Black Moonstone, 1 Hat of the Magi |
+| <img src="/img/items/0x1086.png" alt="" width="28" /> | bracelet of primal consumption | 100.0 – 580.0 | 3 Ingots, 1 Ring of the Elements, 5 Blood of the Dark Father, 4 White Pearl |

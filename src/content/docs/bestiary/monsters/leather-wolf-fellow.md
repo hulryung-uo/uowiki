@@ -45,3 +45,15 @@ last_verified: 2026-06-11
 | MagicResist | 59.2–75 |
 | Tactics | 53.3–64.8 |
 | Wrestling | 64–79 |
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/229.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/230.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/231.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/232.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/233.mp3"></audio>

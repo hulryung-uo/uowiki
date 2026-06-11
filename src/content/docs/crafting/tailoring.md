@@ -16,248 +16,248 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 ## Materials
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| cut-up cloth | 0.0 – 0.0 | 1 Bolts of Cloth |
-| combine cloth | 0.0 – 0.0 | 1 Yards of Cloth |
-| powder charge | 0.0 – 50.0 | 1 Yards of Cloth, 4 black powder |
-| powder charge | 0.0 – 50.0 | 1 Yards of Cloth, 1 black powder |
-| powder charge | 0.0 – 50.0 | 1 Yards of Cloth, 4 black powder |
-| abyssal cloth | 110.0 – 160.0 | 50 Yards of Cloth, 1 Crystalline Blackrock |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1767.png" alt="" width="28" /> | cut-up cloth | 0.0 – 0.0 | 1 Bolts of Cloth |
+| <img src="/img/items/0x1767.png" alt="" width="28" /> | combine cloth | 0.0 – 0.0 | 1 Yards of Cloth |
+| <img src="/img/items/0xA2BE.png" alt="" width="28" /> | powder charge | 0.0 – 50.0 | 1 Yards of Cloth, 4 black powder |
+| <img src="/img/items/0x4224.png" alt="" width="28" /> | powder charge | 0.0 – 50.0 | 1 Yards of Cloth, 1 black powder |
+| <img src="/img/items/0x4224.png" alt="" width="28" /> | powder charge | 0.0 – 50.0 | 1 Yards of Cloth, 4 black powder |
+| <img src="/img/items/0x1767.png" alt="" width="28" /> | abyssal cloth | 110.0 – 160.0 | 50 Yards of Cloth, 1 Crystalline Blackrock |
 
 ## Hats
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| skullcap | 0.0 – 25.0 | 2 Yards of Cloth |
-| bandana | 0.0 – 25.0 | 2 Yards of Cloth |
-| floppy hat | 6.2 – 31.2 | 11 Yards of Cloth |
-| cap | 6.2 – 31.2 | 11 Yards of Cloth |
-| wide-brim hat | 6.2 – 31.2 | 12 Yards of Cloth |
-| straw hat | 6.2 – 31.2 | 10 Yards of Cloth |
-| tall straw hat | 6.7 – 31.7 | 13 Yards of Cloth |
-| wizard's hat | 7.2 – 32.2 | 15 Yards of Cloth |
-| bonnet | 6.2 – 31.2 | 11 Yards of Cloth |
-| feathered hat | 6.2 – 31.2 | 12 Yards of Cloth |
-| tricorne hat | 6.2 – 31.2 | 12 Yards of Cloth |
-| jester hat | 7.2 – 32.2 | 15 Yards of Cloth |
-| flower garland | 10.0 – 35.0 | 5 Yards of Cloth |
-| cloth ninja hood | 80.0 – 105.0 | 13 Yards of Cloth |
-| kasa | 60.0 – 85.0 | 12 Yards of Cloth |
-| orc mask | 75.0 – 100.0 | 12 Yards of Cloth |
-| bear mask | 77.5 – 102.5 | 15 Yards of Cloth |
-| deer mask | 77.5 – 102.5 | 15 Yards of Cloth |
-| tribal mask | 82.5 – 107.5 | 12 Yards of Cloth |
-| tribal mask | 82.5 – 107.5 | 12 Yards of Cloth |
-| Chef's Toque | 6.2 – 21.2 | 11 Yards of Cloth |
-| krampus minion hat | 100.0 – 500.0 | 8 Yards of Cloth |
-| assassin's cowl | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 vile tentacles |
-| mage's hood | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 void core |
-| cowl of the mace & shield | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Mace and Shield Reading Glasses, 10 vile tentacles |
-| mage's hood of scholarly insight | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 the scholar's halo, 10 void core |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1544.png" alt="" width="28" /> | skullcap | 0.0 – 25.0 | 2 Yards of Cloth |
+| <img src="/img/items/0x1540.png" alt="" width="28" /> | bandana | 0.0 – 25.0 | 2 Yards of Cloth |
+| <img src="/img/items/0x1713.png" alt="" width="28" /> | floppy hat | 6.2 – 31.2 | 11 Yards of Cloth |
+| <img src="/img/items/0x1715.png" alt="" width="28" /> | cap | 6.2 – 31.2 | 11 Yards of Cloth |
+| <img src="/img/items/0x1714.png" alt="" width="28" /> | wide-brim hat | 6.2 – 31.2 | 12 Yards of Cloth |
+| <img src="/img/items/0x1717.png" alt="" width="28" /> | straw hat | 6.2 – 31.2 | 10 Yards of Cloth |
+| <img src="/img/items/0x1716.png" alt="" width="28" /> | tall straw hat | 6.7 – 31.7 | 13 Yards of Cloth |
+| <img src="/img/items/0x1718.png" alt="" width="28" /> | wizard's hat | 7.2 – 32.2 | 15 Yards of Cloth |
+| <img src="/img/items/0x1719.png" alt="" width="28" /> | bonnet | 6.2 – 31.2 | 11 Yards of Cloth |
+| <img src="/img/items/0x171A.png" alt="" width="28" /> | feathered hat | 6.2 – 31.2 | 12 Yards of Cloth |
+| <img src="/img/items/0x171B.png" alt="" width="28" /> | tricorne hat | 6.2 – 31.2 | 12 Yards of Cloth |
+| <img src="/img/items/0x171C.png" alt="" width="28" /> | jester hat | 7.2 – 32.2 | 15 Yards of Cloth |
+| <img src="/img/items/0x2306.png" alt="" width="28" /> | flower garland | 10.0 – 35.0 | 5 Yards of Cloth |
+| <img src="/img/items/0x278F.png" alt="" width="28" /> | cloth ninja hood | 80.0 – 105.0 | 13 Yards of Cloth |
+| <img src="/img/items/0x2798.png" alt="" width="28" /> | kasa | 60.0 – 85.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x141B.png" alt="" width="28" /> | orc mask | 75.0 – 100.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x1545.png" alt="" width="28" /> | bear mask | 77.5 – 102.5 | 15 Yards of Cloth |
+| <img src="/img/items/0x1547.png" alt="" width="28" /> | deer mask | 77.5 – 102.5 | 15 Yards of Cloth |
+| <img src="/img/items/0x154B.png" alt="" width="28" /> | tribal mask | 82.5 – 107.5 | 12 Yards of Cloth |
+| <img src="/img/items/0x1549.png" alt="" width="28" /> | tribal mask | 82.5 – 107.5 | 12 Yards of Cloth |
+| <img src="/img/items/0x781A.png" alt="" width="28" /> | Chef's Toque | 6.2 – 21.2 | 11 Yards of Cloth |
+| <img src="/img/items/0xA28F.png" alt="" width="28" /> | krampus minion hat | 100.0 – 500.0 | 8 Yards of Cloth |
+| <img src="/img/items/0xA410.png" alt="" width="28" /> | assassin's cowl | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 vile tentacles |
+| <img src="/img/items/0xA411.png" alt="" width="28" /> | mage's hood | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 void core |
+| <img src="/img/items/0xA410.png" alt="" width="28" /> | cowl of the mace & shield | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Mace and Shield Reading Glasses, 10 vile tentacles |
+| <img src="/img/items/0xA411.png" alt="" width="28" /> | mage's hood of scholarly insight | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 the scholar's halo, 10 void core |
 
 ## Shirts and Pants
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| doublet | 0.0 – 25.0 | 8 Yards of Cloth |
-| shirt | 20.7 – 45.7 | 8 Yards of Cloth |
-| fancy shirt | 24.8 – 49.8 | 8 Yards of Cloth |
-| tunic | 0.0 – 25.0 | 12 Yards of Cloth |
-| surcoat | 8.2 – 33.2 | 14 Yards of Cloth |
-| plain dress | 12.4 – 37.4 | 10 Yards of Cloth |
-| fancy dress | 33.1 – 58.1 | 12 Yards of Cloth |
-| cloak | 41.4 – 66.4 | 14 Yards of Cloth |
-| robe | 53.9 – 78.9 | 16 Yards of Cloth |
-| jester suit | 8.2 – 33.2 | 24 Yards of Cloth |
-| fur cape | 35.0 – 60.0 | 13 Yards of Cloth |
-| gilded dress | 37.5 – 62.5 | 16 Yards of Cloth |
-| formal shirt | 26.0 – 51.0 | 16 Yards of Cloth |
-| cloth ninja jacket | 75.0 – 100.0 | 12 Yards of Cloth |
-| kamishimo | 75.0 – 100.0 | 15 Yards of Cloth |
-| hakama-shita | 40.0 – 65.0 | 14 Yards of Cloth |
-| male kimono | 50.0 – 75.0 | 16 Yards of Cloth |
-| female kimono | 50.0 – 75.0 | 16 Yards of Cloth |
-| jin-baori | 30.0 – 55.0 | 12 Yards of Cloth |
-| short pants | 24.8 – 49.8 | 6 Yards of Cloth |
-| long pants | 24.8 – 49.8 | 8 Yards of Cloth |
-| kilt | 20.7 – 45.7 | 8 Yards of Cloth |
-| skirt | 29.0 – 54.0 | 10 Yards of Cloth |
-| fur sarong | 35.0 – 60.0 | 12 Yards of Cloth |
-| hakama | 50.0 – 75.0 | 16 Yards of Cloth |
-| tattsuke-hakama | 50.0 – 75.0 | 16 Yards of Cloth |
-| elven shirt | 80.0 – 105.0 | 10 Yards of Cloth |
-| elven shirt | 80.0 – 105.0 | 10 Yards of Cloth |
-| elven pants | 80.0 – 105.0 | 12 Yards of Cloth |
-| elven robe | 80.0 – 105.0 | 30 Yards of Cloth |
-| female elven robe | 80.0 – 105.0 | 30 Yards of Cloth |
-| woodland belt | 80.0 – 105.0 | 10 Yards of Cloth |
-| gargish robe | 53.9 – 78.9 | 16 Yards of Cloth |
-| gargish fancy robe | 53.9 – 78.9 | 16 Yards of Cloth |
-| robe of rite | 101.5 – 120.0 | 6 Leather or Hides, 1 Fire Ruby, 5 Gold Dust, 6 abyssal cloth |
-| Gilded Kilt | 82.8 – 97.8 | 8 Yards of Cloth |
-| Checkered Kilt | 41.4 – 56.4 | 8 Yards of Cloth |
-| Fancy Kilt | 20.7 – 25.7 | 8 Yards of Cloth |
-| Flowered Dress | 75.0 – 90.0 | 18 Yards of Cloth |
-| Evening Gown | 75.0 – 90.0 | 18 Yards of Cloth |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1F7B.png" alt="" width="28" /> | doublet | 0.0 – 25.0 | 8 Yards of Cloth |
+| <img src="/img/items/0x1517.png" alt="" width="28" /> | shirt | 20.7 – 45.7 | 8 Yards of Cloth |
+| <img src="/img/items/0x1EFD.png" alt="" width="28" /> | fancy shirt | 24.8 – 49.8 | 8 Yards of Cloth |
+| <img src="/img/items/0x1FA1.png" alt="" width="28" /> | tunic | 0.0 – 25.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x1FFD.png" alt="" width="28" /> | surcoat | 8.2 – 33.2 | 14 Yards of Cloth |
+| <img src="/img/items/0x1F01.png" alt="" width="28" /> | plain dress | 12.4 – 37.4 | 10 Yards of Cloth |
+| <img src="/img/items/0x1F00.png" alt="" width="28" /> | fancy dress | 33.1 – 58.1 | 12 Yards of Cloth |
+| <img src="/img/items/0x1515.png" alt="" width="28" /> | cloak | 41.4 – 66.4 | 14 Yards of Cloth |
+| <img src="/img/items/0x1F03.png" alt="" width="28" /> | robe | 53.9 – 78.9 | 16 Yards of Cloth |
+| <img src="/img/items/0x1F9F.png" alt="" width="28" /> | jester suit | 8.2 – 33.2 | 24 Yards of Cloth |
+| <img src="/img/items/0x230A.png" alt="" width="28" /> | fur cape | 35.0 – 60.0 | 13 Yards of Cloth |
+| <img src="/img/items/0x230E.png" alt="" width="28" /> | gilded dress | 37.5 – 62.5 | 16 Yards of Cloth |
+| <img src="/img/items/0x2310.png" alt="" width="28" /> | formal shirt | 26.0 – 51.0 | 16 Yards of Cloth |
+| <img src="/img/items/0x2794.png" alt="" width="28" /> | cloth ninja jacket | 75.0 – 100.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x2799.png" alt="" width="28" /> | kamishimo | 75.0 – 100.0 | 15 Yards of Cloth |
+| <img src="/img/items/0x279C.png" alt="" width="28" /> | hakama-shita | 40.0 – 65.0 | 14 Yards of Cloth |
+| <img src="/img/items/0x2782.png" alt="" width="28" /> | male kimono | 50.0 – 75.0 | 16 Yards of Cloth |
+| <img src="/img/items/0x2783.png" alt="" width="28" /> | female kimono | 50.0 – 75.0 | 16 Yards of Cloth |
+| <img src="/img/items/0x27A1.png" alt="" width="28" /> | jin-baori | 30.0 – 55.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x152E.png" alt="" width="28" /> | short pants | 24.8 – 49.8 | 6 Yards of Cloth |
+| <img src="/img/items/0x1539.png" alt="" width="28" /> | long pants | 24.8 – 49.8 | 8 Yards of Cloth |
+| <img src="/img/items/0x1537.png" alt="" width="28" /> | kilt | 20.7 – 45.7 | 8 Yards of Cloth |
+| <img src="/img/items/0x1516.png" alt="" width="28" /> | skirt | 29.0 – 54.0 | 10 Yards of Cloth |
+| <img src="/img/items/0x230C.png" alt="" width="28" /> | fur sarong | 35.0 – 60.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x279A.png" alt="" width="28" /> | hakama | 50.0 – 75.0 | 16 Yards of Cloth |
+| <img src="/img/items/0x279B.png" alt="" width="28" /> | tattsuke-hakama | 50.0 – 75.0 | 16 Yards of Cloth |
+| <img src="/img/items/0x3175.png" alt="" width="28" /> | elven shirt | 80.0 – 105.0 | 10 Yards of Cloth |
+| <img src="/img/items/0x3176.png" alt="" width="28" /> | elven shirt | 80.0 – 105.0 | 10 Yards of Cloth |
+| <img src="/img/items/0x2FC3.png" alt="" width="28" /> | elven pants | 80.0 – 105.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x2FB9.png" alt="" width="28" /> | elven robe | 80.0 – 105.0 | 30 Yards of Cloth |
+| <img src="/img/items/0x2FBA.png" alt="" width="28" /> | female elven robe | 80.0 – 105.0 | 30 Yards of Cloth |
+| <img src="/img/items/0x2B68.png" alt="" width="28" /> | woodland belt | 80.0 – 105.0 | 10 Yards of Cloth |
+| <img src="/img/items/0x4000.png" alt="" width="28" /> | gargish robe | 53.9 – 78.9 | 16 Yards of Cloth |
+| <img src="/img/items/0x4002.png" alt="" width="28" /> | gargish fancy robe | 53.9 – 78.9 | 16 Yards of Cloth |
+| <img src="/img/items/0x1F03.png" alt="" width="28" /> | robe of rite | 101.5 – 120.0 | 6 Leather or Hides, 1 Fire Ruby, 5 Gold Dust, 6 abyssal cloth |
+| <img src="/img/items/0x781B.png" alt="" width="28" /> | Gilded Kilt | 82.8 – 97.8 | 8 Yards of Cloth |
+| <img src="/img/items/0x781C.png" alt="" width="28" /> | Checkered Kilt | 41.4 – 56.4 | 8 Yards of Cloth |
+| <img src="/img/items/0x781D.png" alt="" width="28" /> | Fancy Kilt | 20.7 – 25.7 | 8 Yards of Cloth |
+| <img src="/img/items/0x781E.png" alt="" width="28" /> | Flowered Dress | 75.0 – 90.0 | 18 Yards of Cloth |
+| <img src="/img/items/0x7821.png" alt="" width="28" /> | Evening Gown | 75.0 – 90.0 | 18 Yards of Cloth |
 
 ## Miscellaneous
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| body sash | 4.1 – 29.1 | 4 Yards of Cloth |
-| half apron | 20.7 – 45.7 | 6 Yards of Cloth |
-| full apron | 29.0 – 54.0 | 10 Yards of Cloth |
-| obi | 20.0 – 45.0 | 6 Yards of Cloth |
-| elven quiver | 65.0 – 115.0 | 28 Leather or Hides |
-| quiver of fire | 65.0 – 115.0 | 28 Leather or Hides, 15 Fire Ruby |
-| quiver of ice | 65.0 – 115.0 | 28 Leather or Hides, 15 White Pearl |
-| Quiver of Blight | 65.0 – 115.0 | 28 Leather or Hides, 10 Blight |
-| Quiver of Lightning | 65.0 – 115.0 | 28 Leather or Hides, 10 Corruption |
-| leather container engraving tool | 75.0 – 100.0 | 1 Bones, 6 Leather or Hides, 2 Spools of Thread, 1 dyes |
-| Gargish Half Apron | 20.7 – 45.7 | 6 Yards of Cloth |
-| gargish sash | 4.1 – 29.1 | 4 Yards of Cloth |
-| oil cloth | 74.6 – 99.6 | 1 Yards of Cloth |
-| goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
-| goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
-| square goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
-| square goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
-| brocade goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
-| brocade goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
-| square brocade goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
-| square brocade goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
-| mace belt | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
-| sword belt | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
-| dagger belt | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
-| elegant collar | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
-| crimson mace belt | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Crimson Cincture, 10 lodestone |
-| crimson sword belt | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Crimson Cincture, 10 lodestone |
-| crimson dagger belt | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Crimson Cincture, 10 lodestone |
-| elegant collar of fortune | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Leurocian's Mempo of Fortune, 10 fey wings |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1541.png" alt="" width="28" /> | body sash | 4.1 – 29.1 | 4 Yards of Cloth |
+| <img src="/img/items/0x153B.png" alt="" width="28" /> | half apron | 20.7 – 45.7 | 6 Yards of Cloth |
+| <img src="/img/items/0x153D.png" alt="" width="28" /> | full apron | 29.0 – 54.0 | 10 Yards of Cloth |
+| <img src="/img/items/0x27A0.png" alt="" width="28" /> | obi | 20.0 – 45.0 | 6 Yards of Cloth |
+| <img src="/img/items/0x2FB7.png" alt="" width="28" /> | elven quiver | 65.0 – 115.0 | 28 Leather or Hides |
+| <img src="/img/items/0x2FB7.png" alt="" width="28" /> | quiver of fire | 65.0 – 115.0 | 28 Leather or Hides, 15 Fire Ruby |
+| <img src="/img/items/0x2FB7.png" alt="" width="28" /> | quiver of ice | 65.0 – 115.0 | 28 Leather or Hides, 15 White Pearl |
+| <img src="/img/items/0x2FB7.png" alt="" width="28" /> | Quiver of Blight | 65.0 – 115.0 | 28 Leather or Hides, 10 Blight |
+| <img src="/img/items/0x2FB7.png" alt="" width="28" /> | Quiver of Lightning | 65.0 – 115.0 | 28 Leather or Hides, 10 Corruption |
+| <img src="/img/items/0x0F9D.png" alt="" width="28" /> | leather container engraving tool | 75.0 – 100.0 | 1 Bones, 6 Leather or Hides, 2 Spools of Thread, 1 dyes |
+| <img src="/img/items/0x50D8.png" alt="" width="28" /> | Gargish Half Apron | 20.7 – 45.7 | 6 Yards of Cloth |
+| <img src="/img/items/0x46B4.png" alt="" width="28" /> | gargish sash | 4.1 – 29.1 | 4 Yards of Cloth |
+| <img src="/img/items/0x175D.png" alt="" width="28" /> | oil cloth | 74.6 – 99.6 | 1 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | square goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | square goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | brocade goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | brocade goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | square brocade goza (east) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0x14F0.png" alt="" width="28" /> | square brocade goza (south) | 55.0 – 80.0 | 25 Yards of Cloth |
+| <img src="/img/items/0xA40C.png" alt="" width="28" /> | mace belt | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
+| <img src="/img/items/0xA40D.png" alt="" width="28" /> | sword belt | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
+| <img src="/img/items/0xA40E.png" alt="" width="28" /> | dagger belt | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
+| <img src="/img/items/0xA40F.png" alt="" width="28" /> | elegant collar | 90.0 – 110.0 | 5 Yards of Cloth, 5 Leather or Hides, 5 fey wings |
+| <img src="/img/items/0xA40C.png" alt="" width="28" /> | crimson mace belt | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Crimson Cincture, 10 lodestone |
+| <img src="/img/items/0xA40D.png" alt="" width="28" /> | crimson sword belt | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Crimson Cincture, 10 lodestone |
+| <img src="/img/items/0xA40E.png" alt="" width="28" /> | crimson dagger belt | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Crimson Cincture, 10 lodestone |
+| <img src="/img/items/0xA40F.png" alt="" width="28" /> | elegant collar of fortune | 120.0 – 215.0 | 5 Yards of Cloth, 5 Leather or Hides, 1 Leurocian's Mempo of Fortune, 10 fey wings |
 
 ## Footwear
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| elven boots | 80.0 – 105.0 | 15 Leather or Hides |
-| fur boots | 50.0 – 75.0 | 12 Yards of Cloth |
-| ninja tabi | 70.0 – 95.0 | 10 Yards of Cloth |
-| waraji and tabi | 20.0 – 45.0 | 6 Yards of Cloth |
-| sandals | 12.4 – 37.4 | 4 Leather or Hides |
-| shoes | 16.5 – 41.5 | 6 Leather or Hides |
-| boots | 33.1 – 58.1 | 8 Leather or Hides |
-| thigh boots | 41.4 – 66.4 | 10 Leather or Hides |
-| Gargish Leather Talons | 40.4 – 65.4 | 6 Leather or Hides |
-| Jester Shoes | 20.0 – 35.0 | 6 Yards of Cloth |
-| krampus minion boots | 100.0 – 500.0 | 6 Leather or Hides, 4 Yards of Cloth |
-| krampus minion talons | 100.0 – 500.0 | 6 Leather or Hides, 4 Yards of Cloth |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x2FC4.png" alt="" width="28" /> | elven boots | 80.0 – 105.0 | 15 Leather or Hides |
+| <img src="/img/items/0x2307.png" alt="" width="28" /> | fur boots | 50.0 – 75.0 | 12 Yards of Cloth |
+| <img src="/img/items/0x2797.png" alt="" width="28" /> | ninja tabi | 70.0 – 95.0 | 10 Yards of Cloth |
+| <img src="/img/items/0x2796.png" alt="" width="28" /> | waraji and tabi | 20.0 – 45.0 | 6 Yards of Cloth |
+| <img src="/img/items/0x170D.png" alt="" width="28" /> | sandals | 12.4 – 37.4 | 4 Leather or Hides |
+| <img src="/img/items/0x170F.png" alt="" width="28" /> | shoes | 16.5 – 41.5 | 6 Leather or Hides |
+| <img src="/img/items/0x170B.png" alt="" width="28" /> | boots | 33.1 – 58.1 | 8 Leather or Hides |
+| <img src="/img/items/0x1711.png" alt="" width="28" /> | thigh boots | 41.4 – 66.4 | 10 Leather or Hides |
+| <img src="/img/items/0x41D8.png" alt="" width="28" /> | Gargish Leather Talons | 40.4 – 65.4 | 6 Leather or Hides |
+| <img src="/img/items/0x7819.png" alt="" width="28" /> | Jester Shoes | 20.0 – 35.0 | 6 Yards of Cloth |
+| <img src="/img/items/0xA28D.png" alt="" width="28" /> | krampus minion boots | 100.0 – 500.0 | 6 Leather or Hides, 4 Yards of Cloth |
+| <img src="/img/items/0xA294.png" alt="" width="28" /> | krampus minion talons | 100.0 – 500.0 | 6 Leather or Hides, 4 Yards of Cloth |
 
 ## Leather Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| Spell Woven Britches | 92.5 – 117.5 | 15 Leather or Hides, 1 Eye of the Travesty, 10 Putrefaction, 10 Scourge |
-| Song Woven Mantle | 92.5 – 117.5 | 15 Leather or Hides, 1 Eye of the Travesty, 10 Blight, 10 Muculent |
-| Stitcher's Mittens | 92.5 – 117.5 | 15 Leather or Hides, 1 Captured Essence, 10 Corruption, 10 Taint |
-| leather gorget | 53.9 – 78.9 | 4 Leather or Hides |
-| leather cap | 6.2 – 31.2 | 2 Leather or Hides |
-| leather gloves | 51.8 – 76.8 | 3 Leather or Hides |
-| leather sleeves | 53.9 – 78.9 | 4 Leather or Hides |
-| leather leggings | 66.3 – 91.3 | 10 Leather or Hides |
-| leather tunic | 70.5 – 95.5 | 12 Leather or Hides |
-| leather jingasa | 45.0 – 70.0 | 4 Leather or Hides |
-| leather mempo | 80.0 – 105.0 | 8 Leather or Hides |
-| leather do | 75.0 – 100.0 | 12 Leather or Hides |
-| leather hiro sode | 55.0 – 80.0 | 5 Leather or Hides |
-| leather suneate | 68.0 – 93.0 | 12 Leather or Hides |
-| leather haidate | 68.0 – 93.0 | 12 Leather or Hides |
-| leather ninja pants | 80.0 – 105.0 | 13 Leather or Hides |
-| leather ninja jacket | 85.0 – 110.0 | 13 Leather or Hides |
-| leather ninja belt | 50.0 – 75.0 | 5 Leather or Hides |
-| leather ninja mitts | 65.0 – 90.0 | 12 Leather or Hides |
-| leather ninja hood | 90.0 – 115.0 | 14 Leather or Hides |
-| leaf tunic | 75.0 – 100.0 | 15 Leather or Hides |
-| leaf arms | 60.0 – 85.0 | 12 Leather or Hides |
-| leaf gloves | 60.0 – 85.0 | 10 Leather or Hides |
-| leaf leggings | 75.0 – 100.0 | 15 Leather or Hides |
-| leaf gorget | 65.0 – 90.0 | 12 Leather or Hides |
-| leaf tonlet | 70.0 – 95.0 | 12 Leather or Hides |
-| gargish leather arms | 53.9 – 78.9 | 8 Leather or Hides |
-| gargish leather chest | 70.5 – 95.5 | 8 Leather or Hides |
-| gargish leather leggings | 66.3 – 91.3 | 10 Leather or Hides |
-| gargish leather kilt | 58.0 – 83.0 | 6 Leather or Hides |
-| gargish leather arms | 53.9 – 78.9 | 8 Leather or Hides |
-| gargish leather chest | 70.5 – 95.5 | 8 Leather or Hides |
-| gargish leather leggings | 66.3 – 91.3 | 10 Leather or Hides |
-| gargish leather kilt | 58.0 – 83.0 | 6 Leather or Hides |
-| Gargish Leather Wing Armor | 65.0 – 90.0 | 12 Leather or Hides |
-| Tiger Pelt Chest | 90.0 – 115.0 | 8 Leather or Hides, 4 Tiger Pelt |
-| Tiger Pelt Leggings | 90.0 – 115.0 | 8 Leather or Hides, 4 Tiger Pelt |
-| Tiger Pelt Shorts | 90.0 – 115.0 | 4 Leather or Hides, 2 Tiger Pelt |
-| Tiger Pelt Helm | 90.0 – 115.0 | 2 Leather or Hides, 1 Tiger Pelt |
-| Tiger Pelt Collar | 90.0 – 115.0 | 2 Leather or Hides, 1 Tiger Pelt |
-| Dragon Turtle Hide Chest | 101.5 – 116.5 | 8 Leather or Hides, 2 Dragon Turtle Scute |
-| Dragon Turtle Hide Leggings | 101.5 – 116.5 | 8 Leather or Hides, 4 Dragon Turtle Scute |
-| Dragon Turtle Hide Helm | 101.5 – 116.5 | 2 Leather or Hides, 1 Dragon Turtle Scute |
-| Dragon Turtle Hide Arms | 101.5 – 116.5 | 4 Leather or Hides, 2 Dragon Turtle Scute |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x2FC9.png" alt="" width="28" /> | Spell Woven Britches | 92.5 – 117.5 | 15 Leather or Hides, 1 Eye of the Travesty, 10 Putrefaction, 10 Scourge |
+| <img src="/img/items/0x2FC8.png" alt="" width="28" /> | Song Woven Mantle | 92.5 – 117.5 | 15 Leather or Hides, 1 Eye of the Travesty, 10 Blight, 10 Muculent |
+| <img src="/img/items/0x2FC6.png" alt="" width="28" /> | Stitcher's Mittens | 92.5 – 117.5 | 15 Leather or Hides, 1 Captured Essence, 10 Corruption, 10 Taint |
+| <img src="/img/items/0x13C7.png" alt="" width="28" /> | leather gorget | 53.9 – 78.9 | 4 Leather or Hides |
+| <img src="/img/items/0x1DB9.png" alt="" width="28" /> | leather cap | 6.2 – 31.2 | 2 Leather or Hides |
+| <img src="/img/items/0x13C6.png" alt="" width="28" /> | leather gloves | 51.8 – 76.8 | 3 Leather or Hides |
+| <img src="/img/items/0x13CD.png" alt="" width="28" /> | leather sleeves | 53.9 – 78.9 | 4 Leather or Hides |
+| <img src="/img/items/0x13CB.png" alt="" width="28" /> | leather leggings | 66.3 – 91.3 | 10 Leather or Hides |
+| <img src="/img/items/0x13CC.png" alt="" width="28" /> | leather tunic | 70.5 – 95.5 | 12 Leather or Hides |
+| <img src="/img/items/0x2776.png" alt="" width="28" /> | leather jingasa | 45.0 – 70.0 | 4 Leather or Hides |
+| <img src="/img/items/0x277A.png" alt="" width="28" /> | leather mempo | 80.0 – 105.0 | 8 Leather or Hides |
+| <img src="/img/items/0x27C6.png" alt="" width="28" /> | leather do | 75.0 – 100.0 | 12 Leather or Hides |
+| <img src="/img/items/0x277E.png" alt="" width="28" /> | leather hiro sode | 55.0 – 80.0 | 5 Leather or Hides |
+| <img src="/img/items/0x2786.png" alt="" width="28" /> | leather suneate | 68.0 – 93.0 | 12 Leather or Hides |
+| <img src="/img/items/0x278A.png" alt="" width="28" /> | leather haidate | 68.0 – 93.0 | 12 Leather or Hides |
+| <img src="/img/items/0x2791.png" alt="" width="28" /> | leather ninja pants | 80.0 – 105.0 | 13 Leather or Hides |
+| <img src="/img/items/0x2793.png" alt="" width="28" /> | leather ninja jacket | 85.0 – 110.0 | 13 Leather or Hides |
+| <img src="/img/items/0x2790.png" alt="" width="28" /> | leather ninja belt | 50.0 – 75.0 | 5 Leather or Hides |
+| <img src="/img/items/0x2792.png" alt="" width="28" /> | leather ninja mitts | 65.0 – 90.0 | 12 Leather or Hides |
+| <img src="/img/items/0x278E.png" alt="" width="28" /> | leather ninja hood | 90.0 – 115.0 | 14 Leather or Hides |
+| <img src="/img/items/0x2FC5.png" alt="" width="28" /> | leaf tunic | 75.0 – 100.0 | 15 Leather or Hides |
+| <img src="/img/items/0x2FC8.png" alt="" width="28" /> | leaf arms | 60.0 – 85.0 | 12 Leather or Hides |
+| <img src="/img/items/0x2FC6.png" alt="" width="28" /> | leaf gloves | 60.0 – 85.0 | 10 Leather or Hides |
+| <img src="/img/items/0x2FC9.png" alt="" width="28" /> | leaf leggings | 75.0 – 100.0 | 15 Leather or Hides |
+| <img src="/img/items/0x2FC7.png" alt="" width="28" /> | leaf gorget | 65.0 – 90.0 | 12 Leather or Hides |
+| <img src="/img/items/0x2FCA.png" alt="" width="28" /> | leaf tonlet | 70.0 – 95.0 | 12 Leather or Hides |
+| <img src="/img/items/0x0302.png" alt="" width="28" /> | gargish leather arms | 53.9 – 78.9 | 8 Leather or Hides |
+| <img src="/img/items/0x0304.png" alt="" width="28" /> | gargish leather chest | 70.5 – 95.5 | 8 Leather or Hides |
+| <img src="/img/items/0x0305.png" alt="" width="28" /> | gargish leather leggings | 66.3 – 91.3 | 10 Leather or Hides |
+| <img src="/img/items/0x0311.png" alt="" width="28" /> | gargish leather kilt | 58.0 – 83.0 | 6 Leather or Hides |
+| <img src="/img/items/0x0301.png" alt="" width="28" /> | gargish leather arms | 53.9 – 78.9 | 8 Leather or Hides |
+| <img src="/img/items/0x0303.png" alt="" width="28" /> | gargish leather chest | 70.5 – 95.5 | 8 Leather or Hides |
+| <img src="/img/items/0x0305.png" alt="" width="28" /> | gargish leather leggings | 66.3 – 91.3 | 10 Leather or Hides |
+| <img src="/img/items/0x0310.png" alt="" width="28" /> | gargish leather kilt | 58.0 – 83.0 | 6 Leather or Hides |
+| <img src="/img/items/0x457E.png" alt="" width="28" /> | Gargish Leather Wing Armor | 65.0 – 90.0 | 12 Leather or Hides |
+| <img src="/img/items/0x7822.png" alt="" width="28" /> | Tiger Pelt Chest | 90.0 – 115.0 | 8 Leather or Hides, 4 Tiger Pelt |
+| <img src="/img/items/0x7824.png" alt="" width="28" /> | Tiger Pelt Leggings | 90.0 – 115.0 | 8 Leather or Hides, 4 Tiger Pelt |
+| <img src="/img/items/0x7825.png" alt="" width="28" /> | Tiger Pelt Shorts | 90.0 – 115.0 | 4 Leather or Hides, 2 Tiger Pelt |
+| <img src="/img/items/0x7828.png" alt="" width="28" /> | Tiger Pelt Helm | 90.0 – 115.0 | 2 Leather or Hides, 1 Tiger Pelt |
+| <img src="/img/items/0x7829.png" alt="" width="28" /> | Tiger Pelt Collar | 90.0 – 115.0 | 2 Leather or Hides, 1 Tiger Pelt |
+| <img src="/img/items/0x782A.png" alt="" width="28" /> | Dragon Turtle Hide Chest | 101.5 – 116.5 | 8 Leather or Hides, 2 Dragon Turtle Scute |
+| <img src="/img/items/0x782C.png" alt="" width="28" /> | Dragon Turtle Hide Leggings | 101.5 – 116.5 | 8 Leather or Hides, 4 Dragon Turtle Scute |
+| <img src="/img/items/0x782D.png" alt="" width="28" /> | Dragon Turtle Hide Helm | 101.5 – 116.5 | 2 Leather or Hides, 1 Dragon Turtle Scute |
+| <img src="/img/items/0x782E.png" alt="" width="28" /> | Dragon Turtle Hide Arms | 101.5 – 116.5 | 4 Leather or Hides, 2 Dragon Turtle Scute |
 
 ## Cloth Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| gargish cloth arms | 87.1 – 137.1 | 8 Yards of Cloth |
-| gargish cloth chest | 94.0 – 144.0 | 8 Yards of Cloth |
-| gargish cloth leggings | 91.2 – 141.2 | 10 Yards of Cloth |
-| gargish cloth kilt | 82.9 – 132.9 | 6 Yards of Cloth |
-| gargish cloth arms | 87.1 – 137.1 | 8 Yards of Cloth |
-| gargish cloth chest | 94.0 – 144.0 | 8 Yards of Cloth |
-| gargish cloth leggings | 91.2 – 141.2 | 10 Yards of Cloth |
-| gargish cloth kilt | 82.9 – 132.9 | 6 Yards of Cloth |
-| gargish cloth wing armor | 65.0 – 90.0 | 12 Yards of Cloth |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x0404.png" alt="" width="28" /> | gargish cloth arms | 87.1 – 137.1 | 8 Yards of Cloth |
+| <img src="/img/items/0x0406.png" alt="" width="28" /> | gargish cloth chest | 94.0 – 144.0 | 8 Yards of Cloth |
+| <img src="/img/items/0x040A.png" alt="" width="28" /> | gargish cloth leggings | 91.2 – 141.2 | 10 Yards of Cloth |
+| <img src="/img/items/0x0408.png" alt="" width="28" /> | gargish cloth kilt | 82.9 – 132.9 | 6 Yards of Cloth |
+| <img src="/img/items/0x0403.png" alt="" width="28" /> | gargish cloth arms | 87.1 – 137.1 | 8 Yards of Cloth |
+| <img src="/img/items/0x0405.png" alt="" width="28" /> | gargish cloth chest | 94.0 – 144.0 | 8 Yards of Cloth |
+| <img src="/img/items/0x0409.png" alt="" width="28" /> | gargish cloth leggings | 91.2 – 141.2 | 10 Yards of Cloth |
+| <img src="/img/items/0x0407.png" alt="" width="28" /> | gargish cloth kilt | 82.9 – 132.9 | 6 Yards of Cloth |
+| <img src="/img/items/0x45A4.png" alt="" width="28" /> | gargish cloth wing armor | 65.0 – 90.0 | 12 Yards of Cloth |
 
 ## Studded Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| studded gorget | 78.8 – 103.8 | 6 Leather or Hides |
-| studded gloves | 82.9 – 107.9 | 8 Leather or Hides |
-| studded sleeves | 87.1 – 112.1 | 10 Leather or Hides |
-| studded leggings | 91.2 – 116.2 | 12 Leather or Hides |
-| studded tunic | 94.0 – 119.0 | 14 Leather or Hides |
-| studded mempo | 80.0 – 105.0 | 8 Leather or Hides |
-| studded do | 95.0 – 120.0 | 14 Leather or Hides |
-| studded hiro sode | 85.0 – 110.0 | 8 Leather or Hides |
-| studded suneate | 92.0 – 117.0 | 14 Leather or Hides |
-| studded haidate | 92.0 – 117.0 | 14 Leather or Hides |
-| hide tunic | 85.0 – 110.0 | 15 Leather or Hides |
-| hide pauldrons | 75.0 – 100.0 | 12 Leather or Hides |
-| hide gloves | 75.0 – 100.0 | 10 Leather or Hides |
-| hide pants | 92.0 – 117.0 | 15 Leather or Hides |
-| hide gorget | 90.0 – 115.0 | 12 Leather or Hides |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x13D6.png" alt="" width="28" /> | studded gorget | 78.8 – 103.8 | 6 Leather or Hides |
+| <img src="/img/items/0x13D5.png" alt="" width="28" /> | studded gloves | 82.9 – 107.9 | 8 Leather or Hides |
+| <img src="/img/items/0x13DC.png" alt="" width="28" /> | studded sleeves | 87.1 – 112.1 | 10 Leather or Hides |
+| <img src="/img/items/0x13DA.png" alt="" width="28" /> | studded leggings | 91.2 – 116.2 | 12 Leather or Hides |
+| <img src="/img/items/0x13DB.png" alt="" width="28" /> | studded tunic | 94.0 – 119.0 | 14 Leather or Hides |
+| <img src="/img/items/0x279D.png" alt="" width="28" /> | studded mempo | 80.0 – 105.0 | 8 Leather or Hides |
+| <img src="/img/items/0x27C7.png" alt="" width="28" /> | studded do | 95.0 – 120.0 | 14 Leather or Hides |
+| <img src="/img/items/0x277F.png" alt="" width="28" /> | studded hiro sode | 85.0 – 110.0 | 8 Leather or Hides |
+| <img src="/img/items/0x27D2.png" alt="" width="28" /> | studded suneate | 92.0 – 117.0 | 14 Leather or Hides |
+| <img src="/img/items/0x278B.png" alt="" width="28" /> | studded haidate | 92.0 – 117.0 | 14 Leather or Hides |
+| <img src="/img/items/0x2B74.png" alt="" width="28" /> | hide tunic | 85.0 – 110.0 | 15 Leather or Hides |
+| <img src="/img/items/0x2B77.png" alt="" width="28" /> | hide pauldrons | 75.0 – 100.0 | 12 Leather or Hides |
+| <img src="/img/items/0x2B75.png" alt="" width="28" /> | hide gloves | 75.0 – 100.0 | 10 Leather or Hides |
+| <img src="/img/items/0x2B78.png" alt="" width="28" /> | hide pants | 92.0 – 117.0 | 15 Leather or Hides |
+| <img src="/img/items/0x2B76.png" alt="" width="28" /> | hide gorget | 90.0 – 115.0 | 12 Leather or Hides |
 
 ## Female Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| leather shorts | 62.2 – 87.2 | 8 Leather or Hides |
-| leather skirt | 58.0 – 83.0 | 6 Leather or Hides |
-| leather bustier | 58.0 – 83.0 | 6 Leather or Hides |
-| studded bustier | 82.9 – 107.9 | 8 Leather or Hides |
-| female leather armor | 62.2 – 87.2 | 8 Leather or Hides |
-| studded armor | 87.1 – 112.1 | 10 Leather or Hides |
-| Tiger Pelt Bustier | 90.0 – 115.0 | 6 Leather or Hides, 3 Tiger Pelt |
-| Tiger Pelt Long Skirt | 90.0 – 115.0 | 4 Leather or Hides, 2 Tiger Pelt |
-| Tiger Pelt Skirt | 90.0 – 115.0 | 4 Leather or Hides, 2 Tiger Pelt |
-| Dragon Turtle Hide Bustier | 101.5 – 116.5 | 6 Leather or Hides, 3 Dragon Turtle Scute |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1C00.png" alt="" width="28" /> | leather shorts | 62.2 – 87.2 | 8 Leather or Hides |
+| <img src="/img/items/0x1C08.png" alt="" width="28" /> | leather skirt | 58.0 – 83.0 | 6 Leather or Hides |
+| <img src="/img/items/0x1C0A.png" alt="" width="28" /> | leather bustier | 58.0 – 83.0 | 6 Leather or Hides |
+| <img src="/img/items/0x1C0C.png" alt="" width="28" /> | studded bustier | 82.9 – 107.9 | 8 Leather or Hides |
+| <img src="/img/items/0x1C06.png" alt="" width="28" /> | female leather armor | 62.2 – 87.2 | 8 Leather or Hides |
+| <img src="/img/items/0x1C02.png" alt="" width="28" /> | studded armor | 87.1 – 112.1 | 10 Leather or Hides |
+| <img src="/img/items/0x7823.png" alt="" width="28" /> | Tiger Pelt Bustier | 90.0 – 115.0 | 6 Leather or Hides, 3 Tiger Pelt |
+| <img src="/img/items/0x7826.png" alt="" width="28" /> | Tiger Pelt Long Skirt | 90.0 – 115.0 | 4 Leather or Hides, 2 Tiger Pelt |
+| <img src="/img/items/0x7827.png" alt="" width="28" /> | Tiger Pelt Skirt | 90.0 – 115.0 | 4 Leather or Hides, 2 Tiger Pelt |
+| <img src="/img/items/0x782B.png" alt="" width="28" /> | Dragon Turtle Hide Bustier | 101.5 – 116.5 | 6 Leather or Hides, 3 Dragon Turtle Scute |
 
 ## Bone Armor
 
-| Item | Skill | Materials |
-| --- | --- | --- |
-| bone helmet | 85.0 – 110.0 | 4 Leather or Hides, 2 Bones |
-| bone gloves | 89.0 – 114.0 | 6 Leather or Hides, 2 Bones |
-| bone arms | 92.0 – 117.0 | 8 Leather or Hides, 4 Bones |
-| bone leggings | 95.0 – 120.0 | 10 Leather or Hides, 6 Bones |
-| bone armor | 96.0 – 121.0 | 12 Leather or Hides, 10 Bones |
-| orc helm | 90.0 – 115.0 | 6 Leather or Hides, 4 Bones |
-| cuffs of the archmage | 120.0 – 120.1 | 8 Yards of Cloth, 1 Midnight Bracers, 5 Blood of the Dark Father, 5 Dark Sapphire |
+|  | Item | Skill | Materials |
+| --- | --- | --- | --- |
+| <img src="/img/items/0x1451.png" alt="" width="28" /> | bone helmet | 85.0 – 110.0 | 4 Leather or Hides, 2 Bones |
+| <img src="/img/items/0x1450.png" alt="" width="28" /> | bone gloves | 89.0 – 114.0 | 6 Leather or Hides, 2 Bones |
+| <img src="/img/items/0x144E.png" alt="" width="28" /> | bone arms | 92.0 – 117.0 | 8 Leather or Hides, 4 Bones |
+| <img src="/img/items/0x1452.png" alt="" width="28" /> | bone leggings | 95.0 – 120.0 | 10 Leather or Hides, 6 Bones |
+| <img src="/img/items/0x144F.png" alt="" width="28" /> | bone armor | 96.0 – 121.0 | 12 Leather or Hides, 10 Bones |
+| <img src="/img/items/0x1F0B.png" alt="" width="28" /> | orc helm | 90.0 – 115.0 | 6 Leather or Hides, 4 Bones |
+| <img src="/img/items/0x144E.png" alt="" width="28" /> | cuffs of the archmage | 120.0 – 120.1 | 8 Yards of Cloth, 1 Midnight Bracers, 5 Blood of the Dark Father, 5 Dark Sapphire |

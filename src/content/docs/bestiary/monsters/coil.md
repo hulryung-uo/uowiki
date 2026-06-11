@@ -54,3 +54,15 @@ last_verified: 2026-06-11
 - Pack items (some chance-based): Bone
 
 Carve: 1 meat, 48 hides.
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/219.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/220.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/221.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/222.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/223.mp3"></audio>

@@ -56,3 +56,15 @@ last_verified: 2026-06-11
 | FilthyRich | 1 |
 
 - Pack items (some chance-based): Bola Ball, Candle, Katana, Kryss, Pitchfork, Ribs, Scimitar, Shaft, Thigh Boots, War Hammer, War Mace
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/1536.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/1537.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/1538.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/1539.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/1540.mp3"></audio>

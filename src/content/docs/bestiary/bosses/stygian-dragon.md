@@ -58,3 +58,15 @@ last_verified: 2026-06-11
 | Gems | 8 |
 
 Carve: 19 meat, 30 hides (barbed).
+
+## Sounds
+
+**Anger** <audio controls preload="none" src="/audio/362.mp3"></audio>
+
+**Idle** <audio controls preload="none" src="/audio/363.mp3"></audio>
+
+**Attack** <audio controls preload="none" src="/audio/364.mp3"></audio>
+
+**Hurt** <audio controls preload="none" src="/audio/365.mp3"></audio>
+
+**Death** <audio controls preload="none" src="/audio/366.mp3"></audio>

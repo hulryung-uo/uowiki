@@ -1,0 +1,2194 @@
+{
+  "_schema": {
+    "bodies": "body id -> {gif path, frame count, action group, source anim file}",
+    "creatures": "creature class -> body id used for its gif"
+  },
+  "_meta": {
+    "generator": "tools/extract_anim.py",
+    "extracted": "2026-06-11",
+    "direction": 1,
+    "frame_duration_ms": 130,
+    "bodies_total": 294,
+    "bodies_ok": 260,
+    "failures": [
+      {
+        "body": 130,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 260,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 270,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 287,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 293,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 334,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 666,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 692,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 721,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 722,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 723,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 724,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 726,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 728,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 729,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 730,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 732,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 733,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 734,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 735,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 736,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 737,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 738,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 739,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 740,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 741,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 826,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 829,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 830,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 832,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1026,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1246,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1415,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      },
+      {
+        "body": 1511,
+        "reason": "walk: empty idx slot; stand: empty idx slot; fidget: empty idx slot"
+      }
+    ]
+  },
+  "bodies": {
+    "1": {
+      "gif": "/img/creatures/1.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "3": {
+      "gif": "/img/creatures/3.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "4": {
+      "gif": "/img/creatures/4.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "5": {
+      "gif": "/img/creatures/5.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "6": {
+      "gif": "/img/creatures/6.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "7": {
+      "gif": "/img/creatures/7.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "8": {
+      "gif": "/img/creatures/8.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "9": {
+      "gif": "/img/creatures/9.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "11": {
+      "gif": "/img/creatures/11.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "12": {
+      "gif": "/img/creatures/12.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "13": {
+      "gif": "/img/creatures/13.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "14": {
+      "gif": "/img/creatures/14.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "15": {
+      "gif": "/img/creatures/15.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "16": {
+      "gif": "/img/creatures/16.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "17": {
+      "gif": "/img/creatures/17.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "18": {
+      "gif": "/img/creatures/18.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "20": {
+      "gif": "/img/creatures/20.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "21": {
+      "gif": "/img/creatures/21.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "22": {
+      "gif": "/img/creatures/22.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "23": {
+      "gif": "/img/creatures/23.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 225
+    },
+    "24": {
+      "gif": "/img/creatures/24.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "25": {
+      "gif": "/img/creatures/25.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 225
+    },
+    "26": {
+      "gif": "/img/creatures/26.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "28": {
+      "gif": "/img/creatures/28.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "29": {
+      "gif": "/img/creatures/29.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "30": {
+      "gif": "/img/creatures/30.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "31": {
+      "gif": "/img/creatures/31.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "34": {
+      "gif": "/img/creatures/34.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 225
+    },
+    "35": {
+      "gif": "/img/creatures/35.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "39": {
+      "gif": "/img/creatures/39.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "40": {
+      "gif": "/img/creatures/40.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "42": {
+      "gif": "/img/creatures/42.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "43": {
+      "gif": "/img/creatures/43.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "46": {
+      "gif": "/img/creatures/46.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "47": {
+      "gif": "/img/creatures/47.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "48": {
+      "gif": "/img/creatures/48.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "50": {
+      "gif": "/img/creatures/50.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "51": {
+      "gif": "/img/creatures/51.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "52": {
+      "gif": "/img/creatures/52.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "53": {
+      "gif": "/img/creatures/53.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "55": {
+      "gif": "/img/creatures/55.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "57": {
+      "gif": "/img/creatures/57.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "58": {
+      "gif": "/img/creatures/58.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "60": {
+      "gif": "/img/creatures/60.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "62": {
+      "gif": "/img/creatures/62.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "63": {
+      "gif": "/img/creatures/63.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 214
+    },
+    "64": {
+      "gif": "/img/creatures/64.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 214
+    },
+    "66": {
+      "gif": "/img/creatures/66.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 8
+    },
+    "67": {
+      "gif": "/img/creatures/67.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "70": {
+      "gif": "/img/creatures/70.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "71": {
+      "gif": "/img/creatures/71.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "72": {
+      "gif": "/img/creatures/72.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "73": {
+      "gif": "/img/creatures/73.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 30
+    },
+    "74": {
+      "gif": "/img/creatures/74.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "75": {
+      "gif": "/img/creatures/75.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "76": {
+      "gif": "/img/creatures/76.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "77": {
+      "gif": "/img/creatures/77.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "78": {
+      "gif": "/img/creatures/78.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 24
+    },
+    "79": {
+      "gif": "/img/creatures/79.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 24
+    },
+    "80": {
+      "gif": "/img/creatures/80.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "81": {
+      "gif": "/img/creatures/81.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "83": {
+      "gif": "/img/creatures/83.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 1
+    },
+    "85": {
+      "gif": "/img/creatures/85.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "86": {
+      "gif": "/img/creatures/86.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "87": {
+      "gif": "/img/creatures/87.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "88": {
+      "gif": "/img/creatures/88.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 209
+    },
+    "89": {
+      "gif": "/img/creatures/89.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 21
+    },
+    "90": {
+      "gif": "/img/creatures/90.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 21
+    },
+    "92": {
+      "gif": "/img/creatures/92.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 21
+    },
+    "94": {
+      "gif": "/img/creatures/94.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 51
+    },
+    "95": {
+      "gif": "/img/creatures/95.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "98": {
+      "gif": "/img/creatures/98.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 225
+    },
+    "99": {
+      "gif": "/img/creatures/99.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 225
+    },
+    "101": {
+      "gif": "/img/creatures/101.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "103": {
+      "gif": "/img/creatures/103.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "104": {
+      "gif": "/img/creatures/104.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "106": {
+      "gif": "/img/creatures/106.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 12
+    },
+    "107": {
+      "gif": "/img/creatures/107.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "108": {
+      "gif": "/img/creatures/108.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "109": {
+      "gif": "/img/creatures/109.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "110": {
+      "gif": "/img/creatures/110.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "111": {
+      "gif": "/img/creatures/111.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "112": {
+      "gif": "/img/creatures/112.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "113": {
+      "gif": "/img/creatures/113.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "123": {
+      "gif": "/img/creatures/123.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "124": {
+      "gif": "/img/creatures/124.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "125": {
+      "gif": "/img/creatures/125.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "127": {
+      "gif": "/img/creatures/127.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 214
+    },
+    "128": {
+      "gif": "/img/creatures/128.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "129": {
+      "gif": "/img/creatures/129.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 8
+    },
+    "131": {
+      "gif": "/img/creatures/131.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 13
+    },
+    "135": {
+      "gif": "/img/creatures/135.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 1
+    },
+    "138": {
+      "gif": "/img/creatures/138.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 7
+    },
+    "140": {
+      "gif": "/img/creatures/140.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 17
+    },
+    "142": {
+      "gif": "/img/creatures/142.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 45
+    },
+    "143": {
+      "gif": "/img/creatures/143.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 45
+    },
+    "147": {
+      "gif": "/img/creatures/147.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 57
+    },
+    "148": {
+      "gif": "/img/creatures/148.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "149": {
+      "gif": "/img/creatures/149.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "150": {
+      "gif": "/img/creatures/150.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "151": {
+      "gif": "/img/creatures/151.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "152": {
+      "gif": "/img/creatures/152.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "153": {
+      "gif": "/img/creatures/153.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 26
+    },
+    "154": {
+      "gif": "/img/creatures/154.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "155": {
+      "gif": "/img/creatures/155.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 3
+    },
+    "157": {
+      "gif": "/img/creatures/157.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "158": {
+      "gif": "/img/creatures/158.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 16
+    },
+    "159": {
+      "gif": "/img/creatures/159.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 16
+    },
+    "161": {
+      "gif": "/img/creatures/161.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "162": {
+      "gif": "/img/creatures/162.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 13
+    },
+    "163": {
+      "gif": "/img/creatures/163.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 13
+    },
+    "165": {
+      "gif": "/img/creatures/165.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 58
+    },
+    "166": {
+      "gif": "/img/creatures/166.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 14
+    },
+    "167": {
+      "gif": "/img/creatures/167.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 211
+    },
+    "172": {
+      "gif": "/img/creatures/172.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "173": {
+      "gif": "/img/creatures/173.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "174": {
+      "gif": "/img/creatures/174.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "175": {
+      "gif": "/img/creatures/175.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "176": {
+      "gif": "/img/creatures/176.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "181": {
+      "gif": "/img/creatures/181.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "182": {
+      "gif": "/img/creatures/182.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "184": {
+      "gif": "/img/creatures/184.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 401
+    },
+    "185": {
+      "gif": "/img/creatures/185.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 400
+    },
+    "186": {
+      "gif": "/img/creatures/186.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 401
+    },
+    "189": {
+      "gif": "/img/creatures/189.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "196": {
+      "gif": "/img/creatures/196.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "197": {
+      "gif": "/img/creatures/197.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "199": {
+      "gif": "/img/creatures/199.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "201": {
+      "gif": "/img/creatures/201.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "202": {
+      "gif": "/img/creatures/202.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "203": {
+      "gif": "/img/creatures/203.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "205": {
+      "gif": "/img/creatures/205.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "206": {
+      "gif": "/img/creatures/206.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "207": {
+      "gif": "/img/creatures/207.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "208": {
+      "gif": "/img/creatures/208.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "209": {
+      "gif": "/img/creatures/209.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "211": {
+      "gif": "/img/creatures/211.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "212": {
+      "gif": "/img/creatures/212.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "213": {
+      "gif": "/img/creatures/213.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "214": {
+      "gif": "/img/creatures/214.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "215": {
+      "gif": "/img/creatures/215.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "216": {
+      "gif": "/img/creatures/216.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "217": {
+      "gif": "/img/creatures/217.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "220": {
+      "gif": "/img/creatures/220.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "221": {
+      "gif": "/img/creatures/221.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "225": {
+      "gif": "/img/creatures/225.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "232": {
+      "gif": "/img/creatures/232.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "234": {
+      "gif": "/img/creatures/234.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "237": {
+      "gif": "/img/creatures/237.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "238": {
+      "gif": "/img/creatures/238.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "240": {
+      "gif": "/img/creatures/240.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "241": {
+      "gif": "/img/creatures/241.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "242": {
+      "gif": "/img/creatures/242.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "244": {
+      "gif": "/img/creatures/244.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "245": {
+      "gif": "/img/creatures/245.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "246": {
+      "gif": "/img/creatures/246.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "247": {
+      "gif": "/img/creatures/247.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "248": {
+      "gif": "/img/creatures/248.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "249": {
+      "gif": "/img/creatures/249.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "250": {
+      "gif": "/img/creatures/250.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "251": {
+      "gif": "/img/creatures/251.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "252": {
+      "gif": "/img/creatures/252.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "253": {
+      "gif": "/img/creatures/253.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "254": {
+      "gif": "/img/creatures/254.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "255": {
+      "gif": "/img/creatures/255.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim4.mul"
+    },
+    "256": {
+      "gif": "/img/creatures/256.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "257": {
+      "gif": "/img/creatures/257.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "258": {
+      "gif": "/img/creatures/258.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "259": {
+      "gif": "/img/creatures/259.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "261": {
+      "gif": "/img/creatures/261.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "262": {
+      "gif": "/img/creatures/262.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "263": {
+      "gif": "/img/creatures/263.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "264": {
+      "gif": "/img/creatures/264.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "265": {
+      "gif": "/img/creatures/265.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "266": {
+      "gif": "/img/creatures/266.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "267": {
+      "gif": "/img/creatures/267.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "271": {
+      "gif": "/img/creatures/271.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "273": {
+      "gif": "/img/creatures/273.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "278": {
+      "gif": "/img/creatures/278.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "279": {
+      "gif": "/img/creatures/279.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "280": {
+      "gif": "/img/creatures/280.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "281": {
+      "gif": "/img/creatures/281.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "290": {
+      "gif": "/img/creatures/290.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "291": {
+      "gif": "/img/creatures/291.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "292": {
+      "gif": "/img/creatures/292.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "300": {
+      "gif": "/img/creatures/300.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "301": {
+      "gif": "/img/creatures/301.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "302": {
+      "gif": "/img/creatures/302.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "303": {
+      "gif": "/img/creatures/303.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "304": {
+      "gif": "/img/creatures/304.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "305": {
+      "gif": "/img/creatures/305.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "306": {
+      "gif": "/img/creatures/306.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "307": {
+      "gif": "/img/creatures/307.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "308": {
+      "gif": "/img/creatures/308.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "309": {
+      "gif": "/img/creatures/309.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "310": {
+      "gif": "/img/creatures/310.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "311": {
+      "gif": "/img/creatures/311.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "312": {
+      "gif": "/img/creatures/312.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "313": {
+      "gif": "/img/creatures/313.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "314": {
+      "gif": "/img/creatures/314.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "315": {
+      "gif": "/img/creatures/315.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "316": {
+      "gif": "/img/creatures/316.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "317": {
+      "gif": "/img/creatures/317.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "318": {
+      "gif": "/img/creatures/318.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "319": {
+      "gif": "/img/creatures/319.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "400": {
+      "gif": "/img/creatures/400.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "401": {
+      "gif": "/img/creatures/401.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "574": {
+      "gif": "/img/creatures/574.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "606": {
+      "gif": "/img/creatures/606.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "637": {
+      "gif": "/img/creatures/637.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "713": {
+      "gif": "/img/creatures/713.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "714": {
+      "gif": "/img/creatures/714.gif",
+      "frames": 7,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "715": {
+      "gif": "/img/creatures/715.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "716": {
+      "gif": "/img/creatures/716.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "717": {
+      "gif": "/img/creatures/717.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "718": {
+      "gif": "/img/creatures/718.gif",
+      "frames": 7,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "719": {
+      "gif": "/img/creatures/719.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "720": {
+      "gif": "/img/creatures/720.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim5.mul"
+    },
+    "752": {
+      "gif": "/img/creatures/752.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "753": {
+      "gif": "/img/creatures/753.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "754": {
+      "gif": "/img/creatures/754.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "755": {
+      "gif": "/img/creatures/755.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "756": {
+      "gif": "/img/creatures/756.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "757": {
+      "gif": "/img/creatures/757.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "764": {
+      "gif": "/img/creatures/764.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "765": {
+      "gif": "/img/creatures/765.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "766": {
+      "gif": "/img/creatures/766.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "767": {
+      "gif": "/img/creatures/767.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "768": {
+      "gif": "/img/creatures/768.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "770": {
+      "gif": "/img/creatures/770.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "771": {
+      "gif": "/img/creatures/771.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "772": {
+      "gif": "/img/creatures/772.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "773": {
+      "gif": "/img/creatures/773.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "775": {
+      "gif": "/img/creatures/775.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "776": {
+      "gif": "/img/creatures/776.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "777": {
+      "gif": "/img/creatures/777.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "778": {
+      "gif": "/img/creatures/778.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "779": {
+      "gif": "/img/creatures/779.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "780": {
+      "gif": "/img/creatures/780.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "781": {
+      "gif": "/img/creatures/781.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "782": {
+      "gif": "/img/creatures/782.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "783": {
+      "gif": "/img/creatures/783.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "784": {
+      "gif": "/img/creatures/784.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "785": {
+      "gif": "/img/creatures/785.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "787": {
+      "gif": "/img/creatures/787.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "789": {
+      "gif": "/img/creatures/789.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "790": {
+      "gif": "/img/creatures/790.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul",
+      "via_body_def": 13
+    },
+    "792": {
+      "gif": "/img/creatures/792.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "805": {
+      "gif": "/img/creatures/805.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "806": {
+      "gif": "/img/creatures/806.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "807": {
+      "gif": "/img/creatures/807.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim2.mul"
+    },
+    "970": {
+      "gif": "/img/creatures/970.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim.mul"
+    },
+    "1416": {
+      "gif": "/img/creatures/1416.gif",
+      "frames": 10,
+      "group": "stand",
+      "anim_file": "anim3.mul"
+    },
+    "1417": {
+      "gif": "/img/creatures/1417.gif",
+      "frames": 7,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "1419": {
+      "gif": "/img/creatures/1419.gif",
+      "frames": 10,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "1422": {
+      "gif": "/img/creatures/1422.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "1423": {
+      "gif": "/img/creatures/1423.gif",
+      "frames": 7,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "1424": {
+      "gif": "/img/creatures/1424.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "1425": {
+      "gif": "/img/creatures/1425.gif",
+      "frames": 7,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    },
+    "1426": {
+      "gif": "/img/creatures/1426.gif",
+      "frames": 5,
+      "group": "walk",
+      "anim_file": "anim3.mul"
+    }
+  },
+  "creatures": {
+    "Abscess": 265,
+    "AbysmalHorror": 312,
+    "AbyssalAbomination": 312,
+    "AbyssalInfernal": 713,
+    "AcidElemental": 158,
+    "AcidElementalRenowned": 158,
+    "AcidSlug": 51,
+    "AdrianTheGloriousLord": 400,
+    "AgapiteElemental": 107,
+    "AirElemental": 13,
+    "Alligator": 202,
+    "AncientLich": 78,
+    "AncientLichRenowned": 78,
+    "AncientWyrm": 46,
+    "AndrosTheDreadLord": 400,
+    "Anlorlem": 72,
+    "Anlorvaglem": 152,
+    "Anlorzen": 11,
+    "AntLion": 787,
+    "Anzuanord": 74,
+    "ArcaneDaemon": 784,
+    "ArchDaemon": 40,
+    "ArcticOgreLord": 135,
+    "Artist": 401,
+    "BakeKitsune": 246,
+    "Ballem": 304,
+    "Balron": 40,
+    "Barracoon": 400,
+    "BattleChickenLizard": 716,
+    "Betballem": 776,
+    "Betrayer": 767,
+    "Bird": 6,
+    "BlackBear": 211,
+    "BlackSolenInfiltratorQueen": 807,
+    "BlackSolenInfiltratorWarrior": 806,
+    "BlackSolenQueen": 807,
+    "BlackSolenWarrior": 806,
+    "BlackSolenWorker": 805,
+    "BladeSpirits": 574,
+    "BloodElemental": 159,
+    "BloodFox": 1423,
+    "Boar": 290,
+    "BogThing": 780,
+    "Bogle": 153,
+    "Bogling": 779,
+    "BoneDemon": 308,
+    "BoneKnight": 57,
+    "BoneMagi": 148,
+    "Brigand": 401,
+    "BronzeElemental": 108,
+    "BrownBear": 167,
+    "BulbousPutrification": 775,
+    "Bull": 232,
+    "BullFrog": 81,
+    "Cat": 201,
+    "Centaur": 101,
+    "Changeling": 264,
+    "ChaosDaemon": 792,
+    "ChaosDragoon": 400,
+    "ChaosDragoonElite": 400,
+    "Chicken": 208,
+    "ChickenLizard": 716,
+    "ChiefParoxysmus": 256,
+    "ClanCA": 142,
+    "ClanCT": 142,
+    "ClanRC": 42,
+    "ClanRS": 42,
+    "ClanRibbonPlagueRat": 238,
+    "ClanSH": 42,
+    "ClanSS": 142,
+    "ClanSSW": 98,
+    "ClockworkScorpion": 717,
+    "ColdDrake": 60,
+    "CopperElemental": 109,
+    "CoralSnake": 52,
+    "Corpser": 8,
+    "CorrosiveSlime": 51,
+    "CorruptedSoul": 970,
+    "CorruptedWisp": 165,
+    "Cougar": 63,
+    "Cow": 216,
+    "Crane": 254,
+    "CrimsonDragon": 197,
+    "CrimsonDrake": 1419,
+    "CrystalDaemon": 784,
+    "CrystalElemental": 300,
+    "CrystalHydra": 265,
+    "CrystalLatticeSeeker": 123,
+    "CrystalVortex": 13,
+    "Cursed": 400,
+    "CursedSoul": 3,
+    "Cyclops": 75,
+    "Daemon": 9,
+    "DarkGuardian": 78,
+    "DarkWisp": 165,
+    "DarkWolfFamiliar": 99,
+    "DarknightCreeper": 313,
+    "DeadlyImp": 74,
+    "DeathAdder": 21,
+    "DeathwatchBeetle": 242,
+    "DeathwatchBeetleHatchling": 242,
+    "DeepSeaSerpent": 150,
+    "DemonKnight": 318,
+    "Devourer": 303,
+    "DevourerRenowned": 303,
+    "DireWolf": 23,
+    "DiseasedCat": 201,
+    "Dog": 217,
+    "Dolphin": 151,
+    "Doppleganger": 777,
+    "Dragon": 12,
+    "DragonWolf": 719,
+    "Drake": 60,
+    "DreadHorn": 257,
+    "DreadSpider": 11,
+    "Drelgor": 147,
+    "DullCopperElemental": 110,
+    "Eagle": 5,
+    "EarthElemental": 14,
+    "EffetePutridGargoyle": 4,
+    "Efreet": 131,
+    "ElderGazer": 22,
+    "ElfBrigand": 606,
+    "EnergyVortex": 220,
+    "EnragedEarthElemental": 14,
+    "EnslavedGargoyle": 753,
+    "EnsorcledWisp": 165,
+    "EtherealWarrior": 123,
+    "Ettin": 18,
+    "EvilMage": 124,
+    "EvilMageLord": 125,
+    "Executioner": 401,
+    "ExodusMinion": 757,
+    "ExodusOverseer": 756,
+    "FairyDragon": 718,
+    "FanDancer": 247,
+    "FeralTreefellow": 301,
+    "Ferret": 279,
+    "FetidEssence": 273,
+    "FierceDragon": 103,
+    "FireDaemon": 9,
+    "FireDaemonRenowned": 40,
+    "FireElemental": 15,
+    "FireElementalRenowned": 15,
+    "FleshGolem": 304,
+    "FleshRenderer": 315,
+    "Flurry": 13,
+    "ForgottenServant": 401,
+    "FrostDragon": 12,
+    "FrostMite": 1424,
+    "FrostOoze": 94,
+    "FrostSpider": 20,
+    "FrostTroll": 55,
+    "Gaman": 248,
+    "Gargoyle": 4,
+    "GargoyleDestroyer": 755,
+    "GargoyleEnforcer": 754,
+    "GargoyleGuardian": 755,
+    "GargoyleShade": 4,
+    "Gazer": 22,
+    "GazerLarva": 778,
+    "Ghoul": 153,
+    "GiantBlackWidow": 157,
+    "GiantIceWorm": 89,
+    "GiantRat": 215,
+    "GiantSerpent": 21,
+    "GiantSpider": 28,
+    "GiantToad": 80,
+    "Gibberling": 307,
+    "Goat": 209,
+    "GoldenElemental": 166,
+    "Golem": 752,
+    "GolemController": 400,
+    "GoreFiend": 305,
+    "Gorilla": 29,
+    "GreatHart": 234,
+    "GreaterDragon": 12,
+    "GreaterMongbat": 39,
+    "GreaterPoisonElemental": 162,
+    "GreyWolf": 25,
+    "GrimmochDrummel": 400,
+    "GrizzlyBear": 212,
+    "Gypsy": 401,
+    "HarborMaster": 401,
+    "Harpy": 30,
+    "HarrowerTentacles": 129,
+    "HeadlessOne": 31,
+    "HellCat": 201,
+    "HellHound": 98,
+    "Henchman": 400,
+    "HighPlainsBoura": 715,
+    "Hind": 237,
+    "HordeMinion": 776,
+    "HordeMinionFamiliar": 776,
+    "Hydra": 265,
+    "IceElemental": 161,
+    "IceFiend": 43,
+    "IceHound": 98,
+    "IceSerpent": 89,
+    "IceSnake": 52,
+    "Ilhenir": 259,
+    "Imp": 74,
+    "Impaler": 306,
+    "InjuredWolf": 225,
+    "InterredGrizzle": 259,
+    "IronBeetle": 714,
+    "JackRabbit": 205,
+    "Juggernaut": 768,
+    "JukaLord": 766,
+    "JukaMage": 765,
+    "JukaWarrior": 764,
+    "Kappa": 240,
+    "KazeKemono": 196,
+    "KhaldunRevenant": 970,
+    "KhaldunSummoner": 400,
+    "KhaldunZealot": 400,
+    "Korpre": 51,
+    "Kraken": 77,
+    "LadyMelisande": 258,
+    "LadyOfTheSnow": 252,
+    "LavaElemental": 720,
+    "LavaLizard": 206,
+    "LavaSerpent": 90,
+    "LavaSnake": 52,
+    "Leviathan": 77,
+    "Lich": 24,
+    "LichLord": 79,
+    "Lifestealer": 303,
+    "Lion": 1426,
+    "Lizardman": 35,
+    "Llama": 220,
+    "LordOaks": 175,
+    "LowlandBoura": 715,
+    "LysanderGathenwale": 400,
+    "MLDryad": 266,
+    "Macaw": 5,
+    "MantraEffervescence": 273,
+    "MeerCaptain": 773,
+    "MeerEternal": 772,
+    "MeerMage": 770,
+    "MeerWarrior": 771,
+    "Mephitis": 173,
+    "Meraktus": 263,
+    "MilitiaFighter": 400,
+    "MinionOfScelestus": 9,
+    "Minotaur": 263,
+    "MinotaurCaptain": 280,
+    "MinotaurGeneral": 280,
+    "MinotaurScout": 281,
+    "Mistral": 13,
+    "Moloch": 785,
+    "Mongbat": 39,
+    "MonstrousInterredGrizzle": 259,
+    "MorgBergen": 400,
+    "MoundOfMaggots": 319,
+    "MountainGoat": 88,
+    "Mummy": 154,
+    "MysteriousWisp": 58,
+    "Neira": 401,
+    "NightTerror": 780,
+    "Ninja": 401,
+    "Ogre": 1,
+    "OgreLord": 83,
+    "Oni": 241,
+    "OphidianArchmage": 85,
+    "OphidianKnight": 86,
+    "OphidianMage": 85,
+    "OphidianMatriarch": 87,
+    "OphidianWarrior": 86,
+    "Orc": 17,
+    "OrcBomber": 182,
+    "OrcBrute": 189,
+    "OrcCaptain": 7,
+    "OrcChopper": 7,
+    "OrcScout": 181,
+    "OrcishLord": 138,
+    "OrcishMage": 140,
+    "Ortanord": 58,
+    "OsseinRam": 1425,
+    "PackHorse": 291,
+    "PackLlama": 292,
+    "Paladin": 400,
+    "Panther": 214,
+    "PatchworkSkeleton": 309,
+    "PestilentBandage": 154,
+    "Pig": 203,
+    "PitFiend": 43,
+    "Pixie": 128,
+    "PixieRenowned": 128,
+    "PlagueBeast": 775,
+    "PlagueBeastLord": 775,
+    "PlagueRat": 215,
+    "PlagueSpawn": 14,
+    "PlatinumDrake": 1417,
+    "PoisonElemental": 162,
+    "PolarBear": 213,
+    "PredatorHellCat": 127,
+    "Protector": 401,
+    "Quagmire": 789,
+    "Rabbit": 205,
+    "RagingGrizzlyBear": 212,
+    "RaiJu": 199,
+    "RakktaviRenowned": 142,
+    "Rat": 238,
+    "Ratman": 42,
+    "RatmanArcher": 142,
+    "RatmanMage": 143,
+    "Ravager": 314,
+    "Reaper": 47,
+    "RedSolenInfiltratorQueen": 783,
+    "RedSolenInfiltratorWarrior": 782,
+    "RedSolenQueen": 783,
+    "RedSolenWarrior": 782,
+    "RedSolenWorker": 781,
+    "Relanord": 756,
+    "RenegadeChangeling": 264,
+    "RestlessSoul": 970,
+    "Revenant": 400,
+    "RevenantLion": 251,
+    "Rikktor": 172,
+    "Ronin": 401,
+    "RottingCorpse": 155,
+    "RuddyBoura": 715,
+    "RuneBeetle": 244,
+    "SAPixie": 128,
+    "SabertoothedTiger": 1416,
+    "Samurai": 401,
+    "SandVortex": 790,
+    "Satyr": 271,
+    "Savage": 184,
+    "SavageRider": 185,
+    "SavageShaman": 186,
+    "Scorpion": 48,
+    "SeaSerpent": 150,
+    "Semidar": 174,
+    "SentinelSpider": 157,
+    "Serado": 249,
+    "SerpentineDragon": 103,
+    "Sewerrat": 238,
+    "Shade": 26,
+    "ShadowIronElemental": 111,
+    "ShadowKnight": 311,
+    "ShadowWisp": 165,
+    "ShadowWispFamiliar": 165,
+    "ShadowWyrm": 106,
+    "Sheep": 207,
+    "ShimmeringEffusion": 261,
+    "Silvani": 176,
+    "SilverSerpent": 92,
+    "SkeletalDragon": 104,
+    "SkeletalDragonRenowned": 104,
+    "SkeletalDrake": 104,
+    "SkeletalKnight": 147,
+    "SkeletalLich": 309,
+    "SkeletalMage": 148,
+    "Skeleton": 50,
+    "SkitteringHopper": 302,
+    "Slime": 51,
+    "Snake": 52,
+    "SnowElemental": 163,
+    "SnowLeopard": 64,
+    "SpectralArmour": 637,
+    "Spectre": 26,
+    "Spellbinder": 26,
+    "Squirrel": 278,
+    "StoneGargoyle": 67,
+    "StoneHarpy": 73,
+    "StoneMonster": 86,
+    "StrongMongbat": 39,
+    "StygianDrake": 1422,
+    "Succubus": 149,
+    "SummonedAirElemental": 13,
+    "SummonedEarthElemental": 14,
+    "SummonedFireElemental": 15,
+    "SummonedPaladin": 400,
+    "SummonedWaterElemental": 16,
+    "SwampTentacle": 66,
+    "TanglingRoots": 8,
+    "TavaraSewel": 401,
+    "Tempest": 13,
+    "TerathanAvenger": 152,
+    "TerathanDrone": 71,
+    "TerathanMatriarch": 72,
+    "TerathanWarrior": 70,
+    "TheButcher": 306,
+    "Thrasher": 206,
+    "TikitaviRenowned": 42,
+    "TimberWolf": 225,
+    "Titan": 76,
+    "TormentedMinotaur": 262,
+    "ToxicElemental": 158,
+    "Travesty": 264,
+    "Treefellow": 301,
+    "TreefellowGuardian": 301,
+    "Triton": 720,
+    "Troglodyte": 267,
+    "Troll": 53,
+    "TropicalBird": 6,
+    "TsukiWolf": 250,
+    "Turkey": 95,
+    "Twaulo": 101,
+    "UnfrozenMummy": 155,
+    "UsagralemBallem": 318,
+    "ValoriteElemental": 112,
+    "VampireBat": 317,
+    "VampireBatFamiliar": 317,
+    "Vasanord": 780,
+    "VeriteElemental": 113,
+    "Virulent": 11,
+    "Viscera": 775,
+    "VitaviRenowned": 143,
+    "VorpalBunny": 205,
+    "WailingBanshee": 310,
+    "Walrus": 221,
+    "WandererOfTheVoid": 316,
+    "WaterElemental": 16,
+    "WhippingVine": 8,
+    "WhiteWolf": 34,
+    "Wight": 252,
+    "Wisp": 58,
+    "Wraith": 26,
+    "Wyvern": 62,
+    "WyvernRenowned": 62,
+    "Yamandon": 249,
+    "YomotsuElder": 255,
+    "YomotsuPriest": 253,
+    "YomotsuWarrior": 245,
+    "YoungNinja": 400,
+    "YoungRonin": 400,
+    "Zombie": 3
+  }
+}
