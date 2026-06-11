@@ -16,6 +16,10 @@ after the game contradicted a page.
 
 ## 2026-06-12
 
+- **Updated** — Treasure dig-site coordinate table + per-dungeon detail (maps, features, spawns).  
+  [Treasure Hunting](/playing/treasure-hunting/) · [Treasure Locations](/playing/treasure-locations/) · [Dungeons](/world/dungeons/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/864b08e)</sub>
+- **Updated** — Authentic ink-on-parchment treasure map render.  
+  [Treasure Hunting](/playing/treasure-hunting/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/9ea9348)</sub>
 - **Updated** — Accurate decoded-map mechanic — 600-tile region, off-centre pin.  
   [Treasure Hunting](/playing/treasure-hunting/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/343f906)</sub>
 
