@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Concrete how-to-raise method on every skill page.  
+  [Skills](/skills/) (58) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/73d0b2f)</sub>
 - **Added** — By-profession hubs + PvP builds; plants/gardening; ServUO=emulator.  
   Professions (23) · Guides (2) · Playing (1) · [Our Shard](/shard/) (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/b9ec1ef)</sub>
 - **Added** — Treasure hunting — system, skills, dig-location map, decoded-map gump.  
