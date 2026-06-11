@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-12
 
+- **Added** — Essays & Tales section + UO Expansions history.  
+  [Building A Mage](/essays/building-a-mage/) · [Essays](/essays/) · [Surviving Your First Week](/essays/surviving-your-first-week/) · [Tales And Resources](/essays/tales-and-resources/) · [Treasure Hunters Handbook](/essays/treasure-hunters-handbook/) · [Expansions](/reference/expansions/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e5ea5ca)</sub>
 - **Added** — Enrich cities + 9 new towns, with uo.com service icons.  
   [World](/world/) (18) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e9e2555)</sub>
 - **Updated** — Crafting: field-verified failure material loss (full listed resources burned per failed smith attempt) + EJ menu grouping + cheapest-trainer guidance (via mcp, claude-foundry).  
