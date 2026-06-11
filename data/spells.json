@@ -1,0 +1,1127 @@
+{
+  "_schema": {
+    "description": "Magery spells extracted from ServUO source by tools/extract_spells.py. Do not hand-edit; re-run the extractor.",
+    "extracted_from": "servuo: Scripts/Spells/First..Eighth + Scripts/Spells/Base/MagerySpell.cs",
+    "circles": "map of circle number -> {mana, min_skill, max_skill}; min_skill = 0% cast chance threshold, max_skill = 100% (from MagerySpell.GetCastSkills)",
+    "spells": "list of {class_name, name, slug, mantra, reagents, circle, mana, min_skill, max_skill, description, source}; description is a curated one-sentence summary of OnCast/Target behavior"
+  },
+  "circles": {
+    "1": {
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0
+    },
+    "2": {
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3
+    },
+    "3": {
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6
+    },
+    "4": {
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9
+    },
+    "5": {
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1
+    },
+    "6": {
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4
+    },
+    "7": {
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7
+    },
+    "8": {
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0
+    }
+  },
+  "spells": [
+    {
+      "class_name": "ClumsySpell",
+      "name": "Clumsy",
+      "slug": "clumsy",
+      "mantra": "Uus Jux",
+      "reagents": [
+        "Bloodmoss",
+        "Nightshade"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Temporarily lowers the target's Dexterity, with potency and duration scaling on the caster's Evaluating Intelligence.",
+      "source": "Scripts/Spells/First/Clumsy.cs"
+    },
+    {
+      "class_name": "CreateFoodSpell",
+      "name": "Create Food",
+      "slug": "create-food",
+      "mantra": "In Mani Ylem",
+      "reagents": [
+        "Garlic",
+        "Ginseng",
+        "Mandrake Root"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Conjures a random item of food directly into the caster's backpack.",
+      "source": "Scripts/Spells/First/CreateFood.cs"
+    },
+    {
+      "class_name": "FeeblemindSpell",
+      "name": "Feeblemind",
+      "slug": "feeblemind",
+      "mantra": "Rel Wis",
+      "reagents": [
+        "Ginseng",
+        "Nightshade"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Temporarily lowers the target's Intelligence, scaling on the caster's Evaluating Intelligence.",
+      "source": "Scripts/Spells/First/Feeblemind.cs"
+    },
+    {
+      "class_name": "HealSpell",
+      "name": "Heal",
+      "slug": "heal",
+      "mantra": "In Mani",
+      "reagents": [
+        "Garlic",
+        "Ginseng",
+        "Spiders' Silk"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Instantly restores a small amount of hit points to the target, but fails on poisoned or mortally wounded targets.",
+      "source": "Scripts/Spells/First/Heal.cs"
+    },
+    {
+      "class_name": "MagicArrowSpell",
+      "name": "Magic Arrow",
+      "slug": "magic-arrow",
+      "mantra": "In Por Ylem",
+      "reagents": [
+        "Sulfurous Ash"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Fires a magical bolt at the target dealing a small amount of pure fire damage.",
+      "source": "Scripts/Spells/First/MagicArrow.cs"
+    },
+    {
+      "class_name": "NightSightSpell",
+      "name": "Night Sight",
+      "slug": "night-sight",
+      "mantra": "In Lor",
+      "reagents": [
+        "Sulfurous Ash",
+        "Spiders' Silk"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Grants the target a magical light that lets them see in darkness for an extended duration.",
+      "source": "Scripts/Spells/First/NightSight.cs"
+    },
+    {
+      "class_name": "ReactiveArmorSpell",
+      "name": "Reactive Armor",
+      "slug": "reactive-armor",
+      "mantra": "Flam Sanct",
+      "reagents": [
+        "Garlic",
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Buffs the caster's physical resistance at the cost of the other elemental resistances (pre-AOS: reflects part of melee damage back at attackers).",
+      "source": "Scripts/Spells/First/ReactiveArmor.cs"
+    },
+    {
+      "class_name": "WeakenSpell",
+      "name": "Weaken",
+      "slug": "weaken",
+      "mantra": "Des Mani",
+      "reagents": [
+        "Garlic",
+        "Nightshade"
+      ],
+      "circle": 1,
+      "mana": 4,
+      "min_skill": -20.0,
+      "max_skill": 20.0,
+      "description": "Temporarily lowers the target's Strength, scaling on the caster's Evaluating Intelligence.",
+      "source": "Scripts/Spells/First/Weaken.cs"
+    },
+    {
+      "class_name": "AgilitySpell",
+      "name": "Agility",
+      "slug": "agility",
+      "mantra": "Ex Uus",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Temporarily raises the target's Dexterity, scaling on the caster's Evaluating Intelligence.",
+      "source": "Scripts/Spells/Second/Agility.cs"
+    },
+    {
+      "class_name": "CunningSpell",
+      "name": "Cunning",
+      "slug": "cunning",
+      "mantra": "Uus Wis",
+      "reagents": [
+        "Mandrake Root",
+        "Nightshade"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Temporarily raises the target's Intelligence, scaling on the caster's Evaluating Intelligence.",
+      "source": "Scripts/Spells/Second/Cunning.cs"
+    },
+    {
+      "class_name": "CureSpell",
+      "name": "Cure",
+      "slug": "cure",
+      "mantra": "An Nox",
+      "reagents": [
+        "Garlic",
+        "Ginseng"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Attempts to neutralize poison on the target, with success chance based on caster skill versus poison level.",
+      "source": "Scripts/Spells/Second/Cure.cs"
+    },
+    {
+      "class_name": "HarmSpell",
+      "name": "Harm",
+      "slug": "harm",
+      "mantra": "An Mani",
+      "reagents": [
+        "Nightshade",
+        "Spiders' Silk"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Deals cold damage to the target, hitting hardest at point-blank range and weakening with distance.",
+      "source": "Scripts/Spells/Second/Harm.cs"
+    },
+    {
+      "class_name": "MagicTrapSpell",
+      "name": "Magic Trap",
+      "slug": "magic-trap",
+      "mantra": "In Jux",
+      "reagents": [
+        "Garlic",
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Places a magical explosive trap on a container that detonates on the next person to open it.",
+      "source": "Scripts/Spells/Second/MagicTrap.cs"
+    },
+    {
+      "class_name": "ProtectionSpell",
+      "name": "Protection",
+      "slug": "protection",
+      "mantra": "Uus Sanct",
+      "reagents": [
+        "Garlic",
+        "Ginseng",
+        "Sulfurous Ash"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Prevents the caster's spells from being interrupted, at the cost of physical resistance and Resisting Spells skill (pre-AOS: a timed armor buff).",
+      "source": "Scripts/Spells/Second/Protection.cs"
+    },
+    {
+      "class_name": "RemoveTrapSpell",
+      "name": "Remove Trap",
+      "slug": "remove-trap",
+      "mantra": "An Jux",
+      "reagents": [
+        "Bloodmoss",
+        "Sulfurous Ash"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Removes a magical trap from a trapped container.",
+      "source": "Scripts/Spells/Second/RemoveTrap.cs"
+    },
+    {
+      "class_name": "StrengthSpell",
+      "name": "Strength",
+      "slug": "strength",
+      "mantra": "Uus Mani",
+      "reagents": [
+        "Mandrake Root",
+        "Nightshade"
+      ],
+      "circle": 2,
+      "mana": 6,
+      "min_skill": -5.7,
+      "max_skill": 34.3,
+      "description": "Temporarily raises the target's Strength, scaling on the caster's Evaluating Intelligence.",
+      "source": "Scripts/Spells/Second/Strength.cs"
+    },
+    {
+      "class_name": "BlessSpell",
+      "name": "Bless",
+      "slug": "bless",
+      "mantra": "Rel Sanct",
+      "reagents": [
+        "Garlic",
+        "Mandrake Root"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Temporarily raises the target's Strength, Dexterity and Intelligence all at once.",
+      "source": "Scripts/Spells/Third/Bless.cs"
+    },
+    {
+      "class_name": "FireballSpell",
+      "name": "Fireball",
+      "slug": "fireball",
+      "mantra": "Vas Flam",
+      "reagents": [
+        "Black Pearl"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Hurls a ball of fire that deals moderate fire damage to the target.",
+      "source": "Scripts/Spells/Third/Fireball.cs"
+    },
+    {
+      "class_name": "MagicLockSpell",
+      "name": "Magic Lock",
+      "slug": "magic-lock",
+      "mantra": "An Por",
+      "reagents": [
+        "Garlic",
+        "Bloodmoss",
+        "Sulfurous Ash"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Magically locks an unlocked, untrapped chest (cannot be used on doors or secured containers).",
+      "source": "Scripts/Spells/Third/MagicLock.cs"
+    },
+    {
+      "class_name": "PoisonSpell",
+      "name": "Poison",
+      "slug": "poison",
+      "mantra": "In Nox",
+      "reagents": [
+        "Nightshade"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Inflicts poison on the target, with poison level scaling on caster skill and proximity to the target.",
+      "source": "Scripts/Spells/Third/Poison.cs"
+    },
+    {
+      "class_name": "TelekinesisSpell",
+      "name": "Telekinesis",
+      "slug": "telekinesis",
+      "mantra": "Ort Por Ylem",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Manipulates an item, lever or container from a distance, triggering or opening it remotely.",
+      "source": "Scripts/Spells/Third/Telekinesis.cs"
+    },
+    {
+      "class_name": "TeleportSpell",
+      "name": "Teleport",
+      "slug": "teleport",
+      "mantra": "Rel Por",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Instantly moves the caster to a visible nearby location in line of sight.",
+      "source": "Scripts/Spells/Third/Teleport.cs"
+    },
+    {
+      "class_name": "UnlockSpell",
+      "name": "Unlock Spell",
+      "slug": "unlock-spell",
+      "mantra": "Ex Por",
+      "reagents": [
+        "Bloodmoss",
+        "Sulfurous Ash"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Magically unlocks chests with low-level locks (fails on door locks and strongly locked or trapped chests).",
+      "source": "Scripts/Spells/Third/Unlock.cs"
+    },
+    {
+      "class_name": "WallOfStoneSpell",
+      "name": "Wall of Stone",
+      "slug": "wall-of-stone",
+      "mantra": "In Sanct Ylem",
+      "reagents": [
+        "Bloodmoss",
+        "Garlic"
+      ],
+      "circle": 3,
+      "mana": 9,
+      "min_skill": 8.6,
+      "max_skill": 48.6,
+      "description": "Raises a temporary wall of stone that blocks movement across a short line of tiles.",
+      "source": "Scripts/Spells/Third/WallOfStone.cs"
+    },
+    {
+      "class_name": "ArchCureSpell",
+      "name": "Arch Cure",
+      "slug": "arch-cure",
+      "mantra": "Vas An Nox",
+      "reagents": [
+        "Garlic",
+        "Ginseng",
+        "Mandrake Root"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Cures poison on all valid targets in an area around the target point (single-target cure with a skill bonus when targeting one mobile).",
+      "source": "Scripts/Spells/Fourth/ArchCure.cs"
+    },
+    {
+      "class_name": "ArchProtectionSpell",
+      "name": "Arch Protection",
+      "slug": "arch-protection",
+      "mantra": "Vas Uus Sanct",
+      "reagents": [
+        "Garlic",
+        "Ginseng",
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Casts Protection on the target (pre-AOS: on everyone in an area around the target point).",
+      "source": "Scripts/Spells/Fourth/ArchProtection.cs"
+    },
+    {
+      "class_name": "CurseSpell",
+      "name": "Curse",
+      "slug": "curse",
+      "mantra": "Des Sanct",
+      "reagents": [
+        "Nightshade",
+        "Garlic",
+        "Sulfurous Ash"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Temporarily lowers the target's Strength, Dexterity and Intelligence, and under AOS also caps their resistances and blocks beneficial stat buffs.",
+      "source": "Scripts/Spells/Fourth/Curse.cs"
+    },
+    {
+      "class_name": "FireFieldSpell",
+      "name": "Fire Field",
+      "slug": "fire-field",
+      "mantra": "In Flam Grav",
+      "reagents": [
+        "Black Pearl",
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Creates a temporary line of fire on the ground that repeatedly burns anyone standing in it.",
+      "source": "Scripts/Spells/Fourth/FireField.cs"
+    },
+    {
+      "class_name": "GreaterHealSpell",
+      "name": "Greater Heal",
+      "slug": "greater-heal",
+      "mantra": "In Vas Mani",
+      "reagents": [
+        "Garlic",
+        "Ginseng",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Restores a large amount of hit points to the target, but fails on poisoned or mortally wounded targets.",
+      "source": "Scripts/Spells/Fourth/GreaterHeal.cs"
+    },
+    {
+      "class_name": "LightningSpell",
+      "name": "Lightning",
+      "slug": "lightning",
+      "mantra": "Por Ort Grav",
+      "reagents": [
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Strikes the target with a bolt of lightning dealing energy damage.",
+      "source": "Scripts/Spells/Fourth/Lightning.cs"
+    },
+    {
+      "class_name": "ManaDrainSpell",
+      "name": "Mana Drain",
+      "slug": "mana-drain",
+      "mantra": "Ort Rel",
+      "reagents": [
+        "Black Pearl",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Drains mana from the target if they fail to resist (under AOS the mana returns to them after a delay).",
+      "source": "Scripts/Spells/Fourth/ManaDrain.cs"
+    },
+    {
+      "class_name": "RecallSpell",
+      "name": "Recall",
+      "slug": "recall",
+      "mantra": "Kal Ort Por",
+      "reagents": [
+        "Black Pearl",
+        "Bloodmoss",
+        "Mandrake Root"
+      ],
+      "circle": 4,
+      "mana": 11,
+      "min_skill": 22.9,
+      "max_skill": 62.9,
+      "description": "Instantly transports the caster to the location stored in a marked rune (also works off ship keys to board a boat).",
+      "source": "Scripts/Spells/Fourth/Recall.cs"
+    },
+    {
+      "class_name": "BladeSpiritsSpell",
+      "name": "Blade Spirits",
+      "slug": "blade-spirits",
+      "mantra": "In Jux Hur Ylem",
+      "reagents": [
+        "Black Pearl",
+        "Mandrake Root",
+        "Nightshade"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Summons an uncontrolled whirling blade spirit that attacks the nearest creatures, consuming follower slots.",
+      "source": "Scripts/Spells/Fifth/BladeSpirits.cs"
+    },
+    {
+      "class_name": "DispelFieldSpell",
+      "name": "Dispel Field",
+      "slug": "dispel-field",
+      "mantra": "An Grav",
+      "reagents": [
+        "Black Pearl",
+        "Spiders' Silk",
+        "Sulfurous Ash",
+        "Garlic"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Dispels a single field tile such as fire, poison, energy or paralyze fields, or a wall of stone.",
+      "source": "Scripts/Spells/Fifth/DispelField.cs"
+    },
+    {
+      "class_name": "IncognitoSpell",
+      "name": "Incognito",
+      "slug": "incognito",
+      "mantra": "Kal In Ex",
+      "reagents": [
+        "Bloodmoss",
+        "Garlic",
+        "Nightshade"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Disguises the caster with a random name, body and hair, concealing their identity for a duration.",
+      "source": "Scripts/Spells/Fifth/Incognito.cs"
+    },
+    {
+      "class_name": "MagicReflectSpell",
+      "name": "Magic Reflection",
+      "slug": "magic-reflection",
+      "mantra": "In Jux Sanct",
+      "reagents": [
+        "Garlic",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Causes hostile spells to reflect back at their caster (under AOS instead trades physical resistance for boosts to the elemental resistances).",
+      "source": "Scripts/Spells/Fifth/MagicReflect.cs"
+    },
+    {
+      "class_name": "MindBlastSpell",
+      "name": "Mind Blast",
+      "slug": "mind-blast",
+      "mantra": "Por Corp Wis",
+      "reagents": [
+        "Black Pearl",
+        "Mandrake Root",
+        "Nightshade",
+        "Sulfurous Ash"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Blasts the target with psychic cold damage, under AOS scaling on the caster's Intelligence (pre-AOS: based on the stat gap between caster and target).",
+      "source": "Scripts/Spells/Fifth/MindBlast.cs"
+    },
+    {
+      "class_name": "ParalyzeSpell",
+      "name": "Paralyze",
+      "slug": "paralyze",
+      "mantra": "An Ex Por",
+      "reagents": [
+        "Garlic",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Freezes the target in place for a duration based on caster skill, broken by damage.",
+      "source": "Scripts/Spells/Fifth/Paralyze.cs"
+    },
+    {
+      "class_name": "PoisonFieldSpell",
+      "name": "Poison Field",
+      "slug": "poison-field",
+      "mantra": "In Nox Grav",
+      "reagents": [
+        "Black Pearl",
+        "Nightshade",
+        "Spiders' Silk"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Creates a temporary wall of poisonous vapor that poisons anyone moving through it.",
+      "source": "Scripts/Spells/Fifth/PoisonField.cs"
+    },
+    {
+      "class_name": "SummonCreatureSpell",
+      "name": "Summon Creature",
+      "slug": "summon-creature",
+      "mantra": "Kal Xen",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 5,
+      "mana": 14,
+      "min_skill": 37.1,
+      "max_skill": 77.1,
+      "description": "Summons a random natural creature (such as a bear, wolf or panther) to fight for the caster, consuming follower slots.",
+      "source": "Scripts/Spells/Fifth/SummonCreature.cs"
+    },
+    {
+      "class_name": "DispelSpell",
+      "name": "Dispel",
+      "slug": "dispel",
+      "mantra": "An Ort",
+      "reagents": [
+        "Garlic",
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Attempts to banish a summoned creature outright, with success based on caster skill versus the summon's dispel difficulty.",
+      "source": "Scripts/Spells/Sixth/Dispel.cs"
+    },
+    {
+      "class_name": "EnergyBoltSpell",
+      "name": "Energy Bolt",
+      "slug": "energy-bolt",
+      "mantra": "Corp Por",
+      "reagents": [
+        "Black Pearl",
+        "Nightshade"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Fires a powerful bolt of pure energy damage at the target.",
+      "source": "Scripts/Spells/Sixth/EnergyBolt.cs"
+    },
+    {
+      "class_name": "ExplosionSpell",
+      "name": "Explosion",
+      "slug": "explosion",
+      "mantra": "Vas Ort Flam",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Plants a delayed explosion on the target that detonates for heavy fire damage after a few seconds.",
+      "source": "Scripts/Spells/Sixth/Explosion.cs"
+    },
+    {
+      "class_name": "InvisibilitySpell",
+      "name": "Invisibility",
+      "slug": "invisibility",
+      "mantra": "An Lor Xen",
+      "reagents": [
+        "Bloodmoss",
+        "Nightshade"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Renders the target invisible until the effect expires or they act.",
+      "source": "Scripts/Spells/Sixth/Invisibility.cs"
+    },
+    {
+      "class_name": "MarkSpell",
+      "name": "Mark",
+      "slug": "mark",
+      "mantra": "Kal Por Ylem",
+      "reagents": [
+        "Black Pearl",
+        "Bloodmoss",
+        "Mandrake Root"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Binds the caster's current location into a blank recall rune for later Recall or Gate Travel.",
+      "source": "Scripts/Spells/Sixth/Mark.cs"
+    },
+    {
+      "class_name": "MassCurseSpell",
+      "name": "Mass Curse",
+      "slug": "mass-curse",
+      "mantra": "Vas Des Sanct",
+      "reagents": [
+        "Garlic",
+        "Nightshade",
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Lowers Strength, Dexterity and Intelligence of every valid target in an area around the target point.",
+      "source": "Scripts/Spells/Sixth/MassCurse.cs"
+    },
+    {
+      "class_name": "ParalyzeFieldSpell",
+      "name": "Paralyze Field",
+      "slug": "paralyze-field",
+      "mantra": "In Ex Grav",
+      "reagents": [
+        "Black Pearl",
+        "Ginseng",
+        "Spiders' Silk"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Creates a temporary field that paralyzes anyone who walks into it.",
+      "source": "Scripts/Spells/Sixth/ParalyzeField.cs"
+    },
+    {
+      "class_name": "RevealSpell",
+      "name": "Reveal",
+      "slug": "reveal",
+      "mantra": "Wis Quas",
+      "reagents": [
+        "Bloodmoss",
+        "Sulfurous Ash"
+      ],
+      "circle": 6,
+      "mana": 20,
+      "min_skill": 51.4,
+      "max_skill": 91.4,
+      "description": "Reveals hidden and invisible creatures and players in an area, with radius based on caster skill.",
+      "source": "Scripts/Spells/Sixth/Reveal.cs"
+    },
+    {
+      "class_name": "ChainLightningSpell",
+      "name": "Chain Lightning",
+      "slug": "chain-lightning",
+      "mantra": "Vas Ort Grav",
+      "reagents": [
+        "Black Pearl",
+        "Bloodmoss",
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Calls down lightning on every valid target in an area, dealing energy damage (divided among targets pre-AOS).",
+      "source": "Scripts/Spells/Seventh/ChainLightning.cs"
+    },
+    {
+      "class_name": "EnergyFieldSpell",
+      "name": "Energy Field",
+      "slug": "energy-field",
+      "mantra": "In Sanct Grav",
+      "reagents": [
+        "Black Pearl",
+        "Mandrake Root",
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Creates a temporary impassable wall of energy that blocks movement entirely.",
+      "source": "Scripts/Spells/Seventh/EnergyField.cs"
+    },
+    {
+      "class_name": "FlameStrikeSpell",
+      "name": "Flame Strike",
+      "slug": "flame-strike",
+      "mantra": "Kal Vas Flam",
+      "reagents": [
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Engulfs the target in a pillar of flame dealing heavy fire damage.",
+      "source": "Scripts/Spells/Seventh/FlameStrike.cs"
+    },
+    {
+      "class_name": "GateTravelSpell",
+      "name": "Gate Travel",
+      "slug": "gate-travel",
+      "mantra": "Vas Rel Por",
+      "reagents": [
+        "Black Pearl",
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Opens a pair of linked moongates between the caster and the location stored in a marked rune, usable by anyone.",
+      "source": "Scripts/Spells/Seventh/GateTravel.cs"
+    },
+    {
+      "class_name": "ManaVampireSpell",
+      "name": "Mana Vampire",
+      "slug": "mana-vampire",
+      "mantra": "Ort Sanct",
+      "reagents": [
+        "Black Pearl",
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Drains mana from the target and transfers it to the caster if the target fails to resist.",
+      "source": "Scripts/Spells/Seventh/ManaVampire.cs"
+    },
+    {
+      "class_name": "MassDispelSpell",
+      "name": "Mass Dispel",
+      "slug": "mass-dispel",
+      "mantra": "Vas An Ort",
+      "reagents": [
+        "Garlic",
+        "Mandrake Root",
+        "Black Pearl",
+        "Sulfurous Ash"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Attempts to dispel every summoned creature in a large area around the target point.",
+      "source": "Scripts/Spells/Seventh/MassDispel.cs"
+    },
+    {
+      "class_name": "MeteorSwarmSpell",
+      "name": "Meteor Swarm",
+      "slug": "meteor-swarm",
+      "mantra": "Flam Kal Des Ylem",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Sulfurous Ash",
+        "Spiders' Silk"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Rains meteors on an area, dealing fire damage to every valid target (divided among targets pre-AOS).",
+      "source": "Scripts/Spells/Seventh/MeteorSwarm.cs"
+    },
+    {
+      "class_name": "PolymorphSpell",
+      "name": "Polymorph",
+      "slug": "polymorph",
+      "mantra": "Vas Ylem Rel",
+      "reagents": [
+        "Bloodmoss",
+        "Spiders' Silk",
+        "Mandrake Root"
+      ],
+      "circle": 7,
+      "mana": 40,
+      "min_skill": 65.7,
+      "max_skill": 105.7,
+      "description": "Transforms the caster's body into a chosen creature form, with combat stats to match, until cancelled.",
+      "source": "Scripts/Spells/Seventh/Polymorph.cs"
+    },
+    {
+      "class_name": "AirElementalSpell",
+      "name": "Air Elemental",
+      "slug": "air-elemental",
+      "mantra": "Kal Vas Xen Hur",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Summons an air elemental to fight for the caster, consuming two follower slots.",
+      "source": "Scripts/Spells/Eighth/AirElemental.cs"
+    },
+    {
+      "class_name": "EarthElementalSpell",
+      "name": "Earth Elemental",
+      "slug": "earth-elemental",
+      "mantra": "Kal Vas Xen Ylem",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Summons an earth elemental to fight for the caster, consuming two follower slots.",
+      "source": "Scripts/Spells/Eighth/EarthElemental.cs"
+    },
+    {
+      "class_name": "EarthquakeSpell",
+      "name": "Earthquake",
+      "slug": "earthquake",
+      "mantra": "In Vas Por",
+      "reagents": [
+        "Bloodmoss",
+        "Ginseng",
+        "Mandrake Root",
+        "Sulfurous Ash"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Shakes the earth, dealing physical damage to every valid target nearby based on their current hit points.",
+      "source": "Scripts/Spells/Eighth/Earthquake.cs"
+    },
+    {
+      "class_name": "EnergyVortexSpell",
+      "name": "Energy Vortex",
+      "slug": "energy-vortex",
+      "mantra": "Vas Corp Por",
+      "reagents": [
+        "Bloodmoss",
+        "Black Pearl",
+        "Mandrake Root",
+        "Nightshade"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Summons an uncontrolled energy vortex that relentlessly attacks the nearest creature, consuming follower slots.",
+      "source": "Scripts/Spells/Eighth/EnergyVortex.cs"
+    },
+    {
+      "class_name": "FireElementalSpell",
+      "name": "Fire Elemental",
+      "slug": "fire-elemental",
+      "mantra": "Kal Vas Xen Flam",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Summons a fire elemental to fight for the caster, consuming two follower slots.",
+      "source": "Scripts/Spells/Eighth/FireElemental.cs"
+    },
+    {
+      "class_name": "ResurrectionSpell",
+      "name": "Resurrection",
+      "slug": "resurrection",
+      "mantra": "An Corp",
+      "reagents": [
+        "Bloodmoss",
+        "Garlic",
+        "Ginseng"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Returns a dead player's ghost to life where they stand.",
+      "source": "Scripts/Spells/Eighth/Resurrection.cs"
+    },
+    {
+      "class_name": "SummonDaemonSpell",
+      "name": "Summon Daemon",
+      "slug": "summon-daemon",
+      "mantra": "Kal Vas Xen Corp",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk",
+        "Sulfurous Ash"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Summons a daemon to fight for the caster, consuming follower slots (and under AOS damaging the caster's karma).",
+      "source": "Scripts/Spells/Eighth/SummonDaemon.cs"
+    },
+    {
+      "class_name": "WaterElementalSpell",
+      "name": "Water Elemental",
+      "slug": "water-elemental",
+      "mantra": "Kal Vas Xen An Flam",
+      "reagents": [
+        "Bloodmoss",
+        "Mandrake Root",
+        "Spiders' Silk"
+      ],
+      "circle": 8,
+      "mana": 50,
+      "min_skill": 80.0,
+      "max_skill": 120.0,
+      "description": "Summons a water elemental to fight for the caster, consuming two follower slots.",
+      "source": "Scripts/Spells/Eighth/WaterElemental.cs"
+    }
+  ]
+}
