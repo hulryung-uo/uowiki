@@ -4,8 +4,10 @@ description: Vanish from sight anywhere, no tools or targets required — the lo
 status: field-verified
 sources:
   - "servuo: Server/Skills.cs (SkillInfo 21)"
+  - "servuo: Scripts/Skills/Hiding.cs (10s reuse delay, success/fail messages)"
   - "in-game: foundry thief evals 2026-06-11 (anima run bc201 cycles 5-6, agents Shade — data/trajectories/eval-evobc201c5*/c6*, agent logs data/eval_logs/agent-evobc201c5*)"
-last_verified: 2026-06-11
+  - "in-game: foundry thief eval 2026-06-12 (run c16f4 cycle 2 — 14 'must wait' throttles per 600s seed at ~7s pacing, agent logs data/eval_logs/agent-evoc16f4c2s*)"
+last_verified: 2026-06-12
 generated: false
 ---
 
@@ -23,6 +25,11 @@ Use the skill (skill button or `UseSkill` request) and the server rolls your
 Hiding against the situation. Success turns you invisible until you move at speed,
 attack, or otherwise reveal yourself. Failure simply costs the attempt's cooldown.
 
+A successful or failed attempt starts a **10-second reuse delay** (the server
+answers early retries with *"You must wait a few moments to use another skill"*).
+Attempts fired inside the delay are completely wasted — they roll nothing and
+gain nothing.
+
 The skill check follows the standard [skill-gain rules](/mechanics/skill-gain/):
 gains roll on both success and failure while the task sits inside your gain
 window, so early training is fast even when you fail often.
@@ -35,6 +42,10 @@ standing on the Minoc mountainside, far from any cover gimmick:
 - From base **35.0**, repeated use over a 10-minute session produced steady
   **+0.1 gains** on both successes and failures (three independent sessions,
   fresh characters each).
+- **Pace your attempts to the 10-second lockout.** An agent retrying every ~7
+  seconds ate 14 *"must wait"* throttles per 10-minute session — one of every
+  three attempts wasted. Waiting the full delay between uses is strictly more
+  skill per hour.
 - **Speaking between attempts does not interrupt training** — a thief who
   muttered a line after every practice run gained at the same rate as a silent
   one (and slightly out-earned it overall in the same window).
