@@ -13,6 +13,10 @@ generated: false
 Minoc, the City of Sacrifice, smells of coal smoke and honest work — a mining town where miners
 and blacksmiths outnumber everyone else.
 
+![Map of Minoc with NPC vendor locations](/img/maps/city-minoc.png)
+
+[Open Minoc in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=2525&y=480&z=2)
+
 ## Location
 
 - **Center:** (2466, 544) — city bounds roughly (2411, 366) to (2628, 690)

@@ -13,6 +13,10 @@ generated: false
 Skara Brae, the City of Spirituality, sits on a small island off the western coast — a quiet
 town of rangers, ranchers, and bards, where the loudest sound is usually livestock.
 
+![Map of Skara Brae with NPC vendor locations](/img/maps/city-skara-brae.png)
+
+[Open Skara Brae in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=596&y=2200&z=2)
+
 ## Location
 
 - **Center:** (632, 2233) — island bounds roughly (538, 2107) to (688, 2297)

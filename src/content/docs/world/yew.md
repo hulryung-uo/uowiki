@@ -15,6 +15,10 @@ generated: false
 Yew is less a town than a forest with buildings in it — a scattered woodland settlement of
 lumberjacks and carpenters, seat of the Courts of Truth.
 
+![Map of Yew with NPC vendor locations](/img/maps/city-yew.png)
+
+[Open Yew in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=542&y=982&z=2)
+
 ## Location
 
 - **Center:** (546, 992) — the region sprawls roughly from (92, 656) to (756, 1261)

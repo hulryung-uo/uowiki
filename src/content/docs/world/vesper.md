@@ -13,6 +13,10 @@ generated: false
 Vesper, the City of Industry, is built on islands and bridges — a prosperous port sitting
 between the Minoc mines and the open sea, where trade is brisk and the docks never quite sleep.
 
+![Map of Vesper with NPC vendor locations](/img/maps/city-vesper.png)
+
+[Open Vesper in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=2899&y=676&z=2)
+
 ## Location
 
 - **Center:** (2899, 676) — city bounds roughly (2728, 598) to (3065, 1001)

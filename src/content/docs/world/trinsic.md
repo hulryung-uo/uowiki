@@ -13,6 +13,10 @@ generated: false
 Trinsic, the City of Honor, hides behind high sandstone walls — a knight's city in the south,
 home of the paladin guild.
 
+![Map of Trinsic with NPC vendor locations](/img/maps/city-trinsic.png)
+
+[Open Trinsic in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=1900&y=2781&z=2)
+
 ## Location
 
 - **Center:** (1867, 2780) — city bounds roughly (1796, 2636) to (2117, 2927)

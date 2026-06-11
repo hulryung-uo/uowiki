@@ -13,6 +13,10 @@ generated: false
 On the island of Verity in the far east stands Moonglow, the City of Honesty — a city of mages
 and scholars where the most impressive building is, fittingly, a library.
 
+![Map of Moonglow with NPC vendor locations](/img/maps/city-moonglow.png)
+
+[Open Moonglow in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=4471&y=1100&z=2)
+
 ## Location
 
 - **Center:** (4442, 1172) — island bounds roughly (4278, 844) to (4717, 1509)

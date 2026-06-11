@@ -13,6 +13,10 @@ generated: false
 If Britannia has a heart, it beats in Britain — the capital, the largest and most populated city,
 and home to Lord British's castle.
 
+![Map of Britain with NPC vendor locations](/img/maps/city-britain.png)
+
+[Open Britain in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=1495&y=1629&z=2)
+
 ## Location
 
 - **Center:** (1495, 1629) — city bounds roughly (1093, 1498) to (1740, 1907)

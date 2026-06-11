@@ -13,6 +13,10 @@ generated: false
 Jhelom, the City of Valor, sprawls across the Valarian Isles in the far south — a warrior's
 town where disputes are settled in the fighting pit and nobody finds that unusual.
 
+![Map of Jhelom with NPC vendor locations](/img/maps/city-jhelom.png)
+
+[Open Jhelom in the interactive map →](https://uomap.vercel.app/?facet=felucca&x=1374&y=3696&z=2)
+
 ## Location
 
 - **Center:** (1383, 3815) — the city spans roughly (1303, 3670) to (1492, 4045) across its islands

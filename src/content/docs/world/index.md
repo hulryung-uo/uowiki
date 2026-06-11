@@ -15,6 +15,10 @@ world worth getting lost in — though preferably on purpose. This page is your 
 panning, zooming, and exact coordinates, use the
 **[interactive map](https://uomap.vercel.app)**.
 
+![Map of Felucca with city locations](/img/maps/felucca-cities.png)
+
+[Open the interactive map →](https://uomap.vercel.app)
+
 ## Facets
 
 Five facets are mapped (per `uomap/js/data.js`):
