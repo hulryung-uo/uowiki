@@ -16,6 +16,10 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Updated** — Cloth production chain, expansion-era tags, hue reference page, README.  
+  [Items](/items/) (22) · [Crafting](/crafting/) (11) · Reference (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/fb7cd3a)</sub>
+- **Updated** — Bake intrinsic per-item hues (dyed cloth/clothing/scrolls).  
+  [Items](/items/) (12) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/895a2e8)</sub>
 - **Updated** — Bake UO hues into colored resource variants.  
   [Resources](/items/catalog/resources/) · [Resources](/items/resources/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/158daf7)</sub>
 - **Updated** — Reclassify catalog by gameplay type (Weapons/Armor/Shields/...).  
