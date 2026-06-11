@@ -3,7 +3,8 @@ title: Spellweaving
 description: Arcanist circle magic of the elves.
 status: unverified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 54)"
+  - "servuo: Scripts/Spells/Spellweaving/"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,35 @@ generated: false
 
 <img src="/img/skill-flags/54.gif" alt="Spellweaving skill banner" width="160" />
 
-Spellweaving casts arcane spells whose power grows when cast within a Spellweaving focus circle of fellow arcanists, covering summons, area damage, and utility. It is a Mastery skill associated with the elven race. Train by casting its spells.
+Spellweaving is the expansion-era (Mondain's Legacy) arcanist spell school. The prose is
+community-derived from ServUO and general UO mechanics (no uorenaissance.com entry) pending
+field verification; the stats table is source-verified against ServUO. Behavior is
+expansion-specific — see [magic schools](/playing/magic-schools/).
 
-The stats below are source-verified against ServUO; the prose is community-derived and source-only (no uorenaissance.com entry — this is an expansion-era skill) pending field verification.
+## What it does
 
-## Facts
+Spellweaving casts arcane spells — summons (Summon Fey/Fiend, Vortex, Nature's Fury), area
+damage (Wildfire, Word of Death, Thunderstorm), buffs (Gift of Renewal, Attunement, Immolating
+Weapon, Arcane Empowerment), and utility (Gift of Life, Etheral Voyage, Dryad Allure). Its
+signature mechanic is the **focus circle**: when multiple arcanists stand together (or you
+hold an **Arcane Focus**), spell power scales up.
+
+## How to use it
+
+Cast from the Spellweaving spellbook with mana. Casting inside a focus circle of fellow
+arcanists, or carrying an Arcane Focus item, raises the effective casting "focus level" and
+makes the spells stronger. See [spellcasting](/playing/spellcasting/) and
+[magic schools](/playing/magic-schools/).
+
+## How to train it
+
+- **Low skill** — cast the cheap spells (Arcane Circle, Gift of Renewal) repeatedly.
+- **Mid/high skill** — cast steadily in combat; the stronger spells hold the gain window.
+  Specifics are **unverified**.
+
+See [skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +50,19 @@ The stats below are source-verified against ServUO; the prose is community-deriv
 | Mastery skill | Yes |
 | Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+Spell implementations live under `Scripts/Spells/Spellweaving/` (including
+`Items/ArcaneFocus.cs`). The focus-circle scaling and per-spell numbers are expansion-specific
+and **unverified** here. Associated with the **elven** race.
+
+## Related skills & synergies
+
+- **[Magery](/skills/magery/) + [Meditation](/skills/meditation/)** — common hybrid; see the
+  Necro-Mage/Spellweaver/Mystic note on [seven-GM templates](/templates/seven-gm/).
+- **[Focus](/skills/focus/)** — extra mana regen for the casting-heavy arcanist.
+
+## See also
+
+- [Magic schools](/playing/magic-schools/) · [Spellcasting](/playing/spellcasting/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

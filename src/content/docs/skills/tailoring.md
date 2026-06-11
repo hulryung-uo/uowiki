@@ -3,7 +3,8 @@ title: Tailoring
 description: Sew cloth and leather into clothing and armor.
 status: unverified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 34)"
+  - "servuo: Scripts/Services/Craft/DefTailoring.cs"
   - "reference: uorenaissance.com skill list"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,35 @@ generated: false
 
 <img src="/img/skill-flags/34.gif" alt="Tailoring skill banner" width="160" />
 
-Tailoring cuts cloth and leather into clothing, bandages, and leather/studded armor using a sewing kit. Higher skill unlocks heavier armor and better quality, and pairs with Cooking-tanned hides. Train by sewing the hardest item your skill can attempt.
+Tailoring is the cloth-and-leather [crafting skill](/playing/crafting/). The prose is
+community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior)
+pending field verification; the stats table is source-verified against ServUO.
 
-The prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field verification; the stats below are source-verified against ServUO.
+## What it does
 
-## Facts
+Tailoring sews cloth and leather into clothing, bandages, and leather/studded/bone armor with
+a sewing kit. Higher skill unlocks heavier armor types and better quality (exceptional pieces
+carry bonus armor and can take a maker's mark). It is one of the two pillar crafter skills
+(with [Blacksmithy](/skills/blacksmithy/)) and supplies the cloth and leather armor casters
+and rogues favor.
+
+## How to use it
+
+Stock cloth (from bolts/cotton) and leather (tan hides from kills), then use a sewing kit to
+open the crafting menu. Exceptional results need high skill and good tools. See
+[crafting](/playing/crafting/).
+
+## How to train it
+
+- **Low skill** — sew simple cloth items and bandages; cheap and fast.
+- **Mid skill** — basic leather armor.
+- **High skill** — studded/bone armor and the hardest pieces for the steadiest gains and
+  exceptional output.
+
+Recipe thresholds live in `Scripts/Services/Craft/DefTailoring.cs`. See
+[skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +50,19 @@ The prose is community-derived (paraphrased from the uorenaissance.com skill lis
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Str +0.38, Dex +1.63, Int +0.5 (per-use stat gain weights) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+Tailoring is a pure crafting skill — no active target. Higher-grade leathers (from special
+creatures) raise difficulty and reward.
+
+## Related skills & synergies
+
+- **[Blacksmithy](/skills/blacksmithy/)** — the partner pillar craft; see the Crafter build
+  on [seven-GM templates](/templates/seven-gm/) and the [Blacksmith template](/templates/blacksmith/).
+- **[Imbuing](/skills/imbuing/)** — enhances the exceptional armor a tailor makes.
+
+## See also
+
+- [Crafting (how to play)](/playing/crafting/) · [Tailoring crafting](/crafting/tailoring/)
+- [Armor](/items/catalog/armor/) · [Clothing](/items/catalog/clothing/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

@@ -32,6 +32,14 @@ player — human or AI — can always answer the question *"what should I do nex
 | [Mage](/templates/mage/) | Ranged damage and Recall mobility; reagents are the running cost. | [Moonglow](/world/moonglow/) |
 | [Animal Tamer](/templates/animal-tamer/) | Pets do the fighting. Slow start, richest endgame. | [Skara Brae](/world/skara-brae/) |
 
+There are also [Blacksmith](/templates/blacksmith/) and [Lumberjack](/templates/lumberjack/)
+crafting/gathering templates with the same stage structure.
+
+Once you understand the build idea, see **[7x GM Templates](/templates/seven-gm/)** — the
+endgame question of *which seven skills to Grandmaster* (the 700-point cap = seven skills at
+100), organized by what each build is *for*: dexxer, mage, tamer, bard, stealth archer,
+thief, crafter.
+
 ## How to read a template page
 
 - **Stages.** Each page is split into Novice / Journeyman / Master stages keyed to the

@@ -1,0 +1,795 @@
+{
+  "_schema": {
+    "description": "Dressed walking GIFs for humanoid bestiary mobs: the body animation with each worn item's equipment animation composited per-frame in paperdoll layer order, per ClassicUO MobileView. Equipment animation is indexed by item AnimID (tiledata.mul) at the People group offset, Equipconv.def applied, tinted by item hue (or neutral 1854 for random dye) via hues.mul. Body keeps its native MUL palette.",
+    "extracted_by": "tools/extract_anim_dressed.py",
+    "sources": [
+      "data/mob_appearance.json",
+      "data/creature_anim.json",
+      "uo-resource/anim*.mul",
+      "uo-resource/tiledata.mul",
+      "uo-resource/hues.mul",
+      "uo-resource/Equipconv.def"
+    ],
+    "frame_duration_ms": 130,
+    "skin_hue": 1024,
+    "neutral_clothing_hue": 1854
+  },
+  "_meta": {
+    "extracted": "2026-06-11",
+    "direction": 1,
+    "dressed_ok": 16,
+    "fallbacks": [
+      {
+        "class": "DragonsFlameMage",
+        "reason": "NinjaTabi (AnimID 572, graphic 572) no frames"
+      },
+      {
+        "class": "ElfBrigand",
+        "reason": "body 606 did not decode"
+      },
+      {
+        "class": "EliteNinja",
+        "reason": "NinjaTabi (AnimID 572, graphic 572) no frames"
+      },
+      {
+        "class": "Henchman",
+        "reason": "LeatherNinjaJacket (AnimID 426, graphic 426) no frames"
+      },
+      {
+        "class": "Ninja",
+        "reason": "LeatherNinjaPants (AnimID 423, graphic 842) no frames"
+      },
+      {
+        "class": "Samurai",
+        "reason": "LeatherDo (AnimID 457, graphic 812) no frames"
+      },
+      {
+        "class": "Savage",
+        "reason": "body 184 did not decode"
+      },
+      {
+        "class": "SavageRider",
+        "reason": "body 185 did not decode"
+      },
+      {
+        "class": "SavageShaman",
+        "reason": "body 186 did not decode"
+      },
+      {
+        "class": "SerpentsFangAssassin",
+        "reason": "StuddedMempo (AnimID 472, graphic 472) no frames"
+      },
+      {
+        "class": "SummonedPaladin",
+        "reason": "PlateGorget (AnimID 531, graphic 531) no frames"
+      },
+      {
+        "class": "TigersClawThief",
+        "reason": "Wakizashi (AnimID 464, graphic 464) no frames"
+      },
+      {
+        "class": "YoungNinja",
+        "reason": "NinjaTabi (AnimID 572, graphic 572) no frames"
+      },
+      {
+        "class": "YoungRonin",
+        "reason": "LeatherDo (AnimID 457, graphic 457) no frames"
+      }
+    ],
+    "failures": []
+  },
+  "creatures": {
+    "Artist": {
+      "slug": "artist",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        35,
+        66
+      ],
+      "gif": "/img/creatures/dressed-artist.gif",
+      "png": "/img/creatures/dressed-artist.png",
+      "layers": [
+        {
+          "class": "Doublet",
+          "item_id": "0x1F7B",
+          "layer": "Tunic",
+          "anim_id": 913,
+          "graphic": 913,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Sandals",
+          "item_id": "0x170D",
+          "layer": "Shoes",
+          "anim_id": 479,
+          "graphic": 479,
+          "hue": "0x073E"
+        },
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": "0x073E"
+        },
+        {
+          "class": "HalfApron",
+          "item_id": "0x153B",
+          "layer": "Waist",
+          "anim_id": 466,
+          "graphic": 466,
+          "hue": "0x073E"
+        }
+      ]
+    },
+    "Barracoon": {
+      "slug": "barracoon",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        40,
+        69
+      ],
+      "gif": "/img/creatures/dressed-barracoon.gif",
+      "png": "/img/creatures/dressed-barracoon.png",
+      "layers": [
+        {
+          "class": "FancyShirt",
+          "item_id": "0x1EFD",
+          "layer": "Shirt",
+          "anim_id": 435,
+          "graphic": 435,
+          "hue": "0x073E"
+        },
+        {
+          "class": "LongPants",
+          "item_id": "0x1539",
+          "layer": "Pants",
+          "anim_id": 431,
+          "graphic": 431,
+          "hue": "0x073E"
+        },
+        {
+          "class": "JesterHat",
+          "item_id": "0x171C",
+          "layer": "Helmet",
+          "anim_id": 413,
+          "graphic": 413,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Cloak",
+          "item_id": "0x1515",
+          "layer": "Cloak",
+          "anim_id": 468,
+          "graphic": 468,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Sandals",
+          "item_id": "0x170D",
+          "layer": "Shoes",
+          "anim_id": 479,
+          "graphic": 479,
+          "hue": null
+        }
+      ]
+    },
+    "Brigand": {
+      "slug": "brigand",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        58,
+        65
+      ],
+      "gif": "/img/creatures/dressed-brigand.gif",
+      "png": "/img/creatures/dressed-brigand.png",
+      "layers": [
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": "0x073E"
+        },
+        {
+          "class": "FancyShirt",
+          "item_id": "0x1EFD",
+          "layer": "Shirt",
+          "anim_id": 435,
+          "graphic": 435,
+          "hue": null
+        },
+        {
+          "class": "Bandana",
+          "item_id": "0x1540",
+          "layer": "Helmet",
+          "anim_id": 492,
+          "graphic": 492,
+          "hue": null
+        },
+        {
+          "class": "Skirt",
+          "item_id": "0x1516",
+          "layer": "Skirt",
+          "anim_id": 449,
+          "graphic": 449,
+          "hue": "0x073E"
+        },
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Longsword",
+          "item_id": "0x0F61",
+          "layer": "OneHanded",
+          "anim_id": 618,
+          "graphic": 618,
+          "hue": null
+        },
+        {
+          "class": "Axe",
+          "item_id": "0x0F49",
+          "layer": "TwoHanded",
+          "anim_id": 653,
+          "graphic": 653,
+          "hue": null
+        }
+      ]
+    },
+    "ChaosDragoon": {
+      "slug": "chaos-dragoon",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-chaos-dragoon.gif",
+      "png": "/img/creatures/dressed-chaos-dragoon.png",
+      "layers": [
+        {
+          "class": "Shirt",
+          "item_id": "0x1517",
+          "layer": "Shirt",
+          "anim_id": 434,
+          "graphic": 434,
+          "hue": null
+        },
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": null
+        }
+      ]
+    },
+    "ChaosDragoonElite": {
+      "slug": "chaos-dragoon-elite",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-chaos-dragoon-elite.gif",
+      "png": "/img/creatures/dressed-chaos-dragoon-elite.png",
+      "layers": [
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": null
+        },
+        {
+          "class": "Shirt",
+          "item_id": "0x1517",
+          "layer": "Shirt",
+          "anim_id": 434,
+          "graphic": 434,
+          "hue": "0x073E"
+        }
+      ]
+    },
+    "Cursed": {
+      "slug": "cursed",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-cursed.gif",
+      "png": "/img/creatures/dressed-cursed.png",
+      "layers": [
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Shirt",
+          "item_id": "0x1517",
+          "layer": "Shirt",
+          "anim_id": 434,
+          "graphic": 434,
+          "hue": "0x073E"
+        }
+      ]
+    },
+    "Executioner": {
+      "slug": "executioner",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        40,
+        65
+      ],
+      "gif": "/img/creatures/dressed-executioner.gif",
+      "png": "/img/creatures/dressed-executioner.png",
+      "layers": [
+        {
+          "class": "ThighBoots",
+          "item_id": "0x1711",
+          "layer": "Shoes",
+          "anim_id": 476,
+          "graphic": 476,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Surcoat",
+          "item_id": "0x1FFD",
+          "layer": "Tunic",
+          "anim_id": 910,
+          "graphic": 910,
+          "hue": "0x073E"
+        },
+        {
+          "class": "ExecutionersAxe",
+          "item_id": "0x0F45",
+          "layer": "TwoHanded",
+          "anim_id": 613,
+          "graphic": 613,
+          "hue": null
+        },
+        {
+          "class": "Skirt",
+          "item_id": "0x1516",
+          "layer": "Skirt",
+          "anim_id": 449,
+          "graphic": 449,
+          "hue": "0x073E"
+        },
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": "0x073E"
+        }
+      ]
+    },
+    "ForgottenServant": {
+      "slug": "forgotten-servant",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        58,
+        65
+      ],
+      "gif": "/img/creatures/dressed-forgotten-servant.gif",
+      "png": "/img/creatures/dressed-forgotten-servant.png",
+      "layers": [
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": "0x073E"
+        },
+        {
+          "class": "FancyShirt",
+          "item_id": "0x1EFD",
+          "layer": "Shirt",
+          "anim_id": 435,
+          "graphic": 435,
+          "hue": null
+        },
+        {
+          "class": "Bandana",
+          "item_id": "0x1540",
+          "layer": "Helmet",
+          "anim_id": 492,
+          "graphic": 492,
+          "hue": null
+        },
+        {
+          "class": "Skirt",
+          "item_id": "0x1516",
+          "layer": "Skirt",
+          "anim_id": 449,
+          "graphic": 449,
+          "hue": "0x073E"
+        },
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Longsword",
+          "item_id": "0x0F61",
+          "layer": "OneHanded",
+          "anim_id": 618,
+          "graphic": 618,
+          "hue": null
+        },
+        {
+          "class": "Axe",
+          "item_id": "0x0F49",
+          "layer": "TwoHanded",
+          "anim_id": 653,
+          "graphic": 653,
+          "hue": null
+        }
+      ]
+    },
+    "GrimmochDrummel": {
+      "slug": "grimmoch-drummel",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-grimmoch-drummel.gif",
+      "png": "/img/creatures/dressed-grimmoch-drummel.png",
+      "layers": [
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": null
+        },
+        {
+          "class": "BodySash",
+          "item_id": "0x1541",
+          "layer": "Tunic",
+          "anim_id": 490,
+          "graphic": 490,
+          "hue": null
+        }
+      ]
+    },
+    "Gypsy": {
+      "slug": "gypsy",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        34,
+        65
+      ],
+      "gif": "/img/creatures/dressed-gypsy.gif",
+      "png": "/img/creatures/dressed-gypsy.png",
+      "layers": [
+        {
+          "class": "Bandana",
+          "item_id": "0x1540",
+          "layer": "Helmet",
+          "anim_id": 492,
+          "graphic": 492,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Dagger",
+          "item_id": "0x0F52",
+          "layer": "OneHanded",
+          "anim_id": 622,
+          "graphic": 622,
+          "hue": null
+        },
+        {
+          "class": "Kilt",
+          "item_id": "0x1537",
+          "layer": "Skirt",
+          "anim_id": 455,
+          "graphic": 455,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Shirt",
+          "item_id": "0x1517",
+          "layer": "Shirt",
+          "anim_id": 434,
+          "graphic": 434,
+          "hue": "0x073E"
+        },
+        {
+          "class": "ThighBoots",
+          "item_id": "0x1711",
+          "layer": "Shoes",
+          "anim_id": 476,
+          "graphic": 476,
+          "hue": null
+        },
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": "0x073E"
+        }
+      ]
+    },
+    "HarborMaster": {
+      "slug": "harbor-master",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        54,
+        65
+      ],
+      "gif": "/img/creatures/dressed-harbor-master.gif",
+      "png": "/img/creatures/dressed-harbor-master.png",
+      "layers": [
+        {
+          "class": "Shirt",
+          "item_id": "0x1517",
+          "layer": "Shirt",
+          "anim_id": 434,
+          "graphic": 434,
+          "hue": "0x073E"
+        },
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": null
+        },
+        {
+          "class": "LongPants",
+          "item_id": "0x1539",
+          "layer": "Pants",
+          "anim_id": 431,
+          "graphic": 431,
+          "hue": "0x073E"
+        },
+        {
+          "class": "QuarterStaff",
+          "item_id": "0x0E89",
+          "layer": "TwoHanded",
+          "anim_id": 648,
+          "graphic": 648,
+          "hue": null
+        }
+      ]
+    },
+    "KhaldunZealot": {
+      "slug": "khaldun-zealot",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-khaldun-zealot.gif",
+      "png": "/img/creatures/dressed-khaldun-zealot.png",
+      "layers": [
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": null
+        }
+      ]
+    },
+    "LysanderGathenwale": {
+      "slug": "lysander-gathenwale",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        39,
+        65
+      ],
+      "gif": "/img/creatures/dressed-lysander-gathenwale.gif",
+      "png": "/img/creatures/dressed-lysander-gathenwale.png",
+      "layers": [
+        {
+          "class": "Boots",
+          "item_id": "0x170B",
+          "layer": "Shoes",
+          "anim_id": 477,
+          "graphic": 477,
+          "hue": null
+        },
+        {
+          "class": "Cloak",
+          "item_id": "0x1515",
+          "layer": "Cloak",
+          "anim_id": 468,
+          "graphic": 468,
+          "hue": null
+        }
+      ]
+    },
+    "MilitiaFighter": {
+      "slug": "militia-fighter",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-militia-fighter.gif",
+      "png": "/img/creatures/dressed-militia-fighter.png",
+      "layers": [
+        {
+          "class": "ThighBoots",
+          "item_id": "0x1711",
+          "layer": "Shoes",
+          "anim_id": 476,
+          "graphic": 476,
+          "hue": null
+        },
+        {
+          "class": "LeatherChest",
+          "item_id": "0x13CC",
+          "layer": "Torso",
+          "anim_id": 542,
+          "graphic": 542,
+          "hue": null
+        },
+        {
+          "class": "LeatherArms",
+          "item_id": "0x13CD",
+          "layer": "Arms",
+          "anim_id": 544,
+          "graphic": 544,
+          "hue": null
+        },
+        {
+          "class": "LeatherLegs",
+          "item_id": "0x13CB",
+          "layer": "Pants",
+          "anim_id": 543,
+          "graphic": 543,
+          "hue": null
+        },
+        {
+          "class": "LeatherCap",
+          "item_id": "0x1DB9",
+          "layer": "Helmet",
+          "anim_id": 560,
+          "graphic": 560,
+          "hue": null
+        },
+        {
+          "class": "LeatherGloves",
+          "item_id": "0x13C6",
+          "layer": "Gloves",
+          "anim_id": 545,
+          "graphic": 545,
+          "hue": null
+        },
+        {
+          "class": "LeatherGorget",
+          "item_id": "0x13C7",
+          "layer": "Necklace",
+          "anim_id": 546,
+          "graphic": 546,
+          "hue": null
+        }
+      ]
+    },
+    "MorgBergen": {
+      "slug": "morg-bergen",
+      "body_id": 400,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        33,
+        65
+      ],
+      "gif": "/img/creatures/dressed-morg-bergen.gif",
+      "png": "/img/creatures/dressed-morg-bergen.png",
+      "layers": [
+        {
+          "class": "ShortPants",
+          "item_id": "0x152E",
+          "layer": "Pants",
+          "anim_id": 430,
+          "graphic": 430,
+          "hue": null
+        }
+      ]
+    },
+    "TavaraSewel": {
+      "slug": "tavara-sewel",
+      "body_id": 401,
+      "group": "walk",
+      "direction": 1,
+      "frames": 10,
+      "size": [
+        35,
+        66
+      ],
+      "gif": "/img/creatures/dressed-tavara-sewel.gif",
+      "png": "/img/creatures/dressed-tavara-sewel.png",
+      "layers": [
+        {
+          "class": "Kilt",
+          "item_id": "0x1537",
+          "layer": "Skirt",
+          "anim_id": 455,
+          "graphic": 455,
+          "hue": null
+        },
+        {
+          "class": "Sandals",
+          "item_id": "0x170D",
+          "layer": "Shoes",
+          "anim_id": 479,
+          "graphic": 479,
+          "hue": null
+        }
+      ]
+    }
+  }
+}

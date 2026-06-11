@@ -4,6 +4,7 @@ description: Paladin spells fueled by tithed gold.
 status: unverified
 sources:
   - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Scripts/Spells/Chivalry/"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,36 @@ generated: false
 
 <img src="/img/skill-flags/51.gif" alt="Chivalry skill banner" width="160" />
 
-Chivalry grants paladin abilities — healing, smiting undead, curing, and combat blessings — powered by gold tithed at a shrine rather than reagents. Higher Chivalry and Karma strengthen its effects. It is a Mastery skill. Train by casting its spells.
+Chivalry is the paladin spell school, an expansion-era (Age of Shadows) skill powered by
+tithed gold instead of reagents. The prose is community-derived from ServUO and general UO
+mechanics (no uorenaissance.com entry) pending field verification; the stats table is
+source-verified against ServUO. Behavior is expansion-specific — see
+[magic schools](/playing/magic-schools/).
 
-The stats below are source-verified against ServUO; the prose is community-derived and source-only (no uorenaissance.com entry — this is an expansion-era skill) pending field verification.
+## What it does
 
-## Facts
+Chivalry grants holy-knight abilities: self-healing (Close Wounds), curing
+(Cleanse by Fire/Remove Curse), smiting undead and demons harder (Consecrate Weapon, Holy
+Light), combat blessings (Divine Fury, Enemy of One), and travel/utility (Sacred Journey,
+Noble Sacrifice). Effects scale with Chivalry skill and positive **Karma**, so paladins keep
+their Karma high.
+
+## How to use it
+
+Tithe gold at a shrine to build a tithing pool, then cast Chivalry abilities from the Book of
+Chivalry, which draw on that pool (and mana) instead of reagents. See
+[spellcasting](/playing/spellcasting/) and [magic schools](/playing/magic-schools/).
+
+## How to train it
+
+- **Low skill** — cast the cheap, always-useful spells (Divine Fury, Consecrate Weapon) in
+  combat against weak foes.
+- **Mid/high skill** — cast steadily while fighting undead/demons where the school shines.
+  Specifics are **unverified**; keep your tithing pool stocked.
+
+See [skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +51,21 @@ The stats below are source-verified against ServUO; the prose is community-deriv
 | Mastery skill | Yes |
 | Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+Chivalry spell implementations live under `Scripts/Spells/Chivalry/`. Many effects scale with
+both Chivalry and Karma; exact per-spell numbers are expansion-specific and **unverified**
+here.
+
+## Related skills & synergies
+
+- **A weapon skill + [Tactics](/skills/tactics/) + [Anatomy](/skills/anatomy/)** — Chivalry
+  buffs a melee core (the paladin dexxer).
+- **[Bushido](/skills/bushido/)** — the samurai-paladin hybrid stacks both schools.
+- **[Necromancy](/skills/necromancy/)** — thematically opposed; Chivalry's anti-undead/demon
+  spells counter necro play.
+
+## See also
+
+- [Magic schools](/playing/magic-schools/) · [Spellcasting](/playing/spellcasting/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

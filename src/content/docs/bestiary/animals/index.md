@@ -12,7 +12,7 @@ last_verified: 2026-06-11
 
 | | Creature | Hits | Damage | Tamable |
 |---|---|---|---|---|
-| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Artist" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Artist](/bestiary/animals/artist/) | — | — | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/dressed-artist.png" alt="Artist" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/dressed-artist.gif" alt="" loading="lazy" /></span> | [Artist](/bestiary/animals/artist/) | — | — | — |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/716.png" alt="Battle Chicken Lizard" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/716.gif" alt="" loading="lazy" /></span> | [Battle Chicken Lizard](/bestiary/animals/battle-chicken-lizard/) | 94–177 | 5–15 | yes (0.0) |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/211.png" alt="Black Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/211.gif" alt="" loading="lazy" /></span> | [Black Bear](/bestiary/animals/black-bear/) | 46–60 | 4–10 | yes (35.1) |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/290.png" alt="Boar" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/290.gif" alt="" loading="lazy" /></span> | [Boar](/bestiary/animals/boar/) | 15 | 3–6 | yes (29.1) |
@@ -44,8 +44,8 @@ last_verified: 2026-06-11
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/25.png" alt="Grey Wolf" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/25.gif" alt="" loading="lazy" /></span> | [Grey Wolf](/bestiary/animals/grey-wolf/) | 34–48 | 3–7 | yes (53.1) |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/212.png" alt="Grizzly Bear" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/212.gif" alt="" loading="lazy" /></span> | [Grizzly Bear](/bestiary/animals/grizzly-bear/) | 76–93 | 8–13 | yes (59.1) |
 |  | [Grubber](/bestiary/animals/grubber/) | 200 | 1 | — |
-| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Gypsy" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Gypsy](/bestiary/animals/gypsy/) | — | — | — |
-| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Harbor Master" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Harbor Master](/bestiary/animals/harbor-master/) | — | — | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/dressed-gypsy.png" alt="Gypsy" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/dressed-gypsy.gif" alt="" loading="lazy" /></span> | [Gypsy](/bestiary/animals/gypsy/) | — | — | — |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/dressed-harbor-master.png" alt="Harbor Master" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/dressed-harbor-master.gif" alt="" loading="lazy" /></span> | [Harbor Master](/bestiary/animals/harbor-master/) | — | — | — |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/793.png" alt="Hellsteed" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/793.gif" alt="" loading="lazy" /></span> | [Hellsteed](/bestiary/animals/hell-steed/) | 201–220 | 20–24 | — |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/715.png" alt="High Plains Boura" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/715.gif" alt="" loading="lazy" /></span> | [High Plains Boura](/bestiary/animals/high-plains-boura/) | 555–618 | 20–25 | yes (47.1) |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/237.png" alt="Hind" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/237.gif" alt="" loading="lazy" /></span> | [Hind](/bestiary/animals/hind/) | 15–29 | 4 | yes (23.1) |

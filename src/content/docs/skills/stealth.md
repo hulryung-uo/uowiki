@@ -3,7 +3,8 @@ title: Stealth
 description: Move while staying hidden.
 status: unverified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 47)"
+  - "servuo: Scripts/Skills/Stealth.cs"
   - "reference: uorenaissance.com skill list"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,34 @@ generated: false
 
 <img src="/img/skill-flags/47.gif" alt="Stealth skill banner" width="160" />
 
-Stealth lets you walk while remaining hidden, a step or few at a time depending on skill and armor, instead of being revealed the moment you move. It builds on Hiding for rogues and scouts. Train by hiding, then stepping carefully.
+Stealth lets you walk while staying [hidden](/skills/hiding/). The prose is community-derived
+(paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field
+verification; the stats table, the step formula, and the armor cap below are source-verified
+against ServUO.
 
-The prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field verification; the stats below are source-verified against ServUO.
+## What it does
 
-## Facts
+Stealth turns Hiding from a stationary trick into mobility: while hidden, you can take a
+number of careful steps without being revealed, instead of popping into view the moment you
+move. It is the foundation of scouts, thieves, and stealth archers. See
+[hiding & stealth](/playing/hiding-and-stealth/).
+
+## How to use it
+
+[Hide](/skills/hiding/) first, then move — each step rolls Stealth. Succeed and you stay
+hidden for that step; the number of guaranteed stealthy steps you bank scales with skill.
+Wearing too much non-medable (metal) armor stops you stealthing entirely.
+
+## How to train it
+
+- **Low skill** — hide, then step carefully, repeating. It is slow at first because failed
+  steps reveal you.
+- **High skill** — keep moving while hidden; reliable steps come once skill is high. Pair
+  with high [Hiding](/skills/hiding/) so you can re-hide quickly when revealed.
+
+See [skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +49,22 @@ The prose is community-derived (paraphrased from the uorenaissance.com skill lis
 | Mastery skill | No |
 | Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+From `Scripts/Skills/Stealth.cs`: the allowed stealthy steps are **`skill / 5`** (AOS era;
+**`skill / 10`** pre-AOS) — so about **20 steps at GM** on this expansion. Too much armor
+blocks it: an armor rating ≥ **42** (AOS; **26** pre-AOS) means "You could not hope to move
+quietly wearing this much armor." `MageArmor`-flagged pieces do not count toward that rating.
+
+## Related skills & synergies
+
+- **[Hiding](/skills/hiding/)** — Stealth requires you to be hidden first; the two are
+  inseparable.
+- **[Stealing](/skills/stealing/) + [Snooping](/skills/snooping/)** — the thief core, or
+  pair with [Archery](/skills/archery/) for the Stealth Archer build on
+  [seven-GM templates](/templates/seven-gm/).
+
+## See also
+
+- [Hiding & stealth (how to play)](/playing/hiding-and-stealth/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

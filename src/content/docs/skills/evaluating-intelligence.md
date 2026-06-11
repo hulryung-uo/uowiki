@@ -4,6 +4,7 @@ description: Scale offensive spell damage and read targets' Int.
 status: unverified
 sources:
   - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Scripts/Skills/EvalInt.cs"
   - "reference: uorenaissance.com skill list"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,32 @@ generated: false
 
 <img src="/img/skill-flags/16.gif" alt="Evaluating Intelligence skill banner" width="160" />
 
-Evaluating Intelligence (Eval Int) raises the damage of your offensive Magery spells and lets you gauge a target's intelligence and mana. It is a must-have support skill for any battle mage. Train by evaluating creatures, or let it climb while you cast in combat.
+Evaluating Intelligence (Eval Int) is the mage's offensive damage skill. The prose is
+community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior)
+pending field verification; the stats table is source-verified against ServUO.
 
-The prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field verification; the stats below are source-verified against ServUO.
+## What it does
 
-## Facts
+Eval Int raises the damage of your offensive [Magery](/skills/magery/) spells — the higher it
+is, the harder your fireballs, energy bolts, and explosions hit. It can also read a target's
+Intelligence and mana. It is a near-mandatory support skill on any battle mage. See
+[spellcasting](/playing/spellcasting/).
+
+## How to use it
+
+- **Passive** — the damage bonus applies automatically whenever you cast a damaging Magery
+  spell.
+- **Active (training)** — use the skill and target a creature to gauge its Int/mana.
+
+## How to train it
+
+- **Low/mid skill** — use the skill on creatures to read their Int, or simply cast damage
+  spells in combat where it climbs alongside Magery.
+- **High skill** — let it ride in combat; harder fights keep both Magery and Eval Int gaining.
+
+See [skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +47,21 @@ The prose is community-derived (paraphrased from the uorenaissance.com skill lis
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Int +1 (per-use stat gain weights) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+Eval Int is the magery analogue of [Anatomy](/skills/anatomy/)/[Tactics](/skills/tactics/)
+for melee: it is the primary multiplier on spell damage. Implementation in
+`Scripts/Skills/EvalInt.cs`; the damage scaling is applied in the spell/`SpellHelper` damage
+math.
+
+## Related skills & synergies
+
+- **[Magery](/skills/magery/) + Eval Int** — the inseparable mage damage core.
+- **[Meditation](/skills/meditation/) + [Inscription](/skills/inscription/) +
+  [Resisting Spells](/skills/resisting-spells/)** — round out the Pure Mage on
+  [seven-GM templates](/templates/seven-gm/) and the [Mage template](/templates/mage/).
+
+## See also
+
+- [Spellcasting (how to play)](/playing/spellcasting/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

@@ -17,7 +17,7 @@ file a discrepancy report; never hand-edit these pages.
 
 | | Group | Creatures |
 |---|---|---|
-| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/401.png" alt="Animals" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/401.gif" alt="" loading="lazy" /></span> | [Animals](/bestiary/animals/) | 66 |
+| <span class="cthumb"><img class="cthumb-png" src="/img/creatures/dressed-artist.png" alt="Animals" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/dressed-artist.gif" alt="" loading="lazy" /></span> | [Animals](/bestiary/animals/) | 66 |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/265.png" alt="Monsters" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/265.gif" alt="" loading="lazy" /></span> | [Monsters](/bestiary/monsters/) | 340 |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/755.png" alt="Humanoids" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/755.gif" alt="" loading="lazy" /></span> | [Humanoids](/bestiary/humanoids/) | 54 |
 | <span class="cthumb"><img class="cthumb-png" src="/img/creatures/78.png" alt="Undead" loading="lazy" /><img class="cthumb-gif" src="/img/creatures/78.gif" alt="" loading="lazy" /></span> | [Undead](/bestiary/undead/) | 41 |

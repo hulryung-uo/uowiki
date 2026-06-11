@@ -3,7 +3,8 @@ title: Stealing
 description: Take what isn't nailed down.
 status: unverified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 33)"
+  - "servuo: Scripts/Skills/Stealing.cs"
   - "reference: uorenaissance.com skill list"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,33 @@ generated: false
 
 <img src="/img/skill-flags/33.gif" alt="Stealing skill banner" width="160" />
 
-Stealing lifts items from NPCs, monsters, and other players' packs, the payoff after Snooping. Success depends on item weight and your skill, and a failed steal from a player flags you criminal. Train by stealing light items repeatedly.
+Stealing lifts items from packs, creatures, and the ground. The prose is community-derived
+(paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field
+verification; the stats table and weight/skill formula below are source-verified against
+ServUO.
 
-The prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field verification; the stats below are source-verified against ServUO.
+## What it does
 
-## Facts
+Stealing is the thief's payoff skill: the snatch that follows a [Snooping](/skills/snooping/)
+recon. You can lift items from NPCs, monsters (steal special loot off tough creatures), and
+other players' packs. Success depends on the item's **weight** versus your skill, and a failed
+or noticed steal from a player flags you **criminal**. See [notoriety & PvP](/playing/notoriety-and-pvp/).
+
+## How to use it
+
+Activate the skill and target the item in a pack or on a creature (both hands must be free;
+you must be in the Thieves' Guild to steal from players). Light items are far easier than
+heavy ones. See [items & inventory](/playing/items-and-inventory/).
+
+## How to train it
+
+- **Low skill** — steal **light** items (weight ≤ a few stones) repeatedly; a training
+  partner's stocked pack or a controlled setup is standard.
+- **High skill** — heavier items and special monster loot give the late gains.
+
+See [skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +48,20 @@ The prose is community-derived (paraphrased from the uorenaissance.com skill lis
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Dex +1 (per-use stat gain weights) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+From `Scripts/Skills/Stealing.cs`: the difficulty scales with item weight — the check uses a
+window of roughly `pileWeight × 10 ± 22.5/27.5`, so heavier piles are exponentially harder.
+The max amount you can grab from a stack is `(Stealing / 10) / itemWeight` (at least 1). The
+faction sigil uses a special high-skill check (`80.0` / `100.0–120.0`).
+
+## Related skills & synergies
+
+- **[Snooping](/skills/snooping/) + [Hiding](/skills/hiding/) + [Stealth](/skills/stealth/)**
+  — the thief core: hide, stealth in, snoop, steal; see the Thief/Rogue build on
+  [seven-GM templates](/templates/seven-gm/).
+
+## See also
+
+- [Notoriety & PvP](/playing/notoriety-and-pvp/) · [Items & inventory](/playing/items-and-inventory/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

@@ -4,6 +4,7 @@ description: Weaken a target's stats and skills with discordant music.
 status: unverified
 sources:
   - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Scripts/Skills/Discordance.cs"
   - "reference: uorenaissance.com skill list"
 last_verified: 2026-06-11
 generated: false
@@ -11,11 +12,34 @@ generated: false
 
 <img src="/img/skill-flags/15.gif" alt="Discordance skill banner" width="160" />
 
-Discordance plays jarring music to lower a creature's stats and combat skills for a time, softening tough foes. It is a bard Mastery skill that relies on Musicianship to apply. Train by discording creatures with an instrument equipped.
+Discordance is a bard skill that debuffs a creature with jarring music. The prose is
+community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior)
+pending field verification; the stats table and effect formula below are source-verified
+against ServUO.
 
-The prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field verification; the stats below are source-verified against ServUO.
+## What it does
 
-## Facts
+Discordance plays disharmonious music at a target to lower its stats and combat/resistance
+skills for a time, making a tough foe noticeably easier to fight or tame. It is one of the
+three bard skills, and arguably the most valuable for PvM because the debuff applies to
+nearly anything.
+
+## How to use it
+
+Equip an instrument and use Discordance, then target the creature. The attempt rolls against
+the creature's difficulty (modified by [Musicianship](/skills/musicianship/)); on success the
+debuff is applied for a duration. See [combat basics](/playing/combat-basics/).
+
+## How to train it
+
+- **Low skill** — discord weak creatures with a quality instrument.
+- **Mid/high skill** — discord progressively tougher creatures; harder targets keep you in
+  the gain window. A high [Musicianship](/skills/musicianship/) is required so attempts don't
+  simply fail.
+
+See [skill gain](/mechanics/skill-gain/).
+
+## Mechanics & numbers
 
 | | |
 |---|---|
@@ -25,6 +49,23 @@ The prose is community-derived (paraphrased from the uorenaissance.com skill lis
 | Mastery skill | Yes |
 | Gain notes | skill-ups can raise Dex +0.25, Int +0.25 (per-use stat gain weights) |
 
-See [skill gain](/mechanics/skill-gain/) for how points are earned, and the [skills index](/skills/) for all 58 skills.
+From `Scripts/Skills/Discordance.cs`: the debuff magnitude is
+`effect = max(-28, Discordance / -4)` — i.e. up to **−28%** to the target's stats and skills
+at GM (scaling as skill/4). In PvP the effect is **halved**. [Musicianship](/skills/musicianship/)
+above 100 reduces the difficulty (`diff -= (music - 100) * 0.5`), and there is roughly an
+**8-second** reuse delay reduced by the mastery bonus.
+
+## Related skills & synergies
+
+- **[Musicianship](/skills/musicianship/) — required** for every attempt to succeed.
+- **[Provocation](/skills/provocation/) + [Peacemaking](/skills/peacemaking/)** — the full
+  bard trio; see the Bard build on [seven-GM templates](/templates/seven-gm/).
+- **[Animal Taming](/skills/animal-taming/)** — discording a tough creature before taming
+  lowers its effective difficulty.
+
+## See also
+
+- [Combat basics](/playing/combat-basics/)
+- [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).
