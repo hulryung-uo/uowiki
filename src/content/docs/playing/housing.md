@@ -72,6 +72,12 @@ container.
 
 Both lockdowns and secures count against your house's **storage limits** (below).
 
+You can do all of this **by voice** instead of the menu: say `I wish to lock this down`,
+`I wish to secure this`, `I wish to release this`, `I wish to place a trash barrel`,
+`I ban thee`, and so on, standing inside your house. See
+[Verbal Commands → Housing](/playing/verbal-commands/#housing-commands) for the full list,
+required access level, and how these are matched.
+
 ## Keys, co-owners, and friends
 
 Houses use a tiered **access system**. From most to least privileged:
@@ -144,6 +150,7 @@ what keeps it standing.
 
 ## See also
 
+- [Verbal Commands](/playing/verbal-commands/) — spoken house commands (lock down, secure, ban, trash barrel, resize)
 - [House Types](/playing/house-types/) — every house and foundation, with size, storage, and cost
 - [Decorating](/playing/decorating/) — furnishing your house with the decorator tool
 - [Vendors & banking](/playing/vendors-and-banking/) — player vendors, buying and selling

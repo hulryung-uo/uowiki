@@ -19,7 +19,9 @@ because they all use it. It is written to stand alone for search and for
 Many actions do not act immediately. Instead they ask you **what (or who) to act on**. When
 that happens your cursor changes into a **targeting cursor** (a crosshair), and the action
 waits until you **click a recipient**: yourself, another creature, an item, or a spot on the
-ground.
+ground. Most actions are invoked from one of the on-screen windows first — see the
+[User Interface (Gumps)](/playing/interface/) reference for the spellbook, skill list, and
+the rest.
 
 This is the **two-step pattern**:
 

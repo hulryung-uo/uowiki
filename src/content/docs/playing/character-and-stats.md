@@ -148,7 +148,9 @@ attached **status / character sheet** shows your stats and pools at a glance:
 
 How the portrait is composited from body and equipment gumps is documented on the
 [paperdoll reference](/reference/paperdoll/). For what each equipment slot is, see
-[Items & inventory](/playing/items-and-inventory/).
+[Items & inventory](/playing/items-and-inventory/). For a field-by-field tour of the
+status bar and the other on-screen windows, see the
+[User Interface (Gumps)](/playing/interface/) reference.
 
 ## Hunger and fitness
 

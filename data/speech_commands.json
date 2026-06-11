@@ -1,0 +1,447 @@
+{
+  "_schema": {
+    "description": "Spoken command phrases ('verbal commands') the ServUO server reacts to. Most are SPEECH KEYWORDS: the client matches your (localized) phrase against its speech-keyword table and sends a numeric keyword id (keyword_id) in the encoded-speech packet; server handlers test e.HasKeyword(0x..). Because the id is resolved client-side from the localized table, the equivalent phrase in any client language triggers the same action \u2014 the server only sees the id, not the words. A few commands (match_type 'literal-string') compare the raw text and must be said in English exactly. 'phrase' is the canonical English wording; for keyword commands it is what an English client maps to that id. <...> denotes a value you supply (a pet/vendor/NPC name or an amount). Server reply text resolved via anima cliloc.json where available.",
+    "extracted_by": "tools/extract_speech.py",
+    "sources": [
+      "servuo: Scripts/Regions/HouseRegion.cs",
+      "servuo: Scripts/Misc/Keywords.cs",
+      "servuo: Scripts/Mobiles/AI/BaseAI.cs",
+      "servuo: Scripts/Mobiles/AI/VendorAI.cs",
+      "servuo: Scripts/Mobiles/NPCs/Banker.cs",
+      "servuo: Scripts/Mobiles/NPCs/AnimalTrainer.cs",
+      "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs",
+      "servuo: Server/Network/PacketHandlers.cs (UnicodeSpeech keyword decode)",
+      "anima: data/cliloc.json (reply text)"
+    ],
+    "match_types": {
+      "keyword": "matched by client-resolved speech keyword id (e.HasKeyword); language-independent.",
+      "literal-string": "matched against the raw text (Insensitive.Equals/StartsWith/IndexOf); must be said in English exactly."
+    }
+  },
+  "Housing": [
+    {
+      "phrase": "I wish to lock this down",
+      "effect": "Prompts you to target a loose item to lock it down (fixes it in place, stops decay). Must be a friend or better, inside the house. Server prompt: \"Lock what down?\" (cliloc 502097).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:349",
+      "match_type": "keyword",
+      "keyword_id": "0x23"
+    },
+    {
+      "phrase": "I wish to release this",
+      "effect": "Prompts you to target a locked-down item to release it back to loose status so it can be moved/picked up. Server prompt: \"Choose the item you wish to release\" (cliloc 502100).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:361",
+      "match_type": "keyword",
+      "keyword_id": "0x24"
+    },
+    {
+      "phrase": "I wish to secure this",
+      "effect": "Prompts you to target a container to make it secure storage (access-controlled). Co-owner or better. Server prompt: \"Choose the item you wish to secure\" (cliloc 502103).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:373",
+      "match_type": "keyword",
+      "keyword_id": "0x25"
+    },
+    {
+      "phrase": "I wish to unsecure this",
+      "effect": "Prompts you to target a secured container to unsecure it. Owner only. Server prompt: \"Choose the item you wish to unsecure\" (cliloc 502106).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:385",
+      "match_type": "keyword",
+      "keyword_id": "0x26"
+    },
+    {
+      "phrase": "I wish to place a strongbox",
+      "effect": "A co-owner gets a personal strongbox placed; owners are told they do not get one of their own (502109). Server prompt: \"Owners do not get a strongbox of their own.\" (cliloc 502109).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:397",
+      "match_type": "keyword",
+      "keyword_id": "0x27"
+    },
+    {
+      "phrase": "I wish to place a trash barrel",
+      "effect": "Places a trash barrel in the house (items dropped in it are destroyed). Co-owner or better.",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:416",
+      "match_type": "keyword",
+      "keyword_id": "0x28"
+    },
+    {
+      "phrase": "I ban thee",
+      "effect": "Prompts you to target a person to ban them from the house (public houses only; on a private AOS house you revoke access instead). Friend or better. Server prompt: \"Target the individual to ban from this house.\" (cliloc 501325).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:333",
+      "match_type": "keyword",
+      "keyword_id": "0x34"
+    },
+    {
+      "phrase": "Remove thyself",
+      "effect": "Prompts you to target a person to eject (kick) them from the house without banning. Friend or better. Server prompt: \"Target the individual to eject from this house.\" (cliloc 501326).",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:321",
+      "match_type": "keyword",
+      "keyword_id": "0x33"
+    },
+    {
+      "phrase": "I wish to resize my house",
+      "effect": "Opens the resize/redemolish confirmation gump for the owner (Mondain's Legacy+). Matched as a literal English string, not a keyword, so it only works said exactly in English; you must be at the house sign and the house must be older than one hour.",
+      "source_file": "servuo: Scripts/Regions/HouseRegion.cs:296",
+      "match_type": "literal-string"
+    }
+  ],
+  "Pets": [
+    {
+      "phrase": "All kill / All attack",
+      "effect": "Every controlled pet in earshot attacks a target you then pick. (0x169 = 'all attack' fires the same handler.)",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:622",
+      "match_type": "keyword",
+      "keyword_id": "0x168"
+    },
+    {
+      "phrase": "All guard / All guard me",
+      "effect": "Every pet goes into guard mode, guarding you. (0x16B = 'all guard me'.)",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:598",
+      "match_type": "keyword",
+      "keyword_id": "0x166"
+    },
+    {
+      "phrase": "All follow me",
+      "effect": "Every pet follows you.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:633",
+      "match_type": "keyword",
+      "keyword_id": "0x16C"
+    },
+    {
+      "phrase": "All follow",
+      "effect": "Every pet follows a target you then pick.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:593",
+      "match_type": "keyword",
+      "keyword_id": "0x165"
+    },
+    {
+      "phrase": "All come",
+      "effect": "Every pet comes to you.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:578",
+      "match_type": "keyword",
+      "keyword_id": "0x164"
+    },
+    {
+      "phrase": "All stay",
+      "effect": "Every pet stays put.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:642",
+      "match_type": "keyword",
+      "keyword_id": "0x170"
+    },
+    {
+      "phrase": "All stop",
+      "effect": "Every pet stops its current order (idle).",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:613",
+      "match_type": "keyword",
+      "keyword_id": "0x167"
+    },
+    {
+      "phrase": "<pet name> kill / attack",
+      "effect": "Named pet attacks a target you pick. Owner only; name required.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:740",
+      "match_type": "keyword",
+      "keyword_id": "0x15D"
+    },
+    {
+      "phrase": "<pet name> guard",
+      "effect": "Named pet guards. Owner only; name required.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:725",
+      "match_type": "keyword",
+      "keyword_id": "0x15C"
+    },
+    {
+      "phrase": "<pet name> follow / follow me",
+      "effect": "Named pet follows a target you pick ('follow') or follows you ('follow me', 0x163).",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:691",
+      "match_type": "keyword",
+      "keyword_id": "0x15A"
+    },
+    {
+      "phrase": "<pet name> come",
+      "effect": "Named pet comes to you. Owner only.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:661",
+      "match_type": "keyword",
+      "keyword_id": "0x155"
+    },
+    {
+      "phrase": "<pet name> stay",
+      "effect": "Named pet stays put.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:837",
+      "match_type": "keyword",
+      "keyword_id": "0x16F"
+    },
+    {
+      "phrase": "<pet name> stop",
+      "effect": "Named pet stops its current order.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:770",
+      "match_type": "keyword",
+      "keyword_id": "0x161"
+    },
+    {
+      "phrase": "<pet name> patrol",
+      "effect": "Named pet patrols its home area. Owner only.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:755",
+      "match_type": "keyword",
+      "keyword_id": "0x15F"
+    },
+    {
+      "phrase": "<pet name> drop",
+      "effect": "Named pet drops what it is carrying (pack animals). Owner only; not for summons/dead pets.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:676",
+      "match_type": "keyword",
+      "keyword_id": "0x156"
+    },
+    {
+      "phrase": "<pet name> friend",
+      "effect": "Prompts you to target a player to add as a pet-friend (they can command it too). Owner only; not for summons.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:700",
+      "match_type": "keyword",
+      "keyword_id": "0x15B"
+    },
+    {
+      "phrase": "<pet name> transfer",
+      "effect": "Prompts you to target a player to transfer ownership of the pet to them. Owner only; not for summons/dead pets.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:812",
+      "match_type": "keyword",
+      "keyword_id": "0x16E"
+    },
+    {
+      "phrase": "<pet name> release",
+      "effect": "Releases the pet from your control (opens a confirm gump for tamed pets; summons are dismissed immediately). Owner only.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:790",
+      "match_type": "keyword",
+      "keyword_id": "0x16D"
+    },
+    {
+      "phrase": "<pet name> obey",
+      "effect": "Game Master only: forces the named creature to accept you as its control master. Matched as the literal word 'obey' after the creature's name.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:866",
+      "match_type": "literal-string"
+    }
+  ],
+  "Vendors/Bank": [
+    {
+      "phrase": "Bank",
+      "effect": "Opens your bank box.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/Banker.cs:408",
+      "match_type": "keyword",
+      "keyword_id": "0x2"
+    },
+    {
+      "phrase": "Balance",
+      "effect": "The banker tells you your current gold balance. (e.g. \"Thy current bank balance is ~1_AMOUNT~ gold.\")",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/Banker.cs:382",
+      "match_type": "keyword",
+      "keyword_id": "0x1"
+    },
+    {
+      "phrase": "Withdraw <amount>",
+      "effect": "Withdraws that much gold from your bank to your backpack (e.g. \"withdraw 1000\"). The amount is parsed from the words after the keyword.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/Banker.cs:327",
+      "match_type": "keyword",
+      "keyword_id": "0x0"
+    },
+    {
+      "phrase": "Check <amount>",
+      "effect": "The banker writes you a bank check for that amount, drawn from your bank balance.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/Banker.cs:422",
+      "match_type": "keyword",
+      "keyword_id": "0x3"
+    },
+    {
+      "phrase": "Vendor buy",
+      "effect": "Opens the shopkeeper's buy window.",
+      "source_file": "servuo: Scripts/Mobiles/AI/VendorAI.cs:121",
+      "match_type": "keyword",
+      "keyword_id": "0x3C"
+    },
+    {
+      "phrase": "Vendor sell",
+      "effect": "Opens the shopkeeper's sell window so you can sell goods.",
+      "source_file": "servuo: Scripts/Mobiles/AI/VendorAI.cs:114",
+      "match_type": "keyword",
+      "keyword_id": "0x14D"
+    },
+    {
+      "phrase": "<vendor name> buy",
+      "effect": "Opens the buy window of the named shopkeeper ('buy' alone works when you name them).",
+      "source_file": "servuo: Scripts/Mobiles/AI/VendorAI.cs:136",
+      "match_type": "keyword",
+      "keyword_id": "0x171"
+    },
+    {
+      "phrase": "<vendor name> sell",
+      "effect": "Opens the sell window of the named shopkeeper ('sell' alone works when you name them).",
+      "source_file": "servuo: Scripts/Mobiles/AI/VendorAI.cs:130",
+      "match_type": "keyword",
+      "keyword_id": "0x177"
+    },
+    {
+      "phrase": "Stable",
+      "effect": "The animal trainer offers to stable a pet (target the pet).",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/AnimalTrainer.cs:486",
+      "match_type": "keyword",
+      "keyword_id": "0x8"
+    },
+    {
+      "phrase": "Claim",
+      "effect": "The animal trainer brings out your stabled pets, or claim a specific one by saying its name after 'claim'.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/AnimalTrainer.cs:493",
+      "match_type": "keyword",
+      "keyword_id": "0x9"
+    },
+    {
+      "phrase": "Vendor buy",
+      "effect": "On a player vendor: opens its for-sale list to buy items.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs:1227",
+      "match_type": "keyword",
+      "keyword_id": "0x3C"
+    },
+    {
+      "phrase": "<vendor name> browse",
+      "effect": "Browse a player vendor's stock without buying.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs:1241",
+      "match_type": "keyword",
+      "keyword_id": "0x3D"
+    },
+    {
+      "phrase": "<vendor name> collect",
+      "effect": "Owner: collect the gold the vendor has earned.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs:1265",
+      "match_type": "keyword",
+      "keyword_id": "0x3E"
+    },
+    {
+      "phrase": "<vendor name> status",
+      "effect": "Owner: check the vendor's fees/funds status.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs:1274",
+      "match_type": "keyword",
+      "keyword_id": "0x3F"
+    },
+    {
+      "phrase": "<vendor name> dismiss",
+      "effect": "Owner: dismiss (fire) the player vendor.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs:1287",
+      "match_type": "keyword",
+      "keyword_id": "0x40"
+    },
+    {
+      "phrase": "<vendor name> cycle",
+      "effect": "Owner: cycle/reorganize the vendor's display.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/PlayerVendor.cs:1296",
+      "match_type": "keyword",
+      "keyword_id": "0x41"
+    }
+  ],
+  "Misc": [
+    {
+      "phrase": "I must consider my sins",
+      "effect": "The server reports your short-term and long-term murder counts.",
+      "source_file": "servuo: Scripts/Misc/Keywords.cs:32",
+      "match_type": "keyword",
+      "keyword_id": "0x32"
+    },
+    {
+      "phrase": "I resign from my guild",
+      "effect": "Leaves your current player guild.",
+      "source_file": "servuo: Scripts/Misc/Keywords.cs:25",
+      "match_type": "keyword",
+      "keyword_id": "0x2A"
+    },
+    {
+      "phrase": "I renounce my young player status",
+      "effect": "Opens the confirmation to give up Young-player protection.",
+      "source_file": "servuo: Scripts/Misc/Keywords.cs:45",
+      "match_type": "keyword",
+      "keyword_id": "0x35"
+    },
+    {
+      "phrase": "Guild",
+      "effect": "Opens your guild info window (if you are in a guild).",
+      "source_file": "servuo: Scripts/Misc/Keywords.cs:54",
+      "match_type": "keyword",
+      "keyword_id": "0x6"
+    },
+    {
+      "phrase": "Guards",
+      "effect": "Calls the town guards to your location (in a guarded region).",
+      "source_file": "servuo: Scripts/Regions/GuardedRegion.cs:192",
+      "match_type": "keyword",
+      "keyword_id": "0x7"
+    },
+    {
+      "phrase": "News",
+      "effect": "The town crier (or a news-reading object like Coral the Owl / Sherry the Mouse) recites the current news. Works within ~12 tiles.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/TownCrier.cs:674",
+      "match_type": "keyword",
+      "keyword_id": "0x30"
+    },
+    {
+      "phrase": "Join / Member",
+      "effect": "Said (with the guildmaster named) to an NPC guildmaster to ask to join their guild.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/BaseGuildmaster.cs:126",
+      "match_type": "keyword",
+      "keyword_id": "0x4"
+    },
+    {
+      "phrase": "Resign / Quit",
+      "effect": "Said to your NPC guildmaster to resign from the guild.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/BaseGuildmaster.cs:139",
+      "match_type": "keyword",
+      "keyword_id": "0x5"
+    },
+    {
+      "phrase": "Appraise",
+      "effect": "A real-estate broker asks you to target a house deed and appraises its value. Reply: \"Which deed would you like appraised?\".",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/RealEstateBroker.cs:68",
+      "match_type": "keyword",
+      "keyword_id": "0x38"
+    },
+    {
+      "phrase": "Destination",
+      "effect": "An escortable NPC tells you where it wants to go.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/BaseEscortable.cs:191",
+      "match_type": "keyword",
+      "keyword_id": "0x1D"
+    },
+    {
+      "phrase": "I will take thee",
+      "effect": "Accept the escort quest for an escortable NPC.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/BaseEscortable.cs:193",
+      "match_type": "keyword",
+      "keyword_id": "0x1E"
+    },
+    {
+      "phrase": "Disguise",
+      "effect": "Ask the Thieves' Guildmaster about a disguise kit (members only).",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/ThiefGuildmaster.cs:97",
+      "match_type": "keyword",
+      "keyword_id": "0x1F"
+    },
+    {
+      "phrase": "Hire / Servant",
+      "effect": "Asks a hireable NPC to work for you; it quotes its daily wage.",
+      "source_file": "servuo: Scripts/Mobiles/NPCs/BaseHire.cs:253",
+      "match_type": "keyword",
+      "keyword_id": "0x162"
+    },
+    {
+      "phrase": "Orders",
+      "effect": "A town sheriff issues orders to a faction guard (sheriff only).",
+      "source_file": "servuo: Scripts/Services/Factions/Mobiles/Guards/BaseFactionGuard.cs:214",
+      "match_type": "keyword",
+      "keyword_id": "0xE6"
+    },
+    {
+      "phrase": "<npc name> train",
+      "effect": "Asks a townsperson NPC what skills they can teach you; '<npc name> <skillname>' then trains that skill a little.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:454",
+      "match_type": "keyword",
+      "keyword_id": "0x6C"
+    },
+    {
+      "phrase": "<npc name> time",
+      "effect": "Asks an NPC for the in-game time.",
+      "source_file": "servuo: Scripts/Mobiles/AI/BaseAI.cs:437",
+      "match_type": "keyword",
+      "keyword_id": "0x9E"
+    }
+  ]
+}

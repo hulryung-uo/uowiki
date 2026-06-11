@@ -42,7 +42,9 @@ client's speech settings. All of these still appear in the journal.
 
 NPCs respond to **keywords** in your speech. You do not click a dialog menu — you *say*
 the trigger word while standing near the NPC, and the server's speech handler reacts.
-This is the single most important mechanic for an agent to master.
+This is the single most important mechanic for an agent to master. For the full catalogue
+of spoken triggers — house commands, pet orders, banker and vendor keywords, and more —
+see [Verbal Commands](/playing/verbal-commands/).
 
 Common, broadly useful keywords:
 
@@ -152,6 +154,7 @@ single play session; use in-game chat and guild channels for the here-and-now.
 
 ## See also
 
+- [Verbal Commands](/playing/verbal-commands/) — the full reference of spoken command phrases
 - [Vendors & banking](/playing/vendors-and-banking/) — "bank", "buy", "sell" in practice
 - [Notoriety & PvP](/playing/notoriety-and-pvp/) — guild wars, party loot rights, murder counts
 - [Taming & pets](/playing/taming-and-pets/) — "stable" / "claim" keywords
