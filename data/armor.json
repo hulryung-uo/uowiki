@@ -1,0 +1,3878 @@
+{
+  "_schema": "Armor reference extracted from ServUO Scripts/Items/Equipment/Armor. 'materials' is a per-ArmorMaterialType summary (base resist range, chest reference, str req, medable). 'pieces' is one row per concrete armor/shield class with base Physical/Fire/Cold/Poison/Energy resistances (AOS/EJ), AOS and pre-AOS Strength requirement, ArmorBase (pre-AOS Armor Rating), the body slot, material, and meditation allowance (All/Half/None). item_id/png/name cross-referenced from items.json. Resists/str-req are the AOS-era values defined per class in source; runtime values add resource (ore/leather) and quality bonuses.",
+  "_meta": {
+    "piece_count": 164,
+    "shield_count": 16,
+    "material_count": 9,
+    "unknown_slot_count": 0,
+    "unknown_slot": [],
+    "missing_item_xref_count": 0,
+    "missing_item_xref": [],
+    "armor_scalars": [
+      0.07,
+      0.07,
+      0.14,
+      0.15,
+      0.22,
+      0.35
+    ],
+    "armor_scalar_order": "Gorget, Gloves, Helmet, Arms, Legs, Chest",
+    "source": "servuo Scripts/Items/Equipment/Armor"
+  },
+  "materials": [
+    {
+      "material": "Leather",
+      "piece_count": 59,
+      "chest_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "chest_str_req_aos": 25,
+      "chest_armor_base": 13,
+      "resist_range": {
+        "phys": [
+          1,
+          15
+        ],
+        "fire": [
+          3,
+          10
+        ],
+        "cold": [
+          2,
+          10
+        ],
+        "poison": [
+          2,
+          10
+        ],
+        "energy": [
+          2,
+          15
+        ]
+      },
+      "str_req_aos_range": [
+        10,
+        40
+      ],
+      "armor_base_range": [
+        3,
+        30
+      ],
+      "medable": "All",
+      "representative_piece": "LeatherChest"
+    },
+    {
+      "material": "Studded",
+      "piece_count": 18,
+      "chest_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "chest_str_req_aos": 35,
+      "chest_armor_base": 16,
+      "resist_range": {
+        "phys": [
+          2,
+          3
+        ],
+        "fire": [
+          3,
+          4
+        ],
+        "cold": [
+          3,
+          4
+        ],
+        "poison": [
+          3,
+          3
+        ],
+        "energy": [
+          2,
+          4
+        ]
+      },
+      "str_req_aos_range": [
+        15,
+        55
+      ],
+      "armor_base_range": [
+        3,
+        16
+      ],
+      "medable": [
+        "Half",
+        "None"
+      ],
+      "representative_piece": "StuddedChest"
+    },
+    {
+      "material": "Bone",
+      "piece_count": 7,
+      "chest_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 2,
+        "energy": 4
+      },
+      "chest_str_req_aos": 60,
+      "chest_armor_base": 30,
+      "resist_range": {
+        "phys": [
+          3,
+          3
+        ],
+        "fire": [
+          1,
+          3
+        ],
+        "cold": [
+          3,
+          4
+        ],
+        "poison": [
+          2,
+          3
+        ],
+        "energy": [
+          4,
+          5
+        ]
+      },
+      "str_req_aos_range": [
+        20,
+        60
+      ],
+      "armor_base_range": [
+        20,
+        30
+      ],
+      "medable": "None",
+      "representative_piece": "BoneChest"
+    },
+    {
+      "material": "Ringmail",
+      "piece_count": 4,
+      "chest_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 1,
+        "poison": 5,
+        "energy": 3
+      },
+      "chest_str_req_aos": 40,
+      "chest_armor_base": 22,
+      "resist_range": {
+        "phys": [
+          3,
+          3
+        ],
+        "fire": [
+          3,
+          3
+        ],
+        "cold": [
+          1,
+          1
+        ],
+        "poison": [
+          5,
+          5
+        ],
+        "energy": [
+          3,
+          3
+        ]
+      },
+      "str_req_aos_range": [
+        40,
+        40
+      ],
+      "armor_base_range": [
+        22,
+        22
+      ],
+      "medable": "None",
+      "representative_piece": "RingmailChest"
+    },
+    {
+      "material": "Chainmail",
+      "piece_count": 4,
+      "chest_resist": {
+        "phys": 4,
+        "fire": 4,
+        "cold": 4,
+        "poison": 1,
+        "energy": 2
+      },
+      "chest_str_req_aos": 60,
+      "chest_armor_base": 28,
+      "resist_range": {
+        "phys": [
+          4,
+          5
+        ],
+        "fire": [
+          2,
+          4
+        ],
+        "cold": [
+          2,
+          4
+        ],
+        "poison": [
+          1,
+          2
+        ],
+        "energy": [
+          2,
+          4
+        ]
+      },
+      "str_req_aos_range": [
+        50,
+        60
+      ],
+      "armor_base_range": [
+        3,
+        28
+      ],
+      "medable": "None",
+      "representative_piece": "ChainChest"
+    },
+    {
+      "material": "Plate",
+      "piece_count": 53,
+      "chest_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "chest_str_req_aos": 95,
+      "chest_armor_base": 40,
+      "resist_range": {
+        "phys": [
+          1,
+          8
+        ],
+        "fire": [
+          1,
+          6
+        ],
+        "cold": [
+          2,
+          5
+        ],
+        "poison": [
+          2,
+          6
+        ],
+        "energy": [
+          2,
+          5
+        ]
+      },
+      "str_req_aos_range": [
+        10,
+        95
+      ],
+      "armor_base_range": [
+        3,
+        40
+      ],
+      "medable": [
+        "All",
+        "None"
+      ],
+      "representative_piece": "PlateChest"
+    },
+    {
+      "material": "Dragon",
+      "piece_count": 5,
+      "chest_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "chest_str_req_aos": 75,
+      "chest_armor_base": 40,
+      "resist_range": {
+        "phys": [
+          3,
+          3
+        ],
+        "fire": [
+          3,
+          3
+        ],
+        "cold": [
+          3,
+          3
+        ],
+        "poison": [
+          3,
+          3
+        ],
+        "energy": [
+          3,
+          3
+        ]
+      },
+      "str_req_aos_range": [
+        75,
+        75
+      ],
+      "armor_base_range": [
+        40,
+        40
+      ],
+      "medable": "None",
+      "representative_piece": "DragonChest"
+    },
+    {
+      "material": "Wood",
+      "piece_count": 6,
+      "chest_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "chest_str_req_aos": 95,
+      "chest_armor_base": 40,
+      "resist_range": {
+        "phys": [
+          5,
+          5
+        ],
+        "fire": [
+          3,
+          3
+        ],
+        "cold": [
+          2,
+          2
+        ],
+        "poison": [
+          3,
+          3
+        ],
+        "energy": [
+          2,
+          2
+        ]
+      },
+      "str_req_aos_range": [
+        45,
+        95
+      ],
+      "armor_base_range": [
+        30,
+        40
+      ],
+      "medable": "None",
+      "representative_piece": "WoodlandChest"
+    },
+    {
+      "material": "Stone",
+      "piece_count": 8,
+      "chest_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "chest_str_req_aos": 40,
+      "chest_armor_base": null,
+      "resist_range": {
+        "phys": [
+          6,
+          6
+        ],
+        "fire": [
+          6,
+          6
+        ],
+        "cold": [
+          4,
+          4
+        ],
+        "poison": [
+          8,
+          8
+        ],
+        "energy": [
+          6,
+          6
+        ]
+      },
+      "str_req_aos_range": [
+        40,
+        40
+      ],
+      "armor_base_range": null,
+      "medable": "None",
+      "representative_piece": "FemaleGargishStoneChest"
+    }
+  ],
+  "pieces": [
+    {
+      "class": "Bascinet",
+      "name": "bascinet",
+      "item_id": "0x140C",
+      "png": "/img/items/0x140C.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 7,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 2
+      },
+      "str_req_aos": 40,
+      "str_req_old": 10,
+      "armor_base": 18,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/Bascinet.cs"
+    },
+    {
+      "class": "BoneArms",
+      "name": "bone arms",
+      "item_id": "0x144E",
+      "png": "/img/items/0x144E.png",
+      "material": "Bone",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 2,
+        "energy": 4
+      },
+      "str_req_aos": 55,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/BoneArms.cs"
+    },
+    {
+      "class": "BoneChest",
+      "name": "bone chest",
+      "item_id": "0x144F",
+      "png": "/img/items/0x144F.png",
+      "material": "Bone",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 2,
+        "energy": 4
+      },
+      "str_req_aos": 60,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/BoneChest.cs"
+    },
+    {
+      "class": "BoneGloves",
+      "name": "bone gloves",
+      "item_id": "0x1450",
+      "png": "/img/items/0x1450.png",
+      "material": "Bone",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 2,
+        "energy": 4
+      },
+      "str_req_aos": 55,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/BoneGloves.cs"
+    },
+    {
+      "class": "BoneHelm",
+      "name": "bone helm",
+      "item_id": "0x1451",
+      "png": "/img/items/0x1451.png",
+      "material": "Bone",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 2,
+        "energy": 4
+      },
+      "str_req_aos": 20,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/BoneHelm.cs"
+    },
+    {
+      "class": "BoneLegs",
+      "name": "bone legs",
+      "item_id": "0x1452",
+      "png": "/img/items/0x1452.png",
+      "material": "Bone",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 2,
+        "energy": 4
+      },
+      "str_req_aos": 55,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/BoneLegs.cs"
+    },
+    {
+      "class": "BronzeShield",
+      "name": "bronze shield",
+      "item_id": "0x1B72",
+      "png": "/img/items/0x1B72.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 1,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 35,
+      "str_req_old": null,
+      "armor_base": 10,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/BronzeShield.cs"
+    },
+    {
+      "class": "Buckler",
+      "name": "buckler",
+      "item_id": "0x1B73",
+      "png": "/img/items/0x1B73.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 0,
+        "poison": 1,
+        "energy": 0
+      },
+      "str_req_aos": 20,
+      "str_req_old": null,
+      "armor_base": 7,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/Buckler.cs"
+    },
+    {
+      "class": "ChainChest",
+      "name": "chain chest",
+      "item_id": "0x13BF",
+      "png": "/img/items/0x13BF.png",
+      "material": "Chainmail",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 4,
+        "fire": 4,
+        "cold": 4,
+        "poison": 1,
+        "energy": 2
+      },
+      "str_req_aos": 60,
+      "str_req_old": 20,
+      "armor_base": 28,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/ChainChest.cs"
+    },
+    {
+      "class": "ChainCoif",
+      "name": "chain coif",
+      "item_id": "0x13BB",
+      "png": "/img/items/0x13BB.png",
+      "material": "Chainmail",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 4,
+        "fire": 4,
+        "cold": 4,
+        "poison": 1,
+        "energy": 2
+      },
+      "str_req_aos": 60,
+      "str_req_old": 20,
+      "armor_base": 28,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/ChainCoif.cs"
+    },
+    {
+      "class": "ChainHatsuburi",
+      "name": "chain hatsuburi",
+      "item_id": "0x2774",
+      "png": "/img/items/0x2774.png",
+      "material": "Chainmail",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 4
+      },
+      "str_req_aos": 50,
+      "str_req_old": 50,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/ChainHatsuburi.cs"
+    },
+    {
+      "class": "ChainLegs",
+      "name": "chain legs",
+      "item_id": "0x13BE",
+      "png": "/img/items/0x13BE.png",
+      "material": "Chainmail",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 4,
+        "fire": 4,
+        "cold": 4,
+        "poison": 1,
+        "energy": 2
+      },
+      "str_req_aos": 60,
+      "str_req_old": 20,
+      "armor_base": 28,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/ChainLegs.cs"
+    },
+    {
+      "class": "ChaosShield",
+      "name": "chaos shield",
+      "item_id": "0x1BC3",
+      "png": "/img/items/0x1BC3.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 1,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 95,
+      "str_req_old": null,
+      "armor_base": 32,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/ChaosShield.cs"
+    },
+    {
+      "class": "Circlet",
+      "name": "circlet",
+      "item_id": "0x2B6E",
+      "png": "/img/items/0x2B6E.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 1,
+        "fire": 5,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 30,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/Circlet.cs"
+    },
+    {
+      "class": "CloseHelm",
+      "name": "close helm",
+      "item_id": "0x1408",
+      "png": "/img/items/0x1408.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 55,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/CloseHelm.cs"
+    },
+    {
+      "class": "DecorativePlateKabuto",
+      "name": "decorative plate kabuto",
+      "item_id": "0x2778",
+      "png": "/img/items/0x2778.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 3
+      },
+      "str_req_aos": 70,
+      "str_req_old": 70,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/DecorativePlateKabuto.cs"
+    },
+    {
+      "class": "DragonArms",
+      "name": "dragon arms",
+      "item_id": "0x2657",
+      "png": "/img/items/0x2657.png",
+      "material": "Dragon",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 75,
+      "str_req_old": 20,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/DragonArms.cs"
+    },
+    {
+      "class": "DragonChest",
+      "name": "dragon chest",
+      "item_id": "0x2641",
+      "png": "/img/items/0x2641.png",
+      "material": "Dragon",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 75,
+      "str_req_old": 60,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/DragonChest.cs"
+    },
+    {
+      "class": "DragonGloves",
+      "name": "dragon gloves",
+      "item_id": "0x2643",
+      "png": "/img/items/0x2643.png",
+      "material": "Dragon",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 75,
+      "str_req_old": 30,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/DragonGloves.cs"
+    },
+    {
+      "class": "DragonHelm",
+      "name": "dragon helm",
+      "item_id": "0x2645",
+      "png": "/img/items/0x2645.png",
+      "material": "Dragon",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 75,
+      "str_req_old": 40,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/DragonHelm.cs"
+    },
+    {
+      "class": "DragonLegs",
+      "name": "dragon legs",
+      "item_id": "0x2647",
+      "png": "/img/items/0x2647.png",
+      "material": "Dragon",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 75,
+      "str_req_old": 60,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/DragonLegs.cs"
+    },
+    {
+      "class": "DragonTurtleHideArms",
+      "name": "Dragon Turtle Hide Arms",
+      "item_id": "0x782E",
+      "png": "/img/items/0x782E.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 30,
+      "str_req_old": 20,
+      "armor_base": 15,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/DragonTurtleHideArms.cs"
+    },
+    {
+      "class": "DragonTurtleHideBustier",
+      "name": "Dragon Turtle Hide Bustier",
+      "item_id": "0x782B",
+      "png": "/img/items/0x782B.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 30,
+      "str_req_old": 35,
+      "armor_base": 15,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/DragonTurtleHideBustier.cs"
+    },
+    {
+      "class": "DragonTurtleHideChest",
+      "name": "Dragon Turtle Hide Chest",
+      "item_id": "0x782A",
+      "png": "/img/items/0x782A.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 30,
+      "str_req_old": 35,
+      "armor_base": 16,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/DragonTurtleHideChest.cs"
+    },
+    {
+      "class": "DragonTurtleHideHelm",
+      "name": "Dragon Turtle Hide Helm",
+      "item_id": "0x782D",
+      "png": "/img/items/0x782D.png",
+      "material": "Leather",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 1,
+        "fire": 5,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 30,
+      "str_req_old": 10,
+      "armor_base": 30,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/DragonTurtleHideHelm.cs"
+    },
+    {
+      "class": "DragonTurtleHideLegs",
+      "name": "Dragon Turtle Hide Leggings",
+      "item_id": "0x782C",
+      "png": "/img/items/0x782C.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 30,
+      "str_req_old": 25,
+      "armor_base": 15,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/DragonTurtleHideLegs.cs"
+    },
+    {
+      "class": "ElegantCollar",
+      "name": "elegant collar",
+      "item_id": "0xA40F",
+      "png": "/img/items/0xA40F.png",
+      "material": "Leather",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 30,
+      "str_req_old": null,
+      "armor_base": 7,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/ElegantCollar.cs"
+    },
+    {
+      "class": "ElegantCollarOfFortune",
+      "name": "elegant collar of fortune",
+      "item_id": "0xA40F",
+      "png": "/img/items/0xA40F.png",
+      "material": "Leather",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 15,
+        "fire": 10,
+        "cold": 10,
+        "poison": 10,
+        "energy": 15
+      },
+      "str_req_aos": 30,
+      "str_req_old": null,
+      "armor_base": 7,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/ElegantCollarOfFortune.cs"
+    },
+    {
+      "class": "EvilOrcHelm",
+      "name": "an evil orc helm",
+      "item_id": "0x1F0B",
+      "png": "/img/items/0x1F0B.png",
+      "material": "Bone",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 1,
+        "cold": 3,
+        "poison": 3,
+        "energy": 5
+      },
+      "str_req_aos": 30,
+      "str_req_old": 10,
+      "armor_base": 20,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/EvilOrcHelm.cs"
+    },
+    {
+      "class": "FemaleElvenPlateChest",
+      "name": "female elven plate chest",
+      "item_id": "0x2B6D",
+      "png": "/img/items/0x2B6D.png",
+      "material": "Wood",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 95,
+      "str_req_old": 95,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleWoodlandChest.cs"
+    },
+    {
+      "class": "FemaleGargishClothArmsArmor",
+      "name": "female gargish cloth arms armor",
+      "item_id": "0x0403",
+      "png": "/img/items/0x0403.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "FemaleGargishClothChestArmor",
+      "name": "female gargish cloth chest armor",
+      "item_id": "0x0405",
+      "png": "/img/items/0x0405.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "FemaleGargishClothKiltArmor",
+      "name": "female gargish cloth kilt armor",
+      "item_id": "0x0407",
+      "png": "/img/items/0x0407.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "FemaleGargishClothLegsArmor",
+      "name": "female gargish cloth legs armor",
+      "item_id": "0x0409",
+      "png": "/img/items/0x0409.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "FemaleGargishLeatherArms",
+      "name": "female gargish leather arms",
+      "item_id": "0x0301",
+      "png": "/img/items/0x0301.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishLeatherArms.cs"
+    },
+    {
+      "class": "FemaleGargishLeatherChest",
+      "name": "female gargish leather chest",
+      "item_id": "0x0303",
+      "png": "/img/items/0x0303.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishLeatherChest.cs"
+    },
+    {
+      "class": "FemaleGargishLeatherKilt",
+      "name": "female gargish leather kilt",
+      "item_id": "0x0310",
+      "png": "/img/items/0x0310.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishLeatherKilt.cs"
+    },
+    {
+      "class": "FemaleGargishLeatherLegs",
+      "name": "female gargish leather legs",
+      "item_id": "0x0305",
+      "png": "/img/items/0x0305.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishLeatherLegs.cs"
+    },
+    {
+      "class": "FemaleGargishPlateArms",
+      "name": "female gargish plate arms",
+      "item_id": "0x0307",
+      "png": "/img/items/0x0307.png",
+      "material": "Plate",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 80,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishPlateArms.cs"
+    },
+    {
+      "class": "FemaleGargishPlateChest",
+      "name": "female gargish plate chest",
+      "item_id": "0x0309",
+      "png": "/img/items/0x0309.png",
+      "material": "Plate",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 95,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishPlateChest.cs"
+    },
+    {
+      "class": "FemaleGargishPlateKilt",
+      "name": "female gargish plate kilt",
+      "item_id": "0x030B",
+      "png": "/img/items/0x030B.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 80,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishPlateKilt.cs"
+    },
+    {
+      "class": "FemaleGargishPlateLegs",
+      "name": "female gargish plate legs",
+      "item_id": "0x030D",
+      "png": "/img/items/0x030D.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 90,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishPlateLegs.cs"
+    },
+    {
+      "class": "FemaleGargishStoneArms",
+      "name": "female gargish stone arms",
+      "item_id": "0x0283",
+      "png": "/img/items/0x0283.png",
+      "material": "Stone",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishStoneArms.cs"
+    },
+    {
+      "class": "FemaleGargishStoneChest",
+      "name": "female gargish stone chest",
+      "item_id": "0x0285",
+      "png": "/img/items/0x0285.png",
+      "material": "Stone",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishStoneChest.cs"
+    },
+    {
+      "class": "FemaleGargishStoneKilt",
+      "name": "female gargish stone kilt",
+      "item_id": "0x0287",
+      "png": "/img/items/0x0287.png",
+      "material": "Stone",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishStoneKilt.cs"
+    },
+    {
+      "class": "FemaleGargishStoneLegs",
+      "name": "female gargish stone legs",
+      "item_id": "0x0289",
+      "png": "/img/items/0x0289.png",
+      "material": "Stone",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemaleGargishStoneLegs.cs"
+    },
+    {
+      "class": "FemaleLeafChest",
+      "name": "female leaf chest",
+      "item_id": "0x2FCB",
+      "png": "/img/items/0x2FCB.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/FemaleLeafChest.cs"
+    },
+    {
+      "class": "FemaleLeatherChest",
+      "name": "female leather chest",
+      "item_id": "0x1C06",
+      "png": "/img/items/0x1C06.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/FemaleLeatherChest.cs"
+    },
+    {
+      "class": "FemalePlateChest",
+      "name": "female plate chest",
+      "item_id": "0x1C04",
+      "png": "/img/items/0x1C04.png",
+      "material": "Plate",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 95,
+      "str_req_old": 45,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/FemalePlateChest.cs"
+    },
+    {
+      "class": "FemaleStuddedChest",
+      "name": "female studded chest",
+      "item_id": "0x1C02",
+      "png": "/img/items/0x1C02.png",
+      "material": "Studded",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 35,
+      "str_req_old": 35,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/FemaleStuddedChest.cs"
+    },
+    {
+      "class": "GargishChaosShield",
+      "name": "gargish chaos shield",
+      "item_id": "0x4228",
+      "png": "/img/items/0x4228.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 1,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 95,
+      "str_req_old": null,
+      "armor_base": 32,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishChaosShield.cs"
+    },
+    {
+      "class": "GargishClothArmsArmor",
+      "name": "gargish cloth arms armor",
+      "item_id": "0x0404",
+      "png": "/img/items/0x0404.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "GargishClothChestArmor",
+      "name": "gargish cloth chest armor",
+      "item_id": "0x0406",
+      "png": "/img/items/0x0406.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "GargishClothKiltArmor",
+      "name": "gargish cloth kilt armor",
+      "item_id": "0x0408",
+      "png": "/img/items/0x0408.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "GargishClothLegsArmor",
+      "name": "gargish cloth legs armor",
+      "item_id": "0x040A",
+      "png": "/img/items/0x040A.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 7,
+        "cold": 6,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 18,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishClothArmor.cs"
+    },
+    {
+      "class": "GargishKiteShield",
+      "name": "gargish kite shield",
+      "item_id": "0x4201",
+      "png": "/img/items/0x4201.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 1
+      },
+      "str_req_aos": 45,
+      "str_req_old": null,
+      "armor_base": 16,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishKiteShield.cs"
+    },
+    {
+      "class": "GargishLeatherArms",
+      "name": "gargish leather arms",
+      "item_id": "0x0302",
+      "png": "/img/items/0x0302.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishLeatherArms.cs"
+    },
+    {
+      "class": "GargishLeatherChest",
+      "name": "gargish leather chest",
+      "item_id": "0x0304",
+      "png": "/img/items/0x0304.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishLeatherChest.cs"
+    },
+    {
+      "class": "GargishLeatherKilt",
+      "name": "gargish leather kilt",
+      "item_id": "0x0311",
+      "png": "/img/items/0x0311.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 25,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishLeatherKilt.cs"
+    },
+    {
+      "class": "GargishLeatherLegs",
+      "name": "gargish leather legs",
+      "item_id": "0x0305",
+      "png": "/img/items/0x0305.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 6,
+        "cold": 7,
+        "poison": 6,
+        "energy": 6
+      },
+      "str_req_aos": 20,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishLeatherLegs.cs"
+    },
+    {
+      "class": "GargishLeatherWingArmor",
+      "name": "gargish leather wing armor",
+      "item_id": "0x457E",
+      "png": "/img/items/0x457E.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": null,
+        "fire": null,
+        "cold": null,
+        "poison": null,
+        "energy": null
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GargishLeatherWingArmor.cs"
+    },
+    {
+      "class": "GargishOrderShield",
+      "name": "gargish order shield",
+      "item_id": "0x422A",
+      "png": "/img/items/0x422A.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 1,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 95,
+      "str_req_old": null,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishOrderShield.cs"
+    },
+    {
+      "class": "GargishPlateArms",
+      "name": "gargish plate arms",
+      "item_id": "0x0308",
+      "png": "/img/items/0x0308.png",
+      "material": "Plate",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 80,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishPlateArms.cs"
+    },
+    {
+      "class": "GargishPlateChest",
+      "name": "gargish plate chest",
+      "item_id": "0x030A",
+      "png": "/img/items/0x030A.png",
+      "material": "Plate",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 95,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishPlateChest.cs"
+    },
+    {
+      "class": "GargishPlateKilt",
+      "name": "gargish plate kilt",
+      "item_id": "0x030C",
+      "png": "/img/items/0x030C.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 80,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishPlateKilt.cs"
+    },
+    {
+      "class": "GargishPlateLegs",
+      "name": "gargish plate legs",
+      "item_id": "0x030E",
+      "png": "/img/items/0x030E.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 8,
+        "fire": 6,
+        "cold": 5,
+        "poison": 6,
+        "energy": 5
+      },
+      "str_req_aos": 90,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishPlateLegs.cs"
+    },
+    {
+      "class": "GargishStoneArms",
+      "name": "gargish stone arms",
+      "item_id": "0x0284",
+      "png": "/img/items/0x0284.png",
+      "material": "Stone",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishStoneArms.cs"
+    },
+    {
+      "class": "GargishStoneChest",
+      "name": "gargish stone chest",
+      "item_id": "0x0286",
+      "png": "/img/items/0x0286.png",
+      "material": "Stone",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishStoneChest.cs"
+    },
+    {
+      "class": "GargishStoneKilt",
+      "name": "gargish stone kilt",
+      "item_id": "0x0288",
+      "png": "/img/items/0x0288.png",
+      "material": "Stone",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishStoneKilt.cs"
+    },
+    {
+      "class": "GargishStoneLegs",
+      "name": "gargish stone legs",
+      "item_id": "0x028A",
+      "png": "/img/items/0x028A.png",
+      "material": "Stone",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 6,
+        "cold": 4,
+        "poison": 8,
+        "energy": 6
+      },
+      "str_req_aos": 40,
+      "str_req_old": null,
+      "armor_base": null,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/GargishStoneLegs.cs"
+    },
+    {
+      "class": "GemmedCirclet",
+      "name": "gemmed circlet",
+      "item_id": "0x2B70",
+      "png": "/img/items/0x2B70.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 1,
+        "fire": 5,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 30,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/GemmedCirclet.cs"
+    },
+    {
+      "class": "HeaterShield",
+      "name": "heater shield",
+      "item_id": "0x1B76",
+      "png": "/img/items/0x1B76.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 1,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 90,
+      "str_req_old": null,
+      "armor_base": 23,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/HeaterShield.cs"
+    },
+    {
+      "class": "HeavyPlateJingasa",
+      "name": "heavy plate jingasa",
+      "item_id": "0x2777",
+      "png": "/img/items/0x2777.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 7,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 2
+      },
+      "str_req_aos": 55,
+      "str_req_old": 55,
+      "armor_base": 4,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/HeavyPlateJingasa.cs"
+    },
+    {
+      "class": "Helmet",
+      "name": "helmet",
+      "item_id": "0x140A",
+      "png": "/img/items/0x140A.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 45,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/Helmet.cs"
+    },
+    {
+      "class": "HideChest",
+      "name": "hide chest",
+      "item_id": "0x2B74",
+      "png": "/img/items/0x2B74.png",
+      "material": "Studded",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 15,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/HideChest.cs"
+    },
+    {
+      "class": "HideFemaleChest",
+      "name": "hide female chest",
+      "item_id": "0x2B79",
+      "png": "/img/items/0x2B79.png",
+      "material": "Studded",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 35,
+      "str_req_old": 35,
+      "armor_base": 15,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/HideFemaleChest.cs"
+    },
+    {
+      "class": "HideGloves",
+      "name": "hide gloves",
+      "item_id": "0x2B75",
+      "png": "/img/items/0x2B75.png",
+      "material": "Studded",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 15,
+      "str_req_old": 15,
+      "armor_base": 15,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/HideGloves.cs"
+    },
+    {
+      "class": "HideGorget",
+      "name": "hide gorget",
+      "item_id": "0x2B76",
+      "png": "/img/items/0x2B76.png",
+      "material": "Studded",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 15,
+      "str_req_old": 15,
+      "armor_base": 15,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/HideGorget.cs"
+    },
+    {
+      "class": "HidePants",
+      "name": "hide pants",
+      "item_id": "0x2B78",
+      "png": "/img/items/0x2B78.png",
+      "material": "Studded",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 15,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/HidePants.cs"
+    },
+    {
+      "class": "HidePauldrons",
+      "name": "hide pauldrons",
+      "item_id": "0x2B77",
+      "png": "/img/items/0x2B77.png",
+      "material": "Studded",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 4,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 15,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/HidePauldrons.cs"
+    },
+    {
+      "class": "LargePlateShield",
+      "name": "large plate shield",
+      "item_id": "0x4204",
+      "png": "/img/items/0x4204.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 1,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 90,
+      "str_req_old": null,
+      "armor_base": 23,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/LargePlateShield.cs"
+    },
+    {
+      "class": "LargeStoneShield",
+      "name": "large stone shield",
+      "item_id": "0x4205",
+      "png": "/img/items/0x4205.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 1
+      },
+      "str_req_aos": 20,
+      "str_req_old": null,
+      "armor_base": 12,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/LargeStoneShield.cs"
+    },
+    {
+      "class": "LeafArms",
+      "name": "leaf arms",
+      "item_id": "0x2FC8",
+      "png": "/img/items/0x2FC8.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 15,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeafArms.cs"
+    },
+    {
+      "class": "LeafChest",
+      "name": "leaf chest",
+      "item_id": "0x2FC5",
+      "png": "/img/items/0x2FC5.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeafChest.cs"
+    },
+    {
+      "class": "LeafGloves",
+      "name": "leaf gloves",
+      "item_id": "0x2FC6",
+      "png": "/img/items/0x2FC6.png",
+      "material": "Leather",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeafGloves.cs"
+    },
+    {
+      "class": "LeafGorget",
+      "name": "leaf gorget",
+      "item_id": "0x2FC7",
+      "png": "/img/items/0x2FC7.png",
+      "material": "Leather",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeafGorget.cs"
+    },
+    {
+      "class": "LeafLegs",
+      "name": "leaf legs",
+      "item_id": "0x2FC9",
+      "png": "/img/items/0x2FC9.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeafLegs.cs"
+    },
+    {
+      "class": "LeafTonlet",
+      "name": "leaf tonlet",
+      "item_id": "0x2FCA",
+      "png": "/img/items/0x2FCA.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 3,
+        "cold": 2,
+        "poison": 4,
+        "energy": 4
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeafTonlet.cs"
+    },
+    {
+      "class": "LeatherArms",
+      "name": "leather arms",
+      "item_id": "0x13CD",
+      "png": "/img/items/0x13CD.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherArms.cs"
+    },
+    {
+      "class": "LeatherBustierArms",
+      "name": "leather bustier arms",
+      "item_id": "0x1C0A",
+      "png": "/img/items/0x1C0A.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherBustierArms.cs"
+    },
+    {
+      "class": "LeatherCap",
+      "name": "leather cap",
+      "item_id": "0x1DB9",
+      "png": "/img/items/0x1DB9.png",
+      "material": "Leather",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherCap.cs"
+    },
+    {
+      "class": "LeatherChest",
+      "name": "leather chest",
+      "item_id": "0x13CC",
+      "png": "/img/items/0x13CC.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherChest.cs"
+    },
+    {
+      "class": "LeatherDo",
+      "name": "leather do",
+      "item_id": "0x27C6",
+      "png": "/img/items/0x27C6.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 40,
+      "str_req_old": 40,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherDo.cs"
+    },
+    {
+      "class": "LeatherGloves",
+      "name": "leather gloves",
+      "item_id": "0x13C6",
+      "png": "/img/items/0x13C6.png",
+      "material": "Leather",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherGloves.cs"
+    },
+    {
+      "class": "LeatherGorget",
+      "name": "leather gorget",
+      "item_id": "0x13C7",
+      "png": "/img/items/0x13C7.png",
+      "material": "Leather",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherGorget.cs"
+    },
+    {
+      "class": "LeatherHaidate",
+      "name": "leather haidate",
+      "item_id": "0x278A",
+      "png": "/img/items/0x278A.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherHaidate.cs"
+    },
+    {
+      "class": "LeatherHiroSode",
+      "name": "leather hiro sode",
+      "item_id": "0x277E",
+      "png": "/img/items/0x277E.png",
+      "material": "Leather",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherHiroSode.cs"
+    },
+    {
+      "class": "LeatherJingasa",
+      "name": "leather jingasa",
+      "item_id": "0x2776",
+      "png": "/img/items/0x2776.png",
+      "material": "Leather",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 4,
+        "fire": 3,
+        "cold": 3,
+        "poison": 2,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherJingasa.cs"
+    },
+    {
+      "class": "LeatherLegs",
+      "name": "leather legs",
+      "item_id": "0x13CB",
+      "png": "/img/items/0x13CB.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherLegs.cs"
+    },
+    {
+      "class": "LeatherMempo",
+      "name": "leather mempo",
+      "item_id": "0x277A",
+      "png": "/img/items/0x277A.png",
+      "material": "Leather",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 30,
+      "str_req_old": 30,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherMempo.cs"
+    },
+    {
+      "class": "LeatherNinjaHood",
+      "name": "leather ninja hood",
+      "item_id": "0x278E",
+      "png": "/img/items/0x278E.png",
+      "material": "Leather",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherNinjaHood.cs"
+    },
+    {
+      "class": "LeatherNinjaJacket",
+      "name": "leather ninja jacket",
+      "item_id": "0x2793",
+      "png": "/img/items/0x2793.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherNinjaJacket.cs"
+    },
+    {
+      "class": "LeatherNinjaMitts",
+      "name": "leather ninja mitts",
+      "item_id": "0x2792",
+      "png": "/img/items/0x2792.png",
+      "material": "Leather",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherNinjaMitts.cs"
+    },
+    {
+      "class": "LeatherNinjaPants",
+      "name": "leather ninja pants",
+      "item_id": "0x2791",
+      "png": "/img/items/0x2791.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherNinjaPants.cs"
+    },
+    {
+      "class": "LeatherShorts",
+      "name": "leather shorts",
+      "item_id": "0x1C00",
+      "png": "/img/items/0x1C00.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherShorts.cs"
+    },
+    {
+      "class": "LeatherSkirt",
+      "name": "leather skirt",
+      "item_id": "0x1C08",
+      "png": "/img/items/0x1C08.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherSkirt.cs"
+    },
+    {
+      "class": "LeatherSuneate",
+      "name": "leather suneate",
+      "item_id": "0x2786",
+      "png": "/img/items/0x2786.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 20,
+      "str_req_old": 20,
+      "armor_base": 3,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/LeatherSuneate.cs"
+    },
+    {
+      "class": "LightPlateJingasa",
+      "name": "light plate jingasa",
+      "item_id": "0x2781",
+      "png": "/img/items/0x2781.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 7,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 2
+      },
+      "str_req_aos": 55,
+      "str_req_old": 55,
+      "armor_base": 4,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/LightPlateJingasa.cs"
+    },
+    {
+      "class": "MediumPlateShield",
+      "name": "medium plate shield",
+      "item_id": "0x4203",
+      "png": "/img/items/0x4203.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 1,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 45,
+      "str_req_old": null,
+      "armor_base": 11,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/MediumPlateShield.cs"
+    },
+    {
+      "class": "MetalKiteShield",
+      "name": "metal kite shield",
+      "item_id": "0x1B74",
+      "png": "/img/items/0x1B74.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 1
+      },
+      "str_req_aos": 45,
+      "str_req_old": null,
+      "armor_base": 16,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/MetalKiteShield.cs"
+    },
+    {
+      "class": "MetalShield",
+      "name": "metal shield",
+      "item_id": "0x1B7B",
+      "png": "/img/items/0x1B7B.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 1,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 45,
+      "str_req_old": null,
+      "armor_base": 11,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/MetalShield.cs"
+    },
+    {
+      "class": "NorseHelm",
+      "name": "norse helm",
+      "item_id": "0x140E",
+      "png": "/img/items/0x140E.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 4,
+        "fire": 1,
+        "cold": 4,
+        "poison": 4,
+        "energy": 2
+      },
+      "str_req_aos": 55,
+      "str_req_old": 40,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/NorseHelm.cs"
+    },
+    {
+      "class": "OrcHelm",
+      "name": "orc helm",
+      "item_id": "0x1F0B",
+      "png": "/img/items/0x1F0B.png",
+      "material": "Bone",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 1,
+        "cold": 3,
+        "poison": 3,
+        "energy": 5
+      },
+      "str_req_aos": 30,
+      "str_req_old": 10,
+      "armor_base": 20,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/OrcHelm.cs"
+    },
+    {
+      "class": "OrderShield",
+      "name": "order shield",
+      "item_id": "0x1BC4",
+      "png": "/img/items/0x1BC4.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 1,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 95,
+      "str_req_old": null,
+      "armor_base": 30,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/OrderShield.cs"
+    },
+    {
+      "class": "PlateArms",
+      "name": "plate arms",
+      "item_id": "0x1410",
+      "png": "/img/items/0x1410.png",
+      "material": "Plate",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 80,
+      "str_req_old": 40,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateArms.cs"
+    },
+    {
+      "class": "PlateBattleKabuto",
+      "name": "plate battle kabuto",
+      "item_id": "0x2785",
+      "png": "/img/items/0x2785.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 3
+      },
+      "str_req_aos": 70,
+      "str_req_old": 70,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateBattleKabuto.cs"
+    },
+    {
+      "class": "PlateChest",
+      "name": "plate chest",
+      "item_id": "0x1415",
+      "png": "/img/items/0x1415.png",
+      "material": "Plate",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 95,
+      "str_req_old": 60,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateChest.cs"
+    },
+    {
+      "class": "PlateDo",
+      "name": "plate do",
+      "item_id": "0x277D",
+      "png": "/img/items/0x277D.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 85,
+      "str_req_old": 85,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateDo.cs"
+    },
+    {
+      "class": "PlateGloves",
+      "name": "plate gloves",
+      "item_id": "0x1414",
+      "png": "/img/items/0x1414.png",
+      "material": "Plate",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 70,
+      "str_req_old": 30,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateGloves.cs"
+    },
+    {
+      "class": "PlateGorget",
+      "name": "plate gorget",
+      "item_id": "0x1413",
+      "png": "/img/items/0x1413.png",
+      "material": "Plate",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 45,
+      "str_req_old": 30,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateGorget.cs"
+    },
+    {
+      "class": "PlateHaidate",
+      "name": "plate haidate",
+      "item_id": "0x278D",
+      "png": "/img/items/0x278D.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 80,
+      "str_req_old": 80,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateHaidate.cs"
+    },
+    {
+      "class": "PlateHatsuburi",
+      "name": "plate hatsuburi",
+      "item_id": "0x2775",
+      "png": "/img/items/0x2775.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 2,
+        "energy": 3
+      },
+      "str_req_aos": 65,
+      "str_req_old": 65,
+      "armor_base": 4,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateHatsuburi.cs"
+    },
+    {
+      "class": "PlateHelm",
+      "name": "plate helm",
+      "item_id": "0x1412",
+      "png": "/img/items/0x1412.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 80,
+      "str_req_old": 40,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateHelm.cs"
+    },
+    {
+      "class": "PlateHiroSode",
+      "name": "plate hiro sode",
+      "item_id": "0x2780",
+      "png": "/img/items/0x2780.png",
+      "material": "Plate",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 75,
+      "str_req_old": 75,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateHiroSode.cs"
+    },
+    {
+      "class": "PlateLegs",
+      "name": "plate legs",
+      "item_id": "0x1411",
+      "png": "/img/items/0x1411.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 90,
+      "str_req_old": 60,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateLegs.cs"
+    },
+    {
+      "class": "PlateMempo",
+      "name": "plate mempo",
+      "item_id": "0x2779",
+      "png": "/img/items/0x2779.png",
+      "material": "Plate",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 50,
+      "str_req_old": 50,
+      "armor_base": 4,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateMempo.cs"
+    },
+    {
+      "class": "PlateSuneate",
+      "name": "plate suneate",
+      "item_id": "0x2788",
+      "png": "/img/items/0x2788.png",
+      "material": "Plate",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 80,
+      "str_req_old": 80,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/PlateSuneate.cs"
+    },
+    {
+      "class": "RavenHelm",
+      "name": "raven helm",
+      "item_id": "0x2B71",
+      "png": "/img/items/0x2B71.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 1,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/RavenHelm.cs"
+    },
+    {
+      "class": "RingmailArms",
+      "name": "ringmail arms",
+      "item_id": "0x13EE",
+      "png": "/img/items/0x13EE.png",
+      "material": "Ringmail",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 1,
+        "poison": 5,
+        "energy": 3
+      },
+      "str_req_aos": 40,
+      "str_req_old": 20,
+      "armor_base": 22,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/RingmailArms.cs"
+    },
+    {
+      "class": "RingmailChest",
+      "name": "ringmail chest",
+      "item_id": "0x13EC",
+      "png": "/img/items/0x13EC.png",
+      "material": "Ringmail",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 1,
+        "poison": 5,
+        "energy": 3
+      },
+      "str_req_aos": 40,
+      "str_req_old": 20,
+      "armor_base": 22,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/RingmailChest.cs"
+    },
+    {
+      "class": "RingmailGloves",
+      "name": "ringmail gloves",
+      "item_id": "0x13EB",
+      "png": "/img/items/0x13EB.png",
+      "material": "Ringmail",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 1,
+        "poison": 5,
+        "energy": 3
+      },
+      "str_req_aos": 40,
+      "str_req_old": 20,
+      "armor_base": 22,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/RingmailGloves.cs"
+    },
+    {
+      "class": "RingmailLegs",
+      "name": "ringmail legs",
+      "item_id": "0x13F0",
+      "png": "/img/items/0x13F0.png",
+      "material": "Ringmail",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 3,
+        "fire": 3,
+        "cold": 1,
+        "poison": 5,
+        "energy": 3
+      },
+      "str_req_aos": 40,
+      "str_req_old": 20,
+      "armor_base": 22,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/RingmailLegs.cs"
+    },
+    {
+      "class": "RoyalCirclet",
+      "name": "royal circlet",
+      "item_id": "0x2B6F",
+      "png": "/img/items/0x2B6F.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 1,
+        "fire": 5,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 10,
+      "str_req_old": 10,
+      "armor_base": 30,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/RoyalCirclet.cs"
+    },
+    {
+      "class": "SmallPlateJingasa",
+      "name": "small plate jingasa",
+      "item_id": "0x2784",
+      "png": "/img/items/0x2784.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 7,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 2
+      },
+      "str_req_aos": 55,
+      "str_req_old": 55,
+      "armor_base": 4,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/SmallPlateJingasa.cs"
+    },
+    {
+      "class": "SmallPlateShield",
+      "name": "small plate shield",
+      "item_id": "0x4202",
+      "png": "/img/items/0x4202.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 1,
+        "poison": 0,
+        "energy": 0
+      },
+      "str_req_aos": 35,
+      "str_req_old": null,
+      "armor_base": 10,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/SmallPlateShield.cs"
+    },
+    {
+      "class": "StandardPlateKabuto",
+      "name": "standard plate kabuto",
+      "item_id": "0x2789",
+      "png": "/img/items/0x2789.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 6,
+        "fire": 2,
+        "cold": 2,
+        "poison": 2,
+        "energy": 3
+      },
+      "str_req_aos": 70,
+      "str_req_old": 70,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/StandardPlateKabuto.cs"
+    },
+    {
+      "class": "StuddedArms",
+      "name": "studded arms",
+      "item_id": "0x13DC",
+      "png": "/img/items/0x13DC.png",
+      "material": "Studded",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/StuddedArms.cs"
+    },
+    {
+      "class": "StuddedBustierArms",
+      "name": "studded bustier arms",
+      "item_id": "0x1C0C",
+      "png": "/img/items/0x1C0C.png",
+      "material": "Studded",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 35,
+      "str_req_old": 35,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/StuddedBustierArms.cs"
+    },
+    {
+      "class": "StuddedChest",
+      "name": "studded chest",
+      "item_id": "0x13DB",
+      "png": "/img/items/0x13DB.png",
+      "material": "Studded",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 35,
+      "str_req_old": 35,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/StuddedChest.cs"
+    },
+    {
+      "class": "StuddedDo",
+      "name": "studded do",
+      "item_id": "0x27C7",
+      "png": "/img/items/0x27C7.png",
+      "material": "Studded",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 55,
+      "str_req_old": 55,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/StuddedDo.cs"
+    },
+    {
+      "class": "StuddedGloves",
+      "name": "studded gloves",
+      "item_id": "0x13D5",
+      "png": "/img/items/0x13D5.png",
+      "material": "Studded",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/StuddedGloves.cs"
+    },
+    {
+      "class": "StuddedGorget",
+      "name": "studded gorget",
+      "item_id": "0x13D6",
+      "png": "/img/items/0x13D6.png",
+      "material": "Studded",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/StuddedGorget.cs"
+    },
+    {
+      "class": "StuddedHaidate",
+      "name": "studded haidate",
+      "item_id": "0x278B",
+      "png": "/img/items/0x278B.png",
+      "material": "Studded",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 30,
+      "str_req_old": 30,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/StuddedHaidate.cs"
+    },
+    {
+      "class": "StuddedHiroSode",
+      "name": "studded hiro sode",
+      "item_id": "0x277F",
+      "png": "/img/items/0x277F.png",
+      "material": "Studded",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 30,
+      "str_req_old": 30,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/StuddedHiroSode.cs"
+    },
+    {
+      "class": "StuddedLegs",
+      "name": "studded legs",
+      "item_id": "0x13DA",
+      "png": "/img/items/0x13DA.png",
+      "material": "Studded",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 30,
+      "str_req_old": 35,
+      "armor_base": 16,
+      "medable": "Half",
+      "source": "Scripts/Items/Equipment/Armor/StuddedLegs.cs"
+    },
+    {
+      "class": "StuddedMempo",
+      "name": "studded mempo",
+      "item_id": "0x279D",
+      "png": "/img/items/0x279D.png",
+      "material": "Studded",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 30,
+      "str_req_old": 30,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/StuddedMempo.cs"
+    },
+    {
+      "class": "StuddedSuneate",
+      "name": "studded suneate",
+      "item_id": "0x27D2",
+      "png": "/img/items/0x27D2.png",
+      "material": "Studded",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 4
+      },
+      "str_req_aos": 30,
+      "str_req_old": 30,
+      "armor_base": 3,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/StuddedSuneate.cs"
+    },
+    {
+      "class": "TigerPeltBustier",
+      "name": "Tiger Pelt Bustier",
+      "item_id": "0x7823",
+      "png": "/img/items/0x7823.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltBustier.cs"
+    },
+    {
+      "class": "TigerPeltChest",
+      "name": "Tiger Pelt Chest",
+      "item_id": "0x7822",
+      "png": "/img/items/0x7822.png",
+      "material": "Leather",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltChest.cs"
+    },
+    {
+      "class": "TigerPeltCollar",
+      "name": "Tiger Pelt Collar",
+      "item_id": "0x7829",
+      "png": "/img/items/0x7829.png",
+      "material": "Leather",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltCollar.cs"
+    },
+    {
+      "class": "TigerPeltHelm",
+      "name": "Tiger Pelt Helm",
+      "item_id": "0x7828",
+      "png": "/img/items/0x7828.png",
+      "material": "Leather",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 15,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltHelm.cs"
+    },
+    {
+      "class": "TigerPeltLegs",
+      "name": "Tiger Pelt Leggings",
+      "item_id": "0x7824",
+      "png": "/img/items/0x7824.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltLegs.cs"
+    },
+    {
+      "class": "TigerPeltLongSkirt",
+      "name": "Tiger Pelt Long Skirt",
+      "item_id": "0x7826",
+      "png": "/img/items/0x7826.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltLongSkirt.cs"
+    },
+    {
+      "class": "TigerPeltShorts",
+      "name": "Tiger Pelt Shorts",
+      "item_id": "0x7825",
+      "png": "/img/items/0x7825.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltShorts.cs"
+    },
+    {
+      "class": "TigerPeltSkirt",
+      "name": "Tiger Pelt Skirt",
+      "item_id": "0x7827",
+      "png": "/img/items/0x7827.png",
+      "material": "Leather",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 2,
+        "fire": 4,
+        "cold": 3,
+        "poison": 3,
+        "energy": 3
+      },
+      "str_req_aos": 25,
+      "str_req_old": 10,
+      "armor_base": 13,
+      "medable": "All",
+      "source": "Scripts/Items/Equipment/Armor/TigerPeltSkirt.cs"
+    },
+    {
+      "class": "VultureHelm",
+      "name": "vulture helm",
+      "item_id": "0x2B72",
+      "png": "/img/items/0x2B72.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 1,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/VultureHelm.cs"
+    },
+    {
+      "class": "WingedHelm",
+      "name": "winged helm",
+      "item_id": "0x2B73",
+      "png": "/img/items/0x2B73.png",
+      "material": "Plate",
+      "slot": "helm",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 1,
+        "cold": 2,
+        "poison": 2,
+        "energy": 5
+      },
+      "str_req_aos": 25,
+      "str_req_old": 25,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WingedHelm.cs"
+    },
+    {
+      "class": "WoodenKiteShield",
+      "name": "wooden kite shield",
+      "item_id": "0x1B78",
+      "png": "/img/items/0x1B78.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 1
+      },
+      "str_req_aos": 20,
+      "str_req_old": null,
+      "armor_base": 12,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodenKiteShield.cs"
+    },
+    {
+      "class": "WoodenShield",
+      "name": "wooden shield",
+      "item_id": "0x1B7A",
+      "png": "/img/items/0x1B7A.png",
+      "material": "Plate",
+      "slot": "shield",
+      "is_shield": true,
+      "base_resist": {
+        "phys": 0,
+        "fire": 0,
+        "cold": 0,
+        "poison": 0,
+        "energy": 1
+      },
+      "str_req_aos": 20,
+      "str_req_old": null,
+      "armor_base": 8,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodenShield.cs"
+    },
+    {
+      "class": "WoodlandArms",
+      "name": "woodland arms",
+      "item_id": "0x2B6C",
+      "png": "/img/items/0x2B6C.png",
+      "material": "Wood",
+      "slot": "arms",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 80,
+      "str_req_old": 80,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodlandArms.cs"
+    },
+    {
+      "class": "WoodlandChest",
+      "name": "woodland chest",
+      "item_id": "0x2B67",
+      "png": "/img/items/0x2B67.png",
+      "material": "Wood",
+      "slot": "chest",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 95,
+      "str_req_old": 95,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodlandChest.cs"
+    },
+    {
+      "class": "WoodlandGloves",
+      "name": "woodland gloves",
+      "item_id": "0x2B6A",
+      "png": "/img/items/0x2B6A.png",
+      "material": "Wood",
+      "slot": "gloves",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 70,
+      "str_req_old": 70,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodlandGloves.cs"
+    },
+    {
+      "class": "WoodlandGorget",
+      "name": "woodland gorget",
+      "item_id": "0x2B69",
+      "png": "/img/items/0x2B69.png",
+      "material": "Wood",
+      "slot": "gorget",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 45,
+      "str_req_old": 45,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodlandGorget.cs"
+    },
+    {
+      "class": "WoodlandLegs",
+      "name": "woodland legs",
+      "item_id": "0x2B6B",
+      "png": "/img/items/0x2B6B.png",
+      "material": "Wood",
+      "slot": "legs",
+      "is_shield": false,
+      "base_resist": {
+        "phys": 5,
+        "fire": 3,
+        "cold": 2,
+        "poison": 3,
+        "energy": 2
+      },
+      "str_req_aos": 90,
+      "str_req_old": 90,
+      "armor_base": 40,
+      "medable": "None",
+      "source": "Scripts/Items/Equipment/Armor/WoodlandLegs.cs"
+    }
+  ]
+}

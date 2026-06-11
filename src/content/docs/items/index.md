@@ -17,6 +17,12 @@ categories the curated wiki documents directly, and points to the sections that 
   mining requirements, the seven woods, leathers, and cloth.
 - **[Reagents](/items/reagents/)** — the eight magery reagents: where to buy them and which
   circles burn through which.
+- **[Weapons](/items/weapons/)** — how damage, speed, skill and special moves work, with a
+  stat table for every weapon family.
+- **[Armor](/items/armor/)** — resistances, materials (leather → plate → dragon), slots,
+  suits, and the mage-armor tradeoff.
+- **[Tools](/items/tools/)** — every trade and gathering tool (tinker tools, shovel, sewing
+  kit, saw…), what skill it serves, and where to get it.
 
 ## Full item catalog
 
