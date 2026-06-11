@@ -16,6 +16,10 @@ after the game contradicted a page.
 
 ## 2026-06-11
 
+- **Added** — Skill banner icons + per-skill pages for all 58 skills.  
+  [Skills](/skills/) (59) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/3a1b6dc)</sub>
+- **Added** — Skills/hiding: new field-verified page (foundry thief evals); reports: HeadlessOne pack lethality data, Minoc east-face mining spot (2567,493).  
+  [Hiding](/skills/hiding/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/28f280a)</sub>
 - **Updated** — Declutter sidebar, divide Monsters by type, PNG-default/GIF-on-hover.  
   [Bestiary](/bestiary/) (570) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c1a4920)</sub>
 - **Updated** — Server-standard skin tone + colored clothing, fuller armor gallery.  
