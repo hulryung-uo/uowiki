@@ -66,6 +66,7 @@ to open it.
 
 ## See also
 
+- [Treasure hunting](/playing/treasure-hunting/) — the full decode → dig → loot playstyle
 - [Gathering resources](/playing/gathering-resources/) · [Cartography crafting](/crafting/cartography/)
 - [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 

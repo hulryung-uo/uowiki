@@ -1,0 +1,999 @@
+{
+  "system": "Forgotten Treasures (modern EJ system)",
+  "config": {
+    "expansion": "EJ",
+    "new_system_live": true,
+    "randomized_locations_enabled": true,
+    "loot_chance": 0.01,
+    "reset_time_days": 30.0
+  },
+  "levels": [
+    "Stash",
+    "Supply",
+    "Cache",
+    "Hoard",
+    "Trove"
+  ],
+  "packages": [
+    "Artisan",
+    "Assassin",
+    "Mage",
+    "Ranger",
+    "Warrior"
+  ],
+  "decode_difficulty": {
+    "Stash": 100,
+    "Supply": 200,
+    "Cache": 300,
+    "Hoard": 400,
+    "Trove": 500
+  },
+  "decode_note": "Decode: Cartography skill check; AssignChestQuality compares Cartography against Utility.Random(decode_difficulty). decode_difficulty is the classic level/100 table.",
+  "chest_skills": {
+    "Stash": {
+      "required_skill": 5,
+      "lock_level": -5,
+      "max_lock_level": 45,
+      "trap_power": 25,
+      "trap_level": 1
+    },
+    "Supply": {
+      "required_skill": 45,
+      "lock_level": 35,
+      "max_lock_level": 85,
+      "trap_power": 75,
+      "trap_level": 3
+    },
+    "Cache": {
+      "required_skill": 75,
+      "lock_level": 65,
+      "max_lock_level": 115,
+      "trap_power": 125,
+      "trap_level": 5
+    },
+    "Hoard": {
+      "required_skill": 80,
+      "lock_level": 70,
+      "max_lock_level": 120,
+      "trap_power": 150,
+      "trap_level": 6
+    },
+    "Trove": {
+      "required_skill": 80,
+      "lock_level": 70,
+      "max_lock_level": 120,
+      "trap_power": 170,
+      "trap_level": 7
+    }
+  },
+  "trap_type": "ExplosionTrap",
+  "chest_quality": {
+    "values": [
+      "Rusty",
+      "Standard",
+      "Gold"
+    ],
+    "note": "AssignChestQuality: Cartography vs Utility.Random(decode_difficulty); higher skill -> Gold; affects gem/reg/material counts and chest art."
+  },
+  "gold": {
+    "Stash": [
+      10000,
+      40000
+    ],
+    "Supply": [
+      20000,
+      50000
+    ],
+    "Cache": [
+      30000,
+      60000
+    ],
+    "Hoard": [
+      40000,
+      70000
+    ],
+    "Trove": [
+      50000,
+      70000
+    ]
+  },
+  "equipment_amount": {
+    "Stash": 6,
+    "Supply": 8,
+    "Cache": 12,
+    "Hoard": 18,
+    "Trove": 36
+  },
+  "dig_range": [
+    {
+      "skill_at_least": 100.0,
+      "tiles": 4
+    },
+    {
+      "skill_at_least": 81.0,
+      "tiles": 3
+    },
+    {
+      "skill_at_least": 51.0,
+      "tiles": 2
+    },
+    {
+      "skill_at_least": 0.0,
+      "tiles": 1
+    }
+  ],
+  "guardians": {
+    "count": 4,
+    "guardian_chance": 0.7,
+    "felucca_trammel_by_level": {
+      "Stash": [
+        "Mongbat",
+        "Ratman",
+        "HeadlessOne",
+        "Skeleton",
+        "Zombie"
+      ],
+      "Supply": [
+        "OrcishMage",
+        "Gargoyle",
+        "Gazer",
+        "HellHound",
+        "EarthElemental"
+      ],
+      "Cache": [
+        "Lich",
+        "OgreLord",
+        "DreadSpider",
+        "AirElemental",
+        "FireElemental",
+        "LichLord",
+        "Daemon",
+        "ElderGazer"
+      ],
+      "Hoard": [
+        "AncientWyrm",
+        "Balron",
+        "BloodElemental",
+        "PoisonElemental",
+        "Titan"
+      ],
+      "Trove": [
+        "BloodElemental",
+        "ColdDrake",
+        "FrostDragon",
+        "FrostDrake",
+        "GreaterDragon",
+        "PoisonElemental"
+      ]
+    }
+  },
+  "special_loot": {
+    "power_scrolls": {
+      "facet": "Felucca only",
+      "min_level": "Cache",
+      "value": 110.0,
+      "note": "GetPowerScrollList: Felucca + level >= Cache; PowerScroll(skill, 110.0)."
+    },
+    "scrolls_of_transcendence": {
+      "excluded_levels": [
+        "Supply",
+        "Cache"
+      ],
+      "note": "GetTranscendenceList: not on Supply/Cache; amount per (int)level+1."
+    },
+    "scrolls_of_alacrity": {
+      "excluded": "Stash (all); Cache on Felucca",
+      "note": "GetAlacrityList."
+    },
+    "reagents": {
+      "only": "Stash + Mage package",
+      "amount_by_quality": {
+        "Rusty": 20,
+        "Standard": 40,
+        "Gold": 60
+      },
+      "note": "GetReagentList / GetRegAmount."
+    },
+    "gems": {
+      "note": "GetGemCount: base 7/9/11 by chest quality + level*5, one bag of gems."
+    }
+  },
+  "facet_regions": {
+    "note": "When TreasureMaps.Enabled (NewChestLocations) is True, the chest spot is randomized within per-facet diggable rectangles (TreasureMap.cs), then ValidateLocation() rejects towns, houses, dungeons, champ spawns, roads and non-walkable/non-natural tiles. Felucca and Trammel use the whole map.",
+    "felucca_trammel": [
+      [
+        0,
+        0,
+        5119,
+        4095
+      ]
+    ],
+    "rect_counts": {
+      "tokuno": 32,
+      "malas": 4,
+      "ilshenar": 8,
+      "termur": 8,
+      "eodon": 11
+    }
+  },
+  "classic_locations_note": "Data/treasure.cfg holds 192 fixed classic dig sites (Britannia/Felucca-Trammel coords). These are used by GetRandomClassicLocation() when NewChestLocations is False; on our shard NewChestLocations is True, so live maps randomize within the facet regions above. The 192 sites are the traditional, well-known treasure spots players think of as 'the dig locations' and are what is plotted on the wiki map.",
+  "coord_space": {
+    "width": 5120,
+    "height": 4096
+  },
+  "location_count": 193,
+  "locations": [
+    {
+      "x": 2643,
+      "y": 851
+    },
+    {
+      "x": 2672,
+      "y": 392
+    },
+    {
+      "x": 3404,
+      "y": 238
+    },
+    {
+      "x": 3369,
+      "y": 637
+    },
+    {
+      "x": 2740,
+      "y": 435
+    },
+    {
+      "x": 2770,
+      "y": 345
+    },
+    {
+      "x": 2781,
+      "y": 289
+    },
+    {
+      "x": 2836,
+      "y": 233
+    },
+    {
+      "x": 3014,
+      "y": 250
+    },
+    {
+      "x": 3082,
+      "y": 202
+    },
+    {
+      "x": 3246,
+      "y": 245
+    },
+    {
+      "x": 3375,
+      "y": 458
+    },
+    {
+      "x": 1314,
+      "y": 317
+    },
+    {
+      "x": 1470,
+      "y": 229
+    },
+    {
+      "x": 1504,
+      "y": 366
+    },
+    {
+      "x": 2340,
+      "y": 645
+    },
+    {
+      "x": 2350,
+      "y": 688
+    },
+    {
+      "x": 2395,
+      "y": 723
+    },
+    {
+      "x": 2433,
+      "y": 767
+    },
+    {
+      "x": 1319,
+      "y": 889
+    },
+    {
+      "x": 1414,
+      "y": 771
+    },
+    {
+      "x": 1529,
+      "y": 753
+    },
+    {
+      "x": 1555,
+      "y": 806
+    },
+    {
+      "x": 1511,
+      "y": 967
+    },
+    {
+      "x": 1510,
+      "y": 1071
+    },
+    {
+      "x": 1562,
+      "y": 1058
+    },
+    {
+      "x": 961,
+      "y": 506
+    },
+    {
+      "x": 1162,
+      "y": 189
+    },
+    {
+      "x": 2337,
+      "y": 1159
+    },
+    {
+      "x": 2392,
+      "y": 1154
+    },
+    {
+      "x": 2517,
+      "y": 1066
+    },
+    {
+      "x": 2458,
+      "y": 1042
+    },
+    {
+      "x": 1658,
+      "y": 2030
+    },
+    {
+      "x": 2062,
+      "y": 1962
+    },
+    {
+      "x": 2089,
+      "y": 1987
+    },
+    {
+      "x": 2097,
+      "y": 1975
+    },
+    {
+      "x": 2066,
+      "y": 1979
+    },
+    {
+      "x": 2058,
+      "y": 1992
+    },
+    {
+      "x": 2071,
+      "y": 2007
+    },
+    {
+      "x": 2093,
+      "y": 2006
+    },
+    {
+      "x": 2187,
+      "y": 1991
+    },
+    {
+      "x": 1689,
+      "y": 1993
+    },
+    {
+      "x": 1709,
+      "y": 1964
+    },
+    {
+      "x": 1726,
+      "y": 1998
+    },
+    {
+      "x": 1731,
+      "y": 2016
+    },
+    {
+      "x": 1743,
+      "y": 2028
+    },
+    {
+      "x": 1754,
+      "y": 2020
+    },
+    {
+      "x": 2033,
+      "y": 1942
+    },
+    {
+      "x": 2054,
+      "y": 1962
+    },
+    {
+      "x": 581,
+      "y": 1455
+    },
+    {
+      "x": 358,
+      "y": 1337
+    },
+    {
+      "x": 208,
+      "y": 1444
+    },
+    {
+      "x": 199,
+      "y": 1461
+    },
+    {
+      "x": 348,
+      "y": 1565
+    },
+    {
+      "x": 620,
+      "y": 1706
+    },
+    {
+      "x": 1027,
+      "y": 1180
+    },
+    {
+      "x": 1037,
+      "y": 1975
+    },
+    {
+      "x": 1042,
+      "y": 1960
+    },
+    {
+      "x": 1042,
+      "y": 1903
+    },
+    {
+      "x": 1034,
+      "y": 1877
+    },
+    {
+      "x": 1018,
+      "y": 1859
+    },
+    {
+      "x": 980,
+      "y": 1849
+    },
+    {
+      "x": 962,
+      "y": 1858
+    },
+    {
+      "x": 977,
+      "y": 1879
+    },
+    {
+      "x": 968,
+      "y": 1884
+    },
+    {
+      "x": 969,
+      "y": 1893
+    },
+    {
+      "x": 974,
+      "y": 1992
+    },
+    {
+      "x": 989,
+      "y": 1992
+    },
+    {
+      "x": 1024,
+      "y": 1990
+    },
+    {
+      "x": 2648,
+      "y": 2167
+    },
+    {
+      "x": 2956,
+      "y": 2200
+    },
+    {
+      "x": 2968,
+      "y": 2170
+    },
+    {
+      "x": 2957,
+      "y": 2150
+    },
+    {
+      "x": 2951,
+      "y": 2177
+    },
+    {
+      "x": 2629,
+      "y": 2221
+    },
+    {
+      "x": 2642,
+      "y": 2289
+    },
+    {
+      "x": 2682,
+      "y": 2290
+    },
+    {
+      "x": 2727,
+      "y": 2309
+    },
+    {
+      "x": 2782,
+      "y": 2293
+    },
+    {
+      "x": 2804,
+      "y": 2255
+    },
+    {
+      "x": 2850,
+      "y": 2252
+    },
+    {
+      "x": 2932,
+      "y": 2240
+    },
+    {
+      "x": 3425,
+      "y": 2723
+    },
+    {
+      "x": 3476,
+      "y": 2761
+    },
+    {
+      "x": 3594,
+      "y": 2825
+    },
+    {
+      "x": 4419,
+      "y": 3117
+    },
+    {
+      "x": 4471,
+      "y": 3188
+    },
+    {
+      "x": 4507,
+      "y": 3227
+    },
+    {
+      "x": 4496,
+      "y": 3241
+    },
+    {
+      "x": 4642,
+      "y": 3369
+    },
+    {
+      "x": 4694,
+      "y": 3485
+    },
+    {
+      "x": 4448,
+      "y": 3130
+    },
+    {
+      "x": 4453,
+      "y": 3148
+    },
+    {
+      "x": 4500,
+      "y": 3108
+    },
+    {
+      "x": 4513,
+      "y": 3103
+    },
+    {
+      "x": 4424,
+      "y": 3152
+    },
+    {
+      "x": 4466,
+      "y": 3209
+    },
+    {
+      "x": 4477,
+      "y": 3230
+    },
+    {
+      "x": 4477,
+      "y": 3282
+    },
+    {
+      "x": 2797,
+      "y": 3452
+    },
+    {
+      "x": 2803,
+      "y": 3488
+    },
+    {
+      "x": 2793,
+      "y": 3519
+    },
+    {
+      "x": 2831,
+      "y": 3511
+    },
+    {
+      "x": 2989,
+      "y": 3606
+    },
+    {
+      "x": 3035,
+      "y": 3603
+    },
+    {
+      "x": 1427,
+      "y": 2405
+    },
+    {
+      "x": 1466,
+      "y": 2181
+    },
+    {
+      "x": 1519,
+      "y": 2214
+    },
+    {
+      "x": 1523,
+      "y": 2150
+    },
+    {
+      "x": 1541,
+      "y": 2115
+    },
+    {
+      "x": 1534,
+      "y": 2189
+    },
+    {
+      "x": 1546,
+      "y": 2221
+    },
+    {
+      "x": 1595,
+      "y": 2193
+    },
+    {
+      "x": 1619,
+      "y": 2236
+    },
+    {
+      "x": 1654,
+      "y": 2268
+    },
+    {
+      "x": 1655,
+      "y": 2304
+    },
+    {
+      "x": 1433,
+      "y": 2381
+    },
+    {
+      "x": 1724,
+      "y": 2288
+    },
+    {
+      "x": 1703,
+      "y": 2318
+    },
+    {
+      "x": 1772,
+      "y": 2321
+    },
+    {
+      "x": 1758,
+      "y": 2333
+    },
+    {
+      "x": 1765,
+      "y": 2430
+    },
+    {
+      "x": 1647,
+      "y": 2641
+    },
+    {
+      "x": 1562,
+      "y": 2705
+    },
+    {
+      "x": 1670,
+      "y": 2808
+    },
+    {
+      "x": 1471,
+      "y": 2340
+    },
+    {
+      "x": 1562,
+      "y": 2312
+    },
+    {
+      "x": 1450,
+      "y": 2301
+    },
+    {
+      "x": 1437,
+      "y": 2294
+    },
+    {
+      "x": 1478,
+      "y": 2273
+    },
+    {
+      "x": 1464,
+      "y": 2245
+    },
+    {
+      "x": 1439,
+      "y": 2217
+    },
+    {
+      "x": 1383,
+      "y": 2840
+    },
+    {
+      "x": 1388,
+      "y": 2984
+    },
+    {
+      "x": 1415,
+      "y": 3059
+    },
+    {
+      "x": 1602,
+      "y": 3012
+    },
+    {
+      "x": 1664,
+      "y": 3062
+    },
+    {
+      "x": 2062,
+      "y": 2144
+    },
+    {
+      "x": 2178,
+      "y": 2151
+    },
+    {
+      "x": 2104,
+      "y": 2123
+    },
+    {
+      "x": 2098,
+      "y": 2101
+    },
+    {
+      "x": 2123,
+      "y": 2120
+    },
+    {
+      "x": 2130,
+      "y": 2108
+    },
+    {
+      "x": 2129,
+      "y": 2132
+    },
+    {
+      "x": 2153,
+      "y": 2120
+    },
+    {
+      "x": 2162,
+      "y": 2148
+    },
+    {
+      "x": 2186,
+      "y": 2144
+    },
+    {
+      "x": 492,
+      "y": 2027
+    },
+    {
+      "x": 477,
+      "y": 2044
+    },
+    {
+      "x": 451,
+      "y": 2053
+    },
+    {
+      "x": 468,
+      "y": 2087
+    },
+    {
+      "x": 465,
+      "y": 2100
+    },
+    {
+      "x": 958,
+      "y": 2504
+    },
+    {
+      "x": 1025,
+      "y": 2702
+    },
+    {
+      "x": 1290,
+      "y": 2735
+    },
+    {
+      "x": 2013,
+      "y": 3269
+    },
+    {
+      "x": 2149,
+      "y": 3362
+    },
+    {
+      "x": 2097,
+      "y": 3384
+    },
+    {
+      "x": 2039,
+      "y": 3427
+    },
+    {
+      "x": 2516,
+      "y": 3999
+    },
+    {
+      "x": 2453,
+      "y": 3942
+    },
+    {
+      "x": 2528,
+      "y": 3982
+    },
+    {
+      "x": 2513,
+      "y": 3962
+    },
+    {
+      "x": 2512,
+      "y": 3918
+    },
+    {
+      "x": 2513,
+      "y": 3901
+    },
+    {
+      "x": 2480,
+      "y": 3908
+    },
+    {
+      "x": 2421,
+      "y": 3902
+    },
+    {
+      "x": 2415,
+      "y": 3920
+    },
+    {
+      "x": 2422,
+      "y": 3928
+    },
+    {
+      "x": 2370,
+      "y": 3428
+    },
+    {
+      "x": 2341,
+      "y": 3482
+    },
+    {
+      "x": 2360,
+      "y": 3507
+    },
+    {
+      "x": 2387,
+      "y": 3505
+    },
+    {
+      "x": 2152,
+      "y": 3950
+    },
+    {
+      "x": 2157,
+      "y": 3924
+    },
+    {
+      "x": 2140,
+      "y": 3940
+    },
+    {
+      "x": 2143,
+      "y": 3986
+    },
+    {
+      "x": 2154,
+      "y": 3983
+    },
+    {
+      "x": 2162,
+      "y": 3988
+    },
+    {
+      "x": 2467,
+      "y": 3581
+    },
+    {
+      "x": 2527,
+      "y": 3585
+    },
+    {
+      "x": 2482,
+      "y": 3624
+    },
+    {
+      "x": 2535,
+      "y": 3608
+    },
+    {
+      "x": 1090,
+      "y": 3110
+    },
+    {
+      "x": 1094,
+      "y": 3131
+    },
+    {
+      "x": 1073,
+      "y": 3133
+    },
+    {
+      "x": 1076,
+      "y": 3156
+    },
+    {
+      "x": 1068,
+      "y": 3182
+    },
+    {
+      "x": 1096,
+      "y": 3178
+    },
+    {
+      "x": 1129,
+      "y": 3403
+    },
+    {
+      "x": 1135,
+      "y": 3445
+    },
+    {
+      "x": 1162,
+      "y": 3469
+    },
+    {
+      "x": 1128,
+      "y": 3500
+    }
+  ]
+}
