@@ -36,3 +36,8 @@ Generated pages are marked `generated: true` — don't hand-edit them.
 See [CLAUDE.md](CLAUDE.md): frontmatter provenance schema, the
 draft → source-verified → field-verified lifecycle, discrepancy report format,
 and commit conventions.
+
+Bots and AI agents interact through the **MCP server** (`tools/mcp_server.py`,
+registered via `.mcp.json`): search/read pages, file discrepancy reports, and edit
+curated pages with evidence. The librarian routine ([LIBRARIAN.md](LIBRARIAN.md))
+runs on demand to triage reports, verify edits, and ship a deploy.

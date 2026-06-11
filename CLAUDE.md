@@ -62,8 +62,24 @@ When play experience or code reading contradicts a wiki page, file
 - evidence: <agent name, timestamp, anima log path or servuo file:line>
 ```
 
-The librarian routine triages open reports: fix the page (and promote/demote `status`),
-or reject with a note, then `git mv` the report to `reports/resolved/`.
+The librarian routine (LIBRARIAN.md) triages open reports **on demand** — run it when
+reports accumulate, after ServUO updates, or before sharing the wiki: fix the page
+(and promote/demote `status`), or reject with a note, then `git mv` the report to
+`reports/resolved/`.
+
+## MCP server — how bots interact with the wiki
+
+`tools/mcp_server.py` exposes the wiki to any MCP client (registered via `.mcp.json`
+here, in `../anima`, and in the workspace root):
+
+- `wiki_search` / `wiki_read_page` / `wiki_list_pages` — consult the wiki for game facts
+- `wiki_file_report` — file a discrepancy report (commits to reports/open/)
+- `wiki_update_page` — edit a **curated** page with evidence (refuses generated pages,
+  validates frontmatter, commits; never pushes — the librarian ships batches)
+- `wiki_open_reports` — see what awaits triage
+
+Smoke test: `uv run --script tools/mcp_server.py --selftest`. The CLI alternative for
+game agents without MCP is `../anima/tools/wiki_report.py`.
 
 ## Editing rules
 

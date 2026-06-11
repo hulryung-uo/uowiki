@@ -1,7 +1,12 @@
 # The Librarian Routine
 
-Daily maintenance routine for this wiki, run by a Claude Code agent (scheduled or
-manual). Goal: keep the wiki correct, current, and growing. Follow CLAUDE.md rules
+On-demand maintenance routine for this wiki, run by a Claude Code agent. Trigger it
+when `reports/open/` is non-empty, after ServUO source updates, or whenever a batch
+of MCP/agent edits should be verified and shipped — e.g.:
+
+    claude -p "Read /Users/dkkang/dev/uo/uowiki/LIBRARIAN.md and execute it end to end."
+
+Goal: keep the wiki correct, current, and growing. Follow CLAUDE.md rules
 throughout — provenance frontmatter, the two content layers, commit conventions.
 
 Run from `/Users/dkkang/dev/uo/uowiki`. Sibling repos: `../servuo` (ground truth),
