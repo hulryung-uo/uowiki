@@ -33,9 +33,13 @@
       "Talisman"
     ],
     "male_gump_offset": 50000,
-    "female_gump_offset": 60000
+    "female_gump_offset": 60000,
+    "skin_hue": 1024,
+    "skin_hue_note": "body gumps tinted with a representative human skin tone (RandomSkinHue = 1002..1058)"
   },
   "bodies": {
+    "skin_hue": 1024,
+    "skin_hue_note": "representative human skin tone (RandomSkinHue = 1002..1058)",
     "male": {
       "gump_id": "0x000C",
       "png": "/img/paperdoll/body-male.png",
@@ -317,6 +321,273 @@
           "class": "DragonHelm",
           "item_id": "0x2645",
           "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "hide": {
+      "png": "/img/paperdoll/suit-hide.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "HidePants",
+          "item_id": "0x2B78",
+          "layer": "Pants",
+          "hue": null
+        },
+        {
+          "class": "HidePauldrons",
+          "item_id": "0x2B77",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "HideChest",
+          "item_id": "0x2B74",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "HideGloves",
+          "item_id": "0x2B75",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "HideGorget",
+          "item_id": "0x2B76",
+          "layer": "Necklace",
+          "hue": null
+        }
+      ]
+    },
+    "woodland": {
+      "png": "/img/paperdoll/suit-woodland.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "WoodlandLegs",
+          "item_id": "0x2B6B",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "WoodlandArms",
+          "item_id": "0x2B6C",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "WoodlandChest",
+          "item_id": "0x2B67",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "WoodlandGloves",
+          "item_id": "0x2B6A",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "WoodlandGorget",
+          "item_id": "0x2B69",
+          "layer": "Necklace",
+          "hue": null
+        }
+      ]
+    },
+    "gargish-leather": {
+      "png": "/img/paperdoll/suit-gargish-leather.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "GargishLeatherLegs",
+          "item_id": "0x0305",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "GargishLeatherArms",
+          "item_id": "0x0302",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "GargishLeatherChest",
+          "item_id": "0x0304",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "GargishLeatherKilt",
+          "item_id": "0x0311",
+          "layer": "Skirt",
+          "hue": null
+        }
+      ]
+    },
+    "gargish-plate": {
+      "png": "/img/paperdoll/suit-gargish-plate.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "GargishPlateLegs",
+          "item_id": "0x030E",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "GargishPlateArms",
+          "item_id": "0x0308",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "GargishPlateChest",
+          "item_id": "0x030A",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "GargishPlateKilt",
+          "item_id": "0x030C",
+          "layer": "Skirt",
+          "hue": null
+        }
+      ]
+    },
+    "gargish-stone": {
+      "png": "/img/paperdoll/suit-gargish-stone.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "GargishStoneLegs",
+          "item_id": "0x028A",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "GargishStoneArms",
+          "item_id": "0x0284",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "GargishStoneChest",
+          "item_id": "0x0286",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "GargishStoneKilt",
+          "item_id": "0x0288",
+          "layer": "Skirt",
+          "hue": null
+        }
+      ]
+    },
+    "samurai-plate": {
+      "png": "/img/paperdoll/suit-samurai-plate.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "PlateSuneate",
+          "item_id": "0x2788",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "PlateDo",
+          "item_id": "0x277D",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "PlateMempo",
+          "item_id": "0x2779",
+          "layer": "Face",
+          "hue": null
+        },
+        {
+          "class": "PlateHaidate",
+          "item_id": "0x278D",
+          "layer": "Skirt",
+          "hue": null
+        },
+        {
+          "class": "StandardPlateKabuto",
+          "item_id": "0x2789",
+          "layer": "Helmet",
+          "hue": null
+        }
+      ]
+    },
+    "shield": {
+      "png": "/img/paperdoll/suit-shield.png",
+      "size": [
+        260,
+        237
+      ],
+      "pieces": [
+        {
+          "class": "PlateLegs",
+          "item_id": "0x1411",
+          "layer": "Legs",
+          "hue": null
+        },
+        {
+          "class": "PlateArms",
+          "item_id": "0x1410",
+          "layer": "Arms",
+          "hue": null
+        },
+        {
+          "class": "PlateChest",
+          "item_id": "0x1415",
+          "layer": "Torso",
+          "hue": null
+        },
+        {
+          "class": "PlateGloves",
+          "item_id": "0x1414",
+          "layer": "Gloves",
+          "hue": null
+        },
+        {
+          "class": "PlateGorget",
+          "item_id": "0x1413",
+          "layer": "Necklace",
+          "hue": null
+        },
+        {
+          "class": "PlateHelm",
+          "item_id": "0x1412",
+          "layer": "Helmet",
+          "hue": null
+        },
+        {
+          "class": "MetalShield",
+          "item_id": "0x1B7B",
+          "layer": "OneHanded",
           "hue": null
         }
       ]

@@ -46,34 +46,110 @@ what the in-game paperdoll renders.
 
 ## The nude bodies
 
-These are the base body gumps every paperdoll starts from.
+These are the base body gumps every paperdoll starts from. The art is grayscale;
+the client tints it with the character's **skin hue** (ServUO rolls one from the
+`RandomSkinHue` range, game hues 1002–1058). The figures below are tinted with a
+representative human skin tone (hue 1024) so they read as flesh rather than the
+raw gray of the gump.
 
-<img src="/img/paperdoll/body-male.png" width="220" alt="Nude male human body paperdoll (gump 0x000C)" />
-<img src="/img/paperdoll/body-female.png" width="220" alt="Nude female human body paperdoll (gump 0x000D)" />
+<img src="/img/paperdoll/body-male.png" width="220" alt="Skin-toned male human body paperdoll (gump 0x000C)" />
+<img src="/img/paperdoll/body-female.png" width="220" alt="Skin-toned female human body paperdoll (gump 0x000D)" />
 
-*Male body `0x000C` (left) and female body `0x000D` (right).*
+*Male body `0x000C` (left) and female body `0x000D` (right), tinted with skin hue 1024.*
 
 ## Armor by material
 
-Each suit below is the body gump layered with the standard pieces for that
-material (chest, arms, legs, gloves, gorget, helm — whichever the material has),
-in slot order. Browse the full set in the [armor catalog](/items/catalog/armor/).
+Each suit below is the skin-toned male body layered with the standard pieces for
+that material (chest, arms, legs, gloves, gorget/helm — whichever the material
+has), drawn in slot order and tinted by each piece's own hue. Browse the full set
+in the [armor catalog](/items/catalog/armor/); shields have their own
+[shield catalog](/items/catalog/shields/).
+
+### Leather
 
 <img src="/img/paperdoll/suit-leather.png" width="220" alt="Full leather armor worn on a male body" />
+
+*Chest, arms, legs, gloves, gorget, and cap.*
+
+### Studded leather
+
 <img src="/img/paperdoll/suit-studded.png" width="220" alt="Full studded leather armor worn on a male body" />
+
+*Chest, arms, legs, gloves, and gorget.*
+
+### Bone
+
 <img src="/img/paperdoll/suit-bone.png" width="220" alt="Full bone armor worn on a male body" />
 
-*Leather, Studded, and Bone.*
+*Chest, arms, legs, gloves, and helm — in its pale bone tone.*
+
+### Ringmail
 
 <img src="/img/paperdoll/suit-ringmail.png" width="220" alt="Full ringmail armor worn on a male body" />
+
+*Chest, arms, legs, and gloves.*
+
+### Chainmail
+
 <img src="/img/paperdoll/suit-chainmail.png" width="220" alt="Full chainmail armor worn on a male body" />
+
+*Chest, legs, and coif.*
+
+### Platemail
+
 <img src="/img/paperdoll/suit-plate.png" width="220" alt="Full plate armor worn on a male body" />
 
-*Ringmail, Chainmail, and Plate.*
+*Chest, arms, legs, gloves, gorget, and helm — the classic full plate.*
+
+### Dragon scale
 
 <img src="/img/paperdoll/suit-dragon.png" width="220" alt="Full dragon-scale armor worn on a male body" />
 
-*Dragon scale.*
+*Chest, arms, legs, gloves, and helm — carrying dragon scale's baked hue.*
+
+### Hide
+
+<img src="/img/paperdoll/suit-hide.png" width="220" alt="Full hide armor worn on a male body" />
+
+*Chest, pauldrons (arms), pants, gloves, and gorget.*
+
+### Woodland
+
+<img src="/img/paperdoll/suit-woodland.png" width="220" alt="Full woodland armor worn on a male body" />
+
+*Chest, arms, legs, gloves, and gorget — the elven heartwood set.*
+
+### Gargish leather
+
+<img src="/img/paperdoll/suit-gargish-leather.png" width="220" alt="Full gargish leather armor worn on a male body" />
+
+*Chest, arms, legs, and kilt.*
+
+### Gargish plate
+
+<img src="/img/paperdoll/suit-gargish-plate.png" width="220" alt="Full gargish plate armor worn on a male body" />
+
+*Chest, arms, legs, and kilt.*
+
+### Gargish stone
+
+<img src="/img/paperdoll/suit-gargish-stone.png" width="220" alt="Full gargish stone armor worn on a male body" />
+
+*Chest, arms, legs, and kilt — in its carved-stone tone.*
+
+### Samurai plate
+
+<img src="/img/paperdoll/suit-samurai-plate.png" width="220" alt="Full samurai plate armor worn on a male body" />
+
+*Do (chest), haidate (thigh guards), suneate (leg guards), mempo (face), and a
+plate kabuto helm.*
+
+### Plate with a shield
+
+<img src="/img/paperdoll/suit-shield.png" width="220" alt="Full plate armor with a metal shield worn on a male body" />
+
+*A full plate suit carrying a metal shield in the off-hand — shields draw on the
+one-handed layer.*
 
 ## Clothing outfits
 

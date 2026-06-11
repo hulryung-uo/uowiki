@@ -53,6 +53,12 @@ UO_DIR = pd.UO_DIR
 TILEDATA = pd.TILEDATA
 HUES_MUL = pd.HUES_MUL
 
+# Representative ServUO hue ranges (shared with extract_paperdoll).
+#   skin    : RandomSkinHue()    = 1002..1058  -> body tone
+#   clothing: RandomNeutralHue() = 1801..1908  -> random-dyed worn cloth/leather
+SKIN_HUE = pd.SKIN_HUE
+NEUTRAL_CLOTHING_HUE = pd.NEUTRAL_CLOTHING_HUE
+
 # UO equip-layer byte (tiledata) -> paperdoll draw-order layer name.
 # Layer enum from classicuo Game/Data/Layers.cs; only wearable layers mapped.
 LAYER_BY_BYTE = {
@@ -166,6 +172,12 @@ def main() -> int:
                 img = pd.apply_hue(img, hues[idx])
         return img
 
+    def tint_by_index(img: Image.Image, hue: int):
+        idx = (hue & 0x3FFF) - 1
+        if 0 <= idx < len(hues):
+            return pd.apply_hue(img, hues[idx])
+        return img
+
     appearance: dict[str, dict] = {}
     not_found: list[str] = []
     paperdoll_count = 0
@@ -187,7 +199,8 @@ def main() -> int:
                 continue
             iid = int(it["item_id"], 0)
             lb = layerb.get(iid, 0)
-            worn.append({
+            baked = item_hue_int(it)
+            entry = {
                 "class": e["class"],
                 "name": it.get("name"),
                 "item_id": it["item_id"],
@@ -195,7 +208,13 @@ def main() -> int:
                 "layer": LAYER_BY_BYTE.get(lb),
                 "optional": e["optional"],
                 "hue_random": e["hue_random"],
-            })
+            }
+            # Random-dyed at spawn with no baked hue -> our paperdoll tints it
+            # with a representative neutral clothing hue; flag it for the caption.
+            if e["hue_random"] and not baked:
+                entry["hue"] = f"0x{NEUTRAL_CLOTHING_HUE:04X}"
+                entry["hue_note"] = "representative (server randomizes)"
+            worn.append(entry)
 
         doll = pick_body(c.get("body"))
         paperdoll_path = None
@@ -205,6 +224,8 @@ def main() -> int:
             female = label.endswith("-female")
             body_img = gumps.get(body_gump_id)
             if body_img is not None:
+                # Skin-tone the grayscale body gump.
+                body_img = tint_by_index(body_img, SKIN_HUE)
                 # Choose pieces to draw: for each paperdoll layer, take the
                 # non-optional pieces; if a layer has ONLY optional pieces, take
                 # the first one (representative random weapon/garment).
@@ -222,7 +243,14 @@ def main() -> int:
                 rendered_any = False
                 for w in draw:
                     it = by_class[w["class"]]
-                    hue = None if w["hue_random"] else item_hue_int(it)
+                    baked = item_hue_int(it)
+                    # Random-dyed-no-baked pieces were stamped with the
+                    # representative neutral clothing hue above; use it so the
+                    # piece shows colour instead of bare grey.
+                    if w["hue_random"] and not baked:
+                        hue = NEUTRAL_CLOTHING_HUE
+                    else:
+                        hue = baked
                     gimg = piece_gump(it, female, hue)
                     if gimg is None:
                         continue
@@ -250,7 +278,11 @@ def main() -> int:
                            "or no piece could be rendered). worn: each equipped "
                            "item resolved against items.json with its paperdoll "
                            "equip layer, optional (random/conditional) and "
-                           "hue_random flags.",
+                           "hue_random flags. The body gump is tinted with a "
+                           "representative human skin hue; hue_random pieces with "
+                           "no baked hue are tinted with a representative neutral "
+                           "clothing hue and carry hue_note=\"representative "
+                           "(server randomizes)\".",
             "extracted_by": "tools/extract_mob_appearance.py",
             "sources": ["data/creatures.json", "data/items.json",
                         "uo-resource/tiledata.mul", "uo-resource/hues.mul",

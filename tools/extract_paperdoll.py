@@ -50,6 +50,15 @@ FEMALE_GUMP_OFFSET = 60000
 BODY_MALE = 0x000C
 BODY_FEMALE = 0x000D
 
+# Standard ServUO hue ranges (Server/Utility.cs, RaceDefinitions.cs). These are
+# 1-based indices into hues.mul, same as item hues.
+#   RandomSkinHue()    = Random(1002, 57)  -> 1002..1058  (human flesh tones)
+#   RandomNeutralHue() = Random(1801, 108) -> 1801..1908  (neutral clothing dye)
+# We tint the grayscale body gump with a representative skin tone, and any
+# random-dyed clothing with a representative neutral hue.
+SKIN_HUE = 1024
+NEUTRAL_CLOTHING_HUE = 1854
+
 # Layer draw order (back to front), from PaperDollInteractable._layerOrder.
 LAYER_ORDER = [
     "Cloak", "Shirt", "Pants", "Shoes", "Legs", "Arms", "Torso", "Tunic",
@@ -182,6 +191,9 @@ def layer_for_class(cls: str) -> str | None:
 
     Order matters: check more specific tokens first."""
     c = cls
+    # Shields go in the off-hand (OneHanded paperdoll slot).
+    if c.endswith("Shield") or c == "Buckler":
+        return "OneHanded"
     if "Cloak" in c:
         return "Cloak"
     if "Robe" in c:
@@ -190,19 +202,26 @@ def layer_for_class(cls: str) -> str | None:
         return "Necklace"
     if "Gloves" in c or c.endswith("Mitts"):
         return "Gloves"
-    if "Arms" in c:
+    # Samurai face guard (mempo) sits on the Face layer.
+    if "Mempo" in c:
+        return "Face"
+    if "Arms" in c or "Pauldrons" in c:
         return "Arms"
-    if "Legs" in c:
+    # Samurai leg guards (suneate) are the leg-armor layer.
+    if "Legs" in c or "Suneate" in c:
         return "Legs"
-    if "Skirt" in c or "Kilt" in c:
+    # Samurai thigh guards (haidate) drape like a skirt/kilt.
+    if "Skirt" in c or "Kilt" in c or "Haidate" in c:
         return "Skirt"
     if "Pants" in c:
         return "Pants"
     if "Shirt" in c:
         return "Shirt"
-    if any(t in c for t in ("Helm", "Cap", "Hat", "Coif", "Kabuto", "Hatsuburi")):
+    if any(t in c for t in ("Helm", "Cap", "Hat", "Coif", "Kabuto",
+                            "Hatsuburi", "Jingasa")):
         return "Helmet"
-    if "Chest" in c or "Tunic" in c or "Bustier" in c:
+    # Samurai chest (do/dou) and standard chest/tunic pieces on the Torso layer.
+    if "Chest" in c or "Tunic" in c or "Bustier" in c or c.endswith("Do"):
         return "Torso"
     return None
 
@@ -221,6 +240,27 @@ ARMOR_SUITS = {
               "PlateGorget", "PlateHelm"],
     "dragon": ["DragonChest", "DragonArms", "DragonLegs", "DragonGloves",
                "DragonHelm"],
+    # Hide (barbed/horned/spined leatherwork). Uses pauldrons for arms and a
+    # pants-style legging.
+    "hide": ["HideChest", "HidePauldrons", "HidePants", "HideGloves",
+             "HideGorget"],
+    # Woodland (elven heartwood) armor.
+    "woodland": ["WoodlandChest", "WoodlandArms", "WoodlandLegs",
+                 "WoodlandGloves", "WoodlandGorget"],
+    # Gargish armor (kilt instead of leggings).
+    "gargish-leather": ["GargishLeatherChest", "GargishLeatherArms",
+                        "GargishLeatherLegs", "GargishLeatherKilt"],
+    "gargish-plate": ["GargishPlateChest", "GargishPlateArms",
+                     "GargishPlateLegs", "GargishPlateKilt"],
+    "gargish-stone": ["GargishStoneChest", "GargishStoneArms",
+                     "GargishStoneLegs", "GargishStoneKilt"],
+    # Samurai (Ninja/Bushido) plate set: do (chest), kabuto (helm), mempo
+    # (face), haidate (thigh/skirt), suneate (legs).
+    "samurai-plate": ["PlateDo", "PlateHaidate", "PlateSuneate", "PlateMempo",
+                      "StandardPlateKabuto"],
+    # A worn plate suit carrying a metal shield in the off-hand.
+    "shield": ["PlateChest", "PlateArms", "PlateLegs", "PlateGloves",
+               "PlateGorget", "PlateHelm", "MetalShield"],
 }
 
 # Clothing outfits: name -> ordered candidate class names.
@@ -282,15 +322,27 @@ def main() -> int:
                 img = apply_hue(img, hues[idx])
         return img
 
+    def tint_body(img: Image.Image | None) -> Image.Image | None:
+        """Apply the representative human skin hue to a grayscale body gump."""
+        if img is None:
+            return None
+        idx = SKIN_HUE - 1
+        if 0 <= idx < len(hues):
+            return apply_hue(img, hues[idx])
+        return img
+
     # --- bodies ---------------------------------------------------------- #
-    body_male = gumps.get(BODY_MALE)
-    body_female = gumps.get(BODY_FEMALE)
+    body_male = tint_body(gumps.get(BODY_MALE))
+    body_female = tint_body(gumps.get(BODY_FEMALE))
     if body_male is None or body_female is None:
         print("FATAL: could not decode body gumps", file=sys.stderr)
         return 1
     body_male.save(os.path.join(out_dir, "body-male.png"))
     body_female.save(os.path.join(out_dir, "body-female.png"))
     bodies_doc = {
+        "skin_hue": SKIN_HUE,
+        "skin_hue_note": "representative human skin tone "
+                         "(RandomSkinHue = 1002..1058)",
         "male": {"gump_id": f"0x{BODY_MALE:04X}", "png": "/img/paperdoll/body-male.png",
                  "size": list(body_male.size)},
         "female": {"gump_id": f"0x{BODY_FEMALE:04X}", "png": "/img/paperdoll/body-female.png",
@@ -412,6 +464,9 @@ def main() -> int:
             "layer_order": LAYER_ORDER,
             "male_gump_offset": MALE_GUMP_OFFSET,
             "female_gump_offset": FEMALE_GUMP_OFFSET,
+            "skin_hue": SKIN_HUE,
+            "skin_hue_note": "body gumps tinted with a representative human skin "
+                             "tone (RandomSkinHue = 1002..1058)",
         },
         "bodies": bodies_doc,
         "suits": suits_doc,

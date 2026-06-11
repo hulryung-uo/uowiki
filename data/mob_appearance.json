@@ -1,6 +1,6 @@
 {
   "_schema": {
-    "description": "Dressed-paperdoll renders and worn-item lists for humanoid mobs that AddItem clothing/armor/masks/weapons. paperdoll: composited body + equipment gump (null when the body is not a humanoid paperdoll body or no piece could be rendered). worn: each equipped item resolved against items.json with its paperdoll equip layer, optional (random/conditional) and hue_random flags.",
+    "description": "Dressed-paperdoll renders and worn-item lists for humanoid mobs that AddItem clothing/armor/masks/weapons. paperdoll: composited body + equipment gump (null when the body is not a humanoid paperdoll body or no piece could be rendered). worn: each equipped item resolved against items.json with its paperdoll equip layer, optional (random/conditional) and hue_random flags. The body gump is tinted with a representative human skin hue; hue_random pieces with no baked hue are tinted with a representative neutral clothing hue and carry hue_note=\"representative (server randomizes)\".",
     "extracted_by": "tools/extract_mob_appearance.py",
     "sources": [
       "data/creatures.json",
@@ -34,7 +34,9 @@
           "png": "/img/items/0x1F7B.png",
           "layer": "Tunic",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Sandals",
@@ -43,7 +45,9 @@
           "png": "/img/items/0x170D.png",
           "layer": "Shoes",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ShortPants",
@@ -52,7 +56,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "HalfApron",
@@ -61,7 +67,9 @@
           "png": "/img/items/0x153B.png",
           "layer": "Waist",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         }
       ]
     },
@@ -75,7 +83,9 @@
           "png": "/img/items/0x1EFD.png",
           "layer": "Shirt",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "LongPants",
@@ -84,7 +94,9 @@
           "png": "/img/items/0x1539.png",
           "layer": "Pants",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "JesterHat",
@@ -93,7 +105,9 @@
           "png": "/img/items/0x171C.png",
           "layer": "Helmet",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Cloak",
@@ -102,7 +116,9 @@
           "png": "/img/items/0x1515.png",
           "layer": "Cloak",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Sandals",
@@ -139,7 +155,9 @@
           "png": "/img/items/0x1516.png",
           "layer": "Skirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ShortPants",
@@ -148,7 +166,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Boots",
@@ -157,7 +177,9 @@
           "png": "/img/items/0x170B.png",
           "layer": "Shoes",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "FancyShirt",
@@ -352,7 +374,9 @@
           "png": "/img/items/0x1517.png",
           "layer": "Shirt",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "BlackScales",
@@ -462,7 +486,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Shirt",
@@ -471,7 +497,9 @@
           "png": "/img/items/0x1517.png",
           "layer": "Shirt",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         }
       ]
     },
@@ -540,7 +568,9 @@
           "png": "/img/items/0x1517.png",
           "layer": "Shirt",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Sandals",
@@ -585,7 +615,9 @@
           "png": "/img/items/0x1516.png",
           "layer": "Skirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Kilt",
@@ -594,7 +626,9 @@
           "png": "/img/items/0x1537.png",
           "layer": "Skirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ShortPants",
@@ -603,7 +637,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         }
       ]
     },
@@ -667,7 +703,9 @@
           "png": "/img/items/0x1516.png",
           "layer": "Skirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ShortPants",
@@ -676,7 +714,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ThighBoots",
@@ -685,7 +725,9 @@
           "png": "/img/items/0x1711.png",
           "layer": "Shoes",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Surcoat",
@@ -694,7 +736,9 @@
           "png": "/img/items/0x1FFD.png",
           "layer": "Tunic",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ExecutionersAxe",
@@ -759,7 +803,9 @@
           "png": "/img/items/0x1516.png",
           "layer": "Skirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ShortPants",
@@ -768,7 +814,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Boots",
@@ -777,7 +825,9 @@
           "png": "/img/items/0x170B.png",
           "layer": "Shoes",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "FancyShirt",
@@ -909,7 +959,9 @@
           "png": "/img/items/0x1537.png",
           "layer": "Skirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Shirt",
@@ -918,7 +970,9 @@
           "png": "/img/items/0x1517.png",
           "layer": "Shirt",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "ThighBoots",
@@ -936,7 +990,9 @@
           "png": "/img/items/0x152E.png",
           "layer": "Pants",
           "optional": true,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Sandals",
@@ -954,7 +1010,9 @@
           "png": "/img/items/0x1540.png",
           "layer": "Helmet",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Dagger",
@@ -977,7 +1035,9 @@
           "png": "/img/items/0x1517.png",
           "layer": "Shirt",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Boots",
@@ -995,7 +1055,9 @@
           "png": "/img/items/0x1539.png",
           "layer": "Pants",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "QuarterStaff",
@@ -1582,7 +1644,9 @@
           "png": "/img/items/0x2796.png",
           "layer": "Shoes",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         }
       ]
     },
@@ -2011,7 +2075,9 @@
           "png": "/img/items/0x1540.png",
           "layer": "Helmet",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "Tessen",
@@ -2106,7 +2172,9 @@
           "png": "/img/items/0x1540.png",
           "layer": "Helmet",
           "optional": false,
-          "hue_random": true
+          "hue_random": true,
+          "hue": "0x073E",
+          "hue_note": "representative (server randomizes)"
         },
         {
           "class": "NoDachi",
