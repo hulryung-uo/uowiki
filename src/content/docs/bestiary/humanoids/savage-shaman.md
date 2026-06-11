@@ -52,6 +52,20 @@ last_verified: 2026-06-11
 | Tactics | 62.5–85.0 |
 | Wrestling | 62.5–85.0 |
 
+## Appearance
+
+Wears bone arms, bone legs and a deer mask.
+
+<img src="/img/paperdoll/mob-savage-shaman.png" alt="Savage Shaman equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x144E.png" class="uo-sprite" alt="" width="56" /> | bone arms | Arms |  |
+| <img src="/img/items/0x1452.png" class="uo-sprite" alt="" width="56" /> | bone legs | Pants |  |
+| <img src="/img/items/0x1547.png" class="uo-sprite" alt="" width="56" /> | deer mask | Helmet |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

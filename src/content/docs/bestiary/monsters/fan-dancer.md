@@ -49,6 +49,16 @@ last_verified: 2026-06-11
 | Tactics | 85.1–95.0 |
 | Wrestling | 85.1–95.0 |
 
+## Appearance
+
+Wields a tessen.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x27A3.png" class="uo-sprite" alt="" width="56" /> | tessen | TwoHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

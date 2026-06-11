@@ -47,3 +47,16 @@ last_verified: 2026-06-11
 | Fencing | 90.1–100.0 |
 | MagicResist | 80.1–90.0 |
 | Tactics | 90.1–100.0 |
+
+## Appearance
+
+Wears a kilt and sandals.
+
+<img src="/img/paperdoll/mob-tavara-sewel.png" alt="Tavara Sewel equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1537.png" class="uo-sprite" alt="" width="56" /> | kilt | Skirt |  |
+| <img src="/img/items/0x170D.png" class="uo-sprite" alt="" width="56" /> | sandals | Shoes |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

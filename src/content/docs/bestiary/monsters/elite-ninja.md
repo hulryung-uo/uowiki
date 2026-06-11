@@ -12,6 +12,7 @@ last_verified: 2026-06-11
 | | |
 |---|---|
 | **In-game name** | an elite ninja |
+| **Body ID** | 401, 400 |
 | **AI** | AI_Ninja |
 | **Fight mode** | Closest |
 | **Fame** | 8500 |
@@ -49,6 +50,22 @@ last_verified: 2026-06-11
 | Swords | 95.0–120.0 |
 | Tactics | 115.0–130.0 |
 | Wrestling | 95.0–120.0 |
+
+## Appearance
+
+Wears a ninja tabi, a leather ninja jacket, a leather ninja hood, leather ninja pants and leather ninja mitts.
+
+<img src="/img/paperdoll/mob-elite-ninja.png" alt="Elite Ninja equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x2797.png" class="uo-sprite" alt="" width="56" /> | ninja tabi | Shoes |  |
+| <img src="/img/items/0x2793.png" class="uo-sprite" alt="" width="56" /> | leather ninja jacket | Torso |  |
+| <img src="/img/items/0x278E.png" class="uo-sprite" alt="" width="56" /> | leather ninja hood | Helmet |  |
+| <img src="/img/items/0x2791.png" class="uo-sprite" alt="" width="56" /> | leather ninja pants | Pants |  |
+| <img src="/img/items/0x2792.png" class="uo-sprite" alt="" width="56" /> | leather ninja mitts | Gloves |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
 
 ## Loot & resources
 

@@ -46,6 +46,25 @@ last_verified: 2026-06-11
 | Swords | 72.5–95.0 |
 | Tactics | 80.1–100.0 |
 
+## Appearance
+
+Wears boots, a dyed shirt, sometimes a dragon scales, sometimes a dragon scales, sometimes a sea serpent scales, sometimes a dragon scales, sometimes a dragon scales and sometimes a dragon scales.
+
+<img src="/img/paperdoll/mob-chaos-dragoon-elite.png" alt="Chaos Dragoon Elite equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes |  |
+| <img src="/img/items/0x1517.png" class="uo-sprite" alt="" width="56" /> | shirt | Shirt | dyed |
+| <img src="/img/items/0x26B4-h0455.png" class="uo-sprite" alt="" width="56" /> | dragon scales | — | random |
+| <img src="/img/items/0x26B4-h066D.png" class="uo-sprite" alt="" width="56" /> | dragon scales | — | random |
+| <img src="/img/items/0x26B4-h08B0.png" class="uo-sprite" alt="" width="56" /> | sea serpent scales | — | random |
+| <img src="/img/items/0x26B4-h08A8.png" class="uo-sprite" alt="" width="56" /> | dragon scales | — | random |
+| <img src="/img/items/0x26B4-h0851.png" class="uo-sprite" alt="" width="56" /> | dragon scales | — | random |
+| <img src="/img/items/0x26B4-h08FD.png" class="uo-sprite" alt="" width="56" /> | dragon scales | — | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

@@ -51,6 +51,16 @@ last_verified: 2026-06-11
 | Tactics | 80.1–100.0 |
 | Wrestling | 70.1–100.0 |
 
+## Appearance
+
+Wields a light source.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1647.png" class="uo-sprite" alt="" width="56" /> | light source | TwoHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

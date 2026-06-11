@@ -48,6 +48,25 @@ last_verified: 2026-06-11
 | Tactics | 65.0–87.5 |
 | Wrestling | 15.0–37.5 |
 
+## Appearance
+
+Wears a dyed shirt, one of: sandals, a shoes, boots and thigh boots, one of: a dyed skirt and a dyed kilt and sometimes dyed short pants.
+
+<img src="/img/paperdoll/mob-elf-brigand.png" alt="Elf Brigand equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1517.png" class="uo-sprite" alt="" width="56" /> | shirt | Shirt | dyed |
+| <img src="/img/items/0x170D.png" class="uo-sprite" alt="" width="56" /> | sandals | Shoes | random |
+| <img src="/img/items/0x170F.png" class="uo-sprite" alt="" width="56" /> | shoes | Shoes | random |
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes | random |
+| <img src="/img/items/0x1711.png" class="uo-sprite" alt="" width="56" /> | thigh boots | Shoes | random |
+| <img src="/img/items/0x1516.png" class="uo-sprite" alt="" width="56" /> | skirt | Skirt | random, dyed |
+| <img src="/img/items/0x1537.png" class="uo-sprite" alt="" width="56" /> | kilt | Skirt | random, dyed |
+| <img src="/img/items/0x152E.png" class="uo-sprite" alt="" width="56" /> | short pants | Pants | random, dyed |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 - Gold: 50–150

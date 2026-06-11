@@ -48,6 +48,19 @@ last_verified: 2026-06-11
 | Swords | 60.1–70.0 |
 | Tactics | 90.1–100.0 |
 
+## Appearance
+
+Wears boots and a body sash.
+
+<img src="/img/paperdoll/mob-grimmoch-drummel.png" alt="Grimmoch Drummel equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes |  |
+| <img src="/img/items/0x1541.png" class="uo-sprite" alt="" width="56" /> | body sash | Tunic |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 - Pack items (some chance-based): Arrow, Fire Horn

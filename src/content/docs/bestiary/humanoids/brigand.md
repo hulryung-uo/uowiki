@@ -41,6 +41,29 @@ last_verified: 2026-06-11
 | Tactics | 65.0–87.5 |
 | Wrestling | 15.0–37.5 |
 
+## Appearance
+
+Wears sometimes a dyed skirt, sometimes dyed short pants, dyed boots, a fancy shirt and a bandana, and wields one of: a longsword, a cutlass, a broadsword, an axe, a club, a dagger and a spear.
+
+<img src="/img/paperdoll/mob-brigand.png" alt="Brigand equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1516.png" class="uo-sprite" alt="" width="56" /> | skirt | Skirt | random, dyed |
+| <img src="/img/items/0x152E.png" class="uo-sprite" alt="" width="56" /> | short pants | Pants | random, dyed |
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes | dyed |
+| <img src="/img/items/0x1EFD.png" class="uo-sprite" alt="" width="56" /> | fancy shirt | Shirt |  |
+| <img src="/img/items/0x1540.png" class="uo-sprite" alt="" width="56" /> | bandana | Helmet |  |
+| <img src="/img/items/0x0F61.png" class="uo-sprite" alt="" width="56" /> | longsword | OneHanded | random |
+| <img src="/img/items/0x1441.png" class="uo-sprite" alt="" width="56" /> | cutlass | OneHanded | random |
+| <img src="/img/items/0x0F5E.png" class="uo-sprite" alt="" width="56" /> | broadsword | OneHanded | random |
+| <img src="/img/items/0x0F49.png" class="uo-sprite" alt="" width="56" /> | axe | TwoHanded | random |
+| <img src="/img/items/0x13B4.png" class="uo-sprite" alt="" width="56" /> | club | OneHanded | random |
+| <img src="/img/items/0x0F52.png" class="uo-sprite" alt="" width="56" /> | dagger | OneHanded | random |
+| <img src="/img/items/0x0F62.png" class="uo-sprite" alt="" width="56" /> | spear | TwoHanded | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

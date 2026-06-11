@@ -44,6 +44,21 @@ last_verified: 2026-06-11
 | Swords | 72.5–95.0 |
 | Tactics | 72.5–95.0 |
 
+## Appearance
+
+Wears bone arms, bone legs and a bear mask, and wields a tribal spear.
+
+<img src="/img/paperdoll/mob-savage-rider.png" alt="Savage Rider equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x0F62.png" class="uo-sprite" alt="" width="56" /> | tribal spear | TwoHanded |  |
+| <img src="/img/items/0x144E.png" class="uo-sprite" alt="" width="56" /> | bone arms | Arms |  |
+| <img src="/img/items/0x1452.png" class="uo-sprite" alt="" width="56" /> | bone legs | Pants |  |
+| <img src="/img/items/0x1545.png" class="uo-sprite" alt="" width="56" /> | bear mask | Helmet |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

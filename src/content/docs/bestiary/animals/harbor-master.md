@@ -25,6 +25,21 @@ last_verified: 2026-06-11
 |---|---|
 | Mining | 36–68 |
 
+## Appearance
+
+Wears a dyed shirt, boots and dyed long pants, and wields a quarter staff.
+
+<img src="/img/paperdoll/mob-harbor-master.png" alt="Harbor Master equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1517.png" class="uo-sprite" alt="" width="56" /> | shirt | Shirt | dyed |
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes |  |
+| <img src="/img/items/0x1539.png" class="uo-sprite" alt="" width="56" /> | long pants | Pants | dyed |
+| <img src="/img/items/0x0E89.png" class="uo-sprite" alt="" width="56" /> | quarter staff | TwoHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 - Gold: 250–300

@@ -50,6 +50,19 @@ last_verified: 2026-06-11
 | Swords | 55.0–77.5 |
 | Tactics | 60.0–82.5 |
 
+## Appearance
+
+Wears dyed short pants and a dyed shirt.
+
+<img src="/img/paperdoll/mob-cursed.png" alt="Cursed equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x152E.png" class="uo-sprite" alt="" width="56" /> | short pants | Pants | dyed |
+| <img src="/img/items/0x1517.png" class="uo-sprite" alt="" width="56" /> | shirt | Shirt | dyed |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

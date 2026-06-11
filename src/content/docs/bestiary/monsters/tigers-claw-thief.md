@@ -13,6 +13,7 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | Black Order Thief |
 | **Corpse** | a black order thief corpse |
+| **Body ID** | 400, 401 |
 | **AI** | AI_Melee |
 | **Fight mode** | Closest |
 | **Fame** | 13000 |
@@ -50,6 +51,22 @@ last_verified: 2026-06-11
 | Swords | 90.1–105.0 |
 | Tactics | 115.0–130.0 |
 | Wrestling | 95.0–120.0 |
+
+## Appearance
+
+Wears thigh boots, a fancy shirt, a studded mempo and a jin baori, and wields a wakizashi.
+
+<img src="/img/paperdoll/mob-tigers-claw-thief.png" alt="Black Order Thief equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1711.png" class="uo-sprite" alt="" width="56" /> | thigh boots | Shoes |  |
+| <img src="/img/items/0x27A4.png" class="uo-sprite" alt="" width="56" /> | wakizashi | OneHanded |  |
+| <img src="/img/items/0x1EFD.png" class="uo-sprite" alt="" width="56" /> | fancy shirt | Shirt |  |
+| <img src="/img/items/0x279D.png" class="uo-sprite" alt="" width="56" /> | studded mempo | Necklace |  |
+| <img src="/img/items/0x27A1.png" class="uo-sprite" alt="" width="56" /> | jin baori | Tunic |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
 
 ## Loot & resources
 

@@ -51,6 +51,22 @@ last_verified: 2026-06-11
 | Swords | 125.0 |
 | Tactics | 125.0 |
 
+## Appearance
+
+Wears sometimes a dyed skirt, sometimes dyed short pants, dyed thigh boots and a dyed surcoat, and wields an executioners axe.
+
+<img src="/img/paperdoll/mob-executioner.png" alt="Executioner equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1516.png" class="uo-sprite" alt="" width="56" /> | skirt | Skirt | random, dyed |
+| <img src="/img/items/0x152E.png" class="uo-sprite" alt="" width="56" /> | short pants | Pants | random, dyed |
+| <img src="/img/items/0x1711.png" class="uo-sprite" alt="" width="56" /> | thigh boots | Shoes | dyed |
+| <img src="/img/items/0x1FFD.png" class="uo-sprite" alt="" width="56" /> | surcoat | Tunic | dyed |
+| <img src="/img/items/0x0F45.png" class="uo-sprite" alt="" width="56" /> | executioners axe | TwoHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

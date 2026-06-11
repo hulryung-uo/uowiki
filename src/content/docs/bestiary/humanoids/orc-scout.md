@@ -56,6 +56,17 @@ last_verified: 2026-06-11
 | Stealth | 80.1–120.0 |
 | Tactics | 55.1–80.0 |
 
+## Appearance
+
+Wields one of: an orcish bow and a bow.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x13B2.png" class="uo-sprite" alt="" width="56" /> | an orcish bow | OneHanded | random |
+| <img src="/img/items/0x13B2.png" class="uo-sprite" alt="" width="56" /> | bow | OneHanded | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

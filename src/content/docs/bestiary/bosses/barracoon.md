@@ -48,6 +48,22 @@ last_verified: 2026-06-11
 | Tactics | 118.3–120.2 |
 | Wrestling | 118.4–122.7 |
 
+## Appearance
+
+Wears a dyed fancy shirt, dyed long pants, a dyed jester hat, a dyed cloak and sandals.
+
+<img src="/img/paperdoll/mob-barracoon.png" alt="Barracoon equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1EFD.png" class="uo-sprite" alt="" width="56" /> | fancy shirt | Shirt | dyed |
+| <img src="/img/items/0x1539.png" class="uo-sprite" alt="" width="56" /> | long pants | Pants | dyed |
+| <img src="/img/items/0x171C.png" class="uo-sprite" alt="" width="56" /> | jester hat | Helmet | dyed |
+| <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="56" /> | cloak | Cloak | dyed |
+| <img src="/img/items/0x170D.png" class="uo-sprite" alt="" width="56" /> | sandals | Shoes |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

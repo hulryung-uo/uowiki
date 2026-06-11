@@ -49,6 +49,19 @@ last_verified: 2026-06-11
 | Tactics | 90.1–100.0 |
 | Wrestling | 80.1–90.0 |
 
+## Appearance
+
+Wears boots and a cloak.
+
+<img src="/img/paperdoll/mob-lysander-gathenwale.png" alt="Lysander Gathenwale equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes |  |
+| <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="56" /> | cloak | Cloak |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

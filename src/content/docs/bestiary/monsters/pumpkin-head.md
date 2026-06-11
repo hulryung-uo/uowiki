@@ -13,7 +13,6 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | a killer pumpkin |
 | **Corpse** | a killer pumpkin corpse |
-| **Body ID** | 1246 |
 | **Base sound ID** | 268 |
 | **AI** | AI_Melee |
 | **Fight mode** | Closest |

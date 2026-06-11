@@ -30,6 +30,22 @@ last_verified: 2026-06-11
 | Swords | 64.0–85.0 |
 | Tactics | 64.0–85.0 |
 
+## Appearance
+
+Wears sometimes a leather ninja hood, leather ninja pants, a leather ninja belt, a leather ninja jacket and a ninja tabi.
+
+<img src="/img/paperdoll/mob-ninja.png" alt="Ninja equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x278E.png" class="uo-sprite" alt="" width="56" /> | leather ninja hood | Helmet | random |
+| <img src="/img/items/0x2791.png" class="uo-sprite" alt="" width="56" /> | leather ninja pants | Pants |  |
+| <img src="/img/items/0x2790.png" class="uo-sprite" alt="" width="56" /> | leather ninja belt | Waist |  |
+| <img src="/img/items/0x2793.png" class="uo-sprite" alt="" width="56" /> | leather ninja jacket | Torso |  |
+| <img src="/img/items/0x2797.png" class="uo-sprite" alt="" width="56" /> | ninja tabi | Shoes |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 - Gold: 250–300

@@ -15,7 +15,6 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | a ronin |
 | **Corpse** | a ronin corpse |
-| **Body ID** | 401 |
 | **AI** | AI_Samurai |
 | **Fight mode** | Closest |
 | **Fame** | 8500 |
@@ -52,6 +51,27 @@ last_verified: 2026-06-11
 | Swords | 92.6–107.5 |
 | Tactics | 115.1–130.0 |
 | Wrestling | 92.6–107.5 |
+
+## Appearance
+
+Wears a samurai tabi, a leather hiro sode, a leather do, one of: a light plate jingasa, a chain hatsuburi, a decorative plate kabuto and a leather jingasa and one of: a studded haidate, a leather suneate and a plate suneate, and wields one of: a no dachi and a halberd.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x2796.png" class="uo-sprite" alt="" width="56" /> | samurai tabi | Shoes |  |
+| <img src="/img/items/0x277E.png" class="uo-sprite" alt="" width="56" /> | leather hiro sode | Arms |  |
+| <img src="/img/items/0x27C6.png" class="uo-sprite" alt="" width="56" /> | leather do | Torso |  |
+| <img src="/img/items/0x2781.png" class="uo-sprite" alt="" width="56" /> | light plate jingasa | Helmet | random |
+| <img src="/img/items/0x2774.png" class="uo-sprite" alt="" width="56" /> | chain hatsuburi | Helmet | random |
+| <img src="/img/items/0x2778.png" class="uo-sprite" alt="" width="56" /> | decorative plate kabuto | Helmet | random |
+| <img src="/img/items/0x2776.png" class="uo-sprite" alt="" width="56" /> | leather jingasa | Helmet | random |
+| <img src="/img/items/0x278B.png" class="uo-sprite" alt="" width="56" /> | studded haidate | Pants | random |
+| <img src="/img/items/0x2786.png" class="uo-sprite" alt="" width="56" /> | leather suneate | Pants | random |
+| <img src="/img/items/0x2788.png" class="uo-sprite" alt="" width="56" /> | plate suneate | Pants | random |
+| <img src="/img/items/0x27A2.png" class="uo-sprite" alt="" width="56" /> | no dachi | TwoHanded | random |
+| <img src="/img/items/0x143E.png" class="uo-sprite" alt="" width="56" /> | halberd | TwoHanded | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
 
 ## Loot & resources
 

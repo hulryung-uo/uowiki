@@ -24,3 +24,18 @@ last_verified: 2026-06-11
 | Skill | Value |
 |---|---|
 | Healing | 36–68 |
+
+## Appearance
+
+Wears a dyed doublet, dyed sandals, dyed short pants and a dyed half apron.
+
+<img src="/img/paperdoll/mob-artist.png" alt="Artist equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1F7B.png" class="uo-sprite" alt="" width="56" /> | doublet | Tunic | dyed |
+| <img src="/img/items/0x170D.png" class="uo-sprite" alt="" width="56" /> | sandals | Shoes | dyed |
+| <img src="/img/items/0x152E.png" class="uo-sprite" alt="" width="56" /> | short pants | Pants | dyed |
+| <img src="/img/items/0x153B.png" class="uo-sprite" alt="" width="56" /> | half apron | Waist | dyed |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

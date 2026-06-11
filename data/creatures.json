@@ -19,6 +19,7 @@
     "creature.loot.pack_items": "item class names from simple PackItem(new X()) calls",
     "creature.loot.pack_gold": "int or [min, max] from PackGold",
     "creature.meat/hides/feathers/wool/hide_type": "carve resource property overrides",
+    "creature.equipment": "worn/wielded items from AddItem(new X()) calls (not loot); [{class, optional (in a switch/if/random block), hue_random (arg is Utility.Random*Hue())}]",
     "creature.source": "script path relative to the servuo root"
   },
   "_meta": {
@@ -2488,7 +2489,29 @@
           36,
           68
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Doublet",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "HalfApron",
+          "optional": false,
+          "hue_random": true
+        }
+      ]
     },
     {
       "class": "BakeKitsune",
@@ -2929,7 +2952,34 @@
             "count": 3
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "FancyShirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "LongPants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "JesterHat",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Cloak",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "BattleChickenLizard",
@@ -3117,7 +3167,14 @@
           "DaemonBone",
           "FertileDirt"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Betrayer",
@@ -4605,7 +4662,69 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "FancyShirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Longsword",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Cutlass",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Broadsword",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Axe",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Club",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Dagger",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Spear",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "BronzeElemental",
@@ -5120,7 +5239,14 @@
       },
       "meat": 1,
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Changeling",
@@ -5393,7 +5519,49 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BlackScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "RedScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "BlueScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "YellowScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "GreenScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "WhiteScales",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ChaosDragoonElite",
@@ -5473,7 +5641,49 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "BlackScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "RedScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "BlueScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "YellowScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "GreenScales",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "WhiteScales",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Chicken",
@@ -5815,7 +6025,14 @@
         ]
       },
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ClanCT",
@@ -5908,7 +6125,14 @@
         ]
       },
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ClanRC",
@@ -6274,7 +6498,14 @@
         ]
       },
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ClanSSW",
@@ -8327,7 +8558,19 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "ShortPants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Shirt",
+          "optional": false,
+          "hue_random": true
+        }
+      ]
     },
     {
       "class": "CursedSoul",
@@ -8760,7 +9003,14 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "DarkWolfFamiliar",
@@ -10150,6 +10400,10 @@
       "ai_type": "AI_Mage",
       "fight_mode": "Closest",
       "name": "Black Order Mage",
+      "body": [
+        400,
+        401
+      ],
       "str": [
         340,
         360
@@ -10230,7 +10484,29 @@
             "count": 4
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "NinjaTabi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "FancyShirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Hakama",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Kasa",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Drake",
@@ -11492,7 +11768,49 @@
           50,
           150
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Boots",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ThighBoots",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Kilt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "optional": true,
+          "hue_random": true
+        }
+      ]
     },
     {
       "class": "EliteNinja",
@@ -11500,6 +11818,10 @@
       "ai_type": "AI_Ninja",
       "fight_mode": "Closest",
       "name": "an elite ninja",
+      "body": [
+        401,
+        400
+      ],
       "str": [
         126,
         225
@@ -11612,7 +11934,34 @@
           "Tessen",
           "Wakizashi"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "NinjaTabi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaJacket",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaHood",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaMitts",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "EnergyVortex",
@@ -13167,7 +13516,34 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ThighBoots",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Surcoat",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "ExecutionersAxe",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ExodusMinion",
@@ -13519,7 +13895,14 @@
         "pack_items": [
           "OrigamiPaper"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Tessen",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "FeralTreefellow",
@@ -14189,7 +14572,14 @@
         "pack_items": [
           "SulfurousAsh"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "FireElementalRenowned",
@@ -14280,7 +14670,14 @@
         "pack_items": [
           "SulfurousAsh"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "FireGargoyle",
@@ -14902,7 +15299,69 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "FancyShirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Longsword",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Cutlass",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Broadsword",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Axe",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Club",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Dagger",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Spear",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "FrenziedOstard",
@@ -18824,6 +19283,10 @@
       "ai_type": "AI_Melee",
       "fight_mode": "Aggressor",
       "name": "Gregorio",
+      "body": [
+        400,
+        401
+      ],
       "str": [
         86,
         100
@@ -18924,7 +19387,14 @@
           "Apple",
           "Arrow"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "GreyWolf",
@@ -19177,7 +19647,19 @@
           "Arrow",
           "FireHorn"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BodySash",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "GrizzlyBear",
@@ -19481,7 +19963,44 @@
           65,
           88
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Kilt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Shirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ThighBoots",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ShortPants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Dagger",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "HarborMaster",
@@ -19502,7 +20021,29 @@
           250,
           300
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LongPants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "QuarterStaff",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Harpy",
@@ -20065,7 +20606,34 @@
       "skills": {
         "Swords": 50.0,
         "Tactics": 50.0
-      }
+      },
+      "equipment": [
+        {
+          "class": "LeatherNinjaJacket",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "NinjaTabi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Kama",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Tessen",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "HighPlainsBoura",
@@ -20350,7 +20918,14 @@
         "pack_items": [
           "Bone"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "HordeMinionFamiliar",
@@ -21825,7 +22400,14 @@
           }
         ]
       },
-      "meat": 1
+      "meat": 1,
+      "equipment": [
+        {
+          "class": "JukaBow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "JukaMage",
@@ -22633,7 +23215,14 @@
       },
       "fame": 10000,
       "karma": -10000,
-      "virtual_armor": 40
+      "virtual_armor": 40,
+      "equipment": [
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Kirin",
@@ -25084,7 +25673,19 @@
             "count": 2
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Cloak",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "MLDryad",
@@ -25827,7 +26428,19 @@
             "count": 4
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Robe",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Medusa",
@@ -26005,7 +26618,14 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Crossbow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "MeerEternal",
@@ -26545,7 +27165,44 @@
       "body": 400,
       "skills": {
         "Swords": 20.0
-      }
+      },
+      "equipment": [
+        {
+          "class": "ThighBoots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherChest",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherArms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherLegs",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherCap",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherGloves",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherGorget",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Mimic",
@@ -27413,7 +28070,14 @@
         ]
       },
       "fame": 5000,
-      "karma": -1000
+      "karma": -1000,
+      "equipment": [
+        {
+          "class": "ShortPants",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "MougGuur",
@@ -27768,7 +28432,14 @@
         "MagicResist": 80.0,
         "Tactics": 80.0,
         "Wrestling": 80.0
-      }
+      },
+      "equipment": [
+        {
+          "class": "BuyBackpack",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Navrey",
@@ -27947,7 +28618,14 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "VirtualMountItem",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "NightTerror",
@@ -28180,7 +28858,34 @@
           250,
           300
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LeatherNinjaHood",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaBelt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaJacket",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "NinjaTabi",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Niporailem",
@@ -29595,7 +30300,19 @@
           "Yeast"
         ]
       },
-      "meat": 1
+      "meat": 1,
+      "equipment": [
+        {
+          "class": "OrcishBow",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Bow",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "OrcishLord",
@@ -31686,7 +32403,6 @@
       "ai_type": "AI_Melee",
       "fight_mode": "Closest",
       "name": "a killer pumpkin",
-      "body": 1246,
       "base_sound_id": 268,
       "str": 350,
       "dex": 125,
@@ -32399,7 +33115,14 @@
         ]
       },
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Raptor",
@@ -32710,7 +33433,14 @@
         ]
       },
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "RatmanMage",
@@ -34278,7 +35008,6 @@
       "ai_type": "AI_Samurai",
       "fight_mode": "Closest",
       "name": "a ronin",
-      "body": 401,
       "str": [
         326,
         375
@@ -34384,7 +35113,69 @@
           "Longsword",
           "Wakizashi"
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "SamuraiTabi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherHiroSode",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherDo",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LightPlateJingasa",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ChainHatsuburi",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "DecorativePlateKabuto",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherJingasa",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedHaidate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherSuneate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "PlateSuneate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "NoDachi",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Halberd",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "RottingCorpse",
@@ -35008,7 +35799,74 @@
           250,
           300
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "Lajatang",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Wakizashi",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "NoDachi",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherSuneate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "PlateSuneate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedHaidate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherJingasa",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ChainHatsuburi",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "HeavyPlateJingasa",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "DecorativePlateKabuto",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherDo",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherHiroSode",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "SamuraiTabi",
+          "optional": false,
+          "hue_random": true
+        }
+      ]
     },
     {
       "class": "SandVortex",
@@ -35243,7 +36101,34 @@
           "TribalBerry"
         ]
       },
-      "meat": 1
+      "meat": 1,
+      "equipment": [
+        {
+          "class": "Spear",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneArms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneLegs",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "SavageMask",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "OrcishKinMask",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "SavageRider",
@@ -35317,7 +36202,29 @@
           "BolaBall"
         ]
       },
-      "meat": 1
+      "meat": 1,
+      "equipment": [
+        {
+          "class": "TribalSpear",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneArms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneLegs",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BearMask",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "SavageRidgeback",
@@ -35499,7 +36406,24 @@
           "TribalBerry"
         ]
       },
-      "meat": 1
+      "meat": 1,
+      "equipment": [
+        {
+          "class": "BoneArms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneLegs",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "DeerMask",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ScaledSwampDragon",
@@ -36102,6 +37026,10 @@
       "ai_type": "AI_Melee",
       "fight_mode": "Closest",
       "name": "Black Order Assassin",
+      "body": [
+        400,
+        401
+      ],
       "str": [
         440,
         460
@@ -36195,7 +37123,29 @@
             "count": 4
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "ThighBoots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "FancyShirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedMempo",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "JinBaori",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "SerpentsFangHighExecutioner",
@@ -36675,7 +37625,14 @@
         ]
       },
       "fame": 500,
-      "virtual_armor": 18
+      "virtual_armor": 18,
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "ShadowWispFamiliar",
@@ -40103,7 +41060,14 @@
         "Wrestling": 92.0
       },
       "virtual_armor": 40,
-      "control_slots": 4
+      "control_slots": 4,
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "SummonedPaladin",
@@ -40119,7 +41083,54 @@
       },
       "loot": {
         "pack_gold": 500
-      }
+      },
+      "equipment": [
+        {
+          "class": "Boots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "ChainChest",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "ChainLegs",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "RingmailArms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "PlateHelm",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "PlateGloves",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "PlateGorget",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Cloak",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "ThinLongsword",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "SummonedWaterElemental",
@@ -40728,7 +41739,19 @@
         ]
       },
       "fame": 5000,
-      "karma": -1000
+      "karma": -1000,
+      "equipment": [
+        {
+          "class": "Kilt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Sandals",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Tempest",
@@ -41385,6 +42408,10 @@
       "ai_type": "AI_Melee",
       "fight_mode": "Closest",
       "name": "Black Order Thief",
+      "body": [
+        400,
+        401
+      ],
       "str": [
         340,
         360
@@ -41478,7 +42505,34 @@
             "count": 4
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "ThighBoots",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Wakizashi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "FancyShirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedMempo",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "JinBaori",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "TikitaviRenowned",
@@ -43011,7 +44065,14 @@
       },
       "meat": 1,
       "hides": 8,
-      "hide_type": "Spined"
+      "hide_type": "Spined",
+      "equipment": [
+        {
+          "class": "Bow",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "UndeadGargoyle",
@@ -45237,7 +46298,14 @@
             "count": 1
           }
         ]
-      }
+      },
+      "equipment": [
+        {
+          "class": "LightSource",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "WolfSpider",
@@ -46052,7 +47120,49 @@
       "skills": {
         "Swords": 50.0,
         "Tactics": 50.0
-      }
+      },
+      "equipment": [
+        {
+          "class": "NinjaTabi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaJacket",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaBelt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Tessen",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Kama",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Lajatang",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "YoungRonin",
@@ -46069,7 +47179,59 @@
       "skills": {
         "Swords": 50.0,
         "Tactics": 50.0
-      }
+      },
+      "equipment": [
+        {
+          "class": "LeatherDo",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherHiroSode",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "SamuraiTabi",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedHaidate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "PlateSuneate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherSuneate",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "NoDachi",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Lajatang",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Wakizashi",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
     },
     {
       "class": "Zombie",

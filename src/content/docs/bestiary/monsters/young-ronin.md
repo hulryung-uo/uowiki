@@ -32,3 +32,24 @@ last_verified: 2026-06-11
 |---|---|
 | Swords | 50.0 |
 | Tactics | 50.0 |
+
+## Appearance
+
+Wears a leather do, a leather hiro sode, a samurai tabi, one of: a studded haidate, a plate suneate and a leather suneate and a dyed bandana, and wields one of: a no dachi, a lajatang and a wakizashi.
+
+<img src="/img/paperdoll/mob-young-ronin.png" alt="Young Ronin equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x27C6.png" class="uo-sprite" alt="" width="56" /> | leather do | Torso |  |
+| <img src="/img/items/0x277E.png" class="uo-sprite" alt="" width="56" /> | leather hiro sode | Arms |  |
+| <img src="/img/items/0x2796.png" class="uo-sprite" alt="" width="56" /> | samurai tabi | Shoes |  |
+| <img src="/img/items/0x278B.png" class="uo-sprite" alt="" width="56" /> | studded haidate | Pants | random |
+| <img src="/img/items/0x2788.png" class="uo-sprite" alt="" width="56" /> | plate suneate | Pants | random |
+| <img src="/img/items/0x2786.png" class="uo-sprite" alt="" width="56" /> | leather suneate | Pants | random |
+| <img src="/img/items/0x1540.png" class="uo-sprite" alt="" width="56" /> | bandana | Helmet | dyed |
+| <img src="/img/items/0x27A2.png" class="uo-sprite" alt="" width="56" /> | no dachi | TwoHanded | random |
+| <img src="/img/items/0x27A7.png" class="uo-sprite" alt="" width="56" /> | lajatang | TwoHanded | random |
+| <img src="/img/items/0x27A4.png" class="uo-sprite" alt="" width="56" /> | wakizashi | OneHanded | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

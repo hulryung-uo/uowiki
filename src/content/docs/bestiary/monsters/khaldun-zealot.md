@@ -48,3 +48,15 @@ last_verified: 2026-06-11
 | Swords | 120.1–130.0 |
 | Tactics | 90.1–100.0 |
 | Wrestling | 70.1–80.0 |
+
+## Appearance
+
+Wears boots.
+
+<img src="/img/paperdoll/mob-khaldun-zealot.png" alt="Zealot Of Khaldun equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

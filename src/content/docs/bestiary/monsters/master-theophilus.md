@@ -47,6 +47,17 @@ last_verified: 2026-06-11
 | Tactics | 113.0–117.9 |
 | Wrestling | 69.9–105.3 |
 
+## Appearance
+
+Wears a shoes and a robe.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x170F.png" class="uo-sprite" alt="" width="56" /> | shoes | Shoes |  |
+| <img src="/img/items/0x1F03.png" class="uo-sprite" alt="" width="56" /> | robe | Robe |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

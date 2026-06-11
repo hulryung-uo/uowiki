@@ -25,3 +25,19 @@ last_verified: 2026-06-11
 |---|---|
 | Swords | 50.0 |
 | Tactics | 50.0 |
+
+## Appearance
+
+Wears a leather ninja jacket, leather ninja pants and a ninja tabi, and wields one of: a kama and a tessen.
+
+<img src="/img/paperdoll/mob-henchman.png" alt="Henchman equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x2793.png" class="uo-sprite" alt="" width="56" /> | leather ninja jacket | Torso |  |
+| <img src="/img/items/0x2791.png" class="uo-sprite" alt="" width="56" /> | leather ninja pants | Pants |  |
+| <img src="/img/items/0x2797.png" class="uo-sprite" alt="" width="56" /> | ninja tabi | Shoes |  |
+| <img src="/img/items/0x27AD.png" class="uo-sprite" alt="" width="56" /> | kama | TwoHanded | random |
+| <img src="/img/items/0x27A3.png" class="uo-sprite" alt="" width="56" /> | tessen | TwoHanded | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

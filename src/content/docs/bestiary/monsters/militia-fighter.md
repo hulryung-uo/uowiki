@@ -24,3 +24,21 @@ last_verified: 2026-06-11
 | Skill | Value |
 |---|---|
 | Swords | 20.0 |
+
+## Appearance
+
+Wears thigh boots, a leather chest, leather arms, leather legs, a leather cap, leather gloves and a leather gorget.
+
+<img src="/img/paperdoll/mob-militia-fighter.png" alt="Militia Fighter equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1711.png" class="uo-sprite" alt="" width="56" /> | thigh boots | Shoes |  |
+| <img src="/img/items/0x13CC.png" class="uo-sprite" alt="" width="56" /> | leather chest | Torso |  |
+| <img src="/img/items/0x13CD.png" class="uo-sprite" alt="" width="56" /> | leather arms | Arms |  |
+| <img src="/img/items/0x13CB.png" class="uo-sprite" alt="" width="56" /> | leather legs | Pants |  |
+| <img src="/img/items/0x1DB9.png" class="uo-sprite" alt="" width="56" /> | leather cap | Helmet |  |
+| <img src="/img/items/0x13C6.png" class="uo-sprite" alt="" width="56" /> | leather gloves | Gloves |  |
+| <img src="/img/items/0x13C7.png" class="uo-sprite" alt="" width="56" /> | leather gorget | Necklace |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

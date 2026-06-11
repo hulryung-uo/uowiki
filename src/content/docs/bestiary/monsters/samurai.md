@@ -28,6 +28,30 @@ last_verified: 2026-06-11
 | Parry | 64.0–80.0 |
 | Swords | 64.0–85.0 |
 
+## Appearance
+
+Wears one of: a leather suneate, a plate suneate and a studded haidate, one of: a leather jingasa, a chain hatsuburi, a heavy plate jingasa and a decorative plate kabuto, a leather do, a leather hiro sode and a dyed samurai tabi, and wields one of: a lajatang, a wakizashi and a no dachi.
+
+<img src="/img/paperdoll/mob-samurai.png" alt="Samurai equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x27A7.png" class="uo-sprite" alt="" width="56" /> | lajatang | TwoHanded | random |
+| <img src="/img/items/0x27A4.png" class="uo-sprite" alt="" width="56" /> | wakizashi | OneHanded | random |
+| <img src="/img/items/0x27A2.png" class="uo-sprite" alt="" width="56" /> | no dachi | TwoHanded | random |
+| <img src="/img/items/0x2786.png" class="uo-sprite" alt="" width="56" /> | leather suneate | Pants | random |
+| <img src="/img/items/0x2788.png" class="uo-sprite" alt="" width="56" /> | plate suneate | Pants | random |
+| <img src="/img/items/0x278B.png" class="uo-sprite" alt="" width="56" /> | studded haidate | Pants | random |
+| <img src="/img/items/0x2776.png" class="uo-sprite" alt="" width="56" /> | leather jingasa | Helmet | random |
+| <img src="/img/items/0x2774.png" class="uo-sprite" alt="" width="56" /> | chain hatsuburi | Helmet | random |
+| <img src="/img/items/0x2777.png" class="uo-sprite" alt="" width="56" /> | heavy plate jingasa | Helmet | random |
+| <img src="/img/items/0x2778.png" class="uo-sprite" alt="" width="56" /> | decorative plate kabuto | Helmet | random |
+| <img src="/img/items/0x27C6.png" class="uo-sprite" alt="" width="56" /> | leather do | Torso |  |
+| <img src="/img/items/0x277E.png" class="uo-sprite" alt="" width="56" /> | leather hiro sode | Arms |  |
+| <img src="/img/items/0x2796.png" class="uo-sprite" alt="" width="56" /> | samurai tabi | Shoes | dyed |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 - Gold: 250–300

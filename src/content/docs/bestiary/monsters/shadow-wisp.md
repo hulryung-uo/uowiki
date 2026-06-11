@@ -51,6 +51,16 @@ last_verified: 2026-06-11
 | Tactics | 0.1–15.0 |
 | Wrestling | 25.1–40.0 |
 
+## Appearance
+
+Wields a light source.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1647.png" class="uo-sprite" alt="" width="56" /> | light source | TwoHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Sounds
 
 **Anger** <audio controls preload="none" src="/audio/466.mp3"></audio>

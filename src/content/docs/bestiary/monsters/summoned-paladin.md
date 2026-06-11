@@ -26,6 +26,26 @@ last_verified: 2026-06-11
 | Swords | 50.0 |
 | Tactics | 50.0 |
 
+## Appearance
+
+Wears boots, a chain chest, chain legs, ringmail arms, a plate helm, plate gloves, a plate gorget and a cloak, and wields a thin longsword.
+
+<img src="/img/paperdoll/mob-summoned-paladin.png" alt="Summoned Paladin equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x170B.png" class="uo-sprite" alt="" width="56" /> | boots | Shoes |  |
+| <img src="/img/items/0x13BF.png" class="uo-sprite" alt="" width="56" /> | chain chest | Torso |  |
+| <img src="/img/items/0x13BE.png" class="uo-sprite" alt="" width="56" /> | chain legs | Pants |  |
+| <img src="/img/items/0x13EE.png" class="uo-sprite" alt="" width="56" /> | ringmail arms | Arms |  |
+| <img src="/img/items/0x1412.png" class="uo-sprite" alt="" width="56" /> | plate helm | Helmet |  |
+| <img src="/img/items/0x1414.png" class="uo-sprite" alt="" width="56" /> | plate gloves | Gloves |  |
+| <img src="/img/items/0x1413.png" class="uo-sprite" alt="" width="56" /> | plate gorget | Necklace |  |
+| <img src="/img/items/0x1515.png" class="uo-sprite" alt="" width="56" /> | cloak | Cloak |  |
+| <img src="/img/items/0x13B8.png" class="uo-sprite" alt="" width="56" /> | thin longsword | OneHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 - Gold: 500

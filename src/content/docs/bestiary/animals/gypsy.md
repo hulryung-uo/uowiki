@@ -27,3 +27,21 @@ last_verified: 2026-06-11
 | Cooking | 65–88 |
 | Snooping | 65–88 |
 | Stealing | 65–88 |
+
+## Appearance
+
+Wears sometimes a dyed kilt, sometimes a dyed shirt, one of: thigh boots and sandals, sometimes dyed short pants and a dyed bandana, and wields a dagger.
+
+<img src="/img/paperdoll/mob-gypsy.png" alt="Gypsy equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x1537.png" class="uo-sprite" alt="" width="56" /> | kilt | Skirt | random, dyed |
+| <img src="/img/items/0x1517.png" class="uo-sprite" alt="" width="56" /> | shirt | Shirt | random, dyed |
+| <img src="/img/items/0x1711.png" class="uo-sprite" alt="" width="56" /> | thigh boots | Shoes | random |
+| <img src="/img/items/0x152E.png" class="uo-sprite" alt="" width="56" /> | short pants | Pants | random, dyed |
+| <img src="/img/items/0x170D.png" class="uo-sprite" alt="" width="56" /> | sandals | Shoes | random |
+| <img src="/img/items/0x1540.png" class="uo-sprite" alt="" width="56" /> | bandana | Helmet | dyed |
+| <img src="/img/items/0x0F52.png" class="uo-sprite" alt="" width="56" /> | dagger | OneHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

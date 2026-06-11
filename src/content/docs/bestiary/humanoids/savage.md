@@ -43,6 +43,22 @@ last_verified: 2026-06-11
 | Swords | 60.0–82.5 |
 | Tactics | 60.0–82.5 |
 
+## Appearance
+
+Wears bone arms, bone legs, sometimes a savage mask and sometimes an orcish kin mask, and wields a spear.
+
+<img src="/img/paperdoll/mob-savage.png" alt="Savage equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x0F62.png" class="uo-sprite" alt="" width="56" /> | spear | TwoHanded |  |
+| <img src="/img/items/0x144E.png" class="uo-sprite" alt="" width="56" /> | bone arms | Arms |  |
+| <img src="/img/items/0x1452.png" class="uo-sprite" alt="" width="56" /> | bone legs | Pants |  |
+| <img src="/img/items/0x154B.png" class="uo-sprite" alt="" width="56" /> | savage mask | Helmet | random |
+| <img src="/img/items/0x08A4.png" class="uo-sprite" alt="" width="56" /> | orcish kin mask | — | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

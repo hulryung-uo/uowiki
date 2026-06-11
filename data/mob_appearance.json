@@ -1,0 +1,2141 @@
+{
+  "_schema": {
+    "description": "Dressed-paperdoll renders and worn-item lists for humanoid mobs that AddItem clothing/armor/masks/weapons. paperdoll: composited body + equipment gump (null when the body is not a humanoid paperdoll body or no piece could be rendered). worn: each equipped item resolved against items.json with its paperdoll equip layer, optional (random/conditional) and hue_random flags.",
+    "extracted_by": "tools/extract_mob_appearance.py",
+    "sources": [
+      "data/creatures.json",
+      "data/items.json",
+      "uo-resource/tiledata.mul",
+      "uo-resource/hues.mul",
+      "uo-resource/gumpartLegacyMUL.uop"
+    ],
+    "body_to_doll": {
+      "0x0190": "0x000C (human-male)",
+      "0x0191": "0x000D (human-female)",
+      "0x0193": "0x000D (human-female)",
+      "0x025D": "0x000E (elf-male)",
+      "0x025E": "0x000F (elf-female)",
+      "0x029A": "0x029A (gargoyle-male)",
+      "0x029B": "0x0299 (gargoyle-female)",
+      "183": "0x000C (human-male)",
+      "184": "0x000C (human-male)",
+      "185": "0x000C (human-male)",
+      "186": "0x000C (human-male)"
+    }
+  },
+  "creatures": {
+    "Artist": {
+      "paperdoll": "/img/paperdoll/mob-artist.png",
+      "worn": [
+        {
+          "class": "Doublet",
+          "name": "doublet",
+          "item_id": "0x1F7B",
+          "png": "/img/items/0x1F7B.png",
+          "layer": "Tunic",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "name": "sandals",
+          "item_id": "0x170D",
+          "png": "/img/items/0x170D.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "HalfApron",
+          "name": "half apron",
+          "item_id": "0x153B",
+          "png": "/img/items/0x153B.png",
+          "layer": "Waist",
+          "optional": false,
+          "hue_random": true
+        }
+      ]
+    },
+    "Barracoon": {
+      "paperdoll": "/img/paperdoll/mob-barracoon.png",
+      "worn": [
+        {
+          "class": "FancyShirt",
+          "name": "fancy shirt",
+          "item_id": "0x1EFD",
+          "png": "/img/items/0x1EFD.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "LongPants",
+          "name": "long pants",
+          "item_id": "0x1539",
+          "png": "/img/items/0x1539.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "JesterHat",
+          "name": "jester hat",
+          "item_id": "0x171C",
+          "png": "/img/items/0x171C.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Cloak",
+          "name": "cloak",
+          "item_id": "0x1515",
+          "png": "/img/items/0x1515.png",
+          "layer": "Cloak",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "name": "sandals",
+          "item_id": "0x170D",
+          "png": "/img/items/0x170D.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Betballem": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Brigand": {
+      "paperdoll": "/img/paperdoll/mob-brigand.png",
+      "worn": [
+        {
+          "class": "Skirt",
+          "name": "skirt",
+          "item_id": "0x1516",
+          "png": "/img/items/0x1516.png",
+          "layer": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "FancyShirt",
+          "name": "fancy shirt",
+          "item_id": "0x1EFD",
+          "png": "/img/items/0x1EFD.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "name": "bandana",
+          "item_id": "0x1540",
+          "png": "/img/items/0x1540.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Longsword",
+          "name": "longsword",
+          "item_id": "0x0F61",
+          "png": "/img/items/0x0F61.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Cutlass",
+          "name": "cutlass",
+          "item_id": "0x1441",
+          "png": "/img/items/0x1441.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Broadsword",
+          "name": "broadsword",
+          "item_id": "0x0F5E",
+          "png": "/img/items/0x0F5E.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Axe",
+          "name": "axe",
+          "item_id": "0x0F49",
+          "png": "/img/items/0x0F49.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Club",
+          "name": "club",
+          "item_id": "0x13B4",
+          "png": "/img/items/0x13B4.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Dagger",
+          "name": "dagger",
+          "item_id": "0x0F52",
+          "png": "/img/items/0x0F52.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Spear",
+          "name": "spear",
+          "item_id": "0x0F62",
+          "png": "/img/items/0x0F62.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "Centaur": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "ChaosDragoon": {
+      "paperdoll": "/img/paperdoll/mob-chaos-dragoon.png",
+      "worn": [
+        {
+          "class": "Shirt",
+          "name": "shirt",
+          "item_id": "0x1517",
+          "png": "/img/items/0x1517.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BlackScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h0455.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "RedScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h066D.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "BlueScales",
+          "name": "sea serpent scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h08B0.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "YellowScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h08A8.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "GreenScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h0851.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "WhiteScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h08FD.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "ChaosDragoonElite": {
+      "paperdoll": "/img/paperdoll/mob-chaos-dragoon-elite.png",
+      "worn": [
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Shirt",
+          "name": "shirt",
+          "item_id": "0x1517",
+          "png": "/img/items/0x1517.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "BlackScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h0455.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "RedScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h066D.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "BlueScales",
+          "name": "sea serpent scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h08B0.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "YellowScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h08A8.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "GreenScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h0851.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "WhiteScales",
+          "name": "dragon scales",
+          "item_id": "0x26B4",
+          "png": "/img/items/0x26B4-h08FD.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "ClanCA": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "ClanCT": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "ClanSS": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Cursed": {
+      "paperdoll": "/img/paperdoll/mob-cursed.png",
+      "worn": [
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Shirt",
+          "name": "shirt",
+          "item_id": "0x1517",
+          "png": "/img/items/0x1517.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": true
+        }
+      ]
+    },
+    "DarkWisp": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "DragonsFlameMage": {
+      "paperdoll": "/img/paperdoll/mob-dragons-flame-mage.png",
+      "worn": [
+        {
+          "class": "NinjaTabi",
+          "name": "ninja tabi",
+          "item_id": "0x2797",
+          "png": "/img/items/0x2797.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "FancyShirt",
+          "name": "fancy shirt",
+          "item_id": "0x1EFD",
+          "png": "/img/items/0x1EFD.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Hakama",
+          "name": "hakama",
+          "item_id": "0x279A",
+          "png": "/img/items/0x279A.png",
+          "layer": "Skirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Kasa",
+          "name": "kasa",
+          "item_id": "0x2798",
+          "png": "/img/items/0x2798.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "ElfBrigand": {
+      "paperdoll": "/img/paperdoll/mob-elf-brigand.png",
+      "worn": [
+        {
+          "class": "Shirt",
+          "name": "shirt",
+          "item_id": "0x1517",
+          "png": "/img/items/0x1517.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "name": "sandals",
+          "item_id": "0x170D",
+          "png": "/img/items/0x170D.png",
+          "layer": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Shoes",
+          "name": "shoes",
+          "item_id": "0x170F",
+          "png": "/img/items/0x170F.png",
+          "layer": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ThighBoots",
+          "name": "thigh boots",
+          "item_id": "0x1711",
+          "png": "/img/items/0x1711.png",
+          "layer": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Skirt",
+          "name": "skirt",
+          "item_id": "0x1516",
+          "png": "/img/items/0x1516.png",
+          "layer": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Kilt",
+          "name": "kilt",
+          "item_id": "0x1537",
+          "png": "/img/items/0x1537.png",
+          "layer": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": true
+        }
+      ]
+    },
+    "EliteNinja": {
+      "paperdoll": "/img/paperdoll/mob-elite-ninja.png",
+      "worn": [
+        {
+          "class": "NinjaTabi",
+          "name": "ninja tabi",
+          "item_id": "0x2797",
+          "png": "/img/items/0x2797.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaJacket",
+          "name": "leather ninja jacket",
+          "item_id": "0x2793",
+          "png": "/img/items/0x2793.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaHood",
+          "name": "leather ninja hood",
+          "item_id": "0x278E",
+          "png": "/img/items/0x278E.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "name": "leather ninja pants",
+          "item_id": "0x2791",
+          "png": "/img/items/0x2791.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaMitts",
+          "name": "leather ninja mitts",
+          "item_id": "0x2792",
+          "png": "/img/items/0x2792.png",
+          "layer": "Gloves",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Executioner": {
+      "paperdoll": "/img/paperdoll/mob-executioner.png",
+      "worn": [
+        {
+          "class": "Skirt",
+          "name": "skirt",
+          "item_id": "0x1516",
+          "png": "/img/items/0x1516.png",
+          "layer": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ThighBoots",
+          "name": "thigh boots",
+          "item_id": "0x1711",
+          "png": "/img/items/0x1711.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Surcoat",
+          "name": "surcoat",
+          "item_id": "0x1FFD",
+          "png": "/img/items/0x1FFD.png",
+          "layer": "Tunic",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "ExecutionersAxe",
+          "name": "executioners axe",
+          "item_id": "0x0F45",
+          "png": "/img/items/0x0F45.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "FanDancer": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Tessen",
+          "name": "tessen",
+          "item_id": "0x27A3",
+          "png": "/img/items/0x27A3.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "FireElemental": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "FireElementalRenowned": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "ForgottenServant": {
+      "paperdoll": "/img/paperdoll/mob-forgotten-servant.png",
+      "worn": [
+        {
+          "class": "Skirt",
+          "name": "skirt",
+          "item_id": "0x1516",
+          "png": "/img/items/0x1516.png",
+          "layer": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "FancyShirt",
+          "name": "fancy shirt",
+          "item_id": "0x1EFD",
+          "png": "/img/items/0x1EFD.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "name": "bandana",
+          "item_id": "0x1540",
+          "png": "/img/items/0x1540.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Longsword",
+          "name": "longsword",
+          "item_id": "0x0F61",
+          "png": "/img/items/0x0F61.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Cutlass",
+          "name": "cutlass",
+          "item_id": "0x1441",
+          "png": "/img/items/0x1441.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Broadsword",
+          "name": "broadsword",
+          "item_id": "0x0F5E",
+          "png": "/img/items/0x0F5E.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Axe",
+          "name": "axe",
+          "item_id": "0x0F49",
+          "png": "/img/items/0x0F49.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Club",
+          "name": "club",
+          "item_id": "0x13B4",
+          "png": "/img/items/0x13B4.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Dagger",
+          "name": "dagger",
+          "item_id": "0x0F52",
+          "png": "/img/items/0x0F52.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Spear",
+          "name": "spear",
+          "item_id": "0x0F62",
+          "png": "/img/items/0x0F62.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "Gremlin": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "GrimmochDrummel": {
+      "paperdoll": "/img/paperdoll/mob-grimmoch-drummel.png",
+      "worn": [
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BodySash",
+          "name": "body sash",
+          "item_id": "0x1541",
+          "png": "/img/items/0x1541.png",
+          "layer": "Tunic",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Gypsy": {
+      "paperdoll": "/img/paperdoll/mob-gypsy.png",
+      "worn": [
+        {
+          "class": "Kilt",
+          "name": "kilt",
+          "item_id": "0x1537",
+          "png": "/img/items/0x1537.png",
+          "layer": "Skirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Shirt",
+          "name": "shirt",
+          "item_id": "0x1517",
+          "png": "/img/items/0x1517.png",
+          "layer": "Shirt",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "ThighBoots",
+          "name": "thigh boots",
+          "item_id": "0x1711",
+          "png": "/img/items/0x1711.png",
+          "layer": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": true
+        },
+        {
+          "class": "Sandals",
+          "name": "sandals",
+          "item_id": "0x170D",
+          "png": "/img/items/0x170D.png",
+          "layer": "Shoes",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "name": "bandana",
+          "item_id": "0x1540",
+          "png": "/img/items/0x1540.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Dagger",
+          "name": "dagger",
+          "item_id": "0x0F52",
+          "png": "/img/items/0x0F52.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "HarborMaster": {
+      "paperdoll": "/img/paperdoll/mob-harbor-master.png",
+      "worn": [
+        {
+          "class": "Shirt",
+          "name": "shirt",
+          "item_id": "0x1517",
+          "png": "/img/items/0x1517.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LongPants",
+          "name": "long pants",
+          "item_id": "0x1539",
+          "png": "/img/items/0x1539.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "QuarterStaff",
+          "name": "quarter staff",
+          "item_id": "0x0E89",
+          "png": "/img/items/0x0E89.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Henchman": {
+      "paperdoll": "/img/paperdoll/mob-henchman.png",
+      "worn": [
+        {
+          "class": "LeatherNinjaJacket",
+          "name": "leather ninja jacket",
+          "item_id": "0x2793",
+          "png": "/img/items/0x2793.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "name": "leather ninja pants",
+          "item_id": "0x2791",
+          "png": "/img/items/0x2791.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "NinjaTabi",
+          "name": "ninja tabi",
+          "item_id": "0x2797",
+          "png": "/img/items/0x2797.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Kama",
+          "name": "kama",
+          "item_id": "0x27AD",
+          "png": "/img/items/0x27AD.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Tessen",
+          "name": "tessen",
+          "item_id": "0x27A3",
+          "png": "/img/items/0x27A3.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "HordeMinion": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "JukaLord": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "JukaBow",
+          "name": "juka bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "KhaldunZealot": {
+      "paperdoll": "/img/paperdoll/mob-khaldun-zealot.png",
+      "worn": [
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "LysanderGathenwale": {
+      "paperdoll": "/img/paperdoll/mob-lysander-gathenwale.png",
+      "worn": [
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Cloak",
+          "name": "cloak",
+          "item_id": "0x1515",
+          "png": "/img/items/0x1515.png",
+          "layer": "Cloak",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "MasterTheophilus": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Shoes",
+          "name": "shoes",
+          "item_id": "0x170F",
+          "png": "/img/items/0x170F.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Robe",
+          "name": "robe",
+          "item_id": "0x1F03",
+          "png": "/img/items/0x1F03.png",
+          "layer": "Robe",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "MeerCaptain": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Crossbow",
+          "name": "crossbow",
+          "item_id": "0x0F50",
+          "png": "/img/items/0x0F50.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "MilitiaFighter": {
+      "paperdoll": "/img/paperdoll/mob-militia-fighter.png",
+      "worn": [
+        {
+          "class": "ThighBoots",
+          "name": "thigh boots",
+          "item_id": "0x1711",
+          "png": "/img/items/0x1711.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherChest",
+          "name": "leather chest",
+          "item_id": "0x13CC",
+          "png": "/img/items/0x13CC.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherArms",
+          "name": "leather arms",
+          "item_id": "0x13CD",
+          "png": "/img/items/0x13CD.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherLegs",
+          "name": "leather legs",
+          "item_id": "0x13CB",
+          "png": "/img/items/0x13CB.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherCap",
+          "name": "leather cap",
+          "item_id": "0x1DB9",
+          "png": "/img/items/0x1DB9.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherGloves",
+          "name": "leather gloves",
+          "item_id": "0x13C6",
+          "png": "/img/items/0x13C6.png",
+          "layer": "Gloves",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherGorget",
+          "name": "leather gorget",
+          "item_id": "0x13C7",
+          "png": "/img/items/0x13C7.png",
+          "layer": "Necklace",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "MorgBergen": {
+      "paperdoll": "/img/paperdoll/mob-morg-bergen.png",
+      "worn": [
+        {
+          "class": "ShortPants",
+          "name": "short pants",
+          "item_id": "0x152E",
+          "png": "/img/items/0x152E.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "MysteriousWisp": {
+      "paperdoll": null,
+      "worn": []
+    },
+    "Neira": {
+      "paperdoll": null,
+      "worn": []
+    },
+    "Ninja": {
+      "paperdoll": "/img/paperdoll/mob-ninja.png",
+      "worn": [
+        {
+          "class": "LeatherNinjaHood",
+          "name": "leather ninja hood",
+          "item_id": "0x278E",
+          "png": "/img/items/0x278E.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "name": "leather ninja pants",
+          "item_id": "0x2791",
+          "png": "/img/items/0x2791.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaBelt",
+          "name": "leather ninja belt",
+          "item_id": "0x2790",
+          "png": "/img/items/0x2790.png",
+          "layer": "Waist",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaJacket",
+          "name": "leather ninja jacket",
+          "item_id": "0x2793",
+          "png": "/img/items/0x2793.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "NinjaTabi",
+          "name": "ninja tabi",
+          "item_id": "0x2797",
+          "png": "/img/items/0x2797.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "OrcScout": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "OrcishBow",
+          "name": "an orcish bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "RakktaviRenowned": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "RatmanArcher": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Ronin": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "SamuraiTabi",
+          "name": "samurai tabi",
+          "item_id": "0x2796",
+          "png": "/img/items/0x2796.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherHiroSode",
+          "name": "leather hiro sode",
+          "item_id": "0x277E",
+          "png": "/img/items/0x277E.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherDo",
+          "name": "leather do",
+          "item_id": "0x27C6",
+          "png": "/img/items/0x27C6.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LightPlateJingasa",
+          "name": "light plate jingasa",
+          "item_id": "0x2781",
+          "png": "/img/items/0x2781.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ChainHatsuburi",
+          "name": "chain hatsuburi",
+          "item_id": "0x2774",
+          "png": "/img/items/0x2774.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "DecorativePlateKabuto",
+          "name": "decorative plate kabuto",
+          "item_id": "0x2778",
+          "png": "/img/items/0x2778.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherJingasa",
+          "name": "leather jingasa",
+          "item_id": "0x2776",
+          "png": "/img/items/0x2776.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedHaidate",
+          "name": "studded haidate",
+          "item_id": "0x278B",
+          "png": "/img/items/0x278B.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherSuneate",
+          "name": "leather suneate",
+          "item_id": "0x2786",
+          "png": "/img/items/0x2786.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "PlateSuneate",
+          "name": "plate suneate",
+          "item_id": "0x2788",
+          "png": "/img/items/0x2788.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "NoDachi",
+          "name": "no dachi",
+          "item_id": "0x27A2",
+          "png": "/img/items/0x27A2.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Halberd",
+          "name": "halberd",
+          "item_id": "0x143E",
+          "png": "/img/items/0x143E.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "Samurai": {
+      "paperdoll": "/img/paperdoll/mob-samurai.png",
+      "worn": [
+        {
+          "class": "Lajatang",
+          "name": "lajatang",
+          "item_id": "0x27A7",
+          "png": "/img/items/0x27A7.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Wakizashi",
+          "name": "wakizashi",
+          "item_id": "0x27A4",
+          "png": "/img/items/0x27A4.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "NoDachi",
+          "name": "no dachi",
+          "item_id": "0x27A2",
+          "png": "/img/items/0x27A2.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherSuneate",
+          "name": "leather suneate",
+          "item_id": "0x2786",
+          "png": "/img/items/0x2786.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "PlateSuneate",
+          "name": "plate suneate",
+          "item_id": "0x2788",
+          "png": "/img/items/0x2788.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedHaidate",
+          "name": "studded haidate",
+          "item_id": "0x278B",
+          "png": "/img/items/0x278B.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherJingasa",
+          "name": "leather jingasa",
+          "item_id": "0x2776",
+          "png": "/img/items/0x2776.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "ChainHatsuburi",
+          "name": "chain hatsuburi",
+          "item_id": "0x2774",
+          "png": "/img/items/0x2774.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "HeavyPlateJingasa",
+          "name": "heavy plate jingasa",
+          "item_id": "0x2777",
+          "png": "/img/items/0x2777.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "DecorativePlateKabuto",
+          "name": "decorative plate kabuto",
+          "item_id": "0x2778",
+          "png": "/img/items/0x2778.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherDo",
+          "name": "leather do",
+          "item_id": "0x27C6",
+          "png": "/img/items/0x27C6.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherHiroSode",
+          "name": "leather hiro sode",
+          "item_id": "0x277E",
+          "png": "/img/items/0x277E.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "SamuraiTabi",
+          "name": "samurai tabi",
+          "item_id": "0x2796",
+          "png": "/img/items/0x2796.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": true
+        }
+      ]
+    },
+    "Savage": {
+      "paperdoll": "/img/paperdoll/mob-savage.png",
+      "worn": [
+        {
+          "class": "Spear",
+          "name": "spear",
+          "item_id": "0x0F62",
+          "png": "/img/items/0x0F62.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneArms",
+          "name": "bone arms",
+          "item_id": "0x144E",
+          "png": "/img/items/0x144E.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneLegs",
+          "name": "bone legs",
+          "item_id": "0x1452",
+          "png": "/img/items/0x1452.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "SavageMask",
+          "name": "savage mask",
+          "item_id": "0x154B",
+          "png": "/img/items/0x154B.png",
+          "layer": "Helmet",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "OrcishKinMask",
+          "name": "orcish kin mask",
+          "item_id": "0x08A4",
+          "png": "/img/items/0x08A4.png",
+          "layer": null,
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "SavageRider": {
+      "paperdoll": "/img/paperdoll/mob-savage-rider.png",
+      "worn": [
+        {
+          "class": "TribalSpear",
+          "name": "tribal spear",
+          "item_id": "0x0F62",
+          "png": "/img/items/0x0F62.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneArms",
+          "name": "bone arms",
+          "item_id": "0x144E",
+          "png": "/img/items/0x144E.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneLegs",
+          "name": "bone legs",
+          "item_id": "0x1452",
+          "png": "/img/items/0x1452.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BearMask",
+          "name": "bear mask",
+          "item_id": "0x1545",
+          "png": "/img/items/0x1545.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "SavageShaman": {
+      "paperdoll": "/img/paperdoll/mob-savage-shaman.png",
+      "worn": [
+        {
+          "class": "BoneArms",
+          "name": "bone arms",
+          "item_id": "0x144E",
+          "png": "/img/items/0x144E.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "BoneLegs",
+          "name": "bone legs",
+          "item_id": "0x1452",
+          "png": "/img/items/0x1452.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "DeerMask",
+          "name": "deer mask",
+          "item_id": "0x1547",
+          "png": "/img/items/0x1547.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "SerpentsFangAssassin": {
+      "paperdoll": "/img/paperdoll/mob-serpents-fang-assassin.png",
+      "worn": [
+        {
+          "class": "ThighBoots",
+          "name": "thigh boots",
+          "item_id": "0x1711",
+          "png": "/img/items/0x1711.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "FancyShirt",
+          "name": "fancy shirt",
+          "item_id": "0x1EFD",
+          "png": "/img/items/0x1EFD.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedMempo",
+          "name": "studded mempo",
+          "item_id": "0x279D",
+          "png": "/img/items/0x279D.png",
+          "layer": "Necklace",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "JinBaori",
+          "name": "jin baori",
+          "item_id": "0x27A1",
+          "png": "/img/items/0x27A1.png",
+          "layer": "Tunic",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "ShadowWisp": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "SummonedFireElemental": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "SummonedPaladin": {
+      "paperdoll": "/img/paperdoll/mob-summoned-paladin.png",
+      "worn": [
+        {
+          "class": "Boots",
+          "name": "boots",
+          "item_id": "0x170B",
+          "png": "/img/items/0x170B.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "ChainChest",
+          "name": "chain chest",
+          "item_id": "0x13BF",
+          "png": "/img/items/0x13BF.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "ChainLegs",
+          "name": "chain legs",
+          "item_id": "0x13BE",
+          "png": "/img/items/0x13BE.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "RingmailArms",
+          "name": "ringmail arms",
+          "item_id": "0x13EE",
+          "png": "/img/items/0x13EE.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "PlateHelm",
+          "name": "plate helm",
+          "item_id": "0x1412",
+          "png": "/img/items/0x1412.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "PlateGloves",
+          "name": "plate gloves",
+          "item_id": "0x1414",
+          "png": "/img/items/0x1414.png",
+          "layer": "Gloves",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "PlateGorget",
+          "name": "plate gorget",
+          "item_id": "0x1413",
+          "png": "/img/items/0x1413.png",
+          "layer": "Necklace",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Cloak",
+          "name": "cloak",
+          "item_id": "0x1515",
+          "png": "/img/items/0x1515.png",
+          "layer": "Cloak",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "ThinLongsword",
+          "name": "thin longsword",
+          "item_id": "0x13B8",
+          "png": "/img/items/0x13B8.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "TavaraSewel": {
+      "paperdoll": "/img/paperdoll/mob-tavara-sewel.png",
+      "worn": [
+        {
+          "class": "Kilt",
+          "name": "kilt",
+          "item_id": "0x1537",
+          "png": "/img/items/0x1537.png",
+          "layer": "Skirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Sandals",
+          "name": "sandals",
+          "item_id": "0x170D",
+          "png": "/img/items/0x170D.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "TigersClawThief": {
+      "paperdoll": "/img/paperdoll/mob-tigers-claw-thief.png",
+      "worn": [
+        {
+          "class": "ThighBoots",
+          "name": "thigh boots",
+          "item_id": "0x1711",
+          "png": "/img/items/0x1711.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Wakizashi",
+          "name": "wakizashi",
+          "item_id": "0x27A4",
+          "png": "/img/items/0x27A4.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "FancyShirt",
+          "name": "fancy shirt",
+          "item_id": "0x1EFD",
+          "png": "/img/items/0x1EFD.png",
+          "layer": "Shirt",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedMempo",
+          "name": "studded mempo",
+          "item_id": "0x279D",
+          "png": "/img/items/0x279D.png",
+          "layer": "Necklace",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "JinBaori",
+          "name": "jin baori",
+          "item_id": "0x27A1",
+          "png": "/img/items/0x27A1.png",
+          "layer": "Tunic",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Twaulo": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "Bow",
+          "name": "bow",
+          "item_id": "0x13B2",
+          "png": "/img/items/0x13B2.png",
+          "layer": "OneHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "Wisp": {
+      "paperdoll": null,
+      "worn": [
+        {
+          "class": "LightSource",
+          "name": "light source",
+          "item_id": "0x1647",
+          "png": "/img/items/0x1647.png",
+          "layer": "TwoHanded",
+          "optional": false,
+          "hue_random": false
+        }
+      ]
+    },
+    "YoungNinja": {
+      "paperdoll": "/img/paperdoll/mob-young-ninja.png",
+      "worn": [
+        {
+          "class": "NinjaTabi",
+          "name": "ninja tabi",
+          "item_id": "0x2797",
+          "png": "/img/items/0x2797.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaPants",
+          "name": "leather ninja pants",
+          "item_id": "0x2791",
+          "png": "/img/items/0x2791.png",
+          "layer": "Pants",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaJacket",
+          "name": "leather ninja jacket",
+          "item_id": "0x2793",
+          "png": "/img/items/0x2793.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherNinjaBelt",
+          "name": "leather ninja belt",
+          "item_id": "0x2790",
+          "png": "/img/items/0x2790.png",
+          "layer": "Waist",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "name": "bandana",
+          "item_id": "0x1540",
+          "png": "/img/items/0x1540.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "Tessen",
+          "name": "tessen",
+          "item_id": "0x27A3",
+          "png": "/img/items/0x27A3.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Kama",
+          "name": "kama",
+          "item_id": "0x27AD",
+          "png": "/img/items/0x27AD.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Lajatang",
+          "name": "lajatang",
+          "item_id": "0x27A7",
+          "png": "/img/items/0x27A7.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    },
+    "YoungRonin": {
+      "paperdoll": "/img/paperdoll/mob-young-ronin.png",
+      "worn": [
+        {
+          "class": "LeatherDo",
+          "name": "leather do",
+          "item_id": "0x27C6",
+          "png": "/img/items/0x27C6.png",
+          "layer": "Torso",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherHiroSode",
+          "name": "leather hiro sode",
+          "item_id": "0x277E",
+          "png": "/img/items/0x277E.png",
+          "layer": "Arms",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "SamuraiTabi",
+          "name": "samurai tabi",
+          "item_id": "0x2796",
+          "png": "/img/items/0x2796.png",
+          "layer": "Shoes",
+          "optional": false,
+          "hue_random": false
+        },
+        {
+          "class": "StuddedHaidate",
+          "name": "studded haidate",
+          "item_id": "0x278B",
+          "png": "/img/items/0x278B.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "PlateSuneate",
+          "name": "plate suneate",
+          "item_id": "0x2788",
+          "png": "/img/items/0x2788.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "LeatherSuneate",
+          "name": "leather suneate",
+          "item_id": "0x2786",
+          "png": "/img/items/0x2786.png",
+          "layer": "Pants",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Bandana",
+          "name": "bandana",
+          "item_id": "0x1540",
+          "png": "/img/items/0x1540.png",
+          "layer": "Helmet",
+          "optional": false,
+          "hue_random": true
+        },
+        {
+          "class": "NoDachi",
+          "name": "no dachi",
+          "item_id": "0x27A2",
+          "png": "/img/items/0x27A2.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Lajatang",
+          "name": "lajatang",
+          "item_id": "0x27A7",
+          "png": "/img/items/0x27A7.png",
+          "layer": "TwoHanded",
+          "optional": true,
+          "hue_random": false
+        },
+        {
+          "class": "Wakizashi",
+          "name": "wakizashi",
+          "item_id": "0x27A4",
+          "png": "/img/items/0x27A4.png",
+          "layer": "OneHanded",
+          "optional": true,
+          "hue_random": false
+        }
+      ]
+    }
+  }
+}

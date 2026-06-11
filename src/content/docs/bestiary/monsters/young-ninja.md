@@ -32,3 +32,22 @@ last_verified: 2026-06-11
 |---|---|
 | Swords | 50.0 |
 | Tactics | 50.0 |
+
+## Appearance
+
+Wears a ninja tabi, leather ninja pants, a leather ninja jacket, a leather ninja belt and a dyed bandana, and wields one of: a tessen, a kama and a lajatang.
+
+<img src="/img/paperdoll/mob-young-ninja.png" alt="Young Ninja equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x2797.png" class="uo-sprite" alt="" width="56" /> | ninja tabi | Shoes |  |
+| <img src="/img/items/0x2791.png" class="uo-sprite" alt="" width="56" /> | leather ninja pants | Pants |  |
+| <img src="/img/items/0x2793.png" class="uo-sprite" alt="" width="56" /> | leather ninja jacket | Torso |  |
+| <img src="/img/items/0x2790.png" class="uo-sprite" alt="" width="56" /> | leather ninja belt | Waist |  |
+| <img src="/img/items/0x1540.png" class="uo-sprite" alt="" width="56" /> | bandana | Helmet | dyed |
+| <img src="/img/items/0x27A3.png" class="uo-sprite" alt="" width="56" /> | tessen | TwoHanded | random |
+| <img src="/img/items/0x27AD.png" class="uo-sprite" alt="" width="56" /> | kama | TwoHanded | random |
+| <img src="/img/items/0x27A7.png" class="uo-sprite" alt="" width="56" /> | lajatang | TwoHanded | random |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.

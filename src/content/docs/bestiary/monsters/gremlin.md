@@ -43,6 +43,16 @@ last_verified: 2026-06-11
 | MagicResist | 82.5 |
 | Tactics | 65.3 |
 
+## Appearance
+
+Wields a bow.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x13B2.png" class="uo-sprite" alt="" width="56" /> | bow | OneHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |

@@ -12,6 +12,7 @@ last_verified: 2026-06-11
 | | |
 |---|---|
 | **In-game name** | Gregorio |
+| **Body ID** | 400, 401 |
 | **AI** | AI_Melee |
 | **Fight mode** | Aggressor |
 | **Script** | `Scripts/Mobiles/Normal/Gregorio.cs` |

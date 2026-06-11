@@ -129,6 +129,93 @@ def parse_constructors(class_name, body):
         yield m.group("init"), cbody
 
 
+def extract_equipment(ctor_bodies):
+    """Scan constructor bodies for AddItem(new X(...)) — worn/wielded equipment.
+
+    Returns a list of {class, optional, hue_random}. An item is `optional` when
+    its AddItem sits inside a conditional/random block (if/else/switch/case, or
+    its argument uses Utility.Random*); otherwise it is always equipped.
+    `hue_random` is true when the constructor argument is a Utility.Random*Hue().
+
+    PackItem(...) is deliberately ignored — that's loot, not equipment.
+    Order is preserved; duplicate classes are collapsed (first wins, but an item
+    seen as non-optional anywhere is treated as non-optional).
+    """
+    # Tokens that open a conditional/random scope. We track brace depth and
+    # remember, for each open brace, whether the construct that introduced it
+    # was conditional. An AddItem is optional if any enclosing scope is.
+    cond_kw = re.compile(r"\b(if|else|switch|case)\b")
+    additem = re.compile(r"\bAddItem\(\s*new\s+(\w+)\s*\(([^;]*?)\)\s*\)\s*;", re.DOTALL)
+
+    found = []          # ordered list of dicts
+    seen = {}           # class -> index in found
+    for body in ctor_bodies:
+        n = len(body)
+        # Record the '{' positions that open a conditional scope (if/else/switch
+        # followed by an optional (...) then '{'), and the start positions of
+        # braceless single-statement conditionals (the controlled statement runs
+        # to the next ';').
+        cond_brace_positions = set()
+        braceless_starts = []
+        for m in cond_kw.finditer(body):
+            j = m.end()
+            while j < n and body[j] in " \t\r\n":
+                j += 1
+            if j < n and body[j] == "(":          # skip a (...) condition
+                depth = 0
+                while j < n:
+                    if body[j] == "(":
+                        depth += 1
+                    elif body[j] == ")":
+                        depth -= 1
+                        if depth == 0:
+                            j += 1
+                            break
+                    j += 1
+            while j < n and body[j] in " \t\r\n":
+                j += 1
+            if j < n and body[j] == "{":
+                cond_brace_positions.add(j)
+            else:
+                braceless_starts.append(j)
+
+        def in_braceless_cond(idx):
+            for s in braceless_starts:
+                if s <= idx:
+                    e = body.find(";", s)
+                    if e == -1:
+                        e = n
+                    if s <= idx <= e:
+                        return True
+            return False
+
+        for am in additem.finditer(body):
+            cls = am.group(1)
+            args = am.group(2)
+            pos = am.start()
+            # conditional if any enclosing brace scope (up to pos) is conditional
+            bstack = []
+            for k in range(pos):
+                cc = body[k]
+                if cc == "{":
+                    bstack.append(k in cond_brace_positions)
+                elif cc == "}" and bstack:
+                    bstack.pop()
+            optional = any(bstack) or in_braceless_cond(pos)
+            hue_random = bool(re.search(r"Utility\.Random\w*Hue\s*\(", args))
+            if cls in seen:
+                prev = found[seen[cls]]
+                if not optional:
+                    prev["optional"] = False
+                if hue_random:
+                    prev["hue_random"] = True
+            else:
+                seen[cls] = len(found)
+                found.append({"class": cls, "optional": optional,
+                              "hue_random": hue_random})
+    return found
+
+
 def extract_creature(class_name, file_text, class_body, rel_path):
     c = {"class": class_name, "source": rel_path}
 
@@ -172,16 +259,25 @@ def extract_creature(class_name, file_text, class_body, rel_path):
                         c["name"] = sn.group(1)
                         break
 
-    bm = re.search(r"\bBody\s*=\s*" + NUM_RE, merged)
+    bm = re.search(r"\bBody\s*=\s*" + NUM_RE + r"\s*;", merged)
     if bm:
         c["body"] = int(to_num(bm.group(1)))
     else:
         bl = re.search(r"\bBody\s*=\s*Utility\.RandomList\(([^)]*)\)", merged)
+        # ternary: Body = ( Female = Utility.RandomBool() ) ? 0x191 : 0x190;
+        bt = re.search(r"\bBody\s*=\s*\((?:[^()]|\([^()]*\))*\)\s*\?\s*"
+                       + NUM_RE + r"\s*:\s*" + NUM_RE, merged)
         if bl:
             try:
                 c["body"] = [int(to_num(x)) for x in bl.group(1).split(",")]
             except ValueError:
                 pass
+        elif bt:
+            c["body"] = [int(to_num(bt.group(1))), int(to_num(bt.group(2)))]
+        elif re.search(r"\bRace\s*=\s*Race\.Human\b", merged):
+            # Human race with no explicit Body defaults to the human paperdoll
+            # bodies; Female toggles 0x191/0x190.
+            c["body"] = [0x190, 0x191]
         else:
             # BaseMount-style bases pass the body positionally:
             #   base(name, bodyID, itemID, AIType.…, …)
@@ -279,6 +375,11 @@ def extract_creature(class_name, file_text, class_body, rel_path):
     if m:
         c["hide_type"] = m.group(1)
 
+    # Worn/wielded equipment from AddItem(new X()) calls (NOT PackItem loot).
+    equipment = extract_equipment([cb for _init, cb in ctors])
+    if equipment:
+        c["equipment"] = equipment
+
     if not any(k in c for k in ("str", "hits", "damage", "skills")):
         return None, "no combat stats in constructor (likely NPC/special)"
     return c, None
@@ -304,6 +405,9 @@ SCHEMA = {
     "creature.loot.pack_items": "item class names from simple PackItem(new X()) calls",
     "creature.loot.pack_gold": "int or [min, max] from PackGold",
     "creature.meat/hides/feathers/wool/hide_type": "carve resource property overrides",
+    "creature.equipment": "worn/wielded items from AddItem(new X()) calls (not loot); "
+                          "[{class, optional (in a switch/if/random block), "
+                          "hue_random (arg is Utility.Random*Hue())}]",
     "creature.source": "script path relative to the servuo root",
 }
 

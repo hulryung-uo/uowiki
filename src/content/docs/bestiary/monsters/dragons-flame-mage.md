@@ -13,6 +13,7 @@ last_verified: 2026-06-11
 |---|---|
 | **In-game name** | Black Order Mage |
 | **Corpse** | a black order mage corpse |
+| **Body ID** | 400, 401 |
 | **AI** | AI_Mage |
 | **Fight mode** | Closest |
 | **Fame** | 13000 |
@@ -46,6 +47,21 @@ last_verified: 2026-06-11
 | MagicResist | 85.1–95.0 |
 | Tactics | 70.1–80.0 |
 | Wrestling | 60.1–80.0 |
+
+## Appearance
+
+Wears a ninja tabi, a fancy shirt, a hakama and a kasa.
+
+<img src="/img/paperdoll/mob-dragons-flame-mage.png" alt="Black Order Mage equipped" width="220" />
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x2797.png" class="uo-sprite" alt="" width="56" /> | ninja tabi | Shoes |  |
+| <img src="/img/items/0x1EFD.png" class="uo-sprite" alt="" width="56" /> | fancy shirt | Shirt |  |
+| <img src="/img/items/0x279A.png" class="uo-sprite" alt="" width="56" /> | hakama | Skirt |  |
+| <img src="/img/items/0x2798.png" class="uo-sprite" alt="" width="56" /> | kasa | Helmet |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
 
 ## Loot & resources
 

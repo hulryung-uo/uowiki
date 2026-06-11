@@ -50,6 +50,16 @@ last_verified: 2026-06-11
 | Tactics | 91.0–100.0 |
 | Wrestling | 80.9–89.9 |
 
+## Appearance
+
+Wields a crossbow.
+
+| | Item | Slot | |
+|---|---|---|---|
+| <img src="/img/items/0x0F50.png" class="uo-sprite" alt="" width="56" /> | crossbow | OneHanded |  |
+
+See the [paperdoll layer reference](/reference/paperdoll/) for how equipment is composited.
+
 ## Loot & resources
 
 | Loot pack | Count |
