@@ -70,6 +70,11 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'shard' } }],
 				},
 				{
+					label: 'Essays & Tales',
+					collapsed: true,
+					items: [{ autogenerate: { directory: 'essays', collapsed: true } }],
+				},
+				{
 					label: 'Reference',
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
