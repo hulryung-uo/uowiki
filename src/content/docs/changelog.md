@@ -16,6 +16,22 @@ after the game contradicted a page.
 
 ## 2026-06-12
 
+- **Updated** — Finish official-terminology review of Japanese core pages.  
+  [Skill Gain](/ja/mechanics/skill-gain/) · [Using And Training Skills](/ja/playing/using-and-training-skills/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/80241e4)</sub>
+- **Updated** — Apply official UO terminology to ko/ja core pages.  
+  Ko (14) · Ja (11) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/2f62585)</sub>
+- **Added** — Translate templates, essays, reference, items refs & town-services (ko+ja).  
+  Ja (19) · Ko (19) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5e298b2)</sub>
+- **Added** — Translate all How-to-Play pages to Korean & Japanese (30 pages each).  
+  Ja (17) · Ko (17) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/bd57036)</sub>
+- **Added** — Translate all 22 profession hubs to Korean & Japanese.  
+  Ja (22) · Ko (22) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/bb397e9)</sub>
+- **Added** — Complete Japanese core translation (27 pages, matches Korean).  
+  Ja (14) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/38aa04f)</sub>
+- **Added** — Korean core (27 pages) + Japanese core (13 pages) translations.  
+  Ko (26) · Ja (12) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5d66027)</sub>
+- **Added** — Add Korean & Japanese locales with browser auto-detection.  
+  [Ja](/ja/) · [Ko](/ko/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/2a4c5c4)</sub>
 - **Added** — Essays & Tales section + UO Expansions history.  
   [Building A Mage](/essays/building-a-mage/) · [Essays](/essays/) · [Surviving Your First Week](/essays/surviving-your-first-week/) · [Tales And Resources](/essays/tales-and-resources/) · [Treasure Hunters Handbook](/essays/treasure-hunters-handbook/) · [Expansions](/reference/expansions/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e5ea5ca)</sub>
 - **Added** — Enrich cities + 9 new towns, with uo.com service icons.  
@@ -92,7 +108,7 @@ after the game contradicted a page.
 - **Added** — Character templates with progression storylines + character-creation mechanics.  
   [Character Templates](/templates/) (6) · [Mechanics](/mechanics/) (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/44c9ae1)</sub>
 - **Added** — Add crafting-during-downtime field guide.  
-  [Crafting During Downtime](/guides/crafting-during-downtime/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/841a1ae)</sub>
+  Crafting During Downtime <sub>[details](https://github.com/hulryung-uo/uowiki/commit/841a1ae)</sub>
 - **Fixed** — Yew does have a bank at Empath Abbey (652,820). — from an in-game report  
   [Yew](/world/yew/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/31708e7)</sub>
 - **Added** — Initial scaffold — Starlight site, ServUO extraction pipeline, 679 pages.  

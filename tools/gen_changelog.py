@@ -151,7 +151,10 @@ def render_entry(c: dict) -> str | None:
         for p in pages:
             slug = path_to_slug(p)
             title = slug.strip("/").split("/")[-1].replace("-", " ").title() if slug and slug != "/" else "Home"
-            links.append(f"[{title}]({slug})" if slug else title)
+            # Only link to a page that still exists — pages moved/deleted since the
+            # commit would otherwise leave a broken link in the changelog.
+            exists = (WIKI_ROOT / p).exists() or p == "src/content/docs/index.mdx"
+            links.append(f"[{title}]({slug})" if slug and exists else title)
         where = " · ".join(links)
     else:
         where = " · ".join(
