@@ -16,6 +16,10 @@ after the game contradicted a page.
 
 ## 2026-06-12
 
+- **Added** — Add 8 builds + control essay — bard/pvp tamer, tri-bard, crafter mule, lumberjack warrior, alchemy/halberd/stun mage (마사).  
+  [Character Templates](/templates/) (9) · Essays (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/65ef61c)</sub>
+- **Updated** — Move crafting-during-downtime from Getting Started to How to Play.  
+  [Crafting During Downtime](/playing/crafting-during-downtime/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7ea9f4e)</sub>
 - **Updated** — Finish official-terminology review of Japanese core pages.  
   [Skill Gain](/ja/mechanics/skill-gain/) · [Using And Training Skills](/ja/playing/using-and-training-skills/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/80241e4)</sub>
 - **Updated** — Apply official UO terminology to ko/ja core pages.  
