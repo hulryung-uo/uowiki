@@ -10,9 +10,8 @@
   ],
   "redirects": [
     {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "wiki.uotavern.com" }],
-      "destination": "https://www.uotavern.com/wiki/:path*",
+      "source": "/:path((?!wiki).*)",
+      "destination": "https://www.uotavern.com/wiki/:path",
       "permanent": true
     }
   ]
