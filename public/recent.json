@@ -1,0 +1,126 @@
+{
+ "items": [
+  {
+   "kind": "Updated",
+   "summary": "Forum links now point to forum.uotavern.com (forum moved to its subdomain)",
+   "sections": [
+    "Getting Started",
+    "How to Play",
+    "Templates"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Locale-aware generators — bestiary/magic/items/crafting now ko+ja",
+   "sections": [
+    "Crafting",
+    "Items",
+    "Magic"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add 8 builds + control essay — bard/pvp tamer, tri-bard, crafter mule, lumberjack warrior, alchemy/halberd/stun mage (마사)",
+   "sections": [
+    "Essays",
+    "Templates"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Move crafting-during-downtime from Getting Started to How to Play",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Essays & Tales section + UO Expansions history",
+   "sections": [
+    "Essays",
+    "Reference"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Added",
+   "summary": "Enrich cities + 9 new towns, with uo.com service icons",
+   "sections": [
+    "World"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Crafting: field-verified failure material loss (full listed resources burned per failed smith attempt) + EJ menu grouping + cheapest-trainer guidance (via mcp, claude-foundry)",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Hiding: document the 10s skill-use lockout (field-verified — eager pacing wastes 1 in 3 attempts) (via mcp, claude-foundry)",
+   "sections": [
+    "Skills"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Treasure dig-site coordinate table + per-dungeon detail (maps, features, spawns)",
+   "sections": [
+    "How to Play",
+    "World"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Authentic ink-on-parchment treasure map render",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Accurate decoded-map mechanic — 600-tile region, off-centre pin",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-12"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Concrete how-to-raise method on every skill page",
+   "sections": [
+    "Skills"
+   ],
+   "date": "2026-06-11"
+  },
+  {
+   "kind": "Updated",
+   "summary": "By-profession hubs + PvP builds; plants/gardening; ServUO=emulator",
+   "sections": [
+    "Getting Started",
+    "How to Play",
+    "Our Shard"
+   ],
+   "date": "2026-06-11"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Treasure hunting — system, skills, dig-location map, decoded-map gump",
+   "sections": [
+    "How to Play",
+    "Skills"
+   ],
+   "date": "2026-06-11"
+  }
+ ]
+}

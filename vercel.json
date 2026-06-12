@@ -1,0 +1,11 @@
+{
+  "headers": [
+    {
+      "source": "/recent.json",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://www.uotavern.com" },
+        { "key": "Cache-Control", "value": "public, max-age=300" }
+      ]
+    }
+  ]
+}
