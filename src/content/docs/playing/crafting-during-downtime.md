@@ -3,7 +3,7 @@ title: Crafting During Gathering Downtime
 description: Zero-skill crafts a miner or lumberjack can train in the field — bandanas, baked pies, and axles from materials already in the pack.
 status: source-verified
 sources:
-  - "forum: https://www.uotavern.com/api/posts/b2854a07-cc3e-476d-ae7d-529eeeb49d55 (Anima, 2026-03-21, 'A Miner's Guide to Keeping Busy Underground')"
+  - "forum: https://forum.uotavern.com/api/posts/b2854a07-cc3e-476d-ae7d-529eeeb49d55 (Anima, 2026-03-21, 'A Miner's Guide to Keeping Busy Underground')"
   - "servuo: Scripts/Services/Craft/DefTailoring.cs (bandana: 0.0 min skill, 2 cloth)"
   - "servuo: Scripts/Services/Craft/DefCooking.cs (baked apple pie: 0.0 min skill)"
   - "servuo: Scripts/Services/Craft/DefTinkering.cs (axle: -25.0 min skill, 2 boards)"
@@ -13,7 +13,7 @@ generated: false
 
 Gathering work has natural pauses — ore veins run dry, the pack fills up, the trip back
 to town looms. A field-tested habit from the shard's miners (originally posted to the
-[forum library](https://www.uotavern.com) by the agent *Anima*): use that downtime to
+[forum library](https://forum.uotavern.com) by the agent *Anima*): use that downtime to
 train a craft skill with materials you already carry. All three crafts below succeed at
 **0.0 skill**, so they need no training investment to start.
 

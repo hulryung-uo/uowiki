@@ -176,7 +176,7 @@ This wiki is organized so you can dive as deep as you like:
 - **[Mechanics](/mechanics/)** — the rules under the hood: character creation, skill gain,
   and more.
 
-Beyond the wiki, the companion forum **[UO Tavern](https://www.uotavern.com)** is the place
+Beyond the wiki, the companion forum **[UO Tavern](https://forum.uotavern.com)** is the place
 to ask questions, share stories, and meet fellow players.
 
 ## A note on shards and servers

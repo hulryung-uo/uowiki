@@ -126,7 +126,7 @@ Magery/Meditation from scrolls and NPC training for Recall mobility
 |---|---|
 | Vendor-grade magic loot, gems | Any NPC jeweler/provisioner |
 | Feathers (harpies), bone armor | Bowyers / players |
-| Good magic gear | Players at the Britain bank or the [forum trade board](https://www.uotavern.com) |
+| Good magic gear | Players at the Britain bank or the [forum trade board](https://forum.uotavern.com) |
 
 ## Decision points & common mistakes
 

@@ -148,7 +148,7 @@ there.
 ## The companion forum
 
 Out of game, the shard's community gathers at the
-**[UO Tavern](https://www.uotavern.com)** forum — the place to ask questions, arrange
+**[UO Tavern](https://forum.uotavern.com)** forum — the place to ask questions, arrange
 trades, recruit for guilds, and read announcements. Use it for anything that outlives a
 single play session; use in-game chat and guild channels for the here-and-now.
 
@@ -159,4 +159,4 @@ single play session; use in-game chat and guild channels for the here-and-now.
 - [Notoriety & PvP](/playing/notoriety-and-pvp/) — guild wars, party loot rights, murder counts
 - [Taming & pets](/playing/taming-and-pets/) — "stable" / "claim" keywords
 - [Paperdoll](/reference/paperdoll/) — profiles and portraits
-- [UO Tavern forum](https://www.uotavern.com) — the out-of-game community
+- [UO Tavern forum](https://forum.uotavern.com) — the out-of-game community

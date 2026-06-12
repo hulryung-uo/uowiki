@@ -128,7 +128,7 @@ non-mage on the shard (no wiki page yet for Inscription — era advice, unverifi
 |---|---|
 | Gems | NPC jewelers |
 | Looted scrolls you already know | Mage shops, or players |
-| Scribed Recall/Gate scrolls | Players at banks, [forum trade board](https://www.uotavern.com) |
+| Scribed Recall/Gate scrolls | Players at banks, [forum trade board](https://forum.uotavern.com) |
 | Magic item loot | NPCs for vendor trash; players for good properties |
 
 ## Decision points & common mistakes
