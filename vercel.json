@@ -3,15 +3,17 @@
     {
       "source": "/wiki/recent.json",
       "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://www.uotavern.com"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=300"
-        }
+        { "key": "Access-Control-Allow-Origin", "value": "https://www.uotavern.com" },
+        { "key": "Cache-Control", "value": "public, max-age=300" }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "wiki.uotavern.com" }],
+      "destination": "https://www.uotavern.com/wiki/:path*",
+      "permanent": true
     }
   ]
 }
