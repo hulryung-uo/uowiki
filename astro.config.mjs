@@ -13,7 +13,9 @@ const g = (en, ko, ja, dir, opts = {}) => ({
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://uowiki.vercel.app',
+	// Canonical site URL — used for sitemap, canonical tags, OG urls and hreflang.
+	// The wiki lives at wiki.uotavern.com (uowiki.vercel.app still serves it too).
+	site: 'https://wiki.uotavern.com',
 	// Make **bold**/*italic*/[links] parse correctly when adjacent to CJK
 	// characters (Korean/Japanese) — CommonMark's flanking rules otherwise leave
 	// the markers literal next to 한글/日本語. No effect on English.
@@ -34,6 +36,11 @@ export default defineConfig({
 					content:
 						"(function(){try{var p=location.pathname;if(/^\\/(ko|ja)(\\/|$)/.test(p))return;if(localStorage.getItem('uo-lang'))return;var l=(navigator.language||'').toLowerCase();var t=l.indexOf('ko')===0?'ko':(l.indexOf('ja')===0?'ja':null);if(!t)return;localStorage.setItem('uo-lang',t);location.replace('/'+t+(p==='/'?'/':p)+location.search+location.hash);}catch(e){}})();",
 				},
+					{ tag: 'meta', attrs: { property: 'og:site_name', content: 'UO Wiki' } },
+					{ tag: 'meta', attrs: { property: 'og:image', content: 'https://wiki.uotavern.com/og.png' } },
+					{ tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
+					{ tag: 'meta', attrs: { name: 'twitter:image', content: 'https://wiki.uotavern.com/og.png' } },
+					{ tag: 'meta', attrs: { name: 'keywords', content: 'Ultima Online, UO, ServUO, wiki, bestiary, skills, spells, crafting, treasure hunting, 울티마 온라인, ウルティマオンライン' } },
 			],
 			defaultLocale: 'root',
 			locales: {
