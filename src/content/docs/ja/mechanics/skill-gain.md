@@ -90,7 +90,7 @@ GGSは**このシャードで有効**です（`GGSActive = !Siege.SiegeShard`、
 `SkillCheck.cs`には古典的なアンチマクロシステム（フラグの立ったスキルで5分あたり1つの場所／対象に
 つき最大3回の上昇）が含まれていますが、それは`PlayerCaps.EnableAntiMacro`がtrueのときにのみ
 動作します — そしてこのシャードは**`EnableAntiMacro=False`**です（`Config/PlayerCaps.cfg`）。
-サーバーがあなたに気づかないふりをすることなく、一箇所で鍛錬できます。
+サーバーから上昇を打ち切られることなく、同じ場所で繰り返し鍛錬できます。
 
 ## 関連
 
