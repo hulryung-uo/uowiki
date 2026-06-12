@@ -13,7 +13,7 @@ generated: false
 ## このセクションのページ
 
 - **[リソース](/ja/items/resources/)** — 採取の産物：9種の鉱石/インゴットとその採掘要件、7種の木材、革、そして布。
-- **[触媒（リエージェント）](/ja/items/reagents/)** — 8種のメイジ用触媒：どこで買えるか、どのサークルがどれを消費するか。
+- **[試薬（reagent）](/ja/items/reagents/)** — 8種のメイジ用試薬：どこで買えるか、どのサークルがどれを消費するか。
 - **[武器](/ja/items/weapons/)** — ダメージ、速度、スキル、スペシャルムーブの仕組みと、全武器系統のステータス表。
 - **[防具](/ja/items/armor/)** — 抵抗値、素材（革 → プレート → ドラゴン）、スロット、スーツ、そしてメイジアーマーのトレードオフ。
 - **[道具](/ja/items/tools/)** — あらゆる製作・採取道具（ティンカー道具、シャベル、裁縫キット、のこぎり…）、どのスキルに役立つか、どこで手に入るか。
@@ -29,7 +29,7 @@ generated: false
 - [楽器](/ja/items/catalog/instruments/)、
   [スペルブック & タリスマン](/ja/items/catalog/spellbooks-talismans/)
 - [ポーション](/ja/items/catalog/potions/)、[巻物](/ja/items/catalog/scrolls/)、
-  [触媒](/ja/items/catalog/reagents/)、[食料 & 飲料](/ja/items/catalog/food-drink/)
+  [試薬](/ja/items/catalog/reagents/)、[食料 & 飲料](/ja/items/catalog/food-drink/)
 - [リソース](/ja/items/catalog/resources/)、[道具](/ja/items/catalog/tools/)、
   [照明](/ja/items/catalog/lighting/)、[容器](/ja/items/catalog/containers/)、
   [書物](/ja/items/catalog/books/)
@@ -43,15 +43,15 @@ generated: false
 | カテゴリ | 何が入っているか | 解説場所 |
 |----------|--------------|---------------|
 | 原材料 | 鉱石、インゴット、丸太、板、獣皮、革、布 | [リソース](/ja/items/resources/) |
-| 触媒 | 8種のメイジ用触媒（ネクロマンシー用触媒は別枠） | [触媒](/ja/items/reagents/), [魔法](/ja/magic/) |
-| 武器 & 防具 | 製作品・ドロップ品の装備、有色金属の装備 | [Blacksmithy](/ja/skills/blacksmithy/), [製作](/ja/crafting/) |
-| 消耗品 | 包帯、ポーション、食料、巻物 | [Healing](/ja/skills/healing/), [魔法](/ja/magic/) |
+| 試薬 | 8種のメイジ用試薬（ネクロマンシー用試薬は別枠） | [試薬](/ja/items/reagents/), [魔法](/ja/magic/) |
+| 武器 & 防具 | 製作品・ドロップ品の装備、有色金属の装備 | [鍛冶(Blacksmithy)](/ja/skills/blacksmithy/), [製作](/ja/crafting/) |
+| 消耗品 | 包帯、ポーション、食料、巻物 | [治療(Healing)](/ja/skills/healing/), [魔法](/ja/magic/) |
 | 道具 | つるはし、シャベル、斧、鍛冶ハンマー、裁縫キット | [スキル](/ja/skills/) 内の各スキルページ |
 | 宝物 | 魔法のドロップ品、宝の地図の箱 | ドロップ予算については [サーバールール](/ja/shard/server-rules/) |
 
 ## アイテムに影響するシャード固有の事項
 
-- 地面に放置されたアイテムは **60分** で消滅します（`Config/General.cfg`） — 銀行に預けるか、失うかだ。
+- 地面に放置されたアイテムは **60分** で消滅します（`Config/General.cfg`） — 銀行に預けるか、失うかの二択です。
 - ドロップ品質はフェルッカ補正付きの予算システムを使用します — [サーバールール](/ja/shard/server-rules/)を参照。
 - ベンダーの在庫は1時間ごとに補充され、価格は需給に応じて変動します
   （`Config/Vendors.cfg`）。

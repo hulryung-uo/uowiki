@@ -29,7 +29,7 @@ generated: false
 | テンプレート | 核となる考え方 | 最初におすすめの都市 |
 |---|---|---|
 | [ウォーリアー](/ja/templates/warrior/) | 殴って、包帯を巻いて、繰り返す。最も低コストで運用でき、最も寛容。 | [ブリテイン（Britain）](/ja/world/britain/) |
-| [メイジ](/ja/templates/mage/) | 遠隔ダメージとリコール（Recall）の機動力。リエージェント（reagents）が運用コスト。 | [ムーングロウ（Moonglow）](/ja/world/moonglow/) |
+| [メイジ](/ja/templates/mage/) | 遠隔ダメージとリコール（Recall）の機動力。試薬（reagent）が運用コスト。 | [ムーングロウ（Moonglow）](/ja/world/moonglow/) |
 | [アニマルテイマー](/ja/templates/animal-tamer/) | ペットが戦う。スロースタートだが最も豊かな終盤。 | [スカラブレイ（Skara Brae）](/ja/world/skara-brae/) |
 
 同じ段階構造を持つ [ブラックスミス](/ja/templates/blacksmith/) と [ランバージャック](/ja/templates/lumberjack/) の

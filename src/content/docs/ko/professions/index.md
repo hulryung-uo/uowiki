@@ -28,41 +28,41 @@ generated: false
 
 | 직업 | 한 줄로 | 핵심 스킬 |
 |---|---|---|
-| [전사(Warrior)](/ko/professions/warrior/) | 검, 방패, 붕대 — 최전선 전사. | 검술/둔기술/펜싱, 전술, 해부학, 치유 |
-| [궁수(Archer)](/ko/professions/archer/) | 활과 석궁으로 원거리에서의 죽음. | 궁술, 전술, 해부학, 치유 |
-| [메이지(Mage)](/ko/professions/mage/) | 여덟 서클 — 폭발 데미지와 리콜 기동성. | 마법술, Eval Int, 명상, 저항 |
-| [조련사(Tamer)](/ko/professions/tamer/) | 전설의 짐승에게 명령해 당신을 위해 싸우게 함. | 동물 조련, 동물 지식, 수의학, 마법술 |
-| [음유시인(Bard)](/ko/professions/bard/) | 음악으로 몬스터를 서로 싸우게 함. | 도발, 평화 유지, 불협화음, 악기 연주 |
+| [전사(Warrior)](/ko/professions/warrior/) | 검, 방패, 붕대 — 최전선 전사. | 검술/곤봉술/펜싱, 전술, 해부학, 치료술 |
+| [궁수(Archer)](/ko/professions/archer/) | 활과 석궁으로 원거리에서의 죽음. | 궁술, 전술, 해부학, 치료술 |
+| [메이지(Mage)](/ko/professions/mage/) | 여덟 서클 — 폭발 데미지와 리콜 기동성. | 마법학, 지능 평가, 명상, 마법 저항 |
+| [조련사(Tamer)](/ko/professions/tamer/) | 전설의 짐승에게 명령해 당신을 위해 싸우게 함. | 동물 조련술, 동물학, 수의학, 마법학 |
+| [음유시인(Bard)](/ko/professions/bard/) | 음악으로 몬스터를 서로 싸우게 함. | 도발, 평화 유지, 불협화음, 음악 연주 |
 
 ## 신앙, 그림자, 강철 (확장팩 시전자)
 
 | 직업 | 한 줄로 | 핵심 스킬 |
 |---|---|---|
 | [팔라딘(Paladin)](/ko/professions/paladin/) | 성스러운 전사 — 헌납한 금화로 구동되는 기사도 주문. | 기사도 + 무기, 전술 |
-| [강령술사(Necromancer)](/ko/professions/necromancer/) | 어둠의 마법, 저주, 망령 형태. | 강령술, 영혼 대화 |
+| [강령술사(Necromancer)](/ko/professions/necromancer/) | 어둠의 마법, 저주, 망령 형태. | 강령술, 심령술 |
 | [사무라이(Samurai)](/ko/professions/samurai/) | 부시도 자세와 명예로운 일격. | 부시도 + 무기 |
-| [닌자(Ninja)](/ko/professions/ninja/) | 그림자로부터의 은신, 형태, 수리검. | 닌지츠, 은신, 잠행 |
+| [닌자(Ninja)](/ko/professions/ninja/) | 그림자로부터의 은신, 형태, 수리검. | 닌지츠, 은신술, 잠행 |
 | [신비술사(Mystic)](/ko/professions/mystic/) | 가고일 시대 신비술과 원소 초점. | 신비술, 집중 |
-| [주문직조사(Spellweaver)](/ko/professions/spellweaver/) | 비전술사의 자연 마법과 권능의 말 서클. | 주문직조 |
+| [주문직조사(Spellweaver)](/ko/professions/spellweaver/) | 비전술사의 자연 마법과 권능의 말 서클. | 주문조합 |
 | [샘파이어(Sampire)](/ko/professions/sampire/) | 유명한 하이브리드 — 흡혈 무기 + 부시도 + 강령술. | 부시도, 강령술, 무기, 전술 |
 
 ## 도적 직업
 
 | 직업 | 한 줄로 | 핵심 스킬 |
 |---|---|---|
-| [도둑(Thief)](/ko/professions/thief/) | 당신 것이 아닌 것을 가지고 사라짐. | 도둑질, 엿보기, 은신, 잠행 |
-| [보물 사냥꾼(Treasure Hunter)](/ko/professions/treasure-hunter/) | 지도를 해독하고, 상자를 파내고, 수호자와 싸움. | 지도 제작, 채광, 자물쇠 따기, 함정 해제 |
+| [도둑(Thief)](/ko/professions/thief/) | 당신 것이 아닌 것을 가지고 사라짐. | 훔치기, 훔쳐보기, 은신술, 잠행 |
+| [보물 사냥꾼(Treasure Hunter)](/ko/professions/treasure-hunter/) | 지도를 해독하고, 상자를 파내고, 수호자와 싸움. | 지도 제작술, 채광, 자물쇠 따기, 함정 해제 |
 
 ## 제작 및 채집 직업
 
 | 직업 | 한 줄로 | 핵심 스킬 |
 |---|---|---|
-| [대장장이(Blacksmith)](/ko/professions/blacksmith/) | 광석을 캐고, 무기와 갑옷을 단조하고, 상점을 운영함. | 채광, 대장기술, 땜장이 |
-| [재봉사(Tailor)](/ko/professions/tailor/) | 천과 가죽을 의복과 갑옷으로. | 재봉 |
-| [목수 & 활 제작자(Carpenter & Bowyer)](/ko/professions/carpenter-bowyer/) | 나무를 가구, 악기, 활로. | 벌목, 목공, 활 제작/궁시 |
-| [땜장이(Tinker)](/ko/professions/tinker/) | 도구, 함정, 시계, 기발한 장치. | 땜장이 |
+| [대장장이(Blacksmith)](/ko/professions/blacksmith/) | 광석을 캐고, 무기와 갑옷을 단조하고, 상점을 운영함. | 채광, 대장술, 기계공학 |
+| [재봉사(Tailor)](/ko/professions/tailor/) | 천과 가죽을 의복과 갑옷으로. | 재봉술 |
+| [목수 & 활 제작자(Carpenter & Bowyer)](/ko/professions/carpenter-bowyer/) | 나무를 가구, 악기, 활로. | 벌목술, 목공술, 궁시 제작술 |
+| [땜장이(Tinker)](/ko/professions/tinker/) | 도구, 함정, 시계, 기발한 장치. | 기계공학 |
 | [연금술사(Alchemist)](/ko/professions/alchemist/) | 시약으로 물약을 양조. | 연금술 |
-| [필경사(Scribe)](/ko/professions/scribe/) | 주문 두루마리와 룬북을 필사. | 필사, 마법술 |
+| [필경사(Scribe)](/ko/professions/scribe/) | 주문 두루마리와 룬북을 필사. | 기록술, 마법학 |
 | [어부(Fisher)](/ko/professions/fisher/) | 바다의 수확 — 물고기, 그물, SOS 병. | 낚시 |
 
 ## 플레이어 대 플레이어

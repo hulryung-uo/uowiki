@@ -10,7 +10,7 @@ generated: false
 ---
 
 이것은 모든 방법으로 체력을 회복하고 독을 제거하는 핵심 참조입니다: **붕대**(
-[치유(Healing)](/ko/skills/healing/) / [수의학(Veterinary)](/ko/skills/veterinary/)),
+[치료술(Healing)](/ko/skills/healing/) / [수의학(Veterinary)](/ko/skills/veterinary/)),
 **주문**([마법술(Magery)](/ko/skills/magery/)), 그리고 **물약**(
 [물약 카탈로그](/ko/items/catalog/potions/)). 독 자체에 대해서는
 [독과 상태이상](/ko/playing/poison-and-status/)을 참고하고, 죽음과 다시 일어서기에 대해서는
@@ -28,18 +28,18 @@ generated: false
 4. 타이머가 끝나기를 기다리세요. 성공 시: "You finish applying the bandages." 그리고 HP가
    회복됩니다.
 
-적용당 붕대 하나가 소모됩니다. 높은 민첩은 각 적용을 더 빠르게 하고, 높은
-[치유](/ko/skills/healing/)와 [해부학](/ko/skills/anatomy/)은 **더 많은 HP**를 치유하고
-성공/해독/부활 확률을 높입니다. 붕대 사용은 당신의 치유(또는 수의학)와 짝을 이루는 보조 스킬을
-**120** 스킬까지 단련합니다(`Bandage.cs`의 `CheckSkill` 한계).
+적용당 붕대 하나가 소모됩니다. 민첩성이 높으면 적용이 빨라지고, 높은
+[치료술](/ko/skills/healing/)과 [해부학](/ko/skills/anatomy/)은 **더 많은 HP**를 치유하며
+성공/해독/부활 확률을 높입니다. 붕대 사용은 치료술(또는 수의학)과 짝을 이루는 보조 스킬을
+**120**까지 단련합니다(`Bandage.cs`의 `CheckSkill` 한계).
 
 ## 붕대 타이밍 (검증됨)
 
 `Scripts/Items/Resource/Bandage.cs`의 `GetDelay`(AOS 경로)에서. 시간 단위는 **초**이며,
-`Dex`는 치유자의 민첩입니다:
+`Dex`는 치유자의 민첩성입니다:
 
-- **자가 치유:** `max(4, min(8, ceil(11 − Dex/20)))`. 즉 매우 높은 민첩에서 4초, 낮은
-  민첩에서 최대 8초.
+- **자가 치유:** `max(4, min(8, ceil(11 − Dex/20)))`. 즉 민첩성이 매우 높으면 4초, 낮으면
+  최대 8초.
 - **다른 사람 치유:** `max(2, ceil(4 − Dex/60))`. 최대 2초까지 빨라집니다.
 - **펫에 [수의학](/ko/skills/veterinary/):** 고정 **2초**.
 - **붕대를 통한 부활:** non-AOS dex 분기는 죽은 대상에 대해 **+5초**를 더합니다
@@ -62,22 +62,22 @@ generated: false
 
 ## 붕대가 치유하는 양
 
-치유량은 **치유**와 **해부학**에 비례합니다(AOS 경로, `Bandage.cs`):
+치유량은 **치료술**과 **해부학**에 비례합니다(AOS 경로, `Bandage.cs`):
 
 - `min = Anatomy/8 + Healing/5 + 4`
 - `max = Anatomy/6 + Healing/2.5 + 4`
 - 실제 치유량은 `min`과 `max` 사이의 무작위 값이며, 미끄러짐으로 감소하고, 같은 적용에서 동시에
   독/출혈을 해독했다면 감소합니다.
 
-요컨대: **해부학과 치유가 높을수록 = 더 큰 치유.** 둘 다 최대로 올리면
-([치유](/ko/skills/healing/) 100, [해부학](/ko/skills/anatomy/) 100) 가장 크고 가장
+요컨대: **해부학과 치료술이 높을수록 치유량이 커집니다.** 둘 다 최대로 올리면
+([치료술](/ko/skills/healing/) 100, [해부학](/ko/skills/anatomy/) 100) 가장 크고 가장
 안정적인 붕대 치유를 얻습니다.
 
 ## 붕대로 독 해독하기
 
 **중독된** 환자에게 붕대를 감으면 HP 치유 대신(또는 그에 앞서) 독을 해독하려 시도합니다.
 
-- **스킬 요구치 (검증됨):** **치유 ≥ 60**과 **해부학 ≥ 60** 모두
+- **스킬 요구치 (검증됨):** **치료술 ≥ 60**과 **해부학 ≥ 60** 모두
   (`checkSkills = healing >= 60.0 && anatomy >= 60.0`).
 - **해독 확률** = `(Healing − 30)/50 − (PoisonLevel × 0.1) − (Slips × 0.02)`. 높은 독
   단계(치명적 > 더 강한 > 일반 > 약한)는 해독하기 더 어렵고, 미끄러짐은 해가 됩니다.
@@ -90,7 +90,7 @@ generated: false
 
 **죽은** 플레이어(또는 수의학을 통해 죽은 펫)에게 붕대를 적용하면 그들을 되살릴 수 있습니다.
 
-- **스킬 요구치 (검증됨):** **치유 ≥ 80**과 **해부학 ≥ 80** 모두
+- **스킬 요구치 (검증됨):** **치료술 ≥ 80**과 **해부학 ≥ 80** 모두
   (`checkSkills = healing >= 80.0 && anatomy >= 80.0`). 펫의 경우 수의학/동물 지식 등가가
   적용됩니다.
 - **성공 확률** = `(Healing − 68)/50 − (Slips × 0.02)`.
@@ -155,7 +155,7 @@ generated: false
 
 ## 함께 보기
 
-- [치유 스킬](/ko/skills/healing/), [해부학](/ko/skills/anatomy/), [수의학](/ko/skills/veterinary/)
+- [치료술](/ko/skills/healing/), [해부학](/ko/skills/anatomy/), [수의학](/ko/skills/veterinary/)
 - [독과 상태이상](/ko/playing/poison-and-status/)
 - [죽음과 부활](/ko/playing/death-and-resurrection/)
 - [주문 시전](/ko/playing/spellcasting/), [마법술](/ko/skills/magery/), [마법 색인](/ko/magic/)

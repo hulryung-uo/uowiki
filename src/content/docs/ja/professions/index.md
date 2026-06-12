@@ -22,42 +22,42 @@ Ultima Online にクラスは存在しません。それでもプレイヤーは
 
 | 職業 | 一言で | 主要スキル |
 |---|---|---|
-| [ウォリアー](/ja/professions/warrior/) | 剣、盾、包帯 — 最前線の戦士。 | Swords/Mace/Fencing, Tactics, Anatomy, Healing |
-| [アーチャー](/ja/professions/archer/) | 弓とクロスボウで遠くから死を届ける。 | Archery, Tactics, Anatomy, Healing |
-| [メイジ](/ja/professions/mage/) | 8つのサークル — 瞬間火力と Recall の機動力。 | Magery, Eval Int, Meditation, Resist |
-| [テイマー](/ja/professions/tamer/) | 伝説の獣を従え、自分の代わりに戦わせる。 | Animal Taming, Animal Lore, Veterinary, Magery |
-| [バード](/ja/professions/bard/) | 音楽でモンスター同士を戦わせる。 | Provocation, Peacemaking, Discordance, Musicianship |
+| [ウォリアー](/ja/professions/warrior/) | 剣、盾、包帯 — 最前線の戦士。 | 剣術/棍術/槍術, 戦術, 解剖学, 治療 |
+| [アーチャー](/ja/professions/archer/) | 弓とクロスボウで遠くから死を届ける。 | 弓術, 戦術, 解剖学, 治療 |
+| [メイジ](/ja/professions/mage/) | 8つのサークル — 瞬間火力とリコールの機動力。 | 魔法, 評価, 瞑想, 耐性 |
+| [テイマー](/ja/professions/tamer/) | 伝説の獣を従え、自分の代わりに戦わせる。 | 調教, 動物学, 獣医学, 魔法 |
+| [バード](/ja/professions/bard/) | 音楽でモンスター同士を戦わせる。 | 扇動, 沈静化, 不調和, 音楽 |
 
 ## 信仰・影・鋼（拡張版キャスター）
 
 | 職業 | 一言で | 主要スキル |
 |---|---|---|
-| [パラディン](/ja/professions/paladin/) | 聖なる戦士 — 献金した金で Chivalry の呪文を放つ。 | Chivalry + 武器, Tactics |
-| [ネクロマンサー](/ja/professions/necromancer/) | 闇の魔法、呪い、そしてレイス形態。 | Necromancy, Spirit Speak |
-| [サムライ](/ja/professions/samurai/) | Bushido の構えと誇り高き一撃。 | Bushido + 武器 |
-| [ニンジャ](/ja/professions/ninja/) | 隠密、変化、そして影からの手裏剣。 | Ninjitsu, Hiding, Stealth |
-| [ミスティック](/ja/professions/mystic/) | ガーゴイル時代の神秘魔法と精神集中。 | Mysticism, Focus |
-| [スペルウィーバー](/ja/professions/spellweaver/) | アーカニストの自然魔法と言霊のサークル。 | Spellweaving |
-| [サンパイア](/ja/professions/sampire/) | 名高いハイブリッド — 吸血武器 + Bushido + Necromancy。 | Bushido, Necromancy, 武器, Tactics |
+| [パラディン](/ja/professions/paladin/) | 聖なる戦士 — 献金した金で騎士道の呪文を放つ。 | 騎士道 + 武器, 戦術 |
+| [ネクロマンサー](/ja/professions/necromancer/) | 闇の魔法、呪い、そしてレイス形態。 | 霊媒, 霊話 |
+| [サムライ](/ja/professions/samurai/) | 武士道の構えと誇り高き一撃。 | 武士道 + 武器 |
+| [ニンジャ](/ja/professions/ninja/) | 隠密、変化、そして影からの手裏剣。 | 忍術, 隠蔽, 隠密 |
+| [ミスティック](/ja/professions/mystic/) | ガーゴイル時代の神秘魔法と精神集中。 | 神秘, 集中 |
+| [スペルウィーバー](/ja/professions/spellweaver/) | アーカニストの自然魔法と言霊のサークル。 | 織成呪文 |
+| [サンパイア](/ja/professions/sampire/) | 名高いハイブリッド — 吸血武器 + 武士道 + 霊媒。 | 武士道, 霊媒, 武器, 戦術 |
 
 ## 悪党系の職業
 
 | 職業 | 一言で | 主要スキル |
 |---|---|---|
-| [シーフ](/ja/professions/thief/) | 自分のものでない物を奪って消える。 | Stealing, Snooping, Hiding, Stealth |
-| [トレジャーハンター](/ja/professions/treasure-hunter/) | 地図を解読し、宝箱を掘り出し、守護者と戦う。 | Cartography, Mining, Lockpicking, Remove Trap |
+| [シーフ](/ja/professions/thief/) | 自分のものでない物を奪って消える。 | 窃盗, 詮索, 隠蔽, 隠密 |
+| [トレジャーハンター](/ja/professions/treasure-hunter/) | 地図を解読し、宝箱を掘り出し、守護者と戦う。 | 測量, 採掘, 開錠, 罠解除 |
 
 ## 製作・採取系の職業
 
 | 職業 | 一言で | 主要スキル |
 |---|---|---|
-| [ブラックスミス](/ja/professions/blacksmith/) | 鉱石を掘り、武具を鍛え、店を構える。 | Mining, Blacksmithy, Tinkering |
-| [テイラー](/ja/professions/tailor/) | 布と革を衣服と防具に仕立てる。 | Tailoring |
-| [カーペンター & ボウヤー](/ja/professions/carpenter-bowyer/) | 木材を家具、楽器、弓に変える。 | Lumberjacking, Carpentry, Bowcraft/Fletching |
-| [ティンカー](/ja/professions/tinker/) | 道具、罠、時計、そして巧妙な仕掛け。 | Tinkering |
-| [アルケミスト](/ja/professions/alchemist/) | 触媒（リエージェント）からポーションを調合する。 | Alchemy |
-| [スクライブ](/ja/professions/scribe/) | 呪文の巻物とルーンブックを書き写す。 | Inscription, Magery |
-| [フィッシャー](/ja/professions/fisher/) | 海の恵み — 魚、網、そして SOS ボトル。 | Fishing |
+| [ブラックスミス](/ja/professions/blacksmith/) | 鉱石を掘り、武具を鍛え、店を構える。 | 採掘, 鍛冶, 細工 |
+| [テイラー](/ja/professions/tailor/) | 布と革を衣服と防具に仕立てる。 | 裁縫 |
+| [カーペンター & ボウヤー](/ja/professions/carpenter-bowyer/) | 木材を家具、楽器、弓に変える。 | 伐採, 大工, 弓矢工 |
+| [ティンカー](/ja/professions/tinker/) | 道具、罠、時計、そして巧妙な仕掛け。 | 細工 |
+| [アルケミスト](/ja/professions/alchemist/) | 試薬（reagent）からポーションを調合する。 | 錬金術 |
+| [スクライブ](/ja/professions/scribe/) | 呪文の巻物とルーンブックを書き写す。 | 書写, 魔法 |
+| [フィッシャー](/ja/professions/fisher/) | 海の恵み — 魚、網、そして SOS ボトル。 | 釣り |
 
 ## プレイヤー対プレイヤー
 

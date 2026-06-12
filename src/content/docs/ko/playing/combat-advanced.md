@@ -19,7 +19,7 @@ generated: false
 **휘두름이 명중하는지**는 공격자의 정확도와 방어자의 회피 능력 사이의 겨룸입니다:
 
 - **공격자 측:** 당신의 **무기 스킬**([검술](/ko/skills/swordsmanship/),
-  [둔기술](/ko/skills/mace-fighting/), [펜싱](/ko/skills/fencing/),
+  [곤봉술](/ko/skills/mace-fighting/), [펜싱](/ko/skills/fencing/),
   [궁술](/ko/skills/archery/), [투척술](/ko/skills/throwing/), 또는
   [레슬링](/ko/skills/wrestling/))에 무기의 명중률 속성을 더한 것.
 - **방어자 측:** 그들 자신의 무기 스킬(무장하지 않았다면 [레슬링](/ko/skills/wrestling/)),
@@ -72,16 +72,16 @@ Increase)" 아이템 속성이 확률을 움직입니다.
 *가장 적게* 저항하는 데미지 유형을 가하는 무기(또는 주문)를 가져가세요. 반대로, 적이 가하는
 데미지 유형을 막아 주는 갑옷을 착용하세요.
 
-## 무기 속도와 스태미나
+## 무기 속도와 기력
 
-- **휘두름 속도**는 무기의 기본 속도, 당신의 **스태미나**, 그리고 휘두름 속도 아이템 보너스로
-  정해집니다. 스태미나가 많고 "휘두름 속도 증가(Swing Speed Increase)"가 높을수록 초당 더 많이
-  휘두릅니다.
-- **낮은 스태미나는 공격과 이동을 느리게 합니다.** 스태미나는 달리기와 피격으로 소모됩니다.
+- **휘두름 속도**는 무기의 기본 속도, 당신의 **기력(Stamina)**, 그리고 휘두름 속도 아이템
+  보너스로 정해집니다. 기력이 많고 "휘두름 속도 증가(Swing Speed Increase)"가 높을수록 초당 더
+  자주 휘두릅니다.
+- **기력이 낮으면 공격과 이동이 느려집니다.** 기력은 달리기와 피격으로 소모됩니다.
   [음식](/ko/items/catalog/food-drink/)을 먹고 쉬어서 회복하세요. (정확한 휘두름 속도 공식은
   **unverified** — 무기 스크립트 참고.)
 - 빠른 무기는 특수 무브 연사와 적중 시 효과에 유리하고, 느린 무기는 큰 단일 타격에 유리합니다.
-  [전투 기초](/ko/playing/combat-basics/#무기-속도-스태미나-사정거리)를 참고하세요.
+  [전투 기초](/ko/playing/combat-basics/#무기-속도-기력-사정거리)를 참고하세요.
 
 ## 특수 무브 (주 무브와 보조 무브)
 
@@ -98,7 +98,7 @@ Increase)" 아이템 속성이 확률을 움직입니다.
 
 특수 무브는 **마나를 소모**합니다(양은 능력에 따라 다르며 숙련도로 줄어듭니다 — **정확한
 비용 unverified**). 타격이 명중할 때 마나가 부족하면 특수 무브가 발동하지 않습니다.
-[부시도(Bushido)](/ko/skills/bushido/)와 [닌지츠(Ninjitsu)](/ko/skills/ninjitsu/)는
+[무사도(Bushido)](/ko/skills/bushido/)와 [인술(Ninjitsu)](/ko/skills/ninjitsu/)는
 자체 무기 특수 무브를 추가합니다. 각 무기 유형이 어떤 무브를 제공하는지는 개별 무기 스킬
 페이지를 참고하세요.
 
@@ -107,12 +107,12 @@ Increase)" 아이템 속성이 확률을 움직입니다.
 - **시전 중 피격은 방해될 수 있습니다.** 시전 도중 타격을 받으면(또는 다른 식으로 집중을
   잃으면) 주문이 **피즐(fizzle)**합니다 — 실패하고, 시약/마나를 잃을 수 있으며, 다시 시전해야
   합니다. 이것이 메이지가 카이팅하고 시전 사이에 치유하는 이유입니다.
-  [주문 시전](/ko/playing/spellcasting/)과 [마법술(Magery)](/ko/skills/magery/)을
+  [주문 시전](/ko/playing/spellcasting/)과 [마법학(Magery)](/ko/skills/magery/)을
   참고하세요.
 - 붕대 적용도 마찬가지로 **미끄러지거나**("Your fingers slip!") 방해받거나 사정거리를 벗어나면
   완료되지 못할 수 있습니다 — [치유](/ko/playing/healing/)를 참고하세요.
 - 정지해 있기, 거리 유지하기, 보호 주문/능력은 방해를 줄입니다(저항 마법과 보호 효과의 구체적
-  사항은 **unverified** — [주문 저항(Resisting Spells)](/ko/skills/resisting-spells/) 참고).
+  사항은 **unverified** — [마법 저항(Resisting Spells)](/ko/skills/resisting-spells/) 참고).
 
 ## 전투에서의 탈것
 
