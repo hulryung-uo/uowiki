@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import remarkCjkFriendly from 'remark-cjk-friendly';
 
 // Sidebar group with per-locale label translations.
 const g = (en, ko, ja, dir, opts = {}) => ({
@@ -13,6 +14,10 @@ const g = (en, ko, ja, dir, opts = {}) => ({
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://uowiki.vercel.app',
+	// Make **bold**/*italic*/[links] parse correctly when adjacent to CJK
+	// characters (Korean/Japanese) — CommonMark's flanking rules otherwise leave
+	// the markers literal next to 한글/日本語. No effect on English.
+	markdown: { remarkPlugins: [remarkCjkFriendly] },
 	integrations: [
 		starlight({
 			title: { en: 'UO Wiki', ko: 'UO 위키', ja: 'UO ウィキ' },
