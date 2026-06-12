@@ -124,7 +124,7 @@ wyrm together at 95.1 — on this shard the wyrm is harder, and dragons actually
 | Sell | Where |
 |---|---|
 | Bulk hides, meat, feathers | Tailors/provisioners ([Vesper](/world/vesper/), Britain), crafter players |
-| Trained pets (mounts, pack animals, drakes+) | Players at the Britain bank, [forum trade board](https://forum.uotavern.com) |
+| Trained pets (mounts, pack animals, drakes+) | Players at the Britain bank, [forum trade board](https://www.uotavern.com/forum) |
 | Dragon/lich loot, gems | NPC jewelers; players for good magic items |
 
 ## Decision points & common mistakes

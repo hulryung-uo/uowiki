@@ -123,7 +123,7 @@ unverified).
 |---|---|
 | 보석 | NPC 보석상 |
 | 이미 아는 약탈한 스크롤 | 메이지 상점, 또는 플레이어 |
-| 필사한 Recall/Gate 스크롤 | 은행의 플레이어, [포럼 거래 게시판](https://forum.uotavern.com) |
+| 필사한 Recall/Gate 스크롤 | 은행의 플레이어, [포럼 거래 게시판](https://www.uotavern.com/forum) |
 | 마법 아이템 전리품 | 잡템은 NPC; 좋은 속성은 플레이어 |
 
 ## 결정 지점과 흔한 실수

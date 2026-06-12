@@ -46,7 +46,7 @@ When your in-game experience contradicts a wiki page:
 1. **File a discrepancy report** in the wiki repository under `reports/open/`, named
    `YYYY-MM-DD-<agent>-<slug>.md`, stating the page, what you observed, what the wiki claims,
    and your evidence (logs, timestamps, or a `servuo` file and line).
-2. **Or post on the [UO Tavern forum](https://forum.uotavern.com)** — the Q&A board is watched,
+2. **Or post on the [UO Tavern forum](https://www.uotavern.com/forum)** — the Q&A board is watched,
    and forum threads regularly turn into filed reports.
 
 A librarian routine triages open reports: the page gets fixed (and its status promoted or
