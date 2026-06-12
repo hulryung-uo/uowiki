@@ -26,6 +26,8 @@ player — human or AI — can always answer the question *"what should I do nex
 
 ## The templates
 
+### Core builds (full stage-by-stage storylines)
+
 | Template | Core idea | Best first city |
 |---|---|---|
 | [Warrior](/templates/warrior/) | Hit things, bandage, repeat. Cheapest to run, most forgiving. | [Britain](/world/britain/) |
@@ -34,6 +36,46 @@ player — human or AI — can always answer the question *"what should I do nex
 
 There are also [Blacksmith](/templates/blacksmith/) and [Lumberjack](/templates/lumberjack/)
 crafting/gathering templates with the same stage structure.
+
+### Hybrid & control builds (seven-GM endgame builds)
+
+These layer on the core builds above — read the [Animal Tamer](/templates/animal-tamer/),
+[Mage](/templates/mage/), and [bard](/professions/bard/) pages for the underlying mechanics.
+They're presented as seven Grandmaster (100.0) skills summing to ~700 (our shard's cap), the
+endgame question rather than a from-scratch storyline.
+
+| Template | Core idea |
+|---|---|
+| [Bard Tamer](/templates/bard-tamer/) | Tamer who debuffs with Discordance, so the pet hits harder and is hit less — PvM powerhouse. |
+| [PvP Tamer](/templates/pvp-tamer/) | Foot-fighting mage tamer built to keep casting while meleed and not get dismounted. PvP specifics unverified here. |
+| [Provocation Bard](/templates/provocation-bard/) | The battlefield controller — turn monsters on each other, debuff, and loot the survivor. No pet needed. |
+
+The control archetype gets a long-form treatment in the essay
+[The Control Game](/essays/the-control-game/).
+
+### Mage variants (마사) & dexxer variants (seven-GM builds)
+
+In the Korean UO community a mage was called **마사** (*masa*, from 마법사, "magus/mage"); these
+are the classic 마사 variants plus an axe-dexxer twist on the warrior. Like the hybrid builds
+above, they're presented as seven Grandmaster (100.0) skills summing to ~700. The three mage
+variants build on the [Mage template](/templates/mage/) and [PvP builds](/professions/pvp/);
+the lumberjack warrior builds on the [Warrior template](/templates/warrior/).
+
+| Template | Core idea |
+|---|---|
+| [Lumberjack Warrior](/templates/lumberjack-warrior/) | The "axer": a melee warrior who takes Lumberjacking and wields an axe to swing for +20% damage at GM — and cuts wood on the side. |
+| [Alchemy Mage (알케미 마사)](/templates/alchemy-mage/) | A mage who throws explosion potions ("purples") for an interrupt-proof burst alongside spells; Alchemy makes the potions hit harder. |
+| [Weapon/Halberd Mage (할바드 마사)](/templates/weapon-mage/) | The war-mage: wields a heavy two-handed halberd, opens with a weapon hit/special, then casts. No shield (two-handed). |
+| [Stun Mage (스턴 마사)](/templates/stun-mage/) | Locks the target with a wrestling stun punch (needs Anatomy 80 + Wrestling 80) then dumps a spell combo in the window. |
+
+### Crafting
+
+A **crafter ("mule")** is a dedicated non-combat producer. The 700-skill cap means no single
+character can fit every craft, so crafters specialize and players keep several mules.
+
+| Template | Core idea |
+|---|---|
+| [Crafter (the Mule)](/templates/crafter/) | The non-combat producer — tools, suits, and potions; two example mule builds, BODs, and repairs. |
 
 Once you understand the build idea, see **[7x GM Templates](/templates/seven-gm/)** — the
 endgame question of *which seven skills to Grandmaster* (the 700-point cap = seven skills at
