@@ -69,7 +69,7 @@
    and search; .uo-runic just restyles them as runes. */
 @font-face {
 	font-family: 'Britannian Runic';
-	src: url('/fonts/britannian-runic.ttf') format('truetype');
+	src: url('/wiki/fonts/britannian-runic.ttf') format('truetype');
 	font-display: swap;
 }
 .uo-runic {
@@ -87,7 +87,7 @@
    ornate letterforms read well. Used for spell power-words alongside .uo-runic. */
 @font-face {
 	font-family: 'UO Ascii';
-	src: url('/fonts/uo-ascii.ttf') format('truetype');
+	src: url('/wiki/fonts/uo-ascii.ttf') format('truetype');
 	font-display: swap;
 }
 .uo-ascii {
@@ -104,7 +104,7 @@
    keeps the title legible. */
 .hero {
 	background-image: linear-gradient(rgba(12, 10, 22, 0.74), rgba(12, 10, 22, 0.88)),
-		url('/img/hero-bg.jpg');
+		url('/wiki/img/hero-bg.jpg');
 	background-size: cover;
 	background-position: center 30%;
 	border-radius: 1rem;

@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import remarkCjkFriendly from 'remark-cjk-friendly';
+import remarkBaseLinks from './src/plugins/remark-base-links.mjs';
 
 // Sidebar group with per-locale label translations.
 const g = (en, ko, ja, dir, opts = {}) => ({
@@ -14,12 +15,19 @@ const g = (en, ko, ja, dir, opts = {}) => ({
 // https://astro.build/config
 export default defineConfig({
 	// Canonical site URL — used for sitemap, canonical tags, OG urls and hreflang.
-	// The wiki lives at wiki.uotavern.com (uowiki.vercel.app still serves it too).
-	site: 'https://wiki.uotavern.com',
+	// The wiki now lives under www.uotavern.com/wiki (unified domain). Combined
+	// with base:'/wiki', canonical/sitemap URLs become https://www.uotavern.com/wiki/...
+	site: 'https://www.uotavern.com',
+	// Serve the whole site under /wiki. Starlight auto-prefixes its own
+	// component links via this base; in-content absolute links/assets are
+	// handled by the rehype-base-links plugin below.
+	base: '/wiki',
 	// Make **bold**/*italic*/[links] parse correctly when adjacent to CJK
 	// characters (Korean/Japanese) — CommonMark's flanking rules otherwise leave
 	// the markers literal next to 한글/日本語. No effect on English.
-	markdown: { remarkPlugins: [remarkCjkFriendly] },
+	// remark-base-links prefixes /wiki onto in-content absolute URLs (markdown
+	// links/images AND raw <img>/<audio> HTML) at build time.
+	markdown: { remarkPlugins: [remarkCjkFriendly, remarkBaseLinks] },
 	integrations: [
 		starlight({
 			title: { en: 'UO Wiki', ko: 'UO 위키', ja: 'UO ウィキ' },
@@ -35,12 +43,12 @@ export default defineConfig({
 				{
 					tag: 'script',
 					content:
-						"(function(){try{var p=location.pathname;if(/^\\/(ko|ja)(\\/|$)/.test(p))return;if(localStorage.getItem('uo-lang'))return;var l=(navigator.language||'').toLowerCase();var t=l.indexOf('ko')===0?'ko':(l.indexOf('ja')===0?'ja':null);if(!t)return;localStorage.setItem('uo-lang',t);location.replace('/'+t+(p==='/'?'/':p)+location.search+location.hash);}catch(e){}})();",
+						"(function(){try{var b='/wiki';var p=location.pathname;var r=p.indexOf(b)===0?(p.slice(b.length)||'/'):p;if(/^\\/(ko|ja)(\\/|$)/.test(r))return;if(localStorage.getItem('uo-lang'))return;var l=(navigator.language||'').toLowerCase();var t=l.indexOf('ko')===0?'ko':(l.indexOf('ja')===0?'ja':null);if(!t)return;localStorage.setItem('uo-lang',t);location.replace(b+'/'+t+(r==='/'?'/':r)+location.search+location.hash);}catch(e){}})();",
 				},
 					{ tag: 'meta', attrs: { property: 'og:site_name', content: 'UO Wiki' } },
-					{ tag: 'meta', attrs: { property: 'og:image', content: 'https://wiki.uotavern.com/og.png' } },
+					{ tag: 'meta', attrs: { property: 'og:image', content: 'https://www.uotavern.com/wiki/og.png' } },
 					{ tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
-					{ tag: 'meta', attrs: { name: 'twitter:image', content: 'https://wiki.uotavern.com/og.png' } },
+					{ tag: 'meta', attrs: { name: 'twitter:image', content: 'https://www.uotavern.com/wiki/og.png' } },
 					{ tag: 'meta', attrs: { name: 'keywords', content: 'Ultima Online, UO, ServUO, wiki, bestiary, skills, spells, crafting, treasure hunting, 울티마 온라인, ウルティマオンライン' } },
 			],
 			defaultLocale: 'root',
