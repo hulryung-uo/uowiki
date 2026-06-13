@@ -9,8 +9,14 @@
  * the light theme too so a stray toggle never breaks the tone. */
 :root,
 :root[data-theme='light'] {
-	/* Body + mono font families. The whole wiki uses EB Garamond; code stays mono. */
-	--sl-font: var(--uo-font-body);
+	/* Korean/Japanese gothic fallback. EB Garamond has no CJK glyphs, so without
+	 * this the browser falls back to a system MINCHO (serif) for 한글/日本語, which
+	 * the user dislikes. Chain to the platform GOTHIC face: Apple SD Gothic Neo on
+	 * macOS/iOS, Malgun Gothic on Windows, Noto Sans CJK KR on Linux/Android. */
+	--uo-cjk: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR',
+		'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif;
+	/* Body + mono font families. Latin → EB Garamond, CJK → gothic. */
+	--sl-font: 'EB Garamond', var(--uo-cjk);
 	--sl-font-mono: var(--uo-font-mono);
 
 	/* Accent (links, active states) — gold. */
@@ -55,7 +61,8 @@ h1#_top,
 .content-panel h1,
 h1.title,
 .site-title {
-	font-family: var(--uo-font-display);
+	/* Latin → Cinzel; CJK headings fall through to the gothic stack, not mincho. */
+	font-family: var(--uo-font-display), var(--uo-cjk);
 	letter-spacing: 0.01em;
 }
 
@@ -87,6 +94,50 @@ body {
 	display: block;
 	overflow-x: auto;
 	max-width: 100%;
+}
+
+/* Starlight is a FULL-BLEED layout (sidebar + content), unlike the centered
+ * hub/forum. So the global bar spans full width here and aligns its brand/nav
+ * to the same gutter as Starlight's own header (site title, search), instead of
+ * sitting in a centered 1140px box that looks offset from "UO Wiki" below it. */
+.uo-globalbar__inner {
+	max-width: none;
+	/* The bar sits inside Starlight's header wrapper, which already applies the
+	 * page gutter. Zero the inner padding so the brand lines up with the "UO Wiki"
+	 * site title and the nav with the header's right-side controls. */
+	padding-inline: 0;
+}
+
+/* Asides (:::note etc.) — Starlight defaults to bright pastel panels that look
+ * wrong on our dark theme (and wash out the text). Re-skin them as dark panels
+ * with a gold accent rail, parchment text. */
+.starlight-aside {
+	background-color: var(--uo-panel) !important;
+	border-color: var(--uo-gold) !important;
+	color: var(--uo-ink);
+}
+.starlight-aside__title {
+	color: var(--uo-gold-bright) !important;
+}
+.starlight-aside__content,
+.starlight-aside__content p {
+	color: var(--uo-ink);
+}
+.starlight-aside a {
+	color: var(--uo-gold-bright);
+}
+.starlight-aside :not(pre) > code {
+	background-color: var(--uo-bg);
+	color: var(--uo-parch);
+}
+
+/* CardGrid icons — force gold (the multicolour seti:* icons clash; index.mdx now
+ * uses monochrome icons so this tints them to match). */
+.card .icon,
+.sl-card .icon {
+	color: var(--uo-gold) !important;
+	background-color: rgba(217, 179, 92, 0.14) !important;
+	border-color: var(--uo-line-strong) !important;
 }
 
 /* Search box + cards pick up the warm surface automatically via the vars above. */
