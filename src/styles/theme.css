@@ -67,10 +67,18 @@
 .sl-markdown-content h2,
 .sl-markdown-content h3,
 .sl-markdown-content h4,
+h1#_top,
+.content-panel h1,
 h1.title,
 .site-title {
 	font-family: Cinzel, 'EB Garamond', Georgia, 'Times New Roman', serif;
 	letter-spacing: 0.01em;
+}
+
+/* Starlight's page title lives outside .sl-markdown-content. */
+h1#_top,
+.content-panel h1 {
+	color: #f6efdc;
 }
 .site-title {
 	color: var(--sl-color-accent-high);
