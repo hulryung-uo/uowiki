@@ -1,0 +1,90 @@
+/* UO Tavern unified theme — match the landing hub's tone & manner.
+ * Dark, parchment-on-ink with gold accents and hairlines. The wiki is forced
+ * dark so it reads as the same site as www.uotavern.com (which is dark-only). */
+
+/* Display/heading face shared with the hub + forum. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap');
+
+:root {
+	/* Accent (links, active states) — gold. */
+	--sl-color-accent-low: #2a2310;
+	--sl-color-accent: #d9b35c;
+	--sl-color-accent-high: #f0cd7a;
+
+	/* Text ramp: parchment → muted. */
+	--sl-color-white: #f6efdc; /* headings / strongest text */
+	--sl-color-gray-1: #ece3cf;
+	--sl-color-gray-2: #cabfa6;
+	--sl-color-gray-3: #9a8e73;
+	--sl-color-gray-4: #6b6450;
+	--sl-color-gray-5: #2a2740;
+	--sl-color-gray-6: #16131f;
+	--sl-color-black: #0b0a12;
+
+	/* Surfaces. */
+	--sl-color-bg: #0b0a12;
+	--sl-color-bg-nav: #0c0b16;
+	--sl-color-bg-sidebar: #0c0b16;
+	--sl-color-bg-inline-code: #1b1830;
+	--sl-color-bg-accent: #f0cd7a;
+
+	/* Hairlines / borders — faint gold. */
+	--sl-color-hairline: rgba(217, 179, 92, 0.16);
+	--sl-color-hairline-light: rgba(217, 179, 92, 0.24);
+	--sl-color-hairline-shade: rgba(217, 179, 92, 0.1);
+
+	--sl-color-text: #d8cfba;
+	--sl-color-text-accent: #f0cd7a;
+}
+
+/* Force the same palette in light mode too, so a toggle never breaks the tone. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #2a2310;
+	--sl-color-accent: #d9b35c;
+	--sl-color-accent-high: #f0cd7a;
+	--sl-color-white: #f6efdc;
+	--sl-color-gray-1: #ece3cf;
+	--sl-color-gray-2: #cabfa6;
+	--sl-color-gray-3: #9a8e73;
+	--sl-color-gray-4: #6b6450;
+	--sl-color-gray-5: #2a2740;
+	--sl-color-gray-6: #16131f;
+	--sl-color-gray-7: #0f0d1a;
+	--sl-color-black: #0b0a12;
+	--sl-color-bg: #0b0a12;
+	--sl-color-bg-nav: #0c0b16;
+	--sl-color-bg-sidebar: #0c0b16;
+	--sl-color-bg-inline-code: #1b1830;
+	--sl-color-hairline: rgba(217, 179, 92, 0.16);
+	--sl-color-hairline-light: rgba(217, 179, 92, 0.24);
+	--sl-color-hairline-shade: rgba(217, 179, 92, 0.1);
+	--sl-color-text: #d8cfba;
+	--sl-color-text-accent: #f0cd7a;
+}
+
+/* Serif display headings to match the hub. */
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4,
+h1.title,
+.site-title {
+	font-family: Cinzel, 'EB Garamond', Georgia, 'Times New Roman', serif;
+	letter-spacing: 0.01em;
+}
+.site-title {
+	color: var(--sl-color-accent-high);
+	font-weight: 600;
+}
+
+/* The page title gets a touch of gold, like the hub section headers. */
+.sl-markdown-content h1 {
+	color: #f6efdc;
+}
+
+/* Hide the theme toggle — the wiki is dark-only to match the hub. */
+starlight-theme-select {
+	display: none;
+}
+
+/* Search box + cards pick up the warm surface automatically via the vars above. */
