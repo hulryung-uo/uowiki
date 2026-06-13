@@ -15,6 +15,11 @@
 	 * macOS/iOS, Malgun Gothic on Windows, Noto Sans CJK KR on Linux/Android. */
 	--uo-cjk: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR',
 		'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif;
+	/* Our shared global bar (~57px) sits INSIDE Starlight's fixed `.header`, whose
+	 * height + the content offset are both driven by --sl-nav-height (default
+	 * 4rem). Without growing it, the real header (site title, search) overflows
+	 * the 4rem box and overlaps the sidebar/content. Reserve room for BOTH bars. */
+	--sl-nav-height: calc(4rem + 57px);
 	/* Body + mono font families. Latin → EB Garamond, CJK → gothic. */
 	--sl-font: 'EB Garamond', var(--uo-cjk);
 	--sl-font-mono: var(--uo-font-mono);
@@ -96,6 +101,16 @@ body {
 	max-width: 100%;
 }
 
+/* On mobile Starlight's header row is taller (the site title + menu button sit
+ * below the global bar with more padding), so 4rem+57px isn't enough and the
+ * title overlaps the mobile TOC. Reserve more there. */
+@media (max-width: 50rem) {
+	:root,
+	:root[data-theme='light'] {
+		--sl-nav-height: calc(4rem + 96px);
+	}
+}
+
 /* Starlight is a FULL-BLEED layout (sidebar + content), unlike the centered
  * hub/forum. So the global bar spans full width here and aligns its brand/nav
  * to the same gutter as Starlight's own header (site title, search), instead of
@@ -106,6 +121,12 @@ body {
 	 * page gutter. Zero the inner padding so the brand lines up with the "UO Wiki"
 	 * site title and the nav with the header's right-side controls. */
 	padding-inline: 0;
+}
+
+/* Let Starlight's fixed header expand to hold the global bar + its own row, so
+ * nothing spills onto the content. (Height is driven by --sl-nav-height above.) */
+.header {
+	height: var(--sl-nav-height);
 }
 
 /* Splash/home page: the hero lives in a centered .sl-container (67.5rem), but the
