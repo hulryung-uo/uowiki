@@ -108,6 +108,17 @@ body {
 	padding-inline: 0;
 }
 
+/* Splash/home page: the hero lives in a centered .sl-container (67.5rem), but the
+ * header row above it (site title on the left, search + language on the right)
+ * spans the full page gutter. That mismatch makes "UO Wiki" and the language
+ * picker hang OUTSIDE the hero. Widen the splash hero container to the same
+ * full gutter so everything lines up. (Only the container holding a .hero is
+ * affected — normal article pages keep their reading width.) */
+.sl-container:has(.hero) {
+	max-width: none;
+	padding-inline: 0;
+}
+
 /* Asides (:::note etc.) — Starlight defaults to bright pastel panels that look
  * wrong on our dark theme (and wash out the text). Re-skin them as dark panels
  * with a gold accent rail, parchment text. */
