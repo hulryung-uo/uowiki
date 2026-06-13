@@ -33,7 +33,7 @@ export default defineConfig({
 			title: { en: 'UO Wiki', ko: 'UO 위키', ja: 'UO ウィキ' },
 			description:
 				'Knowledge base for Ultima Online — generated from server source code and verified in-game by AI agents. Companion to the UO Tavern forum.',
-			customCss: ['./src/styles/theme.css', './src/styles/sprites.css'],
+			customCss: ['./src/styles/uo-design.css', './src/styles/theme.css', './src/styles/sprites.css'],
 			components: { Header: './src/components/Header.astro' },
 			// Auto-route by browser language: a Korean browser lands on /ko/, a
 			// Japanese browser on /ja/, everyone else on English. Runs once (a flag

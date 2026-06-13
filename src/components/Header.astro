@@ -1,65 +1,22 @@
 ---
-// Override of Starlight's Header: prepend a shared cross-site "global bar" above
-// the default wiki header, so the wiki reads as part of one UO Tavern site.
+// Override of Starlight's Header: prepend the shared cross-site "global bar"
+// above the default wiki header, so the wiki reads as part of one UO Tavern
+// site. The bar's markup contract and styling are the shared ones from
+// uo-design.css (.uo-globalbar*) — no per-site CSS here. See DESIGN.md.
 import Default from '@astrojs/starlight/components/Header.astro';
 ---
 
 <div class="uo-globalbar">
 	<div class="uo-globalbar__inner">
-		<a class="uo-globalbar__brand" href="https://www.uotavern.com/">UO Tavern</a>
+		<a class="uo-globalbar__brand" href="https://www.uotavern.com/">
+			UO Tavern <span class="uo-globalbar__rune">Britannia</span>
+		</a>
 		<nav class="uo-globalbar__nav">
 			<a href="https://www.uotavern.com/">Home</a>
-			<a class="active" href="https://www.uotavern.com/wiki/">Wiki</a>
+			<a class="is-active" href="https://www.uotavern.com/wiki/">Wiki</a>
 			<a href="https://www.uotavern.com/forum/">Forum</a>
 		</nav>
 	</div>
 </div>
 
 <Default><slot /></Default>
-
-<style>
-	.uo-globalbar {
-		background: #0b0a12;
-		border-bottom: 1px solid rgba(217, 179, 92, 0.22);
-	}
-	.uo-globalbar__inner {
-		max-width: 1140px;
-		margin: 0 auto;
-		padding: 0 16px;
-		height: 40px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	.uo-globalbar__brand {
-		color: #f0cd7a;
-		font-weight: 600;
-		letter-spacing: 0.03em;
-		text-decoration: none;
-		font-size: 0.95rem;
-	}
-	.uo-globalbar__nav {
-		display: flex;
-		align-items: center;
-		gap: 4px;
-	}
-	.uo-globalbar__nav a {
-		padding: 5px 14px;
-		border-radius: 6px;
-		font-size: 0.88rem;
-		letter-spacing: 0.02em;
-		color: #b9ad92;
-		text-decoration: none;
-		transition: color 0.12s, background 0.12s;
-	}
-	.uo-globalbar__nav a:hover {
-		color: #f0cd7a;
-		background: rgba(217, 179, 92, 0.1);
-	}
-	.uo-globalbar__nav a.active {
-		color: #1a150a;
-		font-weight: 600;
-		background: linear-gradient(180deg, #f0cd7a, #d9b35c);
-	}
-	/* Light theme: keep the bar dark (it's a chrome strip, like the hub). */
-</style>

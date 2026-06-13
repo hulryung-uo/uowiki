@@ -1,68 +1,52 @@
 /* UO Tavern unified theme — match the landing hub's tone & manner.
- * Dark, parchment-on-ink with gold accents and hairlines. The wiki is forced
- * dark so it reads as the same site as www.uotavern.com (which is dark-only). */
+ * This file MAPS the shared design tokens (uo-design.css, loaded first) onto
+ * Starlight's --sl-* variables. It hard-picks nothing: every colour/font here is
+ * a var(--uo-*) reference so the wiki, hub and forum stay in lockstep. The wiki
+ * is forced dark (both themes) so it reads as the same site as www.uotavern.com,
+ * which is dark-only. See DESIGN.md. */
 
-/* Display/heading face shared with the hub + forum. */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap');
+/* Shared tokens map onto Starlight in :root, and we force the SAME palette in
+ * the light theme too so a stray toggle never breaks the tone. */
+:root,
+:root[data-theme='light'] {
+	/* Body + mono font families. The whole wiki uses EB Garamond; code stays mono. */
+	--sl-font: var(--uo-font-body);
+	--sl-font-mono: var(--uo-font-mono);
 
-:root {
 	/* Accent (links, active states) — gold. */
 	--sl-color-accent-low: #2a2310;
-	--sl-color-accent: #d9b35c;
-	--sl-color-accent-high: #f0cd7a;
+	--sl-color-accent: var(--uo-gold);
+	--sl-color-accent-high: var(--uo-gold-bright);
+	--sl-color-text-accent: var(--uo-gold-bright);
 
-	/* Text ramp: parchment → muted. */
-	--sl-color-white: #f6efdc; /* headings / strongest text */
-	--sl-color-gray-1: #ece3cf;
-	--sl-color-gray-2: #cabfa6;
+	/* Text ramp: parchment → muted. Mapped to tokens where they exist; the
+	 * darker rungs are sensible parchment-on-ink values that sit between the
+	 * muted ink and the surface. */
+	--sl-color-white: var(--uo-white);   /* headings / strongest text */
+	--sl-color-text: var(--uo-ink);      /* primary body text (parchment) */
+	--sl-color-gray-1: var(--uo-ink);
+	--sl-color-gray-2: var(--uo-ink-dim);
 	--sl-color-gray-3: #9a8e73;
 	--sl-color-gray-4: #6b6450;
 	--sl-color-gray-5: #2a2740;
-	--sl-color-gray-6: #16131f;
-	--sl-color-black: #0b0a12;
-
-	/* Surfaces. */
-	--sl-color-bg: #0b0a12;
-	--sl-color-bg-nav: #0c0b16;
-	--sl-color-bg-sidebar: #0c0b16;
-	--sl-color-bg-inline-code: #1b1830;
-	--sl-color-bg-accent: #f0cd7a;
-
-	/* Hairlines / borders — faint gold. */
-	--sl-color-hairline: rgba(217, 179, 92, 0.16);
-	--sl-color-hairline-light: rgba(217, 179, 92, 0.24);
-	--sl-color-hairline-shade: rgba(217, 179, 92, 0.1);
-
-	--sl-color-text: #d8cfba;
-	--sl-color-text-accent: #f0cd7a;
-}
-
-/* Force the same palette in light mode too, so a toggle never breaks the tone. */
-:root[data-theme='light'] {
-	--sl-color-accent-low: #2a2310;
-	--sl-color-accent: #d9b35c;
-	--sl-color-accent-high: #f0cd7a;
-	--sl-color-white: #f6efdc;
-	--sl-color-gray-1: #ece3cf;
-	--sl-color-gray-2: #cabfa6;
-	--sl-color-gray-3: #9a8e73;
-	--sl-color-gray-4: #6b6450;
-	--sl-color-gray-5: #2a2740;
-	--sl-color-gray-6: #16131f;
+	--sl-color-gray-6: var(--uo-panel);
 	--sl-color-gray-7: #0f0d1a;
-	--sl-color-black: #0b0a12;
-	--sl-color-bg: #0b0a12;
-	--sl-color-bg-nav: #0c0b16;
-	--sl-color-bg-sidebar: #0c0b16;
+	--sl-color-black: var(--uo-bg);
+
+	/* Surfaces — page is ink; nav/sidebar a hair darker than the body. */
+	--sl-color-bg: var(--uo-bg);
+	--sl-color-bg-nav: var(--uo-bg);
+	--sl-color-bg-sidebar: var(--uo-bg);
 	--sl-color-bg-inline-code: #1b1830;
-	--sl-color-hairline: rgba(217, 179, 92, 0.16);
-	--sl-color-hairline-light: rgba(217, 179, 92, 0.24);
-	--sl-color-hairline-shade: rgba(217, 179, 92, 0.1);
-	--sl-color-text: #d8cfba;
-	--sl-color-text-accent: #f0cd7a;
+	--sl-color-bg-accent: var(--uo-gold-bright);
+
+	/* Hairlines / borders — faint gold, never grey. */
+	--sl-color-hairline: var(--uo-line);
+	--sl-color-hairline-light: var(--uo-line-strong);
+	--sl-color-hairline-shade: var(--uo-line-soft);
 }
 
-/* Serif display headings to match the hub. */
+/* Serif display headings to match the hub — Cinzel via --uo-font-display. */
 .sl-markdown-content h1,
 .sl-markdown-content h2,
 .sl-markdown-content h3,
@@ -71,28 +55,38 @@ h1#_top,
 .content-panel h1,
 h1.title,
 .site-title {
-	font-family: Cinzel, 'EB Garamond', Georgia, 'Times New Roman', serif;
+	font-family: var(--uo-font-display);
 	letter-spacing: 0.01em;
 }
 
 /* Starlight's page title lives outside .sl-markdown-content. */
 h1#_top,
-.content-panel h1 {
-	color: #f6efdc;
+.content-panel h1,
+.sl-markdown-content h1 {
+	color: var(--uo-white);
 }
 .site-title {
-	color: var(--sl-color-accent-high);
+	color: var(--uo-gold-bright);
 	font-weight: 600;
-}
-
-/* The page title gets a touch of gold, like the hub section headers. */
-.sl-markdown-content h1 {
-	color: #f6efdc;
 }
 
 /* Hide the theme toggle — the wiki is dark-only to match the hub. */
 starlight-theme-select {
 	display: none;
+}
+
+/* No horizontal overflow anywhere; wide markdown tables scroll inside their own
+ * container rather than pushing the page sideways (critical on mobile). The
+ * global bar's own mobile rules live in uo-design.css. */
+html,
+body {
+	overflow-x: hidden;
+	max-width: 100%;
+}
+.sl-markdown-content table {
+	display: block;
+	overflow-x: auto;
+	max-width: 100%;
 }
 
 /* Search box + cards pick up the warm surface automatically via the vars above. */

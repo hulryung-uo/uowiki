@@ -72,6 +72,15 @@
 	src: url('/wiki/fonts/britannian-runic.ttf') format('truetype');
 	font-display: swap;
 }
+/* Shared token --uo-font-rune (uo-design.css) references the 'Britannian'
+   family for cross-site runic flourishes (e.g. the global bar's "Britannia").
+   It's the same TTF as 'Britannian Runic'; declared under the token's family
+   name and pinned to the /wiki base path so it resolves under /wiki. */
+@font-face {
+	font-family: 'Britannian';
+	src: url('/wiki/fonts/britannian-runic.ttf') format('truetype');
+	font-display: swap;
+}
 .uo-runic {
 	font-family: 'Britannian Runic', serif;
 	font-size: 1.7em;

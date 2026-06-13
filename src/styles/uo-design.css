@@ -1,0 +1,142 @@
+/* ============================================================================
+ * UO Tavern — shared design tokens (single source of truth: DESIGN.md)
+ * ----------------------------------------------------------------------------
+ * Keep this file BYTE-IDENTICAL across all three sites:
+ *   uohub/uo-design.css   uowiki/src/styles/uo-design.css   uotavern/src/app/uo-design.css
+ * Each stack consumes it differently (see DESIGN.md "Per-stack wiring"), but the
+ * token values and the .uo-globalbar component below must match everywhere.
+ * ==========================================================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+	/* ── Color: dark parchment-on-ink with gold ───────────────────────────── */
+	--uo-bg: #0b0a12;            /* base background (ink) */
+	--uo-bg-elev: #131120;       /* elevated background band */
+	--uo-panel: #16131f;         /* card / panel surface (opaque) */
+	--uo-panel-translucent: rgba(22, 19, 34, 0.72);
+	--uo-line: rgba(217, 179, 92, 0.22);        /* gold hairline border */
+	--uo-line-soft: rgba(217, 179, 92, 0.12);
+	--uo-line-strong: rgba(217, 179, 92, 0.40);
+	--uo-gold: #d9b35c;          /* primary gold (links, accents) */
+	--uo-gold-bright: #f0cd7a;   /* hover / active gold */
+	--uo-gold-dim: #c7a46b;
+	--uo-ink: #ece3cf;           /* primary text (parchment) */
+	--uo-ink-dim: #b9ad92;       /* muted text */
+	--uo-parch: #efe3c4;         /* warm highlight text */
+	--uo-white: #f6efdc;         /* strongest text / headings */
+
+	/* ── Type ─────────────────────────────────────────────────────────────── */
+	--uo-font-display: 'Cinzel', 'EB Garamond', Georgia, 'Times New Roman', serif;
+	--uo-font-body: 'EB Garamond', Georgia, 'Times New Roman', serif;
+	--uo-font-rune: 'Britannian', 'EB Garamond', serif;   /* @font-face is per-site */
+	--uo-font-mono: ui-monospace, 'SF Mono', 'Menlo', monospace;
+	--uo-fs-h1: clamp(2rem, 5vw, 3.4rem);
+	--uo-fs-h2: clamp(1.6rem, 3.6vw, 2.4rem);
+	--uo-fs-h3: 1.3rem;
+	--uo-lh: 1.65;
+
+	/* ── Geometry ─────────────────────────────────────────────────────────── */
+	--uo-radius: 12px;
+	--uo-radius-sm: 7px;
+	--uo-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+	--uo-maxw: 1140px;
+	--uo-gutter: 24px;
+	--uo-navh: 56px;             /* global bar height */
+	--uo-bp-sm: 640px;           /* mobile breakpoint */
+}
+
+/* ============================================================================
+ * Shared cross-site navigation bar (.uo-globalbar)
+ * One markup contract on every site so it reads as a single product. Each stack
+ * renders the same structure; this file styles it. See DESIGN.md.
+ *
+ *   <div class="uo-globalbar">
+ *     <div class="uo-globalbar__inner">
+ *       <a class="uo-globalbar__brand" href="https://www.uotavern.com/">
+ *         UO Tavern <span class="uo-globalbar__rune">Britannia</span>
+ *       </a>
+ *       <nav class="uo-globalbar__nav">
+ *         <a href="https://www.uotavern.com/">Home</a>
+ *         <a class="is-active" href="https://www.uotavern.com/wiki/">Wiki</a>
+ *         <a href="https://www.uotavern.com/forum/">Forum</a>
+ *       </nav>
+ *     </div>
+ *   </div>
+ * ==========================================================================*/
+
+.uo-globalbar {
+	background: var(--uo-bg);
+	border-bottom: 1px solid var(--uo-line);
+}
+.uo-globalbar__inner {
+	max-width: var(--uo-maxw);
+	margin: 0 auto;
+	padding: 0 16px;
+	height: var(--uo-navh);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+.uo-globalbar__brand {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 10px;
+	color: var(--uo-gold-bright);
+	font-family: var(--uo-font-display);
+	font-weight: 600;
+	font-size: 1.2rem;
+	letter-spacing: 0.03em;
+	text-decoration: none;
+	white-space: nowrap;
+	flex-shrink: 0;
+}
+.uo-globalbar__rune {
+	font-family: var(--uo-font-rune);
+	font-size: 1.25rem;
+	color: var(--uo-gold);
+	opacity: 0.8;
+}
+.uo-globalbar__nav {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	min-width: 0;
+}
+.uo-globalbar__nav a {
+	padding: 6px 14px;
+	border-radius: var(--uo-radius-sm);
+	font-family: var(--uo-font-body);
+	font-size: 0.95rem;
+	letter-spacing: 0.02em;
+	color: var(--uo-ink-dim);
+	text-decoration: none;
+	white-space: nowrap;
+	transition: color 0.12s, background 0.12s;
+}
+.uo-globalbar__nav a:hover {
+	color: var(--uo-gold-bright);
+	background: rgba(217, 179, 92, 0.1);
+}
+.uo-globalbar__nav a.is-active {
+	color: #1a150a;
+	font-weight: 600;
+	background: linear-gradient(180deg, var(--uo-gold-bright), var(--uo-gold));
+}
+
+/* Mobile: drop the decorative rune, tighten everything so the bar never overflows.
+   The nav must stay whole (flex-shrink:0); the brand may shrink/truncate instead. */
+@media (max-width: 640px) {
+	.uo-globalbar__rune { display: none; }
+	.uo-globalbar__inner { padding: 0 10px; gap: 6px; }
+	.uo-globalbar__brand {
+		font-size: 0.95rem;
+		letter-spacing: 0;
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.uo-globalbar__nav { gap: 2px; flex-shrink: 0; }
+	.uo-globalbar__nav a { padding: 6px 9px; font-size: 0.82rem; letter-spacing: 0; }
+}
