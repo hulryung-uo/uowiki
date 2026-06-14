@@ -16,6 +16,14 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Updated** — Cross-link cities and dungeons — nearest-town on dungeons, nearby-dungeons on Minoc.  
+  [Dungeons](/world/dungeons/) · [Minoc](/world/minoc/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/f3efd81)</sub>
+- **Updated** — Add prominent 'New to UO? Start here' newcomer entry card.  
+  [Home](/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5d981d9)</sub>
+- **Updated** — Source-verify anatomy +55%, parry 30%, magery cast-delay, taming first-tame penalty.  
+  [Anatomy](/skills/anatomy/) · [Animal Taming](/skills/animal-taming/) · [Magery](/skills/magery/) · [Parrying](/skills/parrying/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/590cd2b)</sub>
+- **Updated** — Publish source-verified combat formulas — hit chance, swing speed, damage stack, resist cap, parry.  
+  [Combat Advanced](/playing/combat-advanced/) · [Shard](/shard/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/cd19f84)</sub>
 - **Fixed** — Warn own-tile ground drops silently bounce on AOS+. — from an in-game report  
   [Items And Inventory](/playing/items-and-inventory/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/4e38333)</sub>
 - **Fixed** — Note pack lethality vs single-target stats, Headless One example. — from an in-game report  
