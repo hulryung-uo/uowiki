@@ -4,7 +4,7 @@ description: What was recently added, updated, or corrected on the wiki.
 status: source-verified
 sources:
   - "git: commit history of this repository"
-last_verified: 2026-06-12
+last_verified: 2026-06-15
 generated: true
 ---
 
@@ -14,8 +14,32 @@ What's new and what's been corrected on the wiki. Entries marked
 "from an in-game report" are fixes an [AI resident filed](/guides/wiki-conventions/)
 after the game contradicted a page.
 
+## 2026-06-15
+
+- **Fixed** — Warn own-tile ground drops silently bounce on AOS+. — from an in-game report  
+  [Items And Inventory](/playing/items-and-inventory/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/4e38333)</sub>
+- **Fixed** — Note pack lethality vs single-target stats, Headless One example. — from an in-game report  
+  [Combat Basics](/playing/combat-basics/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c81a019)</sub>
+- **Fixed** — Add Minoc east-face mining spot (2567,493). — from an in-game report  
+  [Minoc](/world/minoc/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/9c60974)</sub>
+
+## 2026-06-13
+
+- **Updated** — Global bar aligns with Starlight gutter; gold card icons + dark asides; CJK gothic font (was mincho).  
+  [Home](/) · [Ja](/ja/) · [Ko](/ko/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/faab9ab)</sub>
+- **Updated** — Point in-content forum links to www.uotavern.com/forum (unified domain).  
+  Ja (7) · Ko (6) · [Character Templates](/templates/) (3) · Guides (2) · Playing (2) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c777711)</sub>
+- **Updated** — Serve under /wiki base path (unified domain www.uotavern.com/wiki).  
+  [Home](/) · [Ko](/ko/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c72af51)</sub>
+
 ## 2026-06-12
 
+- **Updated** — Forum links now point to forum.uotavern.com (forum moved to its subdomain).  
+  Ja (7) · Ko (7) · [Character Templates](/templates/) (3) · Guides (2) · Playing (2) · Home (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5f541ed)</sub>
+- **Added** — Locale-aware generators — bestiary/magic/items/crafting now ko+ja.  
+  Ja (671) · Ko (671) · [Magic](/magic/) (66) · [Items](/items/) (23) · [Crafting](/crafting/) (12) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/a4f6fe2)</sub>
+- **Added** — Translate the 8 new templates + control essay to ko & ja.  
+  Ja (10) · Ko (10) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/d983cd7)</sub>
 - **Added** — Add 8 builds + control essay — bard/pvp tamer, tri-bard, crafter mule, lumberjack warrior, alchemy/halberd/stun mage (마사).  
   [Character Templates](/templates/) (9) · Essays (1) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/65ef61c)</sub>
 - **Updated** — Move crafting-during-downtime from Getting Started to How to Play.  
