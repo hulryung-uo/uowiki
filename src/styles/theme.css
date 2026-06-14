@@ -1,14 +1,22 @@
 /* UO Tavern unified theme — match the landing hub's tone & manner.
  * This file MAPS the shared design tokens (uo-design.css, loaded first) onto
- * Starlight's --sl-* variables. It hard-picks nothing: every colour/font here is
- * a var(--uo-*) reference so the wiki, hub and forum stay in lockstep. The wiki
- * is forced dark (both themes) so it reads as the same site as www.uotavern.com,
- * which is dark-only. See DESIGN.md. */
+ * Starlight's --sl-* variables. The wiki supports LIGHT (default) and DARK
+ * (opt-in), kept in lockstep with the hub & forum via the shared `uo-theme`
+ * localStorage key and <html data-theme>. See DESIGN.md.
+ *
+ * Strategy: Starlight ships well-tuned LIGHT and DARK palettes already, keyed on
+ * data-theme. So we DON'T re-map the whole surface/text/gray ramp — that would
+ * fight Starlight's own per-theme tuning and risk light-on-light / dark-on-dark.
+ * Instead we let Starlight own surfaces & the gray ramp, and only overlay our
+ * IDENTITY on top in BOTH themes: gold accents, gold hairlines, the Cinzel /
+ * EB-Garamond fonts, and a warm parchment tint on the page/nav background so it
+ * reads as UO Tavern. The few colour overrides we DO make resolve from the
+ * shared --uo-* tokens, which uo-design.css already redefines per data-theme. */
 
-/* Shared tokens map onto Starlight in :root, and we force the SAME palette in
- * the light theme too so a stray toggle never breaks the tone. */
-:root,
-:root[data-theme='light'] {
+/* Theme-agnostic mappings: fonts, geometry, accent, hairlines, surface tint.
+ * Every --uo-* reference here auto-resolves to the LIGHT or DARK token because
+ * uo-design.css redefines them under :root vs :root[data-theme='dark']. */
+:root {
 	/* Korean/Japanese gothic fallback. EB Garamond has no CJK glyphs, so without
 	 * this the browser falls back to a system MINCHO (serif) for 한글/日本語, which
 	 * the user dislikes. Chain to the platform GOTHIC face: Apple SD Gothic Neo on
@@ -25,37 +33,47 @@
 	--sl-font: 'EB Garamond', var(--uo-cjk);
 	--sl-font-mono: var(--uo-font-mono);
 
-	/* Accent (links, active states) — gold. */
-	--sl-color-accent-low: #2a2310;
+	/* Accent (links, active states) — gold, in both themes. The gold tokens
+	 * already invert per theme (deep gold on light, bright gold on dark). */
 	--sl-color-accent: var(--uo-gold);
 	--sl-color-accent-high: var(--uo-gold-bright);
 	--sl-color-text-accent: var(--uo-gold-bright);
 
-	/* Text ramp: parchment → muted. Mapped to tokens where they exist; the
-	 * darker rungs are sensible parchment-on-ink values that sit between the
-	 * muted ink and the surface. */
-	--sl-color-white: var(--uo-white);   /* headings / strongest text */
-	--sl-color-text: var(--uo-ink);      /* primary body text (parchment) */
-	--sl-color-gray-1: var(--uo-ink);
-	--sl-color-gray-2: var(--uo-ink-dim);
-	--sl-color-gray-3: #9a8e73;
-	--sl-color-gray-4: #6b6450;
-	--sl-color-gray-5: #2a2740;
-	--sl-color-gray-6: var(--uo-panel);
-	--sl-color-gray-7: #0f0d1a;
-	--sl-color-black: var(--uo-bg);
-
-	/* Surfaces — page is ink; nav/sidebar a hair darker than the body. */
+	/* Warm parchment tint on the page + nav/sidebar surfaces so the wiki reads as
+	 * UO Tavern. Maps to the shared --uo-bg, which is light parchment in light mode
+	 * and near-black ink in dark mode. Article body / cards keep Starlight's own
+	 * panel handling so contrast stays correct. */
 	--sl-color-bg: var(--uo-bg);
 	--sl-color-bg-nav: var(--uo-bg);
 	--sl-color-bg-sidebar: var(--uo-bg);
-	--sl-color-bg-inline-code: #1b1830;
-	--sl-color-bg-accent: var(--uo-gold-bright);
 
-	/* Hairlines / borders — faint gold, never grey. */
+	/* Hairlines / borders — faint gold, never grey, in both themes. */
 	--sl-color-hairline: var(--uo-line);
 	--sl-color-hairline-light: var(--uo-line-strong);
 	--sl-color-hairline-shade: var(--uo-line-soft);
+}
+
+/* LIGHT theme (default — no data-theme, or data-theme='light').
+ * Starlight's :root is its DARK palette; its `[data-theme='light']` block is the
+ * LIGHT palette. We default to LIGHT, so we must pull Starlight's light gray ramp
+ * and surfaces forward to bare :root too (FOUC script sets data-theme='light',
+ * but belt-and-braces in case JS is disabled). A light accent-low tint and a
+ * light inline-code background complete the look. */
+:root,
+:root[data-theme='light'] {
+	/* Soft gold wash behind active sidebar items / selected states. */
+	--sl-color-accent-low: #efe2bf;
+	/* Inline `code` on a warm light tint, not Starlight's cool grey. */
+	--sl-color-bg-inline-code: #efe7d2;
+}
+
+/* DARK theme (opt-in). Starlight's :root already IS the dark palette, so we just
+ * re-assert it under [data-theme='dark'] and overlay our dark identity tints. */
+:root[data-theme='dark'] {
+	/* Deep gold wash behind active states on the dark page. */
+	--sl-color-accent-low: #2a2310;
+	/* Inline `code` on a deep ink tint to match the dark surfaces. */
+	--sl-color-bg-inline-code: #1b1830;
 }
 
 /* Serif display headings to match the hub — Cinzel via --uo-font-display. */
@@ -83,7 +101,8 @@ h1#_top,
 	font-weight: 600;
 }
 
-/* Hide the theme toggle — the wiki is dark-only to match the hub. */
+/* Hide Starlight's OWN theme selector — our shared global-bar toggle
+ * (.uo-theme-toggle, kept in sync with the hub & forum) replaces it. */
 starlight-theme-select {
 	display: none;
 }
@@ -143,9 +162,9 @@ header.header {
 	padding-inline: 0;
 }
 
-/* Asides (:::note etc.) — Starlight defaults to bright pastel panels that look
- * wrong on our dark theme (and wash out the text). Re-skin them as dark panels
- * with a gold accent rail, parchment text. */
+/* Asides (:::note etc.) — Starlight's default pastel panels clash with our warm
+ * palette. Re-skin them as UO panels with a gold accent rail and token-based
+ * text/background, so they read correctly in BOTH light and dark. */
 .starlight-aside {
 	background-color: var(--uo-panel) !important;
 	border-color: var(--uo-gold) !important;
@@ -171,7 +190,7 @@ header.header {
 .card .icon,
 .sl-card .icon {
 	color: var(--uo-gold) !important;
-	background-color: rgba(217, 179, 92, 0.14) !important;
+	background-color: var(--uo-line-soft) !important;
 	border-color: var(--uo-line-strong) !important;
 }
 

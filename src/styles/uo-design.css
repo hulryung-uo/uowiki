@@ -10,21 +10,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 :root {
-	/* ── Color: dark parchment-on-ink with gold ───────────────────────────── */
-	--uo-bg: #0b0a12;            /* base background (ink) */
-	--uo-bg-elev: #131120;       /* elevated background band */
-	--uo-panel: #16131f;         /* card / panel surface (opaque) */
-	--uo-panel-translucent: rgba(22, 19, 34, 0.72);
-	--uo-line: rgba(217, 179, 92, 0.22);        /* gold hairline border */
-	--uo-line-soft: rgba(217, 179, 92, 0.12);
-	--uo-line-strong: rgba(217, 179, 92, 0.40);
-	--uo-gold: #d9b35c;          /* primary gold (links, accents) */
-	--uo-gold-bright: #f0cd7a;   /* hover / active gold */
-	--uo-gold-dim: #c7a46b;
-	--uo-ink: #ece3cf;           /* primary text (parchment) */
-	--uo-ink-dim: #b9ad92;       /* muted text */
-	--uo-parch: #efe3c4;         /* warm highlight text */
-	--uo-white: #f6efdc;         /* strongest text / headings */
+	/* ── Color: LIGHT (default) — warm parchment page, dark ink, deep gold ──── */
+	--uo-bg: #f7f3e7;            /* base background (parchment page) */
+	--uo-bg-elev: #efe8d6;       /* elevated background band */
+	--uo-panel: #fdfbf4;         /* card / panel surface (bright) */
+	--uo-panel-translucent: rgba(253, 251, 244, 0.82);
+	--uo-line: rgba(150, 110, 40, 0.30);        /* gold hairline border */
+	--uo-line-soft: rgba(150, 110, 40, 0.15);
+	--uo-line-strong: rgba(150, 110, 40, 0.55);
+	--uo-gold: #9c7414;          /* primary gold (links, accents) — deep for contrast */
+	--uo-gold-bright: #7c5a0e;   /* hover / active gold (deeper) */
+	--uo-gold-dim: #b8954a;
+	--uo-ink: #2c2618;           /* primary text (dark ink) */
+	--uo-ink-dim: #6b6149;       /* muted text */
+	--uo-parch: #4a3f26;         /* strong highlight text */
+	--uo-white: #1b1608;         /* strongest text / headings */
+	--uo-shadow-color: rgba(60, 45, 15, 0.18);
 
 	/* ── Type ─────────────────────────────────────────────────────────────── */
 	--uo-font-display: 'Cinzel', 'EB Garamond', Georgia, 'Times New Roman', serif;
@@ -44,6 +45,33 @@
 	--uo-gutter: 24px;
 	--uo-navh: 56px;             /* global bar height */
 	--uo-bp-sm: 640px;           /* mobile breakpoint */
+}
+
+/* ── Color: DARK (opt-in via data-theme="dark") — ink-on-parchment with gold ── */
+:root[data-theme='dark'] {
+	--uo-bg: #0b0a12;
+	--uo-bg-elev: #131120;
+	--uo-panel: #16131f;
+	--uo-panel-translucent: rgba(22, 19, 34, 0.72);
+	--uo-line: rgba(217, 179, 92, 0.22);
+	--uo-line-soft: rgba(217, 179, 92, 0.12);
+	--uo-line-strong: rgba(217, 179, 92, 0.40);
+	--uo-gold: #d9b35c;
+	--uo-gold-bright: #f0cd7a;
+	--uo-gold-dim: #c7a46b;
+	--uo-ink: #ece3cf;
+	--uo-ink-dim: #b9ad92;
+	--uo-parch: #efe3c4;
+	--uo-white: #f6efdc;
+	--uo-shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Smooth the flip between themes. */
+:root {
+	color-scheme: light;
+}
+:root[data-theme='dark'] {
+	color-scheme: dark;
 }
 
 /* ============================================================================
@@ -117,13 +145,42 @@
 }
 .uo-globalbar__nav a:hover {
 	color: var(--uo-gold-bright);
-	background: rgba(217, 179, 92, 0.1);
+	background: var(--uo-line-soft);
 }
 .uo-globalbar__nav a.is-active {
-	color: #1a150a;
+	color: var(--uo-bg); /* contrasts against the gold fill in BOTH themes */
 	font-weight: 600;
 	background: linear-gradient(180deg, var(--uo-gold-bright), var(--uo-gold));
 }
+
+/* Theme toggle button (sun/moon) — lives at the end of the nav. */
+.uo-theme-toggle {
+	margin-inline-start: 6px;
+	width: 34px;
+	height: 34px;
+	flex-shrink: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--uo-line);
+	border-radius: var(--uo-radius-sm);
+	background: transparent;
+	color: var(--uo-gold);
+	cursor: pointer;
+	font-size: 1rem;
+	line-height: 1;
+	padding: 0;
+	transition: color 0.12s, background 0.12s, border-color 0.12s;
+}
+.uo-theme-toggle:hover {
+	color: var(--uo-gold-bright);
+	background: var(--uo-line-soft);
+	border-color: var(--uo-line-strong);
+}
+.uo-theme-toggle__sun { display: none; }
+.uo-theme-toggle__moon { display: inline; }
+:root[data-theme='dark'] .uo-theme-toggle__sun { display: inline; }
+:root[data-theme='dark'] .uo-theme-toggle__moon { display: none; }
 
 /* Mobile: drop the decorative rune, tighten everything so the bar never overflows.
    The nav must stay whole (flex-shrink:0); the brand may shrink/truncate instead. */

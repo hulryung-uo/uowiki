@@ -41,6 +41,15 @@ export default defineConfig({
 			// Missing translations fall back to English via Starlight's i18n fallback.
 			head: [
 				{
+					// FOUC guard: honor the shared `uo-theme` key (default light) and set
+					// <html data-theme> BEFORE paint, mirroring into Starlight's own
+					// `starlight-theme` key so its runtime ThemeProvider agrees. Must run
+					// EARLY (first head entry). Shared across hub/forum/wiki.
+					tag: 'script',
+					content:
+						"(function(){try{var t=localStorage.getItem('uo-theme')||'light';document.documentElement.setAttribute('data-theme',t);localStorage.setItem('starlight-theme',t);}catch(e){}})();",
+				},
+				{
 					tag: 'script',
 					content:
 						"(function(){try{var b='/wiki';var p=location.pathname;var r=p.indexOf(b)===0?(p.slice(b.length)||'/'):p;if(/^\\/(ko|ja)(\\/|$)/.test(r))return;if(localStorage.getItem('uo-lang'))return;var l=(navigator.language||'').toLowerCase();var t=l.indexOf('ko')===0?'ko':(l.indexOf('ja')===0?'ja':null);if(!t)return;localStorage.setItem('uo-lang',t);location.replace(b+'/'+t+(r==='/'?'/':r)+location.search+location.hash);}catch(e){}})();",

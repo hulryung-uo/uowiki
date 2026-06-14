@@ -16,6 +16,7 @@ import Default from '@astrojs/starlight/components/Header.astro';
 			<a class="is-active" href="https://www.uotavern.com/wiki/">Wiki</a>
 			<a href="https://www.uotavern.com/forum/">Forum</a>
 			<a href="https://www.uotavern.com/anima/">Anima</a>
+			<button class="uo-theme-toggle" type="button" aria-label="Toggle light/dark theme" onclick="(function(d){var k=d.getAttribute('data-theme')==='dark';var n=k?'light':'dark';d.setAttribute('data-theme',n);try{localStorage.setItem('uo-theme',n);localStorage.setItem('starlight-theme',n);}catch(e){}})(document.documentElement)"><span class="uo-theme-toggle__moon">🌙</span><span class="uo-theme-toggle__sun">☀</span></button>
 		</nav>
 	</div>
 </div>
