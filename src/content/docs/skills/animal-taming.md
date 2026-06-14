@@ -3,10 +3,10 @@ title: Animal Taming
 description: Befriending the beasts of Britannia — the taming difficulty formula, example creatures, and the long road to dragons.
 status: source-verified
 sources:
-  - "servuo: Scripts/Skills/AnimalTaming.cs"
+  - "servuo: Scripts/Skills/AnimalTaming.cs (success check; ScaleSkills first-tame 0.90/0.86/0.72)"
   - "servuo: Scripts/Mobiles/Normal/*.cs (MinTameSkill values)"
   - "servuo: Server/Skills.cs (SkillInfo 35)"
-last_verified: 2026-06-11
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -46,6 +46,21 @@ exercise Animal Lore (checked 0–120).
 | White Wyrm | 96.3 |
 
 (A full creature table belongs to the [Bestiary](/bestiary/).)
+
+## First-tame skill penalty
+
+A freshly-tamed pet does **not** keep its wild skills at full value — `AnimalTaming.cs`
+scales them down on the first tame:
+
+| Situation | Skills retained | Notes |
+|---|---|---|
+| Normal first tame | **90%** | the pet's skills are set to 90% of their wild values |
+| Paralyzed during the tame | **86%** | tamed while held by a paralyze effect |
+| Greater Dragon (first tame) | **72%** | plus skill **cap reduced to 90%**; Magery capped at tame |
+
+This matters when choosing a high-end pet: a Greater Dragon starts well below its wild
+sheet and is permanently capped lower, which is the main trade-off versus an ordinary
+[Dragon](/bestiary/). Skills then train back up through use, up to the (possibly reduced) cap.
 
 ## Training
 

@@ -1,11 +1,12 @@
 ---
 title: Parrying
 description: Block incoming blows with a shield or weapon.
-status: unverified
+status: source-verified
 sources:
   - "servuo: Server/Skills.cs (SkillInfo 5)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (CheckParry — shield (Parry-Bushido)/400, weapon (Parry*Bushido)/48000|41140, AOS Parry/800)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -54,9 +55,22 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | Yes |
 | Gain notes | skill-ups can raise Str +0.75, Dex +0.25 (per-use stat gain weights) |
 
-Block chance is a function of Parrying and the equipped shield/weapon; a shield generally
-gives a higher and more reliable block than weapon-parry. As a Mastery skill, high Parrying
-also enables related mastery effects.
+Block chance is computed in `BaseWeapon.CheckParry`. **With a shield equipped:**
+
+```
+blockChance = (Parrying − Bushido) ÷ 400      (+5% if Parrying or Bushido ≥ 100)
+```
+
+- At **GM Parrying (100) with no [Bushido](/skills/bushido/)**, that is `100 ÷ 400 + 5% = 30%`
+  — the practical ceiling for a pure shield tank.
+- **Low Dexterity penalty:** if Dex < 80, the chance is scaled by `(20 + Dex) ÷ 100`, so keep
+  Dex at 80+ to parry at full rate.
+
+**Weapon-parry without a shield** (requires Bushido) is `(Parry × Bushido) ÷ 48000`
+(one-handed) or `÷ 41140` (two-handed), falling back to `Parry ÷ 800` if higher — so weapon
+parry is weak until you invest in Bushido, while a shield reliably reaches 30% on Parrying
+alone. As a Mastery skill, high Parrying also enables related mastery effects. Full context in
+[Advanced combat → Parrying](/playing/combat-advanced/#parrying).
 
 ## Related skills & synergies
 

@@ -1,12 +1,12 @@
 ---
 title: Anatomy
 description: Knowledge of bodies that boosts melee damage and bandage healing.
-status: unverified
+status: source-verified
 sources:
   - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (anatomyBonus)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (anatomyBonus GetBonus(Anatomy,0.5,100,5) = +55% at GM)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -62,10 +62,11 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Gain notes | skill-ups can raise Str +0.15, Dex +0.15, Int +0.7 (per-use stat gain weights) |
 
 In `Scripts/Items/Equipment/Weapons/BaseWeapon.cs` the melee damage bonus is computed as
-`GetBonus(Anatomy, 0.500, 100.0, 5.00)` — i.e. Anatomy contributes up to roughly +50% bonus
-damage at 100 skill (with an additional fraction for the GM tier), parallel to how
-[Tactics](/skills/tactics/) scales. Anatomy also factors into bandage healing alongside
-[Healing](/skills/healing/).
+`GetBonus(Anatomy, 0.500, 100.0, 5.00)` = `(Anatomy × 0.5 + 5) ÷ 100` at grandmaster — i.e.
+**+55% bonus damage at 100 skill** (`Anatomy × 0.5%`, plus a flat **+5%** at the GM tier), the
+companion to [Tactics](/skills/tactics/)'s +68.75%. The full melee damage stack is laid out in
+[Advanced combat → Damage components](/playing/combat-advanced/#damage-components). Anatomy
+also factors into bandage healing alongside [Healing](/skills/healing/).
 
 ## Related skills & synergies
 

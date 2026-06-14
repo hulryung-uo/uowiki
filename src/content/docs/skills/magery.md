@@ -35,8 +35,10 @@ to successfully cast is a standard skill check across a window centered on
 | 8th | 80.0 – 120.0 | 100.0 | 50 |
 
 Casting **from a scroll** counts as two circles lower (`circle -= 2` when `Scroll != null`),
-so scrolls are both a convenience and a training tool. Cast delay grows with circle
-(`(4 + circle)` ticks).
+so scrolls are both a convenience and a training tool. Base cast time grows with circle:
+`(4 + circleIndex) × 0.25s`, where `circleIndex` runs **0–7** (the `SpellCircle` enum is
+zero-based). So a **1st-circle** spell takes **1.0s** and an **8th-circle** spell **2.75s**
+before any Faster Casting reductions (`MagerySpell.cs`, `CastDelaySecondsPerTick = 0.25`).
 
 Every cast consumes [reagents](/items/reagents/); spell-by-spell recipes live in the
 [Magic section](/magic/).
