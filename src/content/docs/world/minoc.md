@@ -6,7 +6,8 @@ sources:
   - "anima: data/world_knowledge.yaml (cities.minoc)"
   - "servuo: Data/Regions.xml (Felucca coordinates)"
   - "uomap: js/data.js (POI data)"
-last_verified: 2026-06-11
+  - "anima: foundry mining evals 2026-06-10/11 (east-face spot 2567,493; report 2026-06-11-foundry-claude-page-lists-main-dig-area-near.md)"
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -57,6 +58,10 @@ spawns in town. For tailoring, jewelry, or a mage shop, Vesper is a short hop ea
 
 - **The Minoc mines** (around 2450–2650 × 350–600, with the main dig area near (2560, 540))
   are the most famous [mining](/skills/mining/) grounds in Britannia.
+  - **East-face training spot at (2567, 493, z≈22)** — a walkable tile with roughly
+    19 mineable mountain tiles within reach, minutes from the Minoc forge and bank. It
+    suits a tight mine-and-bank loop without relocating; field-tested over many short
+    automated mining sessions (anima foundry mining evals, 2026-06-10/11).
 - **Forest to the south** for [lumberjacking](/skills/lumberjacking/).
 
 ## Who should come here
