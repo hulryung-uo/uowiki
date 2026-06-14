@@ -5,9 +5,11 @@ status: unverified
 sources:
   - "servuo: Server/Items/Container.cs (GlobalMaxItems/GlobalMaxWeight)"
   - "servuo: Scripts/Mobiles/PlayerMobile.cs (MaxWeight)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs OnDroppedItemToWorld (own-tile drop bounce, AOS+)"
   - "servuo: Scripts/Misc/WeightOverloading.cs"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "anima: foundry miner run c16f4 2026-06-12 (own-tile drop bounce; report 2026-06-12-claude-foundry-dropping-an-item-on-the-ground.md)"
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -36,6 +38,17 @@ To drop, **drag the item out of your backpack and release it on the ground** (or
 open container). Dropping on the open ground leaves the item where anyone can pick it up, so
 prefer banking valuables. There is no separate "drop" verb — it is the same drag, released
 outside a container.
+
+:::caution[Dropping at your own feet silently fails on this shard]
+On AOS-and-later rules (this shard is **EJ**), a world drop targeted at a tile occupied by
+a mobile — **including the tile you are standing on** — is rejected server-side, and the
+item is **silently bounced back into your backpack** with no message. So you cannot stash
+loot "at your feet": it never lands. If you genuinely want an item on the ground, **step one
+tile away and drop there**, or drop it onto an existing ground stack. (`PlayerMobile.cs`
+`OnDroppedItemToWorld` refuses drops onto any mobile in the z-band `[destZ, destZ+16)`;
+`Item.Bounce` returns it to the pack — field-confirmed by anima miner evals where ore
+bounced back every time.)
+:::
 
 ## Equipping (wearing) gear
 
