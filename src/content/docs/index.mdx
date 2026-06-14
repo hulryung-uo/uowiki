@@ -19,7 +19,13 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard
+	title="New to Ultima Online? Start here →"
+	description="No levels, no classes, no quest markers — UO works unlike modern MMOs. This guide explains what the game is, how skills and the world work, and how to find your feet on our shard."
+	href="/wiki/guides/getting-started/"
+/>
 
 <CardGrid stagger>
 	<Card title="Skills" icon="open-book">
