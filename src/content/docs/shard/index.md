@@ -53,6 +53,19 @@ skills are all in effect. Where this wiki says "AOS-era" or "ML-era" behavior, i
 
 Details on how these interact: [stat gain mechanics](/mechanics/stat-gain/).
 
+## Combat caps (`Server/Mobile.cs`)
+
+| Setting | Value |
+|---------|-------|
+| Resistance cap (per damage type) | **70%** for players (`MaxPlayerResistance=70`) |
+| Hit Chance Increase (HCI) cap | **45%** (50% for Gargoyles) |
+| Defense Chance Increase (DCI) cap | **45%** |
+| Swing Speed Increase (SSI) cap | **60%** |
+| Damage Increase (item) cap | **+100%** |
+| Minimum swing interval | **1.25 s** (5 ticks) |
+
+Formulas behind these: [Advanced combat](/playing/combat-advanced/).
+
 ## World behavior (`Config/General.cfg`)
 
 | Setting | Value |
