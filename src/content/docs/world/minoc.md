@@ -64,6 +64,16 @@ spawns in town. For tailoring, jewelry, or a mage shop, Vesper is a short hop ea
     automated mining sessions (anima foundry mining evals, 2026-06-10/11).
 - **Forest to the south** for [lumberjacking](/skills/lumberjacking/).
 
+## Nearby dungeons
+
+Minoc is one of the better dungeon-running home bases in the north — bank, forge, and stables
+in town, with two dungeons within a short trip:
+
+- **[Covetous](/world/dungeons/#covetous)**, to the south — harpies and gazers up top, undead
+  below; a natural step up for new fighters and an easy bank-run back to Minoc.
+- **[Wrong](/world/dungeons/#wrong)**, to the north-west — the old prison, rebuilt on this
+  shard around the crystalline Juka, brigands, and golems; a tougher mid-tier fight.
+
 ## Who should come here
 
 **Miners and smiths, first and foremost.** If you are training [Mining](/skills/mining/) or

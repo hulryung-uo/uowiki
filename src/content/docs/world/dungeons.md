@@ -89,6 +89,7 @@ toward first. On this shard it runs the **revamped Despise**: the entrance split
 **Good (light)** wing and an **Evil (dark)** wing, each with its own themed spawn and a
 champion-style boss at the bottom, so the easy reputation is a little misleading these days.
 
+- **Nearest town:** [Britain](/world/britain/), a short run to the south — bank and resupply there.
 - **Map:** ![Despise location](/img/maps/dungeon-despise.png)
 - **Features:** Good/Evil branching layout; faction-flavored creatures (fairies, nymphs and unicorns on the light side; corrupt beasts on the dark side); a boss encounter per wing.
 - **Monsters found here:** [Lizardman](/bestiary/humanoids/lizardman/), [Ettin](/bestiary/humanoids/ettin/), **BirlingBlades**, **Darkmane**, **Dendrite**, **DespiseUnicorn**, **DivineGuardian**, **Echidnite**, **Fairy**, **ForestNymph**, **Hellion**, **Naba**, **Phantom**, **Prometheoid**, plus 9 more revamped beasts. *(Bolded names are custom revamped-Despise creatures not yet in the bestiary.)*
@@ -98,6 +99,7 @@ champion-style boss at the bottom, so the easy reputation is a little misleading
 A shallow warren west of Despise, packed with an orc clan. Low ceilings, lots of bodies,
 and a steady drip of loot make it a popular grind for new melee and archer characters.
 
+- **Nearest town:** [Britain](/world/britain/), close by to the east for easy banking.
 - **Map:** ![Orc Cave location](/img/maps/dungeon-orc-cave.png)
 - **Features:** Single-level cave; dense, fast-respawning orc spawn; close to Britain for easy banking.
 - **Monsters found here:** [Orc](/bestiary/humanoids/orc/), [Orcish Lord](/bestiary/humanoids/orcish-lord/), [Orc Bomber](/bestiary/humanoids/orc-bomber/), [Orc Captain](/bestiary/humanoids/orc-captain/), [Dire Wolf](/bestiary/monsters/dire-wolf/), [Earth Elemental](/bestiary/elementals/earth-elemental/), [Orcish Mage](/bestiary/humanoids/orcish-mage/), [Giant Rat](/bestiary/monsters/giant-rat/), [Corpser](/bestiary/monsters/corpser/), [Orc Brute](/bestiary/humanoids/orc-brute/).
@@ -108,6 +110,7 @@ A deep, multi-level dungeon east of Britain. The upper halls hold harpies, gazer
 corpsers; descend and the spawn turns to undead — skeletons, liches and bone knights —
 making it a natural step up from the Orc Cave.
 
+- **Nearest town:** [Minoc](/world/minoc/) to the north, or [Vesper](/world/vesper/) to the east — both a short trip for banking and repairs.
 - **Map:** ![Covetous location](/img/maps/dungeon-covetous.png)
 - **Features:** Several descending levels of rising difficulty; a champion spawn at the lowest level. Good for [treasure-map](/playing/treasure-hunting/) digging in the surrounding levels.
 - **Monsters found here:** [Skeleton](/bestiary/undead/skeleton/), [Corpser](/bestiary/monsters/corpser/), [Harpy](/bestiary/monsters/harpy/), [Gazer](/bestiary/monsters/gazer/), [Zombie](/bestiary/undead/zombie/), [Headless One](/bestiary/humanoids/headless-one/), [Bone Knight](/bestiary/undead/bone-knight/), [Lich](/bestiary/undead/lich/), [Gazer Larva](/bestiary/monsters/gazer-larva/), [Shade](/bestiary/undead/shade/), [Spectre](/bestiary/undead/spectre/), [Slime](/bestiary/monsters/slime/), [Giant Spider](/bestiary/monsters/giant-spider/), [Dread Spider](/bestiary/monsters/dread-spider/), plus 10 more.
@@ -128,6 +131,7 @@ The archetypal **elemental dungeon**, south of Britain. Earth, air, fire and wat
 elementals abound, alongside evil mages — a long-time favorite for mages farming
 reagents, scrolls and elemental loot. Blood elementals near the bottom are the prize.
 
+- **Nearest town:** [Britain](/world/britain/), to the east — the closest bank for a reagent-heavy run.
 - **Map:** ![Shame location](/img/maps/dungeon-shame.png)
 - **Features:** Large multi-level layout with by far the most spawn points of any classic dungeon on this shard; a champion spawn; water sections with sea serpents and a kraken.
 - **Monsters found here:** [Earth Elemental](/bestiary/elementals/earth-elemental/), [Scorpion](/bestiary/monsters/scorpion/), [Air Elemental](/bestiary/elementals/air-elemental/), [Dull Copper Elemental](/bestiary/elementals/dull-copper-elemental/), [Fire Elemental](/bestiary/elementals/fire-elemental/), [Water Elemental](/bestiary/elementals/water-elemental/), [Evil Mage](/bestiary/humanoids/evil-mage/), [Evil Mage Lord](/bestiary/humanoids/evil-mage-lord/), [Blood Elemental](/bestiary/elementals/blood-elemental/), [Sea Serpent](/bestiary/sea/sea-serpent/), [Kraken](/bestiary/sea/kraken/), [Poison Elemental](/bestiary/elementals/poison-elemental/), [Elder Gazer](/bestiary/monsters/elder-gazer/), [Acid Elemental](/bestiary/elementals/toxic-elemental/).
@@ -138,6 +142,7 @@ Classic Wrong was a prison dungeon of orcs and trolls. **On this shard the spawn
 rebuilt around the Juka** — the crystalline warrior-race — backed by brigands and golems,
 so it plays as a tougher, more magical fight than its old reputation suggests.
 
+- **Nearest town:** [Minoc](/world/minoc/), to the south-east — the closest bank and forge.
 - **Map:** ![Wrong location](/img/maps/dungeon-wrong.png)
 - **Features:** Compact cell-block layout; Juka lords and mages hit hard for a mid-tier dungeon; golem controllers summon reinforcements.
 - **Monsters found here:** [Juka Warrior](/bestiary/humanoids/juka-warrior/), [Juka Lord](/bestiary/humanoids/juka-lord/), [Juka Mage](/bestiary/humanoids/juka-mage/), [Brigand](/bestiary/humanoids/brigand/), [Golem](/bestiary/monsters/golem/), [Golem Controller](/bestiary/humanoids/golem-controller/).
@@ -148,6 +153,7 @@ The dragon dungeon, southwest of Britain. Drakes and wyverns guard the upper lev
 deeper in you'll meet dragons, ancient wyrms and a shadow wyrm. Strictly for well-equipped
 parties — soloing it is a tall order.
 
+- **Nearest town:** [Britain](/world/britain/), to the north — the staging point for a dragon run.
 - **Map:** ![Destard location](/img/maps/dungeon-destard.png)
 - **Features:** Two main levels (the lower reserved for the heaviest dracs); a champion spawn; superb scaled/hide and gem loot.
 - **Monsters found here:** [Drake](/bestiary/monsters/drake/), [Wyvern](/bestiary/monsters/wyvern/), [Giant Serpent](/bestiary/monsters/giant-serpent/), [Water Elemental](/bestiary/elementals/water-elemental/), [Dragon](/bestiary/monsters/dragon/), [Daemon](/bestiary/monsters/daemon/), [Shadow Wyrm](/bestiary/monsters/shadow-wyrm/), [Ancient Wyrm](/bestiary/monsters/ancient-wyrm/), [Evil Mage](/bestiary/humanoids/evil-mage/), [Fire Elemental](/bestiary/elementals/fire-elemental/).
