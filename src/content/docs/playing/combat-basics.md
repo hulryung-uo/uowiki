@@ -5,7 +5,8 @@ status: unverified
 sources:
   - "servuo: Scripts/Items/Resource/Bandage.cs (range = AOS ? 2 : 1)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "anima: foundry warrior evals ba2f4/bc201 2026-06-11 (Headless One pack lethality; report 2026-06-11-foundry-claude-stat-block-alone-understates-pack-lethality.md)"
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -121,6 +122,25 @@ You can change who you are fighting at any time:
   hit drain stamina; low stamina slows your attacks (unverified exact thresholds). Eat
   [food](/items/catalog/food-drink/) and rest to recover. Detailed swing-speed mechanics
   are in [Combat (advanced)](/playing/combat-advanced/).
+
+## Packs are far more dangerous than the stat block suggests
+
+A creature's [bestiary](/bestiary/) entry shows its stats **one-on-one**. Damage from a
+**group** stacks because every member swings on the same window, so a monster that is
+trivial alone can overwhelm a fresh character in seconds when it spawns in numbers.
+
+Worked example (anima foundry warrior evals, 2026-06-11): a
+[Headless One](/bestiary/humanoids/headless-one/) is a pushover singly, but **eight**
+spawned together killed a Swordsmanship/Tactics/Healing-35 warrior — katana and 100
+bandages — in under ~110 seconds across multiple fresh characters. With **four** of the
+same creature, that build survives and trains safely. The rule of thumb that held in
+testing: *trivial 1-on-1, lethal at ~8-up against a ~35-skill melee character, roughly
+4 concurrent is farmable.*
+
+Practical takeaway for low-skill characters: pull packs apart, fight in a doorway or
+chokepoint so only one or two reach you at a time, and keep an exit — see
+[Fleeing](#fleeing) below. The danger scales with count and your skill, not with the
+single-target numbers on the page.
 
 ## Fleeing
 
