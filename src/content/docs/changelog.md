@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Updated** — Join weapon/armor stats into recipe tables — Stats column (dmg/speed/hands/str, resists/str) on equipment-crafting systems.  
+  [Crafting](/crafting/) (12) · Ja (12) · Ko (12) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/d34163d)</sub>
 - **Updated** — Cross-link cities and dungeons — nearest-town on dungeons, nearby-dungeons on Minoc.  
   [Dungeons](/world/dungeons/) · [Minoc](/world/minoc/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/f3efd81)</sub>
 - **Updated** — Add prominent 'New to UO? Start here' newcomer entry card.  
