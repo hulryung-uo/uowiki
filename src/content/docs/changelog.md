@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Updated** — Cap carpentry 2x icons at 64px max dimension (aspect kept) so large furniture (tables/cabinets) no longer balloons.  
+  [Carpentry](/crafting/carpentry/) · [Carpentry](/ja/crafting/carpentry/) · [Carpentry](/ko/crafting/carpentry/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/de83831)</sub>
 - **Updated** — Render carpentry icons at 2x native size (true aspect, crisp integer scale) via gen_crafting NATIVE_2X_SYSTEMS + uo-sprite-2x.  
   [Carpentry](/crafting/carpentry/) · [Carpentry](/ja/crafting/carpentry/) · [Carpentry](/ko/crafting/carpentry/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/6e047bc)</sub>
 - **Updated** — Add armor gallery to ko/ja pages; shrink in-table sprite box 72px→44px so tiny jewelry/ring art isn't blocky/oversized in crafting tables.  
