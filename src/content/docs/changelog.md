@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Updated** — Add armor gallery to ko/ja pages; shrink in-table sprite box 72px→44px so tiny jewelry/ring art isn't blocky/oversized in crafting tables.  
+  [Armor](/ja/items/armor/) · [Armor](/ko/items/armor/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e597728)</sub>
 - **Updated** — Add armor gallery to /items/armor/ — 148 piece sprites grouped by material (.uo-gallery), source data/armor.json.  
   [Armor](/items/armor/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7e4ec06)</sub>
 - **Added** — Add How to Connect page (ClassicUO → uo.hulryung.com:2593, auto-account); link from Getting Started.  
