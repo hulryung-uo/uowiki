@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Updated** — Add armor gallery to /items/armor/ — 148 piece sprites grouped by material (.uo-gallery), source data/armor.json.  
+  [Armor](/items/armor/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7e4ec06)</sub>
 - **Added** — Add How to Connect page (ClassicUO → uo.hulryung.com:2593, auto-account); link from Getting Started.  
   [Getting Started](/guides/getting-started/) · [How To Connect](/guides/how-to-connect/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5d3821f)</sub>
 - **Updated** — Add Bulk Order Deeds page — point-based TOL+ system, skill gates, smith/tailor reward catalogs.  
