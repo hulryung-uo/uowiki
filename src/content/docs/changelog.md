@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Added** — Add How to Connect page (ClassicUO → uo.hulryung.com:2593, auto-account); link from Getting Started.  
+  [Getting Started](/guides/getting-started/) · [How To Connect](/guides/how-to-connect/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5d3821f)</sub>
 - **Updated** — Add Bulk Order Deeds page — point-based TOL+ system, skill gates, smith/tailor reward catalogs.  
   [Bulk Order Deeds](/mechanics/bulk-order-deeds/) · [Mechanics](/mechanics/) · [Blacksmith](/professions/blacksmith/) · [Blacksmithy](/skills/blacksmithy/) · [Tailoring](/skills/tailoring/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/8c3a486)</sub>
 - **Updated** — Join weapon/armor stats into recipe tables — Stats column (dmg/speed/hands/str, resists/str) on equipment-crafting systems.  
