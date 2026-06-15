@@ -16,8 +16,14 @@ Public API:
     L(locale, key, **fmt)         — localized string for `key`, English fallback.
                                     If kwargs are given, the result is .format()ed.
     SKILL(locale, english_name)   — official localized skill name (English fallback).
+    CLILOC(locale, number, fb)    — localized cliloc string by number, English
+                                    fallback then `fb` (wraps tools/cliloc.py).
     locale_prefix(locale)         — '' for en, '/ko' or '/ja' otherwise. Prefix
                                     internal links with this.
+
+SKILL/LABELS are a small curated UI glossary; CLILOC is the full client string
+table (every item/spell/system cliloc number). Reach for CLILOC when a name comes
+from a cliloc LabelNumber in the data, SKILL/L for translated wiki chrome.
 """
 
 LOCALES = ["en", "ko", "ja"]
@@ -118,6 +124,19 @@ def SKILL(locale, name):
     return name
 
 
+def CLILOC(locale, number, fallback=None):
+    """Localized client string for cliloc `number`, English-backed then `fallback`.
+
+    Thin wrapper over tools/cliloc.py so generators have one i18n entry point.
+    Unknown wiki locales degrade to English. Lazily imported so scripts that
+    never touch cliloc don't pay to load the (large) string tables.
+    """
+    if locale not in LOCALES:
+        locale = "en"
+    from cliloc import loader  # tools/ is on sys.path in the generators
+    return loader(locale).get(number, fallback)
+
+
 # ---------------------------------------------------------------------------
 # UI label dictionary. Keys are stable identifiers used by the generators; the
 # English value is the canonical wording and the fallback. Phrases that take
@@ -151,6 +170,7 @@ LABELS = {
     "col.words_of_power": {"en": "Words of power", "ko": "마법 주문", "ja": "力の言葉"},
     "col.value": {"en": "Value", "ko": "수치", "ja": "値"},
     "col.stat": {"en": "Stat", "ko": "능력치", "ja": "ステータス"},
+    "col.stats": {"en": "Stats", "ko": "성능", "ja": "性能"},
     "col.craft_system": {"en": "Craft system", "ko": "제작 시스템", "ja": "クラフトシステム"},
     "col.main_skill": {"en": "Main skill", "ko": "주요 스킬", "ja": "メインスキル"},
     "col.recipes": {"en": "Recipes", "ko": "레시피", "ja": "レシピ"},
@@ -687,6 +707,17 @@ LABELS = {
         "en": "Skill range is the span from 0% success chance (min) to 100% success chance (max).",
         "ko": "스킬 범위는 성공 확률 0%(최소)부터 100%(최대)까지의 구간입니다.",
         "ja": "スキル範囲は成功率 0%(最低)から 100%(最高)までの幅です。",
+    },
+    "craft.stats_note": {
+        "en": "**Stats** column: weapons show damage · swing speed · hands · strength; "
+              "armor shows resists (Physical/Fire/Cold/Poison/Energy) · strength; "
+              "shields show armor rating (AR) · strength.",
+        "ko": "**성능** 열: 무기는 데미지 · 공격 속도 · 손 사용 · 힘; "
+              "방어구는 저항(물리/화염/냉기/독/에너지) · 힘; "
+              "방패는 방어도(AR) · 힘을 표시합니다.",
+        "ja": "**性能** 列: 武器はダメージ · 攻撃速度 · 持ち手 · 筋力、"
+              "防具は抵抗(物理/火/冷気/毒/エネルギー) · 筋力、"
+              "盾は防御力(AR) · 筋力を表示します。",
     },
 }
 

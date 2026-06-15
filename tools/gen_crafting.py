@@ -21,6 +21,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(ROOT, "data", "recipes.json")
 ITEM_ART_PATH = os.path.join(ROOT, "data", "item_art.json")
 EXPANSION_PATH = os.path.join(ROOT, "data", "item_expansion.json")
+WEAPONS_PATH = os.path.join(ROOT, "data", "weapons.json")
+ARMOR_PATH = os.path.join(ROOT, "data", "armor.json")
 DOCS_ROOT = os.path.join(ROOT, "src", "content", "docs")
 
 
@@ -86,6 +88,45 @@ def era_cell(recipe, expansion):
     return ""
 
 
+def stats_cell(recipe, weapons, armor):
+    """Combat/defense stats for the recipe's crafted item, joined by class.
+
+    Weapons -> 'min–max dmg · speed · hands · str'; armor -> resist tuple · str;
+    shields -> 'AR n · str'. Returns '' for items with no weapon/armor stats
+    (reagents, food, tools, etc.).
+    """
+    item_type = recipe.get("item_type")
+    if not item_type:
+        return ""
+    w = weapons.get(item_type)
+    if w:
+        parts = ["%d–%d dmg" % (w["min_damage"], w["max_damage"]),
+                 "%.1fs" % w["ml_speed"]]
+        hands = {"One-handed": "1H", "Two-handed": "2H"}.get(w.get("hands"))
+        if hands:
+            parts.append(hands)
+        if w.get("str_req"):
+            parts.append("str %d" % w["str_req"])
+        return " · ".join(parts)
+    p = armor.get(item_type)
+    if p:
+        if p.get("is_shield"):
+            parts = []
+            if p.get("armor_base"):
+                parts.append("AR %d" % p["armor_base"])
+            if p.get("str_req_aos"):
+                parts.append("str %d" % p["str_req_aos"])
+            return " · ".join(parts)
+        r = p.get("base_resist") or {}
+        parts = ["%d/%d/%d/%d/%d" % (r.get("phys") or 0, r.get("fire") or 0,
+                                     r.get("cold") or 0, r.get("poison") or 0,
+                                     r.get("energy") or 0)]
+        if p.get("str_req_aos"):
+            parts.append("str %d" % p["str_req_aos"])
+        return " · ".join(parts)
+    return ""
+
+
 def icon_cell(recipe, item_art):
     """Generate an icon cell for the recipe's item_type.
 
@@ -98,7 +139,7 @@ def icon_cell(recipe, item_art):
     return ""
 
 
-def gen_system_page(slug, sysdata, item_art, expansion, locale):
+def gen_system_page(slug, sysdata, item_art, expansion, weapons, armor, locale):
     system = sysdata["system"]
     main_skill = sysdata["main_skill"]
     recipes = sysdata["recipes"]
@@ -108,6 +149,10 @@ def gen_system_page(slug, sysdata, item_art, expansion, locale):
     for r in recipes:
         categories.setdefault(r["category"], []).append(r)
 
+    # Only show the Stats column for systems that actually craft weapons/armor
+    # (blacksmithy, tailoring, etc.) — leave alchemy/cooking/inscription tables clean.
+    has_stats = any(stats_cell(r, weapons, armor) for r in recipes)
+
     # Proper-noun craft-system/skill names stay English; prose is translated.
     desc = L(locale, "craft.system_desc",
              n=len(recipes), system=system, skill=SKILL(locale, main_skill))
@@ -115,23 +160,39 @@ def gen_system_page(slug, sysdata, item_art, expansion, locale):
     out.append(L(locale, "craft.main_recipes",
                  skill=SKILL(locale, main_skill), n=len(recipes)) + "\n")
     out.append(L(locale, "craft.skill_range_note") + "\n")
+    if has_stats:
+        out.append(L(locale, "craft.stats_note") + "\n")
 
-    hdr = ("|  | %s | %s | %s | %s |" % (
-        L(locale, "col.item"), L(locale, "col.skill"),
-        L(locale, "col.era"), L(locale, "col.materials")))
+    if has_stats:
+        hdr = ("|  | %s | %s | %s | %s | %s |" % (
+            L(locale, "col.item"), L(locale, "col.skill"), L(locale, "col.stats"),
+            L(locale, "col.era"), L(locale, "col.materials")))
+        sep = "| --- | --- | --- | --- | --- | --- |"
+    else:
+        hdr = ("|  | %s | %s | %s | %s |" % (
+            L(locale, "col.item"), L(locale, "col.skill"),
+            L(locale, "col.era"), L(locale, "col.materials")))
+        sep = "| --- | --- | --- | --- | --- |"
     for cat, items in categories.items():
         # Recipe category names are domain groupings — kept English (proper nouns).
         out.append("## %s\n" % md_escape(cat.title() if cat.islower() else cat))
         out.append(hdr)
-        out.append("| --- | --- | --- | --- | --- |")
+        out.append(sep)
         for r in items:
             name = r["name"] or r["item_type"]
             if name.startswith("cliloc:"):
                 name = r["item_type"]
-            out.append("| %s | %s | %s | %s | %s |" % (
-                icon_cell(r, item_art), md_escape(name),
-                skill_cell(r, main_skill, locale),
-                era_cell(r, expansion), materials_cell(r)))
+            if has_stats:
+                out.append("| %s | %s | %s | %s | %s | %s |" % (
+                    icon_cell(r, item_art), md_escape(name),
+                    skill_cell(r, main_skill, locale),
+                    md_escape(stats_cell(r, weapons, armor)),
+                    era_cell(r, expansion), materials_cell(r)))
+            else:
+                out.append("| %s | %s | %s | %s | %s |" % (
+                    icon_cell(r, item_art), md_escape(name),
+                    skill_cell(r, main_skill, locale),
+                    era_cell(r, expansion), materials_cell(r)))
         out.append("")
 
     path = os.path.join(out_dir(locale), slug + ".md")
@@ -174,13 +235,19 @@ def main():
     with open(EXPANSION_PATH, encoding="utf-8") as f:
         expansion = json.load(f).get("by_class", {})
 
+    with open(WEAPONS_PATH, encoding="utf-8") as f:
+        weapons = {w["class"]: w for w in json.load(f).get("weapons", [])}
+
+    with open(ARMOR_PATH, encoding="utf-8") as f:
+        armor = {p["class"]: p for p in json.load(f).get("pieces", [])}
+
     systems = [(slug, s) for slug, s in data.items() if slug != "_schema"]
     systems.sort(key=lambda kv: kv[0])
 
     for locale in LOCALES:
         os.makedirs(out_dir(locale), exist_ok=True)
         for slug, s in systems:
-            path = gen_system_page(slug, s, item_art, expansion, locale)
+            path = gen_system_page(slug, s, item_art, expansion, weapons, armor, locale)
             print("wrote %s (%d recipes)" % (os.path.relpath(path, ROOT),
                                              len(s["recipes"])))
         path = gen_index(systems, locale)
