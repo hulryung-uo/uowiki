@@ -16,10 +16,12 @@
 	vertical-align: middle;
 }
 
-/* Inside dense data tables, a slightly smaller uniform box keeps rows compact. */
+/* Inside dense data tables (crafting recipes, item catalogs), a compact uniform
+   box keeps rows tidy. 72px upscaled tiny art (jewelry, rings) into a blocky,
+   oversized blob; 44px keeps icons recognizable without dominating the row. */
 .sl-markdown-content table .uo-sprite {
-	width: 72px;
-	height: 72px;
+	width: 44px;
+	height: 44px;
 }
 
 /* Item gallery — a flex-wrapping grid of sprite tiles with captions, for

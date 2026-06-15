@@ -10,7 +10,8 @@ sources:
   - "servuo: Scripts/Mobiles/PlayerMobile.cs (GetMinResistance — Magic Resist floor)"
   - "servuo: Scripts/Misc/RegenRates.cs (GetArmorMeditationValue — meditation/mana penalty)"
   - "client art: static art for piece sprites"
-last_verified: 2026-06-11
+  - "data: data/armor.json (gallery — 148 piece sprites grouped by material)"
+last_verified: 2026-06-15
 generated: false
 ---
 
@@ -154,6 +155,204 @@ AOS 이전에는 방어구가 다섯 저항이 아니라 단일 **방어 등급(
   [재봉(Tailoring)](/ko/crafting/tailoring/)과 [자원(Resources)](/ko/items/resources/)을 보세요.
 - **대장기술(Blacksmithy)**은 링메일, 체인메일, 플레이트, 드래곤 비늘 방어구를 단조합니다. 쓰인
   광석(dull copper → valorite)은 저항과 방어 보너스, 그리고 색 있는 **색조(hue)**를 더합니다.
+
+
+## 방어구 갤러리
+
+이 샤드에서 제작 가능한 모든 방어구 조각을 재료별로(투구 → 고짓 → 가슴 → 팔 → 장갑 → 다리) 정리했습니다. 스프라이트는 기본 클라이언트 아트이며, 실제 플레이에서는 제작 재료(광석 또는 가죽)가 각 조각의 색과 수치를 바꿉니다. 스탯과 아이템 ID는 [방어구 카탈로그](/ko/items/catalog/armor/)에서 볼 수 있습니다.
+
+### Leather
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x782D.png" alt="Dragon Turtle Hide Helm" loading="lazy" /><figcaption>Dragon Turtle Hide Helm</figcaption></figure>
+  <figure><img src="/img/items/0x7828.png" alt="Tiger Pelt Helm" loading="lazy" /><figcaption>Tiger Pelt Helm</figcaption></figure>
+  <figure><img src="/img/items/0x1DB9.png" alt="leather cap" loading="lazy" /><figcaption>leather cap</figcaption></figure>
+  <figure><img src="/img/items/0x2776.png" alt="leather jingasa" loading="lazy" /><figcaption>leather jingasa</figcaption></figure>
+  <figure><img src="/img/items/0x278E.png" alt="leather ninja hood" loading="lazy" /><figcaption>leather ninja hood</figcaption></figure>
+  <figure><img src="/img/items/0x7829.png" alt="Tiger Pelt Collar" loading="lazy" /><figcaption>Tiger Pelt Collar</figcaption></figure>
+  <figure><img src="/img/items/0xA40F.png" alt="elegant collar" loading="lazy" /><figcaption>elegant collar</figcaption></figure>
+  <figure><img src="/img/items/0xA40F.png" alt="elegant collar of fortune" loading="lazy" /><figcaption>elegant collar of fortune</figcaption></figure>
+  <figure><img src="/img/items/0x2FC7.png" alt="leaf gorget" loading="lazy" /><figcaption>leaf gorget</figcaption></figure>
+  <figure><img src="/img/items/0x13C7.png" alt="leather gorget" loading="lazy" /><figcaption>leather gorget</figcaption></figure>
+  <figure><img src="/img/items/0x277A.png" alt="leather mempo" loading="lazy" /><figcaption>leather mempo</figcaption></figure>
+  <figure><img src="/img/items/0x782B.png" alt="Dragon Turtle Hide Bustier" loading="lazy" /><figcaption>Dragon Turtle Hide Bustier</figcaption></figure>
+  <figure><img src="/img/items/0x782A.png" alt="Dragon Turtle Hide Chest" loading="lazy" /><figcaption>Dragon Turtle Hide Chest</figcaption></figure>
+  <figure><img src="/img/items/0x7823.png" alt="Tiger Pelt Bustier" loading="lazy" /><figcaption>Tiger Pelt Bustier</figcaption></figure>
+  <figure><img src="/img/items/0x7822.png" alt="Tiger Pelt Chest" loading="lazy" /><figcaption>Tiger Pelt Chest</figcaption></figure>
+  <figure><img src="/img/items/0x0405.png" alt="female gargish cloth chest armor" loading="lazy" /><figcaption>female gargish cloth chest armor</figcaption></figure>
+  <figure><img src="/img/items/0x0303.png" alt="female gargish leather chest" loading="lazy" /><figcaption>female gargish leather chest</figcaption></figure>
+  <figure><img src="/img/items/0x2FCB.png" alt="female leaf chest" loading="lazy" /><figcaption>female leaf chest</figcaption></figure>
+  <figure><img src="/img/items/0x1C06.png" alt="female leather chest" loading="lazy" /><figcaption>female leather chest</figcaption></figure>
+  <figure><img src="/img/items/0x0406.png" alt="gargish cloth chest armor" loading="lazy" /><figcaption>gargish cloth chest armor</figcaption></figure>
+  <figure><img src="/img/items/0x0304.png" alt="gargish leather chest" loading="lazy" /><figcaption>gargish leather chest</figcaption></figure>
+  <figure><img src="/img/items/0x2FC5.png" alt="leaf chest" loading="lazy" /><figcaption>leaf chest</figcaption></figure>
+  <figure><img src="/img/items/0x13CC.png" alt="leather chest" loading="lazy" /><figcaption>leather chest</figcaption></figure>
+  <figure><img src="/img/items/0x2793.png" alt="leather ninja jacket" loading="lazy" /><figcaption>leather ninja jacket</figcaption></figure>
+  <figure><img src="/img/items/0x782E.png" alt="Dragon Turtle Hide Arms" loading="lazy" /><figcaption>Dragon Turtle Hide Arms</figcaption></figure>
+  <figure><img src="/img/items/0x0403.png" alt="female gargish cloth arms armor" loading="lazy" /><figcaption>female gargish cloth arms armor</figcaption></figure>
+  <figure><img src="/img/items/0x0301.png" alt="female gargish leather arms" loading="lazy" /><figcaption>female gargish leather arms</figcaption></figure>
+  <figure><img src="/img/items/0x0404.png" alt="gargish cloth arms armor" loading="lazy" /><figcaption>gargish cloth arms armor</figcaption></figure>
+  <figure><img src="/img/items/0x0302.png" alt="gargish leather arms" loading="lazy" /><figcaption>gargish leather arms</figcaption></figure>
+  <figure><img src="/img/items/0x457E.png" alt="gargish leather wing armor" loading="lazy" /><figcaption>gargish leather wing armor</figcaption></figure>
+  <figure><img src="/img/items/0x2FC8.png" alt="leaf arms" loading="lazy" /><figcaption>leaf arms</figcaption></figure>
+  <figure><img src="/img/items/0x13CD.png" alt="leather arms" loading="lazy" /><figcaption>leather arms</figcaption></figure>
+  <figure><img src="/img/items/0x1C0A.png" alt="leather bustier arms" loading="lazy" /><figcaption>leather bustier arms</figcaption></figure>
+  <figure><img src="/img/items/0x277E.png" alt="leather hiro sode" loading="lazy" /><figcaption>leather hiro sode</figcaption></figure>
+  <figure><img src="/img/items/0x2FC6.png" alt="leaf gloves" loading="lazy" /><figcaption>leaf gloves</figcaption></figure>
+  <figure><img src="/img/items/0x13C6.png" alt="leather gloves" loading="lazy" /><figcaption>leather gloves</figcaption></figure>
+  <figure><img src="/img/items/0x2792.png" alt="leather ninja mitts" loading="lazy" /><figcaption>leather ninja mitts</figcaption></figure>
+  <figure><img src="/img/items/0x782C.png" alt="Dragon Turtle Hide Leggings" loading="lazy" /><figcaption>Dragon Turtle Hide Leggings</figcaption></figure>
+  <figure><img src="/img/items/0x7824.png" alt="Tiger Pelt Leggings" loading="lazy" /><figcaption>Tiger Pelt Leggings</figcaption></figure>
+  <figure><img src="/img/items/0x7826.png" alt="Tiger Pelt Long Skirt" loading="lazy" /><figcaption>Tiger Pelt Long Skirt</figcaption></figure>
+  <figure><img src="/img/items/0x7825.png" alt="Tiger Pelt Shorts" loading="lazy" /><figcaption>Tiger Pelt Shorts</figcaption></figure>
+  <figure><img src="/img/items/0x7827.png" alt="Tiger Pelt Skirt" loading="lazy" /><figcaption>Tiger Pelt Skirt</figcaption></figure>
+  <figure><img src="/img/items/0x0407.png" alt="female gargish cloth kilt armor" loading="lazy" /><figcaption>female gargish cloth kilt armor</figcaption></figure>
+  <figure><img src="/img/items/0x0409.png" alt="female gargish cloth legs armor" loading="lazy" /><figcaption>female gargish cloth legs armor</figcaption></figure>
+  <figure><img src="/img/items/0x0310.png" alt="female gargish leather kilt" loading="lazy" /><figcaption>female gargish leather kilt</figcaption></figure>
+  <figure><img src="/img/items/0x0305.png" alt="female gargish leather legs" loading="lazy" /><figcaption>female gargish leather legs</figcaption></figure>
+  <figure><img src="/img/items/0x0408.png" alt="gargish cloth kilt armor" loading="lazy" /><figcaption>gargish cloth kilt armor</figcaption></figure>
+  <figure><img src="/img/items/0x040A.png" alt="gargish cloth legs armor" loading="lazy" /><figcaption>gargish cloth legs armor</figcaption></figure>
+  <figure><img src="/img/items/0x0311.png" alt="gargish leather kilt" loading="lazy" /><figcaption>gargish leather kilt</figcaption></figure>
+  <figure><img src="/img/items/0x0305.png" alt="gargish leather legs" loading="lazy" /><figcaption>gargish leather legs</figcaption></figure>
+  <figure><img src="/img/items/0x2FC9.png" alt="leaf legs" loading="lazy" /><figcaption>leaf legs</figcaption></figure>
+  <figure><img src="/img/items/0x2FCA.png" alt="leaf tonlet" loading="lazy" /><figcaption>leaf tonlet</figcaption></figure>
+  <figure><img src="/img/items/0x27C6.png" alt="leather do" loading="lazy" /><figcaption>leather do</figcaption></figure>
+  <figure><img src="/img/items/0x278A.png" alt="leather haidate" loading="lazy" /><figcaption>leather haidate</figcaption></figure>
+  <figure><img src="/img/items/0x13CB.png" alt="leather legs" loading="lazy" /><figcaption>leather legs</figcaption></figure>
+  <figure><img src="/img/items/0x2791.png" alt="leather ninja pants" loading="lazy" /><figcaption>leather ninja pants</figcaption></figure>
+  <figure><img src="/img/items/0x1C00.png" alt="leather shorts" loading="lazy" /><figcaption>leather shorts</figcaption></figure>
+  <figure><img src="/img/items/0x1C08.png" alt="leather skirt" loading="lazy" /><figcaption>leather skirt</figcaption></figure>
+  <figure><img src="/img/items/0x2786.png" alt="leather suneate" loading="lazy" /><figcaption>leather suneate</figcaption></figure>
+</div>
+
+### Studded
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x2B76.png" alt="hide gorget" loading="lazy" /><figcaption>hide gorget</figcaption></figure>
+  <figure><img src="/img/items/0x13D6.png" alt="studded gorget" loading="lazy" /><figcaption>studded gorget</figcaption></figure>
+  <figure><img src="/img/items/0x279D.png" alt="studded mempo" loading="lazy" /><figcaption>studded mempo</figcaption></figure>
+  <figure><img src="/img/items/0x1C02.png" alt="female studded chest" loading="lazy" /><figcaption>female studded chest</figcaption></figure>
+  <figure><img src="/img/items/0x2B74.png" alt="hide chest" loading="lazy" /><figcaption>hide chest</figcaption></figure>
+  <figure><img src="/img/items/0x2B79.png" alt="hide female chest" loading="lazy" /><figcaption>hide female chest</figcaption></figure>
+  <figure><img src="/img/items/0x13DB.png" alt="studded chest" loading="lazy" /><figcaption>studded chest</figcaption></figure>
+  <figure><img src="/img/items/0x2B77.png" alt="hide pauldrons" loading="lazy" /><figcaption>hide pauldrons</figcaption></figure>
+  <figure><img src="/img/items/0x13DC.png" alt="studded arms" loading="lazy" /><figcaption>studded arms</figcaption></figure>
+  <figure><img src="/img/items/0x1C0C.png" alt="studded bustier arms" loading="lazy" /><figcaption>studded bustier arms</figcaption></figure>
+  <figure><img src="/img/items/0x277F.png" alt="studded hiro sode" loading="lazy" /><figcaption>studded hiro sode</figcaption></figure>
+  <figure><img src="/img/items/0x2B75.png" alt="hide gloves" loading="lazy" /><figcaption>hide gloves</figcaption></figure>
+  <figure><img src="/img/items/0x13D5.png" alt="studded gloves" loading="lazy" /><figcaption>studded gloves</figcaption></figure>
+  <figure><img src="/img/items/0x2B78.png" alt="hide pants" loading="lazy" /><figcaption>hide pants</figcaption></figure>
+  <figure><img src="/img/items/0x27C7.png" alt="studded do" loading="lazy" /><figcaption>studded do</figcaption></figure>
+  <figure><img src="/img/items/0x278B.png" alt="studded haidate" loading="lazy" /><figcaption>studded haidate</figcaption></figure>
+  <figure><img src="/img/items/0x13DA.png" alt="studded legs" loading="lazy" /><figcaption>studded legs</figcaption></figure>
+  <figure><img src="/img/items/0x27D2.png" alt="studded suneate" loading="lazy" /><figcaption>studded suneate</figcaption></figure>
+</div>
+
+### Bone
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x1F0B.png" alt="an evil orc helm" loading="lazy" /><figcaption>an evil orc helm</figcaption></figure>
+  <figure><img src="/img/items/0x1451.png" alt="bone helm" loading="lazy" /><figcaption>bone helm</figcaption></figure>
+  <figure><img src="/img/items/0x1F0B.png" alt="orc helm" loading="lazy" /><figcaption>orc helm</figcaption></figure>
+  <figure><img src="/img/items/0x144F.png" alt="bone chest" loading="lazy" /><figcaption>bone chest</figcaption></figure>
+  <figure><img src="/img/items/0x144E.png" alt="bone arms" loading="lazy" /><figcaption>bone arms</figcaption></figure>
+  <figure><img src="/img/items/0x1450.png" alt="bone gloves" loading="lazy" /><figcaption>bone gloves</figcaption></figure>
+  <figure><img src="/img/items/0x1452.png" alt="bone legs" loading="lazy" /><figcaption>bone legs</figcaption></figure>
+</div>
+
+### Ringmail
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x13EC.png" alt="ringmail chest" loading="lazy" /><figcaption>ringmail chest</figcaption></figure>
+  <figure><img src="/img/items/0x13EE.png" alt="ringmail arms" loading="lazy" /><figcaption>ringmail arms</figcaption></figure>
+  <figure><img src="/img/items/0x13EB.png" alt="ringmail gloves" loading="lazy" /><figcaption>ringmail gloves</figcaption></figure>
+  <figure><img src="/img/items/0x13F0.png" alt="ringmail legs" loading="lazy" /><figcaption>ringmail legs</figcaption></figure>
+</div>
+
+### Chainmail
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x13BB.png" alt="chain coif" loading="lazy" /><figcaption>chain coif</figcaption></figure>
+  <figure><img src="/img/items/0x2774.png" alt="chain hatsuburi" loading="lazy" /><figcaption>chain hatsuburi</figcaption></figure>
+  <figure><img src="/img/items/0x13BF.png" alt="chain chest" loading="lazy" /><figcaption>chain chest</figcaption></figure>
+  <figure><img src="/img/items/0x13BE.png" alt="chain legs" loading="lazy" /><figcaption>chain legs</figcaption></figure>
+</div>
+
+### Plate
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x140C.png" alt="bascinet" loading="lazy" /><figcaption>bascinet</figcaption></figure>
+  <figure><img src="/img/items/0x2B6E.png" alt="circlet" loading="lazy" /><figcaption>circlet</figcaption></figure>
+  <figure><img src="/img/items/0x1408.png" alt="close helm" loading="lazy" /><figcaption>close helm</figcaption></figure>
+  <figure><img src="/img/items/0x2778.png" alt="decorative plate kabuto" loading="lazy" /><figcaption>decorative plate kabuto</figcaption></figure>
+  <figure><img src="/img/items/0x2B70.png" alt="gemmed circlet" loading="lazy" /><figcaption>gemmed circlet</figcaption></figure>
+  <figure><img src="/img/items/0x2777.png" alt="heavy plate jingasa" loading="lazy" /><figcaption>heavy plate jingasa</figcaption></figure>
+  <figure><img src="/img/items/0x140A.png" alt="helmet" loading="lazy" /><figcaption>helmet</figcaption></figure>
+  <figure><img src="/img/items/0x2781.png" alt="light plate jingasa" loading="lazy" /><figcaption>light plate jingasa</figcaption></figure>
+  <figure><img src="/img/items/0x140E.png" alt="norse helm" loading="lazy" /><figcaption>norse helm</figcaption></figure>
+  <figure><img src="/img/items/0x2785.png" alt="plate battle kabuto" loading="lazy" /><figcaption>plate battle kabuto</figcaption></figure>
+  <figure><img src="/img/items/0x2775.png" alt="plate hatsuburi" loading="lazy" /><figcaption>plate hatsuburi</figcaption></figure>
+  <figure><img src="/img/items/0x1412.png" alt="plate helm" loading="lazy" /><figcaption>plate helm</figcaption></figure>
+  <figure><img src="/img/items/0x2B71.png" alt="raven helm" loading="lazy" /><figcaption>raven helm</figcaption></figure>
+  <figure><img src="/img/items/0x2B6F.png" alt="royal circlet" loading="lazy" /><figcaption>royal circlet</figcaption></figure>
+  <figure><img src="/img/items/0x2784.png" alt="small plate jingasa" loading="lazy" /><figcaption>small plate jingasa</figcaption></figure>
+  <figure><img src="/img/items/0x2789.png" alt="standard plate kabuto" loading="lazy" /><figcaption>standard plate kabuto</figcaption></figure>
+  <figure><img src="/img/items/0x2B72.png" alt="vulture helm" loading="lazy" /><figcaption>vulture helm</figcaption></figure>
+  <figure><img src="/img/items/0x2B73.png" alt="winged helm" loading="lazy" /><figcaption>winged helm</figcaption></figure>
+  <figure><img src="/img/items/0x1413.png" alt="plate gorget" loading="lazy" /><figcaption>plate gorget</figcaption></figure>
+  <figure><img src="/img/items/0x2779.png" alt="plate mempo" loading="lazy" /><figcaption>plate mempo</figcaption></figure>
+  <figure><img src="/img/items/0x0309.png" alt="female gargish plate chest" loading="lazy" /><figcaption>female gargish plate chest</figcaption></figure>
+  <figure><img src="/img/items/0x1C04.png" alt="female plate chest" loading="lazy" /><figcaption>female plate chest</figcaption></figure>
+  <figure><img src="/img/items/0x030A.png" alt="gargish plate chest" loading="lazy" /><figcaption>gargish plate chest</figcaption></figure>
+  <figure><img src="/img/items/0x1415.png" alt="plate chest" loading="lazy" /><figcaption>plate chest</figcaption></figure>
+  <figure><img src="/img/items/0x0307.png" alt="female gargish plate arms" loading="lazy" /><figcaption>female gargish plate arms</figcaption></figure>
+  <figure><img src="/img/items/0x0308.png" alt="gargish plate arms" loading="lazy" /><figcaption>gargish plate arms</figcaption></figure>
+  <figure><img src="/img/items/0x1410.png" alt="plate arms" loading="lazy" /><figcaption>plate arms</figcaption></figure>
+  <figure><img src="/img/items/0x2780.png" alt="plate hiro sode" loading="lazy" /><figcaption>plate hiro sode</figcaption></figure>
+  <figure><img src="/img/items/0x1414.png" alt="plate gloves" loading="lazy" /><figcaption>plate gloves</figcaption></figure>
+  <figure><img src="/img/items/0x030B.png" alt="female gargish plate kilt" loading="lazy" /><figcaption>female gargish plate kilt</figcaption></figure>
+  <figure><img src="/img/items/0x030D.png" alt="female gargish plate legs" loading="lazy" /><figcaption>female gargish plate legs</figcaption></figure>
+  <figure><img src="/img/items/0x030C.png" alt="gargish plate kilt" loading="lazy" /><figcaption>gargish plate kilt</figcaption></figure>
+  <figure><img src="/img/items/0x030E.png" alt="gargish plate legs" loading="lazy" /><figcaption>gargish plate legs</figcaption></figure>
+  <figure><img src="/img/items/0x277D.png" alt="plate do" loading="lazy" /><figcaption>plate do</figcaption></figure>
+  <figure><img src="/img/items/0x278D.png" alt="plate haidate" loading="lazy" /><figcaption>plate haidate</figcaption></figure>
+  <figure><img src="/img/items/0x1411.png" alt="plate legs" loading="lazy" /><figcaption>plate legs</figcaption></figure>
+  <figure><img src="/img/items/0x2788.png" alt="plate suneate" loading="lazy" /><figcaption>plate suneate</figcaption></figure>
+</div>
+
+### Dragon scale
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x2645.png" alt="dragon helm" loading="lazy" /><figcaption>dragon helm</figcaption></figure>
+  <figure><img src="/img/items/0x2641.png" alt="dragon chest" loading="lazy" /><figcaption>dragon chest</figcaption></figure>
+  <figure><img src="/img/items/0x2657.png" alt="dragon arms" loading="lazy" /><figcaption>dragon arms</figcaption></figure>
+  <figure><img src="/img/items/0x2643.png" alt="dragon gloves" loading="lazy" /><figcaption>dragon gloves</figcaption></figure>
+  <figure><img src="/img/items/0x2647.png" alt="dragon legs" loading="lazy" /><figcaption>dragon legs</figcaption></figure>
+</div>
+
+### Woodland (elven)
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x2B69.png" alt="woodland gorget" loading="lazy" /><figcaption>woodland gorget</figcaption></figure>
+  <figure><img src="/img/items/0x2B6D.png" alt="female elven plate chest" loading="lazy" /><figcaption>female elven plate chest</figcaption></figure>
+  <figure><img src="/img/items/0x2B67.png" alt="woodland chest" loading="lazy" /><figcaption>woodland chest</figcaption></figure>
+  <figure><img src="/img/items/0x2B6C.png" alt="woodland arms" loading="lazy" /><figcaption>woodland arms</figcaption></figure>
+  <figure><img src="/img/items/0x2B6A.png" alt="woodland gloves" loading="lazy" /><figcaption>woodland gloves</figcaption></figure>
+  <figure><img src="/img/items/0x2B6B.png" alt="woodland legs" loading="lazy" /><figcaption>woodland legs</figcaption></figure>
+</div>
+
+### Stone (gargish)
+
+<div class="uo-gallery">
+  <figure><img src="/img/items/0x0285.png" alt="female gargish stone chest" loading="lazy" /><figcaption>female gargish stone chest</figcaption></figure>
+  <figure><img src="/img/items/0x0286.png" alt="gargish stone chest" loading="lazy" /><figcaption>gargish stone chest</figcaption></figure>
+  <figure><img src="/img/items/0x0283.png" alt="female gargish stone arms" loading="lazy" /><figcaption>female gargish stone arms</figcaption></figure>
+  <figure><img src="/img/items/0x0284.png" alt="gargish stone arms" loading="lazy" /><figcaption>gargish stone arms</figcaption></figure>
+  <figure><img src="/img/items/0x0287.png" alt="female gargish stone kilt" loading="lazy" /><figcaption>female gargish stone kilt</figcaption></figure>
+  <figure><img src="/img/items/0x0289.png" alt="female gargish stone legs" loading="lazy" /><figcaption>female gargish stone legs</figcaption></figure>
+  <figure><img src="/img/items/0x0288.png" alt="gargish stone kilt" loading="lazy" /><figcaption>gargish stone kilt</figcaption></figure>
+  <figure><img src="/img/items/0x028A.png" alt="gargish stone legs" loading="lazy" /><figcaption>gargish stone legs</figcaption></figure>
+</div>
 
 ## 방패
 
