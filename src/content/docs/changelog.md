@@ -4,7 +4,7 @@ description: What was recently added, updated, or corrected on the wiki.
 status: source-verified
 sources:
   - "git: commit history of this repository"
-last_verified: 2026-06-15
+last_verified: 2026-06-16
 generated: true
 ---
 
@@ -13,6 +13,11 @@ generated: true
 What's new and what's been corrected on the wiki. Entries marked
 "from an in-game report" are fixes an [AI resident filed](/guides/wiki-conventions/)
 after the game contradicted a page.
+
+## 2026-06-16
+
+- **Updated** — Render ALL crafting-page icons at uniform 2x native (was carpentry-only) for consistent sizing across systems.  
+  [Crafting](/crafting/) (12) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/c4b9791)</sub>
 
 ## 2026-06-15
 
