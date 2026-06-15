@@ -20,35 +20,35 @@ last_verified: 2026-06-15
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x1EB1.png" class="uo-sprite" alt="" width="56" /> | barrel staves | 0.0 – 25.0 |  | Classic | 5 Boards or Logs |
-| <img src="/img/items/0x1DB8.png" class="uo-sprite" alt="" width="56" /> | barrel lid | 11.0 – 36.0 |  | Classic | 4 Boards or Logs |
-| <img src="/img/items/0x0EB6.png" class="uo-sprite" alt="" width="56" /> | short music stand (left) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0EB8.png" class="uo-sprite" alt="" width="56" /> | short music stand (right) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0EBB.png" class="uo-sprite" alt="" width="56" /> | tall music stand (left) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0EBC.png" class="uo-sprite" alt="" width="56" /> | tall music stand (right) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0F66.png" class="uo-sprite" alt="" width="56" /> | easel (south) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0F68.png" class="uo-sprite" alt="" width="56" /> | easel (east) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0F6A.png" class="uo-sprite" alt="" width="56" /> | easel (north) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x24C2.png" class="uo-sprite" alt="" width="56" /> | red hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
-| <img src="/img/items/0x24C6.png" class="uo-sprite" alt="" width="56" /> | white hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
-| <img src="/img/items/0x24CB.png" class="uo-sprite" alt="" width="56" /> | shoji screen | 80.0 – 105.0; 재봉술 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x24D0.png" class="uo-sprite" alt="" width="56" /> | bamboo screen | 80.0 – 105.0; 재봉술 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x0DC0.png" class="uo-sprite" alt="" width="56" /> | fishing pole | 68.4 – 93.4; 재봉술 40.0 – 45.0 |  | AOS | 5 Boards or Logs, 5 Cloth |
-| <img src="/img/items/0x1026.png" class="uo-sprite" alt="" width="56" /> | wooden container engraving tool | 75.0 – 100.0 |  | ML | 4 Boards or Logs, 2 Ingots |
-| <img src="/img/items/0x2F61.png" class="uo-sprite" alt="" width="56" /> | runed switch | 70.0 – 120.0 |  | ML | 2 Boards or Logs, 1 Enchanted Switch, 1 Runed Prism, 1 jeweled filigree |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | arcanist statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | arcanist statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | warrior statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | warrior statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | squirrel statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | squirrel statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x2D4A.png" class="uo-sprite" alt="" width="56" /> | giant replica acorn | 80.0 – 105.0 |  | ML | 35 Boards or Logs |
-| <img src="/img/items/0x3158.png" class="uo-sprite" alt="" width="56" /> | mounted dread horn | 90.0 – 115.0 |  | ML | 50 Boards or Logs, 1 Pristine Dread Horn |
-| <img src="/img/items/0x020D.png" class="uo-sprite" alt="" width="56" /> | Acid Proof Rope | 80.0 – 130.0 |  | ML | 2 Greater Strength Potion, 1 Protection, 1 switch |
-| <img src="/img/items/0x4037.png" class="uo-sprite" alt="" width="56" /> | gargish banner | 94.7 – 115.0; 재봉술 75.0 – 105.0 |  | SA | 50 Boards or Logs, 50 Cloth |
-| <img src="/img/items/0x407C.png" class="uo-sprite" alt="" width="56" /> | an incubator | 90.0 – 115.0 |  | SA | 100 Boards or Logs |
-| <img src="/img/items/0x4513.png" class="uo-sprite" alt="" width="56" /> | a chicken coop | 90.0 – 115.0 |  | SA | 150 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | exodus summoning altar | 95.0 – 120.0; 마법학 75.0 – 120.0 |  | SA | 100 Boards or Logs, 10 high quality granite, 10 a small piece of blackrock, 1 nexus core |
+| <img src="/img/items/0x1EB1.png" class="uo-sprite-2x" alt="" width="82" height="72" /> | barrel staves | 0.0 – 25.0 |  | Classic | 5 Boards or Logs |
+| <img src="/img/items/0x1DB8.png" class="uo-sprite-2x" alt="" width="44" height="42" /> | barrel lid | 11.0 – 36.0 |  | Classic | 4 Boards or Logs |
+| <img src="/img/items/0x0EB6.png" class="uo-sprite-2x" alt="" width="38" height="86" /> | short music stand (left) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0EB8.png" class="uo-sprite-2x" alt="" width="38" height="86" /> | short music stand (right) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0EBB.png" class="uo-sprite-2x" alt="" width="38" height="102" /> | tall music stand (left) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0EBC.png" class="uo-sprite-2x" alt="" width="38" height="102" /> | tall music stand (right) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0F66.png" class="uo-sprite-2x" alt="" width="76" height="206" /> | easel (south) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0F68.png" class="uo-sprite-2x" alt="" width="76" height="204" /> | easel (east) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0F6A.png" class="uo-sprite-2x" alt="" width="74" height="206" /> | easel (north) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x24C2.png" class="uo-sprite-2x" alt="" width="80" height="196" /> | red hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
+| <img src="/img/items/0x24C6.png" class="uo-sprite-2x" alt="" width="80" height="196" /> | white hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
+| <img src="/img/items/0x24CB.png" class="uo-sprite-2x" alt="" width="66" height="204" /> | shoji screen | 80.0 – 105.0; 재봉술 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x24D0.png" class="uo-sprite-2x" alt="" width="64" height="194" /> | bamboo screen | 80.0 – 105.0; 재봉술 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x0DC0.png" class="uo-sprite-2x" alt="" width="98" height="86" /> | fishing pole | 68.4 – 93.4; 재봉술 40.0 – 45.0 |  | AOS | 5 Boards or Logs, 5 Cloth |
+| <img src="/img/items/0x1026.png" class="uo-sprite-2x" alt="" width="28" height="32" /> | wooden container engraving tool | 75.0 – 100.0 |  | ML | 4 Boards or Logs, 2 Ingots |
+| <img src="/img/items/0x2F61.png" class="uo-sprite-2x" alt="" width="46" height="46" /> | runed switch | 70.0 – 120.0 |  | ML | 2 Boards or Logs, 1 Enchanted Switch, 1 Runed Prism, 1 jeweled filigree |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcanist statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcanist statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | warrior statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | warrior statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | squirrel statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | squirrel statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
+| <img src="/img/items/0x2D4A.png" class="uo-sprite-2x" alt="" width="46" height="72" /> | giant replica acorn | 80.0 – 105.0 |  | ML | 35 Boards or Logs |
+| <img src="/img/items/0x3158.png" class="uo-sprite-2x" alt="" width="58" height="74" /> | mounted dread horn | 90.0 – 115.0 |  | ML | 50 Boards or Logs, 1 Pristine Dread Horn |
+| <img src="/img/items/0x020D.png" class="uo-sprite-2x" alt="" width="28" height="74" /> | Acid Proof Rope | 80.0 – 130.0 |  | ML | 2 Greater Strength Potion, 1 Protection, 1 switch |
+| <img src="/img/items/0x4037.png" class="uo-sprite-2x" alt="" width="48" height="260" /> | gargish banner | 94.7 – 115.0; 재봉술 75.0 – 105.0 |  | SA | 50 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x407C.png" class="uo-sprite-2x" alt="" width="82" height="122" /> | an incubator | 90.0 – 115.0 |  | SA | 100 Boards or Logs |
+| <img src="/img/items/0x4513.png" class="uo-sprite-2x" alt="" width="106" height="168" /> | a chicken coop | 90.0 – 115.0 |  | SA | 150 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | exodus summoning altar | 95.0 – 120.0; 마법학 75.0 – 120.0 |  | SA | 100 Boards or Logs, 10 high quality granite, 10 a small piece of blackrock, 1 nexus core |
 |  | Dark Wooden Sign Hanger | 42.1 – 77.7 |  | TOL | 5 Boards or Logs |
 |  | Light Wooden Sign Hanger | 42.1 – 77.7 |  | TOL | 5 Boards or Logs |
 
@@ -56,235 +56,235 @@ last_verified: 2026-06-15
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x0B5E.png" class="uo-sprite" alt="" width="56" /> | foot stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0A2A.png" class="uo-sprite" alt="" width="56" /> | stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0B5B.png" class="uo-sprite" alt="" width="56" /> | straw chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
-| <img src="/img/items/0x0B57.png" class="uo-sprite" alt="" width="56" /> | wooden chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
-| <img src="/img/items/0x0B4F.png" class="uo-sprite" alt="" width="56" /> | vesper-style chair | 42.1 – 67.1 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0B53.png" class="uo-sprite" alt="" width="56" /> | trinsic-style chair | 42.1 – 67.1 |  | Classic | 13 Boards or Logs |
-| <img src="/img/items/0x0B2D.png" class="uo-sprite" alt="" width="56" /> | wooden bench | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B2E.png" class="uo-sprite" alt="" width="56" /> | wooden throne | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B33.png" class="uo-sprite" alt="" width="56" /> | magincia-style throne | 73.6 – 98.6 |  | Classic | 19 Boards or Logs |
-| <img src="/img/items/0x0B35.png" class="uo-sprite" alt="" width="56" /> | small table | 42.1 – 67.1 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B4A.png" class="uo-sprite" alt="" width="56" /> | writing table | 63.1 – 88.1 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B90.png" class="uo-sprite" alt="" width="56" /> | yew-wood table | 84.2 – 109.2 |  | Classic | 27 Boards or Logs |
-| <img src="/img/items/0x0B8F.png" class="uo-sprite" alt="" width="56" /> | large table | 63.1 – 88.1 |  | Classic | 23 Boards or Logs |
-| <img src="/img/items/0x2819.png" class="uo-sprite" alt="" width="56" /> | elegant low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x281A.png" class="uo-sprite" alt="" width="56" /> | plain low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ornate table (south) | 85.0 – 110.0 |  | ML | 60 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ornate table (east) | 85.0 – 110.0 |  | ML | 60 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | hardwood table (south) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | hardwood table (east) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
-| <img src="/img/items/0x2DDD.png" class="uo-sprite" alt="" width="56" /> | elven podium | 80.0 – 105.0 |  | ML | 20 Boards or Logs |
-| <img src="/img/items/0x2DE3.png" class="uo-sprite" alt="" width="56" /> | ornate elven chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
-| <img src="/img/items/0x2DEB.png" class="uo-sprite" alt="" width="56" /> | cozy elven chair | 85.0 – 110.0 |  | ML | 40 Boards or Logs |
-| <img src="/img/items/0x2DF5.png" class="uo-sprite" alt="" width="56" /> | reading chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
-| <img src="/img/items/0x4023.png" class="uo-sprite" alt="" width="56" /> | Ter-Mur style chair | 85.0 – 110.0 |  | SA | 40 Boards or Logs |
-| <img src="/img/items/0x4041.png" class="uo-sprite" alt="" width="56" /> | Ter-Mur style table | 75.0 – 100.0 |  | SA | 50 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Upholstered Chair | 70.0 – 110.0; 재봉술 55.0 – 60.0 |  | Classic | 40 Boards or Logs, 12 Cloth |
+| <img src="/img/items/0x0B5E.png" class="uo-sprite-2x" alt="" width="34" height="58" /> | foot stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x0A2A.png" class="uo-sprite-2x" alt="" width="34" height="66" /> | stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x0B5B.png" class="uo-sprite-2x" alt="" width="52" height="120" /> | straw chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
+| <img src="/img/items/0x0B57.png" class="uo-sprite-2x" alt="" width="56" height="116" /> | wooden chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
+| <img src="/img/items/0x0B4F.png" class="uo-sprite-2x" alt="" width="62" height="154" /> | vesper-style chair | 42.1 – 67.1 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0B53.png" class="uo-sprite-2x" alt="" width="60" height="144" /> | trinsic-style chair | 42.1 – 67.1 |  | Classic | 13 Boards or Logs |
+| <img src="/img/items/0x0B2D.png" class="uo-sprite-2x" alt="" width="72" height="94" /> | wooden bench | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B2E.png" class="uo-sprite-2x" alt="" width="54" height="114" /> | wooden throne | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B33.png" class="uo-sprite-2x" alt="" width="72" height="128" /> | magincia-style throne | 73.6 – 98.6 |  | Classic | 19 Boards or Logs |
+| <img src="/img/items/0x0B35.png" class="uo-sprite-2x" alt="" width="76" height="112" /> | small table | 42.1 – 67.1 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B4A.png" class="uo-sprite-2x" alt="" width="70" height="112" /> | writing table | 63.1 – 88.1 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B90.png" class="uo-sprite-2x" alt="" width="118" height="150" /> | yew-wood table | 84.2 – 109.2 |  | Classic | 27 Boards or Logs |
+| <img src="/img/items/0x0B8F.png" class="uo-sprite-2x" alt="" width="108" height="136" /> | large table | 63.1 – 88.1 |  | Classic | 23 Boards or Logs |
+| <img src="/img/items/0x2819.png" class="uo-sprite-2x" alt="" width="134" height="160" /> | elegant low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x281A.png" class="uo-sprite-2x" alt="" width="134" height="154" /> | plain low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ornate table (south) | 85.0 – 110.0 |  | ML | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ornate table (east) | 85.0 – 110.0 |  | ML | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | hardwood table (south) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | hardwood table (east) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
+| <img src="/img/items/0x2DDD.png" class="uo-sprite-2x" alt="" width="40" height="92" /> | elven podium | 80.0 – 105.0 |  | ML | 20 Boards or Logs |
+| <img src="/img/items/0x2DE3.png" class="uo-sprite-2x" alt="" width="70" height="126" /> | ornate elven chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
+| <img src="/img/items/0x2DEB.png" class="uo-sprite-2x" alt="" width="84" height="120" /> | cozy elven chair | 85.0 – 110.0 |  | ML | 40 Boards or Logs |
+| <img src="/img/items/0x2DF5.png" class="uo-sprite-2x" alt="" width="86" height="126" /> | reading chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
+| <img src="/img/items/0x4023.png" class="uo-sprite-2x" alt="" width="86" height="186" /> | Ter-Mur style chair | 85.0 – 110.0 |  | SA | 40 Boards or Logs |
+| <img src="/img/items/0x4041.png" class="uo-sprite-2x" alt="" width="84" height="108" /> | Ter-Mur style table | 75.0 – 100.0 |  | SA | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Upholstered Chair | 70.0 – 110.0; 재봉술 55.0 – 60.0 |  | Classic | 40 Boards or Logs, 12 Cloth |
 
 ## Containers
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x09AA.png" class="uo-sprite" alt="" width="56" /> | wooden box | 21.0 – 46.0 |  | Classic | 10 Boards or Logs |
-| <img src="/img/items/0x09A9.png" class="uo-sprite" alt="" width="56" /> | small crate | 10.0 – 35.0 |  | Classic | 8 Boards or Logs |
-| <img src="/img/items/0x0E3F.png" class="uo-sprite" alt="" width="56" /> | medium crate | 31.0 – 56.0 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0E3D.png" class="uo-sprite" alt="" width="56" /> | large crate | 47.3 – 72.3 |  | Classic | 18 Boards or Logs |
-| <img src="/img/items/0x0E43.png" class="uo-sprite" alt="" width="56" /> | wooden chest | 73.6 – 98.6 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0A9D.png" class="uo-sprite" alt="" width="56" /> | wooden shelf | 31.5 – 56.5 |  | Classic | 25 Boards or Logs |
-| <img src="/img/items/0x0A4D.png" class="uo-sprite" alt="" width="56" /> | armoire (red) | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
-| <img src="/img/items/0x0A4F.png" class="uo-sprite" alt="" width="56" /> | armoire | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
-| <img src="/img/items/0x280B.png" class="uo-sprite" alt="" width="56" /> | plain wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x280D.png" class="uo-sprite" alt="" width="56" /> | ornate wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x280F.png" class="uo-sprite" alt="" width="56" /> | gilded wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x2811.png" class="uo-sprite" alt="" width="56" /> | wooden footlocker | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x2813.png" class="uo-sprite" alt="" width="56" /> | finished wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x2815.png" class="uo-sprite" alt="" width="56" /> | tall cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x2817.png" class="uo-sprite" alt="" width="56" /> | short cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x2857.png" class="uo-sprite" alt="" width="56" /> | red armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x2859.png" class="uo-sprite" alt="" width="56" /> | elegant armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x285B.png" class="uo-sprite" alt="" width="56" /> | maple armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x285D.png" class="uo-sprite" alt="" width="56" /> | cherry armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x0E7F.png" class="uo-sprite" alt="" width="56" /> | keg | 57.8 – 82.8 |  | Classic | 3 Barrel Staves, 1 Barrel Hoops, 1 Barrel Lids |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | arcane bookshelf (south) | 94.7 – 119.7 |  | ML | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | arcane bookshelf (east) | 94.7 – 119.7 |  | ML | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ornate elven chest (south) | 94.7 – 119.7 |  | ML | 40 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ornate elven chest (east) | 94.7 – 119.7 |  | ML | 40 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven wash basin (south) | 70.0 – 95.0 |  | ML | 40 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven wash basin (east) | 70.0 – 95.0 |  | ML | 40 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven dresser (south) | 75.0 – 100.0 |  | ML | 45 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven dresser (east) | 75.0 – 100.0 |  | ML | 45 Boards or Logs |
-| <img src="/img/items/0x2D07.png" class="uo-sprite" alt="" width="56" /> | elven armoire (fancy) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
-| <img src="/img/items/0x2D05.png" class="uo-sprite" alt="" width="56" /> | elven armoire (simple) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
-| <img src="/img/items/0x2DF1.png" class="uo-sprite" alt="" width="56" /> | rarewood chest | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
-| <img src="/img/items/0x2DF3.png" class="uo-sprite" alt="" width="56" /> | decorative box | 80.0 – 105.0 |  | ML | 25 Boards or Logs |
-| <img src="/img/items/0x0A99.png" class="uo-sprite" alt="" width="56" /> | academic bookcase | 60.0 – 85.0 |  | Classic | 25 Boards or Logs, 1 academic books |
-| <img src="/img/items/0x4026.png" class="uo-sprite" alt="" width="56" /> | gargish chest | 80.0 – 105.0 |  | SA | 30 Boards or Logs |
-| <img src="/img/items/0x0FAE.png" class="uo-sprite" alt="" width="56" /> | empty liquor barrel | 60.0 – 90.0 |  | Classic | 50 Boards or Logs |
+| <img src="/img/items/0x09AA.png" class="uo-sprite-2x" alt="" width="42" height="54" /> | wooden box | 21.0 – 46.0 |  | Classic | 10 Boards or Logs |
+| <img src="/img/items/0x09A9.png" class="uo-sprite-2x" alt="" width="48" height="66" /> | small crate | 10.0 – 35.0 |  | Classic | 8 Boards or Logs |
+| <img src="/img/items/0x0E3F.png" class="uo-sprite-2x" alt="" width="60" height="82" /> | medium crate | 31.0 – 56.0 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0E3D.png" class="uo-sprite-2x" alt="" width="72" height="94" /> | large crate | 47.3 – 72.3 |  | Classic | 18 Boards or Logs |
+| <img src="/img/items/0x0E43.png" class="uo-sprite-2x" alt="" width="76" height="94" /> | wooden chest | 73.6 – 98.6 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0A9D.png" class="uo-sprite-2x" alt="" width="68" height="176" /> | wooden shelf | 31.5 – 56.5 |  | Classic | 25 Boards or Logs |
+| <img src="/img/items/0x0A4D.png" class="uo-sprite-2x" alt="" width="72" height="166" /> | armoire (red) | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
+| <img src="/img/items/0x0A4F.png" class="uo-sprite-2x" alt="" width="64" height="162" /> | armoire | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
+| <img src="/img/items/0x280B.png" class="uo-sprite-2x" alt="" width="120" height="212" /> | plain wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x280D.png" class="uo-sprite-2x" alt="" width="120" height="210" /> | ornate wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x280F.png" class="uo-sprite-2x" alt="" width="124" height="200" /> | gilded wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x2811.png" class="uo-sprite-2x" alt="" width="122" height="158" /> | wooden footlocker | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x2813.png" class="uo-sprite-2x" alt="" width="116" height="194" /> | finished wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x2815.png" class="uo-sprite-2x" alt="" width="114" height="220" /> | tall cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x2817.png" class="uo-sprite-2x" alt="" width="132" height="170" /> | short cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x2857.png" class="uo-sprite-2x" alt="" width="60" height="118" /> | red armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x2859.png" class="uo-sprite-2x" alt="" width="76" height="136" /> | elegant armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x285B.png" class="uo-sprite-2x" alt="" width="74" height="132" /> | maple armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x285D.png" class="uo-sprite-2x" alt="" width="78" height="148" /> | cherry armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x0E7F.png" class="uo-sprite-2x" alt="" width="38" height="58" /> | keg | 57.8 – 82.8 |  | Classic | 3 Barrel Staves, 1 Barrel Hoops, 1 Barrel Lids |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcane bookshelf (south) | 94.7 – 119.7 |  | ML | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcane bookshelf (east) | 94.7 – 119.7 |  | ML | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ornate elven chest (south) | 94.7 – 119.7 |  | ML | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ornate elven chest (east) | 94.7 – 119.7 |  | ML | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven wash basin (south) | 70.0 – 95.0 |  | ML | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven wash basin (east) | 70.0 – 95.0 |  | ML | 40 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven dresser (south) | 75.0 – 100.0 |  | ML | 45 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven dresser (east) | 75.0 – 100.0 |  | ML | 45 Boards or Logs |
+| <img src="/img/items/0x2D07.png" class="uo-sprite-2x" alt="" width="92" height="226" /> | elven armoire (fancy) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
+| <img src="/img/items/0x2D05.png" class="uo-sprite-2x" alt="" width="94" height="224" /> | elven armoire (simple) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
+| <img src="/img/items/0x2DF1.png" class="uo-sprite-2x" alt="" width="76" height="106" /> | rarewood chest | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
+| <img src="/img/items/0x2DF3.png" class="uo-sprite-2x" alt="" width="76" height="106" /> | decorative box | 80.0 – 105.0 |  | ML | 25 Boards or Logs |
+| <img src="/img/items/0x0A99.png" class="uo-sprite-2x" alt="" width="70" height="174" /> | academic bookcase | 60.0 – 85.0 |  | Classic | 25 Boards or Logs, 1 academic books |
+| <img src="/img/items/0x4026.png" class="uo-sprite-2x" alt="" width="66" height="80" /> | gargish chest | 80.0 – 105.0 |  | SA | 30 Boards or Logs |
+| <img src="/img/items/0x0FAE.png" class="uo-sprite-2x" alt="" width="56" height="88" /> | empty liquor barrel | 60.0 – 90.0 |  | Classic | 50 Boards or Logs |
 
 ## Weapons
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x0E81.png" class="uo-sprite" alt="" width="56" /> | shepherd's crook | 78.9 – 103.9 | 13–16 dmg · 2.8s · 2H · str 20 | Classic | 7 Boards or Logs |
-| <img src="/img/items/0x0E89.png" class="uo-sprite" alt="" width="56" /> | quarter staff | 73.6 – 98.6 | 11–14 dmg · 2.2s · 2H · str 30 | Classic | 6 Boards or Logs |
-| <img src="/img/items/0x13F8.png" class="uo-sprite" alt="" width="56" /> | gnarled staff | 78.9 – 103.9 | 15–18 dmg · 3.2s · 2H · str 20 | Classic | 7 Boards or Logs |
-| <img src="/img/items/0x27A8.png" class="uo-sprite" alt="" width="56" /> | bokuto | 70.0 – 95.0 | 10–12 dmg · 2.0s · 1H · str 20 | SE | 6 Boards or Logs |
-| <img src="/img/items/0x27AA.png" class="uo-sprite" alt="" width="56" /> | fukiya | 60.0 – 85.0 |  | SE | 6 Boards or Logs |
-| <img src="/img/items/0x27A6.png" class="uo-sprite" alt="" width="56" /> | tetsubo | 80.0 – 105.0 | 12–15 dmg · 2.5s · 2H · str 35 | SE | 10 Boards or Logs |
-| <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="56" /> | wild staff | 63.8 – 113.8 | 10–13 dmg · 2.2s · 1H · str 15 | ML | 16 Boards or Logs |
-| <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="56" /> | Phantom Staff | 90.0 – 130.0 |  | ML | 16 Boards or Logs, 1 Diseased Bark, 10 Putrefaction, 10 Taint |
-| <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="56" /> | arcanist's wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 white pearl |
-| <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="56" /> | ancient wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 perfect emerald |
-| <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="56" /> | thorned wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 fire ruby |
-| <img src="/img/items/0x2D25.png" class="uo-sprite" alt="" width="56" /> | hardened wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 turquoise |
-| <img src="/img/items/0x0906.png" class="uo-sprite" alt="" width="56" /> | serpentstone staff | 63.8 – 113.8 | 16–19 dmg · 3.5s · 2H · str 35 | SA | 16 Boards or Logs, 1 ecru citrine |
-| <img src="/img/items/0x48B8.png" class="uo-sprite" alt="" width="56" /> | gargish gnarled staff | 78.9 – 128.9 | 15–18 dmg · 3.2s · 2H · str 20 | SA | 16 Boards or Logs, 1 ecru citrine |
-| <img src="/img/items/0x13B4.png" class="uo-sprite" alt="" width="56" /> | club | 65.0 – 90.0 | 10–14 dmg · 2.5s · 1H · str 40 | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0DF0.png" class="uo-sprite" alt="" width="56" /> | black staff | 81.5 – 106.5 | 13–16 dmg · 2.8s · 2H · str 35 | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0E89.png" class="uo-sprite" alt="" width="56" /> | kotl black rod | 100.0 – 160.0 |  | TOL | 20 Boards or Logs, 1 Black Moonstone, 1 Staff of the Magi |
+| <img src="/img/items/0x0E81.png" class="uo-sprite-2x" alt="" width="82" height="68" /> | shepherd's crook | 78.9 – 103.9 | 13–16 dmg · 2.8s · 2H · str 20 | Classic | 7 Boards or Logs |
+| <img src="/img/items/0x0E89.png" class="uo-sprite-2x" alt="" width="104" height="104" /> | quarter staff | 73.6 – 98.6 | 11–14 dmg · 2.2s · 2H · str 30 | Classic | 6 Boards or Logs |
+| <img src="/img/items/0x13F8.png" class="uo-sprite-2x" alt="" width="106" height="106" /> | gnarled staff | 78.9 – 103.9 | 15–18 dmg · 3.2s · 2H · str 20 | Classic | 7 Boards or Logs |
+| <img src="/img/items/0x27A8.png" class="uo-sprite-2x" alt="" width="108" height="56" /> | bokuto | 70.0 – 95.0 | 10–12 dmg · 2.0s · 1H · str 20 | SE | 6 Boards or Logs |
+| <img src="/img/items/0x27AA.png" class="uo-sprite-2x" alt="" width="82" height="44" /> | fukiya | 60.0 – 85.0 |  | SE | 6 Boards or Logs |
+| <img src="/img/items/0x27A6.png" class="uo-sprite-2x" alt="" width="96" height="48" /> | tetsubo | 80.0 – 105.0 | 12–15 dmg · 2.5s · 2H · str 35 | SE | 10 Boards or Logs |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | wild staff | 63.8 – 113.8 | 10–13 dmg · 2.2s · 1H · str 15 | ML | 16 Boards or Logs |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | Phantom Staff | 90.0 – 130.0 |  | ML | 16 Boards or Logs, 1 Diseased Bark, 10 Putrefaction, 10 Taint |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | arcanist's wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 white pearl |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | ancient wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 perfect emerald |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | thorned wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 fire ruby |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | hardened wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 turquoise |
+| <img src="/img/items/0x0906.png" class="uo-sprite-2x" alt="" width="70" height="76" /> | serpentstone staff | 63.8 – 113.8 | 16–19 dmg · 3.5s · 2H · str 35 | SA | 16 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x48B8.png" class="uo-sprite-2x" alt="" width="96" height="92" /> | gargish gnarled staff | 78.9 – 128.9 | 15–18 dmg · 3.2s · 2H · str 20 | SA | 16 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x13B4.png" class="uo-sprite-2x" alt="" width="42" height="42" /> | club | 65.0 – 90.0 | 10–14 dmg · 2.5s · 1H · str 40 | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x0DF0.png" class="uo-sprite-2x" alt="" width="106" height="104" /> | black staff | 81.5 – 106.5 | 13–16 dmg · 2.8s · 2H · str 35 | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x0E89.png" class="uo-sprite-2x" alt="" width="104" height="104" /> | kotl black rod | 100.0 – 160.0 |  | TOL | 20 Boards or Logs, 1 Black Moonstone, 1 Staff of the Magi |
 
 ## Armor
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x1B7A.png" class="uo-sprite" alt="" width="56" /> | wooden shield | 52.6 – 77.6 | AR 8 · str 20 | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x2B67.png" class="uo-sprite" alt="" width="56" /> | woodland chest | 90.0 – 115.0 | 5/3/2/3/2 · str 95 | ML | 20 Boards or Logs, 6 Bark Fragment |
-| <img src="/img/items/0x2B6C.png" class="uo-sprite" alt="" width="56" /> | woodland arms | 80.0 – 105.0 | 5/3/2/3/2 · str 80 | ML | 15 Boards or Logs, 4 Bark Fragment |
-| <img src="/img/items/0x2B6A.png" class="uo-sprite" alt="" width="56" /> | woodland gauntlets | 85.0 – 110.0 | 5/3/2/3/2 · str 70 | ML | 15 Boards or Logs, 4 Bark Fragment |
-| <img src="/img/items/0x2B6B.png" class="uo-sprite" alt="" width="56" /> | woodland leggings | 85.0 – 110.0 | 5/3/2/3/2 · str 90 | ML | 15 Boards or Logs, 4 Bark Fragment |
-| <img src="/img/items/0x2B69.png" class="uo-sprite" alt="" width="56" /> | woodland gorget | 85.0 – 110.0 | 5/3/2/3/2 · str 45 | ML | 15 Boards or Logs, 4 Bark Fragment |
-| <img src="/img/items/0x2B71.png" class="uo-sprite" alt="" width="56" /> | raven helm | 65.0 – 115.0 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
-| <img src="/img/items/0x2B72.png" class="uo-sprite" alt="" width="56" /> | vulture helm | 63.9 – 113.9 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
-| <img src="/img/items/0x2B73.png" class="uo-sprite" alt="" width="56" /> | winged helm | 58.4 – 108.4 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 60 feathers |
-| <img src="/img/items/0x2B71.png" class="uo-sprite" alt="" width="56" /> | Ironwood Crown | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Corruption, 10 Putrefaction |
-| <img src="/img/items/0x2B67.png" class="uo-sprite" alt="" width="56" /> | Bramble Coat | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Taint, 10 Scourge |
-| <img src="/img/items/0x2B71.png" class="uo-sprite" alt="" width="56" /> | Darkwood Crown | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Taint |
-| <img src="/img/items/0x2B67.png" class="uo-sprite" alt="" width="56" /> | Darkwood Chest | 85.0 – 120.0 |  | ML | 20 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Muculent |
-| <img src="/img/items/0x2B69.png" class="uo-sprite" alt="" width="56" /> | Darkwood Gorget | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Diseased Bark, 10 Blight, 10 Scourge |
-| <img src="/img/items/0x2B6B.png" class="uo-sprite" alt="" width="56" /> | Darkwood Leggings | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
-| <img src="/img/items/0x2B6C.png" class="uo-sprite" alt="" width="56" /> | Darkwood Pauldrons | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Eye of the Travesty, 10 Scourge, 10 Taint |
-| <img src="/img/items/0x2B6A.png" class="uo-sprite" alt="" width="56" /> | Darkwood Gauntlets | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Captured Essence, 10 Putrefaction, 10 Muculent |
-| <img src="/img/items/0x4200.png" class="uo-sprite" alt="" width="56" /> | gargish wooden shield | 52.6 – 77.6 |  | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x1B7A.png" class="uo-sprite-2x" alt="" width="58" height="44" /> | wooden shield | 52.6 – 77.6 | AR 8 · str 20 | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="68" height="64" /> | woodland chest | 90.0 – 115.0 | 5/3/2/3/2 · str 95 | ML | 20 Boards or Logs, 6 Bark Fragment |
+| <img src="/img/items/0x2B6C.png" class="uo-sprite-2x" alt="" width="72" height="62" /> | woodland arms | 80.0 – 105.0 | 5/3/2/3/2 · str 80 | ML | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B6A.png" class="uo-sprite-2x" alt="" width="46" height="34" /> | woodland gauntlets | 85.0 – 110.0 | 5/3/2/3/2 · str 70 | ML | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B6B.png" class="uo-sprite-2x" alt="" width="72" height="56" /> | woodland leggings | 85.0 – 110.0 | 5/3/2/3/2 · str 90 | ML | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B69.png" class="uo-sprite-2x" alt="" width="30" height="28" /> | woodland gorget | 85.0 – 110.0 | 5/3/2/3/2 · str 45 | ML | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B71.png" class="uo-sprite-2x" alt="" width="44" height="44" /> | raven helm | 65.0 – 115.0 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
+| <img src="/img/items/0x2B72.png" class="uo-sprite-2x" alt="" width="44" height="34" /> | vulture helm | 63.9 – 113.9 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
+| <img src="/img/items/0x2B73.png" class="uo-sprite-2x" alt="" width="46" height="46" /> | winged helm | 58.4 – 108.4 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 60 feathers |
+| <img src="/img/items/0x2B71.png" class="uo-sprite-2x" alt="" width="44" height="44" /> | Ironwood Crown | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="68" height="64" /> | Bramble Coat | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Taint, 10 Scourge |
+| <img src="/img/items/0x2B71.png" class="uo-sprite-2x" alt="" width="44" height="44" /> | Darkwood Crown | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Taint |
+| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="68" height="64" /> | Darkwood Chest | 85.0 – 120.0 |  | ML | 20 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Muculent |
+| <img src="/img/items/0x2B69.png" class="uo-sprite-2x" alt="" width="30" height="28" /> | Darkwood Gorget | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Diseased Bark, 10 Blight, 10 Scourge |
+| <img src="/img/items/0x2B6B.png" class="uo-sprite-2x" alt="" width="72" height="56" /> | Darkwood Leggings | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x2B6C.png" class="uo-sprite-2x" alt="" width="72" height="62" /> | Darkwood Pauldrons | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Eye of the Travesty, 10 Scourge, 10 Taint |
+| <img src="/img/items/0x2B6A.png" class="uo-sprite-2x" alt="" width="46" height="34" /> | Darkwood Gauntlets | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Captured Essence, 10 Putrefaction, 10 Muculent |
+| <img src="/img/items/0x4200.png" class="uo-sprite-2x" alt="" width="40" height="40" /> | gargish wooden shield | 52.6 – 77.6 |  | Classic | 9 Boards or Logs |
 
 ## Instruments
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x0EB2.png" class="uo-sprite" alt="" width="56" /> | lap harp | 63.1 – 88.1; 음악 연주 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0EB1.png" class="uo-sprite" alt="" width="56" /> | standing harp | 78.9 – 103.9; 음악 연주 45.0 – 50.0 |  | Classic | 35 Boards or Logs, 15 Cloth |
-| <img src="/img/items/0x0E9C.png" class="uo-sprite" alt="" width="56" /> | drum | 57.8 – 82.8; 음악 연주 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0EB3.png" class="uo-sprite" alt="" width="56" /> | lute | 68.4 – 93.4; 음악 연주 45.0 – 50.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0E9D.png" class="uo-sprite" alt="" width="56" /> | tambourine | 57.8 – 82.8; 음악 연주 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0E9E.png" class="uo-sprite" alt="" width="56" /> | tambourine (tassel) | 57.8 – 82.8; 음악 연주 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 15 Cloth |
-| <img src="/img/items/0x2805.png" class="uo-sprite" alt="" width="56" /> | bamboo flute | 80.0 – 105.0; 음악 연주 45.0 – 50.0 |  | SE | 15 Boards or Logs |
-| <img src="/img/items/0x403B.png" class="uo-sprite" alt="" width="56" /> | aud-char | 78.9 – 103.9; 음악 연주 45.0 – 50.0 |  | SA | 35 Boards or Logs, 3 Stones |
-| <img src="/img/items/0x2805.png" class="uo-sprite" alt="" width="56" /> | snake charmer flute | 80.0 – 105.0; 음악 연주 45.0 – 50.0 |  | SA | 15 Boards or Logs, 3 luminescent fungi |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | cello | 75.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 5 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Wall Mounted Bell (South) | 75.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 50 Boards or Logs, 50 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Wall Mounted Bell (East) | 75.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 50 Boards or Logs, 50 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | trumpet | 85.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 10 Boards or Logs, 15 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | cowbell | 85.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 10 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x0EB2.png" class="uo-sprite-2x" alt="" width="48" height="62" /> | lap harp | 63.1 – 88.1; 음악 연주 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EB1.png" class="uo-sprite-2x" alt="" width="48" height="120" /> | standing harp | 78.9 – 103.9; 음악 연주 45.0 – 50.0 |  | Classic | 35 Boards or Logs, 15 Cloth |
+| <img src="/img/items/0x0E9C.png" class="uo-sprite-2x" alt="" width="70" height="68" /> | drum | 57.8 – 82.8; 음악 연주 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EB3.png" class="uo-sprite-2x" alt="" width="48" height="40" /> | lute | 68.4 – 93.4; 음악 연주 45.0 – 50.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0E9D.png" class="uo-sprite-2x" alt="" width="36" height="32" /> | tambourine | 57.8 – 82.8; 음악 연주 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0E9E.png" class="uo-sprite-2x" alt="" width="56" height="40" /> | tambourine (tassel) | 57.8 – 82.8; 음악 연주 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 15 Cloth |
+| <img src="/img/items/0x2805.png" class="uo-sprite-2x" alt="" width="52" height="54" /> | bamboo flute | 80.0 – 105.0; 음악 연주 45.0 – 50.0 |  | SE | 15 Boards or Logs |
+| <img src="/img/items/0x403B.png" class="uo-sprite-2x" alt="" width="42" height="126" /> | aud-char | 78.9 – 103.9; 음악 연주 45.0 – 50.0 |  | SA | 35 Boards or Logs, 3 Stones |
+| <img src="/img/items/0x2805.png" class="uo-sprite-2x" alt="" width="52" height="54" /> | snake charmer flute | 80.0 – 105.0; 음악 연주 45.0 – 50.0 |  | SA | 15 Boards or Logs, 3 luminescent fungi |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | cello | 75.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 5 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Wall Mounted Bell (South) | 75.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 50 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Wall Mounted Bell (East) | 75.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 50 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | trumpet | 85.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 10 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | cowbell | 85.0 – 105.0; 음악 연주 45.0 – 50.0 |  | Classic | 10 Boards or Logs, 15 Ingots |
 
 ## Misc. Add-Ons
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x2312.png" class="uo-sprite" alt="" width="56" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
-| <img src="/img/items/0x2311.png" class="uo-sprite" alt="" width="56" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | parrot perch | 50.0 – 85.0 |  | ML | 100 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | arcane circle | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 2 blue diamond, 2 perfect emerald, 2 fire ruby |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | tall elven bed (south) | 94.7 – 119.7; 재봉술 75.0 – 80.0 |  | ML | 200 Boards or Logs, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | tall elven bed (east) | 94.7 – 119.7; 재봉술 75.0 – 80.0 |  | ML | 200 Boards or Logs, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven bed (south) | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven bed (east) | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven loveseat (south) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven loveseat (east) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | alchemist table (south) | 85.0 – 110.0 |  | ML | 70 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | alchemist table (east) | 85.0 – 110.0 |  | ML | 70 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | small bed (south) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 100 Boards or Logs, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | small bed (east) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 100 Boards or Logs, 100 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large bed (south) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 150 Boards or Logs, 150 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large bed (east) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 150 Boards or Logs, 150 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | dartboard (south) | 15.7 – 40.7 |  | Classic | 5 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | dartboard (east) | 15.7 – 40.7 |  | Classic | 5 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | ballot box | 47.3 – 72.3 |  | Classic | 5 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | pentagram | 100.0 – 125.0; 마법학 75.0 – 80.0 |  | Classic | 100 Boards or Logs, 40 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | abbatoir | 100.0 – 125.0; 마법학 50.0 – 55.0 |  | Classic | 100 Boards or Logs, 40 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | gargish couch (east) | 90.0 – 115.0 |  | SA | 75 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | gargish couch (south) | 90.0 – 115.0 |  | SA | 75 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | long table (south) | 90.0 – 115.0 |  | SA | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | long table (east) | 90.0 – 115.0 |  | SA | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Ter-Mur style dresser (east) | 90.0 – 115.0 |  | SA | 60 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Ter-Mur style dresser (south) | 90.0 – 115.0 |  | SA | 60 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | rustic bench (south) | 94.7 – 119.8 |  | Classic | 35 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | rustic bench (east) | 94.7 – 119.8 |  | Classic | 35 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Plain Wooden Shelf (South) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Plain Wooden Shelf (East) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Wooden Shelf (South) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Wooden Shelf (East) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Loveseat (South) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Loveseat (East) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Couch (South) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Couch (East) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Plush Loveseat (South) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Plush Loveseat (East) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Plant Tapestry (South) | 85.0 – 110.0; 재봉술 75.0 – 80.0 |  | Classic | 12 Boards or Logs, 50 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Plant Tapestry (East) | 85.0 – 110.0; 재봉술 75.0 – 80.0 |  | Classic | 12 Boards or Logs, 50 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Metal Table (South) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 20 Boards or Logs, 15 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Metal Table (East) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 20 Boards or Logs, 15 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Long Metal Table (South) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 30 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Long Metal Table (East) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 30 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Wooden Table (South) | 80.0 – 105.0 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Wooden Table (East) | 80.0 – 105.0 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Long Wooden Table (South) | 80.0 – 105.0 |  | Classic | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Long Wooden Table (East) | 80.0 – 105.0 |  | Classic | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Small Display Case (South) | 95.0 – 120.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 10 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Small Display Case (East) | 95.0 – 120.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 10 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Loveseat (North) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Loveseat (West) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Couch (North) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | Fancy Couch (West) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x2312.png" class="uo-sprite-2x" alt="" width="80" height="164" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
+| <img src="/img/items/0x2311.png" class="uo-sprite-2x" alt="" width="78" height="160" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | parrot perch | 50.0 – 85.0 |  | ML | 100 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcane circle | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 2 blue diamond, 2 perfect emerald, 2 fire ruby |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | tall elven bed (south) | 94.7 – 119.7; 재봉술 75.0 – 80.0 |  | ML | 200 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | tall elven bed (east) | 94.7 – 119.7; 재봉술 75.0 – 80.0 |  | ML | 200 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven bed (south) | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven bed (east) | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven loveseat (south) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven loveseat (east) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | alchemist table (south) | 85.0 – 110.0 |  | ML | 70 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | alchemist table (east) | 85.0 – 110.0 |  | ML | 70 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | small bed (south) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | small bed (east) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 100 Boards or Logs, 100 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | large bed (south) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 150 Boards or Logs, 150 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | large bed (east) | 94.7 – 119.8; 재봉술 75.0 – 80.0 |  | Classic | 150 Boards or Logs, 150 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | dartboard (south) | 15.7 – 40.7 |  | Classic | 5 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | dartboard (east) | 15.7 – 40.7 |  | Classic | 5 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ballot box | 47.3 – 72.3 |  | Classic | 5 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | pentagram | 100.0 – 125.0; 마법학 75.0 – 80.0 |  | Classic | 100 Boards or Logs, 40 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | abbatoir | 100.0 – 125.0; 마법학 50.0 – 55.0 |  | Classic | 100 Boards or Logs, 40 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | gargish couch (east) | 90.0 – 115.0 |  | SA | 75 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | gargish couch (south) | 90.0 – 115.0 |  | SA | 75 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | long table (south) | 90.0 – 115.0 |  | SA | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | long table (east) | 90.0 – 115.0 |  | SA | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Ter-Mur style dresser (east) | 90.0 – 115.0 |  | SA | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Ter-Mur style dresser (south) | 90.0 – 115.0 |  | SA | 60 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | rustic bench (south) | 94.7 – 119.8 |  | Classic | 35 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | rustic bench (east) | 94.7 – 119.8 |  | Classic | 35 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Plain Wooden Shelf (South) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Plain Wooden Shelf (East) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Wooden Shelf (South) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Wooden Shelf (East) | 40.0 – 90.0 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Loveseat (South) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Loveseat (East) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Couch (South) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Couch (East) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Plush Loveseat (South) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Plush Loveseat (East) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 24 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Plant Tapestry (South) | 85.0 – 110.0; 재봉술 75.0 – 80.0 |  | Classic | 12 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Plant Tapestry (East) | 85.0 – 110.0; 재봉술 75.0 – 80.0 |  | Classic | 12 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Metal Table (South) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 20 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Metal Table (East) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 20 Boards or Logs, 15 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Long Metal Table (South) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 30 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Long Metal Table (East) | 80.0 – 105.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 30 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Wooden Table (South) | 80.0 – 105.0 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Wooden Table (East) | 80.0 – 105.0 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Long Wooden Table (South) | 80.0 – 105.0 |  | Classic | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Long Wooden Table (East) | 80.0 – 105.0 |  | Classic | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Small Display Case (South) | 95.0 – 120.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 10 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Small Display Case (East) | 95.0 – 120.0; 기계공학 75.0 – 80.0 |  | Classic | 40 Boards or Logs, 10 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Loveseat (North) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Loveseat (West) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Couch (North) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Fancy Couch (West) | 70.0 – 120.0; 재봉술 55.0 – 60.0 |  | Classic | 80 Boards or Logs, 48 Cloth |
 
 ## Tailoring and Cooking
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x0EC6.png" class="uo-sprite" alt="" width="56" /> | dressform (front) | 63.1 – 88.1; 재봉술 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0EC7.png" class="uo-sprite" alt="" width="56" /> | dressform (side) | 63.1 – 88.1; 재봉술 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven spinning wheel (east) | 75.0 – 100.0; 재봉술 65.0 – 85.0 |  | ML | 60 Boards or Logs, 40 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven spinning wheel (south) | 75.0 – 100.0; 재봉술 65.0 – 85.0 |  | ML | 60 Boards or Logs, 40 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven oven (south) | 85.0 – 110.0 |  | ML | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven oven (east) | 85.0 – 110.0 |  | ML | 80 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | spinning wheel (east) | 73.6 – 98.6; 재봉술 65.0 – 70.0 |  | Classic | 75 Boards or Logs, 25 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | spinning wheel (south) | 73.6 – 98.6; 재봉술 65.0 – 70.0 |  | Classic | 75 Boards or Logs, 25 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | loom (east) | 84.2 – 109.2; 재봉술 65.0 – 70.0 |  | Classic | 85 Boards or Logs, 25 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | loom (south) | 84.2 – 109.2; 재봉술 65.0 – 70.0 |  | Classic | 85 Boards or Logs, 25 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | stone oven (east) | 68.4 – 93.4; 기계공학 50.0 – 55.0 |  | Classic | 85 Boards or Logs, 125 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | stone oven (south) | 68.4 – 93.4; 기계공학 50.0 – 55.0 |  | Classic | 85 Boards or Logs, 125 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | flour mill (east) | 94.7 – 119.7; 기계공학 50.0 – 55.0 |  | Classic | 100 Boards or Logs, 50 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | flour mill (south) | 94.7 – 119.7; 기계공학 50.0 – 55.0 |  | Classic | 100 Boards or Logs, 50 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | water trough (east) | 94.7 – 119.7 |  | Classic | 150 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | water trough (south) | 94.7 – 119.7 |  | Classic | 150 Boards or Logs |
+| <img src="/img/items/0x0EC6.png" class="uo-sprite-2x" alt="" width="36" height="116" /> | dressform (front) | 63.1 – 88.1; 재봉술 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EC7.png" class="uo-sprite-2x" alt="" width="28" height="116" /> | dressform (side) | 63.1 – 88.1; 재봉술 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven spinning wheel (east) | 75.0 – 100.0; 재봉술 65.0 – 85.0 |  | ML | 60 Boards or Logs, 40 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven spinning wheel (south) | 75.0 – 100.0; 재봉술 65.0 – 85.0 |  | ML | 60 Boards or Logs, 40 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven oven (south) | 85.0 – 110.0 |  | ML | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven oven (east) | 85.0 – 110.0 |  | ML | 80 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | spinning wheel (east) | 73.6 – 98.6; 재봉술 65.0 – 70.0 |  | Classic | 75 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | spinning wheel (south) | 73.6 – 98.6; 재봉술 65.0 – 70.0 |  | Classic | 75 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | loom (east) | 84.2 – 109.2; 재봉술 65.0 – 70.0 |  | Classic | 85 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | loom (south) | 84.2 – 109.2; 재봉술 65.0 – 70.0 |  | Classic | 85 Boards or Logs, 25 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | stone oven (east) | 68.4 – 93.4; 기계공학 50.0 – 55.0 |  | Classic | 85 Boards or Logs, 125 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | stone oven (south) | 68.4 – 93.4; 기계공학 50.0 – 55.0 |  | Classic | 85 Boards or Logs, 125 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | flour mill (east) | 94.7 – 119.7; 기계공학 50.0 – 55.0 |  | Classic | 100 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | flour mill (south) | 94.7 – 119.7; 기계공학 50.0 – 55.0 |  | Classic | 100 Boards or Logs, 50 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | water trough (east) | 94.7 – 119.7 |  | Classic | 150 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | water trough (south) | 94.7 – 119.7 |  | Classic | 150 Boards or Logs |
 
 ## Anvils and Forges
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | elven forge | 94.7 – 119.7 |  | ML | 200 Boards or Logs |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | soulforge | 100.0 – 200.0; Imbuing 75.0 – 80.0 |  | SA | 150 Boards or Logs, 150 Ingots, 1 Relic Fragment |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | small forge | 73.6 – 98.6; 대장술 75.0 – 80.0 |  | Classic | 5 Boards or Logs, 75 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large forge (east) | 78.9 – 103.9; 대장술 80.0 – 85.0 |  | Classic | 5 Boards or Logs, 100 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | large forge (south) | 78.9 – 103.9; 대장술 80.0 – 85.0 |  | Classic | 5 Boards or Logs, 100 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | anvil (east) | 73.6 – 98.6; 대장술 75.0 – 80.0 |  | Classic | 5 Boards or Logs, 150 Ingots |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | anvil (south) | 73.6 – 98.6; 대장술 75.0 – 80.0 |  | Classic | 5 Boards or Logs, 150 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven forge | 94.7 – 119.7 |  | ML | 200 Boards or Logs |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | soulforge | 100.0 – 200.0; Imbuing 75.0 – 80.0 |  | SA | 150 Boards or Logs, 150 Ingots, 1 Relic Fragment |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | small forge | 73.6 – 98.6; 대장술 75.0 – 80.0 |  | Classic | 5 Boards or Logs, 75 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | large forge (east) | 78.9 – 103.9; 대장술 80.0 – 85.0 |  | Classic | 5 Boards or Logs, 100 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | large forge (south) | 78.9 – 103.9; 대장술 80.0 – 85.0 |  | Classic | 5 Boards or Logs, 100 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | anvil (east) | 73.6 – 98.6; 대장술 75.0 – 80.0 |  | Classic | 5 Boards or Logs, 150 Ingots |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | anvil (south) | 73.6 – 98.6; 대장술 75.0 – 80.0 |  | Classic | 5 Boards or Logs, 150 Ingots |
 
 ## Training
 
 |  | 아이템 | 스킬 | 성능 | 시대 | 재료 |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | training dummy (east) | 68.4 – 93.4; 재봉술 50.0 – 55.0 |  | Classic | 55 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | training dummy (south) | 68.4 – 93.4; 재봉술 50.0 – 55.0 |  | Classic | 55 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | pickpocket dip (east) | 73.6 – 98.6; 재봉술 50.0 – 55.0 |  | Classic | 65 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x14F0.png" class="uo-sprite" alt="" width="56" /> | pickpocket dip (south) | 73.6 – 98.6; 재봉술 50.0 – 55.0 |  | Classic | 65 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | training dummy (east) | 68.4 – 93.4; 재봉술 50.0 – 55.0 |  | Classic | 55 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | training dummy (south) | 68.4 – 93.4; 재봉술 50.0 – 55.0 |  | Classic | 55 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | pickpocket dip (east) | 73.6 – 98.6; 재봉술 50.0 – 55.0 |  | Classic | 65 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | pickpocket dip (south) | 73.6 – 98.6; 재봉술 50.0 – 55.0 |  | Classic | 65 Boards or Logs, 60 Cloth |

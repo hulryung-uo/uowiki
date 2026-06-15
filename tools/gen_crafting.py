@@ -24,6 +24,36 @@ EXPANSION_PATH = os.path.join(ROOT, "data", "item_expansion.json")
 WEAPONS_PATH = os.path.join(ROOT, "data", "weapons.json")
 ARMOR_PATH = os.path.join(ROOT, "data", "armor.json")
 DOCS_ROOT = os.path.join(ROOT, "src", "content", "docs")
+PUBLIC_DIR = os.path.join(ROOT, "public")
+
+# Craft systems whose icons render at 2x their native pixel size (preserving each
+# sprite's true aspect ratio) instead of the uniform fixed-box uo-sprite. Useful
+# for furniture/large art where the fixed box shrinks detail. Tunable per request.
+NATIVE_2X_SYSTEMS = {"carpentry"}
+
+_png_dim_cache = {}
+
+
+def png_dims(png_url):
+    """Intrinsic (width, height) of a /img/... PNG, read from its IHDR header.
+
+    No Pillow dependency — PNG stores width/height as big-endian uint32 at bytes
+    16-24. Returns None if the file is missing or unreadable. Cached per run.
+    """
+    if png_url in _png_dim_cache:
+        return _png_dim_cache[png_url]
+    dims = None
+    fp = os.path.join(PUBLIC_DIR, png_url.lstrip("/"))
+    try:
+        with open(fp, "rb") as f:
+            head = f.read(24)
+        if head[:8] == b"\x89PNG\r\n\x1a\n":
+            import struct
+            dims = struct.unpack(">II", head[16:24])
+    except OSError:
+        dims = None
+    _png_dim_cache[png_url] = dims
+    return dims
 
 
 def out_dir(locale):
@@ -127,14 +157,22 @@ def stats_cell(recipe, weapons, armor):
     return ""
 
 
-def icon_cell(recipe, item_art):
+def icon_cell(recipe, item_art, scale2x=False):
     """Generate an icon cell for the recipe's item_type.
 
     Returns an img tag if the item is in item_art.json, otherwise empty string.
+    When scale2x is set and the PNG's size is known, the icon renders at 2x its
+    native pixel size (class uo-sprite-2x — no fixed box, true aspect ratio);
+    otherwise it uses the uniform fixed-box uo-sprite.
     """
     item_type = recipe.get("item_type")
     if item_type and item_type in item_art:
         png = item_art[item_type]["png"]
+        if scale2x:
+            dims = png_dims(png)
+            if dims:
+                return ('<img src="%s" class="uo-sprite-2x" alt="" '
+                        'width="%d" height="%d" />' % (png, dims[0] * 2, dims[1] * 2))
         return '<img src="%s" class="uo-sprite" alt="" width="56" />' % png
     return ""
 
@@ -152,6 +190,9 @@ def gen_system_page(slug, sysdata, item_art, expansion, weapons, armor, locale):
     # Only show the Stats column for systems that actually craft weapons/armor
     # (blacksmithy, tailoring, etc.) — leave alchemy/cooking/inscription tables clean.
     has_stats = any(stats_cell(r, weapons, armor) for r in recipes)
+
+    # Render this system's icons at 2x native size (vs the uniform fixed box)?
+    scale2x = slug in NATIVE_2X_SYSTEMS
 
     # Proper-noun craft-system/skill names stay English; prose is translated.
     desc = L(locale, "craft.system_desc",
@@ -184,13 +225,13 @@ def gen_system_page(slug, sysdata, item_art, expansion, weapons, armor, locale):
                 name = r["item_type"]
             if has_stats:
                 out.append("| %s | %s | %s | %s | %s | %s |" % (
-                    icon_cell(r, item_art), md_escape(name),
+                    icon_cell(r, item_art, scale2x), md_escape(name),
                     skill_cell(r, main_skill, locale),
                     md_escape(stats_cell(r, weapons, armor)),
                     era_cell(r, expansion), materials_cell(r)))
             else:
                 out.append("| %s | %s | %s | %s | %s |" % (
-                    icon_cell(r, item_art), md_escape(name),
+                    icon_cell(r, item_art, scale2x), md_escape(name),
                     skill_cell(r, main_skill, locale),
                     era_cell(r, expansion), materials_cell(r)))
         out.append("")

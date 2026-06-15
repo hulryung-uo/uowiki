@@ -24,6 +24,15 @@
 	height: 44px;
 }
 
+/* 2x-native table icons (e.g. carpentry furniture): the generator emits explicit
+   width/height = twice the PNG's intrinsic size, so each sprite keeps its true
+   aspect ratio at a crisp integer scale — no fixed box to squash tall art. */
+.sl-markdown-content table .uo-sprite-2x {
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+	vertical-align: middle;
+}
+
 /* Item gallery — a flex-wrapping grid of sprite tiles with captions, for
    curated catalog/explainer pages (e.g. /items/armor/). */
 .uo-gallery {
