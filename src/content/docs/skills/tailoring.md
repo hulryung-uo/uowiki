@@ -70,6 +70,7 @@ creatures) raise difficulty and reward.
 
 - [Crafting (how to play)](/playing/crafting/) · [Tailoring crafting](/crafting/tailoring/)
 - [Armor](/items/catalog/armor/) · [Clothing](/items/catalog/clothing/)
+- [Bulk Order Deeds](/mechanics/bulk-order-deeds/) — runic sewing kits and the point-reward system
 - [Skill gain](/mechanics/skill-gain/) · [Skills index](/skills/)
 
 Banner icon courtesy of [uorenaissance.com](https://www.uorenaissance.com/).

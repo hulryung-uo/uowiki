@@ -53,8 +53,9 @@ stronger, pricier gear.
 - [Armor](/items/armor/) and the [armor catalog](/items/catalog/armor/) and [shields](/items/catalog/shields/) — chain, ring, and plate suits.
 
 **Bulk Order Deeds (BODs):** NPC smiths hand out deeds asking for a quantity of a given
-item; filling them returns reward bags with rare tools, ore, and runic hammers. Working
-BODs is a steady long-term income and gear source for a smith.
+item; filling them banks reward points you spend on rare tools and runic hammers. Working
+BODs is a steady long-term income and gear source for a smith — see
+[Bulk Order Deeds](/mechanics/bulk-order-deeds/) for the full point-and-reward system.
 
 ## Making a living
 

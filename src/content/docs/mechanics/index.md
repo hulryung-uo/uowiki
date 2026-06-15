@@ -17,6 +17,8 @@ pages document what it actually rolls.
   System (GGS), behavior at the skill cap, and why anti-macro checks are off here.
 - **[Stat gain](/mechanics/stat-gain/)** — how Strength, Dexterity, and Intelligence grow
   from skill use, and what happens at the 225 stat cap.
+- **[Bulk Order Deeds (BODs)](/mechanics/bulk-order-deeds/)** — the point-based crafting-contract
+  system: how to obtain small/large deeds, skill gates, and the runic-tool reward catalogs.
 
 ## Related references
 

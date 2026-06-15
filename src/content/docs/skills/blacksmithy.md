@@ -79,3 +79,4 @@ city has a smithy; see the [map](https://uomap.vercel.app) for all 295 plotted v
 - [Mining](/skills/mining/) — feed the forge
 - Tinkering — makes hammers and tongs; Arms Lore historically aids exceptional chance
 - [Items: resources](/items/resources/) — ore→ingot tables
+- [Bulk Order Deeds](/mechanics/bulk-order-deeds/) — the runic-hammer reward pipeline (the smith's long game)
