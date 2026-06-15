@@ -26,10 +26,10 @@ ARMOR_PATH = os.path.join(ROOT, "data", "armor.json")
 DOCS_ROOT = os.path.join(ROOT, "src", "content", "docs")
 PUBLIC_DIR = os.path.join(ROOT, "public")
 
-# Craft systems whose icons render at 2x their native pixel size (preserving each
-# sprite's true aspect ratio) instead of the uniform fixed-box uo-sprite. Useful
-# for furniture/large art where the fixed box shrinks detail. Tunable per request.
-NATIVE_2X_SYSTEMS = {"carpentry"}
+# Every craft system renders its icons at 2x their native pixel size (preserving
+# each sprite's true aspect ratio, crisp integer scale) rather than the uniform
+# fixed-box uo-sprite. Items whose PNG size is unknown fall back to the fixed box.
+SCALE_ICONS_2X = True
 
 _png_dim_cache = {}
 
@@ -192,7 +192,7 @@ def gen_system_page(slug, sysdata, item_art, expansion, weapons, armor, locale):
     has_stats = any(stats_cell(r, weapons, armor) for r in recipes)
 
     # Render this system's icons at 2x native size (vs the uniform fixed box)?
-    scale2x = slug in NATIVE_2X_SYSTEMS
+    scale2x = SCALE_ICONS_2X
 
     # Proper-noun craft-system/skill names stay English; prose is translated.
     desc = L(locale, "craft.system_desc",
