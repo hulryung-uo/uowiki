@@ -190,7 +190,7 @@ free-for-alls, others are gentle and social, with their own rates, caps, and hou
 [ServUO](https://www.servuo.com/) server emulator** (the open-source software that hosts a
 UO world; "ServUO" in this wiki means that emulator's source, not the live server). Its exact
 rules, rates, and configuration live on the [shard identity card](/shard/) — that is the
-place to check what is unique about *this* world. A dedicated, step-by-step **"how to
-connect and play here"** guide is coming soon and will live separately from this general
-introduction; this page is about Ultima Online as a whole, so you can carry it to any shard
-you choose.
+place to check what is unique about *this* world. When you are ready to log in, the
+**[How to connect](/guides/how-to-connect/)** guide walks through the client, account, and
+server address step by step. This page is about Ultima Online as a whole, so you can carry it
+to any shard you choose.
