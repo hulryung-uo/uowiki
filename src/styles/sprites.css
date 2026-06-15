@@ -28,6 +28,12 @@
    width/height = twice the PNG's intrinsic size, so each sprite keeps its true
    aspect ratio at a crisp integer scale — no fixed box to squash tall art. */
 .sl-markdown-content table .uo-sprite-2x {
+	/* Starlight forces content images to max-width:100%, which makes them shrink
+	   to the table cell on narrow/zoomed views (size changes on resize). Defeat
+	   that so the 2x width/height attributes are honored at a FIXED size always. */
+	max-width: none;
+	width: auto;
+	height: auto;
 	image-rendering: pixelated;
 	image-rendering: crisp-edges;
 	vertical-align: middle;
