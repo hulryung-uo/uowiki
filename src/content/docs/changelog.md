@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-15
 
+- **Updated** — Render carpentry icons at 2x native size (true aspect, crisp integer scale) via gen_crafting NATIVE_2X_SYSTEMS + uo-sprite-2x.  
+  [Carpentry](/crafting/carpentry/) · [Carpentry](/ja/crafting/carpentry/) · [Carpentry](/ko/crafting/carpentry/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/6e047bc)</sub>
 - **Updated** — Add armor gallery to ko/ja pages; shrink in-table sprite box 72px→44px so tiny jewelry/ring art isn't blocky/oversized in crafting tables.  
   [Armor](/ja/items/armor/) · [Armor](/ko/items/armor/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/e597728)</sub>
 - **Updated** — Add armor gallery to /items/armor/ — 148 piece sprites grouped by material (.uo-gallery), source data/armor.json.  
