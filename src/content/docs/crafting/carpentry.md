@@ -20,20 +20,20 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x1EB1.png" class="uo-sprite-2x" alt="" width="82" height="72" /> | barrel staves | 0.0 – 25.0 |  | Classic | 5 Boards or Logs |
+| <img src="/img/items/0x1EB1.png" class="uo-sprite-2x" alt="" width="64" height="56" /> | barrel staves | 0.0 – 25.0 |  | Classic | 5 Boards or Logs |
 | <img src="/img/items/0x1DB8.png" class="uo-sprite-2x" alt="" width="44" height="42" /> | barrel lid | 11.0 – 36.0 |  | Classic | 4 Boards or Logs |
-| <img src="/img/items/0x0EB6.png" class="uo-sprite-2x" alt="" width="38" height="86" /> | short music stand (left) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0EB8.png" class="uo-sprite-2x" alt="" width="38" height="86" /> | short music stand (right) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0EBB.png" class="uo-sprite-2x" alt="" width="38" height="102" /> | tall music stand (left) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0EBC.png" class="uo-sprite-2x" alt="" width="38" height="102" /> | tall music stand (right) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0F66.png" class="uo-sprite-2x" alt="" width="76" height="206" /> | easel (south) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0F68.png" class="uo-sprite-2x" alt="" width="76" height="204" /> | easel (east) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0F6A.png" class="uo-sprite-2x" alt="" width="74" height="206" /> | easel (north) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x24C2.png" class="uo-sprite-2x" alt="" width="80" height="196" /> | red hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
-| <img src="/img/items/0x24C6.png" class="uo-sprite-2x" alt="" width="80" height="196" /> | white hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
-| <img src="/img/items/0x24CB.png" class="uo-sprite-2x" alt="" width="66" height="204" /> | shoji screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x24D0.png" class="uo-sprite-2x" alt="" width="64" height="194" /> | bamboo screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
-| <img src="/img/items/0x0DC0.png" class="uo-sprite-2x" alt="" width="98" height="86" /> | fishing pole | 68.4 – 93.4; Tailoring 40.0 – 45.0 |  | AOS | 5 Boards or Logs, 5 Cloth |
+| <img src="/img/items/0x0EB6.png" class="uo-sprite-2x" alt="" width="28" height="64" /> | short music stand (left) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0EB8.png" class="uo-sprite-2x" alt="" width="28" height="64" /> | short music stand (right) | 78.9 – 103.9 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0EBB.png" class="uo-sprite-2x" alt="" width="24" height="64" /> | tall music stand (left) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0EBC.png" class="uo-sprite-2x" alt="" width="24" height="64" /> | tall music stand (right) | 81.5 – 106.5 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0F66.png" class="uo-sprite-2x" alt="" width="24" height="64" /> | easel (south) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0F68.png" class="uo-sprite-2x" alt="" width="24" height="64" /> | easel (east) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0F6A.png" class="uo-sprite-2x" alt="" width="23" height="64" /> | easel (north) | 86.8 – 111.8 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x24C2.png" class="uo-sprite-2x" alt="" width="26" height="64" /> | red hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
+| <img src="/img/items/0x24C6.png" class="uo-sprite-2x" alt="" width="26" height="64" /> | white hanging lantern | 65.0 – 90.0 |  | SE | 5 Boards or Logs, 10 Blank Scrolls |
+| <img src="/img/items/0x24CB.png" class="uo-sprite-2x" alt="" width="21" height="64" /> | shoji screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x24D0.png" class="uo-sprite-2x" alt="" width="21" height="64" /> | bamboo screen | 80.0 – 105.0; Tailoring 50.0 – 55.0 |  | SE | 75 Boards or Logs, 60 Cloth |
+| <img src="/img/items/0x0DC0.png" class="uo-sprite-2x" alt="" width="64" height="56" /> | fishing pole | 68.4 – 93.4; Tailoring 40.0 – 45.0 |  | AOS | 5 Boards or Logs, 5 Cloth |
 | <img src="/img/items/0x1026.png" class="uo-sprite-2x" alt="" width="28" height="32" /> | wooden container engraving tool | 75.0 – 100.0 |  | ML | 4 Boards or Logs, 2 Ingots |
 | <img src="/img/items/0x2F61.png" class="uo-sprite-2x" alt="" width="46" height="46" /> | runed switch | 70.0 – 120.0 |  | ML | 2 Boards or Logs, 1 Enchanted Switch, 1 Runed Prism, 1 jeweled filigree |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcanist statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
@@ -42,12 +42,12 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | warrior statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | squirrel statue (south) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | squirrel statue (east) | 0.0 – 35.0 |  | ML | 250 Boards or Logs |
-| <img src="/img/items/0x2D4A.png" class="uo-sprite-2x" alt="" width="46" height="72" /> | giant replica acorn | 80.0 – 105.0 |  | ML | 35 Boards or Logs |
-| <img src="/img/items/0x3158.png" class="uo-sprite-2x" alt="" width="58" height="74" /> | mounted dread horn | 90.0 – 115.0 |  | ML | 50 Boards or Logs, 1 Pristine Dread Horn |
-| <img src="/img/items/0x020D.png" class="uo-sprite-2x" alt="" width="28" height="74" /> | Acid Proof Rope | 80.0 – 130.0 |  | ML | 2 Greater Strength Potion, 1 Protection, 1 switch |
-| <img src="/img/items/0x4037.png" class="uo-sprite-2x" alt="" width="48" height="260" /> | gargish banner | 94.7 – 115.0; Tailoring 75.0 – 105.0 |  | SA | 50 Boards or Logs, 50 Cloth |
-| <img src="/img/items/0x407C.png" class="uo-sprite-2x" alt="" width="82" height="122" /> | an incubator | 90.0 – 115.0 |  | SA | 100 Boards or Logs |
-| <img src="/img/items/0x4513.png" class="uo-sprite-2x" alt="" width="106" height="168" /> | a chicken coop | 90.0 – 115.0 |  | SA | 150 Boards or Logs |
+| <img src="/img/items/0x2D4A.png" class="uo-sprite-2x" alt="" width="41" height="64" /> | giant replica acorn | 80.0 – 105.0 |  | ML | 35 Boards or Logs |
+| <img src="/img/items/0x3158.png" class="uo-sprite-2x" alt="" width="50" height="64" /> | mounted dread horn | 90.0 – 115.0 |  | ML | 50 Boards or Logs, 1 Pristine Dread Horn |
+| <img src="/img/items/0x020D.png" class="uo-sprite-2x" alt="" width="24" height="64" /> | Acid Proof Rope | 80.0 – 130.0 |  | ML | 2 Greater Strength Potion, 1 Protection, 1 switch |
+| <img src="/img/items/0x4037.png" class="uo-sprite-2x" alt="" width="12" height="64" /> | gargish banner | 94.7 – 115.0; Tailoring 75.0 – 105.0 |  | SA | 50 Boards or Logs, 50 Cloth |
+| <img src="/img/items/0x407C.png" class="uo-sprite-2x" alt="" width="43" height="64" /> | an incubator | 90.0 – 115.0 |  | SA | 100 Boards or Logs |
+| <img src="/img/items/0x4513.png" class="uo-sprite-2x" alt="" width="40" height="64" /> | a chicken coop | 90.0 – 115.0 |  | SA | 150 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | exodus summoning altar | 95.0 – 120.0; Magery 75.0 – 120.0 |  | SA | 100 Boards or Logs, 10 high quality granite, 10 a small piece of blackrock, 1 nexus core |
 |  | Dark Wooden Sign Hanger | 42.1 – 77.7 |  | TOL | 5 Boards or Logs |
 |  | Light Wooden Sign Hanger | 42.1 – 77.7 |  | TOL | 5 Boards or Logs |
@@ -57,30 +57,30 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
 | <img src="/img/items/0x0B5E.png" class="uo-sprite-2x" alt="" width="34" height="58" /> | foot stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0A2A.png" class="uo-sprite-2x" alt="" width="34" height="66" /> | stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0B5B.png" class="uo-sprite-2x" alt="" width="52" height="120" /> | straw chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
-| <img src="/img/items/0x0B57.png" class="uo-sprite-2x" alt="" width="56" height="116" /> | wooden chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
-| <img src="/img/items/0x0B4F.png" class="uo-sprite-2x" alt="" width="62" height="154" /> | vesper-style chair | 42.1 – 67.1 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0B53.png" class="uo-sprite-2x" alt="" width="60" height="144" /> | trinsic-style chair | 42.1 – 67.1 |  | Classic | 13 Boards or Logs |
-| <img src="/img/items/0x0B2D.png" class="uo-sprite-2x" alt="" width="72" height="94" /> | wooden bench | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B2E.png" class="uo-sprite-2x" alt="" width="54" height="114" /> | wooden throne | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B33.png" class="uo-sprite-2x" alt="" width="72" height="128" /> | magincia-style throne | 73.6 – 98.6 |  | Classic | 19 Boards or Logs |
-| <img src="/img/items/0x0B35.png" class="uo-sprite-2x" alt="" width="76" height="112" /> | small table | 42.1 – 67.1 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B4A.png" class="uo-sprite-2x" alt="" width="70" height="112" /> | writing table | 63.1 – 88.1 |  | Classic | 17 Boards or Logs |
-| <img src="/img/items/0x0B90.png" class="uo-sprite-2x" alt="" width="118" height="150" /> | yew-wood table | 84.2 – 109.2 |  | Classic | 27 Boards or Logs |
-| <img src="/img/items/0x0B8F.png" class="uo-sprite-2x" alt="" width="108" height="136" /> | large table | 63.1 – 88.1 |  | Classic | 23 Boards or Logs |
-| <img src="/img/items/0x2819.png" class="uo-sprite-2x" alt="" width="134" height="160" /> | elegant low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x281A.png" class="uo-sprite-2x" alt="" width="134" height="154" /> | plain low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x0A2A.png" class="uo-sprite-2x" alt="" width="33" height="64" /> | stool | 11.0 – 36.0 |  | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x0B5B.png" class="uo-sprite-2x" alt="" width="28" height="64" /> | straw chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
+| <img src="/img/items/0x0B57.png" class="uo-sprite-2x" alt="" width="31" height="64" /> | wooden chair | 21.0 – 46.0 |  | Classic | 13 Boards or Logs |
+| <img src="/img/items/0x0B4F.png" class="uo-sprite-2x" alt="" width="26" height="64" /> | vesper-style chair | 42.1 – 67.1 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0B53.png" class="uo-sprite-2x" alt="" width="27" height="64" /> | trinsic-style chair | 42.1 – 67.1 |  | Classic | 13 Boards or Logs |
+| <img src="/img/items/0x0B2D.png" class="uo-sprite-2x" alt="" width="49" height="64" /> | wooden bench | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B2E.png" class="uo-sprite-2x" alt="" width="30" height="64" /> | wooden throne | 52.6 – 77.6 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B33.png" class="uo-sprite-2x" alt="" width="36" height="64" /> | magincia-style throne | 73.6 – 98.6 |  | Classic | 19 Boards or Logs |
+| <img src="/img/items/0x0B35.png" class="uo-sprite-2x" alt="" width="43" height="64" /> | small table | 42.1 – 67.1 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B4A.png" class="uo-sprite-2x" alt="" width="40" height="64" /> | writing table | 63.1 – 88.1 |  | Classic | 17 Boards or Logs |
+| <img src="/img/items/0x0B90.png" class="uo-sprite-2x" alt="" width="50" height="64" /> | yew-wood table | 84.2 – 109.2 |  | Classic | 27 Boards or Logs |
+| <img src="/img/items/0x0B8F.png" class="uo-sprite-2x" alt="" width="51" height="64" /> | large table | 63.1 – 88.1 |  | Classic | 23 Boards or Logs |
+| <img src="/img/items/0x2819.png" class="uo-sprite-2x" alt="" width="54" height="64" /> | elegant low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x281A.png" class="uo-sprite-2x" alt="" width="56" height="64" /> | plain low table | 80.0 – 105.0 |  | SE | 35 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ornate table (south) | 85.0 – 110.0 |  | ML | 60 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | ornate table (east) | 85.0 – 110.0 |  | ML | 60 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | hardwood table (south) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | hardwood table (east) | 80.0 – 105.0 |  | ML | 50 Boards or Logs |
-| <img src="/img/items/0x2DDD.png" class="uo-sprite-2x" alt="" width="40" height="92" /> | elven podium | 80.0 – 105.0 |  | ML | 20 Boards or Logs |
-| <img src="/img/items/0x2DE3.png" class="uo-sprite-2x" alt="" width="70" height="126" /> | ornate elven chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
-| <img src="/img/items/0x2DEB.png" class="uo-sprite-2x" alt="" width="84" height="120" /> | cozy elven chair | 85.0 – 110.0 |  | ML | 40 Boards or Logs |
-| <img src="/img/items/0x2DF5.png" class="uo-sprite-2x" alt="" width="86" height="126" /> | reading chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
-| <img src="/img/items/0x4023.png" class="uo-sprite-2x" alt="" width="86" height="186" /> | Ter-Mur style chair | 85.0 – 110.0 |  | SA | 40 Boards or Logs |
-| <img src="/img/items/0x4041.png" class="uo-sprite-2x" alt="" width="84" height="108" /> | Ter-Mur style table | 75.0 – 100.0 |  | SA | 50 Boards or Logs |
+| <img src="/img/items/0x2DDD.png" class="uo-sprite-2x" alt="" width="28" height="64" /> | elven podium | 80.0 – 105.0 |  | ML | 20 Boards or Logs |
+| <img src="/img/items/0x2DE3.png" class="uo-sprite-2x" alt="" width="36" height="64" /> | ornate elven chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
+| <img src="/img/items/0x2DEB.png" class="uo-sprite-2x" alt="" width="45" height="64" /> | cozy elven chair | 85.0 – 110.0 |  | ML | 40 Boards or Logs |
+| <img src="/img/items/0x2DF5.png" class="uo-sprite-2x" alt="" width="44" height="64" /> | reading chair | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
+| <img src="/img/items/0x4023.png" class="uo-sprite-2x" alt="" width="30" height="64" /> | Ter-Mur style chair | 85.0 – 110.0 |  | SA | 40 Boards or Logs |
+| <img src="/img/items/0x4041.png" class="uo-sprite-2x" alt="" width="50" height="64" /> | Ter-Mur style table | 75.0 – 100.0 |  | SA | 50 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Upholstered Chair | 70.0 – 110.0; Tailoring 55.0 – 60.0 |  | Classic | 40 Boards or Logs, 12 Cloth |
 
 ## Containers
@@ -88,24 +88,24 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
 | <img src="/img/items/0x09AA.png" class="uo-sprite-2x" alt="" width="42" height="54" /> | wooden box | 21.0 – 46.0 |  | Classic | 10 Boards or Logs |
-| <img src="/img/items/0x09A9.png" class="uo-sprite-2x" alt="" width="48" height="66" /> | small crate | 10.0 – 35.0 |  | Classic | 8 Boards or Logs |
-| <img src="/img/items/0x0E3F.png" class="uo-sprite-2x" alt="" width="60" height="82" /> | medium crate | 31.0 – 56.0 |  | Classic | 15 Boards or Logs |
-| <img src="/img/items/0x0E3D.png" class="uo-sprite-2x" alt="" width="72" height="94" /> | large crate | 47.3 – 72.3 |  | Classic | 18 Boards or Logs |
-| <img src="/img/items/0x0E43.png" class="uo-sprite-2x" alt="" width="76" height="94" /> | wooden chest | 73.6 – 98.6 |  | Classic | 20 Boards or Logs |
-| <img src="/img/items/0x0A9D.png" class="uo-sprite-2x" alt="" width="68" height="176" /> | wooden shelf | 31.5 – 56.5 |  | Classic | 25 Boards or Logs |
-| <img src="/img/items/0x0A4D.png" class="uo-sprite-2x" alt="" width="72" height="166" /> | armoire (red) | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
-| <img src="/img/items/0x0A4F.png" class="uo-sprite-2x" alt="" width="64" height="162" /> | armoire | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
-| <img src="/img/items/0x280B.png" class="uo-sprite-2x" alt="" width="120" height="212" /> | plain wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x280D.png" class="uo-sprite-2x" alt="" width="120" height="210" /> | ornate wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x280F.png" class="uo-sprite-2x" alt="" width="124" height="200" /> | gilded wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x2811.png" class="uo-sprite-2x" alt="" width="122" height="158" /> | wooden footlocker | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x2813.png" class="uo-sprite-2x" alt="" width="116" height="194" /> | finished wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
-| <img src="/img/items/0x2815.png" class="uo-sprite-2x" alt="" width="114" height="220" /> | tall cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x2817.png" class="uo-sprite-2x" alt="" width="132" height="170" /> | short cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
-| <img src="/img/items/0x2857.png" class="uo-sprite-2x" alt="" width="60" height="118" /> | red armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x2859.png" class="uo-sprite-2x" alt="" width="76" height="136" /> | elegant armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x285B.png" class="uo-sprite-2x" alt="" width="74" height="132" /> | maple armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
-| <img src="/img/items/0x285D.png" class="uo-sprite-2x" alt="" width="78" height="148" /> | cherry armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x09A9.png" class="uo-sprite-2x" alt="" width="47" height="64" /> | small crate | 10.0 – 35.0 |  | Classic | 8 Boards or Logs |
+| <img src="/img/items/0x0E3F.png" class="uo-sprite-2x" alt="" width="47" height="64" /> | medium crate | 31.0 – 56.0 |  | Classic | 15 Boards or Logs |
+| <img src="/img/items/0x0E3D.png" class="uo-sprite-2x" alt="" width="49" height="64" /> | large crate | 47.3 – 72.3 |  | Classic | 18 Boards or Logs |
+| <img src="/img/items/0x0E43.png" class="uo-sprite-2x" alt="" width="52" height="64" /> | wooden chest | 73.6 – 98.6 |  | Classic | 20 Boards or Logs |
+| <img src="/img/items/0x0A9D.png" class="uo-sprite-2x" alt="" width="25" height="64" /> | wooden shelf | 31.5 – 56.5 |  | Classic | 25 Boards or Logs |
+| <img src="/img/items/0x0A4D.png" class="uo-sprite-2x" alt="" width="28" height="64" /> | armoire (red) | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
+| <img src="/img/items/0x0A4F.png" class="uo-sprite-2x" alt="" width="25" height="64" /> | armoire | 84.2 – 109.2 |  | Classic | 35 Boards or Logs |
+| <img src="/img/items/0x280B.png" class="uo-sprite-2x" alt="" width="36" height="64" /> | plain wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x280D.png" class="uo-sprite-2x" alt="" width="37" height="64" /> | ornate wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x280F.png" class="uo-sprite-2x" alt="" width="40" height="64" /> | gilded wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x2811.png" class="uo-sprite-2x" alt="" width="49" height="64" /> | wooden footlocker | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x2813.png" class="uo-sprite-2x" alt="" width="38" height="64" /> | finished wooden chest | 90.0 – 115.0 |  | SE | 30 Boards or Logs |
+| <img src="/img/items/0x2815.png" class="uo-sprite-2x" alt="" width="33" height="64" /> | tall cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x2817.png" class="uo-sprite-2x" alt="" width="50" height="64" /> | short cabinet | 90.0 – 115.0 |  | SE | 35 Boards or Logs |
+| <img src="/img/items/0x2857.png" class="uo-sprite-2x" alt="" width="33" height="64" /> | red armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x2859.png" class="uo-sprite-2x" alt="" width="36" height="64" /> | elegant armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x285B.png" class="uo-sprite-2x" alt="" width="36" height="64" /> | maple armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
+| <img src="/img/items/0x285D.png" class="uo-sprite-2x" alt="" width="34" height="64" /> | cherry armoire | 90.0 – 115.0 |  | SE | 40 Boards or Logs |
 | <img src="/img/items/0x0E7F.png" class="uo-sprite-2x" alt="" width="38" height="58" /> | keg | 57.8 – 82.8 |  | Classic | 3 Barrel Staves, 1 Barrel Hoops, 1 Barrel Lids |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcane bookshelf (south) | 94.7 – 119.7 |  | ML | 80 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcane bookshelf (east) | 94.7 – 119.7 |  | ML | 80 Boards or Logs |
@@ -115,56 +115,56 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven wash basin (east) | 70.0 – 95.0 |  | ML | 40 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven dresser (south) | 75.0 – 100.0 |  | ML | 45 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven dresser (east) | 75.0 – 100.0 |  | ML | 45 Boards or Logs |
-| <img src="/img/items/0x2D07.png" class="uo-sprite-2x" alt="" width="92" height="226" /> | elven armoire (fancy) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
-| <img src="/img/items/0x2D05.png" class="uo-sprite-2x" alt="" width="94" height="224" /> | elven armoire (simple) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
-| <img src="/img/items/0x2DF1.png" class="uo-sprite-2x" alt="" width="76" height="106" /> | rarewood chest | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
-| <img src="/img/items/0x2DF3.png" class="uo-sprite-2x" alt="" width="76" height="106" /> | decorative box | 80.0 – 105.0 |  | ML | 25 Boards or Logs |
-| <img src="/img/items/0x0A99.png" class="uo-sprite-2x" alt="" width="70" height="174" /> | academic bookcase | 60.0 – 85.0 |  | Classic | 25 Boards or Logs, 1 academic books |
-| <img src="/img/items/0x4026.png" class="uo-sprite-2x" alt="" width="66" height="80" /> | gargish chest | 80.0 – 105.0 |  | SA | 30 Boards or Logs |
-| <img src="/img/items/0x0FAE.png" class="uo-sprite-2x" alt="" width="56" height="88" /> | empty liquor barrel | 60.0 – 90.0 |  | Classic | 50 Boards or Logs |
+| <img src="/img/items/0x2D07.png" class="uo-sprite-2x" alt="" width="26" height="64" /> | elven armoire (fancy) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
+| <img src="/img/items/0x2D05.png" class="uo-sprite-2x" alt="" width="27" height="64" /> | elven armoire (simple) | 80.0 – 105.0 |  | ML | 60 Boards or Logs |
+| <img src="/img/items/0x2DF1.png" class="uo-sprite-2x" alt="" width="46" height="64" /> | rarewood chest | 80.0 – 105.0 |  | ML | 30 Boards or Logs |
+| <img src="/img/items/0x2DF3.png" class="uo-sprite-2x" alt="" width="46" height="64" /> | decorative box | 80.0 – 105.0 |  | ML | 25 Boards or Logs |
+| <img src="/img/items/0x0A99.png" class="uo-sprite-2x" alt="" width="26" height="64" /> | academic bookcase | 60.0 – 85.0 |  | Classic | 25 Boards or Logs, 1 academic books |
+| <img src="/img/items/0x4026.png" class="uo-sprite-2x" alt="" width="53" height="64" /> | gargish chest | 80.0 – 105.0 |  | SA | 30 Boards or Logs |
+| <img src="/img/items/0x0FAE.png" class="uo-sprite-2x" alt="" width="41" height="64" /> | empty liquor barrel | 60.0 – 90.0 |  | Classic | 50 Boards or Logs |
 
 ## Weapons
 
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x0E81.png" class="uo-sprite-2x" alt="" width="82" height="68" /> | shepherd's crook | 78.9 – 103.9 | 13–16 dmg · 2.8s · 2H · str 20 | Classic | 7 Boards or Logs |
-| <img src="/img/items/0x0E89.png" class="uo-sprite-2x" alt="" width="104" height="104" /> | quarter staff | 73.6 – 98.6 | 11–14 dmg · 2.2s · 2H · str 30 | Classic | 6 Boards or Logs |
-| <img src="/img/items/0x13F8.png" class="uo-sprite-2x" alt="" width="106" height="106" /> | gnarled staff | 78.9 – 103.9 | 15–18 dmg · 3.2s · 2H · str 20 | Classic | 7 Boards or Logs |
-| <img src="/img/items/0x27A8.png" class="uo-sprite-2x" alt="" width="108" height="56" /> | bokuto | 70.0 – 95.0 | 10–12 dmg · 2.0s · 1H · str 20 | SE | 6 Boards or Logs |
-| <img src="/img/items/0x27AA.png" class="uo-sprite-2x" alt="" width="82" height="44" /> | fukiya | 60.0 – 85.0 |  | SE | 6 Boards or Logs |
-| <img src="/img/items/0x27A6.png" class="uo-sprite-2x" alt="" width="96" height="48" /> | tetsubo | 80.0 – 105.0 | 12–15 dmg · 2.5s · 2H · str 35 | SE | 10 Boards or Logs |
-| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | wild staff | 63.8 – 113.8 | 10–13 dmg · 2.2s · 1H · str 15 | ML | 16 Boards or Logs |
-| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | Phantom Staff | 90.0 – 130.0 |  | ML | 16 Boards or Logs, 1 Diseased Bark, 10 Putrefaction, 10 Taint |
-| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | arcanist's wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 white pearl |
-| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | ancient wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 perfect emerald |
-| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | thorned wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 fire ruby |
-| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="98" height="92" /> | hardened wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 turquoise |
-| <img src="/img/items/0x0906.png" class="uo-sprite-2x" alt="" width="70" height="76" /> | serpentstone staff | 63.8 – 113.8 | 16–19 dmg · 3.5s · 2H · str 35 | SA | 16 Boards or Logs, 1 ecru citrine |
-| <img src="/img/items/0x48B8.png" class="uo-sprite-2x" alt="" width="96" height="92" /> | gargish gnarled staff | 78.9 – 128.9 | 15–18 dmg · 3.2s · 2H · str 20 | SA | 16 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x0E81.png" class="uo-sprite-2x" alt="" width="64" height="53" /> | shepherd's crook | 78.9 – 103.9 | 13–16 dmg · 2.8s · 2H · str 20 | Classic | 7 Boards or Logs |
+| <img src="/img/items/0x0E89.png" class="uo-sprite-2x" alt="" width="64" height="64" /> | quarter staff | 73.6 – 98.6 | 11–14 dmg · 2.2s · 2H · str 30 | Classic | 6 Boards or Logs |
+| <img src="/img/items/0x13F8.png" class="uo-sprite-2x" alt="" width="64" height="64" /> | gnarled staff | 78.9 – 103.9 | 15–18 dmg · 3.2s · 2H · str 20 | Classic | 7 Boards or Logs |
+| <img src="/img/items/0x27A8.png" class="uo-sprite-2x" alt="" width="64" height="33" /> | bokuto | 70.0 – 95.0 | 10–12 dmg · 2.0s · 1H · str 20 | SE | 6 Boards or Logs |
+| <img src="/img/items/0x27AA.png" class="uo-sprite-2x" alt="" width="64" height="34" /> | fukiya | 60.0 – 85.0 |  | SE | 6 Boards or Logs |
+| <img src="/img/items/0x27A6.png" class="uo-sprite-2x" alt="" width="64" height="32" /> | tetsubo | 80.0 – 105.0 | 12–15 dmg · 2.5s · 2H · str 35 | SE | 10 Boards or Logs |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | wild staff | 63.8 – 113.8 | 10–13 dmg · 2.2s · 1H · str 15 | ML | 16 Boards or Logs |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | Phantom Staff | 90.0 – 130.0 |  | ML | 16 Boards or Logs, 1 Diseased Bark, 10 Putrefaction, 10 Taint |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | arcanist's wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 white pearl |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | ancient wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 perfect emerald |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | thorned wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 fire ruby |
+| <img src="/img/items/0x2D25.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | hardened wild staff | 63.8 – 113.8 |  | ML | 16 Boards or Logs, 1 turquoise |
+| <img src="/img/items/0x0906.png" class="uo-sprite-2x" alt="" width="59" height="64" /> | serpentstone staff | 63.8 – 113.8 | 16–19 dmg · 3.5s · 2H · str 35 | SA | 16 Boards or Logs, 1 ecru citrine |
+| <img src="/img/items/0x48B8.png" class="uo-sprite-2x" alt="" width="64" height="61" /> | gargish gnarled staff | 78.9 – 128.9 | 15–18 dmg · 3.2s · 2H · str 20 | SA | 16 Boards or Logs, 1 ecru citrine |
 | <img src="/img/items/0x13B4.png" class="uo-sprite-2x" alt="" width="42" height="42" /> | club | 65.0 – 90.0 | 10–14 dmg · 2.5s · 1H · str 40 | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0DF0.png" class="uo-sprite-2x" alt="" width="106" height="104" /> | black staff | 81.5 – 106.5 | 13–16 dmg · 2.8s · 2H · str 35 | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x0E89.png" class="uo-sprite-2x" alt="" width="104" height="104" /> | kotl black rod | 100.0 – 160.0 |  | TOL | 20 Boards or Logs, 1 Black Moonstone, 1 Staff of the Magi |
+| <img src="/img/items/0x0DF0.png" class="uo-sprite-2x" alt="" width="64" height="63" /> | black staff | 81.5 – 106.5 | 13–16 dmg · 2.8s · 2H · str 35 | Classic | 9 Boards or Logs |
+| <img src="/img/items/0x0E89.png" class="uo-sprite-2x" alt="" width="64" height="64" /> | kotl black rod | 100.0 – 160.0 |  | TOL | 20 Boards or Logs, 1 Black Moonstone, 1 Staff of the Magi |
 
 ## Armor
 
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
 | <img src="/img/items/0x1B7A.png" class="uo-sprite-2x" alt="" width="58" height="44" /> | wooden shield | 52.6 – 77.6 | AR 8 · str 20 | Classic | 9 Boards or Logs |
-| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="68" height="64" /> | woodland chest | 90.0 – 115.0 | 5/3/2/3/2 · str 95 | ML | 20 Boards or Logs, 6 Bark Fragment |
-| <img src="/img/items/0x2B6C.png" class="uo-sprite-2x" alt="" width="72" height="62" /> | woodland arms | 80.0 – 105.0 | 5/3/2/3/2 · str 80 | ML | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | woodland chest | 90.0 – 115.0 | 5/3/2/3/2 · str 95 | ML | 20 Boards or Logs, 6 Bark Fragment |
+| <img src="/img/items/0x2B6C.png" class="uo-sprite-2x" alt="" width="64" height="55" /> | woodland arms | 80.0 – 105.0 | 5/3/2/3/2 · str 80 | ML | 15 Boards or Logs, 4 Bark Fragment |
 | <img src="/img/items/0x2B6A.png" class="uo-sprite-2x" alt="" width="46" height="34" /> | woodland gauntlets | 85.0 – 110.0 | 5/3/2/3/2 · str 70 | ML | 15 Boards or Logs, 4 Bark Fragment |
-| <img src="/img/items/0x2B6B.png" class="uo-sprite-2x" alt="" width="72" height="56" /> | woodland leggings | 85.0 – 110.0 | 5/3/2/3/2 · str 90 | ML | 15 Boards or Logs, 4 Bark Fragment |
+| <img src="/img/items/0x2B6B.png" class="uo-sprite-2x" alt="" width="64" height="50" /> | woodland leggings | 85.0 – 110.0 | 5/3/2/3/2 · str 90 | ML | 15 Boards or Logs, 4 Bark Fragment |
 | <img src="/img/items/0x2B69.png" class="uo-sprite-2x" alt="" width="30" height="28" /> | woodland gorget | 85.0 – 110.0 | 5/3/2/3/2 · str 45 | ML | 15 Boards or Logs, 4 Bark Fragment |
 | <img src="/img/items/0x2B71.png" class="uo-sprite-2x" alt="" width="44" height="44" /> | raven helm | 65.0 – 115.0 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
 | <img src="/img/items/0x2B72.png" class="uo-sprite-2x" alt="" width="44" height="34" /> | vulture helm | 63.9 – 113.9 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 25 feathers |
 | <img src="/img/items/0x2B73.png" class="uo-sprite-2x" alt="" width="46" height="46" /> | winged helm | 58.4 – 108.4 | 5/1/2/2/5 · str 25 | ML | 10 Boards or Logs, 4 Bark Fragment, 60 feathers |
 | <img src="/img/items/0x2B71.png" class="uo-sprite-2x" alt="" width="44" height="44" /> | Ironwood Crown | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Corruption, 10 Putrefaction |
-| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="68" height="64" /> | Bramble Coat | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Taint, 10 Scourge |
+| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | Bramble Coat | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Diseased Bark, 10 Taint, 10 Scourge |
 | <img src="/img/items/0x2B71.png" class="uo-sprite-2x" alt="" width="44" height="44" /> | Darkwood Crown | 85.0 – 120.0 |  | ML | 10 Boards or Logs, 1 Lard of Paroxysmus, 10 Blight, 10 Taint |
-| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="68" height="64" /> | Darkwood Chest | 85.0 – 120.0 |  | ML | 20 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Muculent |
+| <img src="/img/items/0x2B67.png" class="uo-sprite-2x" alt="" width="64" height="60" /> | Darkwood Chest | 85.0 – 120.0 |  | ML | 20 Boards or Logs, 1 Dread Horn Mane, 10 Corruption, 10 Muculent |
 | <img src="/img/items/0x2B69.png" class="uo-sprite-2x" alt="" width="30" height="28" /> | Darkwood Gorget | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Diseased Bark, 10 Blight, 10 Scourge |
-| <img src="/img/items/0x2B6B.png" class="uo-sprite-2x" alt="" width="72" height="56" /> | Darkwood Leggings | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
-| <img src="/img/items/0x2B6C.png" class="uo-sprite-2x" alt="" width="72" height="62" /> | Darkwood Pauldrons | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Eye of the Travesty, 10 Scourge, 10 Taint |
+| <img src="/img/items/0x2B6B.png" class="uo-sprite-2x" alt="" width="64" height="50" /> | Darkwood Leggings | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Grizzled Bones, 10 Corruption, 10 Putrefaction |
+| <img src="/img/items/0x2B6C.png" class="uo-sprite-2x" alt="" width="64" height="55" /> | Darkwood Pauldrons | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Eye of the Travesty, 10 Scourge, 10 Taint |
 | <img src="/img/items/0x2B6A.png" class="uo-sprite-2x" alt="" width="46" height="34" /> | Darkwood Gauntlets | 85.0 – 120.0 |  | ML | 15 Boards or Logs, 1 Captured Essence, 10 Putrefaction, 10 Muculent |
 | <img src="/img/items/0x4200.png" class="uo-sprite-2x" alt="" width="40" height="40" /> | gargish wooden shield | 52.6 – 77.6 |  | Classic | 9 Boards or Logs |
 
@@ -173,13 +173,13 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
 | <img src="/img/items/0x0EB2.png" class="uo-sprite-2x" alt="" width="48" height="62" /> | lap harp | 63.1 – 88.1; Musicianship 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0EB1.png" class="uo-sprite-2x" alt="" width="48" height="120" /> | standing harp | 78.9 – 103.9; Musicianship 45.0 – 50.0 |  | Classic | 35 Boards or Logs, 15 Cloth |
-| <img src="/img/items/0x0E9C.png" class="uo-sprite-2x" alt="" width="70" height="68" /> | drum | 57.8 – 82.8; Musicianship 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EB1.png" class="uo-sprite-2x" alt="" width="26" height="64" /> | standing harp | 78.9 – 103.9; Musicianship 45.0 – 50.0 |  | Classic | 35 Boards or Logs, 15 Cloth |
+| <img src="/img/items/0x0E9C.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | drum | 57.8 – 82.8; Musicianship 45.0 – 50.0 |  | Classic | 20 Boards or Logs, 10 Cloth |
 | <img src="/img/items/0x0EB3.png" class="uo-sprite-2x" alt="" width="48" height="40" /> | lute | 68.4 – 93.4; Musicianship 45.0 – 50.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
 | <img src="/img/items/0x0E9D.png" class="uo-sprite-2x" alt="" width="36" height="32" /> | tambourine | 57.8 – 82.8; Musicianship 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 10 Cloth |
 | <img src="/img/items/0x0E9E.png" class="uo-sprite-2x" alt="" width="56" height="40" /> | tambourine (tassel) | 57.8 – 82.8; Musicianship 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 15 Cloth |
 | <img src="/img/items/0x2805.png" class="uo-sprite-2x" alt="" width="52" height="54" /> | bamboo flute | 80.0 – 105.0; Musicianship 45.0 – 50.0 |  | SE | 15 Boards or Logs |
-| <img src="/img/items/0x403B.png" class="uo-sprite-2x" alt="" width="42" height="126" /> | aud-char | 78.9 – 103.9; Musicianship 45.0 – 50.0 |  | SA | 35 Boards or Logs, 3 Stones |
+| <img src="/img/items/0x403B.png" class="uo-sprite-2x" alt="" width="21" height="64" /> | aud-char | 78.9 – 103.9; Musicianship 45.0 – 50.0 |  | SA | 35 Boards or Logs, 3 Stones |
 | <img src="/img/items/0x2805.png" class="uo-sprite-2x" alt="" width="52" height="54" /> | snake charmer flute | 80.0 – 105.0; Musicianship 45.0 – 50.0 |  | SA | 15 Boards or Logs, 3 luminescent fungi |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | cello | 75.0 – 105.0; Musicianship 45.0 – 50.0 |  | Classic | 15 Boards or Logs, 5 Cloth |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | Wall Mounted Bell (South) | 75.0 – 105.0; Musicianship 45.0 – 50.0 |  | Classic | 50 Boards or Logs, 50 Ingots |
@@ -191,8 +191,8 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x2312.png" class="uo-sprite-2x" alt="" width="80" height="164" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
-| <img src="/img/items/0x2311.png" class="uo-sprite-2x" alt="" width="78" height="160" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
+| <img src="/img/items/0x2312.png" class="uo-sprite-2x" alt="" width="31" height="64" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
+| <img src="/img/items/0x2311.png" class="uo-sprite-2x" alt="" width="31" height="64" /> | bulletin board | 85.0 – 110.0 |  | AOS | 50 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | parrot perch | 50.0 – 85.0 |  | ML | 100 Boards or Logs |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | arcane circle | 94.7 – 119.7 |  | ML | 100 Boards or Logs, 2 blue diamond, 2 perfect emerald, 2 fire ruby |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | tall elven bed (south) | 94.7 – 119.7; Tailoring 75.0 – 80.0 |  | ML | 200 Boards or Logs, 100 Cloth |
@@ -251,8 +251,8 @@ Skill range is the span from 0% success chance (min) to 100% success chance (max
 
 |  | Item | Skill | Stats | Era | Materials |
 | --- | --- | --- | --- | --- | --- |
-| <img src="/img/items/0x0EC6.png" class="uo-sprite-2x" alt="" width="36" height="116" /> | dressform (front) | 63.1 – 88.1; Tailoring 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
-| <img src="/img/items/0x0EC7.png" class="uo-sprite-2x" alt="" width="28" height="116" /> | dressform (side) | 63.1 – 88.1; Tailoring 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EC6.png" class="uo-sprite-2x" alt="" width="20" height="64" /> | dressform (front) | 63.1 – 88.1; Tailoring 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
+| <img src="/img/items/0x0EC7.png" class="uo-sprite-2x" alt="" width="15" height="64" /> | dressform (side) | 63.1 – 88.1; Tailoring 65.0 – 70.0 |  | Classic | 25 Boards or Logs, 10 Cloth |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven spinning wheel (east) | 75.0 – 100.0; Tailoring 65.0 – 85.0 |  | ML | 60 Boards or Logs, 40 Cloth |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven spinning wheel (south) | 75.0 – 100.0; Tailoring 65.0 – 85.0 |  | ML | 60 Boards or Logs, 40 Cloth |
 | <img src="/img/items/0x14F0.png" class="uo-sprite-2x" alt="" width="64" height="62" /> | elven oven (south) | 85.0 – 110.0 |  | ML | 80 Boards or Logs |

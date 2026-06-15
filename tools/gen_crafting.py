@@ -30,6 +30,9 @@ PUBLIC_DIR = os.path.join(ROOT, "public")
 # sprite's true aspect ratio) instead of the uniform fixed-box uo-sprite. Useful
 # for furniture/large art where the fixed box shrinks detail. Tunable per request.
 NATIVE_2X_SYSTEMS = {"carpentry"}
+# ...but cap the larger rendered dimension so big native art (tables, cabinets)
+# doesn't balloon: small icons get the full 2x, large ones clamp here (aspect kept).
+NATIVE_2X_MAX = 64
 
 _png_dim_cache = {}
 
@@ -171,8 +174,13 @@ def icon_cell(recipe, item_art, scale2x=False):
         if scale2x:
             dims = png_dims(png)
             if dims:
+                w, h = dims[0] * 2, dims[1] * 2
+                biggest = max(w, h)
+                if biggest > NATIVE_2X_MAX:  # clamp large art, keep aspect ratio
+                    w = round(w * NATIVE_2X_MAX / biggest)
+                    h = round(h * NATIVE_2X_MAX / biggest)
                 return ('<img src="%s" class="uo-sprite-2x" alt="" '
-                        'width="%d" height="%d" />' % (png, dims[0] * 2, dims[1] * 2))
+                        'width="%d" height="%d" />' % (png, w, h))
         return '<img src="%s" class="uo-sprite" alt="" width="56" />' % png
     return ""
 
