@@ -22,6 +22,35 @@
 	height: 72px;
 }
 
+/* Item gallery — a flex-wrapping grid of sprite tiles with captions, for
+   curated catalog/explainer pages (e.g. /items/armor/). */
+.uo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	margin: 0.75rem 0 1.25rem;
+}
+.uo-gallery figure {
+	width: 94px;
+	margin: 0;
+	text-align: center;
+}
+.uo-gallery figure img {
+	width: 72px;
+	height: 72px;
+	object-fit: contain;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+	vertical-align: middle;
+}
+.uo-gallery figcaption {
+	font-size: 0.7rem;
+	line-height: 1.15;
+	color: var(--sl-color-gray-2);
+	margin-top: 0.1rem;
+	word-break: break-word;
+}
+
 /* Creature animation frames — same crisp upscaling, sized by the generator. */
 .uo-anim {
 	image-rendering: pixelated;
