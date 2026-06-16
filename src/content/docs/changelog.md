@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-16
 
+- **Updated** — Expand stat-gain — add the 'spam a skill to fast-raise a stat' recipe (Up/Down arrows + primary-stat skill), per-stat trainer table incl. Snooping-&gt;Dex.  
+  [Stat Gain](/mechanics/stat-gain/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/0848018)</sub>
 - **Updated** — Add Customizing Your House sub-page — design mode, tools (walls/floors/stairs/roofs/doors/teleporters), stories, backup/commit/revert, bank-charged commit cost (source HouseFoundation.cs, BaseHouse.cs); link from housing + house-types.  
   [House Customization](/playing/house-customization/) · [House Types](/playing/house-types/) · [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/6341a7a)</sub>
 - **Updated** — Add rendered house-exterior gallery to housing page (uo-gallery--lg, smooth scaling) — visual reference from cottage to castle.  
