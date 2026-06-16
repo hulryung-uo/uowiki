@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Updated** — Expand Anatomy damage detail — ScaleDamageAOS +0.5%/pt (+55% at GM), worked example, Tactics+Anatomy=+123.75%, and a 'not the old +30%' note.  
+  [Anatomy](/skills/anatomy/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/9f00a7e)</sub>
 - **Updated** — Expand Tactics damage explanation — ScaleDamageAOS bonus (+0.625%/pt, +68.75% at GM) with worked example, and special-move gating.  
   [Tactics](/skills/tactics/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/da6e802)</sub>
 - **Updated** — Document weapon/armor magic tiers (Accurate..Supremely, Ruin..Vanquishing, Durable..Indestructible), AOS attributes, durability/repair; rewrite Arms Lore (no craft-chance bonus; adds props to exceptional crafts) — source WeaponEnums.cs, BaseWeapon/BaseArmor, ArmsLore.cs.  
