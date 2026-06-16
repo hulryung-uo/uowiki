@@ -1,33 +1,68 @@
 ---
 title: Arms Lore
-description: Judge weapon and armor quality; supports crafting.
-status: unverified
+description: Inspect weapon and armor quality — and how a crafter's Arms Lore adds bonus properties to exceptional weapons and armor on this shard.
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 4 — primary Int, secondary Str)"
+  - "servuo: Scripts/Skills/ArmsLore.cs (identify weapon/armor on use)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs OnCraft (exceptional: WeaponDamage += ArmsLore/20, ML)"
+  - "servuo: Scripts/Items/Equipment/Armor/BaseArmor.cs DistributeExceptionalBonuses (exceptional: +ArmsLore/20 random resists, ML)"
+  - "servuo: Scripts/Services/Craft/ (Arms Lore is NOT referenced — no success/exceptional-chance bonus)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-17
 generated: false
 ---
 
 <img src="/img/skill-flags/4.gif" alt="Arms Lore skill banner" width="160" />
 
-Arms Lore reads the quality of weapons and armor and, on this shard, supports crafting
-outcomes. The prose is community-derived (paraphrased from the uorenaissance.com skill list
-plus ServUO behavior) pending field verification; the stats table is source-verified against
-ServUO.
+Arms Lore is the appraisal skill for arms and armor: it reads a weapon or armor piece's
+condition and quality. On this shard it also gives a **crafter** a small bonus to the
+**exceptional** weapons and armor they make. The behaviour below is verified against ServUO
+source.
 
 ## What it does
 
-Arms Lore lets you inspect a weapon or piece of armor to judge its durability and quality
-(its damage range, attack class, or armor rating). For smiths and tailors it contributes to
-the quality of items produced, making it a common companion skill on a dedicated crafter's
-template. It is a quick, low-cost passive skill.
+Two distinct things:
+
+1. **Inspect gear** — `Use` the skill and target a weapon or armor piece to learn its
+   **durability** (how worn it is) and a description of its **damage** (weapons) or **armor
+   rating** (armor). A failed check just says you're *"not certain"* — higher skill reads more
+   reliably. This is its active function (`Scripts/Skills/ArmsLore.cs`).
+2. **Improve your exceptional crafts** — see the next section.
 
 ## How to use it
 
 Activate the skill and target a weapon or armor piece — in your pack, equipped, or on a
-vendor — to read its details. On a crafting character the benefit applies automatically while
-you forge or sew. See [crafting](/playing/crafting/).
+vendor — to read its details. The crafting bonus is **automatic**: it applies when you craft,
+and crafting also trains Arms Lore passively (each exceptional craft rolls a gain check).
+
+## Does Arms Lore affect weapon-making?
+
+**Yes — but not the way it's often assumed.** Reading the source settles a common
+misconception:
+
+- **It does *not* raise your success or exceptional chance.** Arms Lore is **not referenced
+  anywhere in the crafting engine** (`Scripts/Services/Craft/`). Your chance to succeed and to
+  produce an *exceptional* item comes from your **crafting skill, Strength/Dex**, and tools —
+  Arms Lore plays no part in *whether* a craft turns out exceptional.
+- **It *does* sweeten an item that's already exceptional** (on this ML/EJ shard). When you
+  craft an **exceptional** piece, your Arms Lore adds bonus properties on top, scaled by
+  `ArmsLore / 20`:
+  - **Weapons** (`BaseWeapon.OnCraft`): `Damage Increase += ArmsLore / 20`. At **GM (100)
+    Arms Lore that's +5% DI** baked in — *on top of* the +35% DI an exceptional weapon already
+    grants.
+  - **Armor** (`BaseArmor.DistributeExceptionalBonuses`): `ArmsLore / 20` extra **resist
+    points**, each randomly assigned to Physical/Fire/Cold/Poison/Energy. At GM that's **+5
+    total resist** spread across the five types, on top of the normal exceptional bonus.
+  - **Clothing** gets a similar bonus (capped at +4).
+  - *(On a Siege-ruleset shard the divisor is 12.5 instead of 20, i.e. +8 at GM; this shard
+    uses the standard 20.)*
+
+So a smith or tailor who maxes Arms Lore turns out **better exceptional gear** — more damage
+on weapons, more resist on armor — even though Arms Lore never changes how *often* they hit
+exceptional. For a crafter, GM Arms Lore is a genuine (if modest) upgrade to every exceptional
+weapon and suit they make. See [Crafting](/playing/crafting/) and
+[Blacksmithy](/skills/blacksmithy/) / [Tailoring](/skills/tailoring/).
 
 ## How to train it
 
@@ -53,10 +88,10 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Secondary stat | Strength |
 | Title | Weapon Master |
 | Mastery skill | No |
-| Gain notes | skill-ups can raise Str +0.75, Dex +0.15, Int +0.1 (per-use stat gain weights) |
+| Gain notes | training Arms Lore raises **Int** (primary), or **Str** (secondary) — see [Stat gain](/mechanics/stat-gain/) |
 
-Despite the Strength-weighted stat gains, Arms Lore's primary stat is Intelligence — it is an
-appraisal/knowledge skill rather than a combat one.
+Arms Lore's primary stat is Intelligence — it is an appraisal/knowledge skill, not a combat
+one.
 
 ## Related skills & synergies
 

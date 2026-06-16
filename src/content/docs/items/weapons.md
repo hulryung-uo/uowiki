@@ -4,10 +4,12 @@ description: How weapons work in Ultima Online — damage, swing speed, the skil
 status: source-verified
 sources:
   - "servuo: Scripts/Items/Equipment/Weapons/*.cs"
+  - "servuo: Scripts/Items/Equipment/Weapons/WeaponEnums.cs (Damage/Accuracy/Durability tiers)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (tier bonuses, HitPoints/MaxHitPoints, OnCraft)"
   - "servuo: Scripts/Abilities/WeaponAbility.cs"
   - "uo-resource: tiledata.mul (weapon layer)"
   - "uowiki: data/weapons.json (extracted via tools/extract_weapons.py)"
-last_verified: 2026-06-11
+last_verified: 2026-06-17
 generated: false
 ---
 
@@ -125,6 +127,56 @@ The common abilities (from `Scripts/Abilities/WeaponAbility.cs`):
 Some weapons (e.g. the **Thin Longsword**) define no special moves and fall back to the
 engine default of *none* — those show "—" in the Primary/Secondary columns.
 :::
+
+## Quality, magic properties & durability
+
+Two weapons of the same family can be worlds apart. Beyond the base stats above, a weapon
+carries **quality**, optional **magic properties**, and **durability**.
+
+### Quality: normal vs exceptional
+
+A crafted weapon is either **normal** or **exceptional**. An **exceptional** weapon gets
+**+35% Damage Increase** baked in and **+20% durability**, and can bear the crafter's
+**maker's mark**. A high-[Arms Lore](/skills/arms-lore/) crafter adds a little more Damage
+Increase on top (`ArmsLore / 20`, so **+5% at GM**). See [Crafting](/playing/crafting/).
+
+### The named magic tiers (Accuracy / Damage / Durability)
+
+Magic weapons carry up to three independent enchantment lines, and their tier shows **right in
+the weapon's name** (`WeaponEnums.cs`). A fully-loaded one reads like *"Supremely Accurate
+Vanquishing [weapon] of [slayer]."*
+
+| Accuracy prefix → **Hit Chance** | Damage prefix → **Damage Increase** | Durability prefix → **max durability** |
+|---|---|---|
+| Accurate **+2%** | Ruin **+15%** | Durable **+20%** |
+| Surpassingly Accurate **+4%** | Might **+20%** | Substantial **+50%** |
+| Eminently Accurate **+6%** | Force **+25%** | Massive **+70%** |
+| Exceedingly Accurate **+8%** | Power **+30%** | Fortified **+100%** |
+| Supremely Accurate **+10%** | **Vanquishing +35%** | Indestructible **+120%** |
+
+So *Vanquishing* is the top damage tier (+35% DI), *Supremely Accurate* the top accuracy tier
+(+10% hit chance), and *Indestructible* the toughest. These stack with each other and with
+quality.
+
+### AOS magic attributes
+
+On this AOS/EJ shard, looted and **runic-crafted** weapons can also roll modern **attributes**
+on top of (or instead of) the named tiers — e.g. **Hit Chance / Defense Chance Increase**,
+**Damage Increase**, **Swing Speed Increase**, on-hit effects (**Hit Lightning/Fireball/Lower
+Defense/Life Leech/Mana Leech**), **Slayer** (extra damage vs a creature type), **Spell
+Channeling**, **Mage Weapon**, and **Use Best Weapon Skill**. Runic hammers/kits from
+[Bulk Order Deeds](/mechanics/bulk-order-deeds/) are the crafted source of these.
+
+### Durability and repair
+
+Every weapon has **current / maximum hit points** (`HitPoints` / `MaxHitPoints` in
+`BaseWeapon.cs`) — its durability. Using and fighting with a weapon slowly wears its current
+durability down; at 0 it can break. **Repairing** it (with the matching craft skill — e.g.
+[Blacksmithy](/skills/blacksmithy/) for metal weapons — or a repair contract) restores current
+hit points, but each repair shaves a little off the **maximum**, so a weapon has a finite
+life and eventually wears out. **Powder of Fortifying** (a [BOD reward](/mechanics/bulk-order-deeds/))
+can raise an item's maximum durability back up. The durability **tier** above (Durable …
+Indestructible) and exceptional quality both raise that maximum so the weapon lasts longer.
 
 ## Weapon families
 

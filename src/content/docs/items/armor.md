@@ -11,7 +11,8 @@ sources:
   - "servuo: Scripts/Misc/RegenRates.cs (GetArmorMeditationValue — meditation/mana penalty)"
   - "client art: static art for piece sprites"
   - "data: data/armor.json (gallery — 148 piece sprites grouped by material)"
-last_verified: 2026-06-15
+  - "servuo: Scripts/Items/Equipment/Armor/ArmorEnums.cs (Protection/Durability tiers)"
+last_verified: 2026-06-17
 generated: false
 ---
 
@@ -363,6 +364,28 @@ Every craftable armor piece on this shard, grouped by material (helm → gorget 
   <figure><img src="/img/items/0x0288.png" alt="gargish stone kilt" loading="lazy" /><figcaption>gargish stone kilt</figcaption></figure>
   <figure><img src="/img/items/0x028A.png" alt="gargish stone legs" loading="lazy" /><figcaption>gargish stone legs</figcaption></figure>
 </div>
+
+## Quality, magic properties & durability
+
+Like weapons, armor carries **quality**, optional **magic tiers**, and **durability** on top
+of its base resists.
+
+- **Quality** — **exceptional** armor rolls higher resists than normal, can carry the
+  crafter's maker's mark, and gains extra resist points from the crafter's
+  [Arms Lore](/skills/arms-lore/) (`ArmsLore / 20`, **+5 at GM**, spread randomly across the
+  five types).
+- **Protection tier (resist prefix)** — magic armor's defensive tier shows in its name
+  (`ArmorEnums.cs`): **Defense → Guarding (+1) → Hardening (+2) → Fortification (+3) →
+  Invulnerability (+4)**, adding to the piece's protection.
+- **Durability tier** — the same ladder as weapons: **Durable +20%, Substantial +50%, Massive
+  +70%, Fortified +100%, Indestructible +120%** maximum durability.
+- **AOS attributes** — looted and **runic-crafted** armor (kits from
+  [Bulk Order Deeds](/mechanics/bulk-order-deeds/)) can also roll resist bonuses, **Mage
+  Armor**, **Lower Mana Cost**, regeneration, **Self Repair**, and more.
+- **Durability & repair** — each piece has current / maximum hit points; it wears as you take
+  hits, and **repairing** (with the crafting skill that made it, or a repair contract)
+  restores current durability while slowly lowering the maximum, so armor wears out over time.
+  **Powder of Fortifying** can raise the maximum back up.
 
 ## Shields
 
