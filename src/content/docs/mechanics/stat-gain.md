@@ -81,13 +81,21 @@ is **Dex**, and you can snoop the same container (a pack animal, a co-operative 
 container) over and over with almost no setup — so it's the go-to "just raise my Dex" skill.
 Set Dex *Up*, Str/Int *Down*, and snoop repeatedly.
 
+**The Intelligence equivalent: [Poisoning](/skills/poisoning/).** Poisoning's primary stat is
+**Int**, and it's wonderfully spammable — keep a stack of cheap **Lesser poison potions** and
+apply them to food or an Infectious-Strike weapon over and over (each application is a skill
+check that rolls the stat chance). Set Int *Up*, Str/Dex *Down*, and envenom repeatedly. It
+raises Poisoning *and* Int together, which is why it's a favorite Int-pump. (Heads-up:
+applying poison costs karma, and a failed attempt under 80 skill can poison you — see
+[Poisoning](/skills/poisoning/).)
+
 **Best spam-trainers by stat** (primary-stat skills; pick whichever you can repeat fastest):
 
 | Target | Primary-stat skills to spam | Easy choice |
 |---|---|---|
 | **Dexterity** | Snooping, [Stealing](/skills/stealing/), [Lockpicking](/skills/lockpicking/), [Hiding](/skills/hiding/), [Stealth](/skills/stealth/), [Tailoring](/skills/tailoring/), [Tinkering](/skills/tinkering/), Musicianship | **Snooping** (or Hiding) |
 | **Strength** | [Mining](/skills/mining/), [Lumberjacking](/skills/lumberjacking/), [Blacksmithy](/skills/blacksmithy/), [Carpentry](/skills/carpentry/), [Tactics](/skills/tactics/) | **Mining** (dig nonstop) |
-| **Intelligence** | [Magery](/skills/magery/), [Meditation](/skills/meditation/), [Evaluating Intelligence](/skills/evaluating-intelligence/), [Inscription](/skills/inscription/), [Alchemy](/skills/alchemy/) | **Meditation** / Eval Int |
+| **Intelligence** | [Magery](/skills/magery/), [Meditation](/skills/meditation/), [Evaluating Intelligence](/skills/evaluating-intelligence/), [Poisoning](/skills/poisoning/), [Inscription](/skills/inscription/), [Alchemy](/skills/alchemy/) | **Poisoning** / Meditation |
 
 Caveats: a stat can't pass **125** (or 150 enhanced), and you can't exceed **225 total** unless
 a *Down* stat has room to drop (above 10) — that's why step 1 sets the other stats *Down*. And

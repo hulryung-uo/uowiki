@@ -1,13 +1,14 @@
 ---
 title: Poisoning
 description: Coat blades and food with poison.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 30)"
-  - "servuo: Scripts/Skills/Poisoning.cs"
-  - "servuo: Scripts/Items/Consumables/*PoisonPotion.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 30 — primary Int, secondary Dex)"
+  - "servuo: Scripts/Skills/Poisoning.cs (apply flow, Infectious Strike rule, charges, self-poison, -20 karma)"
+  - "servuo: Scripts/Items/Consumables/*PoisonPotion.cs (per-potion skill windows)"
+  - "servuo: Scripts/Misc/Poison.cs (AOS poison tiers Lesser..Lethal, Darkglow, Parasitic)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-17
 generated: false
 ---
 
@@ -25,11 +26,27 @@ poison potion, so that creatures struck (or fed) take poison damage over time. H
 lets you apply **stronger** poisons more reliably. It is a Mastery skill favored by assassins
 and a nasty addition to a [Fencer's](/skills/fencing/) infectious-strike blade.
 
-## How to use it
+## How to apply poison
 
-Have a poison potion in your pack, use the Poisoning skill, then target a bladed/piercing
-weapon (or food). The skill check decides whether the poison takes. See
-[poison & status](/playing/poison-and-status/) and [combat basics](/playing/combat-basics/).
+To envenom something: **use the Poisoning skill, target a poison potion** in your pack, then
+**target the item** to coat. After a ~2-second application a skill check decides whether the
+poison takes; on success the potion is consumed (you keep the empty bottle) and the item
+carries that poison (`Scripts/Skills/Poisoning.cs`).
+
+**What can be poisoned (on this AOS/EJ shard):**
+
+- **Weapons with the *Infectious Strike* special move.** This is the AOS rule the server
+  enforces — *not* "any bladed weapon." The weapon's primary or secondary ability must be
+  **Infectious Strike**; anything else is rejected with *"You can only poison infectious
+  weapons, food or drink."* A poisoned weapon delivers its dose when you land an **Infectious
+  Strike**.
+- **Food and drink** — a poisoned meal hits whoever eats it (the classic assassin's trick).
+- **Throwing weapons** — *fukiya darts* and *shuriken*.
+
+Applying poison is an **evil act** (**−20 karma** each time), and at **under 80.0 skill** a
+failed attempt has a **5% chance to poison *you* instead** (*"You make a grave mistake…"*).
+See [Poison & status](/playing/poison-and-status/) for curing and
+[Combat basics](/playing/combat-basics/).
 
 ## How to train it
 
@@ -56,13 +73,42 @@ never stops; GGS guarantees the slow late points. See [skill gain](/mechanics/sk
 | Secondary stat | Dexterity |
 | Title | Assassin |
 | Mastery skill | Yes |
-| Gain notes | skill-ups can raise Dex +0.4, Int +1.6 (per-use stat gain weights) |
+| Gain notes | training Poisoning raises **Int** (primary), or **Dex** (secondary) — a popular fast Int-trainer; see [Stat gain](/mechanics/stat-gain/) |
 
-Verified from ServUO. Per-potion skill ranges (`MinPoisoningSkill`/`MaxPoisoningSkill` on each
-`*PoisonPotion.cs`): **Lesser 0–60**, **Regular 30–70**, **Greater 60–100**, **Deadly 80–100**.
-The check is `CheckTargetSkill(Poisoning, target, min, max)` (`Scripts/Skills/Poisoning.cs`).
-A successful application gives a weapon **`18 − (level × 2)` charges** (so a weaker poison
-yields more charges). On **failure** there is a **5% chance to poison yourself**.
+Verified from ServUO. The check is `CheckTargetSkill(Poisoning, target, min, max)`
+(`Scripts/Skills/Poisoning.cs`); the **potion you use sets the difficulty window** (next
+section). A successful weapon application gives **`18 − (level × 2)` charges** (a weaker
+poison yields more charges). On **failure** there is a **5% chance to poison yourself** below
+80 skill.
+
+## Poison types and their effects
+
+Poison comes in five strength tiers, each stronger and longer-lasting than the last
+(`Scripts/Misc/Poison.cs`, AOS values). The **potion** you apply determines the tier, and the
+potion's skill window is what you train against:
+
+| Poison | Apply with (potion) | Poisoning skill | Weapon charges | Strength |
+|---|---|---|---|---|
+| **Lesser** | Lesser Poison Potion | 0–60 | 18 | weakest — light damage over ~10 ticks |
+| **Regular** | Poison Potion | 30–70 | 16 | moderate |
+| **Greater** | Greater Poison Potion | 60–100 | 14 | strong |
+| **Deadly** | Deadly Poison Potion | 80–100 | 12 | very strong — bigger ticks, ~15 ticks |
+| **Lethal** | *(not craftable — high-end monsters only)* | — | 10 | strongest — hardest hits, up to ~20 ticks |
+
+Higher tiers deal **more damage per tick, run for more ticks, and are harder to cure** (a
+[Cure](/skills/magery/) spell or cure potion can fail outright against Deadly/Lethal). Damage
+also scales with the victim — poison is brutal on low-HP targets and a steady drain on tough
+ones. Charges count down per Infectious Strike; re-apply when they run out.
+
+**Special poisons (Stygian Abyss):** two exotic potions exist at **95–100** Poisoning:
+
+- **Darkglow Poison** — a Greater-tier venom that **reveals and lingers**, tuned to punish
+  anyone who tries to out-wait it.
+- **Parasitic Poison** — a Deadly-tier venom that **heals the attacker** for a share of the
+  poison damage it deals — the assassin's life-leech.
+
+The cure side (cure chances, *Lesser/Greater/Arch Cure*, cure potions) is covered on
+[Poison & status](/playing/poison-and-status/).
 
 ## Related skills & synergies
 
