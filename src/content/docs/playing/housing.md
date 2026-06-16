@@ -10,6 +10,7 @@ sources:
   - "servuo: Scripts/Spells/Fourth/Recall.cs (CheckCast blocks IsOverloaded) vs Spells/Seventh/GateTravel.cs (CheckCast has NO weight check; gate is InternalItem : Moongate)"
   - "servuo: Scripts/Items/Internal/Moongate.cs (OnMoveOver/OnGateUsed — no weight check)"
   - "wiki: /shard/server-rules/ (housing config)"
+  - "render: tools/render_house.py house exteriors (/img/houses/*.png)"
   - "general UO operation, pending in-game field verification"
 last_verified: 2026-06-16
 generated: false
@@ -22,6 +23,21 @@ a [player vendor](/playing/vendors-and-banking/).
 
 The single most important shard rule up front: **one house per account**
 (`AccountHouseLimit=1`, from `Config/Housing.cfg`; see [server rules](/shard/server-rules/)).
+
+Houses range from a humble thatched cottage to a sprawling castle — these are the rendered
+exteriors of a few of the classic shells (the full set, with footprints and storage numbers,
+is on [House Types](/playing/house-types/)):
+
+<div class="uo-gallery uo-gallery--lg">
+  <figure><img src="/img/houses/0x6E.png" alt="Thatched-roof cottage" loading="lazy" /><figcaption>Thatched-roof cottage</figcaption></figure>
+  <figure><img src="/img/houses/0x64.png" alt="Stone-and-plaster house" loading="lazy" /><figcaption>Stone-and-plaster house</figcaption></figure>
+  <figure><img src="/img/houses/0x96.png" alt="Marble house with patio" loading="lazy" /><figcaption>Marble house with patio</figcaption></figure>
+  <figure><img src="/img/houses/0x8C.png" alt="Large house with patio" loading="lazy" /><figcaption>Large house with patio</figcaption></figure>
+  <figure><img src="/img/houses/0x98.png" alt="Small stone tower" loading="lazy" /><figcaption>Small stone tower</figcaption></figure>
+  <figure><img src="/img/houses/0x7A.png" alt="Tower" loading="lazy" /><figcaption>Tower</figcaption></figure>
+  <figure><img src="/img/houses/0x7C.png" alt="Small stone keep" loading="lazy" /><figcaption>Small stone keep</figcaption></figure>
+  <figure><img src="/img/houses/0x7E.png" alt="Castle" loading="lazy" /><figcaption>Castle</figcaption></figure>
+</div>
 
 ## Placing a house
 

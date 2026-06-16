@@ -68,6 +68,24 @@
 	word-break: break-word;
 }
 
+/* Larger gallery tiles for detailed (non-pixel) art like rendered house
+   exteriors — bigger box, smooth scaling rather than pixelated. */
+.uo-gallery.uo-gallery--lg {
+	gap: 0.75rem;
+}
+.uo-gallery.uo-gallery--lg figure {
+	width: 160px;
+}
+.uo-gallery.uo-gallery--lg figure img {
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+	image-rendering: auto;
+}
+.uo-gallery.uo-gallery--lg figcaption {
+	font-size: 0.75rem;
+}
+
 /* Creature animation frames — same crisp upscaling, sized by the generator. */
 .uo-anim {
 	image-rendering: pixelated;
