@@ -24,6 +24,35 @@ effectively. Anatomy adds a percentage bonus to melee damage and increases how m
 bandage restores, so it sits on nearly every warrior and bandage-medic build. It is purely
 support: it has no attack or cast of its own.
 
+## How Anatomy boosts damage
+
+Anatomy is the **second-largest melee damage bonus** after [Tactics](/skills/tactics/). When a
+hit lands, `ScaleDamageAOS` (the active damage path on this AOS/EJ shard) computes:
+
+```
+anatomyBonus = Anatomy × 0.5%   (+5% extra at exactly 100.0)
+```
+
+- It scales **linearly: about +0.5% damage per point**, with a flat **+5% jump at GM**, for
+  **+55% at 100 Anatomy** (`GetBonus(Anatomy, 0.5, 100, 5) = (100 × 0.5 + 5) ÷ 100 = 0.55`).
+- This is **added** to the other melee bonuses, then the total multiplies base damage:
+  `damage = base × (1 + Tactics% + Anatomy% + Str% + …)`. Anatomy and
+  [Tactics](/skills/tactics/) together are **+123.75%** at grandmaster — more than doubling a
+  weapon's printed damage before Strength, Lumberjacking, and item Damage Increase.
+- **Worked example:** a **15**-base-damage weapon at GM Tactics + GM Anatomy + 100 Str scales
+  by `1 + 0.6875 + 0.55 + 0.35 = 2.5875` → ~**39**. Drop Anatomy alone and the multiplier
+  falls to `2.0375` → ~**31**, a ~21% damage loss — which is why no serious melee build skips
+  it.
+
+:::note[Not the old "+30%"]
+Community guides written for **pre-AOS** rules quote Anatomy as *1% per 5 points, +10% at GM*
+(= +30%). That formula (`ScaleDamageOld`) is **not** used here — this EJ shard runs the **AOS**
+path above, where GM Anatomy is **+55%**.
+:::
+
+The full melee damage stack is laid out in
+[Advanced combat → Damage components](/playing/combat-advanced/#damage-components).
+
 ## How to use it
 
 Anatomy works two ways:
@@ -59,14 +88,13 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Secondary stat | Strength |
 | Title | Biologist |
 | Mastery skill | No |
-| Gain notes | skill-ups can raise Str +0.15, Dex +0.15, Int +0.7 (per-use stat gain weights) |
+| Gain notes | training Anatomy raises **Int** (primary), or **Str** (secondary) — see [Stat gain](/mechanics/stat-gain/) |
 
-In `Scripts/Items/Equipment/Weapons/BaseWeapon.cs` the melee damage bonus is computed as
-`GetBonus(Anatomy, 0.500, 100.0, 5.00)` = `(Anatomy × 0.5 + 5) ÷ 100` at grandmaster — i.e.
-**+55% bonus damage at 100 skill** (`Anatomy × 0.5%`, plus a flat **+5%** at the GM tier), the
-companion to [Tactics](/skills/tactics/)'s +68.75%. The full melee damage stack is laid out in
-[Advanced combat → Damage components](/playing/combat-advanced/#damage-components). Anatomy
-also factors into bandage healing alongside [Healing](/skills/healing/).
+The melee damage bonus is `GetBonus(Anatomy, 0.500, 100.0, 5.00)` =
+`(Anatomy × 0.5 + 5) ÷ 100` → **+55% at GM** (detailed in
+[How Anatomy boosts damage](#how-anatomy-boosts-damage) above). Anatomy's other half is
+**healing**: it raises how much a bandage restores and, at **80+**, helps gate the strongest
+bandage cures/resurrection — see [Healing](/skills/healing/).
 
 ## Related skills & synergies
 
