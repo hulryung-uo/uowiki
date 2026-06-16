@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-16
 
+- **Updated** — Add rendered house-exterior gallery to housing page (uo-gallery--lg, smooth scaling) — visual reference from cottage to castle.  
+  [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7e2b6f9)</sub>
 - **Fixed** — Correct heavy-load travel — it's the Gate Travel spell (no overload check), not (only) public moongates; Recall blocks when overloaded but Gate Travel does not.  
   [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/09a7482)</sub>
 - **Updated** — Expand housing — dynamic decay stages + IDOC loot-rush/PvP + moving heavy loads via moongates; document the Interior Decorator tool (Turn/Up/Down).  
