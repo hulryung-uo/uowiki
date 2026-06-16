@@ -88,10 +88,11 @@ is why the placement preview reads slightly taller than 7x7.
 
 ## Customizable foundations
 
-Empty foundations you design yourself. You choose the footprint when you place it; the
-table is large (over 100 sizes), so the ranges below summarise each category. Storage and
-lockdowns scale with plot size; **Cost** is the placement gold. (As above, in-game
-lockdown/secure totals are **×1.4**.)
+Empty foundations you design yourself — see **[Customizing Your House](/playing/house-customization/)**
+for the full design-mode walkthrough (tools, stories, commit/revert, and the gold it costs).
+You choose the footprint when you place it; the table is large (over 100 sizes), so the
+ranges below summarise each category. Storage and lockdowns scale with plot size; **Cost** is
+the placement gold. (As above, in-game lockdown/secure totals are **×1.4**.)
 
 | Category | Plot sizes | Lockdowns (base) | Secure storage (base) | Cost range (gp) |
 |----------|-----------|------------------|------------------------|-----------------|

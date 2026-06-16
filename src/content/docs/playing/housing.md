@@ -67,11 +67,13 @@ through furnishing the interior.
 
 ## Customization
 
-Many house styles are **customizable**: you enter a design/customization mode (via the
-house sign or a command menu) and edit walls, floors, doors, stairs, and roofing within
-the plot's footprint and a storage/fixture budget. Pre-built (classic) houses are placed
-as-is and are not freely redesignable. Exact customization limits are **unverified** —
-open the house sign menu to see the options your house supports.
+If your house is a **customizable foundation**, you can redesign the whole structure
+yourself — walls, floors, stairs, roofs, doors, and teleporters — from the house sign's
+**"Customize This House"** mode. Classic pre-built shells are placed as-is and cannot be
+redesigned. Customizing is free to enter, but **committing a design charges (or refunds)
+gold from your bank** based on how elaborate the layout is. The full walkthrough — design
+tools, multiple stories, the backup/commit/revert workflow, and costs — has its own page:
+**[Customizing Your House](/playing/house-customization/)**.
 
 ## Lockdowns and secures
 
