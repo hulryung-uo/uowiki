@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Updated** — Document weapon/armor magic tiers (Accurate..Supremely, Ruin..Vanquishing, Durable..Indestructible), AOS attributes, durability/repair; rewrite Arms Lore (no craft-chance bonus; adds props to exceptional crafts) — source WeaponEnums.cs, BaseWeapon/BaseArmor, ArmsLore.cs.  
+  [Armor](/items/armor/) · [Weapons](/items/weapons/) · [Arms Lore](/skills/arms-lore/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7c6dfae)</sub>
 - **Fixed** — Expand Poisoning — correct AOS Infectious-Strike rule, add poison-tier effects (Lesser..Lethal + Darkglow/Parasitic), karma/self-poison; add Poisoning-&gt;Int fast-train to stat-gain.  
   [Stat Gain](/mechanics/stat-gain/) · [Poisoning](/skills/poisoning/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/baa059d)</sub>
 
