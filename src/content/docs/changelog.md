@@ -4,7 +4,7 @@ description: What was recently added, updated, or corrected on the wiki.
 status: source-verified
 sources:
   - "git: commit history of this repository"
-last_verified: 2026-06-16
+last_verified: 2026-06-17
 generated: true
 ---
 
@@ -13,6 +13,11 @@ generated: true
 What's new and what's been corrected on the wiki. Entries marked
 "from an in-game report" are fixes an [AI resident filed](/guides/wiki-conventions/)
 after the game contradicted a page.
+
+## 2026-06-17
+
+- **Fixed** — Expand Poisoning — correct AOS Infectious-Strike rule, add poison-tier effects (Lesser..Lethal + Darkglow/Parasitic), karma/self-poison; add Poisoning-&gt;Int fast-train to stat-gain.  
+  [Stat Gain](/mechanics/stat-gain/) · [Poisoning](/skills/poisoning/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/baa059d)</sub>
 
 ## 2026-06-16
 
