@@ -3,9 +3,10 @@ title: Tactics
 description: The universal melee damage skill — the exact damage bonus formula and how it trains itself.
 status: source-verified
 sources:
-  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (tacticsBonus, ScaleDamageOld)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (tacticsBonus in ScaleDamageAOS, passive Tactics CheckSkill)"
+  - "servuo: Scripts/Abilities/WeaponAbility.cs (special-move skill/Tactics requirements; TOL branch)"
   - "servuo: Server/Skills.cs (SkillInfo 27)"
-last_verified: 2026-06-11
+last_verified: 2026-06-17
 generated: false
 ---
 
@@ -16,27 +17,50 @@ multiplier behind every weapon skill — no warrior build skips it.
 
 **Stats:** Strength (primary), Dexterity (secondary) · **Title:** Tactician
 
-## What it does
+Tactics affects your damage in **two** ways: it is a large flat **damage multiplier**, and it
+**unlocks weapon special moves**.
 
-Tactics adds directly to your melee damage. In `BaseWeapon.cs`, the damage bonus stack is:
+### 1. The damage bonus
+
+When a hit lands, `ScaleDamageAOS` (the active path on this AOS/EJ shard) scales the weapon's
+base damage by a stack of additive bonuses — Tactics is the biggest one:
 
 ```
-tacticsBonus  = Tactics × 0.625%   (+6.25% extra at 100.0)
-anatomyBonus  = Anatomy × 0.5%     (+5% extra at 100.0)
-strengthBonus = Str × 0.3%         (+5% extra at 100 Str)
-lumberBonus   = Lumberjacking × 0.2% (+10% at 100.0; axes only)
+tacticsBonus  = Tactics × 0.625%   (+6.25% extra at 100.0)   → +68.75% at GM
+anatomyBonus  = Anatomy × 0.5%     (+5% extra at 100.0)      → +55% at GM
+strengthBonus = Str × 0.3%         (+5% extra at 100 Str)    → +35% at 100 Str
+lumberBonus   = Lumberjacking × 0.2% (+10% at 100.0; axes only) → +30% at GM
 ```
 
-At grandmaster, Tactics alone contributes **+68.75% damage** — the largest single physical
-bonus in the formula. A fighter without Tactics hits like a polite suggestion.
+These are **added together**, then multiply the weapon's base damage:
+`damage = base × (1 + Tactics% + Anatomy% + Str% + …)`. So **Tactics scales linearly** —
+roughly **+0.625% damage per point**, plus a **+6.25% jump at exactly 100.0**. At grandmaster
+it contributes **+68.75%**, the single largest physical bonus in the formula; a fighter
+without Tactics hits like a polite suggestion.
 
-Tactics has no active use; it is purely passive. It also gates some weapon **special moves**,
-which require minimum Tactics values (per the AOS weapon ability system — exact thresholds
-vary by move; unverified here pending a dedicated combat page).
+*Worked example:* a weapon with **15** base damage, wielded at GM Tactics + GM Anatomy + 100
+Str, is scaled by `1 + 0.6875 + 0.55 + 0.35 = 2.5875` → about **39** before item Damage
+Increase, slayers, and resists. Drop Tactics and that same swing falls to ~29 — a ~25% loss.
+The full stack lives in [Advanced combat → Damage components](/playing/combat-advanced/#damage-components).
+
+### 2. It unlocks special moves
+
+Tactics is the **secondary requirement** for weapon [special moves](/playing/combat-advanced/#special-moves-primary-and-secondary)
+(`WeaponAbility.cs`). On this shard (TOL+ rules) you need, in addition to the weapon-skill
+requirement (70 primary / 90 secondary):
+
+- **30.0 Tactics** to use a weapon's **primary** special move,
+- **60.0 Tactics** to use its **secondary** special move.
+
+Below those values the move simply won't fire (*"You need … weapon skill to perform that
+attack"*). So Tactics isn't just damage — it's the gate to disarms, bleeds, armor-ignoring
+hits, and the rest of your weapon's toolkit.
+
+Tactics has **no active use** of its own; both effects are passive.
 
 ## Training
 
-Tactics gains **passively whenever you deal weapon damage** — `ScaleDamageOld` performs a
+Tactics gains **passively whenever you deal weapon damage** — `ScaleDamageAOS` performs a
 Tactics skill check on each damage calculation. In practice:
 
 - Fight anything that fights back. Tactics rises alongside your weapon skill
