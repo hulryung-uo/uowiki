@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-16
 
+- **Updated** — Add Customizing Your House sub-page — design mode, tools (walls/floors/stairs/roofs/doors/teleporters), stories, backup/commit/revert, bank-charged commit cost (source HouseFoundation.cs, BaseHouse.cs); link from housing + house-types.  
+  [House Customization](/playing/house-customization/) · [House Types](/playing/house-types/) · [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/6341a7a)</sub>
 - **Updated** — Add rendered house-exterior gallery to housing page (uo-gallery--lg, smooth scaling) — visual reference from cottage to castle.  
   [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7e2b6f9)</sub>
 - **Fixed** — Correct heavy-load travel — it's the Gate Travel spell (no overload check), not (only) public moongates; Recall blocks when overloaded but Gate Travel does not.  
