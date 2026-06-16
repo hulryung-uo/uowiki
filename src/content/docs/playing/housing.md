@@ -7,7 +7,7 @@ sources:
   - "servuo: Config/General.cfg"
   - "servuo: Scripts/Multis/BaseHouse.cs (DecayLevel enum, DecayPeriod=5d, GetOldDecayLevel thresholds)"
   - "servuo: Scripts/Multis/DynamicDecay.cs (Enabled=Core.ML; per-stage durations)"
-  - "servuo: Scripts/Spells/Fourth/Recall.cs + Spells/Seventh/GateTravel.cs (IsOverloaded block)"
+  - "servuo: Scripts/Spells/Fourth/Recall.cs (CheckCast blocks IsOverloaded) vs Spells/Seventh/GateTravel.cs (CheckCast has NO weight check; gate is InternalItem : Moongate)"
   - "servuo: Scripts/Items/Internal/Moongate.cs (OnMoveOver/OnGateUsed — no weight check)"
   - "wiki: /shard/server-rules/ (housing config)"
   - "general UO operation, pending in-game field verification"
@@ -159,28 +159,36 @@ pile** for anyone to grab.
 If *your* house is heading toward IDOC, the lesson is simple: **visit and refresh it** long
 before it gets there, or move your valuables out — once it collapses, the pile is fair game.
 
-## Moving heavy loads through moongates
+## Moving heavy loads with Gate Travel
 
 There is a practical movement trick worth knowing when you are relocating a houseful of
-goods. **Travel magic refuses to work when you are overloaded**: casting
-[Recall](/skills/magery/) or Gate Travel while over your weight limit fails with *"Thou art
-too encumbered to move"* (`Recall.cs` / `GateTravel.cs` check `IsOverloaded`). And simply
-**walking** while overweight drains your stamina until you **stop moving entirely**
-(`WeightOverloading.cs`; see [Items & inventory → weight](/playing/items-and-inventory/#weight-and-being-overweight)).
+goods, and it rests on a real asymmetry between the two travel spells:
 
-A **public moongate**, however, has **no weight check at all** — stepping onto one calls
-`MoveToWorld` and teleports you (and your pets) regardless of how overloaded you are
-(`Moongate.cs`, `OnMoveOver` → `OnGateUsed`). So the way to relocate a pack stuffed far past
-your carry limit is:
+- **[Recall](/skills/magery/) refuses to work when you are overloaded.** Its cast check
+  rejects an over-weight caster with *"Thou art too encumbered to move"*
+  (`Recall.cs` `CheckCast` → `WeightOverloading.IsOverloaded`).
+- **Gate Travel has no weight check at all.** `GateTravel.cs` `CheckCast` only blocks for
+  the usual reasons (carrying a sigil, being a criminal, mid-combat) — **not** for being
+  overloaded. So you can open a gate while carrying far more than your limit.
 
-1. Load up past your weight limit next to a [moongate](/world/moongates-and-shrines/).
-2. Take the **one step onto the gate** (you can still manage a step or two before stamina
-   bottoms out), or have it within reach.
-3. The gate teleports you and your heavy load to the destination — no Recall, no running
-   required.
+And the gate the spell creates is a **moongate** (`InternalItem : Moongate`): stepping
+through it just calls `MoveToWorld` and teleports you — and your pets — with **no
+encumbrance check** whatsoever. Public [moongates](/world/moongates-and-shrines/) work the
+same way.
+
+So the way to relocate a pack stuffed far past your carry limit is:
+
+1. Mark a rune at the destination beforehand (you need a clear pack to Recall *out* to mark,
+   so do this first).
+2. Load up past your weight limit, then **cast Gate Travel** to that rune — it succeeds even
+   though you're overloaded.
+3. **Step through the gate.** It teleports you and your heavy load instantly — no Recall, and
+   no running (walking while overweight drains stamina until you stop entirely,
+   `WeightOverloading.cs`; see
+   [Items & inventory → weight](/playing/items-and-inventory/#weight-and-being-overweight)).
 
 It is the dependable way to shift bulk goods, resources, or furniture between regions when
-you are too encumbered to recall or run. For bulk *resources* specifically, also consider
+you are too encumbered to Recall or run. For bulk *resources* specifically, also consider
 **commodity deeds**, which compress a huge stack into one light deed — see
 [Items & inventory](/playing/items-and-inventory/#commodity-deeds).
 
