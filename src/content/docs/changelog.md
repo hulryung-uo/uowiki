@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Updated** — Expand Tactics damage explanation — ScaleDamageAOS bonus (+0.625%/pt, +68.75% at GM) with worked example, and special-move gating.  
+  [Tactics](/skills/tactics/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/da6e802)</sub>
 - **Updated** — Document weapon/armor magic tiers (Accurate..Supremely, Ruin..Vanquishing, Durable..Indestructible), AOS attributes, durability/repair; rewrite Arms Lore (no craft-chance bonus; adds props to exceptional crafts) — source WeaponEnums.cs, BaseWeapon/BaseArmor, ArmsLore.cs.  
   [Armor](/items/armor/) · [Weapons](/items/weapons/) · [Arms Lore](/skills/arms-lore/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/7c6dfae)</sub>
 - **Fixed** — Expand Poisoning — correct AOS Infectious-Strike rule, add poison-tier effects (Lesser..Lethal + Darkglow/Parasitic), karma/self-poison; add Poisoning-&gt;Int fast-train to stat-gain.  
