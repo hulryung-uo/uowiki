@@ -6,7 +6,8 @@ sources:
   - "servuo: Scripts/Misc/SkillCheck.cs (TryStatGain, IncreaseStat, CheckStatTimer)"
   - "servuo: Server/Skills.cs (SkillInfo primary/secondary stats)"
   - "servuo: Config/PlayerCaps.cfg"
-last_verified: 2026-06-11
+  - "servuo: Server/Skills.cs (per-skill Primary/Secondary StatCode — Snooping primary Dex, etc.)"
+last_verified: 2026-06-16
 generated: false
 ---
 
@@ -61,14 +62,48 @@ stat goes up by 1 only if another stat is set to *down* and can afford to drop (
 above 10). The lower of the two eligible down-stats is reduced first. With no stat set to
 *down*, you gain nothing at the cap — so set your stat arrows, not just your skill arrows.
 
+## Fast-training one stat (the "spam a skill" trick)
+
+Because stat gain rides on the **primary stat** of whatever skill is gaining, you can pump a
+single stat fast by spamming a cheap, fast-gaining skill tied to it. The recipe:
+
+1. **Set the stat arrows.** In your skills/status gump, set the stat you want to **Up** and
+   set the other two to **Down** (or *Locked*). This guarantees every successful roll lands on
+   your target stat, and — once you're at the 225 total cap — lets the target keep rising by
+   swapping points out of a *Down* stat.
+2. **Pick a skill whose *primary* stat is your target** (table below).
+3. **Spam it.** A skill still climbing (especially below ~70) gains on a large fraction of
+   uses, and each gain rolls the flat **5%** stat chance. With the stat-gain timer disabled on
+   this shard, those rolls aren't throttled — so the stat climbs quickly.
+
+**The classic example: Dexterity via [Snooping](/skills/snooping/).** Snooping's primary stat
+is **Dex**, and you can snoop the same container (a pack animal, a co-operative friend, any
+container) over and over with almost no setup — so it's the go-to "just raise my Dex" skill.
+Set Dex *Up*, Str/Int *Down*, and snoop repeatedly.
+
+**Best spam-trainers by stat** (primary-stat skills; pick whichever you can repeat fastest):
+
+| Target | Primary-stat skills to spam | Easy choice |
+|---|---|---|
+| **Dexterity** | Snooping, [Stealing](/skills/stealing/), [Lockpicking](/skills/lockpicking/), [Hiding](/skills/hiding/), [Stealth](/skills/stealth/), [Tailoring](/skills/tailoring/), [Tinkering](/skills/tinkering/), Musicianship | **Snooping** (or Hiding) |
+| **Strength** | [Mining](/skills/mining/), [Lumberjacking](/skills/lumberjacking/), [Blacksmithy](/skills/blacksmithy/), [Carpentry](/skills/carpentry/), [Tactics](/skills/tactics/) | **Mining** (dig nonstop) |
+| **Intelligence** | [Magery](/skills/magery/), [Meditation](/skills/meditation/), [Evaluating Intelligence](/skills/evaluating-intelligence/), [Inscription](/skills/inscription/), [Alchemy](/skills/alchemy/) | **Meditation** / Eval Int |
+
+Caveats: a stat can't pass **125** (or 150 enhanced), and you can't exceed **225 total** unless
+a *Down* stat has room to drop (above 10) — that's why step 1 sets the other stats *Down*. And
+the skill itself must still be **gaining** (a maxed skill stops rolling); a low or mid skill
+you're actively raising is what feeds the stat.
+
 ## Practical training notes
 
-- Train skills whose **primary stat** is the one you want: chopping wood
-  ([Lumberjacking](/skills/lumberjacking/)) for Str, casting ([Magery](/skills/magery/))
-  for Int.
-- Because the chance is flat 5% per skill-gain event, **fast-gaining skills also train stats
-  fastest** — low-level skills below 10.0 gain on every use and pull stats along.
-- Stat lock arrows are independent of skill locks; check both in your skills gump.
+- Two birds, one stone: training a skill you *want* also pulls its primary stat along — a
+  warrior swinging weapons ([Tactics](/skills/tactics/) → Str) or a mage casting
+  ([Magery](/skills/magery/) → Int) raises the right stat naturally without a dedicated
+  grind.
+- **Fast-gaining skills train stats fastest** — the 5% roll fires per skill-gain event, so a
+  skill that gains often (low/mid level) pulls stats faster than a near-maxed one.
+- **Stat lock arrows are independent of skill locks** — check both in your status/skills
+  gump. A stat left *Locked* never moves no matter what you train.
 
 ## Related
 
