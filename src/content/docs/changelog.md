@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-16
 
+- **Fixed** — Correct heavy-load travel — it's the Gate Travel spell (no overload check), not (only) public moongates; Recall blocks when overloaded but Gate Travel does not.  
+  [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/09a7482)</sub>
 - **Updated** — Expand housing — dynamic decay stages + IDOC loot-rush/PvP + moving heavy loads via moongates; document the Interior Decorator tool (Turn/Up/Down).  
   [Decorating](/playing/decorating/) · [Housing](/playing/housing/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/a52d3db)</sub>
 - **Updated** — Render ALL crafting-page icons at uniform 2x native (was carpentry-only) for consistent sizing across systems.  
