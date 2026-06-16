@@ -5,9 +5,13 @@ status: unverified
 sources:
   - "servuo: Config/Housing.cfg (AccountHouseLimit=1)"
   - "servuo: Config/General.cfg"
+  - "servuo: Scripts/Multis/BaseHouse.cs (DecayLevel enum, DecayPeriod=5d, GetOldDecayLevel thresholds)"
+  - "servuo: Scripts/Multis/DynamicDecay.cs (Enabled=Core.ML; per-stage durations)"
+  - "servuo: Scripts/Spells/Fourth/Recall.cs + Spells/Seventh/GateTravel.cs (IsOverloaded block)"
+  - "servuo: Scripts/Items/Internal/Moongate.cs (OnMoveOver/OnGateUsed — no weight check)"
   - "wiki: /shard/server-rules/ (housing config)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-16
 generated: false
 ---
 
@@ -99,16 +103,86 @@ access level.
 
 ## House decay and refreshing
 
-Houses **decay** over time if neglected. To keep a house alive you must **refresh** it,
-which on this shard happens by **the owner (or an account member) visiting / being present
-at the house** periodically; visiting resets the decay timer. A house left unrefreshed
-degrades through decay stages and eventually collapses, dropping its contents.
+Houses **decay** over time if neglected. To keep a house alive you **refresh** it, which on
+this shard happens by **the owner or an account member visiting** the house; that resets it
+to the top of the decay ladder. A house left unrefreshed degrades through a series of
+condition stages and finally **collapses**, dropping everything inside it onto the ground.
 
-Shard-specific note: with **one house per account** and only the *most recently placed*
-house auto-refreshing (`Config/Housing.cfg`), keep your single house current and do not
-expect an old, replaced house to maintain itself. The exact decay timer values on this
-shard are **unverified** — check the house sign, which reports the house's current
-condition. Visit regularly to be safe.
+The house sign reports the current **condition**, which is the decay stage
+(`BaseHouse.cs`, `DecayLevel`):
+
+| Condition (house sign) | Stage |
+|---|---|
+| **Like new** | freshly refreshed |
+| **Slightly worn** | decay has begun |
+| **Somewhat worn** | |
+| **Fairly worn** | |
+| **Greatly worn** | almost gone |
+| **In danger of collapsing** | **IDOC** — collapse is imminent |
+| *(collapsed)* | the house falls and drops its contents |
+
+**How long it takes.** Our shard runs **dynamic decay** (`DynamicDecay.Enabled = Core.ML`,
+and we are on EJ). Instead of one fixed timer, the house spends a randomized time at each
+stage before advancing: the four middle stages (Slightly → Greatly) each last roughly
+**1–2 days**, and **IDOC lasts about 12–24 hours** before the house collapses. So a house
+that is *never* refreshed survives on the order of **a week** from a full refresh to
+collapse — but the exact moment is deliberately randomized so collapses aren't perfectly
+predictable. (When dynamic decay is off, the fallback is a flat **5-day** `DecayPeriod`
+split by percentage: IDOC at 95–99.9%, collapse at 100%.)
+
+**Refresh in time.** Any owner/co-owner/account visit refreshes the house back to *Like
+new*. With **one house per account** and only the *most recently placed* house
+auto-refreshing (`Config/Housing.cfg`), keep your single current house visited and don't
+expect an old, replaced house to maintain itself. When in doubt, check the sign and visit.
+
+## When a house falls: IDOC and the loot rush
+
+A house at **"in danger of collapsing" (IDOC)** is the most dramatic event in UO's
+housing game. When the collapse timer runs out, the structure vanishes and **all of its
+contents — everything that was locked down or secured inside — drops to the ground in a
+pile** for anyone to grab.
+
+- **It becomes a free-for-all.** The contents are no longer protected by the house, so the
+  first players to reach the falling house can loot the pile. Veteran players track houses
+  through the decay stages and stake out promising IDOCs, hoping for rare decorations,
+  stockpiled resources, or gold left behind by a quitting player.
+- **In Felucca, expect large-scale PvP.** Because [Felucca is an open-PvP facet](/shard/server-rules/)
+  with no guard protection in the wilderness, a valuable IDOC routinely turns into a
+  **pitched battle** — groups fight over the drop, kill each other for the loot, and the
+  spoils go to whoever survives the scrum. This is one of the classic sources of
+  open-world PvP on the shard.
+- **In Trammel** (and other non-PvP areas) it is a non-combat **scramble** — a footrace to
+  grab the most before others, but no one can attack you.
+- **The randomized IDOC window** (12–24h) is deliberate: it stops everyone from timing the
+  exact second of collapse, so IDOC hunters have to camp or keep checking.
+
+If *your* house is heading toward IDOC, the lesson is simple: **visit and refresh it** long
+before it gets there, or move your valuables out — once it collapses, the pile is fair game.
+
+## Moving heavy loads through moongates
+
+There is a practical movement trick worth knowing when you are relocating a houseful of
+goods. **Travel magic refuses to work when you are overloaded**: casting
+[Recall](/skills/magery/) or Gate Travel while over your weight limit fails with *"Thou art
+too encumbered to move"* (`Recall.cs` / `GateTravel.cs` check `IsOverloaded`). And simply
+**walking** while overweight drains your stamina until you **stop moving entirely**
+(`WeightOverloading.cs`; see [Items & inventory → weight](/playing/items-and-inventory/#weight-and-being-overweight)).
+
+A **public moongate**, however, has **no weight check at all** — stepping onto one calls
+`MoveToWorld` and teleports you (and your pets) regardless of how overloaded you are
+(`Moongate.cs`, `OnMoveOver` → `OnGateUsed`). So the way to relocate a pack stuffed far past
+your carry limit is:
+
+1. Load up past your weight limit next to a [moongate](/world/moongates-and-shrines/).
+2. Take the **one step onto the gate** (you can still manage a step or two before stamina
+   bottoms out), or have it within reach.
+3. The gate teleports you and your heavy load to the destination — no Recall, no running
+   required.
+
+It is the dependable way to shift bulk goods, resources, or furniture between regions when
+you are too encumbered to recall or run. For bulk *resources* specifically, also consider
+**commodity deeds**, which compress a huge stack into one light deed — see
+[Items & inventory](/playing/items-and-inventory/#commodity-deeds).
 
 ## Placing a player vendor
 

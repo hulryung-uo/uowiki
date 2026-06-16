@@ -3,10 +3,11 @@ title: Decorating
 description: A practical guide to decorating your UO house — the in-house decorator tool (turn, raise, lower items), stacking and placement tricks, the lockdown-then-decorate workflow, add-on deeds, dyeing furniture, theme ideas (tavern, library, mage tower, museum), and where to find inspiration.
 status: unverified
 sources:
+  - "servuo: Scripts/Items/Tools/InteriorDecorator.cs (Turn/Up/Down commands; locked-down-only)"
   - "general UO decorating practice and community technique knowledge, pending in-game field verification"
   - "wiki: /playing/housing/ (lockdowns/secures), /playing/house-types/ (house shells)"
   - "wiki: /reference/hues/ (dye colors)"
-last_verified: 2026-06-11
+last_verified: 2026-06-16
 generated: false
 ---
 
@@ -21,22 +22,25 @@ Before decorating, you need a house: see [House Types](/playing/house-types/) fo
 shells you start from (a fixed classic house, or a customizable foundation you design
 first). Everything below assumes you are the **owner or co-owner** of the house.
 
-## The house decorator tool
+## The Interior Decorator tool
 
-The decorator tool is the heart of interior design. You access it from the **house sign
-menu** (or the house's context menu) — choose the **decorator / "Customize"** placement
-mode, or pick up the in-house **decorating tool**. With it active, single-clicking a
-**locked-down** item lets you nudge it without picking it up:
+The **Interior Decorator** is the heart of interior design — the "interior kit" that nudges
+furniture into place. It is an item (buy one from an Architect/Carpenter NPC, or craft it)
+that you place inside your house and **double-click** to open its three-mode menu
+(`Scripts/Items/Tools/InteriorDecorator.cs`, `DecorateCommand` = `Turn` / `Up` / `Down`).
+Pick a mode, then target a **locked-down** item to nudge it without picking it up:
 
-- **Turn** — rotate the item to its next available facing. Many items (chairs, tables,
-  some decorations) have several orientations; cycle until it faces the way you want.
-- **Raise** — lift the item upward by a small increment (z-height). Use this to set books
-  on a shelf, mugs on a table, or a rug under furniture.
-- **Lower** — drop the item back down toward the floor.
+- **Turn** — rotate the item to its next available facing. Many items (chairs, tables, some
+  decorations) have several orientations; cycle until it faces the way you want.
+- **Up** — lift the item upward by a small z-increment. Use this to set books on a shelf,
+  mugs on a table, or stack one decoration on another.
+- **Down** — drop the item back toward the floor.
 
-The tool only affects items that are **locked down** (or secured) — loose items can't be
-finely positioned and risk decaying. This is why the golden rule is **lock down first,
-then decorate**.
+Notes verified from the source: the decorator only works on the owner's own house, only on
+items that are **locked down or secured** (loose items can't be finely positioned and risk
+decaying), and it won't raise an item so high that it leaves the house. Add-on components
+(multi-tile furniture) can be turned. This is why the golden rule is **lock down first, then
+decorate**.
 
 ## The lockdown-then-decorate workflow
 
