@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Added** — Add Paragons, Veteran Rewards, Community Collections, and Quests pages.  
+  [Community Collections](/playing/community-collections/) · [Paragons](/playing/paragons/) · [Quests](/playing/quests/) · [Veteran Rewards](/playing/veteran-rewards/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/169a884)</sub>
 - **Added** — Add Pet Training, Virtues, and Skill Masteries pages (source Pet Training/*, Virtues/*, Skill Masteries/*); cross-link from taming/champion-spawns.  
   [Champion Spawns](/playing/champion-spawns/) · [Pet Training](/playing/pet-training/) · [Skill Masteries](/playing/skill-masteries/) · [Taming And Pets](/playing/taming-and-pets/) · [Virtues](/playing/virtues/) · [Animal Taming](/skills/animal-taming/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/4b9ea9a)</sub>
 - **Added** — Add Peerless Bosses page — keyed altar + MasterKey, private instanced rooms, 90-min slay/15-min cooldown, helper waves, ML-minor-artifact + ingredient drops, full roster (source Peerless/*, InstancedPeerless/*); link to/from champion-spawns.  
