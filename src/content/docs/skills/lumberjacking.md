@@ -5,9 +5,10 @@ status: source-verified
 sources:
   - "servuo: Scripts/Services/Harvest/Lumberjacking.cs"
   - "servuo: Scripts/Items/Resource/Log.cs (TryCreateBoards)"
-  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (lumberBonus)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (lumberBonus in ScaleDamageAOS, axe-only gate)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseAxe.cs (WeaponType.Axe)"
   - "servuo: Server/Skills.cs (SkillInfo 44)"
-last_verified: 2026-06-11
+last_verified: 2026-06-17
 generated: false
 ---
 
@@ -46,11 +47,38 @@ Chopping also turns up ML bonus resources at 100 skill (bark fragments 10%, lumi
 
 ## The axe damage bonus
 
-Lumberjacking is secretly a combat skill. In `BaseWeapon.cs`, melee damage includes
-`lumberBonus = GetBonus(skill, 0.200, 100.0, 10.00)` — **+0.2% damage per skill point, plus
-a +10% bonus at 100.0**, applied **only when wielding an axe**. A GM lumberjack swinging an
-axe hits roughly 30% harder from this bonus alone. Pairs famously with
-[Swordsmanship](/skills/swordsmanship/) (axes use the Swords skill).
+Lumberjacking is secretly a **combat skill** — but only with an axe in hand. When a hit lands,
+`ScaleDamageAOS` (the active damage path on this AOS/EJ shard) adds:
+
+```
+lumberBonus = Lumberjacking × 0.2%   (+10% extra at exactly 100.0)   → +30% at GM
+if (weapon Type != Axe) lumberBonus = 0      // axes only
+```
+
+- It scales **linearly: ~+0.2% damage per point**, with a flat **+10% jump at GM**, for
+  **+30% at 100 Lumberjacking** (`GetBonus(Lumberjacking, 0.2, 100, 10)`).
+- **Axe-only.** The bonus is zeroed unless the weapon's type is **Axe** — i.e. a weapon that
+  inherits `BaseAxe` (the whole Axes family: hatchet, war axe, battle axe, double axe,
+  large/two-handed axe, executioner's axe, ornate/heavy ornate axe, and the gargish axes).
+  Swing a sword, mace, or bow and Lumberjacking adds **nothing**.
+- It's **added** to the other melee bonuses, then multiplies base damage:
+  `damage = base × (1 + Tactics% + Anatomy% + Str% + Lumber%)`. For an axe warrior at GM
+  Tactics + GM Anatomy + GM Lumberjacking + 100 Str that's `1 + 0.6875 + 0.55 + 0.30 + 0.35 =
+  **×2.8875**` — the highest pure-skill melee multiplier in the game, which is exactly why the
+  **axe-lumberjack** is a classic damage build.
+- **Worked example:** a **15**-base-damage battle axe, GM Tactics+Anatomy+Lumber+100 Str →
+  ~**43** before item Damage Increase. The same swing with a *non-axe* loses the +30% (×2.5875
+  → ~39). Axes use the [Swordsmanship](/skills/swordsmanship/) skill, so this pairs with
+  Swords + Tactics + Anatomy.
+
+:::note[Not the old "+20%"]
+Pre-AOS rules capped the lumber bonus at **+20%** (`ScaleDamageOld`). That path isn't used
+here — this EJ shard runs the **AOS** formula above, where GM Lumberjacking with an axe is
+**+30%**.
+:::
+
+The full melee damage stack is laid out in
+[Advanced combat → Damage components](/playing/combat-advanced/#damage-components).
 
 ## Training
 
