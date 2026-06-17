@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Added** — Add Peerless Bosses page — keyed altar + MasterKey, private instanced rooms, 90-min slay/15-min cooldown, helper waves, ML-minor-artifact + ingredient drops, full roster (source Peerless/*, InstancedPeerless/*); link to/from champion-spawns.  
+  [Champion Spawns](/playing/champion-spawns/) · [Peerless Bosses](/playing/peerless-bosses/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/4bff640)</sub>
 - **Updated** — Add Champion Spawns page — 4-level escalation, champion roster, power scrolls (Felucca-only, 105-120, 6/champ), SoT/gold/artifacts, Harrower from 6 skulls (source ChampionSystem/*, BaseChampion.cs); link from dungeons/notoriety.  
   [Champion Spawns](/playing/champion-spawns/) · [Notoriety And Pvp](/playing/notoriety-and-pvp/) · [Dungeons](/world/dungeons/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/28eed59)</sub>
 - **Updated** — Add Factions (Vice vs Virtue) page — opt-in guild open-PvP, silver, 8-city 30-min sieges, reward shop; classic 4 factions are off (Faction.Enabled=!VvV.Enabled) (source ViceVsVirtue/*, Faction.cs); cross-link guilds/notoriety.  
