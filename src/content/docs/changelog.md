@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Added** — Add PvP Arena, Vendor Search, Item Enhancement, Astronomy, and Basket Weaving pages.  
+  [Astronomy](/playing/astronomy/) · [Basket Weaving](/playing/basket-weaving/) · [Item Enhancement](/playing/item-enhancement/) · [Pvp Arena](/playing/pvp-arena/) · [Vendor Search](/playing/vendor-search/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/1759792)</sub>
 - **Added** — Add Paragons, Veteran Rewards, Community Collections, and Quests pages.  
   [Community Collections](/playing/community-collections/) · [Paragons](/playing/paragons/) · [Quests](/playing/quests/) · [Veteran Rewards](/playing/veteran-rewards/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/169a884)</sub>
 - **Added** — Add Pet Training, Virtues, and Skill Masteries pages (source Pet Training/*, Virtues/*, Skill Masteries/*); cross-link from taming/champion-spawns.  
