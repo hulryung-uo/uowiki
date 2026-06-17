@@ -24,6 +24,18 @@
 	height: 44px;
 }
 
+/* Wide data tables (weapons, crafting, bestiary — many columns) would push past
+   the viewport on phones. Let them scroll horizontally INSIDE the content column
+   instead of overflowing the page. Desktop (wide content) is unaffected. */
+@media (max-width: 50rem) {
+	.sl-markdown-content table {
+		display: block;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		max-width: 100%;
+	}
+}
+
 /* 2x-native table icons (e.g. carpentry furniture): the generator emits explicit
    width/height = twice the PNG's intrinsic size, so each sprite keeps its true
    aspect ratio at a crisp integer scale — no fixed box to squash tall art. */
