@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Updated** — Add Guilds page — new menu-based system (Core.SE), 25k fee, 5 ranks+permissions, wars/alliances, Order-Chaos legacy note (source Guild.cs, Notoriety.cs); link from social + notoriety.  
+  [Communication And Social](/playing/communication-and-social/) · [Guilds](/playing/guilds/) · [Notoriety And Pvp](/playing/notoriety-and-pvp/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/bf05efc)</sub>
 - **Updated** — Expand Lumberjacking damage detail — axe-only ScaleDamageAOS bonus (+0.2%/pt, +30% at GM), axe-warrior full stack x2.8875, worked example, 'not the old +20%' note.  
   [Lumberjacking](/skills/lumberjacking/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/2aeefee)</sub>
 - **Updated** — Expand Anatomy damage detail — ScaleDamageAOS +0.5%/pt (+55% at GM), worked example, Tactics+Anatomy=+123.75%, and a 'not the old +30%' note.  
