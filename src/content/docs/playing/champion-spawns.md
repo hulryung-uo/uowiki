@@ -90,5 +90,6 @@ Covetous, Destard, and others all host one). On this shard:
 
 - [Dungeons](/world/dungeons/) — where the spawns and their champions live
 - [Notoriety & PvP](/playing/notoriety-and-pvp/) · [Factions (Vice vs Virtue)](/playing/factions/) — fighting over the loot
+- [Peerless bosses](/playing/peerless-bosses/) — the instanced, cooperative (no-PvP) counterpart
 - [Bestiary: bosses](/bestiary/bosses/) — the champions' stats
 - [Treasure hunting](/playing/treasure-hunting/) — the other end-game loot loop
