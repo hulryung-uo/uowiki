@@ -24,6 +24,10 @@ New to delving? Read [Combat Basics](/playing/combat-basics/) and
 **Felucca** and **Trammel** with identical spawns — but in Felucca they're also
 [open PvP zones with better loot](/shard/server-rules/).
 
+Many dungeons below note **"a champion spawn"** — an escalating boss event that drops
+**power scrolls**. How those work (levels, champions, rewards, and the Harrower) is on
+[Champion Spawns](/playing/champion-spawns/).
+
 ![Map of Felucca dungeon locations](/img/maps/felucca-dungeons.png)
 
 ## Quick reference

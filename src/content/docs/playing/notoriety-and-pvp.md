@@ -172,6 +172,7 @@ straight from the rules above:
 
 - [Guilds](/playing/guilds/) — wars and alliances, the sanctioned way for guilds to fight
 - [Factions (Vice vs Virtue)](/playing/factions/) — opt-in guild-based open PvP and city sieges
+- [Champion Spawns](/playing/champion-spawns/) — Felucca power-scroll hotspots and PvP flashpoints
 - [World & time](/playing/world-and-time/) — guard zones, facets, reds-to-Felucca
 - [Death & resurrection](/playing/death-and-resurrection/) — what you lose on a corpse
 - [Communication & social](/playing/communication-and-social/) — guild war/ally, "i must consider my sins"
