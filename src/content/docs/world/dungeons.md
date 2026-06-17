@@ -26,7 +26,8 @@ New to delving? Read [Combat Basics](/playing/combat-basics/) and
 
 Many dungeons below note **"a champion spawn"** — an escalating boss event that drops
 **power scrolls**. How those work (levels, champions, rewards, and the Harrower) is on
-[Champion Spawns](/playing/champion-spawns/).
+[Champion Spawns](/playing/champion-spawns/). For **above-ground** monsters — what roams
+around each town and the wilderness — see [Where to Find Creatures](/world/where-to-find-creatures/).
 
 ![Map of Felucca dungeon locations](/img/maps/felucca-dungeons.png)
 

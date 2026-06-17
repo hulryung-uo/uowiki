@@ -67,5 +67,6 @@ towns of Papua and Delucia.
 ## Dungeons, moongates, shrines
 
 - [Dungeons](/world/dungeons/) — all mapped dungeons with locations and danger notes
+- [Where to find creatures](/world/where-to-find-creatures/) — overworld spawns by town, terrain, and the Lost Lands
 - [Moongates and shrines](/world/moongates-and-shrines/) — the public travel network and the
   Virtue shrines
