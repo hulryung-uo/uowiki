@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Updated** — Add Factions (Vice vs Virtue) page — opt-in guild open-PvP, silver, 8-city 30-min sieges, reward shop; classic 4 factions are off (Faction.Enabled=!VvV.Enabled) (source ViceVsVirtue/*, Faction.cs); cross-link guilds/notoriety.  
+  [Factions](/playing/factions/) · [Guilds](/playing/guilds/) · [Notoriety And Pvp](/playing/notoriety-and-pvp/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/293db92)</sub>
 - **Updated** — Add Guilds page — new menu-based system (Core.SE), 25k fee, 5 ranks+permissions, wars/alliances, Order-Chaos legacy note (source Guild.cs, Notoriety.cs); link from social + notoriety.  
   [Communication And Social](/playing/communication-and-social/) · [Guilds](/playing/guilds/) · [Notoriety And Pvp](/playing/notoriety-and-pvp/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/bf05efc)</sub>
 - **Updated** — Expand Lumberjacking damage detail — axe-only ScaleDamageAOS bonus (+0.2%/pt, +30% at GM), axe-warrior full stack x2.8875, worked example, 'not the old +20%' note.  
