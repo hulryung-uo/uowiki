@@ -88,6 +88,7 @@ to fight alongside one, **ally** with it.
 
 ## See also
 
+- [Factions (Vice vs Virtue)](/playing/factions/) — opt-in guild-based open PvP and city sieges
 - [Notoriety & PvP](/playing/notoriety-and-pvp/) — criminal flags, guards, and open-PvP Felucca
 - [Communication & social](/playing/communication-and-social/) — chat channels and grouping
 - [Housing](/playing/housing/) — a guild often shares a house as a base
