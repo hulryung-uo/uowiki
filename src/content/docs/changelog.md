@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-17
 
+- **Updated** — Add Champion Spawns page — 4-level escalation, champion roster, power scrolls (Felucca-only, 105-120, 6/champ), SoT/gold/artifacts, Harrower from 6 skulls (source ChampionSystem/*, BaseChampion.cs); link from dungeons/notoriety.  
+  [Champion Spawns](/playing/champion-spawns/) · [Notoriety And Pvp](/playing/notoriety-and-pvp/) · [Dungeons](/world/dungeons/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/28eed59)</sub>
 - **Updated** — Add Factions (Vice vs Virtue) page — opt-in guild open-PvP, silver, 8-city 30-min sieges, reward shop; classic 4 factions are off (Faction.Enabled=!VvV.Enabled) (source ViceVsVirtue/*, Faction.cs); cross-link guilds/notoriety.  
   [Factions](/playing/factions/) · [Guilds](/playing/guilds/) · [Notoriety And Pvp](/playing/notoriety-and-pvp/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/293db92)</sub>
 - **Updated** — Add Guilds page — new menu-based system (Core.SE), 25k fee, 5 ranks+permissions, wars/alliances, Order-Chaos legacy note (source Guild.cs, Notoriety.cs); link from social + notoriety.  
