@@ -256,6 +256,7 @@ danger or aggro extra monsters.
 
 ## See also
 
+- [Pet Training](/playing/pet-training/) — grow a tamed pet's stats, skills, and abilities
 - [Animal Taming](/skills/animal-taming/) · [Animal Lore](/skills/animal-lore/) ·
   [Veterinary](/skills/veterinary/) · [Herding](/skills/herding/)
 - [Animal Tamer template](/templates/animal-tamer/) — a full starting build

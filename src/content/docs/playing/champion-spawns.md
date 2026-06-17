@@ -62,8 +62,8 @@ fight (`BaseChampion.GivePowerScrolls`):
   *and* Scrolls of Transcendence; on other facets it drops **Scrolls of Transcendence only**
   (instant partial skill gains). This — plus open PvP — is why serious players run Felucca
   spawns.
-- **Gold shower**, a chance at an **artifact**, and **skill-mastery primers** round out the
-  loot.
+- **Gold shower**, a chance at an **artifact**, and **[skill-mastery primers](/playing/skill-masteries/)**
+  round out the loot.
 
 ## The Harrower
 

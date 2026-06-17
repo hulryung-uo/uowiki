@@ -84,4 +84,5 @@ eventually land. See [using & training skills](/playing/using-and-training-skill
 
 - **Animal Lore** — inspect before you tame; trains passively alongside
 - **Veterinary** — bandage-heal and resurrect your pets ([Healing](/skills/healing/)'s animal cousin)
+- [Pet Training](/playing/pet-training/) — grow the pet after you tame it (stats, skills, abilities)
 - [Skara Brae](/world/skara-brae/) — the tamer's town
