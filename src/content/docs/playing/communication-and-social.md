@@ -119,17 +119,16 @@ Leave a party from the same menu. A leader can disband or remove members.
 A **guild** is a persistent player organization with a shared chat, abbreviation, and
 title that appears beside member names.
 
-**To join a guild:**
+This shard runs the **menu-based new guild system**, so you manage everything from the
+**Guild button on your paperdoll** (no physical guildstone needed). Creating a guild costs
+**25,000 gold**; joining one means accepting an **invitation** from a member with invite
+rights, after which your guild **[abbreviation]** appears beside your name. The full rules —
+the five ranks, wars, and alliances — are on the dedicated **[Guilds](/playing/guilds/)** page.
 
-1. Find a **guildmaster** (a guild stone or guildmaster NPC, or be invited by an existing
-   member with invite rights).
-2. **Accept the invitation** when offered.
-3. Your character now shows the guild **abbreviation** in brackets after your name and may
-   wear a **guild title**.
+Guild features at a glance:
 
-Guild features:
-
-- **Guild chat** — a private channel to all online guildmates.
+- **Guild chat** — a private channel to all online guildmates (alliance members get
+  **alliance chat** too).
 - **Abbreviations and titles** — set by guild leadership; shown on your paperdoll/name.
 - **Alliances and wars** — guilds can ally (treated as friendly) or declare war (members
   become mutually attackable). War status changes your notoriety toward enemy guildmates

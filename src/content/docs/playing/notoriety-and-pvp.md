@@ -170,6 +170,7 @@ straight from the rules above:
 
 ## See also
 
+- [Guilds](/playing/guilds/) — wars and alliances, the sanctioned way for guilds to fight
 - [World & time](/playing/world-and-time/) — guard zones, facets, reds-to-Felucca
 - [Death & resurrection](/playing/death-and-resurrection/) — what you lose on a corpse
 - [Communication & social](/playing/communication-and-social/) — guild war/ally, "i must consider my sins"
