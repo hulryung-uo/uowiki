@@ -108,6 +108,21 @@ Match the [house shell](/playing/house-types/) to the theme — a thatched cotta
 cozy home, a keep or castle makes a guild hall or museum, a customizable foundation lets
 you design the exact floor plan a theme needs.
 
+## Mannequins & house servants
+
+Two special **house NPCs** are decoration in their own right (both `BaseCreature`, invulnerable,
+placed in your house and renamable):
+
+- **Mannequin** — a posable dummy you **dress in gear** to **display a suit** in your house.
+  Equip it from your pack (it allows the owner to equip/lift), name it, and it shows off a full
+  outfit — perfect for a trophy room, a "for sale" display by a vendor, or just showing off a
+  rare set. (`Scripts/Mobiles/NPCs/Mannequin/Mannequin.cs`.)
+- **Steward** — a house servant NPC you can place, rename, and keep around the house as flavor
+  (and light utility); like the mannequin it's invulnerable and ignores house restrictions.
+
+Both are obtained as rewards (e.g. through [Clean Up Britannia](/playing/cleanup-britannia/))
+and count as house décor — a living centerpiece rather than a static statue.
+
 ## Storage vs. decoration balance
 
 Every decoration is a lockdown you can't spend on stored goods. Decide your house's

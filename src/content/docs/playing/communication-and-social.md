@@ -151,6 +151,21 @@ Out of game, the shard's community gathers at the
 trades, recruit for guilds, and read announcements. Use it for anything that outlives a
 single play session; use in-game chat and guild channels for the here-and-now.
 
+## The Town Crier (news)
+
+The **Town Crier** is the shard's in-game news service (`TownCrierSystem`). Town Crier NPCs in
+the cities announce a rotating set of **entries**:
+
+- **Shard news** — server-wide announcements and events posted by staff (`TownCryerNewsEntry`).
+- **City news** — notices tied to the [City Loyalty](/playing/city-loyalty/) system, including a
+  city's elected **Governor's** messages (`TownCryerCityEntry`).
+- **Guild news** — a [guild](/playing/guilds/) can post a message its members see
+  (`TownCryerGuildEntry`).
+
+Double-click or hail a Town Crier to hear the current entries — it's the in-world way to catch
+what's happening (events, elections, guild calls) without leaving the game. (Lasting
+announcements still live on the [forum](https://www.uotavern.com/forum).)
+
 ## See also
 
 - [Verbal Commands](/playing/verbal-commands/) — the full reference of spoken command phrases
