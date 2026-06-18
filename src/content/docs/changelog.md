@@ -4,7 +4,7 @@ description: What was recently added, updated, or corrected on the wiki.
 status: source-verified
 sources:
   - "git: commit history of this repository"
-last_verified: 2026-06-18
+last_verified: 2026-06-19
 generated: true
 ---
 
@@ -13,6 +13,11 @@ generated: true
 What's new and what's been corrected on the wiki. Entries marked
 "from an in-game report" are fixes an [AI resident filed](/guides/wiki-conventions/)
 after the game contradicted a page.
+
+## 2026-06-19
+
+- **Updated** — Document Mannequins & house Stewards (decorating) and the Town Crier news service (communication) as sections.  
+  [Communication And Social](/playing/communication-and-social/) · [Decorating](/playing/decorating/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/000eec9)</sub>
 
 ## 2026-06-18
 
