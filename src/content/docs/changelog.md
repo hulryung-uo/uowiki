@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-19
 
+- **Added** — Add Fire Casino and Ultima Store pages + Mini Champion Spawns section.  
+  [Champion Spawns](/playing/champion-spawns/) · [Fire Casino](/playing/fire-casino/) · [Ultima Store](/playing/ultima-store/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/4808017)</sub>
 - **Updated** — Document Mannequins & house Stewards (decorating) and the Town Crier news service (communication) as sections.  
   [Communication And Social](/playing/communication-and-social/) · [Decorating](/playing/decorating/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/000eec9)</sub>
 
