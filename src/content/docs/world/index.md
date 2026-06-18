@@ -68,5 +68,6 @@ towns of Papua and Delucia.
 
 - [Dungeons](/world/dungeons/) — all mapped dungeons with locations and danger notes
 - [Where to find creatures](/world/where-to-find-creatures/) — overworld spawns by town, terrain, and the Lost Lands
+- [The Expansion Lands](/world/expansion-lands/) — Ter Mur, the Underworld/Tomb of Kings, and the Valley of Eodon
 - [Moongates and shrines](/world/moongates-and-shrines/) — the public travel network and the
   Virtue shrines
