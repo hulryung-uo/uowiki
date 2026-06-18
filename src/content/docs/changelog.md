@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-18
 
+- **Updated** — Add Necromancy, Chivalry, Mysticism, Spellweaving, Bushido, Ninjitsu school pages (source Scripts/Spells/*); link them from the magic index via gen_spells footer.  
+  [Magic](/magic/) (72) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/5df9d93)</sub>
 - **Added** — Add High Seas, Soulstones, Doom Gauntlet, Seasonal Events (incl. Treasures of Tokuno), Expansion Lands (Ter Mur/Eodon/Underworld), Aquariums, Monster Stealing, Loyalty Ratings.  
   Playing (7) · [World](/world/) (2) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/b454b87)</sub>
 - **Added** — Add City Loyalty/Governors, Clean Up Britannia, Daily Rares, Huntmaster Challenge, Armor Refinement pages.  
