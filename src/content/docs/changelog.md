@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-18
 
+- **Added** — Add City Loyalty/Governors, Clean Up Britannia, Daily Rares, Huntmaster Challenge, Armor Refinement pages.  
+  [Armor Refinement](/playing/armor-refinement/) · [City Loyalty](/playing/city-loyalty/) · [Cleanup Britannia](/playing/cleanup-britannia/) · [Daily Rares](/playing/daily-rares/) · [Huntmaster Challenge](/playing/huntmaster-challenge/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/81c2d3b)</sub>
 - **Updated** — Add Where to Find Creatures — overworld spawns by town/terrain/Lost Lands, built from Spawns/felucca.xml; link from dungeons + world index.  
   [Dungeons](/world/dungeons/) · [World](/world/) · [Where To Find Creatures](/world/where-to-find-creatures/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/20d275f)</sub>
 
