@@ -187,6 +187,17 @@ def gen_index(spells: list, circles: dict, spell_icons: dict, locale: str) -> st
     out.append("")
     out.append(L(locale, "magic.runic_note"))
     out.append("")
+    pfx = locale_prefix(locale)
+    out.append("## Other spell schools")
+    out.append("")
+    out.append("Magery is one of several casting disciplines. The others each have their own"
+               " spell/ability list:")
+    out.append("")
+    for slug, label in (("necromancy", "Necromancy"), ("chivalry", "Chivalry"),
+                        ("mysticism", "Mysticism"), ("spellweaving", "Spellweaving"),
+                        ("bushido", "Bushido"), ("ninjitsu", "Ninjitsu")):
+        out.append(f"- [{label}]({pfx}/magic/{slug}/)")
+    out.append("")
     return "\n".join(out)
 
 
