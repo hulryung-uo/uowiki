@@ -16,6 +16,8 @@ after the game contradicted a page.
 
 ## 2026-06-18
 
+- **Added** — Add High Seas, Soulstones, Doom Gauntlet, Seasonal Events (incl. Treasures of Tokuno), Expansion Lands (Ter Mur/Eodon/Underworld), Aquariums, Monster Stealing, Loyalty Ratings.  
+  Playing (7) · [World](/world/) (2) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/b454b87)</sub>
 - **Added** — Add City Loyalty/Governors, Clean Up Britannia, Daily Rares, Huntmaster Challenge, Armor Refinement pages.  
   [Armor Refinement](/playing/armor-refinement/) · [City Loyalty](/playing/city-loyalty/) · [Cleanup Britannia](/playing/cleanup-britannia/) · [Daily Rares](/playing/daily-rares/) · [Huntmaster Challenge](/playing/huntmaster-challenge/) <sub>[details](https://github.com/hulryung-uo/uowiki/commit/81c2d3b)</sub>
 - **Updated** — Add Where to Find Creatures — overworld spawns by town/terrain/Lost Lands, built from Spawns/felucca.xml; link from dungeons + world index.  
