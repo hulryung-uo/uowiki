@@ -74,6 +74,16 @@ six** and place them on the braziers of a **Champion Skull Platform**, and they 
 toughest encounter in this chain and pays out the **largest haul of scrolls** (including the
 top-tier 120 power scrolls and stat scrolls) to those who bring it down.
 
+## Mini champion spawns
+
+Alongside the full champions there are **mini champion spawns** (`MiniChampionSystem`) — smaller,
+self-contained versions of the same idea. A mini champ runs through a few **levels** of
+escalating creatures like a normal spawn, but on a reduced scale, and instead of power scrolls it
+rewards a crafting **essence** (e.g. Essence of Precision, Diligence, or Achievement — imbuing
+ingredients). Themed lairs include **Crimson Veins**, the **Fairy Dragon Lair**, and the
+**Abyssal Lair**. They're a lighter-weight way to get a champion-style fight (and essence loot)
+without committing to a full spawn.
+
 ## Where to find them — and the PvP
 
 Champion spawns sit deep in many **[dungeons](/world/dungeons/)** (Despise, Deceit, Shame,
