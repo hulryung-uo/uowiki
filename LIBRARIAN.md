@@ -45,9 +45,14 @@ Run from `/Users/dkkang/dev/uo/uowiki`. Sibling repos: `../servuo` (ground truth
    Skip silently if the API is unreachable.
 
 7. **Ship** — commit all content changes per CLAUDE.md convention first, then
-   refresh the changelog from that history and commit it on its own:
+   refresh the changelog AND the hub feed from that history and commit them:
    `python3 tools/gen_changelog.py && git add src/content/docs/changelog.md &&
    git commit -m "wiki(meta): regenerate changelog"` (skips if no diff).
+   `python3 tools/gen_feed.py && git add public/recent.json &&
+   git commit -m "wiki(meta): regenerate hub feed"` (skips if no diff).
+   Both read git history, so they must run AFTER the content commits and are
+   committed (not built on Vercel, whose checkout may be shallow / lack history).
+   `public/recent.json` is what the hub's "From the Library" panel fetches.
    Then `npm run build` (must pass), `git push`, and deploy:
    `vercel --prod --yes --archive=tgz`
    (`--archive=tgz` is required — the plain upload aborts on the ~1,700 media

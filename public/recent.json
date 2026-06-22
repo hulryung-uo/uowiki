@@ -1,126 +1,119 @@
 {
  "items": [
   {
-   "kind": "Updated",
-   "summary": "Forum links now point to forum.uotavern.com (forum moved to its subdomain)",
+   "kind": "Added",
+   "summary": "Add Fire Casino and Ultima Store pages + Mini Champion Spawns section",
    "sections": [
-    "Getting Started",
-    "How to Play",
-    "Templates"
+    "How to Play"
    ],
-   "date": "2026-06-12"
+   "date": "2026-06-19"
   },
   {
    "kind": "Updated",
-   "summary": "Locale-aware generators — bestiary/magic/items/crafting now ko+ja",
+   "summary": "Document Mannequins & house Stewards (decorating) and the Town Crier news service (communication) as sections",
    "sections": [
-    "Crafting",
-    "Items",
+    "How to Play"
+   ],
+   "date": "2026-06-19"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add Necromancy, Chivalry, Mysticism, Spellweaving, Bushido, Ninjitsu school pages (source Scripts/Spells/*); link them from the magic index via gen_spells footer",
+   "sections": [
     "Magic"
    ],
-   "date": "2026-06-12"
+   "date": "2026-06-18"
   },
   {
    "kind": "Added",
-   "summary": "Add 8 builds + control essay — bard/pvp tamer, tri-bard, crafter mule, lumberjack warrior, alchemy/halberd/stun mage (마사)",
-   "sections": [
-    "Essays",
-    "Templates"
-   ],
-   "date": "2026-06-12"
-  },
-  {
-   "kind": "Updated",
-   "summary": "Move crafting-during-downtime from Getting Started to How to Play",
-   "sections": [
-    "How to Play"
-   ],
-   "date": "2026-06-12"
-  },
-  {
-   "kind": "Updated",
-   "summary": "Essays & Tales section + UO Expansions history",
-   "sections": [
-    "Essays",
-    "Reference"
-   ],
-   "date": "2026-06-12"
-  },
-  {
-   "kind": "Added",
-   "summary": "Enrich cities + 9 new towns, with uo.com service icons",
-   "sections": [
-    "World"
-   ],
-   "date": "2026-06-12"
-  },
-  {
-   "kind": "Updated",
-   "summary": "Crafting: field-verified failure material loss (full listed resources burned per failed smith attempt) + EJ menu grouping + cheapest-trainer guidance (via mcp, claude-foundry)",
-   "sections": [
-    "How to Play"
-   ],
-   "date": "2026-06-12"
-  },
-  {
-   "kind": "Updated",
-   "summary": "Hiding: document the 10s skill-use lockout (field-verified — eager pacing wastes 1 in 3 attempts) (via mcp, claude-foundry)",
-   "sections": [
-    "Skills"
-   ],
-   "date": "2026-06-12"
-  },
-  {
-   "kind": "Updated",
-   "summary": "Treasure dig-site coordinate table + per-dungeon detail (maps, features, spawns)",
+   "summary": "Add High Seas, Soulstones, Doom Gauntlet, Seasonal Events (incl. Treasures of Tokuno), Expansion Lands (Ter Mur/Eodon/Underworld), Aquariums, Monster Stealing, Loyalty Ratings",
    "sections": [
     "How to Play",
     "World"
    ],
-   "date": "2026-06-12"
+   "date": "2026-06-18"
   },
   {
-   "kind": "Updated",
-   "summary": "Authentic ink-on-parchment treasure map render",
+   "kind": "Added",
+   "summary": "Add City Loyalty/Governors, Clean Up Britannia, Daily Rares, Huntmaster Challenge, Armor Refinement pages",
    "sections": [
     "How to Play"
    ],
-   "date": "2026-06-12"
+   "date": "2026-06-18"
   },
   {
-   "kind": "Updated",
-   "summary": "Accurate decoded-map mechanic — 600-tile region, off-centre pin",
+   "kind": "Added",
+   "summary": "Add Where to Find Creatures — overworld spawns by town/terrain/Lost Lands, built from Spawns/felucca.xml; link from dungeons + world index",
+   "sections": [
+    "World"
+   ],
+   "date": "2026-06-18"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add PvP Arena, Vendor Search, Item Enhancement, Astronomy, and Basket Weaving pages",
    "sections": [
     "How to Play"
    ],
-   "date": "2026-06-12"
+   "date": "2026-06-17"
   },
   {
-   "kind": "Updated",
-   "summary": "Concrete how-to-raise method on every skill page",
+   "kind": "Added",
+   "summary": "Add Paragons, Veteran Rewards, Community Collections, and Quests pages",
    "sections": [
-    "Skills"
+    "How to Play"
    ],
-   "date": "2026-06-11"
+   "date": "2026-06-17"
   },
   {
-   "kind": "Updated",
-   "summary": "By-profession hubs + PvP builds; plants/gardening; ServUO=emulator",
-   "sections": [
-    "Getting Started",
-    "How to Play",
-    "Our Shard"
-   ],
-   "date": "2026-06-11"
-  },
-  {
-   "kind": "Updated",
-   "summary": "Treasure hunting — system, skills, dig-location map, decoded-map gump",
+   "kind": "Added",
+   "summary": "Add Pet Training, Virtues, and Skill Masteries pages (source Pet Training/*, Virtues/*, Skill Masteries/*); cross-link from taming/champion-spawns",
    "sections": [
     "How to Play",
     "Skills"
    ],
-   "date": "2026-06-11"
+   "date": "2026-06-17"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add Peerless Bosses page — keyed altar + MasterKey, private instanced rooms, 90-min slay/15-min cooldown, helper waves, ML-minor-artifact + ingredient drops, full roster (source Peerless/*, InstancedPeerless/*); link to/from champion-spawns",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-17"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add Champion Spawns page — 4-level escalation, champion roster, power scrolls (Felucca-only, 105-120, 6/champ), SoT/gold/artifacts, Harrower from 6 skulls (source ChampionSystem/*, BaseChampion.cs); link from dungeons/notoriety",
+   "sections": [
+    "How to Play",
+    "World"
+   ],
+   "date": "2026-06-17"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add Factions (Vice vs Virtue) page — opt-in guild open-PvP, silver, 8-city 30-min sieges, reward shop; classic 4 factions are off (Faction.Enabled=!VvV.Enabled) (source ViceVsVirtue/*, Faction.cs); cross-link guilds/notoriety",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-17"
+  },
+  {
+   "kind": "Added",
+   "summary": "Add Guilds page — new menu-based system (Core.SE), 25k fee, 5 ranks+permissions, wars/alliances, Order-Chaos legacy note (source Guild.cs, Notoriety.cs); link from social + notoriety",
+   "sections": [
+    "How to Play"
+   ],
+   "date": "2026-06-17"
+  },
+  {
+   "kind": "Updated",
+   "summary": "Expand Lumberjacking damage detail — axe-only ScaleDamageAOS bonus (+0.2%/pt, +30% at GM), axe-warrior full stack x2.8875, worked example, 'not the old +20%' note",
+   "sections": [
+    "Skills"
+   ],
+   "date": "2026-06-17"
   }
  ]
 }
