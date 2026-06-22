@@ -6,10 +6,14 @@ Checks, per page:
      (draft | unverified | source-verified | field-verified)
   b) internal markdown links (/section/slug/ style) resolve to an existing
      content file (or a file in public/)
-  c) last_verified is present on non-draft pages and not older than 90 days
+  c) last_verified is present on non-draft pages and not older than 90 days.
+     For curated pages staleness is an ERROR (a human must re-verify); for
+     GENERATED pages (generated: true) it is a non-failing WARNING — they're
+     rebuilt from source data, not hand-re-verified, so wall-clock age alone
+     shouldn't block deploys.
   d) pages with generated: true contain an AUTO-GENERATED banner
 
-Any finding is an error; exits non-zero if any are found.
+Errors exit non-zero; warnings are reported but do not fail the build.
 
 Usage:
   python3 tools/lint_wiki.py                          # lint everything
@@ -87,15 +91,17 @@ def link_resolves(href: str) -> bool:
 
 def lint_page(path: Path, today: datetime.date):
     errors = []
+    warnings = []
     text = path.read_text(encoding="utf-8")
     fm, body = parse_frontmatter(text)
 
     if fm is None:
-        return ["no frontmatter block found"]
+        return ["no frontmatter block found"], warnings
 
     # (a) title + status
     if not fm.get("title"):
         errors.append("frontmatter missing `title`")
+    is_generated = fm.get("generated", "false").lower() == "true"
     status = fm.get("status", "")
     if status not in VALID_STATUS:
         errors.append(
@@ -120,13 +126,22 @@ def lint_page(path: Path, today: datetime.date):
             else:
                 age = (today - lv).days
                 if age > STALE_DAYS:
-                    errors.append(f"stale: last_verified {lv_raw} is {age} days old (> {STALE_DAYS})")
+                    msg = f"stale: last_verified {lv_raw} is {age} days old (> {STALE_DAYS})"
+                    # Generated pages are rebuilt from source data, not hand-re-verified,
+                    # so wall-clock staleness is a non-failing warning rather than an
+                    # error — otherwise the whole batch (~all generated pages share one
+                    # last_verified date) would hard-fail the build on the same day and
+                    # block deploys. Curated pages still error: they need human re-check.
+                    if is_generated:
+                        warnings.append(msg)
+                    else:
+                        errors.append(msg)
 
     # (d) generated pages need the banner
-    if fm.get("generated", "false").lower() == "true" and BANNER_MARK not in body:
+    if is_generated and BANNER_MARK not in body:
         errors.append("generated: true but no AUTO-GENERATED banner in body")
 
-    return errors
+    return errors, warnings
 
 
 def main():
@@ -153,20 +168,29 @@ def main():
 
     today = datetime.date.today()
     total_errors = 0
+    total_warnings = 0
     clean = 0
     for page in pages:
-        errs = lint_page(page, today)
+        errs, warns = lint_page(page, today)
         rel = page.relative_to(WIKI_ROOT) if page.is_relative_to(WIKI_ROOT) else page
         if errs:
             print(f"FAIL {rel}")
             for e in errs:
                 print(f"     - {e}")
+            for w in warns:
+                print(f"     ~ {w}")
             total_errors += len(errs)
+        elif warns:
+            print(f"WARN {rel}")
+            for w in warns:
+                print(f"     ~ {w}")
         else:
             clean += 1
+        total_warnings += len(warns)
 
     print(f"\n{len(pages)} pages checked: {clean} clean, "
-          f"{len(pages) - clean} with problems, {total_errors} errors")
+          f"{len(pages) - clean} with problems, "
+          f"{total_errors} errors, {total_warnings} warnings")
     sys.exit(1 if total_errors else 0)
 
 
