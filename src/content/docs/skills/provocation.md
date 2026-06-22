@@ -1,12 +1,15 @@
 ---
 title: Provocation
 description: Goad monsters into fighting each other.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 22)"
+  - "servuo: Server/Skills.cs (SkillInfo id 22)"
   - "servuo: Scripts/Skills/Provocation.cs"
+  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs (CheckMusicianship, GetDifficultyFor, GetBardRange)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills, Unprovokable)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (TryStatGain, ML stat-gain path)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -54,13 +57,22 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Secondary stat | Dexterity |
 | Title | Rouser |
 | Mastery skill | Yes |
-| Gain notes | skill-ups can raise Dex +0.45, Int +0.05 (per-use stat gain weights) |
+| Gain notes | on a skill-up, the standard ML stat-gain roll favors **Int** (primary) then **Dex** (secondary) |
+
+On our EJ shard (`Core.ML`), a skill-up rolls the standard stat-gain mechanic
+(`Scripts/Misc/SkillCheck.cs`, `TryStatGain`): a flat ~5% chance, then the **primary** stat
+(Int) is favored ~3:1 over the **secondary** (Dex). Provocation's `DexGain`/`IntGain` weights
+in `Server/Skills.cs` (4.5 / 0.5) only applied on the *pre-ML* mechanic and do not govern
+gains on this shard.
 
 From `Scripts/Skills/Provocation.cs`: the difficulty is the **average of both creatures'**
-instrument difficulty, minus 5 — `diff = ((diff(A) + diff(B)) × 0.5) − 5` — and the check is
-`CheckTargetSkill(Provocation, target, diff − 25, diff + 25)`. [Musicianship](/skills/musicianship/)
-above 100 subtracts `(music − 100) × 0.5` from the difficulty. The reuse delay is about
-**10 seconds** (reduced by the mastery bonus).
+instrument difficulty, minus 5 — `diff = ((GetDifficultyFor(A) + GetDifficultyFor(B)) × 0.5) − 5`
+— and the check is `CheckTargetSkill(Provocation, target, diff − 25, diff + 25)`.
+[Musicianship](/skills/musicianship/) above 100 subtracts `(music − 100) × 0.5` from the
+difficulty, and the mastery bonus reduces it further. Both targets must be within bard range
+(`8 + Provocation/15` tiles) of each other. The reuse delay is **10 seconds** (reduced by the
+mastery bonus). Controlled pets, `Unprovokable` creatures, and paragons of base difficulty
+≥ 160 cannot be provoked.
 
 ## Related skills & synergies
 

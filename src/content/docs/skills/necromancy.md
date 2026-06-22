@@ -1,12 +1,14 @@
 ---
 title: Necromancy
 description: Dark spells fueled by special reagents.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 49)"
-  - "servuo: Scripts/Spells/Necromancy/"
+  - "servuo: Server/Skills.cs (SkillInfo 49: Int primary / Str secondary, Necromancer, mastery)"
+  - "servuo: Scripts/Spells/Necromancy/NecromancerSpell.cs (CastSkill=Necromancy, DamageSkill=SpiritSpeak)"
+  - "servuo: Scripts/Spells/Necromancy/ (CurseWeapon, CorpseSkin, PainSpike, BloodOathSpell, WraithForm, LichForm, VampiricEmbrace, HorrificBeast, SummonFamiliar, AnimateDeadSpell, PoisonStrike, Strangle, Wither, Exorcism — reagents BatWing/GraveDust/DaemonBlood/NoxCrystal/PigIron)"
+  - "servuo: Scripts/Mobiles/NPCs/Mulcivikh.cs (Umbra Necromancy trainer); Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeach AOS-only; baseToSet = BaseFixedPoint/3, capped 42.0)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

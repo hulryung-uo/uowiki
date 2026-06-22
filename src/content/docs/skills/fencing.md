@@ -1,11 +1,13 @@
 ---
 title: Fencing
 description: Hit things with spears, daggers, and pointed weapons.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 42 — Fencing: Dex/Str, gain Str 0.45/Dex 0.55, title Fencer, mastery=true)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = ourSkill.BaseFixedPoint / 3, capped 420 = 42.0)"
+  - "servuo: Scripts/Items/Equipment/Weapons/Kryss.cs (ArmorIgnore + InfectiousStrike), Spear.cs / Pike.cs (ArmorIgnore/ParalyzingBlow + InfectiousStrike)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

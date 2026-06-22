@@ -1,12 +1,15 @@
 ---
 title: Musicianship
 description: The base instrument skill behind all barding.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 29)"
-  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs"
+  - "servuo: Server/Skills.cs (SkillInfo id 29)"
+  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs (CheckMusicianship, GetDifficultyFor, GetBardRange, UsesRemaining)"
+  - "servuo: Scripts/Skills/Discordance.cs / Peacemaking.cs / Provocation.cs (music-difficulty reduction)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (TryStatGain, ML stat-gain path)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -52,12 +55,22 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Secondary stat | Intelligence |
 | Title | Bard |
 | Mastery skill | No |
-| Gain notes | skill-ups can raise Dex +0.8, Int +0.2 (per-use stat gain weights) |
+| Gain notes | on a skill-up, the standard ML stat-gain roll favors **Dex** (primary) then **Int** (secondary) |
+
+Each play is a `CheckMusicianship` roll (`BaseInstrument.cs`): the chance to play well is simply
+`Musicianship.Value / 100`, so at GM you essentially always succeed and a bard skill never
+fails on the music step. On a skill-up, the standard ML stat-gain mechanic
+(`Scripts/Misc/SkillCheck.cs`, `TryStatGain`) gives a flat ~5% chance, then favors the
+**primary** stat (Dex) ~3:1 over the **secondary** (Int); the per-skill `DexGain`/`IntGain`
+weights only mattered on the pre-ML mechanic.
 
 Instrument quality and a Musicianship value above 100 lower the effective difficulty of the
-bard skills — e.g. in `Scripts/Skills/Discordance.cs` and `Provocation.cs`, music above 100
-subtracts `(music − 100) × 0.5` from the difficulty. Instruments also have charges/condition
-(`BaseInstrument.cs`).
+bard skills — in `Scripts/Skills/Discordance.cs`, `Peacemaking.cs`, and `Provocation.cs`,
+music above 100 subtracts `(music − 100) × 0.5` from the difficulty, and an Exceptional or
+matching-slayer instrument lowers it further (`GetDifficultyFor`). Bard range also scales with
+the bard skill: `8 + skill/15` tiles (`GetBardRange`). Instruments carry limited
+charges/uses that are consumed per attempt (`UsesRemaining` / `ConsumeUse` in
+`BaseInstrument.cs`).
 
 ## Related skills & synergies
 

@@ -1,12 +1,14 @@
 ---
 title: Cooking
 description: Turn raw ingredients into food and feasts.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Services/Craft/DefCooking.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 13 — Int/Dex, gain Dex 2.0/Int 3.0)"
+  - "servuo: Scripts/Services/Craft/DefCooking.cs (InitCraftList: dough, bread, cooked bird, fish steaks, cakes, pies, cookies, muffins)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (GGSActive / CheckGGS)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

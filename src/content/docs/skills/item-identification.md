@@ -1,21 +1,20 @@
 ---
 title: Item Identification
 description: Appraise the type and value of items.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 3)"
+  - "servuo: Server/Skills.cs (SkillInfo 3, Item Identification)"
   - "servuo: Scripts/Skills/ItemIdentification.cs"
-  - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
 <img src="/img/skill-flags/3.gif" alt="Item Identification skill banner" width="160" />
 
 Item Identification (Item ID) appraises items and, on expansion content, drives
-**unraveling** for [Imbuing](/skills/imbuing/). The prose is community-derived (paraphrased
-from the uorenaissance.com skill list plus ServUO behavior) pending field verification; the
-stats table and skill-check note below are source-verified against ServUO.
+**unraveling** for [Imbuing](/skills/imbuing/). The stats table and the skill-check/unravel
+mechanics below are source-verified against ServUO; the general training advice is community
+guidance pending field verification.
 
 ## What it does
 
@@ -56,8 +55,15 @@ Just keep identifying and GGS pays out the slow late points. See
 | Gain notes | skill-ups can raise Int +1 (per-use stat gain weights) |
 
 From `Scripts/Skills/ItemIdentification.cs`, the check is `CheckTargetSkill(ItemID, o, 0, 100)`
-— useful from 0 to GM. On magic items it reports the unravel ingredient (magical residue,
-enchanted essence, or a relic fragment) used by [Imbuing](/skills/imbuing/).
+— useful from 0 to GM. On a successful ID it names the item and **guesses its value**. For
+weapons, armor, jewelry, and hats it also reports the [Imbuing](/skills/imbuing/) **unravel
+ingredient**, keyed to the item's imbue weight:
+
+- weight 1–200 → **Magical Residue**
+- weight 200–480 → **Enchanted Essence** (you need **Imbuing ≥ 45** to be told which)
+- weight ≥ 480 → **Relic Fragment** (you need **Imbuing ≥ 95** to be told which)
+
+Items with little to no magic, or already-imbued items, report that they cannot be unraveled.
 
 ## Related skills & synergies
 

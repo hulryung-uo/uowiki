@@ -1,12 +1,14 @@
 ---
 title: Throwing
 description: Gargoyle ranged combat with thrown weapons.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 57)"
-  - "servuo: Scripts/Items/Equipment/Weapons/ (throwing weapons)"
+  - "servuo: Server/Skills.cs (SkillInfo 57 — Throwing: Dex/Str, no stat gain, title Bladeweaver, mastery=true)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = ourSkill.BaseFixedPoint / 3, capped 420 = 42.0)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseThrown.cs (MinThrowRange/MaxThrowRange, Str-scaled range capped ~11 tiles)"
+  - "servuo: Scripts/Items/Equipment/Weapons/Cyclone.cs & SoulGlaive.cs (RequiredRace = Gargoyle; MinThrowRange 6 / 8)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -21,10 +23,12 @@ Throwing is **gargoyle-only** — see [magic schools](/playing/magic-schools/) a
 ## What it does
 
 Throwing governs accuracy and damage with the gargoyle thrown weapons — the **cyclone** and
-**soul glaive** — boomerang-like weapons that fly out and return. Some throws **ricochet** to
-nearby targets or **pierce**, and effectiveness varies with range (there is a sweet spot:
-too close or too far reduces the throw). It is the gargoyle answer to [Archery](/skills/archery/)
-and a Mastery skill.
+**soul glaive** — boomerang-like weapons that fly out and return. Each thrown weapon has a
+**minimum throw range** (cyclone 6 tiles, soul glaive 8 tiles per `Cyclone.cs`/`SoulGlaive.cs`)
+and a maximum range that grows with Strength, capped around 11 tiles (`BaseThrown.cs`), so
+there is an effective-distance band: standing too close to the target reduces the throw.
+Throwing weapons also carry weapon special moves (the cyclone's Moving Shot and Infused
+Throw). It is the gargoyle answer to [Archery](/skills/archery/) and a Mastery skill.
 
 ## How to use it
 
@@ -45,8 +49,8 @@ sits in your gain window, and train **Throwing + [Tactics](/skills/tactics/) +
 [Anatomy](/skills/anatomy/) together**.
 
 - **Low skill** — throw at weak creatures from range.
-- **Mid/high skill** — fight tougher monsters at the weapon's effective range; gains come
-  from combat, and GGS covers the slow late points. Some specifics are **unverified**.
+- **Mid/high skill** — fight tougher monsters at the weapon's effective range (stay outside
+  the minimum throw range); gains come from combat, and GGS covers the slow late points.
 
 See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
@@ -60,9 +64,10 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | Yes |
 | Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
 
-Throwing-weapon implementations live under `Scripts/Items/Equipment/Weapons/`. The
-range/ricochet/pierce mechanics are expansion-specific and gargoyle-restricted; exact numbers
-are **unverified** here.
+Throwing-weapon implementations live under `Scripts/Items/Equipment/Weapons/` (`BaseThrown.cs`,
+`Cyclone.cs`, `SoulGlaive.cs`). Both throwing weapons set `RequiredRace = Race.Gargoyle`, so
+they are gargoyle-only. Max range scales with Strength: `Range = BaseRange + ((Str −
+StrReq) / ((140 − StrReq) / 3))`, capped at 11 tiles (`BaseThrown.cs`).
 
 ## Related skills & synergies
 

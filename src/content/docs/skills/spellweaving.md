@@ -1,12 +1,14 @@
 ---
 title: Spellweaving
 description: Arcanist circle magic of the elves.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 54)"
-  - "servuo: Scripts/Spells/Spellweaving/"
+  - "servuo: Server/Skills.cs (SkillInfo 54: Int primary / Str secondary, Arcanist, mastery)"
+  - "servuo: Scripts/Spells/Spellweaving/ArcanistSpell.cs (CastSkill=Spellweaving, GetMana, no reagents; GetFocusLevel via Arcane Focus; requires completed arcanist quest, msg 1073220)"
+  - "servuo: Scripts/Spells/Spellweaving/ArcaneCircle.cs + Items/ArcaneFocus.cs (focus StrengthBonus scales with arcanist count)"
+  - "servuo: Scripts/Spells/Spellweaving/ (SummonFey, SummonFiend, ArcaneSummon, NatureFury, Wildfire, WordOfDeath, Thunderstorm, GiftOfRenewal, AttuneWeapon, ImmolatingWeapon, ArcaneEmpowerment, GiftOfLife, EtherealVoyage, DryadAllure, EssenceOfWind, ArcaneForm, ReaperForm — NO Vortex spell)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -19,11 +21,12 @@ expansion-specific — see [magic schools](/playing/magic-schools/).
 
 ## What it does
 
-Spellweaving casts arcane spells — summons (Summon Fey/Fiend, Vortex, Nature's Fury), area
-damage (Wildfire, Word of Death, Thunderstorm), buffs (Gift of Renewal, Attunement, Immolating
-Weapon, Arcane Empowerment), and utility (Gift of Life, Etheral Voyage, Dryad Allure). Its
-signature mechanic is the **focus circle**: when multiple arcanists stand together (or you
-hold an **Arcane Focus**), spell power scales up.
+Spellweaving casts arcane spells — summons (Summon Fey/Fiend, Arcane Summon, Nature's Fury),
+area damage (Wildfire, Word of Death, Thunderstorm), buffs (Gift of Renewal, Attune Weapon,
+Immolating Weapon, Arcane Empowerment), and utility (Gift of Life, Ethereal Voyage, Dryad
+Allure). Its signature mechanic is the **focus level**: holding an **Arcane Focus** item — or
+the stronger focus produced when multiple arcanists join an **Arcane Circle** — scales spell
+power up.
 
 ## How to use it
 

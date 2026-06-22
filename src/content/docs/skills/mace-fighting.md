@@ -1,11 +1,13 @@
 ---
 title: Mace Fighting
 description: Hit things with maces, mauls, and staves.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 41)"
+  - "servuo: Server/Skills.cs (SkillInfo 41 — Mace Fighting: Str/Dex, gain Str 0.9/Dex 0.1, title Armsman, mastery=true)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = ourSkill.BaseFixedPoint / 3, capped 420 = 42.0)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseBashing.cs (OnHit drains 3-5 stamina); WarMace.cs (CrushingBlow), Maul.cs (ConcussionBlow)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -18,9 +20,10 @@ stats table is source-verified against ServUO.
 ## What it does
 
 Mace Fighting governs accuracy and damage with blunt weapons — maces, war maces, mauls,
-hammers, and staves. Mace weapons can damage an opponent's **armor durability** and drain
-**stamina**, and several carry strong special moves (crushing blow, concussion blow),
-making them a punishing PvP weapon class. It is a Mastery skill.
+hammers, and staves. On every hit a mace-class weapon drains **3-5 points of an opponent's
+stamina** (`BaseBashing.OnHit`), and several carry strong special moves (the War Mace's
+crushing blow, the Maul's concussion blow), making them a punishing PvP weapon class. It is
+a Mastery skill.
 
 ## How to use it
 
@@ -40,8 +43,9 @@ sits in your gain window, and train **Mace Fighting + [Tactics](/skills/tactics/
 [Anatomy](/skills/anatomy/) together** from the same fights.
 
 - **Low skill** — fight weak creatures with a fast mace.
-- **Mid/high skill** — work up to tougher monsters; the armor/stamina damage makes maces
-  good against armored foes. GGS covers the slow late points as long as you keep swinging.
+- **Mid/high skill** — work up to tougher monsters; the per-hit stamina drain makes maces
+  good for shutting down a target's swing speed. GGS covers the slow late points as long as
+  you keep swinging.
 
 See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 

@@ -1,12 +1,14 @@
 ---
 title: Spirit Speak
 description: Channel the dead; underpins necromancy and ghost-hearing.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 32)"
-  - "servuo: Scripts/Skills/SpiritSpeak.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 32: Int primary / Str secondary, Medium, IntGain 1.0, UseWhileCasting=true, not mastery)"
+  - "servuo: Scripts/Skills/SpiritSpeak.cs (AOS: BeginSpiritSpeak; corpse channel heals RandomMinMax(min,max), min=1+skill*0.25; 0 mana with corpse, 10 mana without; CheckSkill 0-120; blocks if Spell.IsCasting)"
+  - "servuo: Scripts/Spells/Necromancy/NecromancerSpell.cs (DamageSkill = SpiritSpeak — boosts necro spells)"
+  - "servuo: Scripts/Mobiles/NPCs/Healer.cs (CheckTeach restricts to Forensics/Healing/SpiritSpeak/Swords)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -26,17 +28,20 @@ skill for a necromancer. See [death & resurrection](/playing/death-and-resurrect
 
 ## How to use it
 
-Activate the skill. If a corpse is nearby it is consumed/channeled to heal you; the skill can
-be used **while casting** other spells (it does not lock you out of magic). Ghosts become
-intelligible to you while your Spirit Speak is high enough. See
-[spellcasting](/playing/spellcasting/).
+Activate the skill. If a fresh corpse is within 3 tiles it is channeled (marked consumed) and
+heals you for **free**; with no corpse nearby you channel your own energy for **10 mana**. The
+skill is flagged usable while a spell is queued (`UseWhileCasting`), but the handler refuses if
+you are **actively casting** ("You are already casting a spell."). Ghosts become intelligible
+to you while your Spirit Speak is high enough. See [spellcasting](/playing/spellcasting/).
 
 ## How to train it
 
-**No town trainer.** Spirit Speak is taught only by Healer-type NPCs, not ordinary town
-vendors — for most players there is effectively no trainer, so train it by use. The check
-fires on each Use (`Scripts/Skills/SpiritSpeak.cs`: `CheckSkill(SpiritSpeak, 0, 100)`, and a
-second `CheckSkill(SpiritSpeak, 0.0, 120.0)` when you channel a corpse to heal).
+**No town trainer.** Spirit Speak is taught only by Healer-type NPCs (their `CheckTeach`
+allows just Forensics, Healing, Spirit Speak, and Swordsmanship), not ordinary town vendors —
+for most players there is effectively no trainer, so train it by use. On this AOS-era (EJ)
+shard the skill check fires when you channel — `CheckSkill(SpiritSpeak, 0.0, 120.0)` in
+`Scripts/Skills/SpiritSpeak.cs` — so it keeps gaining past GM. (The legacy
+`CheckSkill(SpiritSpeak, 0, 100)` path only runs on a non-AOS server.)
 
 - **Low/high skill** — Use the skill repeatedly, ideally **next to a fresh corpse** so the
   channel-heal fires (channeling both heals you and trains). Fighting and killing creatures
@@ -55,10 +60,13 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Int +1 (per-use stat gain weights) |
 
-From `Scripts/Skills/SpiritSpeak.cs`: the base check is `CheckSkill(SpiritSpeak, 0, 100)`,
-and when channeling a nearby corpse the roll extends to 0.0–120.0 (so it stays useful past
-GM). The amount healed scales with the skill; the corpse is marked channeled/consumed. Spirit
-Speak is flagged usable while casting.
+From `Scripts/Skills/SpiritSpeak.cs` (AOS path): each channel rolls
+`CheckSkill(SpiritSpeak, 0.0, 120.0)`, so it stays useful past GM. The heal is
+`RandomMinMax(min, max)` where `min = 1 + (SpiritSpeak.Value × 0.25)` and `max = min + 4` —
+i.e. ~26–30 at 100 skill — and the success roll is `SpiritSpeak.Value / 100`. Channeling a
+nearby corpse costs **0 mana** and marks the corpse consumed (hued); with no corpse it costs
+**10 mana**. The skill is flagged `UseWhileCasting`, but the handler still rejects use mid-cast.
+(The legacy `CheckSkill(SpiritSpeak, 0, 100)` is the non-AOS branch.)
 
 ## Related skills & synergies
 

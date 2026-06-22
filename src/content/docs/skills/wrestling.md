@@ -1,11 +1,13 @@
 ---
 title: Wrestling
 description: Unarmed attack and defense — a mage's best friend.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 43)"
+  - "servuo: Server/Skills.cs (SkillInfo 43 — Wrestling: Str/Dex, gain Str 0.9/Dex 0.1, title Wrestler, mastery=true)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = ourSkill.BaseFixedPoint / 3, capped 420 = 42.0)"
+  - "servuo: Scripts/Items/Equipment/Weapons/Fists.cs (PrimaryAbility = Disarm, SecondaryAbility = ParalyzingBlow)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

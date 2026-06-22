@@ -1,12 +1,13 @@
 ---
 title: Focus
 description: Passive stamina and mana regeneration.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Abilities/Focus.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 50 — Focus: Dex/Int, no stat gain, title Driven, mastery=false)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = ourSkill.BaseFixedPoint / 3, capped 420 = 42.0)"
+  - "servuo: Scripts/Misc/RegenRates.cs (Focus boosts stam regen by Focus*0.1; mana regen via focusBonus = Focus/200 (ML) / Focus*0.05 (AOS), added independently of the armor penalty that zeroes meditation)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -39,9 +40,10 @@ trainer can teach it up to **one-third of its own skill, capped at 42.0**
 `baseToSet = ourSkill.BaseFixedPoint / 3`) — buy to ~30–42 first.
 
 - Focus gains as you regenerate mana/stamina, so the practical method is to **spend and
-  recover**: cast or sprint to drain, then let it tick back, repeatedly. There is no targeted
-  grind — it climbs in the background while you play, and GGS guarantees the slow late points
-  as long as you keep acting. Specifics are **unverified**.
+  recover**: cast or sprint to drain, then let it tick back, repeatedly. The skill check
+  fires inside the stamina and mana regen ticks (`RegenRates.CheckBonusSkill` for
+  `SkillName.Focus`), so it climbs in the background whenever your stamina or mana is below
+  max and regenerating; GGS guarantees the slow late points as long as you keep acting.
 
 See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/using-and-training-skills/).
 
@@ -55,10 +57,13 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | No |
 | Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
 
-Focus implementation is in `Scripts/Abilities/Focus.cs`. Unlike [Meditation](/skills/meditation/),
-Focus's mana regen is **not** blocked by wearing metal armor, which is its main appeal on
-armored hybrids. Exact regen-per-skill numbers are expansion-specific and **unverified**
-here.
+The Focus skill's regeneration is implemented in `Scripts/Misc/RegenRates.cs` (not
+`Scripts/Abilities/Focus.cs`, which is an unrelated weapon "Rage Focusing" buff). Focus adds
+`Focus.Value × 0.1` points to the stamina-regen rate, and contributes to mana regen as
+`focusBonus = Focus / 200` (Mondain's Legacy) or `Focus × 0.05` (AOS). Crucially, Focus's
+mana bonus is added **independently** of the armor penalty that zeroes the
+[Meditation](/skills/meditation/) bonus — so unlike Meditation, Focus's mana regen is **not**
+blocked by wearing metal armor, which is its main appeal on armored hybrids.
 
 ## Related skills & synergies
 

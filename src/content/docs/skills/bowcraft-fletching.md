@@ -1,12 +1,14 @@
 ---
 title: Bowcraft/Fletching
 description: Craft bows, crossbows, and arrows from wood.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Services/Craft/DefBowFletching.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 8 — Dex/Str, gain Str 0.6/Dex 1.6)"
+  - "servuo: Scripts/Services/Craft/DefBowFletching.cs (InitCraftList: bows, crossbows, heavy/composite/repeating crossbows, yumi, arrows, bolts)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (GGSActive / CheckGGS)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

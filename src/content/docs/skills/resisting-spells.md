@@ -1,12 +1,14 @@
 ---
 title: Resisting Spells
 description: Shrug off hostile magic and reduce its effects.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 26)"
-  - "servuo: Scripts/Misc/AOS.cs (MagicResist damage reduction)"
+  - "servuo: Server/Skills.cs (SkillInfo 26 — Resisting Spells: Str/Dex, gain Str 0.25/Dex 0.25/Int 0.5, title Warder, mastery=false)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs (GetMinResistance: MagicResist raises minimum elemental resistances; min 40 at GM)"
+  - "servuo: Scripts/Spells/Base/SpellHelper.cs (GetOffsetScalar / GetOffset: MagicResist reduces stat-curse magnitude; CheckSkill(MagicResist) fires on curse target)"
+  - "servuo: Scripts/Spells/Base/Spell.cs (GetDamageScalar: pre-AOS, MagicResist reduces spell damage vs EvalInt; GetResistSkill)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -19,10 +21,12 @@ source-verified against ServUO.
 
 ## What it does
 
-Resisting Spells reduces the chance and severity of harmful spells landing on you — direct
-damage spells, and effects like paralyze, poison, and stat debuffs. It also raises your
-minimum elemental resistances. It is a defensive staple for anyone who fights casters,
-especially in PvP. See [spellcasting](/playing/spellcasting/).
+Resisting Spells gives you a chance to resist harmful spells and reduces the severity of
+effects like paralyze, poison, and stat debuffs. It also raises your minimum elemental
+resistances. (On older pre-AOS rule sets it additionally scaled down direct spell damage;
+under our AOS+ shard that damage scalar is off — see the numbers below.) It is a defensive
+staple for anyone who fights casters, especially in PvP. See
+[spellcasting](/playing/spellcasting/).
 
 ## How to use it
 
@@ -31,11 +35,12 @@ you. There is no activation; you simply benefit from having the skill when magic
 
 ## How to train it
 
-**No town trainer.** Resisting Spells is not on any NPC vendor's teach list, so there is no
-shortcut — you train it purely by **being hit by spells**. The skill check fires on the
-*target* of a spell (`Scripts/Spells/Base/MagerySpell.cs`:
-`target.CheckSkill(SkillName.MagicResist, ...)`, and `SpellHelper.cs`), and only while your
-resist is below the spell's window.
+**Train by being hit by spells.** Resisting Spells is conventionally not stocked on NPC teach
+lists, so in practice there is no buy-up shortcut — you train it by **being targeted by
+hostile magic**. The skill check fires on the *target* of a spell
+(`Scripts/Spells/Base/MagerySpell.cs`: `CheckResisted` →
+`target.CheckSkill(SkillName.MagicResist, ...)`; curses also check it via `SpellHelper.cs`),
+and only while your resist is below the spell's window.
 
 - **Low/high skill** — have a training partner cast harmless/weak spells *at you*, or fight
   spellcasting monsters (see the [bestiary](/bestiary/)) and let them blast you. Each hostile
@@ -54,10 +59,24 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Str +0.25, Dex +0.25, Int +0.5 (per-use stat gain weights) |
 
-From `Scripts/Misc/AOS.cs`, magic-damage taken is scaled by
-`1 − ((MagicResist × 0.5 + 10) / 100)` — i.e. GM Magic Resistance cuts incoming spell damage
-by roughly **60%** (`(100 × 0.5 + 10) = 60`). Resist also raises minimum resistances and
-lowers the chance/severity of magical status effects.
+On our shard (ServUO, AOS+), Resisting Spells works three ways:
+
+- **Chance to resist effect spells.** `MagerySpell.CheckResisted` rolls a resist chance from
+  your MagicResist skill (`GetResistPercent`) against the spell's circle. A successful roll
+  reduces or negates effects like paralyze, poison, and stat curses. The skill-gain check
+  fires on the *target* only while your resist is below the spell's window
+  (`MagerySpell.cs`: `target.CheckSkill(SkillName.MagicResist, …)`).
+- **Raises minimum elemental resistances.** `PlayerMobile.GetMinResistance` floors your
+  Physical/Fire/Cold/Poison/Energy resistances based on Magic Resistance: at **GM (100)** the
+  minimum is **40**, climbing further above GM.
+- **Reduces stat-curse magnitude.** For Clumsy/Feeblemind/Weaken/Curse, higher MagicResist
+  shrinks the stat penalty (`SpellHelper.GetOffsetScalar`).
+
+Note: in pre-AOS rule sets MagicResist *also* directly scaled down incoming spell damage
+(`Spell.GetDamageScalar`, EvalInt vs. resist), but that damage scalar is disabled under AOS+
+(`if (!Core.AOS)`). The `1 − ((MagicResist × 0.5 + 10) / 100)` formula sometimes quoted from
+`AOS.cs` applies only to Blood Oath damage **reflected back vs. creatures**, not to general
+incoming spell damage — do not treat it as a flat 60% spell-damage cut.
 
 ## Related skills & synergies
 

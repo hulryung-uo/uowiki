@@ -1,12 +1,14 @@
 ---
 title: Tinkering
 description: Make tools, locks, traps, jewelry, and clockwork.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 37)"
-  - "servuo: Scripts/Services/Craft/DefTinkering.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 37 — Dex/Int, gain Str 0.5/Dex 0.2/Int 0.3)"
+  - "servuo: Scripts/Services/Craft/DefTinkering.cs (InitCraftList: TinkerTools/FletcherTools, keys, KeyRing, lockpicks, sextant, scissors, gold ring/bracelet, clockwork assembly, dart/poison/explosion trap deeds)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (GGSActive / CheckGGS)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

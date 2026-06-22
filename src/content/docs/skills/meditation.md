@@ -1,12 +1,14 @@
 ---
 title: Meditation
 description: Recover mana faster, actively and passively.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 46)"
-  - "servuo: Scripts/Skills/Meditation.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 46: Int primary / Str secondary, Stoic, no stat gain, not mastery)"
+  - "servuo: Scripts/Skills/Meditation.cs (OnUse: chance = (50 + (skill - missingMana)*2)/100; CheckSkill 0-100; armor blocks via RegenRates.GetArmorOffset > 0, msg 500135)"
+  - "servuo: Scripts/Misc/RegenRates.cs (GetArmorOffset / medable-armor rule)"
+  - "servuo: Scripts/Mobiles/NPCs/Mage.cs (Meditation trainer); Scripts/Mobiles/Normal/BaseCreature.cs (baseToSet = BaseFixedPoint/3, capped 42.0)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -28,8 +30,9 @@ near-mandatory on any [Magery](/skills/magery/)-based caster who wants to keep c
 - **Active** — use the skill to enter meditation. While meditating, mana regenerates quickly;
   taking damage or acting breaks it.
 - **Passive** — once trained, it boosts regen automatically, **but only while wearing
-  little/no non-medable (metal) armor** — the "medable armor" rule. Heavy armor blocks it
-  ("Regenerative forces cannot penetrate your armor!").
+  little/no non-medable (metal) armor** — the "medable armor" rule. Non-medable armor blocks
+  the mana-regen bonus, and trying to *actively* meditate in it is refused outright
+  ("Regenative forces cannot penetrate your armor!" — the in-game string is misspelled).
 
 ## How to train it
 

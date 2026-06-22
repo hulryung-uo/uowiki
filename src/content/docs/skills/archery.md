@@ -1,11 +1,13 @@
 ---
 title: Archery
 description: Strike from range with bows and crossbows.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 31 — Archery: Dex/Str, gain Str 0.25/Dex 0.75, title Archer, mastery=true)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = ourSkill.BaseFixedPoint / 3, capped 420 = 42.0)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseRanged.cs (ranged weapon base; Bow.cs, Crossbow.cs, HeavyCrossbow.cs)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

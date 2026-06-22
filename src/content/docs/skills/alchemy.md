@@ -1,12 +1,14 @@
 ---
 title: Alchemy
 description: Brew potions and explosive concoctions from reagents.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Services/Craft/DefAlchemy.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 0 — Int/Dex, gain Dex 0.5/Int 0.5)"
+  - "servuo: Scripts/Services/Craft/DefAlchemy.cs (InitCraftList: cure/heal/refresh, agility/strength, night sight, poison, explosion/conflagration)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (GGSActive / CheckGGS)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

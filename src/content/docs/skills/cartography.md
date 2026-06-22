@@ -1,13 +1,15 @@
 ---
 title: Cartography
 description: Draw and decode maps, including treasure maps.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Services/Craft/DefCartography.cs"
-  - "servuo: Scripts/Services/TreasureMaps/TreasureMapInfo.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 12 — Int/Dex, gain Dex 0.75/Int 0.75)"
+  - "servuo: Scripts/Services/Craft/DefCartography.cs (InitCraftList: LocalMap 10.0, CityMap 25.0, SeaChart 35.0, WorldMap 39.5)"
+  - "servuo: Scripts/Services/TreasureMaps/TreasureMapInfo.cs (Fill: RequiredSkill 5/45/75/80/80 by level; LockLevel = RequiredSkill-10, MaxLockLevel = RequiredSkill+40)"
+  - "servuo: Scripts/Services/TreasureMaps/TreasureMap.cs (decode uses Cartography skill check)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -57,11 +59,12 @@ and [using & training skills](/playing/using-and-training-skills/).
 | Gain notes | skill-ups can raise Dex +0.75, Int +0.75 (per-use stat gain weights) |
 
 Map crafting thresholds (from `Scripts/Services/Craft/DefCartography.cs`): Local Map **10.0**,
-City Map **25.0**, Sea Chart **35.0**, World Map **39.5** minimum skill. Treasure-chest
-required skills scale by level (`Scripts/Services/TreasureMaps/TreasureMapInfo.cs`): roughly
-**5 / 45 / 75 / 80 / 80** by tier, with the chest's lock level set to required skill − 10 and
-max lock level required skill + 40 — informing the [Lockpicking](/skills/lockpicking/) needed
-to open it.
+City Map **25.0**, Sea Chart **35.0**, World Map **39.5** minimum skill. Decoding a treasure
+map runs a Cartography skill check (`Scripts/Services/TreasureMaps/TreasureMap.cs`).
+Treasure-chest required skills scale by level (`Scripts/Services/TreasureMaps/TreasureMapInfo.cs`,
+`Fill`): **5 / 45 / 75 / 80 / 80** by tier (levels 0–4), with the chest's lock level set to
+required skill − 10 and max lock level required skill + 40 — informing the
+[Lockpicking](/skills/lockpicking/) needed to open it.
 
 ## Related skills & synergies
 

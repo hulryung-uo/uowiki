@@ -1,12 +1,15 @@
 ---
 title: Peacemaking
 description: Calm aggression with music — yours or the whole area's.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 9)"
+  - "servuo: Server/Skills.cs (SkillInfo id 9)"
   - "servuo: Scripts/Skills/Peacemaking.cs"
+  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs (CheckMusicianship, GetDifficultyFor, GetBardRange)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills, Uncalmable / AreaPeaceImmune)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (TryStatGain, ML stat-gain path)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -52,12 +55,27 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Secondary stat | Dexterity |
 | Title | Pacifier |
 | Mastery skill | Yes |
-| Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
+| Gain notes | on a skill-up, the standard ML stat-gain roll favors **Int** (primary) then **Dex** (secondary) |
 
-From `Scripts/Skills/Peacemaking.cs`: the target check is
-`CheckTargetSkill(Peacemaking, target, diff − 25, diff + 25)`. The reuse delay is roughly
-**10 seconds** (reduced by the mastery bonus), and area peace has its own short cooldown.
-Some creatures are flagged `AreaPeaceImmune` and cannot be area-pacified.
+On our EJ shard (`Core.ML`), a skill-up rolls the standard stat-gain mechanic
+(`Scripts/Misc/SkillCheck.cs`, `TryStatGain`): a flat ~5% chance, then the **primary** stat
+(Int) is favored ~3:1 over the **secondary** (Dex). Peacemaking's zero `DexGain`/`IntGain`
+weights in `Server/Skills.cs` only suppressed gains on the *pre-ML* mechanic, so the earlier
+"no stat gain" note does not apply on this shard.
+
+From `Scripts/Skills/Peacemaking.cs`, there are two modes:
+
+- **Targeted** (target another creature): rolls
+  `CheckTargetSkill(Peacemaking, target, diff − 25, diff + 25)` where
+  `diff = instrument.GetDifficultyFor(target) − 10`, further reduced by `(music − 100) × 0.5`
+  above 100 Musicianship and by the mastery bonus. On success the creature is pacified for
+  `seconds = clamp(100 − diff/1.5, 10, 120)`. Reuse delay **5s** on success, **10s** on a fail
+  (each reduced by the mastery bonus). `Uncalmable` creatures can never be calmed.
+- **Area** (target yourself): a single `CheckSkill(Peacemaking, 0, 120)` (no per-target
+  difficulty) calms every eligible foe in bard range (`8 + Peacemaking/15` tiles) for ~1
+  second. Reuse delay **5s** on success, **10s** on a fail. Creatures flagged
+  `Uncalmable` or `AreaPeaceImmune` are skipped. A successful Musicianship play is required
+  in both modes.
 
 ## Related skills & synergies
 

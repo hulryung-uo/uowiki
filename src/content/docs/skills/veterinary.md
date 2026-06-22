@@ -1,19 +1,19 @@
 ---
 title: Veterinary
 description: Bandage-heal and resurrect pets.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 39)"
-  - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+  - "servuo: Server/Skills.cs (SkillInfo 39, Veterinary)"
+  - "servuo: Scripts/Items/Resource/Bandage.cs"
+last_verified: 2026-06-22
 generated: false
 ---
 
 <img src="/img/skill-flags/39.gif" alt="Veterinary skill banner" width="160" />
 
 Veterinary is the pet-healing skill — the [Healing](/skills/healing/) of the animal world.
-The prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO
-behavior) pending field verification; the stats table is source-verified against ServUO.
+The stats table and the healing/cure/resurrect formulas below are source-verified against
+ServUO; the general training advice is community guidance pending field verification.
 
 ## What it does
 
@@ -54,9 +54,20 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Str +0.8, Dex +0.4, Int +0.8 (per-use stat gain weights) |
 
-Veterinary mirrors [Healing](/skills/healing/) but for animals; [Animal Lore](/skills/animal-lore/)
-is its damage-multiplier analogue (more Lore = more healed). Pet resurrection requires high
-Vet.
+All of it runs through the bandage code in `Scripts/Items/Resource/Bandage.cs`. When the
+patient is a non-player animal/monster, **Veterinary is the primary skill and
+[Animal Lore](/skills/animal-lore/) the secondary** (`GetPrimarySkill` / `GetSecondarySkill`),
+exactly mirroring Healing + Anatomy for players:
+
+- **Heal amount (AOS):** `min = Lore/8 + Vet/5 + 4`, `max = Lore/6 + Vet/2.5 + 4`, with a small
+  **`+HitsMax/100`** bonus when healing a creature. So both Vet and Lore raise the amount
+  restored.
+- **Bandage delay:** healing another creature with Veterinary is a flat **2 seconds** (AOS),
+  much faster than healing a player.
+- **Cure poison:** requires **Vet ≥ 60 and Lore ≥ 60**; cure chance scales with skill and the
+  poison level.
+- **Resurrect a dead pet:** requires **Vet ≥ 80 and Lore ≥ 80**; success chance is
+  `(Vet − 68) / 50`. A resurrected pet loses **0.1 from every skill**.
 
 ## Related skills & synergies
 

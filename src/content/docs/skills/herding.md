@@ -1,21 +1,19 @@
 ---
 title: Herding
 description: Direct animals to move where you point.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 20, Herding)"
   - "servuo: Scripts/Items/Equipment/Weapons/ShepherdsCrook.cs"
-  - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
 <img src="/img/skill-flags/20.gif" alt="Herding skill banner" width="160" />
 
-Herding directs animals to walk to a chosen spot using a shepherd's crook. The prose is
-community-derived (paraphrased from the uorenaissance.com skill list plus ServUO behavior)
-pending field verification; the stats table and difficulty formula below are source-verified
-against ServUO.
+Herding directs animals to walk to a chosen spot using a shepherd's crook. The stats table,
+herdable-target rules, and difficulty formula below are source-verified against ServUO; the
+general training advice is community guidance pending field verification.
 
 ## What it does
 
@@ -48,17 +46,19 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 
 | | |
 |---|---|
-| Primary stat | Dexterity |
-| Secondary stat | Intelligence |
+| Primary stat | Intelligence |
+| Secondary stat | Dexterity |
 | Title | Shepherd |
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Str +1.625, Dex +0.625, Int +0.25 (per-use stat gain weights) |
 
-From `Scripts/Items/Equipment/Weapons/ShepherdsCrook.cs`, the herd attempt rolls
-`CheckTargetSkill(Herding, creature, min, max)` where **min = creature's tame skill − 30** and
-**max = tame skill + 30 + random(10)** — so a creature's herding difficulty tracks its
-[taming](/skills/animal-taming/) difficulty. If your Herding already exceeds the max, the
-creature taunts ("That wasn't even challenging").
+From `Scripts/Items/Equipment/Weapons/ShepherdsCrook.cs`, only **tameable** creatures are
+herdable (plus a fixed list of champ-spawn monsters); **paragons cannot be herded**, and a
+creature that is already **controlled** ("That animal looks tame already") cannot. The herd
+attempt rolls `CheckTargetSkill(Herding, creature, min, max)` where **min = creature's
+CurrentTameSkill − 30** and **max = CurrentTameSkill + 30 + random(10)** — so a creature's
+herding difficulty tracks its [taming](/skills/animal-taming/) difficulty. If your Herding
+already meets or exceeds the max, the creature taunts ("That wasn't even challenging").
 
 ## Related skills & synergies
 

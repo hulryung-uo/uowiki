@@ -1,20 +1,21 @@
 ---
 title: Remove Trap
 description: Disarm trapped containers.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 48)"
+  - "servuo: Server/Skills.cs (SkillInfo 48, Remove Trap)"
   - "servuo: Scripts/Skills/RemoveTrap.cs"
-  - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeach EJ guard)"
+  - "servuo: Config/Expansion.cfg (CurrentExpansion=EJ)"
+last_verified: 2026-06-22
 generated: false
 ---
 
 <img src="/img/skill-flags/48.gif" alt="Remove Trap skill banner" width="160" />
 
-Remove Trap detects and disables traps on containers. The prose is community-derived
-(paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field
-verification; the stats table and timing notes below are source-verified against ServUO.
+Remove Trap detects and disables traps on containers. The stats table and timing/mechanic
+notes below are source-verified against ServUO; the general training advice is community
+guidance pending field verification.
 
 ## What it does
 
@@ -56,10 +57,20 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | No |
 | Gain notes | no stat gain on use (Str +0 / Dex +0 / Int +0) |
 
-From `Scripts/Skills/RemoveTrap.cs`: there is a **10-second** reuse delay, you must be within
-**3 tiles** of the container, and on success the chest's `TrapLevel` is set to 0. Treasure
-chests take longer to disarm by tier — roughly **20 / 60 / 180 / 420 / 540 seconds** for
-Stash / Supply / Cache / Hoard / Trove.
+From `Scripts/Skills/RemoveTrap.cs`: there is a **10-second** reuse delay (the OnUse return),
+the disarm target reaches only **2 tiles** (`InternalTarget : base(2, …)`), and on success the
+chest's `TrapPower`, `TrapLevel`, and `TrapType` are all cleared. An ordinary trapped container
+rolls `CheckTargetSkill(RemoveTrap, chest, TrapPower, TrapPower + 10)`.
+
+New-system treasure chests use a longer timed disarm instead. With Remove Trap **≥ 100** the
+work is a fixed safety window by tier — **20 / 60 / 180 / 420 / 540 seconds** for
+Stash / Supply / Cache / Hoard / Trove (measured from when the chest was dug). Below 100 it is
+a repeating 10-second skill-check loop that can spawn an Ancient Chest Guardian on a failed
+tick.
+
+On this shard (**EJ** expansion, per `Config/Expansion.cfg`) the old requirement to *use*
+Remove Trap — Lockpicking ≥ 50 and Detecting Hidden ≥ 50 — is also waived by the same
+`!Core.EJ` guards in `OnUse`, so any skill level can attempt a disarm.
 
 ## Related skills & synergies
 

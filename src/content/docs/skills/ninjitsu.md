@@ -1,12 +1,15 @@
 ---
 title: Ninjitsu
 description: Ninja techniques, forms, and stealth attacks.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 53)"
-  - "servuo: Scripts/Spells/Ninjitsu/"
+  - "servuo: Server/Skills.cs (SkillInfo 53: Dex primary / Int secondary, Ninja, mastery)"
+  - "servuo: Scripts/Spells/Ninjitsu/NinjaSpell.cs (CastSkill=Ninjitsu, RequiredMana, ScaleMana)"
+  - "servuo: Scripts/Spells/Ninjitsu/ (AnimalForm, MirrorImage, FocusAttack, DeathStrike, SurpriseAttack, Backstab); AnimalForm.cs RequiredSkill 0, RequiredMana 10 (ML)"
+  - "servuo: Scripts/Spells/Ninjitsu/Backstab.cs + SurpriseAttack.cs (require Hidden && AllowedStealthSteps > 0)"
+  - "servuo: Scripts/Mobiles/NPCs/Ninja.cs (Ninjitsu trainer); Scripts/Mobiles/Normal/BaseCreature.cs (baseToSet = BaseFixedPoint/3, capped 42.0)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -20,17 +23,18 @@ the stats table is source-verified against ServUO. Behavior is expansion-specifi
 ## What it does
 
 Ninjitsu grants a toolkit of stealthy combat and mobility tricks: **Animal Form** (turn into
-a creature for speed or disguise), **Mirror Image** (decoy clones), **Focus Attack**, **Death
-Strike** and **Surprise Attack** (hit-from-hiding bonuses), **Backstab**, and **Smoke Bomb**
-(instant hide). It rewards a hit-and-vanish playstyle and leans heavily on
-[Hiding](/skills/hiding/)/[Stealth](/skills/stealth/).
+a creature for speed or disguise), **Mirror Image** (decoy clones), **Death Strike**,
+**Surprise Attack** and **Backstab** (hit-from-hiding bonuses), plus weapon specials like
+**Focus Attack** and **Ki Attack**. Smoke Bombs (crafted consumables, not a spellbook ability)
+give an instant hide and round out the kit. It rewards a hit-and-vanish playstyle and leans
+heavily on [Hiding](/skills/hiding/)/[Stealth](/skills/stealth/).
 
 ## How to use it
 
-Activate abilities from the Book of Ninjitsu (most cost mana). Several stealth attacks require
-you to strike from [hiding](/skills/hiding/); Animal Form and Smoke Bomb support the sneak
-playstyle. See [hiding & stealth](/playing/hiding-and-stealth/) and
-[advanced combat](/playing/combat-advanced/).
+Activate abilities from the Book of Ninjitsu (most cost mana). Surprise Attack and Backstab
+require you to strike from [hiding](/skills/hiding/) (the code checks you are hidden with
+stealth steps available); Animal Form and Smoke Bombs support the sneak playstyle. See
+[hiding & stealth](/playing/hiding-and-stealth/) and [advanced combat](/playing/combat-advanced/).
 
 ## How to train it
 

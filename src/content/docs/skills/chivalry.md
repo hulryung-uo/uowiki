@@ -1,12 +1,16 @@
 ---
 title: Chivalry
 description: Paladin spells fueled by tithed gold.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Spells/Chivalry/"
+  - "servuo: Server/Skills.cs (SkillInfo 51: Str primary / Int secondary, Paladin, mastery)"
+  - "servuo: Scripts/Spells/Chivalry/PaladinSpell.cs (RequiredTithing, Caster.TithingPoints; ComputePowerValue uses Karma + Chivalry.Fixed)"
+  - "servuo: Scripts/Items/Functional/Ankhs.cs (TitheEntry — tithe gold at an ankh/shrine)"
+  - "servuo: Scripts/Spells/Chivalry/ (CloseWounds, CleanseByFire, RemoveCurse, ConsecrateWeapon, HolyLight, DivineFury, EnemyOfOne, SacredJourney, NobleSacrifice, DispelEvil)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeach: AOS-only for Chivalry; baseToSet = BaseFixedPoint/3, capped 42.0)"
+  - "servuo: Scripts/Mobiles/NPCs/KeeperOfChivalry.cs (Chivalry trainer); Config/Expansion.cfg (EJ => Core.AOS)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

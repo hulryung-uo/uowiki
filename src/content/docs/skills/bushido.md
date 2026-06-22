@@ -1,12 +1,15 @@
 ---
 title: Bushido
 description: Samurai stances and warrior techniques.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Spells/Bushido/"
+  - "servuo: Server/Skills.cs (SkillInfo 52: Str primary / Int secondary, Samurai, mastery)"
+  - "servuo: Scripts/Spells/Bushido/SamuraiSpell.cs (CastSkill=Bushido, RequiredSkill/RequiredMana, ScaleMana)"
+  - "servuo: Scripts/Spells/Bushido/ (Confidence, CounterAttack, Evasion, HonorableExecution, LightningStrike, MomentumStrike)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 42.0)"
+  - "servuo: Scripts/Mobiles/NPCs/Hamato.cs + Samurai.cs (Bushido trainers)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

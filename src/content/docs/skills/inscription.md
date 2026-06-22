@@ -1,13 +1,15 @@
 ---
 title: Inscription
 description: Scribe scrolls, spellbooks, and runebooks.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 23)"
-  - "servuo: Scripts/Skills/Inscribe.cs"
-  - "servuo: Scripts/Services/Craft/DefInscription.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 23 — Int/Dex, gain Dex 0.2/Int 0.8)"
+  - "servuo: Scripts/Skills/Inscribe.cs (inscription skill handler)"
+  - "servuo: Scripts/Services/Craft/DefInscription.cs (CanCraft requires book.HasSpell(id); InitCraftList: Magery spell scrolls, spellbook, runebook, RunicAtlas)"
+  - "servuo: Scripts/Spells/Base/Spell.cs (scribeBonus = inscribeSkill >= 1000 ? 10 : inscribeSkill/200 — up to +10% spell damage at GM)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -59,8 +61,10 @@ the slow late points as long as you keep scribing. Recipe thresholds live in
 | Gain notes | skill-ups can raise Dex +0.2, Int +0.8 (per-use stat gain weights) |
 
 Inscription requires the spell to be in your book and consumes the same reagents as casting
-it. The Magery spell-damage bonus from high Inscription is applied in the spell damage math;
-exact magnitude is **unverified** here.
+it. The Magery spell-damage bonus from Inscription is applied in the spell damage math
+(`Scripts/Spells/Base/Spell.cs`): the scribe bonus is `inscribeSkill / 200`, capped at **+10%
+at GM** (100.0 Inscription) — so it adds up to 10% to spell damage and feeds the same damage
+formula EvalInt and the Spell Damage Increase property contribute to.
 
 ## Related skills & synergies
 

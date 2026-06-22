@@ -1,20 +1,19 @@
 ---
 title: Lockpicking
 description: Open locked chests and doors without a key.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 24)"
+  - "servuo: Server/Skills.cs (SkillInfo 24, Lockpicking)"
   - "servuo: Scripts/Items/Consumables/LockPick.cs"
-  - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
 <img src="/img/skill-flags/24.gif" alt="Lockpicking skill banner" width="160" />
 
-Lockpicking opens locked containers and doors with picks. The prose is community-derived
-(paraphrased from the uorenaissance.com skill list plus ServUO behavior) pending field
-verification; the stats table and pick mechanics below are source-verified against ServUO.
+Lockpicking opens locked containers and doors with picks. The stats table and pick mechanics
+below are source-verified against ServUO; the general training advice is community guidance
+pending field verification.
 
 ## What it does
 

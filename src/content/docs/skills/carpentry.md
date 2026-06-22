@@ -1,12 +1,14 @@
 ---
 title: Carpentry
 description: Build furniture, instruments, and woodcraft from boards.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
-  - "servuo: Scripts/Services/Craft/DefCarpentry.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 11 — Str/Dex, gain Str 2.0/Dex 0.5)"
+  - "servuo: Scripts/Services/Craft/DefCarpentry.cs (InitCraftList: furniture, containers, instruments, staves, training dummies, add-ons — staves are carpentry's only weapons; bows are Fletching)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (GGSActive / CheckGGS)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -18,8 +20,9 @@ pending field verification; the stats table is source-verified against ServUO.
 
 ## What it does
 
-Carpentry turns boards into furniture, containers, musical instruments, staves and bows
-(some shared with [Fletching](/skills/bowcraft-fletching/)), training dummies, and house
+Carpentry turns boards into furniture, containers, musical instruments, staves (its only
+weapon line — quarterstaff, gnarled staff, black staff and the wild staves; bows and
+crossbows belong to [Fletching](/skills/bowcraft-fletching/)), training dummies, and house
 add-ons. It is the backbone craft for furnishing a [house](/playing/housing/) and supplying
 bards with instruments.
 

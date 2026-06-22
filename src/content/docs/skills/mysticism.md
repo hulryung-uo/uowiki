@@ -1,12 +1,14 @@
 ---
 title: Mysticism
 description: Gargoyle-era mysticism spells.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 55)"
-  - "servuo: Scripts/Spells/Mysticism/"
+  - "servuo: Server/Skills.cs (SkillInfo 55: Str primary / Int secondary, Mystic, mastery)"
+  - "servuo: Scripts/Spells/Mysticism/MysticSpell.cs (CastSkill=Mysticism, reagents per spell; DamageSkill = higher of Imbuing/Focus; GetBoostSkill = Math.Max(Imbuing, Focus))"
+  - "servuo: Scripts/Spells/Mysticism/SpellDefinitions/ (HealingStone, CleansingWinds, NetherBolt, EagleStrike, HailStorm, NetherCyclone, AnimatedWeapon, RisingColossus, Sleep, MassSleep, Enchant, StoneForm, SpellTrigger)"
+  - "servuo: Scripts/Mobiles/NPCs/Mystic.cs (Mysticism trainer); Scripts/Mobiles/Normal/BaseCreature.cs (baseToSet = BaseFixedPoint/3, capped 42.0)"
   - "note: no uorenaissance.com entry — expansion-era skill, prose derived from ServUO + UO mechanics"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

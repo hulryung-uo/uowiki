@@ -1,12 +1,15 @@
 ---
 title: Discordance
 description: Weaken a target's stats and skills with discordant music.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo id 15)"
   - "servuo: Scripts/Skills/Discordance.cs"
+  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs (CheckMusicianship, GetDifficultyFor, GetBaseDifficulty, GetBardRange)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (TryStatGain, ML stat-gain path)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -19,10 +22,12 @@ against ServUO.
 
 ## What it does
 
-Discordance plays disharmonious music at a target to lower its stats and combat/resistance
-skills for a time, making a tough foe noticeably easier to fight or tame. It is one of the
-three bard skills, and arguably the most valuable for PvM because the debuff applies to
-nearly anything.
+Discordance plays disharmonious music at a target to lower its resistances and skills for a
+time, making a tough foe noticeably easier to fight or tame. (On our AOS/EJ shard the debuff
+is applied as resistance and skill penalties; the older pre-AOS version lowered raw Str/Dex/Int
+instead — see `Scripts/Skills/Discordance.cs`.) It is one of the three bard skills, and
+arguably the most valuable for PvM because the debuff applies to nearly anything that isn't
+bard-immune.
 
 ## How to use it
 
@@ -53,13 +58,23 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Secondary stat | Intelligence |
 | Title | Demoralizer |
 | Mastery skill | Yes |
-| Gain notes | skill-ups can raise Dex +0.25, Int +0.25 (per-use stat gain weights) |
+| Gain notes | on a skill-up, the standard ML stat-gain roll favors **Dex** (primary) then **Int** (secondary) |
 
-From `Scripts/Skills/Discordance.cs`: the debuff magnitude is
-`effect = max(-28, Discordance / -4)` — i.e. up to **−28%** to the target's stats and skills
-at GM (scaling as skill/4). In PvP the effect is **halved**. [Musicianship](/skills/musicianship/)
-above 100 reduces the difficulty (`diff -= (music - 100) * 0.5`), and there is roughly an
-**8-second** reuse delay reduced by the mastery bonus.
+On our EJ shard (`Core.ML`), stat gain on a skill-up is the standard mechanic
+(`Scripts/Misc/SkillCheck.cs`, `TryStatGain`): a flat ~5% chance, then the skill's **primary**
+stat (Dex) is chosen ~3:1 over its **secondary** (Int) when both are set to rise. The
+per-skill `StrGain`/`DexGain`/`IntGain` weights in `Server/Skills.cs` only matter on the
+pre-ML mechanic and do not apply here.
+
+From `Scripts/Skills/Discordance.cs` (AOS path): the debuff magnitude is
+`effect = max(-28, Discordance / -4)` — i.e. up to **−28%** to the target's resistances and
+skills at GM (scaling as skill/4). The effect is **halved against very tough creatures**
+(base barding difficulty ≥ 160), not in PvP. [Musicianship](/skills/musicianship/) above 100
+reduces the difficulty (`diff -= (music - 100) * 0.5`), the base difficulty already gets a flat
+`-10`, and an Exceptional or matching-slayer instrument lowers it further
+(`GetDifficultyFor`). The reuse delay is **8 seconds**, reduced by the Discordance mastery
+bonus (`8000 - (masteryBonus/5)*1000` ms). The bard must stay alive, visible, and within
+bard range (`8 + Discordance/15` tiles) or the discord ends after 15 seconds.
 
 ## Related skills & synergies
 

@@ -1,12 +1,14 @@
 ---
 title: Tailoring
 description: Sew cloth and leather into clothing and armor.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 34)"
-  - "servuo: Scripts/Services/Craft/DefTailoring.cs"
+  - "servuo: Server/Skills.cs (SkillInfo 34 — Dex/Int, gain Str 0.38/Dex 1.63/Int 0.5)"
+  - "servuo: Scripts/Services/Craft/DefTailoring.cs (InitCraftList: clothing, leather/studded/bone armor; GetChanceAtMin = 0.5)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills: baseToSet = BaseFixedPoint/3, capped 420)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (GGSActive / CheckGGS)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

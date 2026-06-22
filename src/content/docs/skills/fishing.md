@@ -1,20 +1,19 @@
 ---
 title: Fishing
 description: Pull fish, sea serpents, and treasure from the water.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 18, Fishing)"
   - "servuo: Scripts/Services/Harvest/Fishing.cs"
-  - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
 <img src="/img/skill-flags/18.gif" alt="Fishing skill banner" width="160" />
 
 Fishing is a [gathering skill](/playing/gathering-resources/) worked from any water tile. The
-prose is community-derived (paraphrased from the uorenaissance.com skill list plus ServUO
-behavior) pending field verification; the stats table is source-verified against ServUO.
+stats table and the special-catch mechanics below are source-verified against ServUO; the
+general training advice is community guidance pending field verification.
 
 ## What it does
 
@@ -47,15 +46,22 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 
 | | |
 |---|---|
-| Primary stat | Strength |
-| Secondary stat | Intelligence |
+| Primary stat | Dexterity |
+| Secondary stat | Strength |
 | Title | Fisherman |
 | Mastery skill | No |
-| Gain notes | skill-ups can raise Str +0.5, Int +0.5 (per-use stat gain weights) |
+| Gain notes | skill-ups can raise Str +0.5, Dex +0.5 (per-use stat gain weights) |
 
-Implementation lives in `Scripts/Services/Harvest/Fishing.cs`. Deep-water and high-skill catches
-(serpents, big fish, treasure) become available as skill rises; exact catch tables are
-**unverified** here.
+Implementation lives in `Scripts/Services/Harvest/Fishing.cs`. The special-catch table
+(`MutateEntry`) gates the better hauls on **deep water** (Trammel/Felucca/Tokuno only) and on
+your **base** Fishing skill:
+
+- **Special fishing net** and **big fish** — require base Fishing **≥ 80**, deep water.
+- **Message in a bottle (MIB)** — requires base Fishing **≥ 100**, deep water.
+
+Reeling up a **treasure map, MIB, or special fishing net** also spawns a water monster next to
+you — a **25% chance of a Deep Sea Serpent**, otherwise a regular **Sea Serpent**
+(`Give()`). Fishing up an existing **SOS** message's location yields a shipwreck chest.
 
 ## Related skills & synergies
 
