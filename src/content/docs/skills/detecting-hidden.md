@@ -1,12 +1,13 @@
 ---
 title: Detecting Hidden
 description: Reveal hidden players, creatures, and traps.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 14 — Scout, Int/Dex, dexGain 0.4 / intGain 0.6)"
   - "servuo: Scripts/Skills/DetectHidden.cs"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills — teach cap)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

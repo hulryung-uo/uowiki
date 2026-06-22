@@ -1,12 +1,13 @@
 ---
 title: Stealth
 description: Move while staying hidden.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 47)"
+  - "servuo: Server/Skills.cs (SkillInfo 47 — Rogue, Dex/Int, no stat gain)"
   - "servuo: Scripts/Skills/Stealth.cs"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeach / CheckTeachSkills — teach cap)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

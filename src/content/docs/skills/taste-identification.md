@@ -1,12 +1,13 @@
 ---
 title: Taste Identification
 description: Detect poison in food and drink.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 36)"
+  - "servuo: Server/Skills.cs (SkillInfo 36 — Praegustator, Int/Str, strGain 0.2 / intGain 0.8)"
   - "servuo: Scripts/Skills/TasteID.cs"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills — teach cap)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

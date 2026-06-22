@@ -1,12 +1,13 @@
 ---
 title: Tracking
 description: Locate nearby creatures and players by their tracks.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 38)"
+  - "servuo: Server/Skills.cs (SkillInfo 38 — Ranger, Int/Dex, dexGain 1.25 / intGain 1.25)"
   - "servuo: Scripts/Skills/Tracking.cs"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills — teach cap)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

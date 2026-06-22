@@ -1,12 +1,12 @@
 ---
 title: Stealing
 description: Take what isn't nailed down.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 33)"
+  - "servuo: Server/Skills.cs (SkillInfo 33 — Pickpocket, Dex/Int, dexGain 1.0)"
   - "servuo: Scripts/Skills/Stealing.cs"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

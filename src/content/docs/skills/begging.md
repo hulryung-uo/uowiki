@@ -1,12 +1,13 @@
 ---
 title: Begging
 description: Ask NPCs for spare coin and small goods.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 6 — Beggar, Dex/Int, no stat gain)"
   - "servuo: Scripts/Skills/Begging.cs"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills — teach cap)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

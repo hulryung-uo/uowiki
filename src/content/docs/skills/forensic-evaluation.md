@@ -1,12 +1,13 @@
 ---
 title: Forensic Evaluation
 description: Read corpses and crime scenes for clues.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo)"
+  - "servuo: Server/Skills.cs (SkillInfo 19 — Detective, Int/Dex, dexGain 0.2 / intGain 0.8)"
   - "servuo: Scripts/Skills/ForensicEval.cs"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills — teach cap)"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

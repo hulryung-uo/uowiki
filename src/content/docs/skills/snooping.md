@@ -1,12 +1,12 @@
 ---
 title: Snooping
 description: Peek into other characters' packs.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo 28)"
+  - "servuo: Server/Skills.cs (SkillInfo 28 — Spy, Dex/Int, dexGain 2.5)"
   - "servuo: Scripts/Skills/Snooping.cs"
   - "reference: uorenaissance.com skill list"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -20,16 +20,16 @@ against ServUO.
 ## What it does
 
 Snooping opens the backpack of another player or NPC so you can see what they carry — the
-reconnaissance step before a [Stealing](/skills/stealing/) attempt. Done to a player it can
-flag you as a **criminal** if you are caught, so rogues snoop from
-[hiding](/skills/hiding/)/[stealth](/skills/stealth/). See
+reconnaissance step before a [Stealing](/skills/stealing/) attempt. Each snoop costs you a
+little **karma** (−4), and a victim may **notice** you peeking, so rogues snoop from
+[hiding](/skills/hiding/)/[stealth](/skills/stealth/) — a failed snoop can reveal you. See
 [notoriety & PvP](/playing/notoriety-and-pvp/).
 
 ## How to use it
 
 Activate the skill and target another character's pack (you must be adjacent). A successful
-roll reveals the contents; a noticed snoop on a player risks criminal status. See
-[items & inventory](/playing/items-and-inventory/).
+roll reveals the contents; failing the roll may reveal you, and a player victim may notice
+the attempt. See [items & inventory](/playing/items-and-inventory/).
 
 ## How to train it
 
@@ -54,9 +54,13 @@ See [skill gain](/mechanics/skill-gain/) and [using & training skills](/playing/
 | Mastery skill | No |
 | Gain notes | skill-ups can raise Dex +2.5 (per-use stat gain weights) |
 
-From `Scripts/Skills/Snooping.cs`: a player snoop succeeds outright if
-`Snooping.Value > Random(100)`; otherwise it rolls `CheckTargetSkill(Snooping, container, 0.0,
-100.0)`. Being caught snooping another player marks you criminal.
+From `Scripts/Skills/Snooping.cs`: success is always a `CheckTargetSkill(Snooping, container,
+0.0, 100.0)` roll (0.0 difficulty floor, 100.0 ceiling). Separately, if
+`Snooping.Value < Random(100)` the victim is **notified** ("You notice … peeking into your
+belongings!") — that's a detection roll, not the success check. Each snoop costs **−4 karma**,
+and a *failed* snoop reveals you unless `Hiding.Value / 2 > Random(100)`. The code does **not**
+flag you criminal for snooping (criminal status is a [Stealing](/skills/stealing/)
+consequence).
 
 ## Related skills & synergies
 
