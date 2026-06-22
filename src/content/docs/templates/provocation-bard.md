@@ -1,11 +1,14 @@
 ---
 title: "Template: Provocation Bard (Tri-Bard)"
 description: The battlefield controller — turn monsters on each other with Provocation, debuff with Discordance, calm with Peacemaking, and loot the survivor. Seven GM build.
-status: unverified
+status: source-verified
 sources:
   - "community UO build knowledge (Stratics, UO Outlands wiki, UO forums) — adapted to this shard"
-  - "servuo: Config/PlayerCaps.cfg (caps)"
-last_verified: 2026-06-12
+  - "servuo: Config/PlayerCaps.cfg (700.0 total / 100.0 per-skill caps)"
+  - "servuo: Server/Skills.cs (Musicianship, Provocation, Discordance, Peacemaking, weapon skills, Tactics, Anatomy all exist)"
+  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs (GetBardRange = 8 + skill/15; CheckMusicianship gate = Music/100 roll)"
+  - "servuo: Scripts/Skills/Provocation.cs (Musicianship gates the attempt; Music > 100 reduces difficulty)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -57,8 +60,10 @@ other three.
 
 - **[Provocation](/skills/provocation/)** — pick two monsters; on success they fight each
   other. This is the engine: a roomful of spawn becomes two sides killing themselves while
-  you watch. **A failed provoke can turn the target on YOU**, so success rate (and therefore
-  Music) matters a lot.
+  you watch. In ServUO a failed provoke produces *no effect* ("Your music fails to incite
+  enough anger") rather than redirecting the target onto you — but a poorly handled pull can
+  still leave a monster attacking you, so success rate (and therefore Music) matters a lot
+  ([`Scripts/Skills/Provocation.cs`](/shard/)).
 - **[Discordance](/skills/discordance/)** — debuff a target's resists and skills so it loses
   the duel you started, or so your weapon finishes it faster.
 - **[Peacemaking](/skills/peacemaking/)** — calm a monster so it stops attacking; area peace
@@ -109,8 +114,9 @@ and a good weapon are the only real upkeep.
   is too low — Music gates and boosts every song. Grind it first.
 - **If two monsters won't provoke onto each other**, they may be too far apart or out of
   range — close to within ~8 tiles (+1 per 15 skill) or pick a closer pair.
-- **If a provoke turns the monster on you**, [Peacemaking](/skills/peacemaking/) it
-  immediately — that's what the song is for.
+- **If a monster ends up attacking you** (a failed provoke leaves it unchanged, but a bad
+  pull can still bring one onto you), [Peacemaking](/skills/peacemaking/) it immediately —
+  that's what the song is for.
 - **If you want a pet army instead of an enemy army**, see the
   [Bard Tamer](/templates/bard-tamer/) — same Discordance core, very different feel.
 - **Mistake:** skimping on Music to fit more "real" skills. Every bard attempt rolls against

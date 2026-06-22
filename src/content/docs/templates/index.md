@@ -63,7 +63,7 @@ the lumberjack warrior builds on the [Warrior template](/templates/warrior/).
 
 | Template | Core idea |
 |---|---|
-| [Lumberjack Warrior](/templates/lumberjack-warrior/) | The "axer": a melee warrior who takes Lumberjacking and wields an axe to swing for +20% damage at GM — and cuts wood on the side. |
+| [Lumberjack Warrior](/templates/lumberjack-warrior/) | The "axer": a melee warrior who takes Lumberjacking and wields an axe to swing for +30% damage at GM — and cuts wood on the side. |
 | [Alchemy Mage (알케미 마사)](/templates/alchemy-mage/) | A mage who throws explosion potions ("purples") for an interrupt-proof burst alongside spells; Alchemy makes the potions hit harder. |
 | [Weapon/Halberd Mage (할바드 마사)](/templates/weapon-mage/) | The war-mage: wields a heavy two-handed halberd, opens with a weapon hit/special, then casts. No shield (two-handed). |
 | [Stun Mage (스턴 마사)](/templates/stun-mage/) | Locks the target with a wrestling stun punch (needs Anatomy 80 + Wrestling 80) then dumps a spell combo in the window. |

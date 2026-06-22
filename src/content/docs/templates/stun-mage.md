@@ -1,20 +1,30 @@
 ---
 title: "Template: Stun Mage (스턴 마사)"
-description: The lockdown caster — a Magery mage who readies a wrestling stun punch (Anatomy 80 + Wrestling 80) to freeze the target, then lands a spell combo.
+description: The lockdown caster — a Magery mage built around the pre-AOS wrestling stun punch (Anatomy 80 + Wrestling 80). Note the stun punch is disabled on this EJ shard; documented as an era variant.
 status: unverified
 sources:
-  - "servuo: Scripts/Items/Equipment/Weapons/Fists.cs (stun requires Anatomy >= 80.0 AND Wrestling >= 80.0; disarm requires Arms Lore >= 80 + Wrestling >= 80)"
+  - "servuo: Scripts/Items/Equipment/Weapons/Fists.cs (pre-AOS stun: Anatomy >= 80.0 AND Wrestling >= 80.0, 4s Freeze; disarm: ArmsLore >= 80.0 AND Wrestling >= 80.0 — BUT all gated behind `if (Core.AOS) return;`, so disabled on this shard)"
+  - "servuo: Server/Main.cs:147 + Config/Expansion.cfg (EJ → Core.AOS == true → pre-AOS stun punch unreachable)"
   - "servuo: Config/PlayerCaps.cfg (700 total / 100 per-skill / 225 stat caps)"
+  - "servuo: Server/Skills.cs (Magery, EvalInt, Resisting Spells, Wrestling, Anatomy, Meditation, Inscription all exist)"
   - "community/era UO build knowledge — adapted to this shard"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 
-:::note[Unverified — community/era build, adapted]
-A classic Korean-community mage variant adapted to this shard. The **80/80 stun requirement**
-and the **700/225 caps** are source-verified against ServUO; the build shape and PvP combo
-tactics are era wisdom. **Exact PvP timings are unverified** — field verification is pending.
-File discrepancies per [wiki conventions](/guides/wiki-conventions/).
+:::danger[The classic stun punch is OFF on this shard]
+This page documents the **pre-AOS wrestling stun punch** (Anatomy 80 + Wrestling 80 → a
+StunReady punch that freezes the target). That mechanic is real ServUO code, but it is gated
+behind `if (Core.AOS) return;` in
+[`Scripts/Items/Equipment/Weapons/Fists.cs`](/shard/). Our shard runs expansion **EJ**
+(`Config/Expansion.cfg`), and `Core.AOS` is true for any expansion at or past AOS
+([`Server/Main.cs`](/shard/)). **So the pre-AOS stun punch described below does NOT function
+here.** On EJ the Fists weapon instead uses the AOS special-move system (a
+**Paralyzing Blow** weapon special), gated by weapon skill and mana rather than the 80/80
+threshold. Treat this build as a **historical/era variant**, not a working template on this
+server, until the AOS-special version is documented and field-verified. The **700/225 caps**
+are source-verified; the stun mechanic is not available. File discrepancies per
+[wiki conventions](/guides/wiki-conventions/).
 :::
 
 In the Korean UO community a mage was called **마사** (*masa*, from 마법사 *mabeopsa*,
@@ -27,21 +37,26 @@ and the [Weapon/Halberd Mage](/templates/weapon-mage/). For the high-level PvP p
 three, see [PvP builds](/professions/pvp/); for the from-scratch caster storyline, see the
 [Mage template](/templates/mage/).
 
-## The idea: stun, then nuke (source-verified requirement)
+## The idea: stun, then nuke (era mechanic — NOT active on this shard)
 
-This shard implements the pre-AOS stun punch. Per
-`servuo: Scripts/Items/Equipment/Weapons/Fists.cs`, **readying a stun requires**:
+The classic stun mage is built on the **pre-AOS stun punch**. In
+`servuo: Scripts/Items/Equipment/Weapons/Fists.cs` that move exists and **readying it requires**:
 
-> **Anatomy ≥ 80.0 AND Wrestling ≥ 80.0**
+> **Anatomy ≥ 80.0 AND Wrestling ≥ 80.0** — a successful punch then `Freeze`s the target for 4
+> seconds (the related disarm move requires **Arms Lore ≥ 80 AND Wrestling ≥ 80** instead).
 
-(The related disarm move requires **Arms Lore ≥ 80 AND Wrestling ≥ 80** instead.) With those two
-skills, you ready a stun and your next successful wrestling hit briefly locks the target down —
-the stun mage uses that window to land an Eval-boosted spell combo before the enemy can react or
-heal. Lock, then dump.
+**But that whole code path is disabled on this shard.** Both the stun/disarm request handlers and
+the on-swing check are gated behind `Core.AOS` (`if (Core.AOS) return;` / `if (!Core.AOS && …)`).
+Our server runs expansion **EJ**, which is past AOS, so `Core.AOS` is true and the StunReady punch
+never triggers. On EJ the Fists weapon exposes the AOS **Paralyzing Blow** special move instead
+(`PrimaryAbility = Disarm`, `SecondaryAbility = ParalyzingBlow` in `Fists.cs`), which is gated by
+weapon skill and a mana cost (`Scripts/Abilities/WeaponAbility.cs`) — not by the Anatomy-80 /
+Wrestling-80 threshold or a StunReady toggle.
 
-Because the requirement is **80**, not 100, you don't strictly need Anatomy and Wrestling at GM
-to *use* the stun — but GM Wrestling is also your unarmed defense and improves your hit/stun
-chance, so this template carries both at 100.
+In other words: the 80/80 stun requirement is correctly described above as *era* code, but you
+**cannot ready a pre-AOS stun on this shard**. If you want a wrestling-based lockdown here, it
+runs through the AOS Paralyzing Blow special, whose exact behavior on EJ is **not yet documented
+or field-verified**. The rest of this page describes the historical playstyle for context.
 
 ## The 7 skills (≈700 total)
 
@@ -51,8 +66,10 @@ Seven Grandmaster (100.0) skills sum to **700.0** — this shard's total skill c
 - **[Magery](/skills/magery/)** — your spell combo and mobility.
 - **[Evaluating Intelligence](/skills/evaluating-intelligence/)** — raises spell damage.
 - **[Resisting Spells](/skills/resisting-spells/)** — survive enemy magic.
-- **[Wrestling](/skills/wrestling/)** — the stun (≥80 required) and your unarmed defense.
-- **[Anatomy](/skills/anatomy/)** — the stun (≥80 required); also boosts melee/heal.
+- **[Wrestling](/skills/wrestling/)** — your unarmed defense (uninterrupted casting) and, in
+  pre-AOS rulesets, the stun (≥80 needed). On EJ it also enables the AOS Paralyzing Blow special.
+- **[Anatomy](/skills/anatomy/)** — boosts melee/heal; was the pre-AOS stun's second requirement
+  (≥80), which **does not apply on this EJ shard** (see warning above).
 - **[Meditation](/skills/meditation/)** — refills mana between combos.
 - **Flex: [Inscription](/skills/inscription/)** (spell-damage bonus + scribing) or another
   utility skill.
@@ -68,20 +85,27 @@ cap, `Config/PlayerCaps.cfg`) — STR and a workable punch for the stun, INT lea
 
 ## How it plays
 
-- **Ready the stun** (needs Anatomy 80 + Wrestling 80, per `Fists.cs`), close to wrestling
-  range, and land the punch to lock the target.
-- **Dump in the window:** while the target is stunned, chain your Eval-boosted spell combo
-  (the classic Explosion → Energy Bolt style burst) so it lands before they recover.
+- **(Era playstyle) Ready the stun** — in a pre-AOS ruleset you'd ready the stun (Anatomy 80 +
+  Wrestling 80, per `Fists.cs`), close to wrestling range, and land the punch to freeze the
+  target. **This does not work on our EJ shard** (see the warning above); it's described for
+  context.
+- **What works here instead:** a wrestling-based lockdown on EJ goes through the AOS
+  **Paralyzing Blow** weapon special (gated by skill + mana), whose timing/effect on this shard
+  is unverified. Otherwise play it as a tank/war mage: GM Wrestling for uninterrupted casting.
+- **Dump in any window:** when the target is locked or pressured, chain your Eval-boosted spell
+  combo (the classic Explosion → Energy Bolt style burst) so it lands before they recover.
 - **Stay un-interrupted** with GM Wrestling so an enemy melee can't lock *you* out of casting.
-- **Exact stun duration and the PvP timing of the stun→combo window are unverified on this
-  shard** — test against live targets and report. This is a player-combat build; read
+- **The stun mechanic itself is unavailable on this shard, and PvP timings are unverified** —
+  test against live targets and report. This is a player-combat build; read
   [advanced combat](/playing/combat-advanced/) and [PvP builds](/professions/pvp/) first.
 
 ## Money
 
-In PvM it plays like the [Mage template](/templates/mage/) — Recall in, burst, Recall out — with
-the stun as an extra control tool against melee-fast spawn. Its real edge is **PvP**: locking a
-player for a guaranteed combo window is what the build is for.
+In PvM it plays like the [Mage template](/templates/mage/) — Recall in, burst, Recall out. Its
+intended edge was **PvP**: locking a player for a guaranteed combo window. Note that the pre-AOS
+lockdown punch this relied on is disabled on our EJ shard (above), so on this server it functions
+as a tank/war mage with an AOS Paralyzing Blow option rather than the classic guaranteed-stun
+build.
 
 ## See also
 

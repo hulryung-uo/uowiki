@@ -1,11 +1,13 @@
 ---
 title: "Template: Crafter (the Mule)"
 description: The non-combat producer who makes the shard's tools, suits, and potions. Why crafters specialize, two example mule builds, BODs, repairs, and the economy.
-status: unverified
+status: source-verified
 sources:
   - "community UO build knowledge (Stratics, UO Outlands wiki, UO forums) — adapted to this shard"
-  - "servuo: Config/PlayerCaps.cfg (caps)"
-last_verified: 2026-06-12
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000/700.0, SkillCap=1000/100.0, TotalStatCap=225)"
+  - "servuo: Server/Skills.cs (Blacksmithy, Tailoring, Tinkering, Arms Lore, Carpentry, Mining, Magery, Alchemy, Taste Identification, Cooking, Inscription all present in SkillInfo)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs:6368 + BaseArmor.cs:3184 (Arms Lore adds ArmsLore.Value/20 to WeaponDamage / resist on EXCEPTIONAL items only; does not affect exceptional chance — GetExceptionalChance in CraftItem.cs has no ArmsLore term)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -49,7 +51,7 @@ The armorer. Makes metal armor and weapons, cloth and leather suits, and the too
 | [Blacksmithy](/skills/blacksmithy/) | 100 | Metal armor and weapons; the big BOD earner |
 | [Tailoring](/skills/tailoring/) | 100 | Cloth + leather armor; its own BOD system |
 | [Tinkering](/skills/tinkering/) | 100 | Makes the tools every crafter needs (see below) |
-| [Arms Lore](/skills/arms-lore/) | 100 | Quality bonus to smith/tailor output |
+| [Arms Lore](/skills/arms-lore/) | 100 | Adds damage/resist to *exceptional* weapons and armor you craft (not exceptional chance) |
 | [Carpentry](/skills/carpentry/) | 100 | Furniture, bows, house add-ons, instruments |
 | [Mining](/skills/mining/) | 100 | Self-supply ore for the forge |
 | [Magery](/skills/magery/) | 100 | Recall — move between forge, bank, and mine |

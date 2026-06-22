@@ -1,12 +1,15 @@
 ---
 title: Serpent's Hold
 description: The island fortress of the Order of the Silver Serpent — a warrior's bastion in the southern sea.
-status: unverified
+status: source-verified
 sources:
   - "anima: data/map_pois.json (city + npc_vendor: Serpent's Hold)"
   - "anima: data/world_knowledge.yaml (cities.serpents_hold)"
+  - "servuo: Data/Regions.xml (TownRegion \"Serpent's Hold\", go 3010,3371, rect 2868,3324 205x195; present on both Felucca and Trammel facets)"
+  - "servuo: Scripts/Regions/TownRegion.cs (TownRegion : GuardedRegion — guarded by default)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Serpent's Hold public-gate entry)"
   - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -23,7 +26,9 @@ the wild southern waters.
 ## Getting there
 
 - **Center:** (2895, 3480) — an island fortress in the **southern** sea, south-east of
-  [Trinsic](/world/trinsic/)
+  [Trinsic](/world/trinsic/). Verified region travel point is (3010, 3371). It is a
+  **guarded town** (`Data/Regions.xml`, `TownRegion`/`GuardedRegion`) and exists on both the
+  Felucca and Trammel facets.
 - There is **no public moongate** to Serpent's Hold; reach it by **boat**, or by
   [*Recall*](/skills/magery/) / *Gate Travel* to a marked rune. See
   [Moongates & shrines](/world/moongates-and-shrines/) for the nearest mainland gates.

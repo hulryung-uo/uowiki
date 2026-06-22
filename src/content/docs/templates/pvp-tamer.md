@@ -3,8 +3,10 @@ title: "Template: PvP Tamer"
 description: A foot-fighting mage tamer built to keep casting while meleed and not get dismounted — pet pressure plus spell burst. Seven GM build and the dismount problem.
 status: unverified
 sources:
-  - "community UO build knowledge (Stratics, UO Outlands wiki, UO forums) — adapted to this shard"
-  - "servuo: Config/PlayerCaps.cfg (caps)"
+  - "community UO build knowledge (Stratics, UO forums, UO Outlands wiki) — adapted to this shard"
+  - "servuo: Config/PlayerCaps.cfg (700.0 total / 100.0 per-skill caps — verified)"
+  - "servuo: Server/Skills.cs (Magery, EvalInt, Resisting Spells, Wrestling, Meditation, Animal Taming, Animal Lore all exist)"
+  - "servuo: Server/Main.cs + Config/Expansion.cfg (EJ → Core.AOS true → pre-AOS wrestling stun/disarm disabled, per Fists.cs)"
 last_verified: 2026-06-12
 generated: false
 ---
@@ -32,7 +34,7 @@ On **this shard** skills cap at **100.0 each and 700.0 total**
 | [Magery](/skills/magery/) | 100 | Damage, heals, Recall — your offense and escape |
 | [Evaluating Intelligence](/skills/evaluating-intelligence/) | 100 | Raises spell damage |
 | [Resisting Spells](/skills/resisting-spells/) | 100 | Survive enemy spell bursts |
-| [Wrestling](/skills/wrestling/) | 100 | Cast uninterrupted while being meleed; stun/disarm |
+| [Wrestling](/skills/wrestling/) | 100 | Cast uninterrupted while being meleed (the pre-AOS stun/disarm punch is disabled on this EJ shard) |
 | [Meditation](/skills/meditation/) | 100 | Mana regen between bursts |
 | [Animal Taming](/skills/animal-taming/) | 100 | Control a combat pet |
 | [Animal Lore](/skills/animal-lore/) | 100 | Pet control + tame checks |
@@ -53,8 +55,10 @@ the default; don't assume 120-based PvP numbers apply here.
 
 - **[Wrestling](/skills/wrestling/)** is the keystone. With GM Wrestling you can keep
   casting while an enemy melees you — without it, every hit risks interrupting your spell.
-  It also gives wrestling specials (stun/disarm in eras that support them) as a no-weapon
-  melee option.
+  In pre-AOS rulesets it also gave wrestling specials (stun/disarm), but those are
+  **disabled on this EJ shard** — the pre-AOS punch code in `Fists.cs` is gated behind
+  `Core.AOS`, which is true on EJ. Here Wrestling is purely your uninterrupted-casting defense
+  (plus the AOS Paralyzing Blow special, behavior unverified).
 - **[Resisting Spells](/skills/resisting-spells/)** is survival. PvP is decided by spell
   bursts; GM Resist softens incoming magic damage and effects enough to live through them.
 - **[Evaluating Intelligence](/skills/evaluating-intelligence/) + [Magery](/skills/magery/)**

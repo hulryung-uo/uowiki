@@ -1,12 +1,12 @@
 ---
 title: Delucia
 description: A walled frontier town in the Lost Lands — a safe harbor ringed by danger.
-status: unverified
+status: source-verified
 sources:
-  - "anima: data/map_pois.json (city + npc_vendor: Delucia)"
-  - "anima: data/world_knowledge.yaml (cities.delucia)"
-  - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+  - "servuo: Data/Regions.xml (TownRegion \"Delucia\", Lost Lands, rect x5123 y3942, go 5228,3978; guarded — no guards-disabled tag)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Delucia / Lost Lands entry — no public moongate)"
+  - "servuo: Spawns/felucca.xml + Spawns/trammel.xml (Delucia vendors: banker, blacksmith, tailor, mage, alchemist, healer, provisioner, animaltrainer, innkeeper, cobbler)"
+last_verified: 2026-06-22
 generated: false
 ---
 

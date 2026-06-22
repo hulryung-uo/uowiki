@@ -1,12 +1,14 @@
 ---
 title: New Magincia
 description: The island City of Humility, rebuilt from the ruins of proud old Magincia.
-status: unverified
+status: source-verified
 sources:
-  - "anima: data/map_pois.json (city + npc_vendor: New Magincia)"
-  - "anima: data/world_knowledge.yaml (cities.magincia)"
-  - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+  - "servuo: Data/Regions.xml (NewMaginciaRegion \"Magincia\", Felucca + Trammel, rect x3632 y2032 area, go 3714,2220; guarded)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (Magincia gate 3563,2139 — both Trammel and Felucca lists)"
+  - "servuo: Scripts/Services/New Magincia/Magincia Bazaar/Core/MaginciaBizaar.cs (Bazaar enabled, merchant stalls ~3686-3716,2192)"
+  - "servuo: Scripts/Services/New Magincia/Housing Lotto/Core/MaginciaLottoSystem.cs (housing lotto, zone x3614-3817 y2031-2274)"
+  - "servuo: Spawns/felucca.xml + Spawns/trammel.xml (Magincia vendors: banker, blacksmith, tailor, tavernkeeper, cook, mapmaker, shipwright, fisherguildmaster, wanderinghealer)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -38,8 +40,13 @@ A small island roster, from the NPC vendors recorded on the island
 <img src="/img/services/tailor.gif" alt="Tailor" width="28" /> Tailor ·
 <img src="/img/services/tavern.gif" alt="Tavern" width="28" /> Tavern
 
-A farmer, fisherman, mapmaker, and shipwright cover the island's seafaring and pastoral trades.
-For a fuller market, the mainland cities are a short moongate hop away.
+A fisherman, mapmaker, and shipwright cover the island's seafaring trades, alongside a smith,
+tailor, cook, and tavern keeper. For a fuller market, the mainland cities are a short moongate
+hop away.
+
+The rebuilt city is also home to the **Magincia Bazaar** — rentable merchant stalls clustered
+near the center of town — and a **housing lotto** that periodically awards the island's open
+building plots. Both run on Trammel and Felucca alike.
 
 ## Nearby
 

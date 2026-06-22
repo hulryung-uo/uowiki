@@ -1,12 +1,12 @@
 ---
 title: Cove
 description: The small fishing-and-farming village tucked by the mountains north-east of Britain, in the orcs' shadow.
-status: unverified
+status: source-verified
 sources:
-  - "anima: data/map_pois.json (city + npc_vendor: Cove)"
-  - "anima: data/world_knowledge.yaml (cities.cove)"
-  - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+  - "servuo: Data/Regions.xml (Felucca + Trammel TownRegion \"Cove\", rect x2200 y1110, go 2275,1210; guarded — no guards-disabled tag)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Cove entry in any moongate list)"
+  - "servuo: Spawns/felucca.xml + Spawns/trammel.xml (Cove vendors: armorer, weaponsmith, banker, cobbler, fisherman, healer, provisioner)"
+last_verified: 2026-06-22
 generated: false
 ---
 

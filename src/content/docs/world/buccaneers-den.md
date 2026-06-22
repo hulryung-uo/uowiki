@@ -1,12 +1,13 @@
 ---
 title: Buccaneer's Den
 description: The lawless pirate haven where there are no guards — home to thieves, smugglers, and special vendors.
-status: unverified
+status: source-verified
 sources:
-  - "anima: data/map_pois.json (city + npc_vendor: Buccaneer's Den)"
-  - "anima: data/world_knowledge.yaml (cities.buccaneers_den)"
-  - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+  - "servuo: Data/Regions.xml (Felucca + Trammel TownRegion \"Buccaneer's Den\", rect x2612 y2057, go 2706,2163, guards disabled=true)"
+  - "servuo: Scripts/Regions/GuardedRegion.cs (guards disabled => unguarded)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (Buccaneer's Den gate 2711,2234 — Felucca list only)"
+  - "servuo: Spawns/felucca.xml + Spawns/trammel.xml (Buccaneer's Den town vendors)"
+last_verified: 2026-06-22
 generated: false
 ---
 

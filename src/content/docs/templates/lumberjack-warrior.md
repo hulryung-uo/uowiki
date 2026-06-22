@@ -1,19 +1,20 @@
 ---
 title: "Template: Lumberjack Warrior (Axer)"
-description: The axe dexxer — a melee warrior who takes Lumberjacking to swing axes for +20% damage at Grandmaster, presented as a seven-GM build.
-status: unverified
+description: The axe dexxer — a melee warrior who takes Lumberjacking to swing axes for +30% damage at Grandmaster, presented as a seven-GM build.
 sources:
-  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (lumberBonus = GetBonus(Lumberjacking, 0.200, 100.0, 10.00))"
-  - "servuo: Scripts/Items/Equipment/Weapons/BaseAxe.cs (axes use Lumberjacking.System; DefSkill = Swords)"
-  - "servuo: Config/PlayerCaps.cfg (700 total / 100 per-skill / 225 stat caps)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (lumberBonus = GetBonus(Lumberjacking, 0.200, 100.0, 10.00); GetBonus = value*scalar + offset(at threshold), /100 → +30% at GM; zeroed unless WeaponType.Axe)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseAxe.cs (DefType = Axe; DefSkill = Swords; harvest system = Lumberjacking.System)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000/700.0, SkillCap=1000/100.0, TotalStatCap=225)"
+  - "servuo: Server/Skills.cs (Swordsmanship, Tactics, Anatomy, Healing, Lumberjacking, Resisting Spells, Parry, Chivalry, Magery all present in SkillInfo)"
   - "community/era UO build knowledge — adapted to this shard"
-last_verified: 2026-06-12
+status: source-verified
+last_verified: 2026-06-22
 generated: false
 ---
 
 :::note[Unverified — community/era build, adapted]
 This is a classic-era community build ("lumberjack dexxer" / "axer") adapted to this shard.
-The **+20% axe bonus** and the **700/225 caps** are source-verified against ServUO; the build
+The **+30% axe bonus** and the **700/225 caps** are source-verified against ServUO; the build
 shape and money advice are era wisdom. **Field verification is pending** — as you play it, file
 discrepancies per [wiki conventions](/guides/wiki-conventions/).
 :::
@@ -21,8 +22,8 @@ discrepancies per [wiki conventions](/guides/wiki-conventions/).
 The lumberjack warrior is a [Warrior](/templates/warrior/) with one twist that makes it hit
 harder than a plain sword dexxer: it takes **[Lumberjacking](/skills/lumberjacking/)** and
 fights with an **axe**. On this shard an axe-class weapon gets a flat damage bonus scaled by
-your Lumberjacking skill, so a Grandmaster lumberjack swings for noticeably more than the same
-character holding a katana.
+your Lumberjacking skill (up to +30% at GM), so a Grandmaster lumberjack swings for noticeably
+more than the same character holding a katana.
 
 ## Why the axe hits harder (source-verified)
 
@@ -33,16 +34,19 @@ Per `servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs`, total weapon damage
 lumberBonus = GetBonus(Lumberjacking, 0.200, 100.0, 10.00)
 ```
 
-That formula reaches **+20% damage at 100.0 Lumberjacking** (`BaseAxe.cs` registers axes with
-`Lumberjacking.System`, so the bonus only applies when you are wielding an axe; the line is
-zeroed for non-axe weapons). Axes also train and use [Swordsmanship](/skills/swordsmanship/)
-(`BaseAxe.cs`: `DefSkill = Swords`), so the lumberjack warrior is a **swordsman who specialises
-in axes** — a [War Axe](/items/catalog/weapons/), Large Battle Axe, or Two-Handed Axe rather
-than a katana.
+where `GetBonus(value, scalar, threshold, offset)` returns `(value * scalar + offset) / 100`
+once `value` hits the threshold. Plugging in 100.0 Lumberjacking gives
+`(100 × 0.200 + 10.00) / 100 = 0.30`, i.e. **+30% damage at GM** (the 20% scalar plus a 10%
+bonus that only kicks in at 100.0). The damage line is zeroed unless your weapon is an axe
+(`BaseWeapon.cs`: `if (Type != WeaponType.Axe) lumberBonus = 0.0`), and `BaseAxe.cs` sets
+`DefType = Axe`, so the bonus applies only when you wield an axe. Axes also train and use
+[Swordsmanship](/skills/swordsmanship/) (`BaseAxe.cs`: `DefSkill = Swords`), so the lumberjack
+warrior is a **swordsman who specialises in axes** — a [War Axe](/items/catalog/weapons/),
+Large Battle Axe, or Two-Handed Axe rather than a katana.
 
-The +20% stacks on top of your STR, Anatomy, and Tactics bonuses, so it is a real, free damage
-tier the plain dexxer never gets. The price is one of your seven skill slots spent on
-Lumberjacking instead of, say, Magery.
+The +30% stacks on top of your STR, Anatomy, and Tactics bonuses (which use the same `GetBonus`
+helper), so it is a real, free damage tier the plain dexxer never gets. The price is one of your
+seven skill slots spent on Lumberjacking instead of, say, Magery.
 
 ## The 7 skills (≈700 total)
 
@@ -53,7 +57,7 @@ Seven Grandmaster (100.0) skills sum to **700.0** — this shard's total skill c
 - **[Tactics](/skills/tactics/)** — core damage multiplier.
 - **[Anatomy](/skills/anatomy/)** — more damage, and feeds bandage healing.
 - **[Healing](/skills/healing/)** — bandages; at 80/80 Healing+Anatomy, self-resurrection.
-- **[Lumberjacking](/skills/lumberjacking/)** — the +20% axe bonus (and free wood; see below).
+- **[Lumberjacking](/skills/lumberjacking/)** — the +30% axe bonus at GM (and free wood; see below).
 - **[Resisting Spells](/skills/resisting-spells/)** — blunts enemy magic.
 - **Flex: [Parrying](/skills/parrying/)** (a shield share of blocks — but note a two-handed axe
   leaves no hand for a shield, so pair Parry with a one-handed [War Axe](/items/catalog/weapons/)),
@@ -90,7 +94,7 @@ See [advanced combat](/playing/combat-advanced/) for weapon specials and timing.
 
 ## Money
 
-The axer farms the same [dungeon](/world/dungeons/) ladder as the plain warrior, but the +20%
+The axer farms the same [dungeon](/world/dungeons/) ladder as the plain warrior, but the +30%
 damage edge means faster kills and more gold per hour at every rung. On top of that:
 
 - **Wood income.** Cut logs on the way to and from a dungeon; boards sell to carpenters and

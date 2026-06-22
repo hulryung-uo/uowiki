@@ -1,12 +1,13 @@
 ---
 title: "7x GM Templates"
 description: The classic Ultima Online endgame — seven skills at Grandmaster (100.0 each) inside the 700.0 total cap, organized by purpose with strengths, weaknesses, and stat notes.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Config/PlayerCaps.cfg (700 total cap)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 → 700.0; SkillCap=1000 → 100.0 per skill; TotalStatCap=225)"
+  - "servuo: Server/Skills.cs (m_Table — every named skill exists)"
   - "reference: classic UO template conventions"
   - "general UO community build knowledge"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 

@@ -1,11 +1,14 @@
 ---
 title: "Template: Weapon/Halberd Mage (할바드 마사)"
 description: The war-mage — a Magery caster who wields a heavy two-handed weapon (a halberd) instead of relying on Wrestling, opening with a weapon special then casting.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Config/PlayerCaps.cfg (700 total / 100 per-skill / 225 stat caps)"
+  - "servuo: Config/PlayerCaps.cfg (700.0 total / 100.0 per-skill / 225 stat caps)"
+  - "servuo: Server/Skills.cs (Magery, EvalInt, Resisting Spells, Swordsmanship, Tactics, Anatomy, Meditation all exist)"
+  - "servuo: Scripts/Items/Equipment/Weapons/Halberd.cs + BasePoleArm.cs (halberd = BasePoleArm, DefSkill = Swords, two-handed; specials WhirlwindAttack/ConcussionBlow)"
+  - "servuo: Scripts/Misc/RegenRates.cs (Meditation bonus zeroed by meditation-blocking armor; weapons do not count toward the armor offset)"
   - "community/era UO build knowledge — adapted to this shard"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 

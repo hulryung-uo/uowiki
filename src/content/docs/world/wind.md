@@ -1,12 +1,15 @@
 ---
 title: Wind
 description: The hidden city of mages, sealed beneath the mountains and open only to those skilled in Magery.
-status: unverified
+status: source-verified
 sources:
   - "anima: data/map_pois.json (city: Wind)"
   - "anima: data/world_knowledge.yaml (cities.wind)"
+  - "servuo: Data/Regions.xml (TownRegion \"Wind\", go 5223,190, rects x~5132-5366 y~3-204; present on both Felucca and Trammel facets)"
+  - "servuo: Scripts/Regions/TownRegion.cs (TownRegion : GuardedRegion — Wind is a guarded town region, not a dungeon region)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Wind public-gate entry)"
   - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -22,16 +25,27 @@ private retreat few outsiders will ever see.
 
 ## Getting there
 
-- **Approximate location:** the hidden entrance lies in the mountains of north-central
-  Britannia, near (1361, 895) on the Felucca/Trammel map
-- **Magery-gated teleporter only.** You cannot walk, sail, or moongate directly into Wind —
-  you must find the hidden teleporter and meet its **Magery requirement** (about 70.0 skill).
-  Without it, the teleporter simply refuses to carry you. See [Magery](/skills/magery/).
+- **Surface entrance (lore):** the hidden entrance is traditionally placed in the mountains of
+  north-central Britannia, near (1361, 895). This entrance coordinate is OSI lore and is **not**
+  confirmed against our shard's source.
+- **City region location (verified):** the Wind town region itself sits in the Lost Lands /
+  dungeon coordinate block of the map, roughly (5132–5366, 3–204), with its region travel point
+  at (5223, 190). On our shard Wind is a **guarded `TownRegion`** (not a dungeon region) and
+  exists on both the Felucca and Trammel facets (`Data/Regions.xml`).
+- **No public moongate.** Wind has no public-moongate destination
+  (`Scripts/Items/Functional/PublicMoongate.cs`). Access is by the hidden teleporter described
+  below.
+- **Magery-gated teleporter (lore).** Classic UO requires finding a hidden teleporter that
+  enforces a **Magery requirement** (about 70.0 skill). The teleporter location and exact
+  threshold are **not** confirmed against our shard's source. See [Magery](/skills/magery/).
 
-:::note[Entry is restricted — unverified for our shard]
-The 70.0 Magery entry requirement is classic UO lore; the exact threshold and teleporter
-location on **our shard** have not yet been confirmed against ServUO source or in-game testing.
-Treat the number as a guideline until verified.
+:::note[What is verified vs. lore]
+**Verified from ServUO source:** Wind is a guarded `TownRegion` (not a dungeon region) on both
+Felucca and Trammel, located in the Lost Lands coordinate block around (5132–5366, 3–204), and
+it has no public moongate. **Still lore / unverified:** the surface-entrance coordinate
+(1361, 895) and the 70.0 Magery entry requirement — the hidden teleporter is placed via
+decoration/teleporter data and was not located in source during this pass, so treat the
+threshold and entrance as a guideline until confirmed in-game.
 :::
 
 ## Services

@@ -1,12 +1,15 @@
 ---
 title: Papua
 description: The tropical port town of the Lost Lands — gateway to the savage jungles of T2A.
-status: unverified
+status: source-verified
 sources:
   - "anima: data/map_pois.json (city + npc_vendor: Papua)"
   - "anima: data/world_knowledge.yaml (cities.papua)"
+  - "servuo: Data/Regions.xml (TownRegion \"Papua\", go 5769,3176, rects ~5639-5851 x 3095-3318; present on both Felucca and Trammel facets)"
+  - "servuo: Scripts/Regions/TownRegion.cs (TownRegion : GuardedRegion — guarded by default)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Papua public-gate entry)"
   - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -22,7 +25,10 @@ in the realm.
 ## Getting there
 
 - **Center:** (5770, 3180) — on the **east coast of the Lost Lands** (T2A), north of
-  [Delucia](/world/delucia/)
+  [Delucia](/world/delucia/). Verified region travel point is (5769, 3176). It is a
+  **guarded town** (`Data/Regions.xml`, `TownRegion`/`GuardedRegion`). Note: on our shard
+  the Lost Lands coordinate block carries a Papua region on **both** the Felucca and Trammel
+  facets, not Felucca alone.
 - Like all of the Lost Lands, Papua has **no public moongate**. Reach it via the **dungeon and
   passage network** linking T2A to the mainland, by **boat** along the Lost Lands coast, or by
   [*Recall*](/skills/magery/) / *Gate Travel* to a marked rune. See

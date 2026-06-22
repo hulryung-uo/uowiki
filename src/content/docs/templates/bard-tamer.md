@@ -1,11 +1,14 @@
 ---
 title: "Template: Bard Tamer"
 description: PvM powerhouse — a tamer who debuffs with Discordance so the pet hits harder and gets hit less. Seven GM build, playstyle, pets, and money.
-status: unverified
+status: source-verified
 sources:
   - "community UO build knowledge (Stratics, UO Outlands wiki, UO forums) — adapted to this shard"
-  - "servuo: Config/PlayerCaps.cfg (caps)"
-last_verified: 2026-06-12
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000/700.0, SkillCap=1000/100.0, TotalStatCap=225)"
+  - "servuo: Server/Skills.cs (Animal Taming, Animal Lore, Veterinary, Musicianship, Discordance, Magery, Meditation, Peacemaking, Provocation all present in SkillInfo)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs GetControlChance (control = AnimalTaming + AnimalLore; Veterinary is pet healing, not control)"
+  - "servuo: Scripts/Skills/Discordance.cs (gated by Musicianship; at GM effect = -25 to resists and -25% to target skills; effect expires after a duration)"
+last_verified: 2026-06-22
 generated: false
 ---
 

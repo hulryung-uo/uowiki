@@ -1,12 +1,15 @@
 ---
 title: Ocllo
 description: A quiet, peaceful island village in the southern sea — a calm, full-service stop off the beaten path.
-status: unverified
+status: source-verified
 sources:
   - "anima: data/map_pois.json (city + npc_vendor: Ocllo)"
   - "anima: data/world_knowledge.yaml (cities.ocllo)"
+  - "servuo: Data/Regions.xml (Felucca facet, TownRegion \"Ocllo\", rects centered ~3650,2519)"
+  - "servuo: Scripts/Regions/TownRegion.cs (TownRegion : GuardedRegion — guarded by default)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Ocllo public-gate entry)"
   - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -21,7 +24,9 @@ retreat for anyone who wants a base away from the crowds of the mainland.
 ## Getting there
 
 - **Center:** (3650, 2600) — an island in the **south-central** sea, south of
-  [New Magincia](/world/new-magincia/)
+  [New Magincia](/world/new-magincia/). On our shard Ocllo exists on **Felucca** only
+  (no Trammel region), and is a **guarded town** (`Data/Regions.xml`,
+  `TownRegion`/`GuardedRegion`).
 - There is **no public Ocllo moongate**; reach the island by **boat**, or by
   [*Recall*](/skills/magery/) / *Gate Travel* to a marked rune. The Magincia gate (3563, 2139)
   to the north is the nearest public gate. See

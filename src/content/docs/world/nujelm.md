@@ -1,12 +1,12 @@
 ---
 title: Nujel'm
 description: The opulent island city of palace and casino — Britannia's pleasure capital in the eastern sea.
-status: unverified
+status: source-verified
 sources:
-  - "anima: data/map_pois.json (city + npc_vendor: Nujel'm)"
-  - "anima: data/world_knowledge.yaml (cities.nujhelm)"
-  - "reference: uo.com cities & towns"
-last_verified: 2026-06-12
+  - "servuo: Data/Regions.xml (TownRegion \"Nujel'm\", Felucca + Trammel, rect x3475 y1000 w360 h435, go 3732,1279; guarded)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (no Nujel'm entry — no public moongate)"
+  - "servuo: Spawns/felucca.xml + Spawns/trammel.xml (Nujel'm vendors: banker, tailor, jeweler, innkeeper, tavernkeeper, blacksmith, bowyer, butcher, cook, furtrader, mapmaker, shipwright, tanner, weaver, bardguildmaster)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -39,8 +39,11 @@ A roster fit for a resort town, from the NPC vendors recorded on the island
 <img src="/img/services/tavern.gif" alt="Tavern" width="28" /> Tavern
 
 The **jeweler** and fine-clothing trades suit Nujel'm's wealthy character, with a mapmaker and
-shipwright for the docks. Lore adds a **palace**, a **casino**, a healer, and a mage shop to the
-island's attractions.
+shipwright for the docks, plus a bowyer, butcher, fur trader, tanner, weaver, and a bard guild
+master. Lore adds a grand **palace** and a famous **casino** to the island's attractions, though
+these are atmosphere rather than functional buildings on our shard. Note that — unlike the
+mainland cities — Nujel'm has no general healer or mage shop among its town vendors; stock up
+before you visit.
 
 ## Nearby
 

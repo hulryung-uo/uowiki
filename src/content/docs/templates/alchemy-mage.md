@@ -1,11 +1,14 @@
 ---
 title: "Template: Alchemy Mage (알케미 마사)"
 description: The potion-mage — a Magery caster who throws explosion potions ("purples") for burst alongside spells, presented as a seven-GM build.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Config/PlayerCaps.cfg (700 total / 100 per-skill / 225 stat caps)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000/700.0, SkillCap=1000/100.0, TotalStatCap=225)"
+  - "servuo: Server/Skills.cs (Magery, Evaluating Intelligence, Alchemy, Resisting Spells, Wrestling, Meditation, Inscription all present in SkillInfo)"
+  - "servuo: Scripts/Items/Consumables/BaseExplosionPotion.cs (damage = Scale(from, Min/Max) + from.Skills.Alchemy.Value/5 (AOS); area effect adds caster to target list)"
+  - "servuo: Scripts/Items/Consumables/BasePotion.cs (EnhancePotions: skillBonus = Alchemy.Fixed/330*10)"
   - "community/era UO build knowledge — adapted to this shard"
-last_verified: 2026-06-12
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -34,9 +37,12 @@ A thrown potion isn't a spell: it can't fizzle and it lands while your next spel
 The classic alpha is **throw purple → cast → the potion and the spell land almost together**,
 stacking damage faster than the target can heal.
 
-[Alchemy](/skills/alchemy/) is what makes the potions worth throwing: higher Alchemy raises the
-**strength of the potions you brew**, so a GM alchemist's greater explosion potions hit for
-meaningfully more than store-bought ones. You brew your own ammunition. See the
+[Alchemy](/skills/alchemy/) is what makes the potions worth throwing. On this shard the
+explosion-potion damage scales with the **thrower's** Alchemy at the moment it lands
+(`Scripts/Items/Consumables/BaseExplosionPotion.cs`: damage adds `Alchemy.Value / 5`, plus an
+`EnhancePotions` scalar from Alchemy in `BasePotion.cs`), so a GM alchemist's explosion potions
+hit for meaningfully more than a non-alchemist throwing the same bottle. Because you also brew
+your own ammunition, your Alchemy pays off twice. See the
 [Alchemist profession](/professions/alchemist/) for the crafting side.
 
 ## The 7 skills (≈700 total)
