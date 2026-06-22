@@ -1,11 +1,13 @@
 ---
 title: Spellweaver (Arcanist)
 description: The Arcanist — a support and utility caster whose Arcane Circle grows stronger with more weavers nearby. Skills, build, play, gear, income.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-  - "servuo: Scripts/Spells/Spellweaving/ (ArcaneCircle.cs, ArcaneEmpowerment.cs, GiftOfRenewal.cs, GiftOfLife.cs, Wildfire.cs, WordOfDeath.cs, SummonFey.cs, SummonFiend.cs, NatureFury.cs, Thunderstorm.cs, ReaperForm.cs)"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Spells/Spellweaving/ArcanistSpell.cs (CastSkill=DamageSkill=Spellweaving; GetFocusLevel from ArcaneFocus item / Arcane Circle)"
+  - "servuo: Scripts/Spells/Spellweaving/ArcaneCircle.cs (needs 2+ arcanists; duration & strengthBonus grow with weavers present, strength capped 5, 6 at special location)"
+  - "servuo: Scripts/Spells/Spellweaving/ (ArcaneEmpowerment.cs, GiftOfRenewal.cs, GiftOfLife.cs, AttuneWeapon.cs, Wildfire.cs, WordOfDeath.cs, SummonFey.cs, SummonFiend.cs, NatureFury.cs, Thunderstorm.cs, ReaperForm.cs)"
+last_verified: 2026-06-22
 generated: false
 ---
 

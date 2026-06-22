@@ -1,10 +1,13 @@
 ---
 title: Mage
 description: The eight circles — burst damage, summons, and Recall mobility. Skills, the build, how to cast, and how a mage earns gold.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Spells/Base/Spell.cs (CastSkill=Magery, DamageSkill=EvalInt; evalScale=30+(9*evalSkill)/100; scribeBonus=skill/200, capped +10 at GM; Caster.Int/10 damage bonus)"
+  - "servuo: Scripts/Spells/Base/SpellHelper.cs (GetSpellDamageBonus: SDI cap 15% in PvP, 30% if school-focused; uncapped in PvM)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 = 700.0 skill points; TotalStatCap=225)"
+last_verified: 2026-06-22
 generated: false
 ---
 

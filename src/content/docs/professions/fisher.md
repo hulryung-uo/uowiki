@@ -1,10 +1,12 @@
 ---
 title: Fisher
 description: Work the water for fish, message bottles, and sunken treasure. Skills, the build, the fishing loop, what you catch, and how it earns.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Harvest/Fishing.cs (MessageInABottle/SOS, BigFish, SpecialFishingNet, sea-serpent guards; deep-water gating from a boat; SOS chest filled via TreasureMapChest.Fill)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000)"
+last_verified: 2026-06-22
 generated: false
 ---
 

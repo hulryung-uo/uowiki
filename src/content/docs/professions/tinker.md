@@ -1,10 +1,13 @@
 ---
 title: Tinker
 description: Make the tools every other crafter uses, plus clocks, keys, traps, and jewelry. Skills, the build, the tinkering loop, what you make, and how it earns.
-status: unverified
+status: source-verified
 sources:
-  - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Craft/DefTinkering.cs (MainSkill = Tinkering; tools/jewelry/clocks/keys/lockpicks from iron ingots + gems/boards; recipes check only Tinkering)"
+  - "servuo: Scripts/Services/Craft/DefTinkering.cs (Dart/Poison/Explosion trap crafts: iron ingot + bolt/poison potion/explosion potion; trap power scales with Tinkering, no Magery)"
+  - "servuo: Scripts/Items/Resource/ClockworkAssembly.cs (Golem: needs Tinkering 60+, 1 power crystal + 50 iron + 50 bronze ingots + 5 gears)"
+  - "servuo: Config/Expansion.cfg (EJ)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -37,8 +40,11 @@ recipe catalog lives on the [Tinkering crafting](/crafting/tinkering/) page.
 The loop: gather material — ingots (smelt your own via [Mining](/skills/mining/) and
 [Blacksmithy](/skills/blacksmithy/)), boards, and gems — then open a tinker's tool kit and
 build from the menu. Tinkering makes the most varied output of any craft: it produces other
-crafters' tools, mechanical items like clocks and keys, trapped boxes (combine with a key and
-a magery/poison source for the trap), and gem-set jewelry.
+crafters' tools, mechanical items like clocks and keys, trap kits that arm a lockable
+container (dart, poison, or explosion — built from ingots plus a bolt, poison potion, or
+explosion potion; the trap's power scales with your Tinkering, no Magery needed), and gem-set
+jewelry. With Tinkering 60+ and a power crystal, iron and bronze ingots, and gears, a tinker
+can even assemble a **golem** pet.
 
 ## What you make / tools
 

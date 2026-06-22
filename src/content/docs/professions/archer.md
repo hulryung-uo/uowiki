@@ -1,10 +1,13 @@
 ---
 title: Archer
 description: Death at a distance — bow, crossbow, and the art of kiting. Skills, the closest build, how to kite, and how to earn from it.
-status: unverified
+status: source-verified
 sources:
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseRanged.cs"
+  - "servuo: Scripts/Items/Equipment/Weapons/Bow.cs"
+  - "servuo: Scripts/Items/Equipment/Weapons/Crossbow.cs"
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -18,7 +21,7 @@ swinging skills.
 
 ## Core skills
 
-- [Archery](/skills/archery/) — your weapon skill; sets hit chance with bows and crossbows. Note you must stand still (or have the Moving Shot move) to fire.
+- [Archery](/skills/archery/) — your weapon skill; sets hit chance with bows and crossbows. Note you must stand still briefly (about a quarter-second on our shard) before a shot fires, unless you're using the Moving Shot special — confirmed in `BaseRanged.OnSwing` (`Scripts/Items/Equipment/Weapons/BaseRanged.cs`).
 - [Tactics](/skills/tactics/) — primary **damage multiplier**, exactly as for melee.
 - [Anatomy](/skills/anatomy/) — second **damage multiplier** and healing potency; Tactics + Anatomy are what make each shot hurt.
 - [Healing](/skills/healing/) — bandages between volleys; with Anatomy it cures and resurrects.
@@ -47,7 +50,7 @@ common way an archer dies.
 
 ## Gear & tools
 
-- Bows and crossbows from [Weapons](/items/weapons/) and the [weapon catalog](/items/catalog/weapons/) — different draw speeds and damage; pick to taste.
+- Bows and crossbows from [Weapons](/items/weapons/) and the [weapon catalog](/items/catalog/weapons/) — different draw speeds and damage; pick to taste. The plain **bow reaches 10 tiles** and the **crossbow 8 tiles** (`DefMaxRange` in `Scripts/Items/Equipment/Weapons/Bow.cs` and `Crossbow.cs`), so a bow keeps targets at slightly longer kiting range.
 - **Ammunition** — arrows for bows, bolts for crossbows. Buy them, or make them yourself: [feathers and shafts](/items/resources/) crafted via [Bowcraft & Fletching](/crafting/bowfletching/). Always carry a deep stack.
 - [Armor](/items/armor/) — go lighter than a melee warrior so movement and skills aren't hindered; you rely on range, not blocking.
 - Optional [jewelry](/items/catalog/jewelry/) for stat and resist bonuses.

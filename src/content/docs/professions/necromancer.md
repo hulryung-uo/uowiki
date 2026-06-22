@@ -1,11 +1,13 @@
 ---
 title: Necromancer
 description: The dark caster — curses, undead summons, and self-transformation fueled by special reagents and Spirit Speak. Skills, build, play, gear, income.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-  - "servuo: Scripts/Spells/Necromancy/ (WraithForm.cs, LichForm.cs, HorrificBeast.cs, VampiricEmbrace.cs, CorpseSkin.cs, BloodOath.cs, AnimateDeadSpell.cs, SummonFamiliar.cs, Strangle.cs, PainSpike.cs, Wither.cs); special reagent use confirmed in spell files"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Spells/Necromancy/NecromancerSpell.cs (CastSkill=Necromancy, DamageSkill=SpiritSpeak)"
+  - "servuo: Scripts/Spells/Necromancy/ (WraithForm.cs mana-leech scaled by SpiritSpeak; LichForm.cs FireResistOffset -10; HorrificBeast.cs; VampiricEmbrace.cs life-leech; CorpseSkin.cs, BloodOath.cs, AnimateDeadSpell.cs, SummonFamiliar.cs, Strangle.cs, PainSpike.cs, Wither.cs)"
+  - "servuo: Scripts/Items/Resource/ (BatWing.cs, GraveDust.cs, DaemonBlood.cs, NoxCrystal.cs, PigIron.cs) — the five necromancy reagents"
+last_verified: 2026-06-22
 generated: false
 ---
 

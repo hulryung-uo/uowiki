@@ -1,10 +1,14 @@
 ---
 title: Scribe
 description: Inscribe magery scrolls, runebooks, and spellbooks. Skills, the build, the scribing loop, what you make, and how it earns.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Craft/DefInscription.cs (MainSkill=Inscribe; CanCraft requires the SpellScroll's spell in the crafter's own Spellbook via book.HasSpell(id); each scroll AddRes the spell's reagents + a BlankScroll and SetManaReq a mana cost)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (success chance keyed off CraftSystem.MainSkill = Inscribe and the recipe min/max skill; EvalInt not referenced anywhere in the craft system)"
+  - "servuo: Scripts/Spells/Base/Spell.cs (scribeBonus = Inscribe/200, +10% at GM — Inscription's spell-damage bonus, cross-ref /skills/inscription/)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 = 700.0 skill points)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -12,15 +16,16 @@ generated: false
 
 The scribe writes magic onto paper. Using Inscription, you copy spells from your spellbook
 onto blank scrolls — the scrolls mages buy to fill their own books or cast from directly —
-and bind runebooks and spellbooks. A scribe must actually be a mage: to inscribe a spell you
-have to be able to cast it, spending the reagents and mana the spell itself costs. That makes
-scribing the natural money arm of a mage build.
+and bind runebooks and spellbooks. A scribe must actually be a mage: you can only inscribe a
+spell that is already in your own spellbook, and each attempt consumes that spell's reagents,
+a blank scroll, and a set amount of mana from your pool. That makes scribing the natural money
+arm of a mage build.
 
 ## Core skills
 
 - [Inscription](/skills/inscription/) — the headline skill: copy spells onto scrolls and craft runebooks and spellbooks.
-- [Magery](/skills/magery/) — required to scribe: you can only inscribe a spell you can cast, and each scribe attempt consumes that spell's reagents and mana.
-- [Evaluating Intelligence](/skills/evaluating-intelligence/) — helps the scribing success chance and supports the Magery side; a useful round-out.
+- [Magery](/skills/magery/) — required to scribe: you can only inscribe a spell that's in your own spellbook (which means a mage who learned it), and each scribe attempt consumes that spell's reagents, a blank scroll, and mana from your pool.
+- [Evaluating Intelligence](/skills/evaluating-intelligence/) — does **not** affect scribing success (that's governed by Inscription and the spell's skill range), but it powers the Magery side of a caster build; a common round-out.
 
 ## The build
 

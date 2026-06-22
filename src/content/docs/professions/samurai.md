@@ -1,11 +1,14 @@
 ---
 title: Samurai
 description: The Bushido swordsman — a dexxer whose discipline turns swings into burst damage and counter-defense. Skills, build, play, gear, income.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
   - "servuo: Scripts/Spells/Bushido/ (Confidence.cs, Evasion.cs, CounterAttack.cs, LightningStrike.cs, MomentumStrike.cs, HonorableExecution.cs)"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Virtues/Honor.cs (Honor virtue + Perfection, scales with Bushido)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (CheckParry uses Bushido; two-handed parry without shield)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 i.e. 700.0, TotalStatCap=225)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -41,7 +44,7 @@ covers weapon special moves and speed — essential, because Bushido is built ar
 
 The toolkit (all confirmed under `servuo: Scripts/Spells/Bushido/`):
 
-- **Honor** (Honorable Execution) — honor a target for a damage/recovery payoff; the opener for big fights.
+- **Honorable Execution** — a weapon special move (`HonorableExecution.cs`, needs 25 Bushido): a damage swing that, on the killing blow, restores you and grants a bonus. Distinct from the **Honor *virtue*** (`Scripts/Services/Virtues/Honor.cs`) you invoke on a creature for the *Perfection* damage bonus that scales with your Bushido — both are common openers for big fights.
 - **Confidence** — a defensive heal-over-time that rewards successful parries.
 - **Evasion** — a short window of greatly improved blocking.
 - **Counter Attack** — strike back automatically when you parry.

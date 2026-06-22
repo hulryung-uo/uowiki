@@ -1,10 +1,13 @@
 ---
 title: Warrior
 description: The melee front-liner — sword, shield, and bandages. The skills, the build, how to fight, and how to earn from it in one place.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 i.e. 700.0, TotalStatCap=225)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (Anatomy/Tactics damage bonuses; CheckParry)"
+  - "servuo: Scripts/Abilities/WeaponAbility.cs (special moves require weapon skill + Tactics)"
+last_verified: 2026-06-22
 generated: false
 ---
 

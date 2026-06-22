@@ -1,10 +1,17 @@
 ---
 title: Blacksmith
 description: Mine ore, smelt ingots, and forge the arms and armor a shard runs on. Skills, the build, the smithing loop, what you make, and how it pays.
-status: unverified
+status: source-verified
 sources:
-  - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Craft/DefBlacksmithy.cs (MainSkill = Blacksmith)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (success & exceptional chance from main skill only; Arms Lore not referenced)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs OnCraft (exceptional weapon: +35 DI, +ArmsLore/20 DI)"
+  - "servuo: Scripts/Items/Equipment/Armor/BaseArmor.cs DistributeExceptionalBonuses (exceptional armor: +ArmsLore/20 random resist)"
+  - "servuo: Scripts/Skills/ArmsLore.cs (active skill is item identification only)"
+  - "servuo: Scripts/Mobiles/NPCs/Blacksmith.cs (BODType.Smith; SupportsBulkOrders needs Blacksmith skill > 0)"
+  - "servuo: Scripts/Services/BulkOrders/ (BulkOrderSystem.cs banked points; Rewards/ runic hammers, ancient smithy hammers, power scrolls)"
+  - "servuo: Config/Expansion.cfg (EJ)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -21,7 +28,7 @@ archer needs gear, and the smith is who makes and repairs it. Smithing pairs gat
 - [Mining](/skills/mining/) — dig ore from rock and mountainsides; the raw-material end of the chain.
 - [Blacksmithy](/skills/blacksmithy/) — smelt ore into ingots and forge them into arms and armor; the headline skill.
 - [Tinkering](/skills/tinkering/) — lets you craft your own smith hammers and tongs (and a forge/anvil deed), so you never have to buy tools.
-- [Arms Lore](/skills/arms-lore/) — improves the quality of the weapons and armor you make, helping you turn out **exceptional** pieces more often.
+- [Arms Lore](/skills/arms-lore/) — does **not** change how often you make **exceptional** pieces (the craft engine never checks it), but on this shard it adds bonus properties to items that come out exceptional: weapons get **+Arms Lore/20 Damage Increase** (+5% DI at GM, on top of the +35% an exceptional weapon already grants) and armor gets **+Arms Lore/20 extra resist points** (+5 at GM). A genuine, modest upgrade to every exceptional piece.
 
 ## The build
 
@@ -40,8 +47,9 @@ ingot requirements.
 
 The loop: equip a [smith's hammer or tongs](/items/tools/), find an ore vein, and mine
 until your pack is heavy with ore. Return to a forge, smelt the ore into ingots, then stand
-at an anvil and forge weapons and armor from the craft menu. Higher Blacksmithy plus Arms
-Lore yields exceptional items worth far more than plain ones. Mining lower mountains gives
+at an anvil and forge weapons and armor from the craft menu. Higher Blacksmithy is what
+raises your chance at exceptional items; Arms Lore then sweetens each exceptional piece with
+extra damage (weapons) or resist (armor). Mining lower mountains gives
 common iron; deeper or special veins yield colored ores (shadow, bronze, and up) that make
 stronger, pricier gear.
 

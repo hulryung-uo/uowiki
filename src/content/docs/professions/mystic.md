@@ -1,11 +1,12 @@
 ---
 title: Mystic
 description: The Mysticism caster — a hard-hitting elemental and debuff school powered by Focus or Imbuing. Skills, build, play, gear, income.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-  - "servuo: Scripts/Spells/Mysticism/ (MysticSpell.cs power-skill = max(Imbuing, Focus); SpellDefinitions/: NetherBoltSpell.cs, EagleStrikeSpell.cs, SpellPlague.cs, CleansingWindsSpell.cs, RisingColossusSpell.cs, HealingStoneSpell.cs, NetherCycloneSpell.cs, StoneForm.cs)"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Spells/Mysticism/MysticSpell.cs (CastSkill=Mysticism; DamageSkill = Imbuing if Imbuing>=Focus else Focus; GetBoostSkill = Math.Max(Imbuing, Focus))"
+  - "servuo: Scripts/Spells/Mysticism/SpellDefinitions/ (NetherBoltSpell.cs, EagleStrikeSpell.cs, SpellPlague.cs, CleansingWindsSpell.cs, RisingColossusSpell.cs, HealingStoneSpell.cs, NetherCycloneSpell.cs, HailStormSpell.cs, StoneForm.cs)"
+last_verified: 2026-06-22
 generated: false
 ---
 

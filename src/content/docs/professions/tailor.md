@@ -1,10 +1,17 @@
 ---
 title: Tailor
 description: Turn cloth and leather into clothing and leather armor. Skills, the build, the sewing loop, what you make, and how a tailor earns.
-status: unverified
+status: source-verified
 sources:
-  - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Craft/DefTailoring.cs (MainSkill = Tailoring; cloth & leather/hide resources)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (success & exceptional chance from main skill only; Arms Lore not referenced)"
+  - "servuo: Scripts/Items/Equipment/Armor/BaseArmor.cs DistributeExceptionalBonuses (exceptional leather/studded armor: +ArmsLore/20 random resist)"
+  - "servuo: Scripts/Items/Equipment/Clothing/BaseClothing.cs (exceptional clothing: +ArmsLore/20 resist, capped +4)"
+  - "servuo: Scripts/Skills/ArmsLore.cs (active skill is item identification only)"
+  - "servuo: Scripts/Mobiles/NPCs/Tailor.cs (BODType.Tailor; SupportsBulkOrders needs Tailoring skill > 0)"
+  - "servuo: Scripts/Services/BulkOrders/ (banked points; Rewards/ runic sewing kits, power scrolls, cloth)"
+  - "servuo: Config/Expansion.cfg (EJ)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -19,7 +26,7 @@ every healer and tamer burns through.
 ## Core skills
 
 - [Tailoring](/skills/tailoring/) — the headline skill: cut and sew cloth and leather into clothing and armor.
-- [Arms Lore](/skills/arms-lore/) — raises the chance to produce **exceptional** items, which matters most for leather armor where quality means real defense.
+- [Arms Lore](/skills/arms-lore/) — does **not** raise the chance to produce **exceptional** items (the craft engine never checks it), but on this shard it adds **+Arms Lore/20 random resist points** to leather and studded armor that comes out exceptional (+5 at GM), and a smaller resist bonus to clothing (capped at +4). It matters most for leather armor, where those extra resists mean real defense.
 
 ## The build
 
@@ -38,7 +45,8 @@ material each item needs.
 The loop: stock raw material, open the sewing kit, and pick items from the craft menu.
 **Cloth** comes from the farming chain — cotton or flax spun into thread on a spinning wheel,
 woven into cloth on a loom — or bought in bolts; **leather** is cut from hides looted off
-animals and tanned. Higher Tailoring plus Arms Lore turns out exceptional pieces. Cut cloth
+animals and tanned. Higher Tailoring is what raises your exceptional chance; Arms Lore then
+adds extra resists to each exceptional armor piece. Cut cloth
 with scissors to make bandages, and cut hides into leather before sewing armor.
 
 ## What you make / tools

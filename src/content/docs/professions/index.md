@@ -1,10 +1,11 @@
 ---
 title: Professions
 description: Career paths in Britannia — each profession ties together its skills, its build, how to play it, and the tools of the trade in one place.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 = 700-point / seven-GM cap)"
+last_verified: 2026-06-22
 generated: false
 ---
 

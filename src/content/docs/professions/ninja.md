@@ -1,11 +1,13 @@
 ---
 title: Ninja
 description: The shadow fighter — Ninjitsu, hiding, and stealth for ambush kills, escapes, and animal-form travel. Skills, build, play, gear, income.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
   - "servuo: Scripts/Spells/Ninjitsu/ (AnimalForm.cs, MirrorImage.cs, ShadowJump.cs, SurpriseAttack.cs, DeathStrike.cs, Backstab.cs, KiAttack.cs, FocusAttack.cs)"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (Anatomy/Tactics damage); Scripts/Abilities/WeaponAbility.cs (specials need weapon skill + Tactics)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 i.e. 700.0, TotalStatCap=225)"
+last_verified: 2026-06-22
 generated: false
 ---
 

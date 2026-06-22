@@ -1,10 +1,13 @@
 ---
 title: Bard
 description: Turn monsters on each other with music — provoke, peace, and discord. The four bard skills, how each works, the loop, and how bards earn.
-status: unverified
+status: source-verified
 sources:
+  - "servuo: Scripts/Skills/Provocation.cs"
+  - "servuo: Scripts/Skills/Discordance.cs"
+  - "servuo: Scripts/Items/Equipment/Instruments/BaseInstrument.cs"
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -20,8 +23,8 @@ cleans up what the music leaves alive.
 
 - [Provocation](/skills/provocation/) — **turn monsters on each other.** Target two enemies and they fight to the death; you loot the winner. The bard's signature trick.
 - [Peacemaking](/skills/peacemaking/) — **calm.** Pacifies a target or an area so monsters stop attacking, buying time to reposition or escape.
-- [Discordance](/skills/discordance/) — **debuff.** Lowers a target's stats and skills (including its hit chance and resistances), making everything else easier to kill.
-- [Musicianship](/skills/musicianship/) — **the enabler.** Every bard ability requires a successful instrument play first; low Musicianship means your songs simply fail. Train it alongside the other three.
+- [Discordance](/skills/discordance/) — **debuff.** Lowers a target's skills (including its weapon skill, so it hits less) and **all five resistances** — up to 28% at GM, scaling with your Discordance (`Scripts/Skills/Discordance.cs`) — making everything else easier to kill.
+- [Musicianship](/skills/musicianship/) — **the enabler.** Every bard ability first calls `BaseInstrument.CheckMusicianship`; fail that play and the song has no effect (`Scripts/Skills/Provocation.cs`, `Scripts/Skills/Discordance.cs`). Train it alongside the other three.
 
 ## The build
 
@@ -38,13 +41,13 @@ Read [Combat Advanced](/playing/combat-advanced/) for the timing of musical abil
 a fight. The core loop: open with [Discordance](/skills/discordance/) to weaken a tough
 target, then [Provoke](/skills/provocation/) two enemies into killing each other while you
 stand back; if things go wrong, [Peacemake](/skills/peacemaking/) to break aggro and reset.
-A bard is strongest where monsters spawn in groups — more bodies means more pairs to provoke.
+Your songs reach further as you train: bard range is `8 + skill/15` tiles (`BaseInstrument.GetBardRange`), so a grandmaster works from about 14 tiles away — and for provoke, the **two targets must also be within that range of each other**. A bard is strongest where monsters spawn in groups — more bodies means more pairs to provoke.
 Pair with a [mage](/professions/mage/) or [tamer](/professions/tamer/) to finish the
 survivor.
 
 ## Gear & tools
 
-- An **instrument** — lute, harp, drum, or tambourine; quality affects success. See [instruments](/items/catalog/instruments/). Carry a spare; they wear out.
+- An **instrument** — lute, harp, drum, or tambourine. Quality and slayer type both matter: an **exceptional** instrument and a matching **slayer** instrument each lower the difficulty of the target (`GetDifficultyFor` in `Scripts/Items/Equipment/Instruments/BaseInstrument.cs`), so a slayer instrument that matches the monster type makes provoke/discord land more reliably. See [instruments](/items/catalog/instruments/). Carry a spare; each use consumes a charge (`ConsumeUse`) and they wear out.
 - Light [armor](/items/armor/) — you don't tank, so favor mobility.
 - A spellbook and [reagents](/items/reagents/) if you've taken the mage partner skills.
 

@@ -1,10 +1,13 @@
 ---
 title: Carpenter & Bowyer
 description: Fell trees and turn boards into furniture, instruments, and bows. Skills, the build, the woodworking loop, what you make, and how it earns.
-status: unverified
+status: source-verified
 sources:
-  - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Craft/DefCarpentry.cs (MainSkill = Carpentry; furniture, instruments LapHarp/Harp/Lute/Tambourine, staves, Keg — all from Board)"
+  - "servuo: Scripts/Services/Craft/DefBowFletching.cs (MainSkill = Fletching; Bow/Crossbow/Heavy Crossbow from Board, Arrow/Bolt from Shaft, arrows use Feather)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (success & exceptional chance from main skill only)"
+  - "servuo: Config/Expansion.cfg (EJ)"
+last_verified: 2026-06-22
 generated: false
 ---
 

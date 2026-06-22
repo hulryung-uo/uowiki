@@ -1,10 +1,12 @@
 ---
 title: Thief
 description: Take what isn't yours and vanish — stealing, snooping, hiding, and stealth. The rogue skills, how it works, the risks, and how thieves earn.
-status: unverified
+status: source-verified
 sources:
+  - "servuo: Scripts/Skills/Stealing.cs"
+  - "servuo: Scripts/Skills/Snooping.cs"
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -18,8 +20,8 @@ lost in a getaway.
 
 ## Core skills
 
-- [Stealing](/skills/stealing/) — the core skill: lift items from NPCs, players, monster corpses, and live monster packs. Skill and item weight decide your success.
-- [Snooping](/skills/snooping/) — peek inside another's backpack before you steal, so you target the valuable item rather than grabbing blind.
+- [Stealing](/skills/stealing/) — the core skill: lift items from NPCs, players, and live monster packs. Your success roll is against the item's **weight** (the check is roughly weight×10 ±25 skill), and **nothing over 10 stones can be stolen at all** ("That is too heavy to steal"). Both hands must be free, and you must be in the **Thieves Guild** to steal from another player (`Scripts/Skills/Stealing.cs`).
+- [Snooping](/skills/snooping/) — peek inside another's backpack before you steal, so you target the valuable item rather than grabbing blind. Snooping rolls your skill (and failing can reveal you); each snoop costs a little **karma** (−4) (`Scripts/Skills/Snooping.cs`).
 - [Hiding](/skills/hiding/) — drop out of sight on the spot; your escape button after a lift.
 - [Stealth](/skills/stealth/) — **move while hidden** so you can reposition and slip away instead of being pinned where you vanished.
 - [Lockpicking](/skills/lockpicking/) — optional, to crack locked chests and containers you can then loot.
@@ -40,10 +42,13 @@ unseen, and being revealed. The core loop: [Hide](/skills/hiding/), approach a t
 [Stealth](/skills/stealth/), [Snoop](/skills/snooping/) the pack to find the prize,
 [Steal](/skills/stealing/) it, then hide and stealth away before the reveal lands.
 
-Stealing from NPCs or other players flags you **criminal**, which lets guards and victims
-attack you freely — understand the consequences in [Notoriety & PvP](/playing/notoriety-and-pvp/)
-before you lift from a person. Stealing from monster packs is lower-risk and is where the rare
-drops are. A thief's whole craft is leaving before the flag matters.
+Getting **caught** lifting from an innocent person or their corpse calls `CriminalAction`,
+which lets guards and victims attack you freely — and stealing from a player additionally
+**requires Thieves Guild membership** in the first place (`Scripts/Skills/Stealing.cs`).
+Understand the consequences in [Notoriety & PvP](/playing/notoriety-and-pvp/) before you lift
+from a person. Stealing from live monster packs is lower-risk — the code never marks those
+thefts as "caught" — and is where the rare drops are. A thief's whole craft is leaving before
+the flag matters.
 
 ## Gear & tools
 

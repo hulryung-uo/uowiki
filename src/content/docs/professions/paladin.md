@@ -1,11 +1,13 @@
 ---
 title: Paladin
 description: The holy warrior — a dexxer who casts Chivalry off tithing points. Core skills, build, how to fight, gear, and income in one place.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-  - "servuo: Scripts/Spells/Chivalry/ (PaladinSpell.cs tithing cost; ConsecrateWeapon.cs, EnemyOfOne.cs, DivineFury.cs, CloseWounds.cs, CleanseByFire.cs, HolyLight.cs, DispelEvil.cs, RemoveCurse.cs, SacredJourney.cs)"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Spells/Chivalry/PaladinSpell.cs (deducts TithingPoints AND Mana; power scales with Karma + Chivalry)"
+  - "servuo: Scripts/Spells/Chivalry/ (ConsecrateWeapon.cs, EnemyOfOne.cs, DivineFury.cs, CloseWounds.cs, CleanseByFire.cs, HolyLight.cs, DispelEvil.cs, RemoveCurse.cs, SacredJourney.cs)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000 i.e. 700.0, TotalStatCap=225)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -14,8 +16,10 @@ generated: false
 The paladin is a melee fighter with a holy spellbook bolted on. At its core it's a
 [warrior](/professions/warrior/) — weapon, Tactics, bandages — but [Chivalry](/skills/chivalry/)
 layers on self-buffs, light healing, curse removal, and free travel. Chivalry on this shard
-is real (the expansion stack includes AOS-era skills), and it costs no mana: its power runs
-on **tithing points**.
+is real (the expansion stack includes AOS-era skills). Its spells run on **tithing points**
+— a resource warriors otherwise never touch — but each cast *also* spends ordinary **mana**
+(e.g. Enemy of One costs 20 mana + 10 tithing). Tithing is the gating cost; mana keeps you
+honest about how often you re-buff mid-fight.
 
 ## Core skills
 
@@ -27,11 +31,13 @@ on **tithing points**.
 
 ## Tithing points, not mana
 
-Chivalry spells are paid for in **tithing points**, not mana. You earn them by donating gold
-at a shrine (use the shrine and choose to tithe). Each cast spends points from that pool;
-when it's empty, re-tithe. This is confirmed in the emulator — `PaladinSpell.cs` checks and
-deducts `Caster.TithingPoints` rather than mana (`servuo: Scripts/Spells/Chivalry/PaladinSpell.cs`).
-Keep a few thousand gold tithed so buffs are always available.
+Chivalry's signature cost is **tithing points**. You earn them by donating gold at a shrine
+(use the shrine and choose to tithe). Each cast spends points from that pool; when it's empty,
+re-tithe. But tithing is not the *only* cost — `PaladinSpell.cs` checks and deducts **both**
+`Caster.TithingPoints` and `Caster.Mana` on every cast (`servuo: Scripts/Spells/Chivalry/PaladinSpell.cs`,
+lines 45/85 tithing, 38/92 mana). Spell power also scales with **Karma + Chivalry**
+(`int v = (int)Math.Sqrt(from.Karma + 20000 + Chivalry.Fixed * 10)`), so positive karma makes
+your buffs stronger and longer. Keep a few thousand gold tithed so buffs are always available.
 
 ## The build
 
@@ -52,8 +58,10 @@ cover the swing loop and weapon special moves; [Healing](/playing/healing/) cove
 
 The loop: tithe gold first. Before a fight, cast **Consecrate Weapon** (matches your damage
 type to the target's weakest resist) and **Enemy of One** (big damage bonus versus a single
-creature type — but you take extra from everything else). **Divine Fury** adds swing speed at
-the cost of defense. In a pinch, **Close Wounds** heals and **Cleanse by Fire** / **Remove
+creature type; the bonus scales with Chivalry and, on this SA/EJ-era shard, is a recastable
+toggle with **no** "take extra damage from everything else" penalty — that drawback was the
+old pre-SA behavior and is gone here, per `EnemyOfOne.cs`). **Divine Fury** adds swing speed,
+hit chance and damage at the cost of defense chance. In a pinch, **Close Wounds** heals and **Cleanse by Fire** / **Remove
 Curse** strip poison and curses; **Holy Light** is an area nuke; **Dispel Evil** scatters
 summons; **Sacred Journey** is the paladin's Recall and gate. All of these are confirmed files
 under `servuo: Scripts/Spells/Chivalry/`.

@@ -3,8 +3,10 @@ title: PvP Builds
 description: The classic player-vs-player character archetypes — tank mage, nox mage, dexxer, stealth archer, and more — and the skills that separate a fighter from a farmer.
 status: unverified
 sources:
+  - "servuo: Config/PlayerCaps.cfg (700 skill cap, 225 stat cap)"
+  - "servuo: Scripts/Spells/Base/SpellHelper.cs (PvP SDI cap)"
   - "wiki cross-references; classic UO PvP practice"
-last_verified: 2026-06-11
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -21,6 +23,14 @@ criminal and murderer flagging, guard zones, and Felucca-style open PvP. That pa
 **This** page is about the *characters* people build to win those fights. Whether open PvP is
 available, and exactly how flagging works, is governed by the shard rules — read that page
 first, then come back here to pick a build.
+
+:::note[What's verified here]
+The hard numbers on this page — the 700 skill / 225 stat caps and the PvP Spell Damage
+Increase cap — are confirmed against ServUO source (see frontmatter). The **archetype
+recommendations and combos** are PvP practice and opinion, not code claims; they don't
+contradict the source, but they aren't promoted to source-verified. The Stun Mage section in
+particular is flagged unverified below.
+:::
 
 ## What makes a PvP build different
 
@@ -40,8 +50,11 @@ and fast [bandage healing](/playing/healing/) matter far more in PvP than in PvM
 
 ## The classic build archetypes
 
-These are templates within the 700-point cap (see [7x GM Templates](/templates/seven-gm/));
-the cap is what forces the hard choices below.
+These are templates within the **700-point skill cap** (see [7x GM Templates](/templates/seven-gm/));
+the cap is what forces the hard choices below. That budget is real and shard-configured:
+`Config/PlayerCaps.cfg` sets `TotalSkillCap=7000` (700.0 skill) and a `TotalStatCap=225`
+(125 max in any one stat) — so seven grandmaster skills exactly fill the sheet, and every
+build below is a choice about which seven.
 
 ### Tank Mage
 
@@ -141,6 +154,14 @@ loot. Thrives in crowded PvP where no one notices the hand in their pack. See
 - [Tactics](/skills/tactics/) — the weapon-damage multiplier for any dexxer.
 - [Parrying](/skills/parrying/) — block hits and survive focus fire.
 - [Meditation](/skills/meditation/) — regenerate mana between exchanges.
+
+:::note[Spell Damage Increase is capped in PvP]
+Item Spell Damage Increase (SDI) does **not** scale without limit against other players.
+On our EJ shard the PvP SDI cap is **20%** from gear, rising to **30%** if you've focused a
+spell school (`PvPSpellDamageCap` in `Scripts/Spells/Base/SpellHelper.cs`; the older "15%"
+figure applies only to pre-Stygian-Abyss eras). PvM has no such cap — which is part of why a
+high-SDI burst mage that flattens monsters does proportionally less in a duel.
+:::
 
 ## Templates note
 

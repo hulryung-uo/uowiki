@@ -1,10 +1,14 @@
 ---
 title: Alchemist
 description: Grind reagents into potions — heal, cure, refresh, explosion, and more. Skills, the build, the brewing loop, what you make, and how it earns.
-status: unverified
+status: source-verified
 sources:
-  - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Services/Craft/DefAlchemy.cs (MainSkill = Alchemy; potions consume reagents + 1 empty Bottle; output 1 per craft; standard potions need no Magery)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (no skill-scaled batch yield for potions — UseAllRes not set)"
+  - "servuo: Scripts/Items/Consumables/BasePotion.cs EnhancePotions (potion potency scales with the DRINKER's Alchemy, not the crafter's)"
+  - "servuo: Scripts/Items/Consumables/BaseExplosionPotion.cs (explosion damage adds the thrower's Alchemy bonus)"
+  - "servuo: Config/Expansion.cfg (EJ)"
+last_verified: 2026-06-22
 generated: false
 ---
 
@@ -35,9 +39,16 @@ potion recipe catalog and reagent requirements live on the
 [Alchemy crafting](/crafting/alchemy/) page.
 
 The loop: stock the [reagents](/items/reagents/) each potion needs, hold a **mortar and
-pestle**, and select a potion from the craft menu. Each brew consumes reagents and yields
-one or more bottles (you need empty bottles on hand). Higher Alchemy makes stronger potions
-and more of them per batch. Buy reagents from NPC mages or grow/gather your own to cut costs.
+pestle**, and select a potion from the craft menu. Each brew consumes reagents plus one
+**empty bottle** and yields a single potion (keep a stack of empty bottles on hand). Buy
+reagents from NPC mages or grow/gather your own to cut costs.
+
+Note on potency: in this ServUO, brewing a potion at higher Alchemy does **not** make it
+stronger or produce extras — the recipe yields one bottle regardless of skill. A potion's
+effect is set by the **drinker's** Alchemy when consumed (`BasePotion.EnhancePotions`), and
+thrown explosion/conflagration potions add the **thrower's** Alchemy to their damage. So
+Alchemy benefits whoever *uses* the potion; as a maker, your skill mainly governs the success
+chance and unlocks the higher-tier recipes (greater heal, deadly poison, greater explosion).
 
 ## What you make / tools
 

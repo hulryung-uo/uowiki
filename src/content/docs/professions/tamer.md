@@ -1,10 +1,15 @@
 ---
 title: Tamer
 description: Command legendary beasts to fight for you — taming, lore, vet, and the magery that backs them. Skills, the build, the loop, and how tamers earn.
-status: unverified
+status: source-verified
 sources:
   - "wiki cross-references; general UO play"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Skills/AnimalTaming.cs (tame gate by CurrentTameSkill; control-slot check vs FollowersMax; passive AnimalLore check)"
+  - "servuo: Scripts/Skills/AnimalLore.cs (lore inspection / pet stats)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (GetControlChance from Taming+Lore+loyalty; ControlSlots; MaxLoyalty=100; loyalty loss on failed command)"
+  - "servuo: Scripts/Items/Resource/Bandage.cs (Veterinary+AnimalLore heal pets; ResurrectPet)"
+  - "servuo: Config/PlayerCaps.cfg (TotalSkillCap=7000)"
+last_verified: 2026-06-22
 generated: false
 ---
 
