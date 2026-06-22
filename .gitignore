@@ -4,3 +4,7 @@ node_modules/
 .vercel/
 .DS_Store
 .vercel
+
+# Python build artifacts
+__pycache__/
+*.pyc
