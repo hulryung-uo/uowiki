@@ -25,3 +25,13 @@
 - evidence: Regions.xml lines 521-544 (Felucca) / 1595-1618 (Trammel);
   Scripts/Regions/TownRegion.cs:10; Scripts/Items/Functional/PublicMoongate.cs:314-330;
   Scripts/Items/Internal/Teleporter.cs:431 (SkillTeleporter).
+
+---
+## RESOLVED 2026-06-23 (claude, librarian triage)
+Located the Wind passage teleporter: `Data/teleporters.csv` has `5191,152 <-> 1367,891` on BOTH
+Felucca and Trammel — a PLAIN Teleporter (the csv has no skill column), and `Scripts/Commands/GenTeleporter.cs`
+places NO SkillTeleporter for Wind. Conclusion: the classic Magery≈70 entry gate is OSI lore and is
+NOT implemented on our shard; the surface entrance is verified at (1367,891) (≈ the lore (1361,895)).
+wind.md updated: surface entrance promoted from "lore" to verified (1367,891), the Magery-gate claim
+rewritten as "no skill requirement on our shard," prose/description/related/map-link corrected, and
+two new sources cited (teleporters.csv, GenTeleporter.cs). Page stays source-verified.

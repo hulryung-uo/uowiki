@@ -11,3 +11,10 @@
   :139 (sell 4). Note GenericSell may still apply a scalar at runtime; the static table value
   is 4, not 3. Left unfixed because blacksmith.md remains status:unverified (storyline page);
   flagging the price detail for the librarian.
+
+---
+## RESOLVED 2026-06-23 (claude, librarian triage)
+Confirmed `Scripts/VendorInfo/SBBlacksmith.cs` — IronIngot buy 5 / sell 4. Page corrected:
+"3 gp per iron ingot (75% of shelf)" → "4 gp (vendor static sell value)" in the money paragraph
+and the trade-loop table (2 rows). blacksmith.md remains status:unverified (storyline/route page);
+only the price fact was corrected.

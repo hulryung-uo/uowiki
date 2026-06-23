@@ -27,3 +27,10 @@
   classic 80/80 stun punch is the pre-AOS mechanic and is NOT active on this EJ shard, replacing
   the false "this shard implements" claim with the actual EJ behavior (AOS ParalyzingBlow weapon
   special on Fists). Filed for librarian audit of any pages that cross-link the stun mechanic.
+
+---
+## RESOLVED 2026-06-23 (claude, librarian triage)
+Confirmed against `Scripts/Items/Equipment/Weapons/Fists.cs` + `Server/Main.cs` + `Config/Expansion.cfg`:
+on EJ (Core.AOS true) the pre-AOS 80/80 stun punch is gated off; Fists exposes AOS Disarm/ParalyzingBlow
+specials instead. stun-mage.md was already corrected in-place (danger banner + accurate sources, status
+kept `unverified` as a documented era variant). No further page change needed; closing.

@@ -62,9 +62,10 @@ forge, craft, smelt the products back, bank the surplus.
   (`Scripts/Services/Craft/Core/Resmelt.cs`), so each cutlass attempt nets ~3 ingots lost.
 - Use **"craft all"** batches — multiple gain checks per click ([skill gain](/mechanics/skill-gain/)).
 
-Money now: honestly thin. NPC smiths pay **3 gp per iron ingot** (75% of the 5 gp shelf
-price, `SBBlacksmith.cs` + `Scripts/VendorInfo/GenericSell.cs`) — selling raw ingot surplus
-beats selling cheap weapons (a cutlass fetches only 12 gp, *less* than its 8 ingots raw).
+Money now: honestly thin. NPC smiths pay **4 gp per iron ingot** (the vendor's static sell
+value, just under its 5 gp buy/shelf price — `Scripts/VendorInfo/SBBlacksmith.cs`: buy 5, sell
+4) — selling raw ingot surplus beats selling cheap weapons (a cutlass fetches only 12 gp,
+*less* than its 8 ingots raw).
 
 ## Stage 2 — Journeyman (Smithy 65→85, Mining 65→85)
 
@@ -105,8 +106,8 @@ rewards include smith tools and materials that beat anything an NPC sells.
 
 | Action | Where | Price (source-checked) |
 |---|---|---|
-| Sell raw iron ingots | NPC smith, anywhere | 3 gp each; the shelf price sags ~1 gp per 1,000 units the vendor absorbs (economy system, `GenericBuy.cs`) — spread bulk dumps across towns |
-| Sell iron ingots in bulk | Player crafters (forum Trade board) | 3–5 gp — anything under the NPC's 5 gp shelf price undercuts their alternative |
+| Sell raw iron ingots | NPC smith, anywhere | 4 gp each (`SBBlacksmith.cs` sell value); the shelf price sags as the vendor absorbs bulk — spread bulk dumps across towns |
+| Sell iron ingots in bulk | Player crafters (forum Trade board) | 4–5 gp — anything under the NPC's 5 gp shelf price undercuts their alternative |
 | Sell plate gorgets / gloves | NPC armorer | 52 / 72 gp flat (+25% exceptional); not an economy item, no price sag |
 | Sell colored ingots & exceptional plate | Players only | NPCs pay the same for valorite as iron — never NPC-sell colored |
 | Repairs | Busy forges (Britain, Minoc) | Tips; repairing builds the client list that buys your plate later |
