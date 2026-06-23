@@ -3,9 +3,10 @@ title: Targeting
 description: The targeting cursor and the two-step invoke-then-target pattern that underlies casting, healing, taming, crafting, and looting — plus last-target, target-self, range, and cancel.
 status: unverified
 sources:
-  - "servuo: Scripts/Spells/Base/Spell.cs and per-spell Target classes"
+  - "servuo: Server/Targeting/Target.cs (Invoke pattern, Range, CheckLOS — the server side of the two-step interaction)"
+  - "client UI: the on-screen crosshair, Escape-to-cancel, and target-self / last-target macros are client behavior, not in server source"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -27,6 +28,14 @@ This is the **two-step pattern**:
 
 1. **Invoke** the action — cast a spell, double-click a bandage, start a craft, use a skill.
 2. **Target** — the crosshair appears; click the thing the action should affect.
+
+> **What's server vs client here.** The two-step pattern is real on the server: the game
+> creates a `Target` object that waits for your pick, then runs `Invoke` to resolve it
+> (`Server/Targeting/Target.cs`), and that object enforces **range** and **line of sight**
+> (see below). The visible **crosshair cursor**, pressing **Escape** to cancel, and the
+> **Target Self / Last Target** macros are **client-side** behavior — they drive the same
+> server target, but they live in the game client, not in ServUO source. This page keeps
+> those UI specifics as described because they are not verifiable from server code.
 
 Examples of what you target:
 
@@ -85,12 +94,14 @@ before continuing.)
 
 ## Range and line of sight
 
-Targets are not always reachable just because you can see them:
+Targets are not always reachable just because you can see them. Both limits are enforced
+server-side by the `Target` object (`Server/Targeting/Target.cs`):
 
-- **Range** — many actions require the target to be within a maximum distance; a too-far
-  target is refused.
-- **Line of sight (LoS)** — you generally cannot target through walls or solid obstacles;
-  the action needs an unobstructed line to the target.
+- **Range** — each target carries a maximum distance (`Range`; `-1` means unlimited). A
+  pick outside that range is refused (`Target.cs` checks `from.InRange(loc, Range)`).
+- **Line of sight (LoS)** — when a target sets `CheckLOS`, you cannot target through walls
+  or solid obstacles; the action needs an unobstructed line (`Target.cs` checks
+  `from.InLOS(targeted)`).
 - **Movement** — if a creature moves out of range or behind cover after you target, the
   action can fail when it resolves.
 

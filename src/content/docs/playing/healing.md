@@ -1,11 +1,13 @@
 ---
 title: Healing
 description: The full healing reference — bandages (timing, cure, resurrection), Magery heal/cure spells, healing potions, and Veterinary for pets.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Items/Resource/Bandage.cs (delay formula, range, cure/res skill thresholds, heal amount)"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Items/Resource/Bandage.cs (GetDelay timing, Range = Core.AOS ? 2 : 1, EndHeal cure/res skill thresholds + chances, AOS heal min/max, slip 0.35 reduction, CheckSkill cap 120, pet res 0.1 skill loss, Khaldun/CanFit res block)"
+  - "servuo: Scripts/Spells/First/Heal.cs, Scripts/Spells/Fourth/GreatHeal.cs (heal blocked on poisoned target)"
+  - "servuo: Scripts/Spells/Second/Cure.cs, Scripts/Spells/Fourth/ArchCure.cs (cure circle + chance formula, Arch Cure area cure)"
+  - "servuo: Scripts/Items/Consumables/BaseHealPotion.cs + LesserHealPotion/HealPotion/GreaterHealPotion.cs (per-potion cooldown 3/8/10 s, blocked while poisoned/mortal)"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -42,8 +44,10 @@ From `Scripts/Items/Resource/Bandage.cs` `GetDelay` (AOS path). Times are in **s
   at low Dex.
 - **Healing another person:** `max(2, ceil(4 − Dex/60))`. As fast as 2 s.
 - **[Veterinary](/skills/veterinary/) on a pet:** a flat **2 s**.
-- **Resurrection via bandage:** the non-AOS dex branches add **+5 s** for a dead target
-  (`resDelay = 5.0`); treat a res bandage as taking noticeably longer than a heal.
+- **Resurrection via bandage:** on this AOS/EJ shard a res bandage takes the **same time
+  as healing that target** — the AOS delay branches do **not** add the `resDelay = 5.0`
+  bonus (that +5 s only applies on the legacy pre-AOS dex branches). So res'ing another
+  player runs on the 2 s "heal another" timer; a self-res runs on the 4–8 s self-heal timer.
 
 You can only run **one bandage timer at a time** — starting a new one cancels the old.
 
@@ -96,10 +100,11 @@ A bandage applied to a **dead** player (or dead pet, via Veterinary) can bring t
   equivalents apply.
 - **Success chance** = `(Healing − 68)/50 − (Slips × 0.02)`.
 - On success the patient gets a **resurrection gump** to accept; resurrecting a dead pet
-  costs the pet a small skill loss (0.1 per skill).
-- Takes longer than a normal bandage (the **+5 s** res delay above). The patient's corpse
-  must be at a spot that "can fit" a body, and some regions (e.g. Khaldun) block
-  resurrection.
+  costs the pet a small skill loss (0.1 per skill, looped over every skill — `Bandage.cs`).
+- The res bandage takes the **same time as healing that target** on this AOS/EJ shard (the
+  +5 s legacy res delay does not apply here). The patient's body must be at a spot that
+  "can fit" a corpse (`Map.CanFit`), and some regions (e.g. **Khaldun**) block resurrection
+  outright — "The veil of death in this area is too strong…".
 
 Full death/ghost procedure: [Death & resurrection](/playing/death-and-resurrection/).
 
@@ -122,14 +127,21 @@ usually create distance, then heal/cure.
 
 ## Healing potions
 
-Potions are **instant** (no cast/bandage timer) but share a **cooldown** between potion
-uses (you cannot chug them back-to-back without delay — exact cooldown **unverified**).
-Carry them as an emergency button. See the [potions catalog](/items/catalog/potions/):
+Potions are **instant** (no cast/bandage timer) but heal potions share a **cooldown** —
+after drinking one you cannot drink another heal potion until its delay expires ("You must
+wait 10 seconds before using another healing potion."). On this AOS shard the delay depends
+on the potion (`BaseHealPotion.Delay`):
 
-- **Heal potion** — small instant HP.
-- **Greater Heal potion** — larger instant HP.
-- **Cure potion** — removes poison (effectiveness scales by potion strength vs poison
-  level — **unverified**).
+- **Lesser Heal potion** — small instant HP; **3 s** cooldown.
+- **Heal potion** — moderate instant HP; **8 s** cooldown.
+- **Greater Heal potion** — larger instant HP; **10 s** cooldown.
+- **Cure potion** — removes poison (cure potions are a separate item, not on the heal-potion
+  cooldown; stronger potions cure higher levels — effectiveness scaling **unverified**).
+
+**Important:** a heal potion **will not work while you are poisoned or mortally wounded**
+("You can not heal yourself in your current state.") — cure the poison first, exactly like
+the lesser heal spells. Carry them as an emergency button. See the
+[potions catalog](/items/catalog/potions/):
 
 **To use a potion:** double-click it in your pack. Potions are made with
 [Alchemy](/skills/alchemy/).

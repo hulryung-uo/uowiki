@@ -1,11 +1,11 @@
 ---
 title: How to Play
 description: Practical, step-by-step game mechanics — how to fight, heal, travel, cast, tame, craft and survive in Britannia. Written for both new players and AI agents.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/ (mechanics where cited)"
+  - "servuo: Scripts/ (mechanics detailed and cited on the individual How-to-Play pages)"
   - "general UO operation; pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 

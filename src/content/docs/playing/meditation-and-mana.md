@@ -1,12 +1,13 @@
 ---
 title: Meditation & Mana
 description: What mana is, how it regenerates passively over time, and how to use the Meditation skill (and Focus) to recover it faster — plus why armor and weapons block meditation.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Skills/Meditation.cs (OnUse, CheckOkayHolding, armor offset check)"
-  - "servuo: Scripts/Misc/RegenRates.cs (GetArmorOffset, regen)"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Skills/Meditation.cs (OnUse trance chance = (50 + (skill - manaDeficit)*2)/100; CheckOkayHolding allows Spellbook/Runebook/SpellChanneling weapon+armor; GetArmorOffset>0 refusal msg 500135; target-up busy msg 501845; full-mana msg 501846)"
+  - "servuo: Scripts/Misc/RegenRates.cs (GetArmorOffset by MeditationAllowance None/Half/All; passive Meditation + Int mana regen; Focus adds mana+stam regardless of armor)"
+  - "servuo: Server/Mobile.cs (DisruptiveAction stops meditation on move/damage/action, msg 500134)"
+  - "servuo: Config/PlayerCaps.cfg (TotalStatCap 225, StrCap/DexCap/IntCap 125, TotalSkillCap 7000 = 700.0)"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -48,21 +49,24 @@ Armor matters: heavy/metal armor **reduces or blocks** mana regeneration (the
 is interrupted. To meditate:
 
 1. **Stand still** and stop any other action.
-2. Make sure your **hands are free** — a weapon in hand blocks meditation. (A spellbook or
-   runebook is allowed.) On our shard, if you are holding a non-channeling weapon you are
-   told "Your hands must be free to cast spells or meditate."
-   *(Source: `Meditation.cs` CheckOkayHolding — Spellbook, Runebook, and SpellChanneling
-   items are permitted.)*
+2. Your **hands should be free**, but on this AOS/EJ shard the game handles that for you:
+   when you meditate, any held item that isn't allowed is **automatically moved to your
+   backpack** rather than blocking the attempt. Allowed in-hand without being disarmed: a
+   **Spellbook**, a **Runebook**, and any weapon or armor with the **Spell Channeling**
+   property. (The "Your hands must be free to cast spells or meditate." refusal only happens
+   on the legacy pre-AOS ruleset.)
+   *(Source: `Meditation.cs` `CheckOkayHolding` + AOS auto-disarm in `OnUse`.)*
 3. Make sure you are **not wearing meditation-blocking armor** (see below). If your armor
    blocks it you get "Regenative forces cannot penetrate your armor!" and the trance fails.
    *(Source: `Meditation.cs` checks `RegenRates.GetArmorOffset(m) > 0`.)*
 4. **Invoke the Meditation skill** — open your skill list and **use** Meditation, or trigger
    a bound macro/hotkey.
 5. On success you see "You enter a meditative trance." and your mana climbs rapidly. The
-   chance to enter the trance improves with higher Meditation skill (and is harder when you
-   are nearly full on mana). If it fails you see "You cannot focus your concentration." —
-   simply try again. *(Source: `Meditation.cs` OnUse: trance chance derived from skill vs.
-   missing mana.)*
+   chance to enter the trance is `(50 + (Meditation − manaDeficit) × 2) / 100`, where
+   *manaDeficit* is how much mana you are missing — so the chance **improves with higher
+   Meditation skill** and is **higher the more mana you are missing** (it gets harder as you
+   approach full). If it fails you see "You cannot focus your concentration." — simply try
+   again. *(Source: `Meditation.cs` `OnUse`.)*
 
 If you try to meditate while already at full mana you are told "You are at peace."
 
@@ -82,13 +86,21 @@ Because of this, meditate in a **safe spot** away from enemies.
 
 Meditation (active and passive) is **reduced or blocked by armor that is too heavy or
 metal**. On our shard the active trance checks an **armor offset** and refuses entirely if
-that offset is above zero — heavy/metal armor stops it cold
-(`Meditation.cs` -> `RegenRates.GetArmorOffset`). Lighter, "medable" materials (such as
-leather and cloth) let meditation work. The exact per-piece thresholds and which materials
-count as fully medable are **unverified** here; the practical rule is:
+that offset is above zero — "Regenative forces cannot penetrate your armor!" — so any
+non-medable armor stops it cold (`Meditation.cs` → `RegenRates.GetArmorOffset`).
 
-> Wear **light, non-metal armor** (leather/cloth, or other "medable" pieces) if you want to
-> meditate. Plate, chain, and other metal armor will choke your mana regen.
+Each armor piece carries a `MeditationAllowance` (`RegenRates.GetArmorMeditationValue`):
+
+- **All** — no meditation penalty (cloth, leather, robes and similar light materials).
+- **Half** — counts for half its armor rating against meditation (medium materials).
+- **None** — full armor rating counts against meditation (plate, chain and other metal).
+
+Two attributes also **fully waive** a piece's penalty regardless of material: the
+**Mage Armor** property and **Spell Channeling**. So a plate suit reforged with Mage Armor
+meditates like leather. The practical rule:
+
+> Wear **light, non-metal armor** (leather/cloth) — or pieces with **Mage Armor** — if you
+> want to meditate. Plain plate, chain, and other metal armor will choke your mana regen.
 
 The **[Focus](/skills/focus/)** skill is the workaround for warriors who must wear heavy
 armor: it regenerates mana passively without the armor restriction.

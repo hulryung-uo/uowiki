@@ -1,18 +1,19 @@
 ---
 title: Housing
 description: How to place a house from a deed, customize it, lock down and secure items, manage keys and co-owners/friends, keep the house from decaying, set up a player vendor, and the shard's one-house-per-account rule.
-status: unverified
+status: source-verified
 sources:
   - "servuo: Config/Housing.cfg (AccountHouseLimit=1)"
-  - "servuo: Config/General.cfg"
-  - "servuo: Scripts/Multis/BaseHouse.cs (DecayLevel enum, DecayPeriod=5d, GetOldDecayLevel thresholds)"
-  - "servuo: Scripts/Multis/DynamicDecay.cs (Enabled=Core.ML; per-stage durations)"
-  - "servuo: Scripts/Spells/Fourth/Recall.cs (CheckCast blocks IsOverloaded) vs Spells/Seventh/GateTravel.cs (CheckCast has NO weight check; gate is InternalItem : Moongate)"
-  - "servuo: Scripts/Items/Internal/Moongate.cs (OnMoveOver/OnGateUsed — no weight check)"
+  - "servuo: Scripts/Multis/BaseHouse.cs (DecayLevel enum; DecayType AutoRefresh for newest house / ManualRefresh for older; GetOldDecayLevel IDOC@95% collapse@100%; OnDelete RestoreRelocatedEntities releases lockdowns/secures to ground; SecureLevel enum; GetAosMaxLockdowns/GetAosMaxSecures scaled by BonusStorageScalar; CreateKeys)"
+  - "servuo: Scripts/Multis/DynamicDecay.cs (Enabled=Core.ML; Slightly–Greatly 1–2d each, IDOC 12–24h)"
+  - "servuo: Scripts/Multis/HouseSign.cs (RefreshDecay on sign use) ; Scripts/Accounting/Account.cs (InactiveDuration=180d / EmptyInactiveDuration=30d)"
+  - "servuo: Scripts/Multis/Deeds.cs (placement deletes deed, sets owner)"
+  - "servuo: Scripts/Spells/Fourth/Recall.cs (CheckCast blocks IsOverloaded, msg 502359) vs Spells/Seventh/GateTravel.cs (CheckCast has NO weight check; gate is InternalItem : Moongate)"
+  - "servuo: Scripts/Items/Internal/Moongate.cs (OnMoveOver/OnGateUsed → MoveToWorld, no weight check)"
   - "wiki: /shard/server-rules/ (housing config)"
   - "render: tools/render_house.py house exteriors (/img/houses/*.png)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-16
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -121,10 +122,21 @@ access level.
 
 ## House decay and refreshing
 
-Houses **decay** over time if neglected. To keep a house alive you **refresh** it, which on
-this shard happens by **the owner or an account member visiting** the house; that resets it
-to the top of the decay ladder. A house left unrefreshed degrades through a series of
-condition stages and finally **collapses**, dropping everything inside it onto the ground.
+Houses **decay** over time if neglected. To keep a house alive you **refresh** it, which
+resets it to the top of the decay ladder. How refreshing works depends on whether the house
+is your account's *most recently placed* one (`BaseHouse.cs`, `DecayType`):
+
+- Your **newest house auto-refreshes** as long as the account stays active — you don't have
+  to visit it. It only becomes liable to decay when the account goes **inactive**
+  (no login for **180 days**; 30 days if the account has no characters —
+  `Account.cs`, `InactiveDuration`/`EmptyInactiveDuration`, `BaseHouse.cs` `DecayType`
+  returns `AutoRefresh` for the newest house and `Condemned` once the account is inactive).
+- **Any older house** (if you somehow hold more than one — see the one-house rule) is
+  **manual-refresh only**: it decays on a timer and is refreshed by **using its house sign**
+  (`HouseSign.cs` calls `RefreshDecay()`).
+
+A house left unrefreshed degrades through a series of condition stages and finally
+**collapses**, dropping everything inside it onto the ground.
 
 The house sign reports the current **condition**, which is the decay stage
 (`BaseHouse.cs`, `DecayLevel`):
@@ -148,10 +160,10 @@ collapse — but the exact moment is deliberately randomized so collapses aren't
 predictable. (When dynamic decay is off, the fallback is a flat **5-day** `DecayPeriod`
 split by percentage: IDOC at 95–99.9%, collapse at 100%.)
 
-**Refresh in time.** Any owner/co-owner/account visit refreshes the house back to *Like
-new*. With **one house per account** and only the *most recently placed* house
-auto-refreshing (`Config/Housing.cfg`), keep your single current house visited and don't
-expect an old, replaced house to maintain itself. When in doubt, check the sign and visit.
+**Refresh in time.** With **one house per account** and only the *most recently placed*
+house auto-refreshing, your current house stays *Like new* automatically while you keep
+logging in. Just don't let the account lapse past the inactivity window. When in doubt,
+check the sign — it reports the current condition.
 
 ## When a house falls: IDOC and the loot rush
 
@@ -243,7 +255,7 @@ From `Config/Housing.cfg` and [server rules](/shard/server-rules/):
 | Rule | Value | Source |
 |------|-------|--------|
 | **Houses per account** | **1** | `AccountHouseLimit=1` |
-| Auto-refresh | Only the **most recently placed** house auto-refreshes | `Config/Housing.cfg` note |
+| Auto-refresh | Only the **most recently placed** house auto-refreshes (while the account is active) | `BaseHouse.cs` `DecayType` |
 
 Plan accordingly: choose your one plot deliberately, and refreshing your current house is
 what keeps it standing.

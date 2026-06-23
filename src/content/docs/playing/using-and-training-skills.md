@@ -1,11 +1,14 @@
 ---
 title: Using & Training Skills
 description: How skills work operationally — invoking active skills, how they rise with use, the 100-per-skill and 700-total caps, locking skills up/down, buying skill from NPC trainers, and reaching Grandmaster.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Skills.cs (SkillInfo table, skill caps)"
+  - "servuo: Server/Skills.cs (SkillInfo table, Base/Cap stored at 10x, total skill cap)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (CheckSkill, GetGainChance, GGS, TryStatGain)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (CheckTeachSkills — NPC trainer cap)"
+  - "servuo: Config/PlayerCaps.cfg (SkillCap=1000, TotalSkillCap=7000, PlayerChanceToGainStats=5.0)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -44,14 +47,25 @@ Some skills are both: usable on demand *and* checked passively.
 ## How skills go up
 
 You raise a skill by **using it against an appropriately difficult task**. The game rolls a
-skill check on each use; success or failure against a task near your current level can grant
-a small **gain**. Tasks that are too easy or too hard for your level grant little or
-nothing — you progress fastest against challenges matched to your skill. The exact gain
-formula, difficulty bands, and rates are documented in [skill gain](/mechanics/skill-gain/);
-read that page before grinding a skill so you target the right difficulty.
+skill check on each use (`CheckSkill` in `SkillCheck.cs`); whether it succeeds or fails, the
+code then rolls a separate **gain chance**. That gain chance is highest when (1) your skill
+sits well below its individual cap, (2) your overall skill total sits well below the 700 cap,
+and (3) the task was **hard** — the lower your odds of success on the attempt, the larger the
+gain term. A trivially easy task (one you almost always pass) grants very little; an
+impossible one you can never attempt grants nothing. So you progress fastest against
+challenges that are difficult-but-doable for your current level. Skills below 10.0 gain
+automatically on every use to get you started. *(Source: `SkillCheck.cs` GetGainChance —
+gain scales with distance from caps and with `(1.0 - chance)`.)*
 
-Practical rule: **do the activity the skill is for**, against targets that are neither
-trivial nor impossible for you, and the number climbs over time.
+A separate **Gain-Gives-Skill (GGS)** timer also guarantees periodic gains: even on a string
+of unlucky gain rolls, once the GGS interval for your skill bracket elapses the next use is
+allowed to gain. The interval lengthens as your total skill rises. *(Source: `SkillCheck.cs`
+CheckGGS / UpdateGGS / GGSTable.)*
+
+The exact gain formula, difficulty bands, and rates are documented in
+[skill gain](/mechanics/skill-gain/); read that page before grinding a skill so you target
+the right difficulty. Practical rule: **do the activity the skill is for**, against targets
+that are difficult-but-doable for you, and the number climbs over time.
 
 ## Stat gain from using skills
 
@@ -93,15 +107,18 @@ Lock everything else you want to keep.
 ## Buying skill from NPC trainers
 
 You don't have to grind from zero. **NPC trainers** in towns will teach a skill they know
-**up to about 30.0** in exchange for gold (the cap on bought skill is low — roughly the
-30 range; exact value **unverified** here). To buy training:
+in exchange for gold. The amount they can raise you to is **one-third of the NPC's own
+skill, capped at 42.0** — and the NPC must know the skill at **60.0 or higher** to teach at
+all (one-third of 60 = 20.0 is the minimum it will set). In practice a typical town trainer
+gets a fresh skill into the **20–42 range**; you cannot buy past that. To buy training:
 
 1. Find an NPC who practices the skill (e.g. a Mage for Magery, a Healer for Healing).
 2. Say the skill name or ask to learn, or use the context menu, and pay the fee.
 3. Each purchase nudges the skill up a little, until the NPC will teach you no more.
 
 Buying gets a new skill off the ground quickly; past the trainer cap you must **use** the
-skill to keep raising it.
+skill to keep raising it. *(Source: `BaseCreature.cs` CheckTeachSkills — `baseToSet =
+ourSkill / 3`, capped at `420` fixed = 42.0, and rejected below `200` fixed = 20.0.)*
 
 ## Reading the skill list
 

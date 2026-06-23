@@ -5,6 +5,8 @@ status: unverified
 sources:
   - "original essay"
   - "in the spirit of the classic Stratics treasure-hunting essay (https://uo.stratics.com/content/professions/treashunt_archive.shtml)"
+  - "servuo: Scripts/Services/TreasureMaps/TreasureMap.cs (dig governed by Cartography on EJ; Mining tool required)"
+  - "servuo: Scripts/Services/TreasureMaps/TreasureMapInfo.cs (NewSystem = Core.EJ)"
 last_verified: 2026-06-12
 generated: false
 ---
@@ -52,8 +54,12 @@ page; here is what each piece is *for*.
   ambitions.
 - [Remove Trap](/skills/remove-trap/) keeps you alive when you open it. Treasure chests are
   trapped, and the traps on a high-tier chest are not a formality. Disarm before you loot.
-- [Mining](/skills/mining/) is how you actually dig. You need a shovel and the ability to use it
-  on the right tile; on many shards the digging draws on the same skill that mines ore. The
+- [Mining](/skills/mining/) is what gets you the *tool*. To dig you need a Mining-type
+  implement — a shovel or pickaxe — in your pack, the kind a miner uses on ore. On our shard,
+  though, the actual dig is governed by **Cartography**, not Mining: it is your Cartography skill
+  that decides how close you have to stand and whether the chest comes up, while the shovel is
+  just the price of admission. (Older UO had Mining govern the dig; on our EJ shard that moved to
+  Cartography — see `Scripts/Services/TreasureMaps/TreasureMap.cs` and `TreasureMapInfo.cs`.) The
   [treasure hunting](/playing/treasure-hunting/) page has the specifics for our shard.
 
 And then — because the chest comes with company — you need a way to **fight**. This is the part

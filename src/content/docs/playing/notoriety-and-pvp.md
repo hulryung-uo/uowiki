@@ -1,16 +1,17 @@
 ---
 title: Notoriety & PvP
 description: The notoriety system — innocent (blue), criminal (grey), murderer (red) — how you flag each, guard zones, stealing/snooping, murder-count decay, Young protection, and how an agent reasons about safety.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Misc/Notoriety.cs (notoriety computation, guild/aggressor logic)"
-  - "servuo: Server/Notoriety.cs (Innocent/Criminal/Murderer constants and hues)"
-  - "servuo: Server/Mobile.cs (Murderer => Kills >= 5)"
-  - "servuo: Scripts/Mobiles/PlayerMobile.cs (CheckKillDecay: 8h short-term, 40h long-term; Young removal)"
+  - "servuo: Scripts/Misc/Notoriety.cs (Mobile_AllowHarmful/Beneficial, felucca HarmfulRestrictions, Young branches, Stealing.ClassicMode/PermaFlags)"
+  - "servuo: Server/Notoriety.cs (Innocent=1/Criminal=4/Murderer=6 constants and hues 0x059/0x3B2/0x022)"
+  - "servuo: Server/Mobile.cs (Murderer => m_Kills >= 5, line 11846)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs (CheckKillDecay: 8h short-term, 40h long-term; OnKillsChange/OnSkillChange Young removal; CheckPoisonImmunity)"
+  - "servuo: Scripts/Regions/GuardedRegion.cs (IsGuardCandidate, AllowReds = Core.AOS, CallGuards)"
+  - "servuo: Scripts/Misc/Keywords.cs (i must consider my sins / i resign from my guild / i renounce my young player status)"
   - "servuo: Config/General.cfg (RestrictRedsToFel=True)"
   - "wiki: /shard/server-rules/"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -29,7 +30,7 @@ that matter for player behavior:
 |-------|-----------|---------|
 | **Innocent** | **Blue** (hue `0x59`) | Law-abiding. Attacking one is a crime. |
 | **Criminal** | **Grey** (hue `0x3B2`) | Has done something illegal recently; freely attackable, guards hostile. |
-| **Murderer** | **Red** (hue `0x22`) | A repeat killer (5+ long-term kills); attackable on sight, killed by guards in town. |
+| **Murderer** | **Red** (hue `0x22`) | A repeat killer (5+ long-term kills); attackable on sight by anyone. On this AOS-era ruleset guards do **not** kill a red merely for being red — see [Guard zones](#guard-zones-towns-are-safe). |
 
 (Constants and hues verified in `Server/Notoriety.cs`: `Innocent=1`, `Criminal=4`,
 `Murderer=6`.) Other states exist for guilds and factions — **Ally** (green) and **Enemy**
@@ -63,7 +64,11 @@ verified in `Server/Mobile.cs`:
 - Killing greys/reds/monsters does **not** give murder counts — only killing innocents
   does.
 
-A red is attackable by anyone without penalty and is hunted by guards in town.
+A red is attackable by anyone without penalty. Note that on this shard's
+**AOS-era ruleset** the town guards do **not** automatically attack a red on sight (the
+guarded-region rule `AllowReds` returns true once `Core.AOS` is set — verified in
+`Scripts/Regions/GuardedRegion.cs`, `IsGuardCandidate`). Guards act against a red only if
+that red also commits a **criminal act** in town. See [Guard zones](#guard-zones-towns-are-safe).
 
 ## Murder-count decay
 
@@ -82,13 +87,22 @@ server reports both numbers (verified in `Scripts/Misc/Keywords.cs`).
 
 ## Guard zones (towns are safe)
 
-Towns are **guard zones**. Inside them:
+Towns are **guard zones**. The mechanics below are verified in
+`Scripts/Regions/GuardedRegion.cs`. Inside a guard zone:
 
-- A **criminal or aggressor** who acts up can be killed **instantly by guards** when a
-  victim calls for help (or automatically, depending on the act).
-- A **red** is killed on sight by guards.
-- Therefore, **you are safe from player killers while standing in a guarded town** — a PK
-  cannot freely murder you on a guarded street without the guards intervening.
+- A **criminal or aggressor** who acts up becomes a **guard candidate**
+  (`CheckGuardCandidate`). Guards arrive and kill the offender **near-instantly** — either
+  when someone says **"guards"** (`CallGuards`, keyword `0x0007`), or automatically because a
+  nearby townsperson "calls" them on the spot (the `fakeCall` path in `CheckGuardCandidate`).
+  A summoned guard one-shots its target.
+- A **red who has committed no crime is NOT a guard candidate** on this ruleset. Because the
+  region rule `AllowReds` returns true once `Core.AOS` is set (true on EJ), guards ignore reds
+  for simply being red — `IsGuardCandidate` flags only `m.Criminal`, aggressive monsters, and
+  (only when `!AllowReds`) murderers. A red is whacked by guards **only if it also acts
+  criminally** in town.
+- Therefore, **you are largely safe from open aggression while standing in a guarded town** —
+  a player who attacks you there flags criminal and draws the guards. (Do not assume a red
+  standing peacefully in town will be struck down automatically; on this shard it will not.)
 
 This makes towns your refuge: bank, repair, restock, and regroup there. Step outside the
 guard zone (wilderness, dungeons) and that protection ends. See
@@ -142,10 +156,15 @@ You **lose Young status** when (verified):
 
 - You **kill** someone (any rise in your kill count removes Young — `OnKillsChange` calls
   `RemoveYoungStatus`), or
-- You reach a **respectable skill level** (`OnSkillChange` removes Young at `SkillsTotal >=
-  4500`, i.e. 450 total skill, under the relevant ruleset), or
 - You voluntarily renounce it by saying **"i renounce my young player status"** (verified
-  keyword).
+  keyword `0x0035` in `Scripts/Misc/Keywords.cs`) — this opens a confirmation gump
+  (`RenounceYoungGump`) you must accept.
+
+There is also a "respectable skill level" removal path in the code (`OnSkillChange` →
+`RemoveYoungStatus` at `SkillsTotal >= 4500`), but on this shard it **never fires**: it is
+gated by `!Core.AOS && Skills[skill].Base >= 80.0`, and `Core.AOS` is **true** on EJ
+(verified in `PlayerMobile.OnSkillChange`). So on this ruleset Young is lost only by killing
+or by renouncing — not by gaining skill.
 
 New players should keep Young protection while learning, and not throw it away by picking a
 fight.

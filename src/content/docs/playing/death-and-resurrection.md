@@ -1,11 +1,15 @@
 ---
 title: Death & Resurrection
 description: What happens at 0 HP — becoming a ghost, your corpse and loot, getting resurrected, item insurance, and retrieving your body.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Items/Resource/Bandage.cs (bandage resurrection thresholds)"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Server/Mobile.cs (OnDeath sets ghost Body; MutateSpeech garbles dead speech to 'o'/'O'; Resurrect restores Hits=10/Stam=full/Mana=0)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs (MutateSpeech bypass at Spirit Speak >= 100 for speaker or listener; GetInsuranceCost base 600g; CheckInsuranceOnDeath deduction)"
+  - "servuo: Scripts/Items/Corpses/Corpse.cs (7-minute corpse decay, then bones)"
+  - "servuo: Scripts/Mobiles/NPCs/WanderingHealer.cs + BaseHealer.cs (NPC healer refuses criminals/murderers; resurrects on approach), Scripts/Items/Functional/Ankhs.cs (shrine/ankh resurrect), Scripts/Items/Addons/AnkhOfSacrifice.cs (1h cooldown)"
+  - "servuo: Scripts/Items/Resource/Bandage.cs (bandage res thresholds Healing/Anatomy >= 80; pet res 0.1/skill loss), Scripts/Spells/Eighth/Resurrection.cs (8th circle), Scripts/Spells/Chivalry/NobleSacrifice.cs"
+  - "servuo: Scripts/Gumps/ResurrectGump.cs (10% fame loss; Compassion virtue HP bonus; no AOS stat/skill loss)"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -19,9 +23,10 @@ for murderer/notoriety effects see [Notoriety & PvP](/playing/notoriety-and-pvp/
 When your hit points reach **0**, you **die** and become a **ghost**:
 
 - Your character turns into a **grey, translucent ghost** and can move freely.
-- As a ghost you **cannot be easily heard** by the living — your speech comes out as
-  "**Oooo**" sounds to other players unless they have [Spirit Speak](/skills/spirit-speak/)
-  active (which lets them hear ghosts).
+- As a ghost you **cannot be easily heard** by the living — the server replaces every
+  letter of your speech with random "**o**/**O**" characters (`Mobile.MutateSpeech`). A
+  living listener hears your words normally only if **they** have **Spirit Speak ≥ 100**
+  (or you, the dead speaker, have Spirit Speak ≥ 100). Otherwise it's garbled "Oooo".
 - You **cannot attack, cast, or interact** with most of the world while dead. You wander
   until you are resurrected.
 
@@ -33,22 +38,25 @@ When you die, a **corpse** is left at the spot you fell:
   unless they are **blessed**, **newbied**, or **insured** (see below).
 - Other players (and, in dungeons, monsters/looters) can take from your corpse, depending
   on the area's ruleset and your notoriety. Recover your body quickly.
-- Your corpse decays over time, so don't dawdle.
+- Your corpse **decays after 7 minutes** (`Corpse.cs`), then leaves a bone pile that
+  decays after another 7, so don't dawdle.
 
 ## What stays with you vs what drops
 
 - **Blessed items** — never drop on death; they stay equipped/in your pack. Starting gear
   and many quest items are blessed.
 - **Newbied items** — like blessed for newcomers; remain on you.
-- **Insured items** — items you paid to **insure** stay with you on death (a fee is
-  deducted on each death from your insurance funds). This is the modern way to protect
-  valuable gear.
+- **Insured items** — items you paid to **insure** stay with you on death; a per-item fee is
+  deducted on each death (paid from your bank if **auto-renew** is on). This is the modern
+  way to protect valuable gear.
 - **Everything else** — drops to your corpse and can be looted.
 
-Exact insurance cost/mechanics are **shard-dependent and unverified here** — confirm on
-[the shard config](/shard/). Manage and insure items via
-[Vendors & banking](/playing/vendors-and-banking/) and
-[Items & inventory](/playing/items-and-inventory/).
+Insurance cost is per item: the base fee is **600 gold** for a normal item, scaled by an
+item's imbue weight or buy price (clamped roughly 10–800), and **doubled** for "prized"
+(cursed) items (`PlayerMobile.GetInsuranceCost`). A region can apply its own multiplier.
+Manage and insure items via [Vendors & banking](/playing/vendors-and-banking/) and
+[Items & inventory](/playing/items-and-inventory/); region multipliers live on
+[the shard config](/shard/).
 
 ## Ghost movement
 
@@ -69,23 +77,27 @@ Several methods bring a ghost back to life:
 - **Shrines** — moongate/virtue **shrines** can resurrect a ghost who reaches them; see
   [moongates & shrines](/world/moongates-and-shrines/).
 - **A player's Resurrection spell** — a [Magery](/skills/magery/) caster (8th-circle
-  Resurrection) can res you on the spot.
+  Resurrection, `Resurrection.cs`) can res you on the spot.
 - **A player's bandage** — a healer with **Healing ≥ 80 and Anatomy ≥ 80** can resurrect
   you with a bandage (verified in `Bandage.cs`; full procedure in
   [Healing](/playing/healing/#resurrecting-with-a-bandage)).
-- **Chivalry / other** — some systems (e.g. Chivalry's Resurrect) can also res
-  (unverified availability).
+- **Chivalry — Noble Sacrifice** — a [Chivalry](/skills/chivalry/) paladin can resurrect
+  nearby allies with Noble Sacrifice (`NobleSacrifice.cs`).
 
 **To accept a resurrection:** you are shown a **resurrect gump** — click to accept and you
-return to life with low HP at that location.
+return to life at that location.
 
 ## Resurrection penalty
 
-On modern AOS-and-later rules the penalty for dying is **minimal** — typically you come
-back at low HP/stat/mana and may take a short stat/skill dip that recovers, rather than the
-heavy permanent loss of early eras. The **exact penalty is shard-dependent and unverified
-here**; check [the shard rules](/shard/). (Resurrecting a **dead pet** does cost the pet a
-small permanent skill loss, ~0.1 per skill, per `Bandage.cs`.)
+On this AOS/EJ shard the penalty for dying is **minimal**: when you accept the res you come
+back at just **10 hit points**, **0 mana**, and **full stamina** (`Mobile.Resurrect`), and
+you lose **10% of your Fame** (`ResurrectGump.cs`). There is **no permanent stat or skill
+loss** for a player resurrection — that old-era penalty only runs on the pre-AOS ruleset,
+which this shard does not use. (Being resurrected by a high-Compassion healer instead starts
+you at 20–80% HP.) Recover the rest by healing and meditating once you're up.
+
+(Resurrecting a **dead pet** is the one case that costs a small permanent skill loss — about
+**0.1 per skill** on the pet, per `Bandage.cs`.)
 
 ## Retrieving your corpse and loot
 

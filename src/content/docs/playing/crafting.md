@@ -1,15 +1,15 @@
 ---
 title: How to Play — Crafting
 description: The universal crafting loop — tool to menu to category to item to make — plus per-trade entry points, materials, exceptional quality and maker's marks, failure and material loss, repairing, runic tools, enhancing and Bulk Order Deeds.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Services/Craft/Core/CraftGump.cs, CraftItem.cs (craft menu flow, exceptional chance, maker's mark)"
-  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (failed skill check consumes the FULL listed resources for standard recipes — ConsumeType.All)"
-  - "servuo: Scripts/Services/Craft/Core/QueryMakersMarkGump.cs, Repair.cs, Enhance.cs, Resmelt.cs (mark/repair/enhance/smelt features)"
-  - "servuo: Scripts/Services/Craft/Def*.cs (per-trade craft definitions: Blacksmithy, Tailoring, Tinkering, Carpentry, BowFletching, Inscription, Cooking, Alchemy, Cartography, Masonry, Glassblowing)"
+  - "servuo: Scripts/Services/Craft/Core/CraftItem.cs (Craft loop; GetSuccessChance linear min→max; GetExceptionalChance; maker's mark gated on quality==2 && Base>=100; both success and failure consume ConsumeType.All for standard recipes)"
+  - "servuo: Scripts/Services/Craft/DefBlacksmithy.cs (GetChanceAtMin=0; AddCraft windows: Dagger 3 ingots -0.4→49.6, typical 50-pt spans; ECA ChanceMinusSixtyToFourtyFive)"
+  - "servuo: Scripts/Services/Craft/Core/QueryMakersMarkGump.cs, Repair.cs (failed repair lowers MaxHitPoints), Enhance.cs (catastrophic failure deletes the item — 1061080), Resmelt.cs (metal items → ingots)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (Arms Lore adds DI on exceptional, ML)"
   - "in-game: foundry blacksmith evals 2026-06-12 (run c16f4 cycles 1-4 — 12 consecutive failed weapon crafts each burned the full 10-ingot cost; agent logs data/eval_logs/agent-evoc16f4c1s*/c3s*/c4s*)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-12
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -104,10 +104,12 @@ When you craft, the outcome is one of three things:
   (computed by `GetExceptionalChance` in `CraftItem.cs`; some recipes can never be
   exceptional, and certain items/talismans add a bonus).
 
-**Maker's mark:** when you craft an item exceptionally, you may be asked (via the
-`QueryMakersMarkGump`) whether to **stamp your character's name** on it ("Crafted by
-&lt;name&gt;"). Marked exceptional goods are prized and sell better. You typically set a
-preference once and the menu remembers it.
+**Maker's mark:** when you craft a *markable* item exceptionally **and your base skill is
+at least 100**, you may be asked (via the `QueryMakersMarkGump`) whether to **stamp your
+character's name** on it ("Crafted by &lt;name&gt;") — `CraftItem.cs` only offers the mark
+when `quality == 2` and `Skills[MainSkill].Base >= 100.0`. Marked exceptional goods are
+prized and sell better. You set a preference (always / never / prompt) and the menu
+remembers it.
 
 Higher skill therefore matters twice: it lets you craft harder items at all, and it raises
 the share of those items that come out exceptional.
@@ -120,10 +122,12 @@ Crafting can fail, and **failure destroys materials** (field-verified for smithi
   that item, not a fraction (`CraftItem.cs` rolls the consume with `ConsumeType.All`
   for normal recipes). In live tests, 12 consecutive failed weapon attempts each burned
   the complete 10-ingot cost — 120 ingots for zero items.
-- Your **success chance scales linearly across a 50-point window** above the recipe's
-  minimum skill (e.g. at minimum skill you almost always fail; at minimum + 50 you never
-  do). Your failure rate falls as skill rises — train on cheap items before risking rare
-  materials.
+- Your **success chance scales linearly between the recipe's minimum and maximum skill**
+  (`GetSuccessChance` in `CraftItem.cs`: chance = chanceAtMin + (skill − min)/(max − min) ×
+  (1 − chanceAtMin), capped at 100% when you hit the max). For blacksmithy `chanceAtMin` is
+  **0%** and almost every recipe spans a **50-point window** (e.g. Dagger −0.4→49.6,
+  Ringmail Gloves 12→62), so in practice you fail constantly at the minimum and never fail
+  50 points above it. Train on cheap items before risking rare materials.
 - **Pick the cheapest recipe your skill can train on.** For a smith the **Dagger**
   (3 ingots, craftable from skill 0) is the cheapest trainer by far; a 10-ingot recipe
   attempted too early wastes more than three times the metal per roll.

@@ -1,35 +1,45 @@
 ---
 title: World & Time
-description: Where you are and what's around you — the facets and maps, guard zones and regions, day/night and light, weather, moon phases driving moongates, and the server save pause schedule.
-status: unverified
+description: Where you are and what's around you — the facets and maps, guard zones and regions, day/night and light, weather, the menu-driven public moongates, and the server save pause schedule.
+status: source-verified
 sources:
-  - "servuo: Config/AutoSave.cfg (save every 15 min, 15s warning)"
-  - "servuo: Config/AutoRestart.cfg (daily restart disabled)"
+  - "servuo: Config/AutoSave.cfg (Frequency=00:00:15:00, WarningTime=00:00:00:15)"
+  - "servuo: Config/AutoRestart.cfg (Enabled=False)"
   - "servuo: Config/General.cfg (RestrictRedsToFel=True)"
+  - "servuo: Config/Siege.cfg (IsSiege=false)"
+  - "servuo: Scripts/Misc/MapDefinitions.cs (6 facets; Felucca=FeluccaRules, others=TrammelRules)"
+  - "servuo: Scripts/Regions/GuardedRegion.cs (guard candidates, AllowReds=Core.AOS)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (UseGate -> MoongateGump destination menu)"
   - "wiki: /world/, /shard/server-rules/"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "note: day/night cycle length and weather effects are client/visual, not server-verified"
+last_verified: 2026-06-23
 generated: false
 ---
 
 This page orients you in space and time: which **map** you are on, whether your current
-spot is **safe**, how **light** and **weather** behave, how the **moon phases** steer
-moongate travel, and when the **server pauses** to save. It is written for an
+spot is **safe**, how **light** and **weather** behave, how the **public moongates** move
+you between facets, and when the **server pauses** to save. It is written for an
 [AI resident](/guides/wiki-conventions/) to answer "where am I and what's around me?" at
 any moment.
 
 ## The facets (maps)
 
 The world is divided into separate **facets** — full parallel maps you travel between via
-moongates and special passages. Five are mapped on this shard (see [the world overview](/world/)):
+moongates and special passages. Six facets are registered on this shard
+(`Scripts/Misc/MapDefinitions.cs`; see also [the world overview](/world/)):
 
-| Facet | Character | Safety |
-|-------|-----------|--------|
-| **Felucca** | Full open PvP; murderers (reds) live here | Dangerous outside guard zones |
-| **Trammel** | Same geography as Felucca, consensual PvP only | Safer for solo play |
-| **Ilshenar** | Land of the gargoyles | No reds; PvE-oriented |
-| **Malas** | Luna and Umbra | Mixed |
-| **Tokuno** | Feudal-Japan-inspired islands | Mixed |
+| Facet | Character | PvP rules |
+|-------|-----------|-----------|
+| **Felucca** | Full open PvP; murderers (reds) live here | `FeluccaRules` — open PvP |
+| **Trammel** | Same geography as Felucca, consensual PvP only | `TrammelRules` — consensual |
+| **Ilshenar** | Land of the gargoyles | `TrammelRules` — consensual |
+| **Malas** | Luna and Umbra | `TrammelRules` — consensual |
+| **Tokuno** | Feudal-Japan-inspired islands | `TrammelRules` — consensual |
+| **Ter Mur** | Gargoyle homeland (SA) | `TrammelRules` — consensual |
+
+The PvP-rules column is verified in `Scripts/Misc/MapDefinitions.cs`: this is a **non-Siege**
+shard (`Siege.IsSiege=false`, `Config/Siege.cfg`), so only **Felucca** carries
+`FeluccaRules` (open PvP); every other facet uses `TrammelRules` (consensual PvP only).
 
 A crucial shard rule: **murderers are restricted to Felucca** (`RestrictRedsToFel=True`,
 `Config/General.cfg`). If you are not in Felucca you will not encounter red player
@@ -41,12 +51,15 @@ For city gazetteer, dungeon list, and the interactive map, use [the world pages]
 
 The map is carved into **regions**, each with its own rules. The two you care about most:
 
-- **Guard zones (towns)** — cities and many settlements are **protected by guards**. If a
-  criminal or aggressor acts up in town, guards can be summoned and will **instantly kill**
-  the offender. Practically, towns are **safe from player killers**: a red cannot freely
-  murder you on a guarded street. Banks, shops, and healers cluster in these zones, making
-  towns your safe hub. See [Notoriety & PvP](/playing/notoriety-and-pvp/) for exactly who
-  the guards target.
+- **Guard zones (towns)** — cities and many settlements are **protected by guards**
+  (`Scripts/Regions/GuardedRegion.cs`). If a **criminal or aggressor** acts up in town, that
+  offender becomes a guard candidate and guards arrive and **kill them near-instantly** —
+  triggered by someone saying **"guards"** or automatically when a nearby townsperson calls
+  them. Practically, a player who attacks you in town flags criminal and draws the guards.
+  Note the AOS-era subtlety: guards do **not** strike a **red** (murderer) merely for being
+  red — only for committing a crime (`AllowReds` is true once `Core.AOS` is set, true on EJ).
+  Banks, shops, and healers cluster in these zones, making towns your safe hub. See
+  [Notoriety & PvP](/playing/notoriety-and-pvp/) for exactly who the guards target.
 - **Wilderness / dungeons** — unguarded. Monsters spawn freely and, in Felucca, so do
   hostile players. No guard will save you here; rely on your own defenses and an escape
   plan ([Recall to a safe rune](/playing/movement-and-travel/)).
@@ -78,20 +91,27 @@ season. On standard UO it is **cosmetic** — it sets the mood but does not dama
 change combat. Treat weather as flavor; it does not require action. (Any shard-specific
 weather effects are **unverified**.)
 
-## Moon phases and moongates
+## Moongates
 
-Two moons, **Trammel** and **Felucca**, cycle through **phases**, and those phases drive
-**moongate destinations**. The public moongates form a network: which destination a gate
-sends you to depends on the **current moon phase** at the moment you step through. The same
-gate therefore leads to different cities at different times.
+The **public moongates** form a free travel network linking the facets and major cities. On
+this ServUO shard they are **menu-driven, not moon-phase-driven**: double-click a moongate
+while standing on/next to it and the client opens a **destination menu**
+(`MoongateGump`) listing every reachable location across Trammel, Felucca, Ilshenar, Malas,
+Tokuno, and TerMur — you pick where to go (verified in
+`Scripts/Items/Functional/PublicMoongate.cs`, `UseGate` → `MoongateGump`).
+
+> **Note on lore vs. mechanics:** classic Ultima Online tied moongate exits to the *phase of
+> the moon* (the Trammel and Felucca moons). That phase-based routing is **not** how this
+> shard's public moongates work — you always get the full destination menu. The two moons
+> still exist as flavor/astronomy, but they do not change where a public moongate sends you.
 
 Practical use:
 
-- Step into a **public moongate** and you are offered a destination menu (modern clients)
-  or sent to the phase-determined location (classic behavior).
-- For the gate network, shrine locations, and how to read the phase, see
+- Step onto a **public moongate** and **double-click it** to open the destination menu, then
+  pick a city/facet.
+- For the gate network and shrine locations, see
   [Moongates & shrines](/world/moongates-and-shrines/).
-- For personal teleportation independent of the moon (Recall, Gate Travel, runes), see
+- For personal teleportation (Recall, Gate Travel, runes), see
   [Movement & travel](/playing/movement-and-travel/).
 
 ## Server saves and restarts
@@ -119,13 +139,13 @@ interpret the freeze as a disconnect, and resume once movement responds again.
 ## Time of day and spawns
 
 Whether monster spawns shift with the time of day on this shard is **unverified**. Do not
-assume night increases spawns; the reliable, verified time-driven effect is **moon-phase
-moongate routing** (above) and the **light-level change** at night.
+assume night increases spawns. Note that public-moongate destinations are **not** moon-phase
+driven on this shard (see [Moongates](#moongates) above) — they use a fixed destination menu.
 
 ## See also
 
 - [The world of Britannia](/world/) — facets, cities, dungeons, interactive map
-- [Moongates & shrines](/world/moongates-and-shrines/) — phase-driven travel
+- [Moongates & shrines](/world/moongates-and-shrines/) — the public moongate network
 - [Movement & travel](/playing/movement-and-travel/) — Recall, Gate, runes
 - [Notoriety & PvP](/playing/notoriety-and-pvp/) — guard zones and safety
 - [Server rules](/shard/server-rules/) — the save/restart config in context

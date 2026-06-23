@@ -1,12 +1,15 @@
 ---
 title: Combat Basics
 description: How to fight in UO — war mode, equipping a weapon, attacking a target, melee vs ranged range, switching targets, and fleeing.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Items/Resource/Bandage.cs (range = AOS ? 2 : 1)"
-  - "general UO operation, pending in-game field verification"
+  - "servuo: Scripts/Items/Resource/Bandage.cs (Range = Core.AOS ? 2 : 1)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseWeapon.cs (GetUsedSkill weapon→skill map, OnEquip StrRequirement gate line 1099, GetDelay stamina/swing-speed line 1541, AccuracySkill = Tactics, DamageBonus from Anatomy/Tactics line 3789)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseSword.cs / BaseAxe.cs / BaseKnife.cs (Swords), BaseBashing.cs / BaseStaff.cs (Macing), BaseSpear.cs / Dagger.cs / Kryss.cs (Fencing), BaseRanged.cs (Archery), BaseThrown.cs (Throwing), Fists.cs (Wrestling)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseRanged.cs (OnSwing stand-still requirement line 61)"
+  - "servuo: Scripts/Misc/AOS.cs (Hit Chance Increase cap 45/50, Damage Increase cap 100, direct-damage cap 30/35)"
   - "anima: foundry warrior evals ba2f4/bc201 2026-06-11 (Headless One pack lethality; report 2026-06-11-foundry-claude-stat-block-alone-understates-pack-lethality.md)"
-last_verified: 2026-06-15
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -44,8 +47,10 @@ A one-handed weapon uses one hand; a two-handed weapon (most axes, spears, bows,
 staves) occupies both hands and prevents holding a shield. To **unequip**, drag the
 weapon from the paperdoll back into your pack.
 
-Your character must meet the weapon's **Strength requirement** to wield it effectively;
-under-strength penalties apply (unverified). Browse weapons in the
+Your character must meet the weapon's **Strength requirement** to equip it at all: if
+your Strength is below the requirement you simply **cannot wear it** — "You are not strong
+enough to equip that." (`BaseWeapon.cs` `OnEquip`). There is no "swing slower / weaker"
+under-strength penalty in the source; it is a hard equip gate. Browse weapons in the
 [weapons catalog](/items/catalog/weapons/).
 
 ## Weapon choice maps to a combat skill
@@ -99,9 +104,10 @@ When you successfully designate a hostile target, attacking it may flag you for
   **line of sight** — no wall, tree, or obstacle directly between you and the target. If
   line of sight is broken, your shots miss or do not fire until you reposition.
 
-Archers and throwers generally must **stand still to fire** in AOS-era rules (moving
-delays or cancels the shot — unverified specifics); see [Archery](/skills/archery/) and
-[Throwing](/skills/throwing/).
+Archers and throwers must **stand still briefly to fire**: a ranged swing only lands once
+you have been stationary since your last move (about **0.25 s** on this SE/EJ-era shard —
+the delay is 0.25/0.5/1 s by era), so moving resets that timer and delays the shot
+(`BaseRanged.cs` `OnSwing`). See [Archery](/skills/archery/) and [Throwing](/skills/throwing/).
 
 ## Switching and "last target"
 
@@ -118,10 +124,13 @@ You can change who you are fighting at any time:
 - **Weapon speed** sets how often you swing. Faster weapons (daggers, fencing weapons)
   swing more often for less damage per hit; slow weapons (war hammers, two-handed axes)
   hit hard but slowly.
-- **Stamina** affects your swing speed and your ability to keep moving. Running and being
-  hit drain stamina; low stamina slows your attacks (unverified exact thresholds). Eat
-  [food](/items/catalog/food-drink/) and rest to recover. Detailed swing-speed mechanics
-  are in [Combat (advanced)](/playing/combat-advanced/).
+- **Stamina** directly affects your swing speed: the swing-delay formula divides by your
+  stamina, so **as stamina falls your swings come slower** (`BaseWeapon.cs` `GetDelay` —
+  the SE/ML path subtracts `Stam/30` swing-ticks, faster the more stamina you have). Swing
+  speed is capped at one swing per **1.25 s** no matter how high your stamina or Swing-Speed
+  bonuses. Running and being hit drain stamina; eat [food](/items/catalog/food-drink/) and
+  rest to recover. Detailed swing-speed mechanics are in
+  [Combat (advanced)](/playing/combat-advanced/).
 
 ## Packs are far more dangerous than the stat block suggests
 

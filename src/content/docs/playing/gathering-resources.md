@@ -1,13 +1,17 @@
 ---
 title: How to Play — Gathering Resources
 description: How to harvest raw materials — mining ore into ingots, lumberjacking logs into boards, fishing, skinning corpses for leather, the cloth chain, and cartography/treasure gathering. Tool, action, yield, location, and skill gate for each.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Services/Harvest/* (mining, lumberjacking, fishing harvest systems)"
-  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (corpse hide/wool/fur/meat carving yields)"
-  - "servuo: Scripts/Services/Craft/Core/Resmelt.cs (smelting ore to ingots at a forge)"
+  - "servuo: Scripts/Services/Harvest/Mining.cs, Lumberjacking.cs, Fishing.cs (harvest tools, tiles, MutateEntry for BigFish@80/MessageInABottle@100 deep water)"
+  - "servuo: Scripts/Items/Resource/Ore.cs (OnDoubleClick → target forge to smelt; Mining skill check by ore difficulty 50–99)"
+  - "servuo: Scripts/Items/Resource/Log.cs (Axe/TryCreateBoards: axe on logs → boards; Carpentry-or-Lumberjacking gate on colored wood)"
+  - "servuo: Scripts/Items/Equipment/Weapons/BaseSword.cs, BaseKnife.cs (BladedItemTarget → corpse carving)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (corpse hide/wool/fur/meat/scale yields; Summoned/IsBonded/Animated give nothing)"
+  - "servuo: Scripts/Items/Resource/BoltOfCloth.cs (IScissorable → Cloth ×50), Scripts/Items/Addons/Loom*Addon.cs"
+  - "servuo: Scripts/Services/Craft/Core/Resmelt.cs (re-smelting finished metal items, distinct from ore smelting)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -37,10 +41,14 @@ vary by tier and shard config.
 - **Action:** double-click the tool and target a **mountainside, cave wall, or rock**
   (or, with a shovel, certain ground tiles). Your character digs and, on success, **ore**
   drops into your pack.
-- **Refine:** carry the ore to a **forge** and use it there to **smelt** it into
-  **ingots** (the smelt step is part of the smithing/craft system — see
-  [Resmelt.cs] in source and the [Blacksmithy](/skills/blacksmithy/) page). Ingots are the
-  actual crafting material.
+- **Refine:** carry the ore to a **forge**, **double-click the ore pile**, and **target the
+  forge** to **smelt** it into **ingots** (`Ore.cs` `OnDoubleClick` → *"Select the forge on
+  which to smelt the ore…"*). Ingots are the actual crafting material. Smelting runs a
+  **Mining skill check** against the ore's difficulty, so colored ores need higher Mining to
+  smelt as well as to dig — fail the check and you get *"You have no idea how to smelt this
+  strange ore!"* (Iron smelts trivially; Dull Copper needs ~65 Mining, up to ~99 for
+  Valorite.) This is separate from **resmelting** finished metal items back into ingots,
+  which is the smith menu's smelt option (`Resmelt.cs`).
 - **Where:** mountains, caves, and dungeons. Deeper/dungeon spots and certain tiles yield
   the higher tiers.
 - **Skill gate:** plain **iron** ore needs minimal skill; **colored ore tiers** (the more
@@ -58,9 +66,11 @@ Mining is also the entry to **stone** for [Masonry](/crafting/masonry/) and **sa
 - **Tool:** a **hatchet** or **axe** (any axe-type weapon works; from a smith or the
   [tools catalog](/items/catalog/tools/)).
 - **Action:** double-click the tool and target a **tree**. On success you get **logs**.
-- **Refine:** use the tool (or a saw) to turn **logs into boards**, the material
+- **Refine:** use the **axe on the logs** to turn **logs into boards**, the material
   [Carpentry](/skills/carpentry/) and [Bowcraft/Fletching](/skills/bowcraft-fletching/)
-  consume.
+  consume (double-click the axe, target the log stack — `Log.cs` `Axe`/`TryCreateBoards`).
+  Plain wood needs no skill; the higher colored-wood tiers require Carpentry **or**
+  Lumberjacking skill to work into boards.
 - **Where:** forests and wooded areas everywhere. Different regions hold the higher
   **wood tiers**.
 - **Skill gate:** ordinary wood needs little skill; **colored/special wood tiers** each

@@ -1,11 +1,15 @@
 ---
 title: Poison & Status Effects
 description: Poison levels and curing, plus paralysis, bleeding, mortal strike, hunger, and curses — how each works and how to remove it.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Items/Resource/Bandage.cs (bandage cure thresholds and poison-level scaling)"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Items/Resource/Bandage.cs (bandage cure thresholds Healing/Anatomy >= 60 and chance = (Healing-30)/50 - PoisonLevel*0.1 - Slips*0.02; bleed bound in same flow; Mortal wound blocks healing)"
+  - "servuo: Server/Poison.cs + Scripts/Misc/Poison.cs (Lesser=0/Regular=1/Greater=2/Deadly=3/Lethal=4 registered; PoisonTimer ticks damage over time)"
+  - "servuo: Scripts/Spells/Second/Cure.cs (2nd circle, chance = 10000 + Magery*75 - (RealLevel+1)*penalty), Scripts/Spells/Fourth/ArchCure.cs (4th circle, area cure of all targets in range 2)"
+  - "servuo: Scripts/Spells/Fifth/Paralyze.cs (AOS duration = DamageSkill/10 - ResistSkill/10), Server/Mobile.cs (Damage() clears Paralyzed when amount > 0)"
+  - "servuo: Scripts/Items/Containers/TrapableContainer.cs (explosion trap deals self-damage that breaks paralysis)"
+  - "servuo: Scripts/Spells/Fourth/Curse.cs (lowers Str/Dex/Int via AddStatCurse)"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -23,14 +27,17 @@ curing.
 
 Poison comes in escalating levels (weakest to strongest):
 
-1. **Lesser**
-2. **Regular**
-3. **Greater**
-4. **Deadly**
-5. **Lethal** (creature/special — strongest; availability shard-dependent, unverified)
+1. **Lesser** (internal level 0)
+2. **Regular** (1)
+3. **Greater** (2)
+4. **Deadly** (3)
+5. **Lethal** (4 — strongest; mostly creature/special venom)
 
-The higher the level, the more damage per tick and the **harder it is to cure** — cure
-chances explicitly divide by the poison level in `Bandage.cs`.
+All five are registered in the server (`Server/Poison.cs` / `Scripts/Misc/Poison.cs`), so
+**Lethal does exist** on this shard. The higher the level, the more damage per tick (poison
+runs on a repeating `PoisonTimer` that ticks damage scaled to the victim's hit points until
+cured or expired) and the **harder it is to cure** — both the bandage cure chance and the
+Cure-spell chance get a penalty multiplied by the poison level.
 
 ### How you get poisoned
 
@@ -51,12 +58,15 @@ chances explicitly divide by the poison level in `Bandage.cs`.
   **≥ 60** required (verified, `Bandage.cs`); cure chance =
   `(Healing − 30)/50 − (PoisonLevel × 0.1) − (Slips × 0.02)`. Double-click bandage → target
   the poisoned person.
-- **Cure spell** — 2nd-circle [Magery](/skills/magery/) cure; or **Arch Cure** (4th
-  circle) to cure an area.
+- **Cure spell** — 2nd-circle [Magery](/skills/magery/) (`Cure.cs`); cure chance scales with
+  Magery and is penalized by poison level: roughly `(10000 + Magery×75 − (level+1)×penalty) /
+  100` vs a d100 roll, so higher Magery cures reliably and high poison levels can still fail.
+- **Arch Cure** — 4th-circle [Magery](/skills/magery/) (`ArchCure.cs`); cures every valid
+  target within **2 tiles**, using the same per-target chance — the area cure.
 - **Cure potion** — instant; stronger potions cure higher levels (effectiveness
   **unverified**). See [potions](/items/catalog/potions/).
-- **Arch Cure / Chivalry Cleanse / Mysticism cure** — alternate cures depending on your
-  skills (availability unverified).
+- **Chivalry Cleanse by Fire / Mysticism Cleansing Winds** — alternate cures depending on
+  your skills (availability/specifics unverified).
 
 **Important:** the lesser **Heal/Greater Heal** spells **will not heal a poisoned target** —
 you must **cure first**, then heal HP. With bandages you can keep applying them; a bandage
@@ -72,28 +82,32 @@ on a poisoned patient tries the cure before healing. Full detail in
 
 **To break paralysis:**
 
-- **Take damage** — getting hit typically breaks the Paralyze spell early (a hostile action
-  against you ends it).
-- **A trapped pouch** — carry a pouch trapped with an explosion potion (made via
-  [Tinkering](/skills/tinkering/)/[Alchemy](/skills/alchemy/)); double-click it while
-  paralyzed to instantly free yourself. This is the standard PvP counter.
+- **Take damage** — any blow that deals damage clears paralysis immediately
+  (`Mobile.Damage` sets `Paralyzed = false` whenever the amount is greater than 0).
+- **A trapped pouch** — you can still double-click a container while paralyzed, so opening
+  a **container trapped with an explosion trap** ([Tinkering](/skills/tinkering/)) sets the
+  trap off; the explosion's self-damage then breaks the paralysis (it works *because* the
+  trap damages you, per the rule above). This is the standard PvP counter.
 - **Wait it out** — the effect expires after its duration.
 
-[Resisting Spells](/skills/resisting-spells/) lowers the duration/chance of magic
-paralysis (unverified specifics).
+[Resisting Spells](/skills/resisting-spells/) shortens magic paralysis: in AOS the
+duration is `(caster's damage skill − your Resisting Spells)/10` seconds, so higher Resist
+directly cuts the time you are held (`Paralyze.cs`).
 
 ## Bleeding and Mortal Strike
 
 These are **weapon special-move** effects (see
 [Combat (advanced)](/playing/combat-advanced/#special-moves-primary-and-secondary)) — exact
-numbers **unverified**:
+damage/duration numbers **unverified**, but the bandage interactions below are confirmed in
+`Bandage.cs`:
 
 - **Bleed (Bleed Attack)** — inflicts a wound that deals damage over several seconds. A
-  **bandage** can bind the wound and stop the bleeding (`Bandage.cs` handles bleed in the
-  same flow as poison/heal).
+  **bandage binds the wound and stops the bleeding** ("You bind the wound and stop the
+  bleeding") — `Bandage.cs` ends the bleed in the same flow it uses for poison/heal.
 - **Mortal Strike / Mortal Wound** — for its duration the victim **cannot be healed** by
-  normal means; you must wait it out or use specific counters. A bandage on a mortally
-  wounded patient reports the wound rather than healing.
+  normal means. A bandage on a mortally wounded patient just reports the wound and heals
+  nothing (`Bandage.cs` checks `MortalStrike.IsWounded` before applying any heal); wait it
+  out or use a specific counter.
 
 ## Hunger
 
@@ -112,8 +126,10 @@ your recovery.
 
 Various spells/effects **lower your stats or resistances** temporarily:
 
-- **Curse** ([Magery](/skills/magery/) 4th circle) — lowers Strength/Dexterity/Intelligence
-  (and may lower resists in AOS).
+- **Curse** ([Magery](/skills/magery/) 4th circle) — lowers **Strength, Dexterity, and
+  Intelligence** together (`Curse.cs` applies a stat curse to all three). On this shard it
+  does **not** lower your elemental resistances — despite the OSI-era reputation, the server
+  code only debuffs the three stats.
 - **Clumsy / Weaken / Feeblemind** (1st circle) — each lowers a single stat.
 - **Mass Curse** — area version.
 - Creature **auras** and **debuff** attacks can apply similar reductions.

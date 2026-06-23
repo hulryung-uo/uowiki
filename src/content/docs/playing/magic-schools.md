@@ -1,11 +1,16 @@
 ---
 title: Magic Schools
 description: Overview of the casting schools beyond Magery — Necromancy, Chivalry, Bushido, Ninjitsu, Spellweaving, and Mysticism — and how each is fueled and cast.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Spells/ (per-school spell folders and base classes)"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Spells/Base/MagerySpell.cs (mana table 4/6/9/11/14/20/40/50, ConsumeReagents), Scripts/Spells/Base/Spell.cs (DamageSkill defaults to EvalInt)"
+  - "servuo: Scripts/Spells/Necromancy/NecromancerSpell.cs (RequiredMana, ConsumeReagents, DamageSkill = SpiritSpeak)"
+  - "servuo: Scripts/Spells/Chivalry/PaladinSpell.cs (RequiredMana + RequiredTithing, no reagents)"
+  - "servuo: Scripts/Spells/Bushido/SamuraiSpell.cs + Scripts/Spells/Ninjitsu/NinjaSpell.cs + AnimalForm.cs (mana, no reagents)"
+  - "servuo: Scripts/Spells/Spellweaving/ArcanistSpell.cs (RequiredMana; FindArcaneFocus from hand/pack, not consumed), ArcaneCircle.cs (group empowerment)"
+  - "servuo: Scripts/Spells/Mysticism/MysticSpell.cs (mana + reagents; DamageSkill = higher of Imbuing or Focus)"
+  - "servuo: Scripts/Items/Equipment/Spellbooks/ (per-school book items)"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -14,8 +19,8 @@ and its own **fuel**. They all share the basic flow you learn in
 [Spellcasting](/playing/spellcasting/) — *invoke the ability, then target* — but they
 differ in what they cost. This page is a one-stop overview: what each school does, what it
 needs, and how you cast it. Follow the skill links for the full spell lists and details.
-School-specific numbers below are **unverified** here; the linked skill pages carry the
-detail.
+The **fuel each school spends** is verified against ServUO below; exact per-spell numbers
+live on the linked skill pages.
 
 ## Magery — reagents + mana (the core school)
 
@@ -69,8 +74,8 @@ detail.
 - **What it does:** the ninja arts — stealth attacks, **animal forms** (transformations),
   mirror-image decoys, smoke-bomb vanishing, and surprise strikes.
 - **What it needs:** the **[Ninjitsu](/skills/ninjitsu/)** skill; abilities cost **mana**
-  and use **no reagents** (animal forms may require an item like a ninja belt for some
-  shapes — **unverified**).
+  and use **no reagents** — Animal Form is pure-mana too (`AnimalForm.cs` consumes only
+  mana, no special item).
 - **How you cast it:** invoke the ability from the **Book of Ninjitsu** (or a macro).
   Pairs with Hiding/Stealth for stealth openers.
 

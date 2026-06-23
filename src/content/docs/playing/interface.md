@@ -9,7 +9,7 @@ sources:
   - "classicuo: Game/UI/Gumps/ContainerGump.cs (default backpack 0x003C)"
   - "classicuo: Game/UI/Gumps/SpellbookGump.cs (magery spellbook 0x08AC)"
   - "classicuo: Game/UI/Gumps/StandardSkillsGump.cs + Controls/ExpandableScroll.cs (skill scroll 0x1F40..)"
-  - "general UO operation, pending in-game field verification"
+  - "note: this page documents CLIENT-side UI (ClassicUO gumps/gump art); it is not verifiable against ServUO server source, so status is left as-is by design"
 last_verified: 2026-06-11
 generated: false
 ---

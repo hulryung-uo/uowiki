@@ -1,13 +1,16 @@
 ---
 title: Decorating
 description: A practical guide to decorating your UO house — the in-house decorator tool (turn, raise, lower items), stacking and placement tricks, the lockdown-then-decorate workflow, add-on deeds, dyeing furniture, theme ideas (tavern, library, mage tower, museum), and where to find inspiration.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Items/Tools/InteriorDecorator.cs (Turn/Up/Down commands; locked-down-only)"
+  - "servuo: Scripts/Items/Tools/InteriorDecorator.cs (DecorateCommand Turn/Up/Down + GetHue; CheckUse requires IsCoOwner; Up caps at floorZ+15; works on locked-down/secured items)"
+  - "servuo: Scripts/Items/Tools/DyeTub.cs, FurnitureDyeTub.cs (dyeing cloth/furniture)"
+  - "servuo: Scripts/Items/Addons/BaseAddonDeed.cs (add-on deeds place multi-tile fixtures)"
+  - "servuo: Scripts/Mobiles/NPCs/Mannequin/Mannequin.cs, Scripts/Services/CleanUpBritannia/Items/Steward.cs (both BaseCreature, Blessed/invulnerable, redeedable, CUB rewards)"
   - "general UO decorating practice and community technique knowledge, pending in-game field verification"
   - "wiki: /playing/housing/ (lockdowns/secures), /playing/house-types/ (house shells)"
   - "wiki: /reference/hues/ (dye colors)"
-last_verified: 2026-06-16
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -26,8 +29,9 @@ first). Everything below assumes you are the **owner or co-owner** of the house.
 
 The **Interior Decorator** is the heart of interior design — the "interior kit" that nudges
 furniture into place. It is an item (buy one from an Architect/Carpenter NPC, or craft it)
-that you place inside your house and **double-click** to open its three-mode menu
-(`Scripts/Items/Tools/InteriorDecorator.cs`, `DecorateCommand` = `Turn` / `Up` / `Down`).
+that you place inside your house and **double-click** to open its menu
+(`Scripts/Items/Tools/InteriorDecorator.cs`, `DecorateCommand` = `Turn` / `Up` / `Down`,
+plus a `GetHue` color-picker mode that only appears when you are *not* standing in a house).
 Pick a mode, then target a **locked-down** item to nudge it without picking it up:
 
 - **Turn** — rotate the item to its next available facing. Many items (chairs, tables, some
@@ -36,11 +40,13 @@ Pick a mode, then target a **locked-down** item to nudge it without picking it u
   mugs on a table, or stack one decoration on another.
 - **Down** — drop the item back toward the floor.
 
-Notes verified from the source: the decorator only works on the owner's own house, only on
-items that are **locked down or secured** (loose items can't be finely positioned and risk
-decaying), and it won't raise an item so high that it leaves the house. Add-on components
-(multi-tile furniture) can be turned. This is why the golden rule is **lock down first, then
-decorate**.
+Notes verified from the source: the decorator only works while you are standing **in a
+house you own or co-own** (`CheckUse` requires `IsCoOwner`; otherwise *"You must be in your
+house to do this."*), and only on items that are **locked down or secured** (loose items
+can't be finely positioned and risk decaying). **Up** stops once an item reaches roughly 15
+units above the floor (*"You cannot raise it up any higher."*), so you can't push a piece
+out through the roof. Add-on components (multi-tile furniture) can be turned. This is why
+the golden rule is **lock down first, then decorate**.
 
 ## The lockdown-then-decorate workflow
 
@@ -118,7 +124,8 @@ placed in your house and renamable):
   outfit — perfect for a trophy room, a "for sale" display by a vendor, or just showing off a
   rare set. (`Scripts/Mobiles/NPCs/Mannequin/Mannequin.cs`.)
 - **Steward** — a house servant NPC you can place, rename, and keep around the house as flavor
-  (and light utility); like the mannequin it's invulnerable and ignores house restrictions.
+  (and light utility); like the mannequin it's invulnerable and redeedable.
+  (`Scripts/Services/CleanUpBritannia/Items/Steward.cs`.)
 
 Both are obtained as rewards (e.g. through [Clean Up Britannia](/playing/cleanup-britannia/))
 and count as house décor — a living centerpiece rather than a static statue.

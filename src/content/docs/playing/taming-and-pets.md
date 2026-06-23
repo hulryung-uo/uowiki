@@ -1,13 +1,14 @@
 ---
 title: How to Play — Taming and Pets
 description: Step-by-step pet workflow — finding tamable creatures, taming, controlling with Lore, the full command list, bonding, stabling, control slots, feeding, healing, death, transfer and combat with pets.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Mobiles/AI/BaseAI.cs (pet speech command keywords, OrderType handling)"
-  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (BondingDelay 7 days, BondingAbandonDelay 1 day, MaxLoyalty 100, default ControlSlots 1, loyalty feed/decay)"
+  - "servuo: Scripts/Skills/AnimalTaming.cs (tame chance window, enrage, followers check)"
+  - "servuo: Scripts/Mobiles/AI/BaseAI.cs (pet speech command keywords, OrderType handling, BeginPickTarget)"
+  - "servuo: Scripts/Mobiles/Normal/BaseCreature.cs (BondingDelay 7 days, BondingAbandonDelay 1 day, MaxLoyalty 100, default ControlSlots 1, GetControlChance, loyalty feed/decay)"
   - "servuo: Scripts/Mobiles/NPCs/AnimalTrainer.cs (stable: 30 gold/week, GetMaxStabled skill scaling)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -65,14 +66,22 @@ To tame a wild creature:
    bar turns to your control). Failure simply means *try again* — re-target and repeat.
 
 **Repeated attempts are normal.** A single tame on a tougher creature often takes many
-tries. Higher [Animal Taming](/skills/animal-taming/) and [Animal Lore](/skills/animal-lore/)
-relative to the creature's MinTameSkill raise your per-attempt chance (the chance formula in
-`BaseCreature.cs` rewards skill above the creature's difficulty). Some powerful creatures
-can become **temporarily enraged** while you tame and attack you — be ready to back off or
-have a way to survive.
+tries. The attempt is a skill check on a window centered on the creature's difficulty:
+`CheckTargetSkill(AnimalTaming, minSkill - 25, minSkill + 25)`, where `minSkill` is the
+creature's tame difficulty **plus 6.0 for every previous owner it has had**
+(`AnimalTaming.cs`). So the more [Animal Taming](/skills/animal-taming/) you have above the
+creature's difficulty, the higher your per-attempt chance. **Note:** only **Animal Taming**
+drives the tame-success roll — [Animal Lore](/skills/animal-lore/) does *not* raise your
+chance to tame (it runs only a passive skill-gain check during the attempt). Lore matters
+for **controlling** the pet afterward, not for catching it (see Step 3).
 
-**Warning:** once you start taming a difficult creature, other players can sometimes tame
-it out from under you. Tame in a safe spot when possible.
+Most creatures have a high chance (about **95%**, gated by `CanAngerOnTame`) to become
+**temporarily enraged** while you tame and attack you — be ready to back off or have a way
+to survive.
+
+**Warning:** while you are mid-attempt the creature is briefly locked to you, but if your
+attempt ends another player can start their own — difficult creatures can be tamed out from
+under you. Tame in a safe spot when possible.
 
 ## Step 3 — Take control with Animal Lore
 
@@ -85,9 +94,13 @@ it out from under you. Tame in a safe spot when possible.
   actually obeys — scales with your **Animal Taming + Animal Lore**. A tamer with high
   Taming but no Lore will be **disobeyed frequently**.
 
-Every command you issue runs a **control check** (`CheckControlChance` in `BaseAI.cs`). If
-the check fails the pet ignores that order — you simply repeat the command. Low
-[loyalty](#feeding-and-loyalty) further lowers the control chance, so keep your pet fed.
+Every command you issue runs a **control check** (`BaseAI.cs` calls `CheckControlChance`,
+whose odds come from `GetControlChance` in `BaseCreature.cs`). That chance is built from your
+**Animal Taming + Animal Lore**, and **low loyalty reduces it directly** — the formula
+subtracts `(MaxLoyalty − loyalty) × 10` thousandths from the chance (`BaseCreature.cs`), so a
+neglected pet obeys far less often. Very easy pets (tame difficulty ≤ 29.1) and summons
+always obey. If a check fails the pet ignores that order — you simply repeat the command.
+Each failed control check also **costs the pet 3 loyalty**, so keep your pet fed.
 
 ## Pet commands (verified keyword set)
 
@@ -129,9 +142,9 @@ Notes confirmed from source:
 **resurrected**. A bonded pet that dies leaves a corpse and a ghost you can revive rather
 than vanishing forever.
 
-- A newly tamed pet is **not** bonded. It becomes eligible after a bonding period spent in
-  your care: `BondingDelay = 7 days` (`BaseCreature.cs`). Keep the pet with you, fed and
-  loyal during that window.
+- A newly tamed pet is **not** bonded. The bonding clock **starts when you first feed a
+  bondable pet** you have enough Taming for, and it bonds once `BondingDelay = 7 days`
+  (`BaseCreature.cs`) have elapsed. Keep the pet with you, fed and loyal during that window.
 - A bonded pet that dies and is **left abandoned** can still be lost: `BondingAbandonDelay
   = 1 day` (`BaseCreature.cs`) — resurrect it before that window expires.
 
@@ -142,9 +155,10 @@ the moment of death is the difference between a quick resurrection and a total l
 
 Each pet costs a number of **control slots** (the default is `ControlSlots = 1` in
 `BaseCreature.cs`; stronger creatures cost more — check the [bestiary](/bestiary/) page).
-You can only control pets whose slot costs sum to your **follower cap**. The control check
-in `PlayerMobile.cs` confirms a pet is only accepted when
-`Followers + pet.ControlSlots <= FollowersMax`.
+You can only control pets whose slot costs sum to your **follower cap** (default
+`FollowersMax = 5`). A pet is only accepted when `Followers + ControlSlots <= FollowersMax`
+— enforced both at the moment of taming (`AnimalTaming.cs`) and when claiming from a stable
+(`PlayerMobile.cs`).
 
 To stay under your cap:
 - Add up the slot cost of every pet currently following or guarding you.
@@ -162,8 +176,9 @@ To feed a pet:
 1. Carry the right **food** for its diet (carnivores eat meat/fish; herbivores eat
    grains, fruit and vegetables; see the [bestiary](/bestiary/) page for diet).
 2. **Drag the food onto the pet**, or in some clients target the pet with the food.
-3. A successful feed raises loyalty (per `BaseCreature.cs`, a feed nudges loyalty up; a
-   newly tamed/claimed pet starts at the top, "Wonderfully Happy").
+3. A successful feed raises loyalty. On this shard (post–Stygian Abyss era) a successful
+   feed restores loyalty straight to the maximum, "Wonderfully Happy" (`BaseCreature.cs`,
+   `Core.SE` branch); a newly tamed pet also starts at `MaxLoyalty = 100`.
 
 Feed pets regularly — especially before long trips or when you notice commands being
 ignored.

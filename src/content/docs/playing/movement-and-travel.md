@@ -1,14 +1,15 @@
 ---
 title: Movement & Travel
 description: How to walk, run, and ride; how weight and stamina limit you; and how to cross the map with Recall, Gate Travel, runebooks, moongates, and boats.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Misc/WeightOverloading.cs"
-  - "servuo: Scripts/Mobiles/PlayerMobile.cs (MaxWeight)"
-  - "servuo: Scripts/Spells/Fourth/Recall.cs"
-  - "servuo: Scripts/Spells/Seventh/GateTravel.cs"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Misc/WeightOverloading.cs (OverloadAllowance=4, GetStamLoss 5+overWeight/25, mounted /3, running *2, blocked-step msgs 500109/500110)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs (MaxWeight = ((Core.ML && Human)?100:40) + 3.5*Str)"
+  - "servuo: Scripts/Spells/Fourth/Recall.cs (4th circle; BlackPearl/Bloodmoss/MandrakeRoot; targets marked rune/runebook/ship key)"
+  - "servuo: Scripts/Spells/Seventh/GateTravel.cs (7th circle; BlackPearl/MandrakeRoot/SulfurousAsh; cannot gate to another facet)"
+  - "servuo: Scripts/Items/Functional/PublicMoongate.cs (double-click -> MoongateGump destination menu, no reagents)"
+  - "note: walk/run click-to-move, mounts, doors, and boat piloting are client-side UI, described from general UO behavior"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -149,14 +150,17 @@ hubs).
 facets. You do not need spells or reagents to use them.
 
 1. Walk to a city moongate.
-2. Activate it (step into it / use its menu) and choose a destination from the gate list.
+2. **Double-click it** while standing on or next to it. A **destination menu** opens
+   (`MoongateGump`).
+3. Pick a city/facet from the list to teleport there.
 
-Which destination a moongate offers can depend on the **phase of the moon** in classic UO,
-so the available exit cycles over time. The cities, dungeons, and the moongate layout for
-this shard are documented under [World](/world/) — see
-[Moongates & shrines](/world/moongates-and-shrines/) for the network, and individual city
-pages such as [Britain](/world/britain/) for where each gate sits. Coordinates are not
-repeated here; follow those links.
+On this ServUO shard the destination is **chosen from a menu**, not determined by the phase
+of the moon (verified in `Scripts/Items/Functional/PublicMoongate.cs`, `UseGate` →
+`MoongateGump`). Classic UO tied gate exits to moon phases; that is not how these public
+gates behave here. The cities, dungeons, and moongate layout for this shard are documented
+under [World](/world/) — see [Moongates & shrines](/world/moongates-and-shrines/) for the
+network, and city pages such as [Britain](/world/britain/) for where each gate sits.
+Coordinates are not repeated here; follow those links.
 
 ## Boats and sea travel
 

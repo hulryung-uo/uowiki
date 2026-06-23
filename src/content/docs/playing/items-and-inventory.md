@@ -1,15 +1,19 @@
 ---
 title: Items & Inventory
 description: How to pick up, drop, equip, and stack items; how the backpack, containers, and bank box work; weight and overweight; secure trades; and what survives death.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Server/Items/Container.cs (GlobalMaxItems/GlobalMaxWeight)"
-  - "servuo: Scripts/Mobiles/PlayerMobile.cs (MaxWeight)"
-  - "servuo: Scripts/Mobiles/PlayerMobile.cs OnDroppedItemToWorld (own-tile drop bounce, AOS+)"
-  - "servuo: Scripts/Misc/WeightOverloading.cs"
+  - "servuo: Server/Items/Container.cs (GlobalMaxItems=125 / GlobalMaxWeight=400)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs (MaxWeight = (Core.ML && Human ? 100 : 40) + 3.5*Str)"
+  - "servuo: Scripts/Mobiles/PlayerMobile.cs OnDroppedItemToWorld (AOS+ rejects drop onto a mobile in z-band [destZ, destZ+16))"
+  - "servuo: Scripts/Misc/WeightOverloading.cs (OverloadAllowance=4; msg 500109 too fatigued to move)"
+  - "servuo: Server/Items/Containers.cs (BankBox owned by a single mobile — per character, not account-wide; DefaultMaxWeight=0)"
+  - "servuo: Server/SecureTrade.cs (two-pane trade; completes only when both Accepted; editing offer clears checks)"
+  - "servuo: Server/Item.cs DeathMoveResult + Scripts/Mobiles/PlayerMobile.cs CheckInsuranceOnDeath (Blessed/Newbied/Insured stay on death)"
+  - "servuo: Scripts/Items/Consumables/CommodityDeed.cs (compresses a single-resource stack to a 1-stone deed; re-deed in bank/commodity box)"
   - "general UO operation, pending in-game field verification"
   - "anima: foundry miner run c16f4 2026-06-12 (own-tile drop bounce; report 2026-06-12-claude-foundry-dropping-an-item-on-the-ground.md)"
-last_verified: 2026-06-15
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -108,9 +112,12 @@ Strength, and [Movement & travel](/playing/movement-and-travel/) for the stamina
 ## Bank box vs backpack
 
 - **Backpack** — carried on you, weight-limited, and at risk if you die in dangerous areas.
-- **Bank box** — safe storage you reach by speaking to a **banker** (say *"bank"*). It is
-  **shared across your whole account** and is not carried, so its contents are not exposed
-  to your carry weight or to looting. Use the bank for gold and anything valuable.
+- **Bank box** — safe storage you reach by speaking to a **banker** (say *"bank"*). Each
+  **character has its own bank box** (`BankBox` is owned by a single mobile —
+  `Server/Items/Containers.cs`; it is *not* shared across the account on this shard). It is
+  not carried, so its contents are exposed to neither your carry weight nor looting, and the
+  bank box itself has **no weight limit** (`DefaultMaxWeight = 0`). Use the bank for gold and
+  anything valuable.
 
 Banking, balances, withdrawals, and checks are covered in
 [Vendors & banking](/playing/vendors-and-banking/).
@@ -181,8 +188,8 @@ context. Commodity deeds are the standard way crafters and merchants move bulk g
 - **Containers** default to 125 items / 400 stones each.
 - **Carry limit** = 100 + 3.5×Str (Human) + 4 tolerance; over it = stamina drain then
   blocked.
-- **Safe storage** = bank box (account-wide). **Player trade** = drag onto them → both
-  accept.
+- **Safe storage** = bank box (per character, no weight limit). **Player trade** = drag onto
+  them → both accept.
 - **On death** = blessed/newbie/insured items stay; the rest can be looted.
 
 ## See also

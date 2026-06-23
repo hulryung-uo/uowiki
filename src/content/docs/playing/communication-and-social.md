@@ -1,11 +1,15 @@
 ---
 title: Communication & Social
 description: How to speak, whisper, yell and emote, talk to NPCs with keywords, read your profile, form parties, join guilds, and use chat channels — plus how AI agents should phrase NPC interactions.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Scripts/Misc/Keywords.cs (speech keyword handlers, e.g. 'i must consider my sins')"
-  - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+  - "servuo: Scripts/Misc/Keywords.cs (i must consider my sins / i resign from my guild / i renounce my young player status, keywords 0x32/0x2A/0x35)"
+  - "servuo: Scripts/Mobiles/NPCs/Banker.cs (bank/balance/withdraw keywords)"
+  - "servuo: Scripts/Misc/Guild.cs (RegistrationFee = 25000)"
+  - "servuo: Scripts/Misc/CurrentExpansion.cs (TownCryerSystem.Enabled = Core.TOL, true on EJ)"
+  - "servuo: Scripts/Services/Town Cryer/ (TownCryerSystem, TownCryerCityEntry, TownCryerGuildEntry)"
+  - "note: speech modes (whisper/yell/emote), journal, paperdoll, party menu, and chat panel are CLIENT-side UI, described from general UO behavior — not server-verifiable"
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -121,7 +125,8 @@ title that appears beside member names.
 
 This shard runs the **menu-based new guild system**, so you manage everything from the
 **Guild button on your paperdoll** (no physical guildstone needed). Creating a guild costs
-**25,000 gold**; joining one means accepting an **invitation** from a member with invite
+**25,000 gold** (`Guild.RegistrationFee = 25000`, withdrawn from your bank box —
+`Scripts/Misc/Guild.cs`); joining one means accepting an **invitation** from a member with invite
 rights, after which your guild **[abbreviation]** appears beside your name. The full rules —
 the five ranks, wars, and alliances — are on the dedicated **[Guilds](/playing/guilds/)** page.
 

@@ -1,12 +1,12 @@
 ---
 title: Spellcasting
 description: How to cast spells — the spellbook, skill, mana, and reagents you need; how to target, why spells fizzle or are disrupted, and the utility spells every new caster learns first.
-status: unverified
+status: source-verified
 sources:
   - "servuo: Scripts/Spells/Base/Spell.cs (CheckSequence, ConsumeReagents, Disturb, CheckFizzle)"
   - "servuo: Scripts/Spells/Base/MagerySpell.cs (GetCastSkills, mana table, scroll circle offset)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -64,9 +64,13 @@ A cast can be **wasted** in two main ways:
 - **Fizzle (skill failure):** if your Magery is below the circle's "never-fizzle" value
   there is a random chance the spell **fizzles** ("The spell fizzles."). The lower your
   skill relative to the circle, the higher the fizzle chance; below the circle's minimum it
-  fails every time. On our shard, mana and reagents are checked and consumed as part of the
-  cast sequence, so repeatedly fizzling high-circle spells wastes resources.
-  *(Source: `Spell.cs` CheckSequence / `MagerySpell.cs` GetCastSkills.)*
+  fails every time. The cast sequence checks mana and consumes reagents *before* rolling
+  the skill check, so a fizzle still **consumes your reagents** even though the spell does
+  not go off — repeatedly fizzling high-circle spells wastes reagents. Your **mana is only
+  deducted on a successful (non-fizzled) cast**, not on a fizzle.
+  *(Source: `Spell.cs` CheckSequence — `ConsumeReagents()` runs before `CheckFizzle()`, and
+  `m_Caster.Mana -= mana` runs only after `CheckFizzle()` succeeds; `MagerySpell.cs`
+  GetCastSkills sets the per-circle skill window.)*
 - **Disruption (taking damage):** being **hit while casting** can interrupt the spell
   ("Your concentration is disturbed, thus ruining thy spell."). This is the **disrupt /
   hurt fizzle** mechanic — a melee or ranged hit during your cast bar can ruin the spell.

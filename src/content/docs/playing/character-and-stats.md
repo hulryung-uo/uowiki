@@ -1,12 +1,13 @@
 ---
 title: Character & Stats
 description: The three core stats (Strength, Dexterity, Intelligence), the three pools (Hit Points, Stamina, Mana), stat and skill caps on this shard, how stats rise, and the paperdoll character sheet.
-status: unverified
+status: source-verified
 sources:
-  - "servuo: Config/PlayerCaps.cfg (stat cap 225, per-stat cap 125, skill cap 100/700)"
-  - "servuo: Config/General.cfg"
+  - "servuo: Config/PlayerCaps.cfg (TotalStatCap=225, Str/Dex/IntCap=125, *MaxCap=150, SkillCap=1000, TotalSkillCap=7000, PlayerChanceToGainStats=5.0, EnablePlayerStatTimeDelay=false)"
+  - "servuo: Scripts/Misc/SkillCheck.cs (TryStatGain — 5% roll, primary/secondary stat selection, IncreaseStat)"
+  - "servuo: Server/Skills.cs (per-skill Base/Cap stored at 10x)"
   - "general UO operation, pending in-game field verification"
-last_verified: 2026-06-11
+last_verified: 2026-06-23
 generated: false
 ---
 
@@ -100,9 +101,14 @@ What this means in practice:
 Stats rise as a side effect of **using skills**, not by spending points directly. When
 you successfully use a skill tied to a stat, there is a chance that stat ticks up.
 
-- Stat gain chance on this shard: **5%** per qualifying skill use (`PlayerChanceToGainStats=5.0`).
+- Stat gain chance on this shard: **5%** per qualifying skill use (`PlayerChanceToGainStats=5.0`,
+  read in `SkillCheck.cs` TryStatGain).
 - The stat-gain **time delay is disabled** (`EnablePlayerStatTimeDelay=False`), so gains
   are not throttled by a cooldown window.
+- When a use rolls a gain, the skill's **primary** stat is favored; if both the primary and
+  secondary stats are set to *raise*, there is a ~25% chance the secondary gains instead
+  (`SkillCheck.cs` TryStatGain). If you are already at the 225 total, the code automatically
+  lowers a stat marked *down* to make room before raising the chosen one (`IncreaseStat`).
 
 Full mechanics — which skills feed which stat, and how a gain is rolled — are on the
 [stat gain](/mechanics/stat-gain/) page. The general mapping: combat and labor skills
