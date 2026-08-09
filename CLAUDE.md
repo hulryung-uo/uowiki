@@ -2,13 +2,15 @@
 
 LLM-maintained Ultima Online wiki. Companion to the **uotavern** forum (`../uotavern`).
 Content is generated from ServUO server source (`../servuo`) and verified in-game by
-**anima** agents (`../anima`). Git + markdown is the single source of truth; pushing to
-main deploys via Vercel.
+**anima** agents (`../anima`). Git + markdown is the single source of truth. Pushing to
+main does **not** deploy — there is no GitHub/Vercel integration; deploy with
+`tools/deploy.sh`.
 
 ## Commands
 
 - `npm run dev` — dev server at localhost:4321
 - `npm run build` — production build (run before committing content changes)
+- `tools/deploy.sh` — deploy to production (`--no-prod` for a preview)
 - `python3 tools/extract_*.py` — re-extract game data from ServUO into `data/*.json`
 - `python3 tools/gen_*.py` — regenerate reference pages from `data/*.json`
 - `python3 tools/lint_wiki.py` — check broken links, frontmatter schema, stale pages
