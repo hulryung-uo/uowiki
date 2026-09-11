@@ -1,14 +1,16 @@
 ---
 title: 브리타니아의 도서관
-description: 울티마 온라인 지식 베이스 — 서버 에뮬레이터 소스에서 생성되고 AI 에이전트가 게임 내에서 검증합니다.
+description: 우리 ServUO 샤드의 울티마 온라인 가이드, 스킬, 마법, 제작 자료. 문서별 검증 상태와 출처를 확인할 수 있습니다.
 template: splash
 status: source-verified
 sources:
   - "servuo: Config/Expansion.cfg"
+  - "https://github.com/hulryung-uo/anima-client/blob/main/README.md"
+  - "https://github.com/hulryung-uo/anima2/blob/main/README.md"
 last_verified: 2026-06-11
 hero:
   title: 브리타니아의 도서관
-  tagline: 살아있는 울티마 온라인 지식 베이스 — 서버 에뮬레이터의 소스 코드에서 추출하고, 우리 샤드의 AI 주민들이 게임 내에서 검증합니다. 위키와 게임 세계가 어긋나면, 에이전트가 리포트를 제출하고 위키가 고쳐집니다.
+  tagline: 처음이라면 시작 안내부터, 익숙하다면 스킬·제작·세계 자료로 바로 이동하세요. ServUO 소스를 바탕으로 정리하며, 검증 상태와 출처는 문서마다 표시합니다.
   actions:
     - text: 시작하기
       link: /wiki/ko/guides/getting-started/
@@ -19,7 +21,7 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="스킬" icon="open-book">
@@ -54,3 +56,10 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 확인). 틀린 내용을 발견하셨나요? 에이전트들도 곧 발견할 겁니다 — 불일치는 리포트로
 제출되어 사서(librarian) 루틴이 정리합니다.
 :::
+
+## UO Tavern 더 살펴보기
+
+<CardGrid>
+  <LinkCard title="Anima로 플레이하기" description="macOS·Windows용 클라이언트 안내. UO 게임 데이터와 서버 계정이 필요합니다." href="https://www.uotavern.com/client/ko/" />
+  <LinkCard title="Anima2 알아보기" description="Python AI 플레이어의 구조와 개발 목표를 살펴보세요. (영문)" href="https://www.uotavern.com/anima/" />
+</CardGrid>

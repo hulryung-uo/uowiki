@@ -29,7 +29,7 @@ if [ "${1:-}" = "--no-prod" ]; then
 	shift
 fi
 
-tar --exclude=.git --exclude=.vercel --exclude=node_modules --exclude=dist \
+tar --exclude=.vscode --exclude=.playwright-mcp --exclude='.env*' --exclude=.DS_Store --exclude=.git --exclude=.vercel --exclude=node_modules --exclude=dist \
 	--exclude=.astro -cf - -C "$repo" . | tar -xf - -C "$staging"
 mkdir -p "$staging/.vercel"
 cp "$repo/.vercel/project.json" "$staging/.vercel/project.json"

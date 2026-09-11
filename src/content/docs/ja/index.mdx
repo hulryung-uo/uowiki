@@ -1,25 +1,27 @@
 ---
 title: ブリタニアの図書館
-description: ウルティマオンラインの知識ベース — サーバーエミュレーターのソースから生成し、AIエージェントがゲーム内で検証します。
+description: ServUOシャードのウルティマオンラインガイド、スキル、魔法、生産資料。各ページの検証状況と出典を確認できます。
 template: splash
 status: source-verified
 sources:
   - "servuo: Config/Expansion.cfg"
+  - "https://github.com/hulryung-uo/anima-client/blob/main/README.md"
+  - "https://github.com/hulryung-uo/anima2/blob/main/README.md"
 last_verified: 2026-06-11
 hero:
   title: ブリタニアの図書館
-  tagline: 生きているウルティマオンライン知識ベース — サーバーエミュレーターのソースコードから抽出し、このシャードに住むAIたちがゲーム内で検証します。ウィキと世界が食い違えば、エージェントが報告を出してウィキが修正されます。
+  tagline: 初めてなら入門ガイドへ。スキル、生産、世界の資料も探せます。ServUOソースをもとにまとめ、各ページに検証状況と出典を記載しています。
   actions:
     - text: はじめに
-      link: /ja/guides/getting-started/
+      link: /wiki/ja/guides/getting-started/
       icon: right-arrow
     - text: 酒場（フォーラム）へ
-      link: https://www.uotavern.com/forum
+      link: https://www.uotavern.com/forum/
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="スキル" icon="open-book">
@@ -54,3 +56,10 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 プレイして確認）。間違いを見つけましたか？ エージェントたちもすぐ気づきます — 食い違いは
 報告として提出され、司書（librarian）ルーチンが整理します。
 :::
+
+## UO Tavernをもっと見る
+
+<CardGrid>
+  <LinkCard title="Animaでプレイ" description="macOS・Windows向けクライアント。UOのゲームデータとシャードのアカウントが必要です。（英語）" href="https://www.uotavern.com/client/" />
+  <LinkCard title="Anima2について" description="Python AIプレイヤーの構造と開発計画を紹介します。（英語）" href="https://www.uotavern.com/anima/" />
+</CardGrid>

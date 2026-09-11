@@ -25,7 +25,7 @@ the other two (`cp`), and rebuild all three. Do not let them drift.
 
 ## Tokens
 
-### Colour — dark parchment-on-ink with gold
+### Colour — light parchment by default, dark by choice
 
 | Token | Value | Use |
 | --- | --- | --- |
@@ -43,8 +43,11 @@ the other two (`cp`), and rebuild all three. Do not let them drift.
 | `--uo-parch` | `#efe3c4` | warm highlight |
 | `--uo-white` | `#f6efdc` | headings / strongest text |
 
-Borders are **gold hairlines**, never grey. Surfaces are dark; there is **no light
-mode** — the wiki forces dark to match.
+The table above describes the dark palette. The default light palette is defined
+in `:root` in `uo-design.css`: parchment `#f7f3e7`, ink `#2c2618`, and deep gold
+`#9c7414`. `data-theme="dark"` selects the dark palette. All sites share the
+`uo-theme` localStorage preference; the wiki also mirrors `starlight-theme`.
+Borders use the shared gold hairline tokens in both themes.
 
 ### Type
 
@@ -66,7 +69,8 @@ the look is a classical illuminated book, not a modern sans UI.
 ### Geometry
 
 `--uo-radius` 12px · `--uo-radius-sm` 7px · `--uo-shadow` `0 10px 30px rgba(0,0,0,.4)`
-· `--uo-maxw` 1140px · `--uo-gutter` 24px · `--uo-navh` 56px · `--uo-bp-sm` 640px.
+· `--uo-maxw` 1140px · `--uo-gutter` 24px · `--uo-navh` 56px (100px at ≤760px).
+`--uo-space-1/2/3/4/6/8/12` = 8/16/24/32/48/64/96px. `--uo-tap` = 44px.
 
 ## The global bar (`.uo-globalbar`)
 
@@ -80,29 +84,31 @@ Astro, or HTML — the styling lives in `uo-design.css`):
     <a class="uo-globalbar__brand" href="https://www.uotavern.com/">
       UO Tavern <span class="uo-globalbar__rune">Britannia</span>
     </a>
-    <nav class="uo-globalbar__nav">
+    <nav class="uo-globalbar__nav" aria-label="UO Tavern">
       <a href="https://www.uotavern.com/">Home</a>
-      <a class="is-active" href="https://www.uotavern.com/wiki/">Wiki</a>
+      <a class="is-active" aria-current="page" href="https://www.uotavern.com/wiki/">Wiki</a>
       <a href="https://www.uotavern.com/forum/">Forum</a>
+      <a href="https://www.uotavern.com/anima/">Anima2</a>
+      <a href="https://www.uotavern.com/client/">Client</a>
     </nav>
   </div>
 </div>
 ```
 
-Set `is-active` on the link for the current site. Links are **absolute** hub URLs
-(so they work behind the path proxy). On mobile (`≤640px`) the rune hides and the
-nav tightens — handled by `uo-design.css`, no per-site work needed.
+Set `is-active` and `aria-current="page"` on the current destination. Links are **absolute** hub URLs
+(so they work behind the path proxy). At ≤760px, the brand/theme occupy the first row and all five links the second.
+The wiki header offset must consume `--uo-navh`; do not hard-code its height.
 
 ## Responsive rules
 
-- Mobile-first; the only hard breakpoint is `--uo-bp-sm` (640px).
+- Mobile-first; the navigation stacks at 760px. Content grids use available width.
 - **Never allow horizontal overflow.** Every site sets
   `html, body { overflow-x: hidden; max-width: 100%; }` and wide elements
   (tables, code blocks, image rows) get `overflow-x: auto` on a wrapping container,
   not on the page.
 - Content max-width is `--uo-maxw` (1140px), centred, with `--uo-gutter` side
   padding that shrinks to 16px on mobile.
-- Tap targets ≥ 40px tall.
+- Navigation tap targets ≥ 44px tall. Keep visible keyboard focus and a skip link.
 
 ## Per-stack wiring
 
@@ -115,7 +121,7 @@ nav tightens — handled by `uo-design.css`, no per-site work needed.
 Add both stylesheets to `astro.config.mjs` `customCss`:
 `['./src/styles/uo-design.css', './src/styles/theme.css', './src/styles/sprites.css']`.
 `theme.css` **maps tokens → Starlight variables** (`--sl-color-*` ← `--uo-*`),
-forces dark, applies `--uo-font-display` to headings and `--uo-font-body` to text,
+supports both themes, applies `--uo-font-display` to headings and `--uo-font-body` to text,
 and hides the theme toggle. The global bar lives in the `Header.astro` component
 override and uses the shared `.uo-globalbar` classes. `Britannian` `@font-face`
 points at `/wiki/fonts/…`.
@@ -133,4 +139,4 @@ utilities resolve to the shared tokens. The `GlobalBar` component emits the shar
 2. Update this file if you add/rename a token.
 3. Rebuild and screenshot **all three** sites at desktop (1280) **and** mobile (390).
 4. Confirm: no horizontal scroll, gold hairlines (not grey), Cinzel headings,
-   parchment text on `#0b0a12`, the global bar identical everywhere.
+   legible text in light and dark themes, and the same global navigation everywhere.

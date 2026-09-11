@@ -27,7 +27,7 @@
 	 * `.uo-globalbar`/`.header` rules below). --uo-bar-h is its height; the page's
 	 * content offset (--sl-nav-height) must clear BOTH the bar and Starlight's own
 	 * single-row header (~4rem). Starlight's header keeps its native height. */
-	--uo-bar-h: 3.5rem;
+	--uo-bar-h: var(--uo-navh);
 	--sl-nav-height: calc(4rem + var(--uo-bar-h));
 	/* Body + mono font families. Latin → EB Garamond, CJK → gothic. */
 	--sl-font: 'EB Garamond', var(--uo-cjk);
